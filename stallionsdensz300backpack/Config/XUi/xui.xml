@@ -1,0 +1,12 @@
+<configs>
+	<!-- Main scale of UI -->
+	<set xpath="/xui/ruleset[@name='default']/@scale">1.05</set>
+	<set xpath="/xui/ruleset[@name='default']/@stackpanel_scale">0.66</set>
+	<!-- Looting window -->
+	<set xpath="/xui/ruleset[@name='default']/window_group[@name='looting']/window[@name='windowLooting']/@name">S420windowLooting</set>
+	 <!-- Player toolbelt window -->
+   	<set xpath="/xui/ruleset/window_group[@name='toolbelt']/window[@name='HUDLeftStatBars']/@name">KHHUDLeftStatBars</set>
+	<append xpath="/xui/ruleset/window_group[@name='crafting']" >
+		<window name="windowCombine" />
+	</append>
+	</configs>

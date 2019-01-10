@@ -1,0 +1,261 @@
+<configs>
+<append xpath="/entitygroups/entitygroup[@name='ZombiesAll']" ><entity name="Maggi" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesAll']" ><entity name="Shiva" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesAll']" ><entity name="Jesse" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesAll']" ><entity name="Jesus" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesAll']" ><entity name="Tara" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesAll']" ><entity name="Abraham" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesAll']" ><entity name="Michonne" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesAll']" ><entity name="Morgan" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesAll']" ><entity name="Lori" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesAll']" ><entity name="Glenn" prob="0.05" />	</append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesAll']" ><entity name="Carol" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesAll']" ><entity name="Tyreese" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesAll']" ><entity name="Rick" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesAll']" ><entity name="Beth" prob="0.05" /></append>
+<append xpath="/entitygroups/entitygroup[@name='ZombiesAll']" ><entity name="DarrylDixon" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesAll']" ><entity name="Ezekiel" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesAll']" ><entity name="Rosita" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesAll']" ><entity name="Shane" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesAll']" ><entity name="Carl" prob="0.05" /></append> 
+
+<append xpath="/entitygroups/entitygroup[@name='ZombiesNight']" ><entity name="Maggi" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesNight']" ><entity name="Shiva" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesNight']" ><entity name="Jesse" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesNight']" ><entity name="Jesus" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesNight']" ><entity name="Tara" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesNight']" ><entity name="Abraham" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesNight']" ><entity name="Michonne" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesNight']" ><entity name="Morgan" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesNight']" ><entity name="Lori" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesNight']" ><entity name="Glenn" prob="0.05" />	</append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesNight']" ><entity name="Carol" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesNight']" ><entity name="Tyreese" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesNight']" ><entity name="Rick" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesNight']" ><entity name="Beth" prob="0.05" /></append>
+<append xpath="/entitygroups/entitygroup[@name='ZombiesNight']" ><entity name="DarrylDixon" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesNight']" ><entity name="Ezekiel" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesNight']" ><entity name="Rosita" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesNight']" ><entity name="Shane" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesNight']" ><entity name="Carl" prob="0.05" /></append> 
+
+<append xpath="/entitygroups/entitygroup[@name='ZombiesWasteland']" ><entity name="Maggi" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesWasteland']" ><entity name="Shiva" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesWasteland']" ><entity name="Jesse" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesWasteland']" ><entity name="Jesus" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesWasteland']" ><entity name="Tara" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesWasteland']" ><entity name="Abraham" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesWasteland']" ><entity name="Michonne" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesWasteland']" ><entity name="Morgan" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesWasteland']" ><entity name="Lori" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesWasteland']" ><entity name="Glenn" prob="0.05" />	</append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesWasteland']" ><entity name="Carol" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesWasteland']" ><entity name="Tyreese" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesWasteland']" ><entity name="Rick" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesWasteland']" ><entity name="Beth" prob="0.05" /></append>
+<append xpath="/entitygroups/entitygroup[@name='ZombiesWasteland']" ><entity name="DarrylDixon" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesWasteland']" ><entity name="Ezekiel" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesWasteland']" ><entity name="Rosita" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesWasteland']" ><entity name="Shane" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesWasteland']" ><entity name="Carl" prob="0.05" /></append> 
+
+<append xpath="/entitygroups/entitygroup[@name='ZombiesBurntForest']" ><entity name="Maggi" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesBurntForest']" ><entity name="Shiva" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesBurntForest']" ><entity name="Jesse" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesBurntForest']" ><entity name="Jesus" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesBurntForest']" ><entity name="Tara" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesBurntForest']" ><entity name="Abraham" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesBurntForest']" ><entity name="Michonne" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesBurntForest']" ><entity name="Morgan" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesBurntForest']" ><entity name="Lori" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesBurntForest']" ><entity name="Glenn" prob="0.05" />	</append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesBurntForest']" ><entity name="Carol" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesBurntForest']" ><entity name="Tyreese" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesBurntForest']" ><entity name="Rick" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesBurntForest']" ><entity name="Beth" prob="0.05" /></append>
+<append xpath="/entitygroups/entitygroup[@name='ZombiesBurntForest']" ><entity name="DarrylDixon" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesBurntForest']" ><entity name="Ezekiel" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesBurntForest']" ><entity name="Rosita" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesBurntForest']" ><entity name="Shane" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesBurntForest']" ><entity name="Carl" prob="0.05" /></append> 
+
+<append xpath="/entitygroups/entitygroup[@name='SnowZombies']" ><entity name="Maggi" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='SnowZombies']" ><entity name="Shiva" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='SnowZombies']" ><entity name="Jesse" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='SnowZombies']" ><entity name="Jesus" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='SnowZombies']" ><entity name="Tara" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='SnowZombies']" ><entity name="Abraham" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='SnowZombies']" ><entity name="Michonne" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='SnowZombies']" ><entity name="Morgan" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='SnowZombies']" ><entity name="Lori" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='SnowZombies']" ><entity name="Glenn" prob="0.05" />	</append> 
+<append xpath="/entitygroups/entitygroup[@name='SnowZombies']" ><entity name="Carol" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='SnowZombies']" ><entity name="Tyreese" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='SnowZombies']" ><entity name="Rick" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='SnowZombies']" ><entity name="Beth" prob="0.05" /></append>
+<append xpath="/entitygroups/entitygroup[@name='SnowZombies']" ><entity name="DarrylDixon" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='SnowZombies']" ><entity name="Ezekiel" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='SnowZombies']" ><entity name="Rosita" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='SnowZombies']" ><entity name="Shane" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='SnowZombies']" ><entity name="Carl" prob="0.05" /></append> 
+
+<append xpath="/entitygroups/entitygroup[@name='ZombiesCave']" ><entity name="Maggi" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesCave']" ><entity name="Shiva" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesCave']" ><entity name="Jesse" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesCave']" ><entity name="Jesus" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesCave']" ><entity name="Tara" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesCave']" ><entity name="Abraham" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesCave']" ><entity name="Michonne" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesCave']" ><entity name="Morgan" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesCave']" ><entity name="Lori" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesCave']" ><entity name="Glenn" prob="0.05" />	</append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesCave']" ><entity name="Carol" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesCave']" ><entity name="Tyreese" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesCave']" ><entity name="Rick" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesCave']" ><entity name="Beth" prob="0.05" /></append>
+<append xpath="/entitygroups/entitygroup[@name='ZombiesCave']" ><entity name="DarrylDixon" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesCave']" ><entity name="Ezekiel" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesCave']" ><entity name="Rosita" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesCave']" ><entity name="Shane" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='ZombiesCave']" ><entity name="Carl" prob="0.05" /></append> 
+
+<append xpath="/entitygroups/entitygroup[@name='AnimalsFarm']" ><entity name="Maggi" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='AnimalsFarm']" ><entity name="Shiva" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='AnimalsFarm']" ><entity name="Jesse" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='AnimalsFarm']" ><entity name="Jesus" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='AnimalsFarm']" ><entity name="Tara" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='AnimalsFarm']" ><entity name="Abraham" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='AnimalsFarm']" ><entity name="Michonne" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='AnimalsFarm']" ><entity name="Morgan" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='AnimalsFarm']" ><entity name="Lori" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='AnimalsFarm']" ><entity name="Glenn" prob="0.05" />	</append> 
+<append xpath="/entitygroups/entitygroup[@name='AnimalsFarm']" ><entity name="Carol" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='AnimalsFarm']" ><entity name="Tyreese" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='AnimalsFarm']" ><entity name="Rick" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='AnimalsFarm']" ><entity name="Beth" prob="0.05" /></append>
+<append xpath="/entitygroups/entitygroup[@name='AnimalsFarm']" ><entity name="DarrylDixon" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='AnimalsFarm']" ><entity name="Ezekiel" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='AnimalsFarm']" ><entity name="Rosita" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='AnimalsFarm']" ><entity name="Shane" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='AnimalsFarm']" ><entity name="Carl" prob="0.05" /></append> 
+
+<append xpath="/entitygroups/entitygroup[@name='AnimalsDesert']" ><entity name="Maggi" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='AnimalsDesert']" ><entity name="Shiva" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='AnimalsDesert']" ><entity name="Jesse" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='AnimalsDesert']" ><entity name="Jesus" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='AnimalsDesert']" ><entity name="Tara" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='AnimalsDesert']" ><entity name="Abraham" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='AnimalsDesert']" ><entity name="Michonne" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='AnimalsDesert']" ><entity name="Morgan" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='AnimalsDesert']" ><entity name="Lori" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='AnimalsDesert']" ><entity name="Glenn" prob="0.05" />	</append> 
+<append xpath="/entitygroups/entitygroup[@name='AnimalsDesert']" ><entity name="Carol" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='AnimalsDesert']" ><entity name="Tyreese" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='AnimalsDesert']" ><entity name="Rick" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='AnimalsDesert']" ><entity name="Beth" prob="0.05" /></append>
+<append xpath="/entitygroups/entitygroup[@name='AnimalsDesert']" ><entity name="DarrylDixon" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='AnimalsDesert']" ><entity name="Ezekiel" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='AnimalsDesert']" ><entity name="Rosita" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='AnimalsDesert']" ><entity name="Shane" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='AnimalsDesert']" ><entity name="Carl" prob="0.05" /></append> 
+
+<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsSnow']" ><entity name="Maggi" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsSnow']" ><entity name="Shiva" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsSnow']" ><entity name="Jesse" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsSnow']" ><entity name="Jesus" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsSnow']" ><entity name="Tara" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsSnow']" ><entity name="Abraham" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsSnow']" ><entity name="Michonne" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsSnow']" ><entity name="Morgan" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsSnow']" ><entity name="Lori" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsSnow']" ><entity name="Glenn" prob="0.05" />	</append> 
+<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsSnow']" ><entity name="Carol" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsSnow']" ><entity name="Tyreese" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsSnow']" ><entity name="Rick" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsSnow']" ><entity name="Beth" prob="0.05" /></append>
+<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsSnow']" ><entity name="DarrylDixon" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsSnow']" ><entity name="Ezekiel" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsSnow']" ><entity name="Rosita" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsSnow']" ><entity name="Shane" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsSnow']" ><entity name="Carl" prob="0.05" /></append> 
+
+<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsForest']" ><entity name="Maggi" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsForest']" ><entity name="Shiva" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsForest']" ><entity name="Jesse" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsForest']" ><entity name="Jesus" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsForest']" ><entity name="Tara" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsForest']" ><entity name="Abraham" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsForest']" ><entity name="Michonne" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsForest']" ><entity name="Morgan" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsForest']" ><entity name="Lori" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsForest']" ><entity name="Glenn" prob="0.05" />	</append> 
+<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsForest']" ><entity name="Carol" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsForest']" ><entity name="Tyreese" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsForest']" ><entity name="Rick" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsForest']" ><entity name="Beth" prob="0.05" /></append>
+<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsForest']" ><entity name="DarrylDixon" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsForest']" ><entity name="Ezekiel" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsForest']" ><entity name="Rosita" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsForest']" ><entity name="Shane" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsForest']" ><entity name="Carl" prob="0.05" /></append> 
+
+<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsBurntForest']" ><entity name="Maggi" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsBurntForest']" ><entity name="Shiva" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsBurntForest']" ><entity name="Jesse" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsBurntForest']" ><entity name="Jesus" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsBurntForest']" ><entity name="Tara" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsBurntForest']" ><entity name="Abraham" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsBurntForest']" ><entity name="Michonne" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsBurntForest']" ><entity name="Morgan" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsBurntForest']" ><entity name="Lori" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsBurntForest']" ><entity name="Glenn" prob="0.05" />	</append> 
+<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsBurntForest']" ><entity name="Carol" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsBurntForest']" ><entity name="Tyreese" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsBurntForest']" ><entity name="Rick" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsBurntForest']" ><entity name="Beth" prob="0.05" /></append>
+<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsBurntForest']" ><entity name="DarrylDixon" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsBurntForest']" ><entity name="Ezekiel" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsBurntForest']" ><entity name="Rosita" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsBurntForest']" ><entity name="Shane" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsBurntForest']" ><entity name="Carl" prob="0.05" /></append> 
+
+<append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsPlains']" ><entity name="Maggi" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsPlains']" ><entity name="Shiva" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsPlains']" ><entity name="Jesse" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsPlains']" ><entity name="Jesus" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsPlains']" ><entity name="Tara" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsPlains']" ><entity name="Abraham" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsPlains']" ><entity name="Michonne" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsPlains']" ><entity name="Morgan" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsPlains']" ><entity name="Lori" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsPlains']" ><entity name="Glenn" prob="0.05" />	</append> 
+<append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsPlains']" ><entity name="Carol" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsPlains']" ><entity name="Tyreese" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsPlains']" ><entity name="Rick" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsPlains']" ><entity name="Beth" prob="0.05" /></append>
+<append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsPlains']" ><entity name="DarrylDixon" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsPlains']" ><entity name="Ezekiel" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsPlains']" ><entity name="Rosita" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsPlains']" ><entity name="Shane" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsPlains']" ><entity name="Carl" prob="0.05" /></append> 
+
+<append xpath="/entitygroups/entitygroup[@name='AnimalsAll']" ><entity name="Maggi" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='AnimalsAll']" ><entity name="Shiva" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='AnimalsAll']" ><entity name="Jesse" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='AnimalsAll']" ><entity name="Jesus" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='AnimalsAll']" ><entity name="Tara" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='AnimalsAll']" ><entity name="Abraham" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='AnimalsAll']" ><entity name="Michonne" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='AnimalsAll']" ><entity name="Morgan" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='AnimalsAll']" ><entity name="Lori" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='AnimalsAll']" ><entity name="Glenn" prob="0.05" />	</append> 
+<append xpath="/entitygroups/entitygroup[@name='AnimalsAll']" ><entity name="Carol" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='AnimalsAll']" ><entity name="Tyreese" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='AnimalsAll']" ><entity name="Rick" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='AnimalsAll']" ><entity name="Beth" prob="0.05" /></append>
+<append xpath="/entitygroups/entitygroup[@name='AnimalsAll']" ><entity name="DarrylDixon" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='AnimalsAll']" ><entity name="Ezekiel" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='AnimalsAll']" ><entity name="Rosita" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='AnimalsAll']" ><entity name="Shane" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='AnimalsAll']" ><entity name="Carl" prob="0.05" /></append> 
+</configs>

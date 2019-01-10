@@ -1,0 +1,85 @@
+<config>
+<insertAfter xpath="/blocks/block[@name='cubeTileBroken01']" >
+<block name="Excavator">
+    <property name="Class" value="UpgradeRated" />
+	<property name="Material" value="Mmetal"/>
+	<property name="Texture" value="346,345,341,345,262,345" />
+    <property name="Weight" value="216" />
+    <property name="Collide" value="movement,rockets,sight,melee" />
+    <property name="UpgradeRated.ToBlock" value="MiningTruck" />
+    <property name="UpgradeRated.Rate" value="3" />		<!-- 15 is max for the Rate -->
+    <!-- 1=slow, 1000=fast -->
+	<property name="CustomIcon" value="cntWallOven" />
+   </block>
+</insertAfter>
+  <insertAfter xpath="/blocks/block[@name='Excavator']" >
+ <block name="MiningTruck">
+	<property name="CustomIcon" value="cntGasPump" />
+    <property name="Class" value="Loot" />
+   	<property name="Material" value="Mmetal_thin"/>
+	<property name="Shape" value="Ext3dModel"/> 
+	<property name="Texture" value="293"/>
+	<property name="Mesh" value="models"/>
+	<property name="Path" value="solid"/>
+	<property name="Model" value="Industrial/gas_pump" param1="main_mesh"/>
+	<property name="DisplayType" value="blockMulti" />
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="ImposterExchange" value="imposterDontBlockCTRPlate" param1="90"/> 
+    <property name="Weight" value="216" />
+    <property name="Collide" value="movement,rockets,sight,melee" />
+    <property name="LootList" value="223" />
+  <drop event="Destroy" count="0"/>
+  <drop event="Harvest" count="0"/>
+  <property name="DowngradeBlock" value="Excavator"/> 
+ 	</block>
+ </insertAfter> 
+ <insertAfter xpath="/blocks/block[@name='MiningTruck']" >
+  <block name="RainBarrel">
+	<property name="CustomIcon" value="birdBathPlanter" />
+    <property name="Class" value="UpgradeRated" />
+	<property name="Material" value="Mmetal"/>
+	<property name="StabilitySupport" value="true"/>
+	<property name="Shape" value="Ext3dModel"/> 
+	<property name="Texture" value="293"/>
+	<property name="Mesh" value="models"/>
+	<property name="Path" value="solid"/>
+	<property name="Model" value="OutdoorDecor/bird_bath_planter" param1="main_mesh"/>
+	<property name="ImposterExchange" value="imposterDontBlockCTRQuarter" param1="170"/>
+	<property name="Collide" value="movement,rockets,sight,melee" />
+    <property name="UpgradeRated.ToBlock" value="AutoWaterCollector" />
+    <property name="UpgradeRated.Rate" value="3" />		<!-- 15 is max for the Rate -->
+    <!-- 1=slow, 1000=fast -->
+	 <property name="Weight" value="216" />
+	<property name="FilterTags" value="fdecor,fother,ffurniture"/>
+	<property name="DescriptionKey" value="decorationBlockGroupDesc"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='RainBarrel']" >
+ <block name="AutoWaterCollector">
+ <property name="CustomIcon" value="cntGraniteSink" />
+    <property name="Class" value="Loot" />
+	<property name="Material" value="Mmetal"/>
+	<property name="Shape" value="New"/>
+	<property name="Path" value="solid"/>
+	<property name="Weight" value="216" />
+	<property name="Model" value="counter_sink"/>
+	<property name="Texture" value="373,261,262,345,345,345"/>
+	<property name="Collide" value="movement,rockets,sight,melee" />
+	<property name="LootList" value="224"/>
+	<property name="ImposterExchange" value="imposterBlock" param1="116"/>
+	<property name="DescriptionKey" value="furnitureGroupDesc"/>
+	<property name="FilterTags" value="floot,ffurniture"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Harvest" count="0"/>
+	<property name="DowngradeBlock" value="RainBarrel"/>  
+	</block>	
+  </insertAfter>
+  </config>
+  
+  
+  
+  
+  
+  
+  
+  
