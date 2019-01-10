@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <ModInfo>
+        <Name value="Valmars Sealed Meat Modlet" />
+        <Description value="Adds cling Wrap" />
+        <Author value="Valmar" />
+        <Version value="B221" />
+    </ModInfo>
+</xml>
