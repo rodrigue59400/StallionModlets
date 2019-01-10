@@ -1,4 +1,4 @@
-<config>
+<stallionsden>
 	<append xpath="/blocks">
 <!-- Survival Backpacks Start -->
 <block name="Survivor's Pack1 (Locked)">
@@ -63,13 +63,11 @@
 <block name="Survivor's Pack3">
     <property name="Extends" value="Survivor's Pack3 (Locked)" param1="DowngradeBlock" />
     <property name="Class" value="Loot" />
-    <property name="LootList" value="223" />
+    <property name="LootList" value="228" />
     <drop event="Destroy" count="0" />
  </block> 
 
 <!-- Survival Backpacks End -->
 
-<set xpath="/blocks/block[@name='mineCandyTin']/property[@name='CanPickup']/@value">true</set> 
-
-	</append>
-</config>
+</append>
+</stallionsden>

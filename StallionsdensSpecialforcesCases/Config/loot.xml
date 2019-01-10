@@ -1,4 +1,4 @@
-<config>
+<stallionsden>
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='BuriedStashChest']" >
 <!-- Survival Backpack Start-->
   <lootgroup name="SpecialForceCase1" count="all">  
@@ -82,6 +82,42 @@
 	<item name="drugHerbalAntibioticsRecipeSchematic" count="1" />	
 	</lootgroup>  
 	
+	<lootgroup name="SpecialForceCase3" count="all">  
+	<item name="foodCanBeef" count="1000" />
+	<item name="foodCanCatfood" count="1000" />
+	<item name="foodCanChicken" count="1000" />
+	<item name="foodCanChili" count="1000" />
+	<item name="foodCanDogfood" count="1000" />
+	<item name="foodCanHam" count="1000"/>
+	<item name="foodCanLamb" count="1000" />
+	<item name="foodCanMiso" count="1000" />
+	<item name="foodCanPasta" count="1000" />
+	<item name="foodCanPeas" count="1000"/>
+	<item name="foodCanSalmon" count="1000" />
+	<item name="foodCanSoup" count="1000"/>
+	<item name="foodCanStock" count="1000"/>
+	<item name="foodCanTuna" count="1000" />
+	<item name="foodCanPears" count="1000" />
+	<item name="foodHoney" count="1000" />
+	<item name="foodCornMeal" count="1000" />		
+	<item name="foodHoney" count="500" />
+	<item name="foodGrilledMeat" count="100" />
+	<item name="foodCharredMeat" count="100" />
+	<item name="foodMeatStew" count="100" />
+	<item name="foodSteakAndPotato" count="100" />
+	<item name="foodFishTacos" count="100"/>
+	<item name="drinkCanBoiledWater" count="100" />
+	<item name="drinkJarSnowberryJuice" count="100" />
+	<item name="drinkJarYuccaJuice" count="250" />
+	<item name="drinkJarGoldenRodTea" count="250"/>
+	<item name="drinkJarRedTea" count="100" />
+	<item name="drinkJarYuccaCocktail" count="100"/>
+	<item name="drinkYuccaJuiceSmoothie" count="100"/>
+	<item name="drinkCanMegaCrush" count="100" />
+	<item name="drinkJarCoffee" count="150" />
+	<item name="drinkJarBeer" count="72" />
+	</lootgroup>  
+	
 	<!-- Survival Backpack Finish -->
 	</insertAfter>
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='220']" >
@@ -95,4 +131,11 @@
 </lootcontainer>
 <!-- Survival Backpacks End -->
 </insertAfter>
-</config>
+
+<insertAfter xpath="/lootcontainers/lootcontainer[@id='222']" >
+<!-- Survival Backpacks Start -->
+<lootcontainer id="228" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" >
+    <item group="SpecialForceCase3" />
+	</lootcontainer>
+</insertAfter>
+</stallionsden>
