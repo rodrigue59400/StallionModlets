@@ -1,6 +1,0 @@
-<config>
-	<remove xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='DropInventoryBlock'][@value='cntBackpackDropped']" />
-    <set xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvival']/@value">Survivor's Pack1 (Locked),Survivor's Pack2 (Locked),keystoneBlock</set>
-	<set xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvivalSP']/@value">Survivor's Pack1 (Locked),Survivor's Pack2 (Locked),keystoneBlock</set>
-	<set xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvivalMP']/@value">Survivor's Pack1 (Locked),Survivor's Pack2 (Locked),keystoneBlock</set> 
-    </config>

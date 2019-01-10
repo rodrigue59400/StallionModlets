@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<xml>
-    <ModInfo>
-        <Name value="Stallionsdens Heat fix Modlet" />
-        <Description value="This modlet removes the heat and cold elements from the world." />
-        <Author value="Stallionsden" />
-        <Version value="B208" />
-    </ModInfo>
-</xml>
