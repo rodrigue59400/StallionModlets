@@ -116,16 +116,17 @@
 	<item name="drinkCanMegaCrush" count="100" />
 	<item name="drinkJarCoffee" count="150" />
 	<item name="drinkJarBeer" count="72" />
-	</lootgroup>  
-	
+	</lootgroup>  	
 	<!-- Survival Backpack Finish -->
 	</insertAfter>
-<insertAfter xpath="/lootcontainers/lootcontainer[@id='220']" >
+	
+<insertAfter xpath="/lootcontainers/lootcontainer[@id='110']" >
 <!-- Survival Backpacks Start -->
 <lootcontainer id="221" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" >
     <item group="SpecialForceCase1" />
 </lootcontainer>
-
+</insertAfter>
+<insertAfter xpath="/lootcontainers/lootcontainer[@id='221']" >
 <lootcontainer id="222" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" >
     <item group="SpecialForceCase2" />
 </lootcontainer>
