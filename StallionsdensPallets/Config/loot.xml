@@ -35,8 +35,6 @@
 		
 		<lootgroup name="palletFurniture_sm" count="2">
 			<item name="toolCookingPot" count="1" prob="0.05" />
-			<item name="cntFridgeTop" count="1" prob="0.05" />
-			<item name="cntFridgeBottom" count="1" prob="0.05" />
 			<item name="cntStorageGeneric" count="1" prob="0.05" />
 			<item name="cntCabinetBottom" count="1" prob="0.05" />
 			<item name="cntWallOven" count="1" prob="0.05" />
