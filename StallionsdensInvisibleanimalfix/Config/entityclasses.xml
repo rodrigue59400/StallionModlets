@@ -1,0 +1,3 @@
+<stallionsden>
+<remove xpath="/entity_classes/entity_class[starts-with(@name, 'invisible')]"/>
+</stallionsden>

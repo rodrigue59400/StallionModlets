@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <ModInfo>
+        <Name value="Stallionsdens Invisible animal fix Modlet" />
+        <Description value="This modlet removes the invisible animals from the world." />
+        <Author value="Stallionsden" />
+        <Version value="B208" />
+    </ModInfo>
+</xml>

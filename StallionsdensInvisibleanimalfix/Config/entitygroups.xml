@@ -1,0 +1,10 @@
+<stallionsden>
+<remove xpath="/entitygroups/entitygroup/entity[starts-with(@name, 'invisible')]"/>
+
+<append xpath="/entitygroups/entitygroup/entity[@name='animalBoar']" >prob="1"</append> 
+
+<append xpath="/entitygroups/entitygroup/entity[@name='animalStag']" >prob="1"</append> 
+
+<append xpath="/entitygroups/entitygroup/entity[@name='animalDoe']" >prob="1"</append> 
+
+</stallionsden>
