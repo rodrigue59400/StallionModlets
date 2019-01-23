@@ -7,4 +7,19 @@
 
 <append xpath="/entitygroups/entitygroup/entity[@name='animalDoe']" >prob="1"</append> 
 
+
+<set xpath="/entitygroups/entitygroup/entity[@name='animalZombieVulture']" >prob="0.003"</set> 
+
+<set xpath="/entitygroups/entitygroup/entity[@name='animalDireWolf']" >prob="0.003"</set> 
+
+<set xpath="/entitygroups/entitygroup/entity[@name='animalWolf']" >prob="0.003"</set> 
+
+<set xpath="/entitygroups/entitygroup/entity[@name='animalSnake']" >prob="0.003"</set> 
+
+<set xpath="/entitygroups/entitygroup/entity[@name='animalBear']" >prob="0.003"</set> 
+
+<set xpath="/entitygroups/entitygroup/entity[@name='animalZombieDog']" >prob="0.003"</set> 
+
+<set xpath="/entitygroups/entitygroup/entity[@name='animalZombieBear']" >prob="0.003"</set> 
+
 </stallionsden>
