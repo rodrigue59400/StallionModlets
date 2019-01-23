@@ -2,11 +2,11 @@
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='BuriedStashChest']" >
 <!-- Survival Backpack Start-->
   <lootgroup name="SpecialForceCase1" count="all">  
-		 <item name="resourceRockSmall" count="250" />
-		 <item name="resourceFeather" count="250" />
-		 <item name="resourceWood" count="250" />
-		 <item name="resourceYuccaFibers" count="250" />	 
-        <item name="drugAntibiotics" count="250" />
+		 <item name="resourceRockSmall" count="250,500" />
+		 <item name="resourceFeather" count="250,500" />
+		 <item name="resourceWood" count="250,500" />
+		 <item name="resourceYuccaFibers" count="250,500" />	 
+        <item name="drugAntibiotics" count="250,500" />
        <item name="meleeToolMachete" count="1" quality="6,6" />
         <item name="bedroll" count="1" />
         <item name="armorIronChest" count="1" quality="6,6" />
@@ -16,21 +16,21 @@
 		<item name="armorMiningHelmet" count="1" quality="6,6" />
 		<item name="nightvisionGoggles" count="1" quality="6,6" />			
 		<item name="gunCompoundBow" count="1" quality="6,6" />		
-        <item name="ammoArrowSteelAP" count="250"/>		
+        <item name="ammoArrowSteelAP" count="250,500"/>		
 		<item name="gunAK47" count="1" quality="6,6" />		
 		<item name="gunPistol" count="1" quality="6,6" />		
-        <item name="ammo9mmBulletSteel" count="250" />		
+        <item name="ammo9mmBulletSteel" count="250,500" />		
 		<item name="gunMR10" count="1" quality="6,6" />		
-		<item name="ammo762mmBulletFMJSteel" count="250"/>
+		<item name="ammo762mmBulletFMJSteel" count="250,500"/>
 		<item name="gunHuntingRifle" count="1" quality="6,6" />
 		<item name="meleeToolPaintToolAdmin" count="1" quality="6,6" />	
-		<item name="resourceRepairKit" count="250" />   		
-		<item name="casinoCoin" count="250"/>		
-		<item name="resourcePaint" count="250"/>
-		<item name="medicalFirstAidKit" count="250"/>
-		<item name="medicalFirstAidBandage" count="250"/>		
+		<item name="resourceRepairKit" count="250,500" />   		
+		<item name="casinoCoin" count="250,500"/>		
+		<item name="resourcePaint" count="250,500"/>
+		<item name="medicalFirstAidKit" count="250,500"/>
+		<item name="medicalFirstAidBandage" count="250,500"/>		
 		<item name="vehicleMotorcyclePlaceable" count="1" quality="6,6" />
-		<item name="ammoGasCan" count="250" /> 
+		<item name="ammoGasCan" count="250,500" /> 
 		<item name="paintMagazineDecorations" count="1" /> 
 		<item name="paintMagazineFaux" count="1" /> 
 		<item name="paintMagazineMasonry" count="1" /> 
@@ -83,56 +83,56 @@
 	</lootgroup>  
 	
 	<lootgroup name="SpecialForceCase3" count="all">  
-	<item name="foodCanBeef" count="25" />
-	<item name="foodCanCatfood" count="25" />
-	<item name="foodCanChicken" count="25" />
-	<item name="foodCanChili" count="25" />
-	<item name="foodCanDogfood" count="25" />
-	<item name="foodCanHam" count="25"/>
-	<item name="foodCanLamb" count="25" />
-	<item name="foodCanMiso" count="25" />
-	<item name="foodCanPasta" count="25" />
-	<item name="foodCanPeas" count="25"/>
-	<item name="foodCanSalmon" count="25" />
-	<item name="foodCanSoup" count="25"/>
-	<item name="foodCanStock" count="25"/>
-	<item name="foodCanTuna" count="25" />
-	<item name="foodCanPears" count="25" />
-	<item name="foodHoney" count="25" />
-	<item name="foodCornMeal" count="25" />		
-	<item name="foodHoney" count="25" />
-	<item name="foodGrilledMeat" count="25" />
-	<item name="foodCharredMeat" count="25" />
-	<item name="foodMeatStew" count="25" />
-	<item name="foodSteakAndPotato" count="25" />
-	<item name="foodFishTacos" count="25"/>
-	<item name="drinkCanBoiledWater" count="25" />
-	<item name="drinkJarSnowberryJuice" count="25" />
-	<item name="drinkJarYuccaJuice" count="25" />
-	<item name="drinkJarGoldenRodTea" count="25"/>
-	<item name="drinkJarRedTea" count="25" />
-	<item name="drinkJarYuccaCocktail" count="25"/>
-	<item name="drinkYuccaJuiceSmoothie" count="25"/>
-	<item name="drinkCanMegaCrush" count="25" />
-	<item name="drinkJarCoffee" count="25" />
-	<item name="drinkJarBeer" count="24" />
+	<item name="foodCanBeef" count="15,25" />
+	<item name="foodCanCatfood" count="15,25" />
+	<item name="foodCanChicken" count="15,25" />
+	<item name="foodCanChili" count="15,25" />
+	<item name="foodCanDogfood" count="15,25" />
+	<item name="foodCanHam" count="15,25"/>
+	<item name="foodCanLamb" count="15,25" />
+	<item name="foodCanMiso" count="15,25" />
+	<item name="foodCanPasta" count="15,25" />
+	<item name="foodCanPeas" count="15,25"/>
+	<item name="foodCanSalmon" count="15,25" />
+	<item name="foodCanSoup" count="15,25"/>
+	<item name="foodCanStock" count="15,25"/>
+	<item name="foodCanTuna" count="15,25" />
+	<item name="foodCanPears" count="15,25" />
+	<item name="foodHoney" count="15,25" />
+	<item name="foodCornMeal" count="15,25" />		
+	<item name="foodHoney" count="15,25" />
+	<item name="foodGrilledMeat" count="15,25" />
+	<item name="foodCharredMeat" count="15,25" />
+	<item name="foodMeatStew" count="15,25" />
+	<item name="foodSteakAndPotato" count="15,25" />
+	<item name="foodFishTacos" count="15,25"/>
+	<item name="drinkCanBoiledWater" count="15,25" />
+	<item name="drinkJarSnowberryJuice" count="15,25" />
+	<item name="drinkJarYuccaJuice" count="15,25" />
+	<item name="drinkJarGoldenRodTea" count="15,25"/>
+	<item name="drinkJarRedTea" count="15,25" />
+	<item name="drinkJarYuccaCocktail" count="15,25"/>
+	<item name="drinkYuccaJuiceSmoothie" count="15,25"/>
+	<item name="drinkCanMegaCrush" count="15,25" />
+	<item name="drinkJarCoffee" count="15,25" />
+	<item name="drinkJarBeer" count="15,25" />
 	</lootgroup>  	
 	<!-- Survival Backpack Finish -->
 	</insertAfter>
 	
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='110']" >
 <!-- Survival Backpacks Start -->
-<lootcontainer id="221" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" >
+<lootcontainer id="221" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" loot_quality_template="baseTemplate" >
     <item group="SpecialForceCase1" />
 </lootcontainer>
 
-<lootcontainer id="222" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" >
+<lootcontainer id="222" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" loot_quality_template="baseTemplate" >
     <item group="SpecialForceCase2" />
 </lootcontainer>
 <!-- Survival Backpacks End -->
 
 <!-- Survival Backpacks Start -->
-<lootcontainer id="228" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" >
+<lootcontainer id="228" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" loot_quality_template="baseTemplate" >
     <item group="SpecialForceCase3" />
 	</lootcontainer>
 </insertAfter>
