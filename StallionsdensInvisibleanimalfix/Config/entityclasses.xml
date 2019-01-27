@@ -1,3 +1,247 @@
 <stallionsden>
-<remove xpath="/entity_classes/entity_class[starts-with(@name, 'invisible')]"/>
+<remove xpath="/entity_classes/entity_class[@name='invisibleAnimal']"/>
+
+<insertAfter xpath="/entity_classes/entity_class[@name='animalDoe']" >
+<entity_class name="Moose" extends="animalTemplateTimid">
+	<property name="Tags" value="entity,animal"/>
+	<property name="HasRagdoll" value="true"/>
+	<property name="Mesh" value="Animals/Deer/animalDeerStagRagdoll"/>
+	<property name="HasRagdoll" value="true"/>
+	<property name="RootMotion" value="true"/>
+	<property name="AvatarController" value="AvatarAnimalController"/>
+	<property name="ModelType" value="Standard"/>
+	<property name="Prefab" value="NPC"/>
+	<property name="Parent" value="Animals"/>
+	<property name="RotateToGround" value="true"/>
+	<property name="IsEntityAnimal" value="true"/>
+	<property name="IsEnemyEntity" value="false"/>
+	<property name="Faction" value="animals"/>
+	<property name="PhysicsBody" value="Doe"/>
+	<property name="Mass" value="200"/>
+	<property name="Weight" value="110"/>
+	<property name="SizeScale" value="1.5"/>
+	<property name="SurfaceCategory" value="organic"/>
+	<property name="ParticleOnDeath" value="blood_death"/>
+	<property name="SoundHurt" value="Animals/stagpain"/>
+	<property name="SoundDeath" value="Animals/stagdeath"/>
+
+	<!-- Gameplay -->
+	<property name="ExperienceGain" value="327"/>
+	<property name="TimeStayAfterDeath" value="300"/>
+	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/> <!-- this triggers the special harvesting animation like on the knife -->
+	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="30"/> <!-- animalStag -->
+	<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="9"/>
+	<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="4"/>
+	<drop event="Harvest" name="resourceFemur" tag="butcherHarvest" count="3"/>
+	<drop event="Harvest" name="resourceFemur" tag="allToolsHarvest" count="1"/>
+	<effect_group name="Base Effects">
+		<passive_effect name="HealthMax" operation="base_set" value="50"/>
+		<passive_effect name="HealthMax" operation="perc_add" value="0"/> <!-- Animal HP scale -->
+	</effect_group>
+</entity_class>
+</insertAfter>
+<insertAfter xpath="/entity_classes/entity_class[@name='Moose']" >
+<entity_class name="deer" extends="animalStag">
+	<property name="Tags" value="entity,animal"/>
+	<property name="Mesh" value="Animals/Deer/animalDeerDoeRagdoll"/>
+	<property name="Mass" value="120"/>
+	<property name="SizeScale" value="1.4"/>
+
+	<!-- Gameplay -->
+	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="20"/> <!-- animalStag -->
+	<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="6"/>
+	<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="3"/>
+	<drop event="Harvest" name="resourceFemur" tag="butcherHarvest" count="3"/>
+	<drop event="Harvest" name="resourceFemur" tag="allToolsHarvest" count="1"/>
+
+	<effect_group name="Base Effects">
+		<passive_effect name="HealthMax" operation="base_set" value="40"/>
+		<passive_effect name="HealthMax" operation="perc_add" value="0"/> <!-- Animal HP scale -->
+	</effect_group>
+</entity_class>
+</insertAfter>
+<insertAfter xpath="/entity_classes/entity_class[@name='animalRabbit']" >
+<entity_class name="Hare" extends="animalTemplateTimid">
+	<property name="Tags" value="entity,animal"/>
+	<property name="Class" value="EntityAnimalRabbit"/>
+	<property name="Prefab" value="/Entities/Animals/Rabbit/RABBIT"/>
+	<property name="Mesh" value=""/>
+	<property name="Parent" value="Animals"/>
+	<property name="Faction" value="animals"/>
+	<property name="PhysicsBody" value="rabbit"/>
+	<property name="Mass" value="35"/>
+	<property name="Weight" value="25"/>
+	<property name="SizeScale" value="1.3"/>
+	<property name="SoundHurt" value="Animals/rabbitpain"/>
+	<property name="SoundDeath" value="Animals/rabbitdeath"/>
+	<property name="SwimOffset" value="2"/>
+	<property name="HasRagdoll" value="false"/>
+
+	<!-- Gameplay -->
+	<property name="MoveSpeedPanic" value="1.5"/>
+
+	<property name="ExperienceGain" value="173"/>
+	<property name="DeadBodyHitPoints" value="175"/>
+	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="10"/> <!-- animalRabbit -->
+	<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="2"/>
+
+	<effect_group name="Base Effects">
+		<passive_effect name="HealthMax" operation="base_set" value="10"/>
+		<passive_effect name="HealthMax" operation="perc_add" value="0"/> <!-- Animal HP scale -->
+	</effect_group>
+</entity_class>
+</insertAfter>
+<insertAfter xpath="/entity_classes/entity_class[@name='animalChicken']" >
+<entity_class name="Hen" extends="animalTemplateTimid">
+	<property name="Tags" value="entity,animal"/>
+	<property name="Mesh" value="Animals/CHICKEN/chickenPrefab"/>
+	<property name="Prefab" value="NPC"/>
+	<property name="Class" value="EntityAnimalRabbit"/>
+	<property name="Parent" value="Animals"/>
+	<property name="Faction" value="animals"/>
+	<property name="PhysicsBody" value="chicken"/>
+	<property name="Mass" value="45"/>
+	<property name="Weight" value="30"/>
+	<property name="SizeScale" value="1.2"/>
+	<property name="SoundHurt" value="Animals/Chicken/chickenpain"/>
+	<property name="SoundDeath" value="Animals/Chicken/chickendeath"/>
+	<property name="SwimOffset" value="2"/>
+	<property name="HasRagdoll" value="false"/>
+	<property name="HasDeathAnim" value="false"/>
+
+	<!-- Gameplay -->
+	<property name="MoveSpeedPanic" value="1"/>
+	<property name="ExperienceGain" value="173"/>
+	<property name="DeadBodyHitPoints" value="175"/>
+	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="10"/> <!-- animalChicken -->
+	<drop event="Harvest" name="resourceFeather" tag="butcherHarvest" count="23"/>
+	<effect_group name="Base Effects">
+		<passive_effect name="HealthMax" operation="base_set" value="10"/>
+		<passive_effect name="HealthMax" operation="perc_add" value="0"/> <!-- Animal HP scale -->
+	</effect_group>
+</entity_class>
+</insertAfter>
+<insertAfter xpath="/entity_classes/entity_class[@name='animalSnake']" >
+<entity_class name="python" extends="animalTemplateHostile">
+	<property name="Tags" value="entity,animal,hostile"/>
+	<property name="EntityType" value="Animal"/>
+	<property name="Class" value="EntityAnimalSnake"/>
+	<!--property name="Mesh" value="Animals/Snake/snakeRagdoll"/-->
+	<property name="Prefab" value="/Entities/Animals/Snake/snake_Prefab"/>
+	<property name="Mesh" value=""/>
+	<property name="AvatarController" value="AvatarAnimalController"/>
+	<property name="HasRagdoll" value="false"/>
+	<property name="RagdollOnDeathChance" value="0"/>
+	<property name="Parent" value="Enemies"/>
+	<property name="PhysicsBody" value="snake"/>
+	<property name="Mass" value="30"/>
+	<property name="Weight" value="70"/>
+	<property name="Faction" value="undead"/>
+
+	<property name="AITask-1" value="ApproachSpot"/>
+	<property name="AITask-2" value="Look"/>
+	<property name="AITask-3" value="Wander"/>
+	<property name="AITask-4" value=""/>
+	
+	<property name="WalkType" value="7"/>
+	<property name="SoundHurt" value="Animals/Snake/snakepain"/>
+	<property name="SoundDeath" value="Animals/Snake/snakedeath"/>
+	<property name="SoundRandom" value="Animals/Snake/snakeroam"/>
+	<property name="SoundSense" value="Animals/Snake/snakesense"/>
+	<property name="SoundAlert" value="Animals/Snake/snakealert"/>
+	<property name="SoundAttack" value="Animals/Snake/snakeattack"/>
+	<property name="RootMotion" value="true"/>
+	<property name="HasDeathAnim" value="true"/>
+
+	<property class="MechanimAttackTriggers">
+		<property name="state0" value="AttackTrigger"/>
+	</property>
+	<property class="MechanimAttackStates">
+		<property name="state0" value="attack"/>
+	</property>
+	<property class="MechanimDeathTriggers">
+		<property name="state0" value="DeathTrigger"/>
+	</property>
+
+	<!-- Gameplay -->
+	<property name="MaxTurnSpeed" value="100"/>
+	<property name="MoveSpeed" value="0.08"/>
+	<property name="MoveSpeedAggro" value=".2, .2"/>
+	<property name="MoveSpeedPanic" value="0.2"/>
+
+	<property name="ExperienceGain" value="170"/>
+	<property name="DeadBodyHitPoints" value="150"/>
+	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="10"/> <!-- animalSnake -->
+	<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="2"/>
+
+	<effect_group name="Base Effects">
+		<passive_effect name="HealthMax" operation="base_set" value="10"/>
+		<passive_effect name="HealthMax" operation="perc_add" value="0"/> <!-- Animal HP scale -->
+	</effect_group>
+</entity_class>
+</insertAfter>
+<insertAfter xpath="/entity_classes/entity_class[@name='python']" >
+<entity_class name="pig" extends="animalTemplateTimid">
+	<property name="Tags" value="entity,animal"/>
+	<property name="IsEnemyEntity" value="false"/><!-- override hostile template setting so he can spawn in safe zones -->
+	<property name="AvatarController" value="AvatarAnimalController"/>
+	<property name="ModelType" value="Standard"/>
+	<property name="HasRagdoll" value="true"/>
+	<property name="PhysicsBody" value="boar"/>
+	<property name="Mass" value="200"/>
+	<property name="Parent" value="Animals"/>
+	<property name="Faction" value="animals"/>
+	<property name="Mesh" value="Animals/Boar/AnimalBoarStandardRagdoll"/>
+	<property name="HasDeathAnim" value="true"/>
+	<property name="RootMotion" value="true"/>
+	<property name="RagdollOnDeathChance" value=".5"/>
+	<property class="MechanimAttackTriggers">
+		<property name="state0" value="AttackTrigger"/>
+	</property>
+	<property class="MechanimAttackStates">
+		<property name="state0" value="Attack"/>
+		<property name="state1" value="AttackStandingStill"/>
+	</property>
+	<property class="MechanimPainTriggers">
+		<property name="state0" value="PainTrigger"/>
+	</property>
+	<property class="MechanimPainStates">
+		<property name="state0" value="Pain"/>
+	</property>
+	<property class="MechanimDeathTriggers">
+		<property name="state0" value="DeathTrigger"/>
+	</property>
+	<property class="MechanimDeathStates">
+		<property name="state0" value="Death"/>
+	</property>
+	<property name="SoundRandom" value="Animals/Boar/boarroam"/>
+	<property name="SoundAlert" value="Animals/Boar/boaralert"/>
+	<property name="SoundHurt" value="Animals/Boar/boarpain"/>
+	<property name="SoundDeath" value="Animals/Boar/boardeath"/>
+	<property name="SoundAttack" value="Animals/Boar/boarattack"/>
+	<property name="SoundSense" value="Animals/Boar/boarsense"/>
+	<property name="SoundGiveUp" value="Animals/Boar/boargiveup"/>
+
+	<!-- Gameplay -->
+	<property name="MoveSpeed" value="0.2"/>
+	<property name="MoveSpeedAggro" value="1.3, 1.3"/>
+	<property name="MoveSpeedPanic" value="2.0"/>
+
+	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="30"/> <!-- animalBoar -->
+	<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="7"/>
+	<drop event="Harvest" name="resourceAnimalFat" count="6" tag="butcherHarvest"/>
+	<drop event="Harvest" name="resourceFemur" tag="butcherHarvest" count="3"/>
+	<drop event="Harvest" name="resourceFemur" tag="allToolsHarvest" count="1"/>
+
+	<effect_group name="Base Effects">
+		<passive_effect name="HealthMax" operation="base_set" value="150"/>
+		<passive_effect name="HealthMax" operation="perc_add" value="0"/> <!-- Animal HP scale -->
+	</effect_group>
+</entity_class>
+</insertAfter>
 </stallionsden>
