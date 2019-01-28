@@ -1,5 +1,5 @@
 <configs>
-<insertAfter xpath="/lootcontainers/lootcontainer[@id='110']" >
+<insertAfter xpath="/lootcontainers/lootcontainer[@id='116']" >
 <!-- Mining Well -->
 	<lootcontainer id="224" count="0,4" size="8,9" sound_open="forge_open" sound_close="forge_close" destroy_on_close="true" loot_quality_template="baseTemplate" >
 		<item name="terrStone" count="8,12" prob="0.07"/>
@@ -40,7 +40,7 @@
 		<item name="terrOreDiamond" count="1,3" prob="0.005"/>
 	</lootcontainer>
 </insertAfter>
-<insertAfter xpath="/lootcontainers/lootcontainer[@id='223']" >		
+<insertAfter xpath="/lootcontainers/lootcontainer[@id='224']" >		
 		<!-- Condenser -->
 	<lootcontainer id="225" count="0,4" size="8,9" sound_open="cement_mixer_open" sound_close="cement_mixer_close" destroy_on_close="true" loot_quality_template="baseTemplate" >
 		<item name="drinkJarRiverWater" count="1,10" prob="0.01"/>  
