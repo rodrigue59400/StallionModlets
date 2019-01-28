@@ -1,5 +1,5 @@
 <stallionsden>
-<remove xpath="/entitygroups/entitygroup/entity[starts-with(@name, 'invisible')]"/>
+<remove xpath="/entitygroups/entitygroup/entity[starts-with(@name, 'invisibleAnimal')]"/>
 
 <insertAfter xpath="/entitygroups/entitygroup[@name='AnimalsAll']" >
 	<entitygroup name="FriendlyAnimalsAll" >
@@ -13,18 +13,6 @@
 		<entity name="Hen"/>
 		<entity name="pig" />
 		<entity name="python" />
-	</entitygroup>
-</insertAfter>
-<insertAfter xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsAll']" >
-	<entitygroup name="EnemyAnimalsAll" >
-		<entity name="animalBoar" prob="0.15"/>
-		<entity name="animalSnake" prob="0.05"/>
-		<entity name="animalZombieVulture" prob="0.05"/>
-		<entity name="animalWolf" prob="0.05" />
-		<entity name="animalZombieDog" prob="0.005"/>
-		<entity name="animalDireWolf" prob="0.005"/>
-		<entity name="animalBear" prob="0.15"/>
-		<entity name="animalZombieBear" prob="0.05"/>		
 	</entitygroup>
 </insertAfter>
 
