@@ -132,7 +132,7 @@
 <!-- Survival Backpacks End -->
 
 <!-- Survival Backpacks Start -->
-<lootcontainer id="228" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" loot_quality_template="baseTemplate" >
+<lootcontainer id="223" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" loot_quality_template="baseTemplate" >
     <item group="SpecialForceCase3" />
 	</lootcontainer>
 </insertAfter>

@@ -27,7 +27,7 @@
 	<property name="ImposterExchange" value="imposterDontBlockCTRPlate" param1="90"/> 
     <property name="Weight" value="216" />
     <property name="Collide" value="movement,rockets,sight,melee" />
-    <property name="LootList" value="223" />
+    <property name="LootList" value="224" />
   <drop event="Destroy" count="0"/>
   <drop event="Harvest" count="0"/>
   <property name="DowngradeBlock" value="Excavator"/> 
@@ -65,7 +65,7 @@
 	<property name="Model" value="counter_sink"/>
 	<property name="Texture" value="373,261,262,345,345,345"/>
 	<property name="Collide" value="movement,rockets,sight,melee" />
-	<property name="LootList" value="224"/>
+	<property name="LootList" value="225"/>
 	<property name="ImposterExchange" value="imposterBlock" param1="116"/>
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	<property name="FilterTags" value="floot,ffurniture"/>
