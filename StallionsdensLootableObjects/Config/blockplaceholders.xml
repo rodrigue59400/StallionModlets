@@ -1,0 +1,46 @@
+<stallionsden>
+
+	<append xpath="/blockplaceholders">
+		<placeholder name="bodyBagBlack">
+			<block name="bodyBagBlackEmpty" prob=".66"/>
+			<block name="bodyBagBlackFull" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="bodyBagYellow">
+			<block name="bodyBagYellowEmpty" prob=".66"/>
+			<block name="bodyBagYellowFull" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="bodyBagPile">
+			<block name="bodyBagPileEmpty" prob=".66"/>
+			<block name="bodyBagPileFull" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="bodyBagPileMix">
+			<block name="bodyBagPileMixEmpty" prob=".66"/>
+			<block name="bodyBagPileMixFull" prob=".33"/>
+		</placeholder>
+	</append>
+		<append xpath="/blockplaceholders">
+		<placeholder name="bodyBagPair">
+			<block name="bodyBagPairEmpty" prob=".66"/>
+			<block name="bodyBagPairFull" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="bodyBagPairYellow">
+			<block name="bodyBagPairYellowEmpty" prob=".66"/>
+			<block name="bodyBagPairYellowFull" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="bodyBagPairMixed">
+			<block name="bodyBagPairMixedEmpty" prob=".66"/>
+			<block name="bodyBagPairMixedFull" prob=".33"/>
+		</placeholder>
+	</append>
+
+</stallionsden>
