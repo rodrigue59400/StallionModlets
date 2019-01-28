@@ -1,59 +1,86 @@
 <stallionsden>
 <remove xpath="/entitygroups/entitygroup/entity[starts-with(@name, 'invisible')]"/>
 
+<insertAfter xpath="/entitygroups/entitygroup[@name='AnimalsAll']" >
+	<entitygroup name="FriendlyAnimalsAll" >
+		<entity name="animalRabbit"/>
+		<entity name="animalChicken"/>
+		<entity name="animalStag" />
+		<entity name="animalDoe" />
+		<entity name="Moose"/>
+		<entity name="deer"/>
+		<entity name="Hare"/>
+		<entity name="Hen"/>
+		<entity name="pig" />
+		<entity name="python" />
+	</entitygroup>
+</insertAfter>
+<insertAfter xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsAll']" >
+	<entitygroup name="EnemyAnimalsAll" >
+		<entity name="animalBoar" prob="0.15"/>
+		<entity name="animalSnake" prob="0.05"/>
+		<entity name="animalZombieVulture" prob="0.05"/>
+		<entity name="animalWolf" prob="0.05" />
+		<entity name="animalZombieDog" prob="0.005"/>
+		<entity name="animalDireWolf" prob="0.005"/>
+		<entity name="animalBear" prob="0.15"/>
+		<entity name="animalZombieBear" prob="0.05"/>		
+	</entitygroup>
+</insertAfter>
+
 <append xpath="/entitygroups/entitygroup[@name='AnimalsSmall']" ><entity name="Moose" prob="1" /></append> 
 <append xpath="/entitygroups/entitygroup[@name='AnimalsSmall']" ><entity name="deer" prob="1" /></append> 
-<append xpath="/entitygroups/entitygroup[@name='AnimalsSmall']" ><entity name="Hare" prob="1" /></append> 
-<append xpath="/entitygroups/entitygroup[@name='AnimalsSmall']" ><entity name="Hen" prob="1" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='AnimalsSmall']" ><entity name="Hare" prob="10" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='AnimalsSmall']" ><entity name="Hen" prob="10" /></append> 
 <append xpath="/entitygroups/entitygroup[@name='AnimalsSmall']" ><entity name="pig" prob="1" /></append> 
 <append xpath="/entitygroups/entitygroup[@name='AnimalsSmall']" ><entity name="python" prob="1" /></append> 
 
 <append xpath="/entitygroups/entitygroup[@name='AnimalsFarm']" ><entity name="Moose" prob="1" /></append> 
 <append xpath="/entitygroups/entitygroup[@name='AnimalsFarm']" ><entity name="deer" prob="1" /></append> 
-<append xpath="/entitygroups/entitygroup[@name='AnimalsFarm']" ><entity name="Hare" prob="1" /></append> 
-<append xpath="/entitygroups/entitygroup[@name='AnimalsFarm']" ><entity name="Hen" prob="1" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='AnimalsFarm']" ><entity name="Hare" prob="10" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='AnimalsFarm']" ><entity name="Hen" prob="10" /></append> 
 <append xpath="/entitygroups/entitygroup[@name='AnimalsFarm']" ><entity name="pig" prob="1" /></append> 
 <append xpath="/entitygroups/entitygroup[@name='AnimalsFarm']" ><entity name="python" prob="1" /></append> 
 
 <append xpath="/entitygroups/entitygroup[@name='AnimalsDesert']" ><entity name="Moose" prob="1" /></append> 
 <append xpath="/entitygroups/entitygroup[@name='AnimalsDesert']" ><entity name="deer" prob="1" /></append> 
-<append xpath="/entitygroups/entitygroup[@name='AnimalsDesert']" ><entity name="Hare" prob="1" /></append> 
-<append xpath="/entitygroups/entitygroup[@name='AnimalsDesert']" ><entity name="Hen" prob="1" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='AnimalsDesert']" ><entity name="Hare" prob="10" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='AnimalsDesert']" ><entity name="Hen" prob="10" /></append> 
 <append xpath="/entitygroups/entitygroup[@name='AnimalsDesert']" ><entity name="pig" prob="1" /></append> 
 <append xpath="/entitygroups/entitygroup[@name='AnimalsDesert']" ><entity name="python" prob="1" /></append> 
 
 <append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsDesert']" ><entity name="Moose" prob="1" /></append> 
 <append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsDesert']" ><entity name="deer" prob="1" /></append> 
-<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsDesert']" ><entity name="Hare" prob="1" /></append> 
-<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsDesert']" ><entity name="Hen" prob="1" /></append>
+<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsDesert']" ><entity name="Hare" prob="10" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsDesert']" ><entity name="Hen" prob="10" /></append>
 <append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsDesert']" ><entity name="pig" prob="1" /></append>
 <append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsDesert']" ><entity name="python" prob="1" /></append> 
 
 <append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsSnow']" ><entity name="Moose" prob="1" /></append> 
 <append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsSnow']" ><entity name="deer" prob="1" /></append> 
-<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsSnow']" ><entity name="Hare" prob="1" /></append> 
-<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsSnow']" ><entity name="Hen" prob="1" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsSnow']" ><entity name="Hare" prob="10" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsSnow']" ><entity name="Hen" prob="10" /></append> 
 <append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsSnow']" ><entity name="pig" prob="1" /></append>
 <append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsSnow']" ><entity name="python" prob="1" /></append> 
  
 <append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsForest']" ><entity name="Moose" prob="1" /></append> 
 <append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsForest']" ><entity name="deer" prob="1" /></append> 
-<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsForest']" ><entity name="Hare" prob="1" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsForest']" ><entity name="Hare" prob="10" /></append> 
 <append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsForest']" ><entity name="Hen" prob="1" /></append> 
 <append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsForest']" ><entity name="pig" prob="1" /></append> 
 <append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsForest']" ><entity name="python" prob="1" /></append> 
 
 <append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsBurntForest']" ><entity name="Moose" prob="1" /></append> 
 <append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsBurntForest']" ><entity name="deer" prob="1" /></append> 
-<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsBurntForest']" ><entity name="Hare" prob="1" /></append> 
-<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsBurntForest']" ><entity name="Hen" prob="1" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsBurntForest']" ><entity name="Hare" prob="10" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsBurntForest']" ><entity name="Hen" prob="10" /></append> 
 <append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsBurntForest']" ><entity name="pig" prob="1" /></append>
 <append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsBurntForest']" ><entity name="python" prob="1" /></append> 
  
 <append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsPlains']" ><entity name="Moose" prob="1" /></append> 
 <append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsPlains']" ><entity name="deer" prob="1" /></append> 
-<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsPlains']" ><entity name="Hare" prob="1" /></append> 
-<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsPlains']" ><entity name="Hen" prob="1" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsPlains']" ><entity name="Hare" prob="10" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsPlains']" ><entity name="Hen" prob="10" /></append> 
 <append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsPlains']" ><entity name="pig" prob="1" /></append> 
 <append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsPlains']" ><entity name="python" prob="1" /></append> 
  
@@ -72,17 +99,21 @@
 
 <append xpath="/entitygroups/entitygroup/entity[@name='animalRabbit']" >prob="1"</append> 
 
-<append xpath="/entitygroups/entitygroup/entity[@name='animalBoar']" >prob="1"</append>
+<append xpath="/entitygroups/entitygroup/entity[@name='animalBoar']" >prob="0.5"</append>
 
-<set xpath="/entitygroups/entitygroup/entity[starts-with(@name, 'animalZombie')]" >prob="0.5"</set> 
+<append xpath="/entitygroups/entitygroup/entity[@name='animalBoar']" >prob="0.5"</append>
 
-<set xpath="/entitygroups/entitygroup/entity[starts-with(@name, 'animalDire')]" >prob="0.5"</set> 
+<set xpath="/entitygroups/entitygroup/entity[starts-with(@name, 'animalZombie')]" >prob="0.09"</set> 
 
-<set xpath="/entitygroups/entitygroup/entity[starts-with(@name, 'animalWolf')]" >prob="0.5"</set> 
+<set xpath="/entitygroups/entitygroup/entity[starts-with(@name, 'animalDire')]" >prob="0.0005"</set> 
+
+<set xpath="/entitygroups/entitygroup/entity[starts-with(@name, 'animalWolf')]" >prob="0.05"</set> 
 
 <set xpath="/entitygroups/entitygroup/entity[starts-with(@name, 'animalSnake')]" >prob="0.5"</set> 
 
-<set xpath="/entitygroups/entitygroup/entity[starts-with(@name, 'animalBear')]" >prob="0.5"</set> 
+<set xpath="/entitygroups/entitygroup/entity[starts-with(@name, 'animalBear')]" >prob="0.035"</set> 
+
+
 
 </stallionsden>
 
