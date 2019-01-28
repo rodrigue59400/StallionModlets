@@ -209,6 +209,12 @@
 			</block>
 	</insertAfter>	
 	
+		<insertAfter xpath="/blocks/block[@name='shoppingBasketEmpty']" >
+		<block name="shoppingBasketEmpty_PB">
+			<property name="Extends" value="shoppingBasketEmpty"  />
+			</block>
+	</insertAfter>	
+	
 		<!-- **************************************************************************** -->
 
 	
@@ -348,6 +354,10 @@
 		<property name="DowngradeBlock"	value="cntLuggageBigOpen_PB" />
 			</append>
 		
+			<append xpath="/blocks/block[@name='cntShoppingBasket']">
+		<drop event="Destroy" count="0" />	
+		<property name="DowngradeBlock"	value="shoppingBasketEmpty_PB" />
+			</append>
 		
 		
 		<set xpath="/blocks/block[@name='cntWallOven']/property[@name='LootList']/@value">23</set>

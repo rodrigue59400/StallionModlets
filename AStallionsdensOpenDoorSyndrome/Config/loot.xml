@@ -16,6 +16,7 @@
 	<remove xpath="/lootcontainers/lootcontainer[@id='54']"></remove>
 	<remove xpath="/lootcontainers/lootcontainer[@id='55']"></remove>	
 	<remove xpath="/lootcontainers/lootcontainer[@id='57']"></remove>
+	<remove xpath="/lootcontainers/lootcontainer[@id='58']"></remove>
 	<remove xpath="/lootcontainers/lootcontainer[@id='75']"></remove>	
 	
 	
@@ -69,16 +70,6 @@
 	<item name="drinkJarBoiledWater"/>
     </lootcontainer>
 </insertAfter>	
-<insertAfter xpath="/lootcontainers/lootcontainer[@id='22']" >
-	<lootcontainer id="23" count="1,2" size="4,3" sound_open="UseActions/open_mailbox" sound_close="UseActions/close_mailbox" loot_quality_template="baseTemplate">
-	<item name="toolCookingPot" count="1,2" prob="1.5"/>
-	<item name="toolCookingGrill"/>
-	<item name="resourceScrapIron" count="1,15" prob="1.5"/>
-	<item name="drinkJarEmpty" count="1,2"/>
-	<item name="drinkCanEmpty" count="1,2"/>
-	<item name="resourceCoal" count="4,12" prob="0.5"/>
-    </lootcontainer>
-</insertAfter>
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='23']" >
 	<lootcontainer id="24" count="1,2" size="4,3" destroy_on_close="true" sound_open="UseActions/open_file_cabinet" sound_close="UseActions/close_file_cabinet" loot_quality_template="baseTemplate">
 	<item group="clothes" prob="40"/>
@@ -183,14 +174,28 @@
 	<item name="foodCharredMeat" count="1,2" prob="1"/>
 </lootcontainer>
 </insertAfter>
+<insertAfter xpath="/lootcontainers/lootcontainer[@id='57']" >
+	<!-- shopping basket -->
+	<lootcontainer id="58" count="1,2" size="5,3" destroy_on_close="true" sound_open="UseActions/open_shopping_basket" sound_close="UseActions/close_shopping_basket" loot_quality_template="baseTemplate">
+	<item group="cupboard"/>
+	<item group="beverages"/>
+    </lootcontainer>
+</insertAfter>
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='74']" >
 <!-- cntGasGrillClosed -->
 <lootcontainer id="75" count="1,2" size="4,3" destroy_on_close="true" sound_open="UseActions/open_file_cabinet" sound_close="UseActions/close_file_cabinet" loot_quality_template="baseTemplate">
 	<item group="grills"/>
 </lootcontainer>
 </insertAfter>
+<insertAfter xpath="/lootcontainers/lootcontainer[@id='22']" >
+	<lootcontainer id="23" count="1,2" size="4,3" sound_open="UseActions/open_mailbox" sound_close="UseActions/close_mailbox" loot_quality_template="baseTemplate">
+	<item name="toolCookingPot" count="1,2" prob="1.5"/>
+	<item name="toolCookingGrill"/>
+	<item name="resourceScrapIron" count="1,15" prob="1.5"/>
+	<item name="drinkJarEmpty" count="1,2"/>
+	<item name="drinkCanEmpty" count="1,2"/>
+	<item name="resourceCoal" count="4,12" prob="0.5"/>
+    </lootcontainer>
+</insertAfter>
 
-
-
-	
 	</stallionsden>
