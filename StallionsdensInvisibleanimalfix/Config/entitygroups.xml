@@ -87,19 +87,17 @@
 
 <append xpath="/entitygroups/entitygroup/entity[@name='animalRabbit']" >prob="1"</append> 
 
-<append xpath="/entitygroups/entitygroup/entity[@name='animalBoar']" >prob="0.5"</append>
-
-<append xpath="/entitygroups/entitygroup/entity[@name='animalBoar']" >prob="0.5"</append>
+<append xpath="/entitygroups/entitygroup/entity[@name='animalBoar']" >prob="0.03"</append>
 
 <set xpath="/entitygroups/entitygroup/entity[starts-with(@name, 'animalZombie')]" >prob="0.09"</set> 
 
 <set xpath="/entitygroups/entitygroup/entity[starts-with(@name, 'animalDire')]" >prob="0.0005"</set> 
 
-<set xpath="/entitygroups/entitygroup/entity[starts-with(@name, 'animalWolf')]" >prob="0.05"</set> 
+<set xpath="/entitygroups/entitygroup/entity[starts-with(@name, 'animalWolf')]" >prob="0.08"</set> 
 
-<set xpath="/entitygroups/entitygroup/entity[starts-with(@name, 'animalSnake')]" >prob="0.5"</set> 
+<set xpath="/entitygroups/entitygroup/entity[starts-with(@name, 'animalSnake')]" >prob="0.05"</set> 
 
-<set xpath="/entitygroups/entitygroup/entity[starts-with(@name, 'animalBear')]" >prob="0.035"</set> 
+<set xpath="/entitygroups/entitygroup/entity[starts-with(@name, 'animalBear')]" >prob="0.09"</set> 
 
 
 
