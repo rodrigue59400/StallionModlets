@@ -14,7 +14,7 @@
 		</insertAfter>
 
 	<insertAfter xpath="/spawning/biome[@name='burnt_forest']/spawn[@entitygroup='ZombiesBurntForest']">
-		<spawn maxcount="4" respawndelay="1" time="Day" entitygroup="FriendlyAnimalsAll" />
+		<spawn maxcount="4" respawndelay="1" time="Any" entitygroup="FriendlyAnimalsAll" />
 		</insertAfter>
 
 	<insertAfter xpath="/spawning/biome[@name='snow']/spawn[@entitygroup='SnowZombies']">
@@ -22,7 +22,7 @@
 		</insertAfter>
 	
 		<insertAfter xpath="/spawning/biome[@name='wasteland']/spawn[@entitygroup='ZombiesWastelandNight']">
-		<spawn maxcount="4" respawndelay="1" time="Day" entitygroup="FriendlyAnimalsAll" />
+		<spawn maxcount="4" respawndelay="1" time="Any" entitygroup="FriendlyAnimalsAll" />
 		</insertAfter>
 </stallionsden>
 
