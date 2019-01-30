@@ -2,7 +2,7 @@
 <remove xpath="/entitygroups/entitygroup/entity[starts-with(@name, 'invisibleAnimal')]"/>
 
 <insertAfter xpath="/entitygroups/entitygroup[@name='AnimalsAll']" >
-	<entitygroup name="FriendlyAnimalsAll" count="3,6">
+	<entitygroup name="FriendlyAnimalsAll" >
 		<entity name="animalRabbit"  prob="0.9"/>
 		<entity name="animalChicken"  prob="0.9"/>
 		<entity name="animalStag"  prob="0.9" />
