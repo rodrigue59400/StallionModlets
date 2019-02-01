@@ -1,0 +1,13 @@
+<stallionsden>
+
+<insertAfter xpath="/entitygroups/entitygroup[@name='AnimalsAll']" >
+	<entitygroup name="WanderingTraders" >
+		<entity name="TraderBorat"  prob="0.9"/>
+		<entity name="TraderKen"  prob="0.9"/>
+		<entity name="TraderBilly"  prob="09" />
+		<entity name="TraderStuart"  prob="0.9" />
+		<entity name="TraderPiper"  prob="0.9" />
+		</entitygroup>
+</insertAfter>
+</stallionsden>
+

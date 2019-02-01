@@ -1,0 +1,57 @@
+<stallionsden>
+<insertAfter xpath="/npc/npc_info[@id='traderTest']" >
+<npc_info
+		id="traderborat"
+		name="Wandering Trader Borat"
+		name_key="npc_traitorBorat"
+		faction="whiteriver"
+		portrait="npc_joel"
+		greeting_type="nearby"
+		stance="Like" voice_set="trader"
+		trader_id="1" dialog_id="trader" />
+</insertAfter>
+<insertAfter xpath="/npc/npc_info[@id='traderborat']" >
+	<npc_info
+		id="traderken"
+		name="Wandering Trader Ken"
+		name_key="npc_traderKen"
+		faction="whiteriver"
+		portrait="npc_rekt"
+		greeting_type="nearby"
+		stance="like" voice_set="trader"
+		trader_id="1" dialog_id="trader" />
+</insertAfter>
+<insertAfter xpath="/npc/npc_info[@id='traderken']" >
+	<npc_info
+		id="traderbilly"
+		name="Trader Billy"
+		name_key="npc_traderBilly"
+		faction="whiteriver"
+		portrait="npc_hugh"
+		greeting_type="nearby"
+		stance="Neutral" voice_set="trader"
+		trader_id="1" dialog_id="trader" />
+</insertAfter>
+<insertAfter xpath="/npc/npc_info[@id='traderbilly']" >
+	<npc_info
+		id="traderpiper"
+		name="Trader Piper"
+		name_key="npc_traderPiper"
+		faction="whiteriver"
+		portrait="npc_jen"
+		greeting_type="nearby"
+		stance="Like" voice_set="trader"
+		trader_id="1" dialog_id="trader" />
+</insertAfter>
+<insertAfter xpath="/npc/npc_info[@id='traderpiper']" >	
+	<npc_info
+		id="traderstuart"
+		name="Trader Stuart"
+		name_key="npc_traderStuart"
+		faction="whiteriver"
+		portrait="npc_bob"
+		greeting_type="nearby"
+		stance="Like" voice_set="trader"
+		trader_id="1" dialog_id="trader" />
+</insertAfter>
+</stallionsden>

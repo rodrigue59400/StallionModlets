@@ -1,0 +1,21 @@
+<stallionsden>
+<insertAfter xpath="/spawning/biome[@name='pine_forest']/spawn[@entitygroup='ZombiesAll']">
+		<spawn maxcount="1" respawndelay="2" time="Any" entitygroup="WanderingTraders" />
+		</insertAfter>
+
+	<insertAfter xpath="/spawning/biome[@name='desert']/spawn[@entitygroup='ZombiesAll']">
+		<spawn maxcount="1" respawndelay="2" time="Any" entitygroup="WanderingTraders" />
+		</insertAfter>
+
+	<insertAfter xpath="/spawning/biome[@name='burnt_forest']/spawn[@entitygroup='ZombiesBurntForest']">
+		<spawn maxcount="1" respawndelay="2" time="Any" entitygroup="WanderingTraders" />
+		</insertAfter>
+
+	<insertAfter xpath="/spawning/biome[@name='snow']/spawn[@entitygroup='SnowZombies']">
+		<spawn maxcount="1" respawndelay="2" time="Any" entitygroup="WanderingTraders" />
+		</insertAfter>
+	
+		<insertAfter xpath="/spawning/biome[@name='wasteland']/spawn[@entitygroup='ZombiesWastelandNight']">
+		<spawn maxcount="1" respawndelay="2" time="Any" entitygroup="WanderingTraders" />
+		</insertAfter>
+</stallionsden>
