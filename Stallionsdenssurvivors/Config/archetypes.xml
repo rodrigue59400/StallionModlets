@@ -1,4 +1,4 @@
-<configs>
+<stallionsden>
 <insertAfter xpath="/archetypes/archetype[@name='Roxy']" >
 <archetype name="Michonne" male="false" hair_color="30,10,10" eye_color="99,62,14" skin_color="69,49,43" type="Player">
 		<base_mesh_parts>
@@ -2303,4 +2303,4 @@
 	</archetype>
 	<!-- followers -->	
 	</insertAfter>
-	</configs>
+	</stallionsden>

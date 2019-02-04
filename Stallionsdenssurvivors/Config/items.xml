@@ -1,4 +1,4 @@
-<configs>
+<stallionsden>
 <insertAfter xpath="/items/item[@name='resourceSteelPolish']" >
 <item name="followerclubSpiked" >
 	<property name="Extends" value="meleeClubIron" />
@@ -1540,4 +1540,4 @@
 	</property>
 </item>
 </insertAfter>
-</configs>
+</stallionsden>

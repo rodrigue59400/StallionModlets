@@ -1,4 +1,4 @@
-<configs>
+<stallionsden>
 <set xpath="/items/item[@name='gunPistol']/effect_group[@name='Base Effects']/passive_effect[@name='MagazineSize' and @operation='base_set']/@value">50</set>
 <set xpath="/items/item[@name='gun44Magnum']/effect_group[@name='Base Effects']/passive_effect[@name='MagazineSize' and @operation='base_set']/@value">15</set>
 <set xpath="/items/item[@name='gunSMG5']/effect_group[@name='Base Effects']/passive_effect[@name='MagazineSize' and @operation='base_set']/@value">500</set>
@@ -11,4 +11,4 @@
 <append xpath="/items/item[@name='unlockBookMaster']">
 		<property name="Stacknumber" value="30000"/>
 	</append>
-</configs>
+</stallionsden>

@@ -1,4 +1,4 @@
-<configs>
+<stallionsden>
 	<append xpath="/recipes">
 		<recipe name="wineBarrel" count="1" craft_area="workbench" >
 			<ingredient name="resourceForgedIron" count="10"/>
@@ -40,4 +40,4 @@
 			<ingredient name="resourceAirFilter" count="2"/>
 		</recipe>
 	</append>
-</configs>
+</stallionsden>

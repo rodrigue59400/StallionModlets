@@ -1,4 +1,4 @@
-<configs>
+<stallionsden>
 <append xpath="/entitygroups/entitygroup[@name='ZombiesAll']" ><entity name="Maggi" prob="0.05" /></append> 
 <append xpath="/entitygroups/entitygroup[@name='ZombiesAll']" ><entity name="Shiva" prob="0.05" /></append> 
 <append xpath="/entitygroups/entitygroup[@name='ZombiesAll']" ><entity name="Jesse" prob="0.05" /></append> 
@@ -258,4 +258,4 @@
 <append xpath="/entitygroups/entitygroup[@name='AnimalsAll']" ><entity name="Rosita" prob="0.05" /></append> 
 <append xpath="/entitygroups/entitygroup[@name='AnimalsAll']" ><entity name="Shane" prob="0.05" /></append> 
 <append xpath="/entitygroups/entitygroup[@name='AnimalsAll']" ><entity name="Carl" prob="0.05" /></append> 
-</configs>
+</stallionsden>

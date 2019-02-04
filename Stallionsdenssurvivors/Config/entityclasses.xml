@@ -1,4 +1,4 @@
-<configs>
+<stallionsden>
 <insertAfter xpath="/entity_classes/entity_class[@name='npcTraderTest']" >
 <entity_class name="npcSurvivorTemplate">
 	<property name="EntityType" value="Player"/>
@@ -1152,4 +1152,4 @@
 	<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
 	</entity_class>	
 </insertAfter>
-</configs>	
+</stallionsden>	

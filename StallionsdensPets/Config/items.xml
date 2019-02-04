@@ -1,4 +1,4 @@
-<configs>
+<stallionsden>
 	<append xpath="/items">
 	<item name="petHandMaster">
 	<property name="Tags" value="blunt,melee,light"/>
@@ -372,4 +372,4 @@
 	</effect_group>
 </item>
 </append>
-</configs>
+</stallionsden>

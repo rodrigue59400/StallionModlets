@@ -1,4 +1,4 @@
-<configs>
+<stallionsden>
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='116']" >
 <!-- Mining Well -->
 	<lootcontainer id="217" count="0,4" size="8,9" sound_open="forge_open" sound_close="forge_close" destroy_on_close="true" loot_quality_template="baseTemplate" >
@@ -49,4 +49,4 @@
 		<item name="drinkJarGoldenRodTea" count="1,2" prob="0.005"/>  
 		</lootcontainer>
 </insertAfter>
-</configs>
+</stallionsden>

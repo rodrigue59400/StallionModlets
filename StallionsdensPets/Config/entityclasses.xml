@@ -1,4 +1,4 @@
-<configs>
+<stallionsden>
 <insertAfter xpath="/entity_classes/entity_class[@name='npcTraderTest']" >
 <!-- TIMID ANIMALS -->
 <entity_class name="petsTemplate">
@@ -573,4 +573,4 @@
 
 </entity_class>
 </insertAfter>
-</configs>
+</stallionsden>

@@ -1,4 +1,4 @@
-<config>
+<stallionsden>
 <insertAfter xpath="/blocks/block[@name='cubeTileBroken01']" >
 <block name="Excavator">
     <property name="Class" value="UpgradeRated" />
@@ -74,7 +74,7 @@
 	<property name="DowngradeBlock" value="RainBarrel"/>  
 	</block>	
   </insertAfter>
-  </config>
+  </stallionsden>
   
   
   

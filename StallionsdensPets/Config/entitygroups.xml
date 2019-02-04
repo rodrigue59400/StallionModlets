@@ -1,4 +1,4 @@
-<configs>
+<stallionsden>
 <append xpath="/entitygroups/entitygroup[@name='AnimalsSmall']" ><entity name="bugsBunny" prob="0.05" /></append> 
 <append xpath="/entitygroups/entitygroup[@name='AnimalsSmall']" ><entity name="foghornLeghorn" prob="0.05" /></append> 
 
@@ -88,4 +88,4 @@
 <append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsWasteland']" ><entity name="yogiBear" prob="0.05" /></append> 
 <append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsWasteland']" ><entity name="Baloo" prob="0.05" />	</append> 
 
-</configs>
+</stallionsden>
