@@ -229,6 +229,11 @@
 		<property name="DowngradeBlock" value="cntCupboardCabinetRedTopOpen_PB" />
 			</append>
 
+	<append xpath="/blocks/block[@name='cntCabinetOldBottomOpen']">
+		<drop event="Destroy" count="0" />	
+		<property name="DowngradeBlock" value="cntCabinetOldBottomOpen_PB" />
+			</append>
+			
 	<append xpath="/blocks/block[@name='cntCupboardCabinetOldTopClosed']">
 		<drop event="Destroy" count="0" />	
 		<property name="DowngradeBlock" value="cntCupboardCabinetOldTopOpen_PB" />
@@ -362,6 +367,260 @@
 		
 		<set xpath="/blocks/block[@name='cntWallOven']/property[@name='LootList']/@value">23</set>
 	<!-- **************************************************************************** -->	
+<!-- New Blocks -->
+	<append xpath="/blocks" >
+<block name="CabinetBottom">
+	<property name="Extends" value="cntCabinetBottomRandomLootHelper" param1="CustomIconTint"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="239"/>
+	<property name="CustomIcon" value="cntCabinetBottomFiller"/>
+	<property name="DescriptionKey" value="furnitureGroupDesc"/>
+	<property name="FilterTags" value="floot,ffurniture"/>
+</block>
+
+<block name="CupboardCabinetRedTopClosed">
+	<property name="Extends" value="cntCupboardCabinetRedTopLootHelper" param1="CustomIconTint"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="239"/>
+	<property name="CustomIcon" value="cntCupboardCabinetRedTopLootHelper"/>
+	<property name="DescriptionKey" value="furnitureGroupDesc"/>
+	<property name="FilterTags" value="floot,ffurniture"/>
+</block>
+
+<block name="CabinetOldBottom">
+	<property name="Extends" value="cntCabinetOldBottomLootHelper" param1="CustomIconTint"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="239"/>
+	<property name="CustomIcon" value="cntCabinetOldBottomLootHelper"/>
+	<property name="DescriptionKey" value="furnitureGroupDesc"/>
+	<property name="FilterTags" value="floot,ffurniture"/>
+</block>
+
+<block name="MicrowaveOvenClosed">
+	<property name="Extends" value="cntMicrowaveOvenVer1Open"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="Appliances/microwave_oven_ver1" param1="main_mesh"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="240"/>
+	<property name="FilterTags" value="floot,ffurniture"/>
+</block>	
+
+    <block name="MedicineCabinetClosed">
+	<property name="Extends" value="cntMedicineCabinetOpen"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="237"/>
+	<property name="Model" value="Entities/LootContainers/medicine_cabinet_closedPrefab"/>
+</block>
+
+<block name="CupboardCabinetOldTopClosed">
+	<property name="Extends" value="cntCupboardCabinetOldTopLootHelper" param1="CustomIconTint"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="239"/>
+	<property name="CustomIcon" value="cntCupboardCabinetOldTopLootHelper"/>
+	<property name="DescriptionKey" value="furnitureGroupDesc"/>
+	<property name="FilterTags" value="floot,ffurniture"/>
+</block>
+
+<block name="StoveOldClosed">
+	<property name="CreativeMode" value="Player"/>
+	<property name="Class" value="Loot"/>
+	<property name="Material" value="Mmetal_weak"/>
+	<property name="Shape" value="Ext3dModel"/> <property name="Texture" value="293"/>
+	<property name="Mesh" value="models"/>
+	<property name="Path" value="solid"/>
+	<property name="Model" value="Appliances/stove_old" param1="main_mesh"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="LootList" value="235"/>
+	<property class="RepairItems">
+		<property name="resourceForgedIron" value="4"/>
+		<property name="resourceElectricParts" value="4"/>
+	</property>
+	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+	<drop event="Harvest" name="resourceElectricParts" count="1,4" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceScrapIron" count="5,15" tag="salvageHarvest"/>
+	<drop event="Destroy" name="resourceScrapIron" count="5" prob="1"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="EconomicValue" value="156"/>
+	<property name="FilterTags" value="floot,ffurniture"/>
+</block>
+
+	<block name="RetroFridgeClosed">
+	<property name="CreativeMode" value="Player"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="247"/>
+	<property name="Shape" value="Ext3dModel"/> <property name="Texture" value="293"/>
+	<property name="Mesh" value="models"/>
+	<property name="Path" value="solid"/>
+	<property name="Model" value="Appliances/retro_fridge_ver1" param1="main_mesh"/>
+	<property name="Collide" value="melee,bullet,arrow,rocket,movement"/>
+	<property name="DisplayType" value="blockMulti" />
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="ImposterExchange" value="imposterBlock" param1="27"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="DescriptionKey" value="refrigeratorGroupDesc"/>
+	<property class="RepairItems">
+		<property name="resourceForgedIron" value="10"/>
+		<property name="resourceMetalPipe" value="2"/>
+		<property name="resourceElectricParts" value="8"/>
+		<property name="resourceElectricParts" value="2"/>
+	</property>
+	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+	<drop event="Harvest" name="resourceMechanicalParts" count="1,2" prob="0.4" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceElectricParts" count="1,6" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceElectricParts" count="0,2" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceMetalPipe" count="1" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceScrapIron" count="20,50" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceScrapPolymers" count="0,3" prob="0.2" tag="salvageHarvest"/>
+	<drop event="Destroy" name="resourceScrapIron" count="5,15" prob="1"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="EconomicValue" value="192"/>
+	<property name="FilterTags" value="floot,ffurniture"/>
+</block>
+
+<block name="FridgeStainlessSteel">
+	<property name="Extends" value="RetroFridgeClosed"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="247"/>
+	<property name="Model" value="Appliances/stainless_steel_fridge" param1="main_mesh"/>
+	<property name="CreativeMode" value="Player"/>
+</block>
+
+	<block name="NightstandClosed">
+	<property name="Extends" value="cntNightstandOpen"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="Entities/LootContainers/nightStand_closedPrefab"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="236"/>
+</block>
+
+<block name="MedicineCabinetFaucetClosed">
+	<property name="Extends" value="cntMedicineCabinetFaucetOpen"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="237"/>
+	<property name="Model" value="Entities/LootContainers/medicine_cabinet_closed_faucetPrefab"/>
+</block>
+
+<block name="WoodDesk01Closed">
+	<property name="Extends" value="cntWoodDesk01Open"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="Furniture/desk01" param1="main_mesh"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="236"/>
+</block>
+
+<block name="MetalDeskClosed">
+	<property name="Extends" value="cntMetalDesk02RandomLootHelper" param1="CustomIconTint,DisplayInfo"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="241"/>
+	<property name="CustomIcon" value="cntMetalDesk02RandomLootHelper"/>
+	<property name="DisplayType" value="blockMulti" />
+	<property name="MultiBlockDim" value="2,1,1"/>
+	<property name="DescriptionKey" value="furnitureGroupDesc"/>
+	<property name="FilterTags" value="floot,ffurniture"/>
+</block>
+
+<block name="FileCabinetShortClosed">
+	<property name="Extends" value="cntFileCabinetShortOpen" param1="ModelOffset"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="Entities/LootContainers/filecabinet_short_closedPrefab"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="245"/>
+</block>
+
+<block name="FileCabinetTallClosed">
+	<property name="Extends" value="FileCabinetShortClosed"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="Entities/LootContainers/filecabinet_tall_closedPrefab"/>
+	<property name="DisplayType" value="blockMulti" />
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="ModelOffset" value="0,0,0"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="245"/>
+</block>
+
+<block name="CoolerClosed">
+	<property name="Extends" value="cntCoolerOpen"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="Entities/LootContainers/coolerPrefab"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="246"/>
+</block>
+
+<block name="LockersShortClosed">
+	<property name="Extends" value="cntLockersShortOpen"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="Entities/LootContainers/locker_ver3_lootPrefab"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="244"/>
+	<property name="OnlySimpleRotations" value="true"/>
+</block>
+
+<block name="LockersTallClosed">
+	<property name="Extends" value="cntLockersTallOpen"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="Entities/LootContainers/locker_ver1_lootPrefab"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="244"/>
+	<property name="DisplayType" value="blockMulti" />
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="OnlySimpleRotations" value="true"/>
+</block>
+
+<block name="LockersTallDoubleClosed">
+	<property name="Extends" value="LockersTallClosed"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="244"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="Entities/LootContainers/locker_ver2_lootPrefab"/>
+	<property name="DisplayType" value="blockMulti" />
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="OnlySimpleRotations" value="true"/>
+</block>
+
+<block name="LockersTallMixClosed">
+	<property name="Extends" value="LockersTallClosed"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="244"/>
+	<property name="Model" value="Entities/LootContainers/locker_ver4_lootPrefab"/>
+	<property name="DisplayType" value="blockMulti" />
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="OnlySimpleRotations" value="true"/>
+</block>
+
+<block name="LockersTallMixLinkClosed">
+	<property name="Extends" value="LockersTallClosed"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="244"/>
+	<property name="Model" value="Entities/LootContainers/locker_ver5_lootPrefab"/>
+	<property name="DisplayType" value="blockMulti" />
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="OnlySimpleRotations" value="true"/>
+</block>
 		
+<block name="BookcaseFull">
+	<property name="CreativeMode" value="Player"/>
+	<property name="Material" value="Mwood_weak"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="bookcase_full"/> <property name="Place" value="TowardsPlacer90"/>
+	<property name="Texture" value="67,269,269,269,269,269"/>
+	<property name="UseGlobalUV" value="Local"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="248"/>
+	<drop event="Destroy" name="resourceWood" count="1,3"/>
+	<property name="FilterTags" value="floot,ffurniture"/>
+	<property name="SortOrder2" value="0060"/> <!-- SortShape -->
+	<property name="DescriptionKey" value="furnitureGroupDesc"/>
+</block>
+	</append>
 		
 	</stallionsden>
