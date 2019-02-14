@@ -1,10 +1,10 @@
-<stallionsden>
+<configs>
 <insertAfter xpath="/items/item[@name='resourceSteelPolish']" >
 <item name="followerclubSpiked" >
 	<property name="Extends" value="meleeClubIron" />
 	<property name="EntityDamage" value="45,75" />
-		<property name="BlockDamage" value="11.8,29.5" />
-		<property name="Delay" value="0.5" />
+		<property name="BlockDamage" value="11,29" />
+		<property name="Delay" value="0" />
 		<property name="SellableToTrader" value="false" />
 	<property name="Candrop" value="false" />
 	<property name="IsDeveloper" value="true" />
@@ -14,16 +14,22 @@
 		<passive_effect name="EntityDamage" operation="base_set" value="15"/> <!-- meleeClubWood -->
 		<passive_effect name="BlockDamage" operation="base_set" value="5"/>
 		<passive_effect name="AttacksPerMinute" operation="base_set" value="55"/> <!-- A16 1.33 -->
-		<passive_effect name="StaminaLoss" operation="base_set" value="15" tags="primary"/>
+		<passive_effect name="StaminaLoss" operation="base_set" value="0" tags="primary"/>
 		<passive_effect name="DegradationMax" operation="base_set" value="0,0" tier="6,6"/>
 		</effect_group>
+			<effect_group name="Power Attack">
+		<passive_effect name="EntityDamage" operation="perc_add" value="1.7" tags="secondary"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value="2" tags="secondary"/>
+		<passive_effect name="AttacksPerMinute" operation="perc_add" value="100" tags="secondary"/>
+		<passive_effect name="StaminaLoss" operation="base_add" value="0" tags="secondary"/>
+	</effect_group>
 </item>
 </insertAfter>
 <insertAfter xpath="/items/item[@name='followerclubSpiked']" >
 <item name="followersledgehammer" >
 	<property name="Extends" value="meleeToolSledgehammer" />
 		<property class="Action0"> <!-- AttackAction -->
-		<property name="Delay" value="0.5" />
+		<property name="Delay" value="0" />
 		</property>
 		<property name="SellableToTrader" value="false" />
 		<property name="Candrop" value="false" />
@@ -33,18 +39,24 @@
 		<passive_effect name="BlockRange" operation="base_set" value="3.5"/>
 		<passive_effect name="EntityDamage" operation="base_set" value="23"/> <!-- meleeToolSledgehammer -->
 		<passive_effect name="BlockDamage" operation="base_set" value="33"/>
-		<passive_effect name="AttacksPerMinute" operation="base_set" value="34"/> <!-- A16 1.8 -->
+		<passive_effect name="AttacksPerMinute" operation="base_set" value="100"/> <!-- A16 1.8 -->
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.18" tags="wood"/>
-		<passive_effect name="StaminaLoss" operation="base_set" value="20" tags="primary"/>
+		<passive_effect name="StaminaLoss" operation="base_set" value="0" tags="primary"/>
 		<passive_effect name="DegradationMax" operation="base_set" value="0,0" tier="6,6"/>
 		</effect_group>
+			<effect_group name="Power Attack">
+		<passive_effect name="EntityDamage" operation="perc_add" value="1.7" tags="secondary"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value="2" tags="secondary"/>
+		<passive_effect name="AttacksPerMinute" operation="perc_add" value="100" tags="secondary"/>
+		<passive_effect name="StaminaLoss" operation="base_add" value="0" tags="secondary"/>
+	</effect_group>
 </item>
 </insertAfter>
 <insertAfter xpath="/items/item[@name='meleeToolSledgehammer']" >
 <item name="followerClubWood" >
 <property name="Extends" value="meleeClubWood" />
 <property class="Action0"> <!-- AttackAction -->
-		<property name="Delay" value="0.5" />
+		<property name="Delay" value="0" />
 		</property>
 <property name="SellableToTrader" value="false" />
 	<property name="Candrop" value="false" />
@@ -54,10 +66,16 @@
 		<passive_effect name="BlockRange" operation="base_set" value="3"/>
 		<passive_effect name="EntityDamage" operation="base_set" value="15"/> <!-- meleeClubWood -->
 		<passive_effect name="BlockDamage" operation="base_set" value="5"/>
-		<passive_effect name="AttacksPerMinute" operation="base_set" value="55"/> <!-- A16 1.33 -->
-		<passive_effect name="StaminaLoss" operation="base_set" value="15" tags="primary"/>
+		<passive_effect name="AttacksPerMinute" operation="base_set" value="100"/> <!-- A16 1.33 -->
+		<passive_effect name="StaminaLoss" operation="base_set" value="0" tags="primary"/>
 		<passive_effect name="DegradationMax" operation="base_set" value="0,0" tier="6,6"/>
 		</effect_group>
+			<effect_group name="Power Attack">
+		<passive_effect name="EntityDamage" operation="perc_add" value="1.7" tags="secondary"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value="2" tags="secondary"/>
+		<passive_effect name="AttacksPerMinute" operation="perc_add" value="100" tags="secondary"/>
+		<passive_effect name="StaminaLoss" operation="base_add" value="0" tags="secondary"/>
+	</effect_group>
 </item>
 </insertAfter>
 <insertAfter xpath="/items/item[@name='followerClubWood']" >
@@ -70,7 +88,7 @@
 	<property name="SellableToTrader" value="false" />
 	<property name="Candrop" value="false" />
 	<property name="IsDeveloper" value="true" />
-	<property name="Delay" value="0.5" />
+	<property name="Delay" value="0" />
 	<property name="EconomicValue" value="912"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="MaxRange" operation="base_set" value="2.9"/>
@@ -80,15 +98,15 @@
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.75" tags="stone"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.75" tags="metal"/>
-		<passive_effect name="AttacksPerMinute" operation="base_set" value="47"/>
-		<passive_effect name="StaminaLoss" operation="base_set" value="18" tags="primary"/>
+		<passive_effect name="AttacksPerMinute" operation="base_set" value="100"/>
+		<passive_effect name="StaminaLoss" operation="base_set" value="0" tags="primary"/>
 		<passive_effect name="DegradationMax" operation="base_set" value="0,0" tier="6,6"/>
 		</effect_group>
 	<effect_group name="Power Attack">
 		<passive_effect name="EntityDamage" operation="perc_add" value="1.7" tags="secondary"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value="2" tags="secondary"/>
-		<passive_effect name="AttacksPerMinute" operation="perc_add" value="-.3" tags="secondary"/>
-		<passive_effect name="StaminaLoss" operation="base_add" value="27" tags="secondary"/>
+		<passive_effect name="AttacksPerMinute" operation="perc_add" value="100" tags="secondary"/>
+		<passive_effect name="StaminaLoss" operation="base_add" value="0" tags="secondary"/>
 	</effect_group>
 </item>
 </insertAfter>
@@ -96,7 +114,7 @@
 <item name="followermachete" >
 	<property name="Extends" value="meleeToolMachete" />
 	<property class="Action0"> <!-- AttackAction -->
-		<property name="Delay" value="0.5" />
+		<property name="Delay" value="0" />
 		</property>
 		<property name="SellableToTrader" value="false" />
 		<property name="Candrop" value="false" />
@@ -106,10 +124,16 @@
 		<passive_effect name="BlockRange" operation="base_set" value="3"/>
 		<passive_effect name="EntityDamage" operation="base_set" value="17"/> <!-- meleeToolMachete -->
 		<passive_effect name="BlockDamage" operation="base_set" value="5"/>
-		<passive_effect name="AttacksPerMinute" operation="base_set" value="50"/> <!-- A16 1.2 -->
-		<passive_effect name="StaminaLoss" operation="base_set" value="14" tags="primary"/>
+		<passive_effect name="AttacksPerMinute" operation="base_set" value="100"/> <!-- A16 1.2 -->
+		<passive_effect name="StaminaLoss" operation="base_set" value="0" tags="primary"/>
 		<passive_effect name="DegradationMax" operation="base_set" value="0,0" tier="6,6"/>
 		</effect_group>
+			<effect_group name="Power Attack">
+		<passive_effect name="EntityDamage" operation="perc_add" value="1.7" tags="secondary"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value="2" tags="secondary"/>
+		<passive_effect name="AttacksPerMinute" operation="perc_add" value="100" tags="secondary"/>
+		<passive_effect name="StaminaLoss" operation="base_add" value="0" tags="secondary"/>
+	</effect_group>
 </item>
 </insertAfter>
 <insertAfter xpath="/items/item[@name='followermachete']" >
@@ -142,9 +166,9 @@
 		<property name="IsDeveloper" value="true" />
 	<property class="Action0">
 		<property name="Class" value="Ranged"/>
-		<property name="Delay" value="0.5" />
+		<property name="Delay" value="0.01" />
+	<property name="Magazine_items" value="follower9mmBullet" />
 		<property name="Infinite_ammo" value="true" />
-		<property name="Magazine_items" value="follower9mmBullet" />
 		<property name="Reload_time" value="0.1" />
 		<property name="Sound_start" value="Pistol_Fire"/>
 		<property name="Sound_repeat" value=""/>
@@ -173,7 +197,7 @@
 		<passive_effect name="RoundsPerMinute" operation="base_set" value="180"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
 
-		<passive_effect name="MagazineSize" operation="base_set" value="15000"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="30000"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/> <!-- 2s -->
 		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1.5"/>
 		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="1.5"/>
@@ -221,7 +245,7 @@
 		<property name="IsDeveloper" value="true" />
 	<property class="Action0"> <!-- AttackAction -->
 		<property name="Class" value="Ranged" />
-		<property name="Delay" value="0.5" />
+		<property name="Delay" value="0.01" />
 		<property name="Infinite_ammo" value="true" />
 		<property name="Magazine_items" value="follower44MagBullet" />
 		<property name="Reload_time" value="0.1" />
@@ -253,7 +277,7 @@
 
 		<passive_effect name="RoundsPerMinute" operation="base_set" value="80"/>
 
-		<passive_effect name="MagazineSize" operation="base_set" value="6000"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="30000"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/> <!-- 4s -->
 		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1.3"/>
 		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="1.3"/>
@@ -304,10 +328,10 @@
 		<property name="IsDeveloper" value="true" />
 	<property class="Action0"> <!-- AttackAction -->
 		<property name="Class" value="Ranged"/>
-		<property name="Delay" value="0.5" />
+		<property name="Delay" value="0.01" />
 		<property name="Infinite_ammo" value="true" />
 		<property name="Magazine_items" value="followershotgunShell" />
-		<property name="Reload_time" value="1" />
+		<property name="Reload_time" value="0.1" />
 		<property name="Sound_start" value="pump_shotgun_fire"/>
 		<property name="Sound_repeat" value=""/>
 		<property name="Sound_end" value=""/>
@@ -334,7 +358,7 @@
 		<passive_effect name="RoundsPerMinute" operation="base_set" value="60"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
 
-		<passive_effect name="MagazineSize" operation="base_set" value="6000"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="30000"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/> <!-- 2.3s -->
 		<passive_effect name="KickDegreesVertical" operation="base_set" value="4.2"/>
 		<passive_effect name="KickDegreesHorizontal" operation="base_set" value="-2.5,2.5"/>
@@ -375,10 +399,10 @@
 		<property name="IsDeveloper" value="true" />
 	<property class="Action0">
 		<property name="Class" value="Ranged"/>
-		<property name="Delay" value="0.5" />
+		<property name="Delay" value="0.01" />
 		<property name="Infinite_ammo" value="true" />
 		<property name="Magazine_items" value="follower9mmBullet" />
-		<property name="Reload_time" value="2" />
+		<property name="Reload_time" value="0.1" />
 		<property name="Sound_start" value="mp5_fire"/>
 		<property name="Sound_end" value="mp5_fire_end"/>
 		<property name="Sound_empty" value="weapon_empty"/>
@@ -411,7 +435,7 @@
 		<passive_effect name="RoundsPerMinute" operation="base_set" value="600"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1000"/>
 
-		<passive_effect name="MagazineSize" operation="base_set" value="6000"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="30000"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/> <!-- 4s -->
 		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1.35"/>
 		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="1.35"/>
@@ -459,10 +483,10 @@
 		<property name="IsDeveloper" value="true" />
 	<property class="Action0">
 		<property name="Class" value="Ranged"/>
-		<property name="Delay" value="0.5" />
+		<property name="Delay" value="0.01" />
 		<property name="Infinite_ammo" value="true" />
 		<property name="Magazine_items" value="follower9mmBullet" />
-		<property name="Reload_time" value="4" />
+		<property name="Reload_time" value="0.1" />
       	<property name="Sound_start" value="ak47_fire"/>
 		<property name="Sound_empty" value="weapon_empty"/>
 		<property name="Sound_reload" value="ak47_reload"/>
@@ -489,7 +513,7 @@
 		<passive_effect name="RoundsPerMinute" operation="base_set" value="400"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1000"/>
 
-		<passive_effect name="MagazineSize" operation="base_set" value="50000"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="30000"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".5"/> <!-- 3.8s -->
 
 		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.8"/>
@@ -540,10 +564,10 @@
 		<property name="IsDeveloper" value="true" />
 	<property class="Action0">
 		<property name="Class" value="Ranged"/>
-		<property name="Delay" value="0.5" />
+		<property name="Delay" value="0.01" />
 		<property name="Infinite_ammo" value="true" />
 		<property name="Magazine_items" value="follower762mmBullet" />
-		<property name="Reload_time" value="2" />
+		<property name="Reload_time" value="0.1" />
 		<property name="Sound_start" value="sniperrifle_fire"/>
 		<property name="Sound_repeat" value=""/>
 		<property name="Sound_end" value=""/>
@@ -573,7 +597,7 @@
 		<passive_effect name="RoundsPerMinute" operation="base_set" value="120"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
 
-		<passive_effect name="MagazineSize" operation="base_set" value="6000"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="30000"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".81"/> <!-- 2.66s -->
 
 		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="5"/>
@@ -623,10 +647,10 @@
 		<property name="IsDeveloper" value="true" />
 	<property class="Action0">
 		<property name="Class" value="Ranged"/>
-		<property name="Delay" value="0.5" />
+		<property name="Delay" value="0.01" />
 		<property name="Infinite_ammo" value="true" />
 		<property name="Magazine_items" value="follower762mmBullet" />
-		<property name="Reload_time" value="2" />
+		<property name="Reload_time" value="0.1" />
 		<property name="Sound_start" value="sniperrifle_fire"/>
 		<property name="Sound_repeat" value=""/>
 		<property name="Sound_end" value=""/>
@@ -655,7 +679,7 @@
 		<passive_effect name="RoundsPerMinute" operation="base_set" value="150"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
 
-		<passive_effect name="MagazineSize" operation="base_set" value="5"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="30000"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/> <!-- 2.7s -->
 		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="6"/>
 		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="6"/>
@@ -702,10 +726,10 @@
 		<property name="IsDeveloper" value="true" />
 	<property class="Action0">
 		<property name="Class" value="Launcher"/>
-		<property name="Delay" value="1" />
+		<property name="Delay" value="0.5" />
 		<property name="Infinite_ammo" value="true" />
 		<property name="Magazine_items" value="followerrocket" />
-		<property name="Reload_time" value="6" />
+		<property name="Reload_time" value="1" />
 		<property name="Sound_start" value="m136_fire"/>
 		<property name="Sound_repeat" value=""/>
 		<property name="Sound_end" value=""/>
@@ -731,7 +755,7 @@
 		<passive_effect name="BlockDamage" operation="perc_add" value="0"/>
 		<passive_effect name="RoundsPerMinute" operation="base_set" value="75"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
-		<passive_effect name="MagazineSize" operation="base_set" value="6000"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="30000"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".7"/> <!-- 2.7s -->
 		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="7"/>
 		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="7"/>
@@ -774,9 +798,10 @@
 		<property name="IsDeveloper" value="true" />
 	<property class="Action0">
 		<property name="Class" value="Ranged"/>
-		<property name="Delay" value="0.5" />
+		<property name="Delay" value="0.01" />
 		<property name="Infinite_ammo" value="true" />
 		<property name="Magazine_items" value="followerblunderbussAmmo" />
+			<property name="Reload_time" value="0.1" />
 		<property name="Magazine_item_ray_counts" value="10" />
 		<property name="Magazine_item_ray_spreads" value="0.96" />
 		<property name="Sound_start" value="blunderbuss_fire"/>
@@ -811,7 +836,7 @@
 		<passive_effect name="RoundsPerMinute" operation="base_set" value="75"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
 
-		<passive_effect name="MagazineSize" operation="base_set" value="1"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="30000"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/> <!-- 3.9s -->
 		
 		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="4.1"/>
@@ -858,9 +883,10 @@
 	<property class="Action0">
 		<property name="Class" value="Catapult"/>
 		<property name="Hitmask_override" value="Arrow"/>
-		<property name="Delay" value="0.5" />
+		<property name="Delay" value="0.01" />
 		<property name="Infinite_ammo" value="true" />
 		<property name="Magazine_items" value="followerarrow" />
+			<property name="Reload_time" value="0.1" />
 		<property name="Magazine_item_ray_counts" value="10" />
 		<property name="Magazine_item_ray_spreads" value="0.96" />
 		<property name="Sound_start" value="bow_fire"/>
@@ -887,7 +913,7 @@
 	<effect_group name="Base Effects"> <!-- gunWoodenBow -->
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="20"/>
 		<passive_effect name="MaxRange" operation="base_set" value="100"/>
-		<passive_effect name="MagazineSize" operation="base_set" value="6000"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="30000"/>
 
 		<passive_effect name="EntityDamage" operation="perc_add" value="0"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value="0"/>
@@ -940,10 +966,10 @@
 	<property class="Action0">
 		<property name="Class" value="Launcher"/>
 		<property name="Hitmask_override" value="Arrow"/>
-		<property name="Delay" value="0.1" />
+		<property name="Delay" value="0.01" />
 		<property name="Infinite_ammo" value="true" />
 		<property name="Magazine_items" value="followerCrossbowBolt" />
-		<property name="Reload_time" value="3" />
+		<property name="Reload_time" value="0.1" />
 		<property name="Sound_start" value="crossbow_fire"/>
 		<property name="Sound_repeat" value=""/>
 		<property name="Sound_end" value=""/>
@@ -959,7 +985,7 @@
 		<passive_effect name="ProjectileVelocity" operation="perc_add" value="0.5"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="25"/>
 		<passive_effect name="MaxRange" operation="base_set" value="100"/>
-		<passive_effect name="MagazineSize" operation="base_set" value="6000"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="30000"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".5"/> <!-- 3.4s -->
 
 		<passive_effect name="EntityDamage" operation="perc_add" value=".45"/>
@@ -993,6 +1019,7 @@
 <property name="Candrop" value="false" />
 		<property name="IsDeveloper" value="true" />
 		<property name="Magazine_items" value="followerexplodingCrossbowBolt" />
+		<property name="Infinite_ammo" value="true" />
 	</item>
 	</insertAfter>
 	<insertAfter xpath="/items/item[@name='followercrossbow1']" >
@@ -1002,6 +1029,7 @@
 <property name="Candrop" value="false" />
 		<property name="IsDeveloper" value="true" />
 		<property name="Magazine_items" value="followersteelCrossbowBolt" />
+		<property name="Infinite_ammo" value="true" />
 	</item>	
 	</insertAfter>
 <insertAfter xpath="/items/item[@name='followercrossbow2']" >
@@ -1031,10 +1059,10 @@
 		<property name="Class" value="Catapult"/>
 		<!-- Catapult might not be the best name for it but it can also be used for a slingshot -->
 		<property name="Hitmask_override" value="Arrow"/>
-		<property name="Delay" value="0.1" />
+		<property name="Delay" value="0.01" />
 		<property name="Infinite_ammo" value="true" />
 		<property name="Magazine_items" value="followerArrowFlaming" />
-		<property name="Reload_time" value="3" />		
+		<property name="Reload_time" value="0.1" />		
 		<property name="Sound_start" value="bow_fire"/>
 		<property name="Sound_repeat" value=""/>
 		<property name="Sound_end" value=""/>
@@ -1055,7 +1083,7 @@
 		<passive_effect name="ProjectileVelocity" operation="perc_add" value="0.2"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="30"/>
 		<passive_effect name="MaxRange" operation="base_set" value="100"/>
-		<passive_effect name="MagazineSize" operation="base_set" value="6000"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="30000"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value=".3"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value=".3"/>
 		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.67"/>
@@ -1086,6 +1114,7 @@
 	<property name="CraftingSkillGroup" value="craftSkillGuns"/>
 	<property name="SellableToTrader" value="false" />
 	<property name="Candrop" value="false" />
+		<property name="Stacknumber" value="30000"/> 
 	<property name="IsDeveloper" value="true" />
 	<property name="EconomicValue" value="14"/>
 	<property name="Group" value="Ammo/Weapons"/>
@@ -1100,6 +1129,7 @@
 	<property name="EconomicValue" value="19"/>
 	<property name="SellableToTrader" value="false" />
 	<property name="Candrop" value="false" />
+		<property name="Stacknumber" value="30000"/> 
 	<property name="IsDeveloper" value="true" />
 	<property name="Material" value="Mbrass"/>
 	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
@@ -1115,6 +1145,7 @@
 	<property name="EconomicValue" value="19"/>
 	<property name="SellableToTrader" value="false" />
 	<property name="Candrop" value="false" />
+		<property name="Stacknumber" value="30000"/> 
 	<property name="IsDeveloper" value="true" />
 	<property name="Material" value="Mbrass"/>
 	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
@@ -1135,6 +1166,7 @@
 	<property name="Material" value="Mlead"/>
 	<property name="EconomicValue" value="17"/>
 	<property name="SellableToTrader" value="false" />
+		<property name="Stacknumber" value="30000"/> 
 	<property name="Candrop" value="false" />
 	<property name="IsDeveloper" value="true" />
 	<property name="CraftingSkillGroup" value="craftSkillGuns"/>
@@ -1163,6 +1195,7 @@
 	<property name="HandMeshfile" value="Items/Misc/sackPrefab"/>
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="Material" value="Mmetal"/>
+		<property name="Stacknumber" value="30000"/> 
 	<property name="EconomicValue" value="588"/>
 	<property name="SellableToTrader" value="false" />
 	<property name="Candrop" value="false" />
@@ -1199,7 +1232,7 @@
 	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="Material" value="Mpaper"/>
-	<property name="Stacknumber" value="250"/> <!-- STK ammo -->
+	<property name="Stacknumber" value="30000"/> <!-- STK ammo -->
 	<property name="Group" value="Ammo/Weapons"/>
 	<property name="EconomicValue" value="6"/>
 	<property name="SellableToTrader" value="false" />
@@ -1225,7 +1258,7 @@
 	<property name="Material" value="Mmetal"/>
 	<property name="IsSticky" value="true"/>
 	<property name="StickyOffset" value="0.05"/>
-	<property name="Stacknumber" value="250"/> <!-- STK ammo -->
+	<property name="Stacknumber" value="30000"/> <!-- STK ammo -->
 	<property name="FuelValue" value="25"/>
 	<property name="SellableToTrader" value="false" />
 	<property name="Candrop" value="false" />
@@ -1263,6 +1296,7 @@
 	<property name="HandMeshfile" value="Items/Misc/sackPrefab"/>
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="Material" value="Mmetal"/>
+		<property name="Stacknumber" value="30000"/> 
 	<property name="SellableToTrader" value="false" />
 	<property name="Candrop" value="false" />
 	<property name="IsDeveloper" value="true" />
@@ -1300,6 +1334,7 @@
 	<property name="FuelValue" value="27"/>
 	<property name="SellableToTrader" value="false" />
 	<property name="Candrop" value="false" />
+		<property name="Stacknumber" value="30000"/> 
 	<property name="IsDeveloper" value="true" />
 	<property name="EconomicValue" value="80"/>
 	<property name="EconomicBundleSize" value="1"/>
@@ -1346,6 +1381,7 @@
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="EconomicValue" value="57"/>
 	<property name="EconomicBundleSize" value="5"/>
+		<property name="Stacknumber" value="30000"/> 
 	<property name="Damage_type" value="Piercing"/>
 	<property name="StickyOffset" value="0.5"/>
 	<property name="SellableToTrader" value="false" />
@@ -1376,7 +1412,7 @@
 	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="Material" value="Mbrass"/>
-	<property name="Stacknumber" value="128"/> <!-- STK ammo -->
+	<property name="Stacknumber" value="30000"/> <!-- STK ammo -->
 	<property name="EconomicValue" value="56"/>
 	<property name="CraftingSkillGroup" value="craftSkillGuns"/>
 	<property name="SellableToTrader" value="false" />
@@ -1412,6 +1448,7 @@
 	<property name="EconomicBundleSize" value="1"/>
 	<property name="Damage_type" value="Heat"/>
 	<property name="StickyOffset" value="0.7"/>
+		<property name="Stacknumber" value="30000"/> 
 	<property name="SellableToTrader" value="false" />
 	<property name="Candrop" value="false" />
 	<property name="IsDeveloper" value="true" />
@@ -1453,6 +1490,7 @@
 	<property name="SellableToTrader" value="false"/>
 	<property name="EconomicBundleSize" value="1"/>
 	<property name="EconomicValue" value="5"/>
+		<property name="Stacknumber" value="30000"/> 
 	<property name="FuelValue" value="250"/>
 	<property name="Candrop" value="false" />
 	<property name="IsDeveloper" value="true" />
@@ -1540,4 +1578,4 @@
 	</property>
 </item>
 </insertAfter>
-</stallionsden>
+</configs>

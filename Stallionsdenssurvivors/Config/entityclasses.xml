@@ -12,13 +12,24 @@
 	<property name="Class" value="EntitySurvivor"/>
 	<property name="Parent" value="Players"/>
 	<property name="PhysicsBody" value="Player"/>
-
 	<property name="AIPackages" value="Human Basic, Human Melee"/> 
 
+	<property name="AITask-1" value="ApproachAndAttackTarget" param1="EntityEnemy,30,EntityEnemyAnimal,30,EntityZombie,30,EntityZombieCop,30,EntityVulture,30,EntityZombieCrawl,30,EntityZombieDog,30" />
+	<property name="AITask-2" value="Territorial"/>
+	<property name="AITask-3" value="Wander"/>		
+	<property name="AITask-4" value="Look"/>
+	<property name="AITask-5" value="BreakBlock"/>	
+	<property name="AITask-6" value="ApproachSpot"/>
+	<property name="AITask-7" value="Swim"/>
+	<property name="AITarget-1" value="SetNearestEntityAsTarget" param1="EntityEnemy,30,EntityEnemyAnimal,30,EntityZombie,30,EntityZombieCop,30,EntityVulture,30,EntityZombieCrawl,30,EntityZombieDog,30" />
+	<property name="AITarget-2" value="SetAsTargetIfHurt" param1="EntityEnemy,30,EntityEnemyAnimal,30,EntityZombie,30,EntityZombieCop,30,EntityVulture,30,EntityZombieCrawl,30,EntityZombieDog,30" />
+	<property name="AITarget-3" value="BlockingTargetTask" />
+	
+	
 	<property name="ItemsOnEnterGame.GameModeSurvival" value="meleeClubWood"/>
 	<property name="ItemsOnEnterGame.GameModeSurvivalSP" value="meleeClubWood"/>
 	<property name="ItemsOnEnterGame.GameModeSurvivalMP" value="meleeClubWood"/>
-	<property name="MaxHealth" value="150"/>
+	<property name="MaxHealth" value="200"/>
 	<property name="MaxViewAngle" value="180"/>
 	<property name="Weight" value="70"/>
 	<property name="WanderSpeed" value="1"/>
@@ -72,7 +83,7 @@
 	<!--<property name="Class" value="EntityBandit" />-->
 	<property name="Parent" value="Players" />
 	<property name="PhysicsBody" value="Player" />
-	<!-- AI properties -->
+	
 	<property name="AITask-1" value="Wander" />
 	<property name="AITask-2" value="ApproachAndAttackTarget" param1="EntityPlayer" />
 	<property name="AITask-3" value="ApproachSpot" />
@@ -80,6 +91,7 @@
 	<property name="AITarget-1" value="SetAsTargetIfHurt" param1="EntityPlayer" />
 	<property name="AITarget-2" value="BlockingTargetTask" />
 	<property name="AITarget-3" value="SetNearestEntityAsTarget" param1="EntityPlayer" />
+	
 	<!-- General entity properties -->
 	<property name="HandItem" value="handMedic" />
 	<property name="MaxHealth" value="550" />
@@ -124,34 +136,7 @@
 	<property name="SoundPlayerLandThump" value="PlayerLandThump" />
 	<property name="Parent" value="Players" />
 	<property name="PhysicsBody" value="Player" />
-	<!-- AI properties -->
-	<property name="AITask-1" value="ApproachAndAttackTarget" param1="EntityEnemy" />
-	<property name="AITask-2" value="ApproachAndAttackTarget" param1="EntityZombie" />
-	<property name="AITask-3" value="ApproachAndAttackTarget" param1="EntityZombieCop" param2="50" />
-	<property name="AITask-4" value="ApproachAndAttackTarget" param1="EntityVulture" param2="50" />
-	<property name="AITask-5" value="ApproachAndAttackTarget" param1="EntityZombieCrawl" />
-	<property name="AITask-6" value="ApproachAndAttackTarget" param1="EntityZombieDog" />
-	<property name="AITask-7" value="SetAsTargetIfHurt" param1="EntityZombieDog" />
-	<property name="AITask-8" value="SetAsTargetIfHurt" param1="EntityEnemy" />	
-	<property name="AITask-9" value="SetAsTargetIfHurt" param1="EntityZombie" />
-	<property name="AITask-10" value="SetAsTargetIfHurt" param1="EntityZombieDog" />	
-	<property name="AITask-11" value="SetAsTargetIfHurt" param1="EntityVulture" param2="50" />
-	<property name="AITask-12" value="SetAsTargetIfHurt" param1="EntityZombieCrawl" />	
-	<property name="AITask-13" value="SetAsTargetIfHurt" param1="EntityZombieCop" />
-	<property name="AITask-14" value="ApproachSpot" />
-	<property name="AITask-15" value="Wander" />
-	<property name="AITarget-1" value="SetNearestEntityAsTarget" param1="EntityEnemy" />
-	<property name="AITarget-2" value="SetNearestEntityAsTarget" param1="EntityZombie" />
-	<property name="AITarget-3" value="SetNearestEntityAsTarget" param1="EntityZombieCop" />
-	<property name="AITarget-4" value="SetNearestEntityAsTarget" param1="EntityVulture" param2="50" />
-	<property name="AITarget-5" value="SetNearestEntityAsTarget" param1="EntityZombieCrawl" />
-	<property name="AITarget-6" value="SetNearestEntityAsTarget" param1="EntityZombieDog" />
-	<property name="AITarget-7" value="SetAsTargetIfHurt" param1="EntityEnemy" />
-	<property name="AITarget-8" value="SetAsTargetIfHurt" param1="EntityZombie" />	
-	<property name="AITarget-9" value="SetAsTargetIfHurt" param1="EntityZombieCop" />
-	<property name="AITarget-10" value="SetAsTargetIfHurt" param1="EntityVulture" param2="50" />	
-	<property name="AITarget-11" value="SetAsTargetIfHurt" param1="EntityZombieCrawl" />
-	<property name="AITarget-12" value="SetAsTargetIfHurt" param1="EntityZombieDog" />
+	
 	<property name="AITarget-13" value="BlockingTargetTask" />
 	<!-- General entity properties -->
 	<property name="ItemsOnEnterGame.GameModeSurvival" value="followerclubSpiked"/>
@@ -209,37 +194,6 @@
 	<property name="AttackTimeoutDay" value="0.5" />
 	<property name="AttackTimeoutNight" value="0.5" />
 	
-	<!-- AI properties -->
-	<property name="AITask-1" value="ApproachAndAttackTarget" param1="EntityEnemy" />
-	<property name="AITask-2" value="ApproachAndAttackTarget" param1="EntityZombie" />
-	<property name="AITask-3" value="ApproachAndAttackTarget" param1="EntityZombieCop" param2="50" />
-	<property name="AITask-4" value="ApproachAndAttackTarget" param1="EntityVulture" param2="50" />
-	<property name="AITask-5" value="ApproachAndAttackTarget" param1="EntityZombieCrawl" />
-	<property name="AITask-6" value="ApproachAndAttackTarget" param1="EntityZombieDog" />
-	<property name="AITask-7" value="SetAsTargetIfHurt" param1="EntityZombieDog" />
-	<property name="AITask-8" value="SetAsTargetIfHurt" param1="EntityEnemy" />	
-	<property name="AITask-9" value="SetAsTargetIfHurt" param1="EntityZombie" />
-	<property name="AITask-10" value="SetAsTargetIfHurt" param1="EntityZombieDog" />	
-	<property name="AITask-11" value="SetAsTargetIfHurt" param1="EntityVulture" param2="50" />
-	<property name="AITask-12" value="SetAsTargetIfHurt" param1="EntityZombieCrawl" />	
-	<property name="AITask-13" value="SetAsTargetIfHurt" param1="EntityZombieCop" />
-	<property name="AITask-14" value="ApproachSpot" />
-	<property name="AITask-15" value="Wander" />
-	<property name="AITarget-1" value="SetNearestEntityAsTarget" param1="EntityEnemy" />
-	<property name="AITarget-2" value="SetNearestEntityAsTarget" param1="EntityZombie" />
-	<property name="AITarget-3" value="SetNearestEntityAsTarget" param1="EntityZombieCop" />
-	<property name="AITarget-4" value="SetNearestEntityAsTarget" param1="EntityVulture" param2="50" />
-	<property name="AITarget-5" value="SetNearestEntityAsTarget" param1="EntityZombieCrawl" />
-	<property name="AITarget-6" value="SetNearestEntityAsTarget" param1="EntityZombieDog" />
-	<property name="AITarget-7" value="SetAsTargetIfHurt" param1="EntityEnemy" />
-	<property name="AITarget-8" value="SetAsTargetIfHurt" param1="EntityZombie" />	
-	<property name="AITarget-9" value="SetAsTargetIfHurt" param1="EntityZombieCop" />
-	<property name="AITarget-10" value="SetAsTargetIfHurt" param1="EntityVulture" param2="50" />	
-	<property name="AITarget-11" value="SetAsTargetIfHurt" param1="EntityZombieCrawl" />
-	<property name="AITarget-12" value="SetAsTargetIfHurt" param1="EntityZombieDog" />
-	<property name="AITarget-13" value="BlockingTargetTask" />
-	<property name="CanClimbLadders" value="true" />
-	
 	<!-- General entity properties -->
 	<property name="LootDropProb" value="0.02"/> <!-- Whether it drops a loot bag on death or not. -->
 	<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
@@ -267,36 +221,6 @@
 	<property name="AttackTimeoutDay" value="0.5" />
 	<property name="AttackTimeoutNight" value="0.5" />
 	
-	<!-- AI properties -->
-	<property name="AITask-1" value="ApproachAndAttackTarget" param1="EntityEnemy" />
-	<property name="AITask-2" value="ApproachAndAttackTarget" param1="EntityZombie" />
-	<property name="AITask-3" value="ApproachAndAttackTarget" param1="EntityZombieCop" param2="50" />
-	<property name="AITask-4" value="ApproachAndAttackTarget" param1="EntityVulture" param2="50" />
-	<property name="AITask-5" value="ApproachAndAttackTarget" param1="EntityZombieCrawl" />
-	<property name="AITask-6" value="ApproachAndAttackTarget" param1="EntityZombieDog" />
-	<property name="AITask-7" value="SetAsTargetIfHurt" param1="EntityZombieDog" />
-	<property name="AITask-8" value="SetAsTargetIfHurt" param1="EntityEnemy" />	
-	<property name="AITask-9" value="SetAsTargetIfHurt" param1="EntityZombie" />
-	<property name="AITask-10" value="SetAsTargetIfHurt" param1="EntityZombieDog" />	
-	<property name="AITask-11" value="SetAsTargetIfHurt" param1="EntityVulture" param2="50" />
-	<property name="AITask-12" value="SetAsTargetIfHurt" param1="EntityZombieCrawl" />	
-	<property name="AITask-13" value="SetAsTargetIfHurt" param1="EntityZombieCop" />
-	<property name="AITask-14" value="ApproachSpot" />
-	<property name="AITask-15" value="Wander" />
-	<property name="AITarget-1" value="SetNearestEntityAsTarget" param1="EntityEnemy" />
-	<property name="AITarget-2" value="SetNearestEntityAsTarget" param1="EntityZombie" />
-	<property name="AITarget-3" value="SetNearestEntityAsTarget" param1="EntityZombieCop" />
-	<property name="AITarget-4" value="SetNearestEntityAsTarget" param1="EntityVulture" param2="50" />
-	<property name="AITarget-5" value="SetNearestEntityAsTarget" param1="EntityZombieCrawl" />
-	<property name="AITarget-6" value="SetNearestEntityAsTarget" param1="EntityZombieDog" />
-	<property name="AITarget-7" value="SetAsTargetIfHurt" param1="EntityEnemy" />
-	<property name="AITarget-8" value="SetAsTargetIfHurt" param1="EntityZombie" />	
-	<property name="AITarget-9" value="SetAsTargetIfHurt" param1="EntityZombieCop" />
-	<property name="AITarget-10" value="SetAsTargetIfHurt" param1="EntityVulture" param2="50" />	
-	<property name="AITarget-11" value="SetAsTargetIfHurt" param1="EntityZombieCrawl" />
-	<property name="AITarget-12" value="SetAsTargetIfHurt" param1="EntityZombieDog" />
-	<property name="AITarget-13" value="BlockingTargetTask" />
-	<property name="CanClimbLadders" value="true" />
 	<!-- General entity properties -->
 	<property name="LootDropProb" value="0.02"/> <!-- Whether it drops a loot bag on death or not. -->
 	<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
@@ -323,36 +247,6 @@
 	<property name="AttackTimeoutDay" value="0.5" />
 	<property name="AttackTimeoutNight" value="0.5" />
 	
-	<!-- AI properties -->
-	<property name="AITask-1" value="ApproachAndAttackTarget" param1="EntityEnemy" />
-	<property name="AITask-2" value="ApproachAndAttackTarget" param1="EntityZombie" />
-	<property name="AITask-3" value="ApproachAndAttackTarget" param1="EntityZombieCop" param2="50" />
-	<property name="AITask-4" value="ApproachAndAttackTarget" param1="EntityVulture" param2="50" />
-	<property name="AITask-5" value="ApproachAndAttackTarget" param1="EntityZombieCrawl" />
-	<property name="AITask-6" value="ApproachAndAttackTarget" param1="EntityZombieDog" />
-	<property name="AITask-7" value="SetAsTargetIfHurt" param1="EntityZombieDog" />
-	<property name="AITask-8" value="SetAsTargetIfHurt" param1="EntityEnemy" />	
-	<property name="AITask-9" value="SetAsTargetIfHurt" param1="EntityZombie" />
-	<property name="AITask-10" value="SetAsTargetIfHurt" param1="EntityZombieDog" />	
-	<property name="AITask-11" value="SetAsTargetIfHurt" param1="EntityVulture" param2="50" />
-	<property name="AITask-12" value="SetAsTargetIfHurt" param1="EntityZombieCrawl" />	
-	<property name="AITask-13" value="SetAsTargetIfHurt" param1="EntityZombieCop" />
-	<property name="AITask-14" value="ApproachSpot" />
-	<property name="AITask-15" value="Wander" />
-	<property name="AITarget-1" value="SetNearestEntityAsTarget" param1="EntityEnemy" />
-	<property name="AITarget-2" value="SetNearestEntityAsTarget" param1="EntityZombie" />
-	<property name="AITarget-3" value="SetNearestEntityAsTarget" param1="EntityZombieCop" />
-	<property name="AITarget-4" value="SetNearestEntityAsTarget" param1="EntityVulture" param2="50" />
-	<property name="AITarget-5" value="SetNearestEntityAsTarget" param1="EntityZombieCrawl" />
-	<property name="AITarget-6" value="SetNearestEntityAsTarget" param1="EntityZombieDog" />
-	<property name="AITarget-7" value="SetAsTargetIfHurt" param1="EntityEnemy" />
-	<property name="AITarget-8" value="SetAsTargetIfHurt" param1="EntityZombie" />	
-	<property name="AITarget-9" value="SetAsTargetIfHurt" param1="EntityZombieCop" />
-	<property name="AITarget-10" value="SetAsTargetIfHurt" param1="EntityVulture" param2="50" />	
-	<property name="AITarget-11" value="SetAsTargetIfHurt" param1="EntityZombieCrawl" />
-	<property name="AITarget-12" value="SetAsTargetIfHurt" param1="EntityZombieDog" />
-	<property name="AITarget-13" value="BlockingTargetTask" />
-	<property name="CanClimbLadders" value="true" />
 	<!-- General entity properties -->
 	<property name="LootDropProb" value="0.02"/> <!-- Whether it drops a loot bag on death or not. -->
 	<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
@@ -380,36 +274,6 @@
 	<property name="AttackTimeoutDay" value="0.5" />
 	<property name="AttackTimeoutNight" value="0.5" />
 	
-	<!-- AI properties -->
-	<property name="AITask-1" value="ApproachAndAttackTarget" param1="EntityEnemy" />
-	<property name="AITask-2" value="ApproachAndAttackTarget" param1="EntityZombie" />
-	<property name="AITask-3" value="ApproachAndAttackTarget" param1="EntityZombieCop" param2="50" />
-	<property name="AITask-4" value="ApproachAndAttackTarget" param1="EntityVulture" param2="50" />
-	<property name="AITask-5" value="ApproachAndAttackTarget" param1="EntityZombieCrawl" />
-	<property name="AITask-6" value="ApproachAndAttackTarget" param1="EntityZombieDog" />
-	<property name="AITask-7" value="SetAsTargetIfHurt" param1="EntityZombieDog" />
-	<property name="AITask-8" value="SetAsTargetIfHurt" param1="EntityEnemy" />	
-	<property name="AITask-9" value="SetAsTargetIfHurt" param1="EntityZombie" />
-	<property name="AITask-10" value="SetAsTargetIfHurt" param1="EntityZombieDog" />	
-	<property name="AITask-11" value="SetAsTargetIfHurt" param1="EntityVulture" param2="50" />
-	<property name="AITask-12" value="SetAsTargetIfHurt" param1="EntityZombieCrawl" />	
-	<property name="AITask-13" value="SetAsTargetIfHurt" param1="EntityZombieCop" />
-	<property name="AITask-14" value="ApproachSpot" />
-	<property name="AITask-15" value="Wander" />
-	<property name="AITarget-1" value="SetNearestEntityAsTarget" param1="EntityEnemy" />
-	<property name="AITarget-2" value="SetNearestEntityAsTarget" param1="EntityZombie" />
-	<property name="AITarget-3" value="SetNearestEntityAsTarget" param1="EntityZombieCop" />
-	<property name="AITarget-4" value="SetNearestEntityAsTarget" param1="EntityVulture" param2="50" />
-	<property name="AITarget-5" value="SetNearestEntityAsTarget" param1="EntityZombieCrawl" />
-	<property name="AITarget-6" value="SetNearestEntityAsTarget" param1="EntityZombieDog" />
-	<property name="AITarget-7" value="SetAsTargetIfHurt" param1="EntityEnemy" />
-	<property name="AITarget-8" value="SetAsTargetIfHurt" param1="EntityZombie" />	
-	<property name="AITarget-9" value="SetAsTargetIfHurt" param1="EntityZombieCop" />
-	<property name="AITarget-10" value="SetAsTargetIfHurt" param1="EntityVulture" param2="50" />	
-	<property name="AITarget-11" value="SetAsTargetIfHurt" param1="EntityZombieCrawl" />
-	<property name="AITarget-12" value="SetAsTargetIfHurt" param1="EntityZombieDog" />
-	<property name="AITarget-13" value="BlockingTargetTask" />
-	<property name="CanClimbLadders" value="true" />
 	<!-- General entity properties -->
 	<property name="LootDropProb" value="0.02"/> <!-- Whether it drops a loot bag on death or not. -->
 	<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
@@ -436,36 +300,6 @@
 	<property name="AttackTimeoutDay" value="0.5" />
 	<property name="AttackTimeoutNight" value="0.5" />
 	
-	<!-- AI properties -->
-	<property name="AITask-1" value="ApproachAndAttackTarget" param1="EntityEnemy" />
-	<property name="AITask-2" value="ApproachAndAttackTarget" param1="EntityZombie" />
-	<property name="AITask-3" value="ApproachAndAttackTarget" param1="EntityZombieCop" param2="50" />
-	<property name="AITask-4" value="ApproachAndAttackTarget" param1="EntityVulture" param2="50" />
-	<property name="AITask-5" value="ApproachAndAttackTarget" param1="EntityZombieCrawl" />
-	<property name="AITask-6" value="ApproachAndAttackTarget" param1="EntityZombieDog" />
-	<property name="AITask-7" value="SetAsTargetIfHurt" param1="EntityZombieDog" />
-	<property name="AITask-8" value="SetAsTargetIfHurt" param1="EntityEnemy" />	
-	<property name="AITask-9" value="SetAsTargetIfHurt" param1="EntityZombie" />
-	<property name="AITask-10" value="SetAsTargetIfHurt" param1="EntityZombieDog" />	
-	<property name="AITask-11" value="SetAsTargetIfHurt" param1="EntityVulture" param2="50" />
-	<property name="AITask-12" value="SetAsTargetIfHurt" param1="EntityZombieCrawl" />	
-	<property name="AITask-13" value="SetAsTargetIfHurt" param1="EntityZombieCop" />
-	<property name="AITask-14" value="ApproachSpot" />
-	<property name="AITask-15" value="Wander" />
-	<property name="AITarget-1" value="SetNearestEntityAsTarget" param1="EntityEnemy" />
-	<property name="AITarget-2" value="SetNearestEntityAsTarget" param1="EntityZombie" />
-	<property name="AITarget-3" value="SetNearestEntityAsTarget" param1="EntityZombieCop" />
-	<property name="AITarget-4" value="SetNearestEntityAsTarget" param1="EntityVulture" param2="50" />
-	<property name="AITarget-5" value="SetNearestEntityAsTarget" param1="EntityZombieCrawl" />
-	<property name="AITarget-6" value="SetNearestEntityAsTarget" param1="EntityZombieDog" />
-	<property name="AITarget-7" value="SetAsTargetIfHurt" param1="EntityEnemy" />
-	<property name="AITarget-8" value="SetAsTargetIfHurt" param1="EntityZombie" />	
-	<property name="AITarget-9" value="SetAsTargetIfHurt" param1="EntityZombieCop" />
-	<property name="AITarget-10" value="SetAsTargetIfHurt" param1="EntityVulture" param2="50" />	
-	<property name="AITarget-11" value="SetAsTargetIfHurt" param1="EntityZombieCrawl" />
-	<property name="AITarget-12" value="SetAsTargetIfHurt" param1="EntityZombieDog" />
-	<property name="AITarget-13" value="BlockingTargetTask" />
-	<property name="CanClimbLadders" value="true" />
 	<!-- General entity properties -->
 	<property name="LootDropProb" value="0.02"/> <!-- Whether it drops a loot bag on death or not. -->
 	<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
@@ -493,36 +327,6 @@
 	<property name="AttackTimeoutDay" value="0.5" />
 	<property name="AttackTimeoutNight" value="0.5" />
 	
-	<!-- AI properties -->
-	<property name="AITask-1" value="ApproachAndAttackTarget" param1="EntityEnemy" />
-	<property name="AITask-2" value="ApproachAndAttackTarget" param1="EntityZombie" />
-	<property name="AITask-3" value="ApproachAndAttackTarget" param1="EntityZombieCop" param2="50" />
-	<property name="AITask-4" value="ApproachAndAttackTarget" param1="EntityVulture" param2="50" />
-	<property name="AITask-5" value="ApproachAndAttackTarget" param1="EntityZombieCrawl" />
-	<property name="AITask-6" value="ApproachAndAttackTarget" param1="EntityZombieDog" />
-	<property name="AITask-7" value="SetAsTargetIfHurt" param1="EntityZombieDog" />
-	<property name="AITask-8" value="SetAsTargetIfHurt" param1="EntityEnemy" />	
-	<property name="AITask-9" value="SetAsTargetIfHurt" param1="EntityZombie" />
-	<property name="AITask-10" value="SetAsTargetIfHurt" param1="EntityZombieDog" />	
-	<property name="AITask-11" value="SetAsTargetIfHurt" param1="EntityVulture" param2="50" />
-	<property name="AITask-12" value="SetAsTargetIfHurt" param1="EntityZombieCrawl" />	
-	<property name="AITask-13" value="SetAsTargetIfHurt" param1="EntityZombieCop" />
-	<property name="AITask-14" value="ApproachSpot" />
-	<property name="AITask-15" value="Wander" />
-	<property name="AITarget-1" value="SetNearestEntityAsTarget" param1="EntityEnemy" />
-	<property name="AITarget-2" value="SetNearestEntityAsTarget" param1="EntityZombie" />
-	<property name="AITarget-3" value="SetNearestEntityAsTarget" param1="EntityZombieCop" />
-	<property name="AITarget-4" value="SetNearestEntityAsTarget" param1="EntityVulture" param2="50" />
-	<property name="AITarget-5" value="SetNearestEntityAsTarget" param1="EntityZombieCrawl" />
-	<property name="AITarget-6" value="SetNearestEntityAsTarget" param1="EntityZombieDog" />
-	<property name="AITarget-7" value="SetAsTargetIfHurt" param1="EntityEnemy" />
-	<property name="AITarget-8" value="SetAsTargetIfHurt" param1="EntityZombie" />	
-	<property name="AITarget-9" value="SetAsTargetIfHurt" param1="EntityZombieCop" />
-	<property name="AITarget-10" value="SetAsTargetIfHurt" param1="EntityVulture" param2="50" />	
-	<property name="AITarget-11" value="SetAsTargetIfHurt" param1="EntityZombieCrawl" />
-	<property name="AITarget-12" value="SetAsTargetIfHurt" param1="EntityZombieDog" />
-	<property name="AITarget-13" value="BlockingTargetTask" />
-	<property name="CanClimbLadders" value="true" />
 	<!-- General entity properties -->
 	<property name="LootDropProb" value="0.02"/> <!-- Whether it drops a loot bag on death or not. -->
 	<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
@@ -549,36 +353,6 @@
 	<property name="AttackTimeoutDay" value="0.5" />
 	<property name="AttackTimeoutNight" value="0.5" />
 	
-	<!-- AI properties -->
-	<property name="AITask-1" value="ApproachAndAttackTarget" param1="EntityEnemy" />
-	<property name="AITask-2" value="ApproachAndAttackTarget" param1="EntityZombie" />
-	<property name="AITask-3" value="ApproachAndAttackTarget" param1="EntityZombieCop" param2="50" />
-	<property name="AITask-4" value="ApproachAndAttackTarget" param1="EntityVulture" param2="50" />
-	<property name="AITask-5" value="ApproachAndAttackTarget" param1="EntityZombieCrawl" />
-	<property name="AITask-6" value="ApproachAndAttackTarget" param1="EntityZombieDog" />
-	<property name="AITask-7" value="SetAsTargetIfHurt" param1="EntityZombieDog" />
-	<property name="AITask-8" value="SetAsTargetIfHurt" param1="EntityEnemy" />	
-	<property name="AITask-9" value="SetAsTargetIfHurt" param1="EntityZombie" />
-	<property name="AITask-10" value="SetAsTargetIfHurt" param1="EntityZombieDog" />	
-	<property name="AITask-11" value="SetAsTargetIfHurt" param1="EntityVulture" param2="50" />
-	<property name="AITask-12" value="SetAsTargetIfHurt" param1="EntityZombieCrawl" />	
-	<property name="AITask-13" value="SetAsTargetIfHurt" param1="EntityZombieCop" />
-	<property name="AITask-14" value="ApproachSpot" />
-	<property name="AITask-15" value="Wander" />
-	<property name="AITarget-1" value="SetNearestEntityAsTarget" param1="EntityEnemy" />
-	<property name="AITarget-2" value="SetNearestEntityAsTarget" param1="EntityZombie" />
-	<property name="AITarget-3" value="SetNearestEntityAsTarget" param1="EntityZombieCop" />
-	<property name="AITarget-4" value="SetNearestEntityAsTarget" param1="EntityVulture" param2="50" />
-	<property name="AITarget-5" value="SetNearestEntityAsTarget" param1="EntityZombieCrawl" />
-	<property name="AITarget-6" value="SetNearestEntityAsTarget" param1="EntityZombieDog" />
-	<property name="AITarget-7" value="SetAsTargetIfHurt" param1="EntityEnemy" />
-	<property name="AITarget-8" value="SetAsTargetIfHurt" param1="EntityZombie" />	
-	<property name="AITarget-9" value="SetAsTargetIfHurt" param1="EntityZombieCop" />
-	<property name="AITarget-10" value="SetAsTargetIfHurt" param1="EntityVulture" param2="50" />	
-	<property name="AITarget-11" value="SetAsTargetIfHurt" param1="EntityZombieCrawl" />
-	<property name="AITarget-12" value="SetAsTargetIfHurt" param1="EntityZombieDog" />
-	<property name="AITarget-13" value="BlockingTargetTask" />
-	<property name="CanClimbLadders" value="true" />
 	<!-- General entity properties -->
 	<property name="LootDropProb" value="0.02"/> <!-- Whether it drops a loot bag on death or not. -->
 	<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
@@ -606,36 +380,6 @@
 	<property name="AttackTimeoutDay" value="0.5" />
 	<property name="AttackTimeoutNight" value="0.5" />
 	
-	<!-- AI properties -->
-	<property name="AITask-1" value="ApproachAndAttackTarget" param1="EntityEnemy" />
-	<property name="AITask-2" value="ApproachAndAttackTarget" param1="EntityZombie" />
-	<property name="AITask-3" value="ApproachAndAttackTarget" param1="EntityZombieCop" param2="50" />
-	<property name="AITask-4" value="ApproachAndAttackTarget" param1="EntityVulture" param2="50" />
-	<property name="AITask-5" value="ApproachAndAttackTarget" param1="EntityZombieCrawl" />
-	<property name="AITask-6" value="ApproachAndAttackTarget" param1="EntityZombieDog" />
-	<property name="AITask-7" value="SetAsTargetIfHurt" param1="EntityZombieDog" />
-	<property name="AITask-8" value="SetAsTargetIfHurt" param1="EntityEnemy" />	
-	<property name="AITask-9" value="SetAsTargetIfHurt" param1="EntityZombie" />
-	<property name="AITask-10" value="SetAsTargetIfHurt" param1="EntityZombieDog" />	
-	<property name="AITask-11" value="SetAsTargetIfHurt" param1="EntityVulture" param2="50" />
-	<property name="AITask-12" value="SetAsTargetIfHurt" param1="EntityZombieCrawl" />	
-	<property name="AITask-13" value="SetAsTargetIfHurt" param1="EntityZombieCop" />
-	<property name="AITask-14" value="ApproachSpot" />
-	<property name="AITask-15" value="Wander" />
-	<property name="AITarget-1" value="SetNearestEntityAsTarget" param1="EntityEnemy" />
-	<property name="AITarget-2" value="SetNearestEntityAsTarget" param1="EntityZombie" />
-	<property name="AITarget-3" value="SetNearestEntityAsTarget" param1="EntityZombieCop" />
-	<property name="AITarget-4" value="SetNearestEntityAsTarget" param1="EntityVulture" param2="50" />
-	<property name="AITarget-5" value="SetNearestEntityAsTarget" param1="EntityZombieCrawl" />
-	<property name="AITarget-6" value="SetNearestEntityAsTarget" param1="EntityZombieDog" />
-	<property name="AITarget-7" value="SetAsTargetIfHurt" param1="EntityEnemy" />
-	<property name="AITarget-8" value="SetAsTargetIfHurt" param1="EntityZombie" />	
-	<property name="AITarget-9" value="SetAsTargetIfHurt" param1="EntityZombieCop" />
-	<property name="AITarget-10" value="SetAsTargetIfHurt" param1="EntityVulture" param2="50" />	
-	<property name="AITarget-11" value="SetAsTargetIfHurt" param1="EntityZombieCrawl" />
-	<property name="AITarget-12" value="SetAsTargetIfHurt" param1="EntityZombieDog" />
-	<property name="AITarget-13" value="BlockingTargetTask" />
-	<property name="CanClimbLadders" value="true" />
 	<!-- General entity properties -->
 	<property name="LootDropProb" value="0.02"/> <!-- Whether it drops a loot bag on death or not. -->
 	<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
@@ -662,36 +406,6 @@
 	<property name="AttackTimeoutDay" value="0.5" />
 	<property name="AttackTimeoutNight" value="0.5" />
 	
-	<!-- AI properties -->
-	<property name="AITask-1" value="ApproachAndAttackTarget" param1="EntityEnemy" />
-	<property name="AITask-2" value="ApproachAndAttackTarget" param1="EntityZombie" />
-	<property name="AITask-3" value="ApproachAndAttackTarget" param1="EntityZombieCop" param2="50" />
-	<property name="AITask-4" value="ApproachAndAttackTarget" param1="EntityVulture" param2="50" />
-	<property name="AITask-5" value="ApproachAndAttackTarget" param1="EntityZombieCrawl" />
-	<property name="AITask-6" value="ApproachAndAttackTarget" param1="EntityZombieDog" />
-	<property name="AITask-7" value="SetAsTargetIfHurt" param1="EntityZombieDog" />
-	<property name="AITask-8" value="SetAsTargetIfHurt" param1="EntityEnemy" />	
-	<property name="AITask-9" value="SetAsTargetIfHurt" param1="EntityZombie" />
-	<property name="AITask-10" value="SetAsTargetIfHurt" param1="EntityZombieDog" />	
-	<property name="AITask-11" value="SetAsTargetIfHurt" param1="EntityVulture" param2="50" />
-	<property name="AITask-12" value="SetAsTargetIfHurt" param1="EntityZombieCrawl" />	
-	<property name="AITask-13" value="SetAsTargetIfHurt" param1="EntityZombieCop" />
-	<property name="AITask-14" value="ApproachSpot" />
-	<property name="AITask-15" value="Wander" />
-	<property name="AITarget-1" value="SetNearestEntityAsTarget" param1="EntityEnemy" />
-	<property name="AITarget-2" value="SetNearestEntityAsTarget" param1="EntityZombie" />
-	<property name="AITarget-3" value="SetNearestEntityAsTarget" param1="EntityZombieCop" />
-	<property name="AITarget-4" value="SetNearestEntityAsTarget" param1="EntityVulture" param2="50" />
-	<property name="AITarget-5" value="SetNearestEntityAsTarget" param1="EntityZombieCrawl" />
-	<property name="AITarget-6" value="SetNearestEntityAsTarget" param1="EntityZombieDog" />
-	<property name="AITarget-7" value="SetAsTargetIfHurt" param1="EntityEnemy" />
-	<property name="AITarget-8" value="SetAsTargetIfHurt" param1="EntityZombie" />	
-	<property name="AITarget-9" value="SetAsTargetIfHurt" param1="EntityZombieCop" />
-	<property name="AITarget-10" value="SetAsTargetIfHurt" param1="EntityVulture" param2="50" />	
-	<property name="AITarget-11" value="SetAsTargetIfHurt" param1="EntityZombieCrawl" />
-	<property name="AITarget-12" value="SetAsTargetIfHurt" param1="EntityZombieDog" />
-	<property name="AITarget-13" value="BlockingTargetTask" />
-	<property name="CanClimbLadders" value="true" />
 	<!-- General entity properties -->
 	<property name="LootDropProb" value="0.02"/> <!-- Whether it drops a loot bag on death or not. -->
 	<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
@@ -719,36 +433,6 @@
 	<property name="AttackTimeoutDay" value="0.5" />
 	<property name="AttackTimeoutNight" value="0.5" />
 	
-	<!-- AI properties -->
-	<property name="AITask-1" value="ApproachAndAttackTarget" param1="EntityEnemy" />
-	<property name="AITask-2" value="ApproachAndAttackTarget" param1="EntityZombie" />
-	<property name="AITask-3" value="ApproachAndAttackTarget" param1="EntityZombieCop" param2="50" />
-	<property name="AITask-4" value="ApproachAndAttackTarget" param1="EntityVulture" param2="50" />
-	<property name="AITask-5" value="ApproachAndAttackTarget" param1="EntityZombieCrawl" />
-	<property name="AITask-6" value="ApproachAndAttackTarget" param1="EntityZombieDog" />
-	<property name="AITask-7" value="SetAsTargetIfHurt" param1="EntityZombieDog" />
-	<property name="AITask-8" value="SetAsTargetIfHurt" param1="EntityEnemy" />	
-	<property name="AITask-9" value="SetAsTargetIfHurt" param1="EntityZombie" />
-	<property name="AITask-10" value="SetAsTargetIfHurt" param1="EntityZombieDog" />	
-	<property name="AITask-11" value="SetAsTargetIfHurt" param1="EntityVulture" param2="50" />
-	<property name="AITask-12" value="SetAsTargetIfHurt" param1="EntityZombieCrawl" />	
-	<property name="AITask-13" value="SetAsTargetIfHurt" param1="EntityZombieCop" />
-	<property name="AITask-14" value="ApproachSpot" />
-	<property name="AITask-15" value="Wander" />
-	<property name="AITarget-1" value="SetNearestEntityAsTarget" param1="EntityEnemy" />
-	<property name="AITarget-2" value="SetNearestEntityAsTarget" param1="EntityZombie" />
-	<property name="AITarget-3" value="SetNearestEntityAsTarget" param1="EntityZombieCop" />
-	<property name="AITarget-4" value="SetNearestEntityAsTarget" param1="EntityVulture" param2="50" />
-	<property name="AITarget-5" value="SetNearestEntityAsTarget" param1="EntityZombieCrawl" />
-	<property name="AITarget-6" value="SetNearestEntityAsTarget" param1="EntityZombieDog" />
-	<property name="AITarget-7" value="SetAsTargetIfHurt" param1="EntityEnemy" />
-	<property name="AITarget-8" value="SetAsTargetIfHurt" param1="EntityZombie" />	
-	<property name="AITarget-9" value="SetAsTargetIfHurt" param1="EntityZombieCop" />
-	<property name="AITarget-10" value="SetAsTargetIfHurt" param1="EntityVulture" param2="50" />	
-	<property name="AITarget-11" value="SetAsTargetIfHurt" param1="EntityZombieCrawl" />
-	<property name="AITarget-12" value="SetAsTargetIfHurt" param1="EntityZombieDog" />
-	<property name="AITarget-13" value="BlockingTargetTask" />
-	<property name="CanClimbLadders" value="true" />
 	<!-- General entity properties -->
 	<property name="LootDropProb" value="0.02"/> <!-- Whether it drops a loot bag on death or not. -->
 	<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
@@ -776,36 +460,6 @@
 	<property name="AttackTimeoutDay" value="0.5" />
 	<property name="AttackTimeoutNight" value="0.5" />
 	
-	<!-- AI properties -->
-	<property name="AITask-1" value="ApproachAndAttackTarget" param1="EntityEnemy" />
-	<property name="AITask-2" value="ApproachAndAttackTarget" param1="EntityZombie" />
-	<property name="AITask-3" value="ApproachAndAttackTarget" param1="EntityZombieCop" param2="50" />
-	<property name="AITask-4" value="ApproachAndAttackTarget" param1="EntityVulture" param2="50" />
-	<property name="AITask-5" value="ApproachAndAttackTarget" param1="EntityZombieCrawl" />
-	<property name="AITask-6" value="ApproachAndAttackTarget" param1="EntityZombieDog" />
-	<property name="AITask-7" value="SetAsTargetIfHurt" param1="EntityZombieDog" />
-	<property name="AITask-8" value="SetAsTargetIfHurt" param1="EntityEnemy" />	
-	<property name="AITask-9" value="SetAsTargetIfHurt" param1="EntityZombie" />
-	<property name="AITask-10" value="SetAsTargetIfHurt" param1="EntityZombieDog" />	
-	<property name="AITask-11" value="SetAsTargetIfHurt" param1="EntityVulture" param2="50" />
-	<property name="AITask-12" value="SetAsTargetIfHurt" param1="EntityZombieCrawl" />	
-	<property name="AITask-13" value="SetAsTargetIfHurt" param1="EntityZombieCop" />
-	<property name="AITask-14" value="ApproachSpot" />
-	<property name="AITask-15" value="Wander" />
-	<property name="AITarget-1" value="SetNearestEntityAsTarget" param1="EntityEnemy" />
-	<property name="AITarget-2" value="SetNearestEntityAsTarget" param1="EntityZombie" />
-	<property name="AITarget-3" value="SetNearestEntityAsTarget" param1="EntityZombieCop" />
-	<property name="AITarget-4" value="SetNearestEntityAsTarget" param1="EntityVulture" param2="50" />
-	<property name="AITarget-5" value="SetNearestEntityAsTarget" param1="EntityZombieCrawl" />
-	<property name="AITarget-6" value="SetNearestEntityAsTarget" param1="EntityZombieDog" />
-	<property name="AITarget-7" value="SetAsTargetIfHurt" param1="EntityEnemy" />
-	<property name="AITarget-8" value="SetAsTargetIfHurt" param1="EntityZombie" />	
-	<property name="AITarget-9" value="SetAsTargetIfHurt" param1="EntityZombieCop" />
-	<property name="AITarget-10" value="SetAsTargetIfHurt" param1="EntityVulture" param2="50" />	
-	<property name="AITarget-11" value="SetAsTargetIfHurt" param1="EntityZombieCrawl" />
-	<property name="AITarget-12" value="SetAsTargetIfHurt" param1="EntityZombieDog" />
-	<property name="AITarget-13" value="BlockingTargetTask" />
-	<property name="CanClimbLadders" value="true" />
 	<!-- General entity properties -->
 	<property name="LootDropProb" value="0.02"/> <!-- Whether it drops a loot bag on death or not. -->
 	<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
@@ -833,36 +487,6 @@
 	<property name="AttackTimeoutDay" value="0.5" />
 	<property name="AttackTimeoutNight" value="0.5" />
 	
-	<!-- AI properties -->
-	<property name="AITask-1" value="ApproachAndAttackTarget" param1="EntityEnemy" />
-	<property name="AITask-2" value="ApproachAndAttackTarget" param1="EntityZombie" />
-	<property name="AITask-3" value="ApproachAndAttackTarget" param1="EntityZombieCop" param2="50" />
-	<property name="AITask-4" value="ApproachAndAttackTarget" param1="EntityVulture" param2="50" />
-	<property name="AITask-5" value="ApproachAndAttackTarget" param1="EntityZombieCrawl" />
-	<property name="AITask-6" value="ApproachAndAttackTarget" param1="EntityZombieDog" />
-	<property name="AITask-7" value="SetAsTargetIfHurt" param1="EntityZombieDog" />
-	<property name="AITask-8" value="SetAsTargetIfHurt" param1="EntityEnemy" />	
-	<property name="AITask-9" value="SetAsTargetIfHurt" param1="EntityZombie" />
-	<property name="AITask-10" value="SetAsTargetIfHurt" param1="EntityZombieDog" />	
-	<property name="AITask-11" value="SetAsTargetIfHurt" param1="EntityVulture" param2="50" />
-	<property name="AITask-12" value="SetAsTargetIfHurt" param1="EntityZombieCrawl" />	
-	<property name="AITask-13" value="SetAsTargetIfHurt" param1="EntityZombieCop" />
-	<property name="AITask-14" value="ApproachSpot" />
-	<property name="AITask-15" value="Wander" />
-	<property name="AITarget-1" value="SetNearestEntityAsTarget" param1="EntityEnemy" />
-	<property name="AITarget-2" value="SetNearestEntityAsTarget" param1="EntityZombie" />
-	<property name="AITarget-3" value="SetNearestEntityAsTarget" param1="EntityZombieCop" />
-	<property name="AITarget-4" value="SetNearestEntityAsTarget" param1="EntityVulture" param2="50" />
-	<property name="AITarget-5" value="SetNearestEntityAsTarget" param1="EntityZombieCrawl" />
-	<property name="AITarget-6" value="SetNearestEntityAsTarget" param1="EntityZombieDog" />
-	<property name="AITarget-7" value="SetAsTargetIfHurt" param1="EntityEnemy" />
-	<property name="AITarget-8" value="SetAsTargetIfHurt" param1="EntityZombie" />	
-	<property name="AITarget-9" value="SetAsTargetIfHurt" param1="EntityZombieCop" />
-	<property name="AITarget-10" value="SetAsTargetIfHurt" param1="EntityVulture" param2="50" />	
-	<property name="AITarget-11" value="SetAsTargetIfHurt" param1="EntityZombieCrawl" />
-	<property name="AITarget-12" value="SetAsTargetIfHurt" param1="EntityZombieDog" />
-	<property name="AITarget-13" value="BlockingTargetTask" />
-	<property name="CanClimbLadders" value="true" />
 	<!-- General entity properties -->
 	<property name="LootDropProb" value="0.02"/> <!-- Whether it drops a loot bag on death or not. -->
 	<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
@@ -890,36 +514,6 @@
 	<property name="AttackTimeoutDay" value="0.5" />
 	<property name="AttackTimeoutNight" value="0.5" />
 	
-	<!-- AI properties -->
-	<property name="AITask-1" value="ApproachAndAttackTarget" param1="EntityEnemy" />
-	<property name="AITask-2" value="ApproachAndAttackTarget" param1="EntityZombie" />
-	<property name="AITask-3" value="ApproachAndAttackTarget" param1="EntityZombieCop" param2="50" />
-	<property name="AITask-4" value="ApproachAndAttackTarget" param1="EntityVulture" param2="50" />
-	<property name="AITask-5" value="ApproachAndAttackTarget" param1="EntityZombieCrawl" />
-	<property name="AITask-6" value="ApproachAndAttackTarget" param1="EntityZombieDog" />
-	<property name="AITask-7" value="SetAsTargetIfHurt" param1="EntityZombieDog" />
-	<property name="AITask-8" value="SetAsTargetIfHurt" param1="EntityEnemy" />	
-	<property name="AITask-9" value="SetAsTargetIfHurt" param1="EntityZombie" />
-	<property name="AITask-10" value="SetAsTargetIfHurt" param1="EntityZombieDog" />	
-	<property name="AITask-11" value="SetAsTargetIfHurt" param1="EntityVulture" param2="50" />
-	<property name="AITask-12" value="SetAsTargetIfHurt" param1="EntityZombieCrawl" />	
-	<property name="AITask-13" value="SetAsTargetIfHurt" param1="EntityZombieCop" />
-	<property name="AITask-14" value="ApproachSpot" />
-	<property name="AITask-15" value="Wander" />
-	<property name="AITarget-1" value="SetNearestEntityAsTarget" param1="EntityEnemy" />
-	<property name="AITarget-2" value="SetNearestEntityAsTarget" param1="EntityZombie" />
-	<property name="AITarget-3" value="SetNearestEntityAsTarget" param1="EntityZombieCop" />
-	<property name="AITarget-4" value="SetNearestEntityAsTarget" param1="EntityVulture" param2="50" />
-	<property name="AITarget-5" value="SetNearestEntityAsTarget" param1="EntityZombieCrawl" />
-	<property name="AITarget-6" value="SetNearestEntityAsTarget" param1="EntityZombieDog" />
-	<property name="AITarget-7" value="SetAsTargetIfHurt" param1="EntityEnemy" />
-	<property name="AITarget-8" value="SetAsTargetIfHurt" param1="EntityZombie" />	
-	<property name="AITarget-9" value="SetAsTargetIfHurt" param1="EntityZombieCop" />
-	<property name="AITarget-10" value="SetAsTargetIfHurt" param1="EntityVulture" param2="50" />	
-	<property name="AITarget-11" value="SetAsTargetIfHurt" param1="EntityZombieCrawl" />
-	<property name="AITarget-12" value="SetAsTargetIfHurt" param1="EntityZombieDog" />
-	<property name="AITarget-13" value="BlockingTargetTask" />
-	<property name="CanClimbLadders" value="true" />
 	<!-- General entity properties -->
 	<property name="LootDropProb" value="0.02"/> <!-- Whether it drops a loot bag on death or not. -->
 	<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
@@ -947,36 +541,6 @@
 	<property name="AttackTimeoutDay" value="0.5" />
 	<property name="AttackTimeoutNight" value="0.5" />
 	
-	<!-- AI properties -->
-	<property name="AITask-1" value="ApproachAndAttackTarget" param1="EntityEnemy" />
-	<property name="AITask-2" value="ApproachAndAttackTarget" param1="EntityZombie" />
-	<property name="AITask-3" value="ApproachAndAttackTarget" param1="EntityZombieCop" param2="50" />
-	<property name="AITask-4" value="ApproachAndAttackTarget" param1="EntityVulture" param2="50" />
-	<property name="AITask-5" value="ApproachAndAttackTarget" param1="EntityZombieCrawl" />
-	<property name="AITask-6" value="ApproachAndAttackTarget" param1="EntityZombieDog" />
-	<property name="AITask-7" value="SetAsTargetIfHurt" param1="EntityZombieDog" />
-	<property name="AITask-8" value="SetAsTargetIfHurt" param1="EntityEnemy" />	
-	<property name="AITask-9" value="SetAsTargetIfHurt" param1="EntityZombie" />
-	<property name="AITask-10" value="SetAsTargetIfHurt" param1="EntityZombieDog" />	
-	<property name="AITask-11" value="SetAsTargetIfHurt" param1="EntityVulture" param2="50" />
-	<property name="AITask-12" value="SetAsTargetIfHurt" param1="EntityZombieCrawl" />	
-	<property name="AITask-13" value="SetAsTargetIfHurt" param1="EntityZombieCop" />
-	<property name="AITask-14" value="ApproachSpot" />
-	<property name="AITask-15" value="Wander" />
-	<property name="AITarget-1" value="SetNearestEntityAsTarget" param1="EntityEnemy" />
-	<property name="AITarget-2" value="SetNearestEntityAsTarget" param1="EntityZombie" />
-	<property name="AITarget-3" value="SetNearestEntityAsTarget" param1="EntityZombieCop" />
-	<property name="AITarget-4" value="SetNearestEntityAsTarget" param1="EntityVulture" param2="50" />
-	<property name="AITarget-5" value="SetNearestEntityAsTarget" param1="EntityZombieCrawl" />
-	<property name="AITarget-6" value="SetNearestEntityAsTarget" param1="EntityZombieDog" />
-	<property name="AITarget-7" value="SetAsTargetIfHurt" param1="EntityEnemy" />
-	<property name="AITarget-8" value="SetAsTargetIfHurt" param1="EntityZombie" />	
-	<property name="AITarget-9" value="SetAsTargetIfHurt" param1="EntityZombieCop" />
-	<property name="AITarget-10" value="SetAsTargetIfHurt" param1="EntityVulture" param2="50" />	
-	<property name="AITarget-11" value="SetAsTargetIfHurt" param1="EntityZombieCrawl" />
-	<property name="AITarget-12" value="SetAsTargetIfHurt" param1="EntityZombieDog" />
-	<property name="AITarget-13" value="BlockingTargetTask" />
-	<property name="CanClimbLadders" value="true" />
 	<!-- General entity properties -->
 	<property name="LootDropProb" value="0.02"/> <!-- Whether it drops a loot bag on death or not. -->
 	<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
@@ -1003,36 +567,6 @@
 	<property name="AttackTimeoutDay" value="0.5" />
 	<property name="AttackTimeoutNight" value="0.5" />
 	
-	<!-- AI properties -->
-	<property name="AITask-1" value="ApproachAndAttackTarget" param1="EntityEnemy" />
-	<property name="AITask-2" value="ApproachAndAttackTarget" param1="EntityZombie" />
-	<property name="AITask-3" value="ApproachAndAttackTarget" param1="EntityZombieCop" param2="50" />
-	<property name="AITask-4" value="ApproachAndAttackTarget" param1="EntityVulture" param2="50" />
-	<property name="AITask-5" value="ApproachAndAttackTarget" param1="EntityZombieCrawl" />
-	<property name="AITask-6" value="ApproachAndAttackTarget" param1="EntityZombieDog" />
-	<property name="AITask-7" value="SetAsTargetIfHurt" param1="EntityZombieDog" />
-	<property name="AITask-8" value="SetAsTargetIfHurt" param1="EntityEnemy" />	
-	<property name="AITask-9" value="SetAsTargetIfHurt" param1="EntityZombie" />
-	<property name="AITask-10" value="SetAsTargetIfHurt" param1="EntityZombieDog" />	
-	<property name="AITask-11" value="SetAsTargetIfHurt" param1="EntityVulture" param2="50" />
-	<property name="AITask-12" value="SetAsTargetIfHurt" param1="EntityZombieCrawl" />	
-	<property name="AITask-13" value="SetAsTargetIfHurt" param1="EntityZombieCop" />
-	<property name="AITask-14" value="ApproachSpot" />
-	<property name="AITask-15" value="Wander" />
-	<property name="AITarget-1" value="SetNearestEntityAsTarget" param1="EntityEnemy" />
-	<property name="AITarget-2" value="SetNearestEntityAsTarget" param1="EntityZombie" />
-	<property name="AITarget-3" value="SetNearestEntityAsTarget" param1="EntityZombieCop" />
-	<property name="AITarget-4" value="SetNearestEntityAsTarget" param1="EntityVulture" param2="50" />
-	<property name="AITarget-5" value="SetNearestEntityAsTarget" param1="EntityZombieCrawl" />
-	<property name="AITarget-6" value="SetNearestEntityAsTarget" param1="EntityZombieDog" />
-	<property name="AITarget-7" value="SetAsTargetIfHurt" param1="EntityEnemy" />
-	<property name="AITarget-8" value="SetAsTargetIfHurt" param1="EntityZombie" />	
-	<property name="AITarget-9" value="SetAsTargetIfHurt" param1="EntityZombieCop" />
-	<property name="AITarget-10" value="SetAsTargetIfHurt" param1="EntityVulture" param2="50" />	
-	<property name="AITarget-11" value="SetAsTargetIfHurt" param1="EntityZombieCrawl" />
-	<property name="AITarget-12" value="SetAsTargetIfHurt" param1="EntityZombieDog" />
-	<property name="AITarget-13" value="BlockingTargetTask" />
-	<property name="CanClimbLadders" value="true" />
 	<!-- General entity properties -->
 	<property name="LootDropProb" value="0.02"/> <!-- Whether it drops a loot bag on death or not. -->
 	<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
@@ -1060,36 +594,6 @@
 	<property name="AttackTimeoutDay" value="0.5" />
 	<property name="AttackTimeoutNight" value="0.5" />
 	
-	<!-- AI properties -->
-	<property name="AITask-1" value="ApproachAndAttackTarget" param1="EntityEnemy" />
-	<property name="AITask-2" value="ApproachAndAttackTarget" param1="EntityZombie" />
-	<property name="AITask-3" value="ApproachAndAttackTarget" param1="EntityZombieCop" param2="50" />
-	<property name="AITask-4" value="ApproachAndAttackTarget" param1="EntityVulture" param2="50" />
-	<property name="AITask-5" value="ApproachAndAttackTarget" param1="EntityZombieCrawl" />
-	<property name="AITask-6" value="ApproachAndAttackTarget" param1="EntityZombieDog" />
-	<property name="AITask-7" value="SetAsTargetIfHurt" param1="EntityZombieDog" />
-	<property name="AITask-8" value="SetAsTargetIfHurt" param1="EntityEnemy" />	
-	<property name="AITask-9" value="SetAsTargetIfHurt" param1="EntityZombie" />
-	<property name="AITask-10" value="SetAsTargetIfHurt" param1="EntityZombieDog" />	
-	<property name="AITask-11" value="SetAsTargetIfHurt" param1="EntityVulture" param2="50" />
-	<property name="AITask-12" value="SetAsTargetIfHurt" param1="EntityZombieCrawl" />	
-	<property name="AITask-13" value="SetAsTargetIfHurt" param1="EntityZombieCop" />
-	<property name="AITask-14" value="ApproachSpot" />
-	<property name="AITask-15" value="Wander" />
-	<property name="AITarget-1" value="SetNearestEntityAsTarget" param1="EntityEnemy" />
-	<property name="AITarget-2" value="SetNearestEntityAsTarget" param1="EntityZombie" />
-	<property name="AITarget-3" value="SetNearestEntityAsTarget" param1="EntityZombieCop" />
-	<property name="AITarget-4" value="SetNearestEntityAsTarget" param1="EntityVulture" param2="50" />
-	<property name="AITarget-5" value="SetNearestEntityAsTarget" param1="EntityZombieCrawl" />
-	<property name="AITarget-6" value="SetNearestEntityAsTarget" param1="EntityZombieDog" />
-	<property name="AITarget-7" value="SetAsTargetIfHurt" param1="EntityEnemy" />
-	<property name="AITarget-8" value="SetAsTargetIfHurt" param1="EntityZombie" />	
-	<property name="AITarget-9" value="SetAsTargetIfHurt" param1="EntityZombieCop" />
-	<property name="AITarget-10" value="SetAsTargetIfHurt" param1="EntityVulture" param2="50" />	
-	<property name="AITarget-11" value="SetAsTargetIfHurt" param1="EntityZombieCrawl" />
-	<property name="AITarget-12" value="SetAsTargetIfHurt" param1="EntityZombieDog" />
-	<property name="AITarget-13" value="BlockingTargetTask" />
-	<property name="CanClimbLadders" value="true" />
 	<!-- General entity properties -->
 	<property name="LootDropProb" value="0.02"/> <!-- Whether it drops a loot bag on death or not. -->
 	<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
@@ -1117,36 +621,6 @@
 	<property name="AttackTimeoutDay" value="0.5" />
 	<property name="AttackTimeoutNight" value="0.5" />
 	
-	<!-- AI properties -->
-	<property name="AITask-1" value="ApproachAndAttackTarget" param1="EntityEnemy" />
-	<property name="AITask-2" value="ApproachAndAttackTarget" param1="EntityZombie" />
-	<property name="AITask-3" value="ApproachAndAttackTarget" param1="EntityZombieCop" param2="50" />
-	<property name="AITask-4" value="ApproachAndAttackTarget" param1="EntityVulture" param2="50" />
-	<property name="AITask-5" value="ApproachAndAttackTarget" param1="EntityZombieCrawl" />
-	<property name="AITask-6" value="ApproachAndAttackTarget" param1="EntityZombieDog" />
-	<property name="AITask-7" value="SetAsTargetIfHurt" param1="EntityZombieDog" />
-	<property name="AITask-8" value="SetAsTargetIfHurt" param1="EntityEnemy" />	
-	<property name="AITask-9" value="SetAsTargetIfHurt" param1="EntityZombie" />
-	<property name="AITask-10" value="SetAsTargetIfHurt" param1="EntityZombieDog" />	
-	<property name="AITask-11" value="SetAsTargetIfHurt" param1="EntityVulture" param2="50" />
-	<property name="AITask-12" value="SetAsTargetIfHurt" param1="EntityZombieCrawl" />	
-	<property name="AITask-13" value="SetAsTargetIfHurt" param1="EntityZombieCop" />
-	<property name="AITask-14" value="ApproachSpot" />
-	<property name="AITask-15" value="Wander" />
-	<property name="AITarget-1" value="SetNearestEntityAsTarget" param1="EntityEnemy" />
-	<property name="AITarget-2" value="SetNearestEntityAsTarget" param1="EntityZombie" />
-	<property name="AITarget-3" value="SetNearestEntityAsTarget" param1="EntityZombieCop" />
-	<property name="AITarget-4" value="SetNearestEntityAsTarget" param1="EntityVulture" param2="50" />
-	<property name="AITarget-5" value="SetNearestEntityAsTarget" param1="EntityZombieCrawl" />
-	<property name="AITarget-6" value="SetNearestEntityAsTarget" param1="EntityZombieDog" />
-	<property name="AITarget-7" value="SetAsTargetIfHurt" param1="EntityEnemy" />
-	<property name="AITarget-8" value="SetAsTargetIfHurt" param1="EntityZombie" />	
-	<property name="AITarget-9" value="SetAsTargetIfHurt" param1="EntityZombieCop" />
-	<property name="AITarget-10" value="SetAsTargetIfHurt" param1="EntityVulture" param2="50" />	
-	<property name="AITarget-11" value="SetAsTargetIfHurt" param1="EntityZombieCrawl" />
-	<property name="AITarget-12" value="SetAsTargetIfHurt" param1="EntityZombieDog" />
-	<property name="AITarget-13" value="BlockingTargetTask" />
-	<property name="CanClimbLadders" value="true" />
 	<!-- General entity properties -->
 	<property name="LootDropProb" value="0.02"/> <!-- Whether it drops a loot bag on death or not. -->
 	<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>

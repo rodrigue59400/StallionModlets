@@ -13,16 +13,15 @@
 	<property name="Parent" value="Players"/>
 	<property name="PhysicsBody" value="Player"/>
 
-	<property name="AIPathCostScale" value=".4, .6"/>
-	<property name="AITask-1" value="ApproachAndAttackTarget" param1="EntityEnemy,300,EntityEnemyAnimal,300,EntityZombie,300,EntityZombieCop,300,EntityVulture,300,EntityZombieCrawl,300,EntityZombieDog,300" />
-	<property name="AITask-2" value="Territorial"/>
-	<property name="AITask-3" value="Wander"/>		
+	<property name="AITask-1" value="Wander"/>	
+	<property name="AITask-2" value="ApproachAndAttackTarget" param1="EntityEnemy,30,EntityEnemyAnimal,30,EntityZombie,30,EntityZombieCop,30,EntityVulture,30,EntityZombieCrawl,30,EntityZombieDog,30" />
+	<property name="AITask-3" value="Territorial"/>
 	<property name="AITask-4" value="Look"/>
 	<property name="AITask-5" value="BreakBlock"/>	
 	<property name="AITask-6" value="ApproachSpot"/>
 	<property name="AITask-7" value="Swim"/>
-	<property name="AITarget-1" value="SetNearestEntityAsTarget" param1="EntityEnemy,300,EntityEnemyAnimal,300,EntityZombie,300,EntityZombieCop,300,EntityVulture,300,EntityZombieCrawl,300,EntityZombieDog,300" />
-	<property name="AITarget-2" value="SetAsTargetIfHurt" param1="EntityEnemy,300,EntityEnemyAnimal,300,EntityZombie,300,EntityZombieCop,300,EntityVulture,300,EntityZombieCrawl,300,EntityZombieDog,300" />
+	<property name="AITarget-1" value="SetNearestEntityAsTarget" param1="EntityEnemy,30,EntityEnemyAnimal,30,EntityZombie,30,EntityZombieCop,30,EntityVulture,30,EntityZombieCrawl,30,EntityZombieDog,30" />
+	<property name="AITarget-2" value="SetAsTargetIfHurt" param1="EntityEnemy,30,EntityEnemyAnimal,30,EntityZombie,30,EntityZombieCop,30,EntityVulture,30,EntityZombieCrawl,30,EntityZombieDog,30" />
 	<property name="AITarget-3" value="BlockingTargetTask" />
 	
 	<property name="NPCID" value="traderric"/>
