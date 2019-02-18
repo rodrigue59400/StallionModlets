@@ -1790,10 +1790,6 @@
 	<property name="DisplayType" value="blockMulti" />
 	<property name="MultiBlockDim" value="1,1,2"/>
 	<property name="ImposterExchange" value="imposterHalf" param1="148"/>
-	<property class="RepairItems"> <property name="resourceCobblestones" value="10"/> </property>
-	<drop event="Harvest" name="resourceRockSmall" count="12" tag="allHarvest"/>
-	<drop event="Harvest" name="resourceScrapIron" count="4" tag="allHarvest"/>
-
 	<drop event="Fall" name="terrDestroyedStone" count="1" prob="0.1" stick_chance="0.5"/>
 	<property name="EconomicValue" value="56"/>
 	<property name="FilterTags" value="fdecor,fother,ffurniture"/>
@@ -1815,9 +1811,6 @@
 	<property name="DisplayType" value="blockMulti" />
 	<property name="MultiBlockDim" value="1,1,2"/>
 	<property name="ImposterExchange" value="imposterHalf" param1="148"/>
-	<property class="RepairItems"> <property name="resourceCobblestones" value="10"/> </property>
-	<drop event="Harvest" name="resourceRockSmall" count="12" tag="allHarvest"/>
-	<drop event="Harvest" name="resourceScrapIron" count="4" tag="allHarvest"/>
 	<drop event="Fall" name="terrDestroyedStone" count="1" prob="0.1" stick_chance="0.5"/>
 	<property name="EconomicValue" value="56"/>
 	<property name="FilterTags" value="fdecor,fother,ffurniture"/>
@@ -1839,10 +1832,7 @@
 	<property name="DisplayType" value="blockMulti" />
 	<property name="MultiBlockDim" value="1,1,2"/>
 	<property name="ImposterExchange" value="imposterHalf" param1="148"/>
-	<property class="RepairItems"> <property name="resourceCobblestones" value="10"/> </property>
-	<drop event="Harvest" name="resourceRockSmall" count="12" tag="allHarvest"/>
-	<drop event="Harvest" name="resourceScrapIron" count="4" tag="allHarvest"/>
-<drop event="Fall" name="terrDestroyedStone" count="1" prob="0.1" stick_chance="0.5"/>
+	<drop event="Fall" name="terrDestroyedStone" count="1" prob="0.1" stick_chance="0.5"/>
 	<property name="EconomicValue" value="56"/>
 	<property name="FilterTags" value="fdecor,fother,ffurniture"/>
 	<property name="DescriptionKey" value="decorationBlockGroupDesc"/>
@@ -1863,9 +1853,6 @@
 	<property name="DisplayType" value="blockMulti" />
 	<property name="MultiBlockDim" value="1,1,2"/>
 	<property name="ImposterExchange" value="imposterHalf" param1="148"/>
-	<property class="RepairItems"> <property name="resourceCobblestones" value="10"/> </property>
-	<drop event="Harvest" name="resourceRockSmall" count="12" tag="allHarvest"/>
-	<drop event="Harvest" name="resourceScrapIron" count="4" tag="allHarvest"/>
 	<drop event="Fall" name="terrDestroyedStone" count="1" prob="0.1" stick_chance="0.5"/>
 	<property name="EconomicValue" value="56"/>
 	<property name="FilterTags" value="fdecor,fother,ffurniture"/>
@@ -1887,9 +1874,6 @@
 	<property name="DisplayType" value="blockMulti" />
 	<property name="MultiBlockDim" value="1,1,2"/>
 	<property name="ImposterExchange" value="imposterHalf" param1="148"/>
-	<property class="RepairItems"> <property name="resourceCobblestones" value="10"/> </property>
-	<drop event="Harvest" name="resourceRockSmall" count="12" tag="allHarvest"/>
-	<drop event="Harvest" name="resourceScrapIron" count="4" tag="allHarvest"/>
 	
 	<drop event="Fall" name="terrDestroyedStone" count="1" prob="0.1" stick_chance="0.5"/>
 	<property name="EconomicValue" value="56"/>
@@ -1912,9 +1896,6 @@
 	<property name="DisplayType" value="blockMulti" />
 	<property name="MultiBlockDim" value="1,1,2"/>
 	<property name="ImposterExchange" value="imposterHalf" param1="148"/>
-	<property class="RepairItems"> <property name="resourceCobblestones" value="10"/> </property>
-	<drop event="Harvest" name="resourceRockSmall" count="12" tag="allHarvest"/>
-	<drop event="Harvest" name="resourceScrapIron" count="4" tag="allHarvest"/>
 	
 	<drop event="Fall" name="terrDestroyedStone" count="1" prob="0.1" stick_chance="0.5"/>
 	<property name="EconomicValue" value="56"/>
@@ -3126,11 +3107,7 @@
 	<property name="Model" value="Appliances/stove_old" param1="main_mesh"/>
 	<property name="Place" value="TowardsPlacerInverted"/>
 	<property name="LootList" value="235"/>
-	<property class="RepairItems">
-		<property name="resourceForgedIron" value="4"/>
-		<property name="resourceElectricParts" value="4"/>
-	</property>
-	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+		<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
 	<drop event="Harvest" name="resourceElectricParts" count="1,4" tag="salvageHarvest"/>
 	<drop event="Harvest" name="resourceScrapIron" count="5,15" tag="salvageHarvest"/>
 	<drop event="Destroy" name="resourceScrapIron" count="5" prob="1"/>
@@ -3154,12 +3131,6 @@
 	<property name="ImposterExchange" value="imposterBlock" param1="27"/>
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="DescriptionKey" value="refrigeratorGroupDesc"/>
-	<property class="RepairItems">
-		<property name="resourceForgedIron" value="10"/>
-		<property name="resourceMetalPipe" value="2"/>
-		<property name="resourceElectricParts" value="8"/>
-		<property name="resourceElectricParts" value="2"/>
-	</property>
 	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
 	<drop event="Harvest" name="resourceMechanicalParts" count="1,2" prob="0.4" tag="salvageHarvest"/>
 	<drop event="Harvest" name="resourceElectricParts" count="1,6" tag="salvageHarvest"/>
