@@ -177,7 +177,7 @@
 	<property name="Class" value="Loot"/>
 	<property name="LootList" value="7"/>
 	<property name="Model" value="Entities/LootContainers/medicine_cabinet_closedPrefab"/>
-	<drop event="Destroy" count="0" />	
+	
 	<property name="DowngradeBlock" value="cntMedicineCabinetOpen" />
   </block>
 </insertAfter>
@@ -257,7 +257,7 @@
 </insertAfter>
 
 	<append xpath="/blocks/block[@name='cntCabinetBottom']">
-		<drop event="Destroy" count="0" />	
+		
 		<property name="DowngradeBlock" value="cntCabinetBottomOpen" />
 			</append>
 <!-- CABINET BOTTOM -->
@@ -334,7 +334,7 @@
 </block>
 </insertAfter>
 	<append xpath="/blocks/block[@name='cntCupboardCabinetRedTopClosed']">
-		<drop event="Destroy" count="0" />	
+		
 		<property name="DowngradeBlock" value="cntCupboardCabinetRedTopOpen" />
 			</append>
 <!-- CUPBOARD CABINET RED TOP -->
@@ -411,7 +411,7 @@
 </block>		
 </insertAfter>
 	<append xpath="/blocks/block[@name='cntCabinetOldBottom']">
-		<drop event="Destroy" count="0" />	
+		
 		<property name="DowngradeBlock" value="cntCabinetOldBottomOpen" />
 			</append>
 <!-- CABINET OLD BOTTOM -->
@@ -488,7 +488,7 @@
 </block>
 	</insertAfter>		
 	<append xpath="/blocks/block[@name='cntCupboardCabinetOldTopClosed']">
-		<drop event="Destroy" count="0" />	
+		
 		<property name="DowngradeBlock" value="cntCupboardCabinetOldTopOpen" />
 			</append>
 <!-- CUPBOARD CABINET OLD TOP -->
@@ -559,7 +559,7 @@
 </block>
 </insertAfter>	
 	<append xpath="/blocks/block[@name='cntStoveOldVer1Closed']">
-		<drop event="Destroy" count="0" />	
+		
 		<property name="DowngradeBlock" value="cntStoveOldVer2Open" />
 			</append>
 <!-- STOVE OLD -->
@@ -631,7 +631,7 @@
 </insertAfter>
 
 	<append xpath="/blocks/block[@name='cntRetroFridgeVer1Closed']">
-		<drop event="Destroy" count="0" />	
+		
 		<property name="DowngradeBlock" value="cntRetroFridgeVer2Open" />
 			</append>
 <!-- RETRO FRIDGE -->
@@ -697,7 +697,7 @@
 </insertAfter>
 
 	<append xpath="/blocks/block[@name='cntFridgeStainlessSteel']">
-		<drop event="Destroy" count="0" />	
+		
 		<property name="DowngradeBlock" value="cntFridgeStainlessSteelVer2Open" />
 			</append>
 <!-- FRIDGE STAINLESS STEEL -->
@@ -780,7 +780,7 @@
 </block>
 </insertAfter>	
 	<append xpath="/blocks/block[@name='cntNightstandClosed']">
-		<drop event="Destroy" count="0" />	
+		
 		<property name="DowngradeBlock" value="cntNightstandOpen" />
 			</append>
 <!-- NIGHT STAND -->
@@ -887,7 +887,7 @@
 </block>
 </insertAfter>		
 	<append xpath="/blocks/block[@name='cntMedicineCabinetFaucetClosed']">
-		<drop event="Destroy" count="0" />	
+		
 		<property name="DowngradeBlock" value="cntMedicineCabinetFaucetOpen" />
 			</append>
 <!-- MEDICINE CABINET FAUCET -->
@@ -982,7 +982,7 @@
 </block>
 </insertAfter>				
 	<append xpath="/blocks/block[@name='cntWoodDesk01Closed']">
-		<drop event="Destroy" count="0" />	
+		
 		<property name="DowngradeBlock" value="cntWoodDesk01Open" />
 		</append>
 <!-- WOOD DESK -->
@@ -1047,7 +1047,7 @@
 </block>
 </insertAfter>	
 	<append xpath="/blocks/block[@name='cntMetalDesk02Closed']">
-		<drop event="Destroy" count="0" />	
+		
 		<property name="DowngradeBlock" value="cntMetalDesk02Open" />
 			</append>
 <!-- METAL DESK -->
@@ -1136,7 +1136,7 @@
 </block>
 </insertAfter>			
 	<append xpath="/blocks/block[@name='cntFileCabinetShortClosed']">
-		<drop event="Destroy" count="0" />	
+		
 		<property name="DowngradeBlock" value="cntFileCabinetShortOpen" />
 			</append>
 <!-- FILE CABINET SHORT -->
@@ -1219,7 +1219,7 @@
 </block>
 	</insertAfter>
 	<append xpath="/blocks/block[@name='cntFileCabinetTallClosed']">
-		<drop event="Destroy" count="0" />	
+		
 		<property name="DowngradeBlock" value="cntFileCabinetTallOpen" />
 			</append>
 <!-- FILE CABINET TALL -->
@@ -1302,7 +1302,7 @@
 </block>			
 </insertAfter>
 	<append xpath="/blocks/block[@name='cntCoolerClosed']">
-		<drop event="Destroy" count="0" />	
+		
 		<property name="DowngradeBlock" value="cntCoolerOpen" />
 			</append>
 <!-- COOLER -->
@@ -1409,7 +1409,7 @@
 </block>
 </insertAfter>
 	<append xpath="/blocks/block[@name='cntLockersShortClosed']">
-		<drop event="Destroy" count="0" />	
+		
 		<property name="DowngradeBlock" value="cntLockersShortOpen" />
 		</append>
 <!-- LOCKERS SHORT -->
@@ -1498,7 +1498,7 @@
 </block>
 </insertAfter>
 	<append xpath="/blocks/block[@name='cntLockersTallClosed']">
-		<drop event="Destroy" count="0" />	
+		
 		<property name="DowngradeBlock" value="cntLockersTallOpen" />
 			</append>
 <!-- LOCKERS TALL -->
@@ -1587,7 +1587,7 @@
 </block>
 </insertAfter>
 	<append xpath="/blocks/block[@name='cntLockersTallDoubleClosed']">
-		<drop event="Destroy" count="0" />	
+		
 		<property name="DowngradeBlock" value="cntLockersTallDoubleOpen" />
 			</append>
 <!-- LOCKERS TALL DOUBLE -->
@@ -1676,7 +1676,7 @@
 </block>
 </insertAfter>
 	<append xpath="/blocks/block[@name='cntLockersTallMixClosed']">
-		<drop event="Destroy" count="0" />	
+		
 		<property name="DowngradeBlock" value="cntLockersTallMixOpen" />
 		</append>
 <!-- LOCKERS TALL MIX -->
@@ -1765,7 +1765,7 @@
 </block>
 </insertAfter>
 	<append xpath="/blocks/block[@name='cntLockersTallMixLinkClosed']">
-		<drop event="Destroy" count="0" />	
+		
 		<property name="DowngradeBlock" value="cntLockersTallMixLinkOpen" />
 			</append>
 <!-- LOCKERS TALL MIX LINK -->
@@ -1793,7 +1793,7 @@
 	<property class="RepairItems"> <property name="resourceCobblestones" value="10"/> </property>
 	<drop event="Harvest" name="resourceRockSmall" count="12" tag="allHarvest"/>
 	<drop event="Harvest" name="resourceScrapIron" count="4" tag="allHarvest"/>
-	<drop event="Destroy" count="0"/>
+
 	<drop event="Fall" name="terrDestroyedStone" count="1" prob="0.1" stick_chance="0.5"/>
 	<property name="EconomicValue" value="56"/>
 	<property name="FilterTags" value="fdecor,fother,ffurniture"/>
@@ -1818,7 +1818,6 @@
 	<property class="RepairItems"> <property name="resourceCobblestones" value="10"/> </property>
 	<drop event="Harvest" name="resourceRockSmall" count="12" tag="allHarvest"/>
 	<drop event="Harvest" name="resourceScrapIron" count="4" tag="allHarvest"/>
-	<drop event="Destroy" count="0"/>
 	<drop event="Fall" name="terrDestroyedStone" count="1" prob="0.1" stick_chance="0.5"/>
 	<property name="EconomicValue" value="56"/>
 	<property name="FilterTags" value="fdecor,fother,ffurniture"/>
@@ -1843,8 +1842,7 @@
 	<property class="RepairItems"> <property name="resourceCobblestones" value="10"/> </property>
 	<drop event="Harvest" name="resourceRockSmall" count="12" tag="allHarvest"/>
 	<drop event="Harvest" name="resourceScrapIron" count="4" tag="allHarvest"/>
-	<drop event="Destroy" count="0"/>
-	<drop event="Fall" name="terrDestroyedStone" count="1" prob="0.1" stick_chance="0.5"/>
+<drop event="Fall" name="terrDestroyedStone" count="1" prob="0.1" stick_chance="0.5"/>
 	<property name="EconomicValue" value="56"/>
 	<property name="FilterTags" value="fdecor,fother,ffurniture"/>
 	<property name="DescriptionKey" value="decorationBlockGroupDesc"/>
@@ -1868,7 +1866,6 @@
 	<property class="RepairItems"> <property name="resourceCobblestones" value="10"/> </property>
 	<drop event="Harvest" name="resourceRockSmall" count="12" tag="allHarvest"/>
 	<drop event="Harvest" name="resourceScrapIron" count="4" tag="allHarvest"/>
-	<drop event="Destroy" count="0"/>
 	<drop event="Fall" name="terrDestroyedStone" count="1" prob="0.1" stick_chance="0.5"/>
 	<property name="EconomicValue" value="56"/>
 	<property name="FilterTags" value="fdecor,fother,ffurniture"/>
@@ -1893,7 +1890,7 @@
 	<property class="RepairItems"> <property name="resourceCobblestones" value="10"/> </property>
 	<drop event="Harvest" name="resourceRockSmall" count="12" tag="allHarvest"/>
 	<drop event="Harvest" name="resourceScrapIron" count="4" tag="allHarvest"/>
-	<drop event="Destroy" count="0"/>
+	
 	<drop event="Fall" name="terrDestroyedStone" count="1" prob="0.1" stick_chance="0.5"/>
 	<property name="EconomicValue" value="56"/>
 	<property name="FilterTags" value="fdecor,fother,ffurniture"/>
@@ -1918,7 +1915,7 @@
 	<property class="RepairItems"> <property name="resourceCobblestones" value="10"/> </property>
 	<drop event="Harvest" name="resourceRockSmall" count="12" tag="allHarvest"/>
 	<drop event="Harvest" name="resourceScrapIron" count="4" tag="allHarvest"/>
-	<drop event="Destroy" count="0"/>
+	
 	<drop event="Fall" name="terrDestroyedStone" count="1" prob="0.1" stick_chance="0.5"/>
 	<property name="EconomicValue" value="56"/>
 	<property name="FilterTags" value="fdecor,fother,ffurniture"/>
@@ -1926,7 +1923,7 @@
 </block>
 </insertAfter>
 	<append xpath="/blocks/block[@name='cntBathTubGore']">
-		<drop event="Destroy" count="0" />	
+		
 		<property name="DowngradeBlock" value="cntBathTubEmpty" />
 			</append>
 <!-- BATH TUB -->
@@ -1952,7 +1949,7 @@
 	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
 	<drop event="Harvest" name="" count="0" tag="salvageHarvest"/>
 	<drop event="Harvest" name="resourceScrapPolymers" count="2,8" tag="salvageHarvest"/>
-	<drop event="Destroy" count="0"/>
+	
 	<property name="FilterTags" value="floot,ffurniture"/>
 </block>
 </insertAfter>
@@ -1972,7 +1969,7 @@
 	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
 	<drop event="Harvest" name="" count="0" tag="salvageHarvest"/>
 	<drop event="Harvest" name="resourceScrapPolymers" count="2,8" tag="salvageHarvest"/>
-	<drop event="Destroy" count="0"/>
+	
 	<property name="FilterTags" value="floot,ffurniture"/>
 </block>
 </insertAfter>
@@ -1992,7 +1989,7 @@
 	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
 	<drop event="Harvest" name="" count="0" tag="salvageHarvest"/>
 	<drop event="Harvest" name="resourceScrapPolymers" count="2,8" tag="salvageHarvest"/>
-	<drop event="Destroy" count="0"/>
+	
 	<property name="FilterTags" value="floot,ffurniture"/>
 </block>
 </insertAfter>
@@ -2012,7 +2009,7 @@
 	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
 	<drop event="Harvest" name="" count="0" tag="salvageHarvest"/>
 	<drop event="Harvest" name="resourceScrapPolymers" count="2,8" tag="salvageHarvest"/>
-	<drop event="Destroy" count="0"/>
+	
 	<property name="FilterTags" value="floot,ffurniture"/>
 </block>
 </insertAfter>
@@ -2032,7 +2029,7 @@
 	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
 	<drop event="Harvest" name="" count="0" tag="salvageHarvest"/>
 	<drop event="Harvest" name="resourceScrapPolymers" count="2,8" tag="salvageHarvest"/>
-	<drop event="Destroy" count="0"/>
+	
 	<property name="FilterTags" value="floot,ffurniture"/>
 </block>
 </insertAfter>
@@ -2052,12 +2049,12 @@
 	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
 	<drop event="Harvest" name="" count="0" tag="salvageHarvest"/>
 	<drop event="Harvest" name="resourceScrapPolymers" count="2,8" tag="salvageHarvest"/>
-	<drop event="Destroy" count="0"/>
+	
 	<property name="FilterTags" value="floot,ffurniture"/>
 </block>
 </insertAfter>
 	<append xpath="/blocks/block[@name='cntLaundryBasketVer2Full']">
-		<drop event="Destroy" count="0" />	
+		
 		<property name="DowngradeBlock"	value="cntLaundryBasketVer1Empty" />
 			</append>
 <!-- LAUNDRY BASKET -->
@@ -2170,7 +2167,7 @@
 </block>
 </insertAfter>			
 		<append xpath="/blocks/block[@name='cntBookcaseFull']">
-		<drop event="Destroy" count="0" />	
+		
 		<property name="DowngradeBlock" value="cntBookcaseEmpty" />
 			</append>
 <!-- BOOK CASE -->
@@ -2325,7 +2322,7 @@
 </block>
 </insertAfter>	
 		<append xpath="/blocks/block[@name='cntCashRegister']">
-		<drop event="Destroy" count="0" />	
+		
 		<property name="DowngradeBlock"	value="cntCashRegisterEmpty" />
 		</append>
 <!-- CASH REGISTER -->
@@ -2480,7 +2477,7 @@
 </block>
 </insertAfter>		
 		<append xpath="/blocks/block[@name='cntShoppingCart']">
-		<drop event="Destroy" count="0" />	
+		
 		<property name="DowngradeBlock"	value="shoppingCartEmpty" />
 		</append>
 <!-- SHOPPING CART -->
@@ -2564,7 +2561,7 @@
 </block>
 </insertAfter>		
 		<append xpath="/blocks/block[@name='cntGasGrillClosed']">
-		<drop event="Destroy" count="0" />	
+		
 		<property name="DowngradeBlock"	value="cntGasGrillOpen" />
 		</append>
 <!-- GAS GRILL -->
@@ -2648,7 +2645,7 @@
 </insertAfter>
 		
 		<append xpath="/blocks/block[@name='cntCharcoalGrillClosed']">
-		<drop event="Destroy" count="0" />	
+		
 		<property name="DowngradeBlock" value="cntCharcoalGrillOpen" />
 		</append>
 <!-- CHARCOAL GRILL -->
@@ -2781,7 +2778,7 @@
 </insertAfter>
 		
 			<append xpath="/blocks/block[@name='cntLuggageMediumClosed']">
-		<drop event="Destroy" count="0" />	
+		
 		<property name="DowngradeBlock" value="cntLuggageMediumOpen" />
 			</append>
 <!-- LUGGAGE MEDIUM -->
@@ -2854,7 +2851,7 @@
 </insertAfter>
 	
 	<append xpath="/blocks/block[@name='cntLuggageBigClosed']">
-		<drop event="Destroy" count="0" />	
+		
 		<property name="DowngradeBlock"	value="cntLuggageBigOpen" />
 			</append>
 <!-- LUGGAGE BIG -->
@@ -2967,7 +2964,7 @@
 </insertAfter>	
 		
 			<append xpath="/blocks/block[@name='cntShoppingBasket']">
-		<drop event="Destroy" count="0" />	
+		
 		<property name="DowngradeBlock"	value="shoppingBasketEmpty" />
 			</append>
 <!-- SHOPPING BASKET -->
@@ -3053,7 +3050,7 @@
 
 		
 			<append xpath="/blocks/block[@name='cntPillCaseClosed']">
-		<drop event="Destroy" count="0" />	
+		
 		<property name="DowngradeBlock"	value="cntPillCaseEmpty" />
 			</append>
 <!-- PILL CASE -->
