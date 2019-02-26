@@ -41,6 +41,18 @@
 			<block name="bodyBagPairMixedEmpty" prob=".66"/>
 			<block name="bodyBagPairMixedFull" prob=".33"/>
 		</placeholder>
+		</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="goreBlockHumanCorpse">
+			<block name="goreBlockHumanCorpseEmpty" prob=".66"/>
+			<block name="goreBlockHumanCorpseFull" prob=".33"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="goreBlockHumanBones">
+			<block name="goreBlockHumanBonesEmpty" prob=".66"/>
+			<block name="goreBlockHumanBonesFull" prob=".33"/>
+		</placeholder>
 	</append>
 
 </stallionsden>
