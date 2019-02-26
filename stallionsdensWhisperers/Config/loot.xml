@@ -15,7 +15,7 @@
 		<item name="zombieSkin" count="1" />
 </append>
 <!-- remove the brackets to use with my lootable objects modlet -->
-<append xpath="/lootcontainers/lootcontainer[@id='228']">	
+<!-- <append xpath="/lootcontainers/lootcontainer[@id='228']">	
 		<item name="zombieSkin" count="1" />
 </append>
 <append xpath="/lootcontainers/lootcontainer[@id='229']">	
@@ -35,5 +35,5 @@
 </append>
 <append xpath="/lootcontainers/lootcontainer[@id='234']">	
 		<item name="zombieSkin" count="1" />
-</append>
+</append> -->
 </stallionsden>
