@@ -1,0 +1,86 @@
+<stallionsden>
+
+	<append xpath="/blocks">
+		<block name="bodyBagBlackFull">
+			<property name="Extends" value="bodyBagBlack"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="228"/>
+		</block>
+		<block name="bodyBagBlackEmpty">
+			<property name="Extends" value="bodyBagBlack"/>
+		</block>
+		
+		<block name="bodyBagYellowFull">
+			<property name="Extends" value="bodyBagYellow"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="228"/>
+		</block>
+		<block name="bodyBagYellowEmpty">
+			<property name="Extends" value="bodyBagYellow"/>
+		</block>
+		
+				<block name="bodyBagPileFull">
+			<property name="Extends" value="bodyBagPile"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="228"/>
+		</block>
+		<block name="bodyBagPileEmpty">
+			<property name="Extends" value="bodyBagPile"/>
+		</block>
+		
+		<block name="bodyBagPileMixFull">
+			<property name="Extends" value="bodyBagPileMix"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="228"/>
+		</block>
+		<block name="bodyBagPileMixEmpty">
+			<property name="Extends" value="bodyBagPileMix"/>
+		</block>		
+		
+		<block name="bodyBagPairFull">
+			<property name="Extends" value="bodyBagPair"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="228"/>
+		</block>
+		<block name="bodyBagPairEmpty">
+			<property name="Extends" value="bodyBagPair"/>
+		</block>
+		
+			<block name="bodyBagPairYellowFull">
+			<property name="Extends" value="bodyBagPairYellow"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="228"/>
+		</block>
+		<block name="bodyBagPairYellowEmpty">
+			<property name="Extends" value="bodyBagPairYellow"/>
+		</block>
+				
+		<block name="bodyBagPairMixedFull">
+			<property name="Extends" value="bodyBagPairMixed"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="228"/>
+		</block>
+		<block name="bodyBagPairMixedEmpty">
+			<property name="Extends" value="bodyBagPairMixed"/>
+		</block>
+		
+			<block name="goreBlockHumanCorpseFull">
+			<property name="Extends" value="goreBlockHumanCorpse"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="229"/>
+		</block>
+		<block name="goreBlockHumanCorpseEmpty">
+			<property name="Extends" value="goreBlockHumanCorpse"/>
+		</block>
+				
+		<block name="goreBlockHumanBonesFull">
+			<property name="Extends" value="goreBlockHumanBones"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="229"/>
+		</block>
+		<block name="goreBlockHumanBonesEmpty">
+			<property name="Extends" value="goreBlockHumanBones"/>
+		</block>
+	</append>	
+	
+</stallionsden>
