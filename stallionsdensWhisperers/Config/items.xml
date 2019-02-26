@@ -239,7 +239,23 @@
 	<property name="CraftingSkillGroup" value="craftSkillMiscellaneous"/>
 </item>
    </append>
-<append xpath="/items/item[@name='meleeBoneShiv']/effect_group">
+   
+<!-- Vanilla start -->   
+<append xpath="/items/item[starts-with(@name, 'melee')]/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[starts-with(@name, 'tool')]/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[starts-with(@name, 'gun')]/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[starts-with(@name, 'thrown')]/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+
+<!--  NOT NEEDED -->
+<!--<append xpath="/items/item[@name='meleeBoneShiv']/effect_group">
 <triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
 </append>
 
@@ -393,7 +409,7 @@
 
 <append xpath="/items/item[@name='gunToolNailgun']/effect_group">
 <triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
-</append>
+</append> 
 
 <append xpath="/items/item[@name='thrownAmmoPipeBomb']/effect_group">
 <triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
@@ -409,6 +425,624 @@
 
 <append xpath="/items/item[@name='thrownAmmoFlare']/effect_group">
 <triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>-->
+
+<!-- Vanilla end -->
+<!-- ACP Fishing-A17 start -->
+
+<!--<append xpath="/items/item[@name='Fishing Rod']">
+<effect_group><triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/></effect_group>
+</append>-->
+
+<!-- zACP Fishing-A17 end -->
+<!-- TacticalAction start -->
+
+<!--<append xpath="/items/item[@name='CSword']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
 </append>
+<append xpath="/items/item[@name='KatanaBlack']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='MK23']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Colt1911']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='USP9']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='P99']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Beretta93R']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Glock18c']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='RagingBull']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Colt_M1873']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='MP5N']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='UMP']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='M4A1']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HK416']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='ACR']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='M249']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='gatling']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='WinchesterM1894']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Kar98K']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='M1Garand']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='M110']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='AWP']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='M82a1']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>-->
+
+<!-- TacticalAction end -->
+<!--  SovietWeaponPack start -->
+
+<!--<append xpath="/items/item[@name='AKMS']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='MP-133']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='AK74u']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='RustyMachete']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='KS23']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='VSS Vintorez']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='AK74']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='AS VAL']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='RPK74']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='AK Bayonet']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='SVU']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='STG44']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='AKM']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Binocular']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Makarov']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='RPK']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='AK74m']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Military Shovel']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Canteen']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Canteen Half']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append> -->
+
+<!--  SovietWeaponPack end -->
+<!-- Salvaged Bats start --><!-- HAS ALREADY BEEN DONE TOP OF THIS SECTION ** -->
+
+<!--<append xpath="/items/item[@name='meleeWoodBat']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='meleeAluminumBat']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='MeleeBatLegendarySawBat']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>-->
+
+<!-- Salvaged Bats end -->
+<!-- Pilles Super Brush start -->
+
+<!--<append xpath="/items/item[@name='superBrush']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>-->
+
+<!-- Pilles Super Brush end -->
+<!-- Mayics Custom Firearms start -->
+
+<!--<append xpath="/items/item[@name='Luger']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='38 Snubnose']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Glock 40']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='1911']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Desert Eagle']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Klob']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Mac 10']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='MP5']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='M1A1 Thompson']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='MP 40']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Double Barrel Shotgun']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Mossberg 590A1']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Spaz12']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='FN FAL']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Rust AK']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='AR15']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='AK47']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='M16']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='M4A1']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='SCAR']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='M1']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='M249 Saw']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='M240']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='SR25']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='M82']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Golden Gun']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Chaingun']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Hand Cannon']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='M79 GL40']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Argh']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>-->
+
+<!-- Mayics Custom Firearms end -->
+<!-- KHLockpicks start -->
+
+<!-- <append xpath="/items/item[@name='toolLockpick']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>-->
+
+<!-- KHLockpicks end -->
+<!-- Khelldon-GetNailed start -->
+
+<!--<append xpath="/items/item[@name='khelldonCrowbar']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>-->
+
+<!-- Khelldon Get-Nailed end -->
+<!-- HDHQItems start -->
+
+<!--<append xpath="/items/item[@name='HDHQmeleeToolTorch']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>-->
+
+<!-- HDHQItems end -->
+<!-- HDHQGuns start -->
+
+<!-- <append xpath="/items/item[starts-with(@name, 'HDHQ')]/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append> -->
+
+<!--
+<append xpath="/items/item[@name='HDHQPistolAnoBlue']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQPistolAnoCyan']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQPistolAnoGreen']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQPistolAnoMagenta']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQPistolAnoRed']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQPistolGold']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQPistolSilver']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQPistolJade']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQPistolCamoDesert']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQPistolCamoDigital']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQPistolArmorJungle']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQPistolArmorWinter']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQ44MagnumAnoBlue']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQ44MagnumAnoCyan']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQ44MagnumAnoGreen']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQ44MagnumAnoMagenta']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQ44MagnumAnoRed']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQ44MagnumGold']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQ44MagnumSilver']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQ44MagnumJade']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQ44MagnumCamoDigital']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQ44MagnumCamoDesert']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQ44MagnumArmorJungle']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQ44MagnumArmorWinter']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQSMG5AnoBlue']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQSMG5AnoCyan']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQSMG5AnoGreen']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQSMG5AnoMagenta']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQSMG5AnoRed']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQSMG5Gold']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQSMG5Silver']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQSMG5Jade']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQSMG5CamoDigital']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQSMG5CamoDesert']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQSMG5ArmorJungle']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQSMG5ArmorWinter']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQPumpShotgunAnoBlue']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQPumpShotgunAnoCyan']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQPumpShotgunAnoGreen']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQPumpShotgunAnoMagenta']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQPumpShotgunAnoRed']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQPumpShotgunGold']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQPumpShotgunSilver']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQPumpShotgunJade']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQPumpShotgunCamoDigital']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQPumpShotgunCamoDesert']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQPumpShotgunArmorJungle']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQPumpShotgunArmorWinter']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQSawedOffShotgunAnoBlue']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQSawedOffShotgunAnoCyan']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQSawedOffShotgunAnoGreen']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQSawedOffShotgunAnoMagenta']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQSawedOffShotgunAnoRed']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQSawedOffShotgunGold']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQSawedOffShotgunSilver']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQSawedOffShotgunJade']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQSawedOffShotgunCamoDigital']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQSawedOffShotgunCamoDesert']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQSawedOffShotgunArmorJungle']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQSawedOffShotgunArmorWinter']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQHuntingRifleAnoBlue']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQHuntingRifleAnoCyan']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQHuntingRifleAnoGreen']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQHuntingRifleAnoMagenta']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQHuntingRifleAnoRed']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQHuntingRifleGold']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQHuntingRifleSilver']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQHuntingRifleJade']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQHuntingRifleCamoDigital']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQHuntingRifleCamoDesert']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQHuntingRifleArmorJungle']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQHuntingRifleArmorWinter']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQMR10AnoBlue']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQMR10AnoCyan']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQMR10AnoGreen']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQMR10AnoMagenta']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQMR10AnoRed']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQMR10Gold']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQMR10Silver']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQMR10Jade']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQMR10CamoDigital']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQMR10CamoDesert']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQMR10ArmorJungle']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQMR10ArmorWinter']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQAK47AnoBlue']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQAK47AnoCyan']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQAK47AnoGreen']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQAK47AnoMagenta']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQAK47AnoRed']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQAK47Gold']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQAK47Silver']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQAK47Jade']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQAK47CamoDigital']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQAK47CamoDesert']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQAK47ArmorJungle']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HDHQAK47ArmorWinter']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append> -->
+
+<!-- HDHQGuns end -->
+<!-- GuppysTorchSystem start -->
+
+<!--<append xpath="/items/item[@name='handTorch']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append> -->
+
+<!-- GuppysTorchSystem end -->
+<!-- GuppysLightSystem start -->
+
+<!--<append xpath="/items/item[@name='handLantern']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='handFlashlight']">
+<effect_group><triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/></effect_group>
+</append>-->
+
+<!-- GuppysLightSystem end -->
+<!-- FarmLifeMod start -->
+
+<!--<append xpath="/items/item[@name='Pitch Fork']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>-->
+
+<!-- FarmLifeMod end -->
+<!-- Farming-master start -->
+
+<!--<append xpath="/items/item[@name='Pitchfork']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Rusty Frying Pan']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Butcher Knife']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Scythe']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append> -->
+
+<!-- Farming-master end -->
 
 </stallionsden>
