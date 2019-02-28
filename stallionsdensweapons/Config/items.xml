@@ -8,7 +8,5 @@
 <set xpath="/items/item[@name='gunAK47']/effect_group[@name='Base Effects']/passive_effect[@name='MagazineSize' and @operation='base_set']/@value">2500</set>
 <set xpath="/items/item[@name='gunToolNailgun']/effect_group[@name='Base Effects']/passive_effect[@name='MagazineSize' and @operation='base_set']/@value">5000</set>
 <append xpath="/items/item[@name='gunHuntingRifle']/property[@name='Tags']/@value">,magazine</append>
-<append xpath="/items/item[@name='unlockBookMaster']">
-		<property name="Stacknumber" value="30000"/>
-	</append>
+
 </stallionsden>
