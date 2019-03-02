@@ -1,8 +1,4 @@
 <stallionsden>
-<set xpath="/progression/level/@max_level">999</set>
-<set xpath="/progression/level/@exp_to_level">100</set>
-<set xpath="/progression/level/@skill_points_per_level">300</set>
-
 <!-- Change Pack Mule Perk to unlock all slots -->
 	<set xpath="/progression/perks/perk[@name='perkPackMule']/effect_group/passive_effect[@name='CarryCapacity'][@value='4']/@value">357</set>
 	<set xpath="/progression/perks/perk[@name='perkPackMule']/effect_group/passive_effect[@name='CarryCapacity'][@value='9']/@value">0</set>
