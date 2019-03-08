@@ -1,0 +1,24 @@
+<stallionsden>
+<append xpath="/lootcontainers/lootgroup[@name='ZombieFootballPlayer']">	
+		<item name="zombieSkin" count="1" />
+</append>
+<append xpath="/lootcontainers/lootgroup[@name='labEquipment']">	
+		<item name="zombieSkin" count="1" />
+</append>
+<append xpath="/lootcontainers/lootcontainer[@id='70']">	
+		<item name="zombieSkin" count="1" />
+</append>
+<append xpath="/lootcontainers/lootcontainer[@id='71']">	
+		<item name="zombieSkin" count="1" />
+</append>
+<append xpath="/lootcontainers/lootcontainer[@id='73']">	
+		<item name="zombieSkin" count="1" />
+</append>
+<!-- remove the brackets to use with my lootable objects modlet -->
+<!-- <append xpath="/lootcontainers/lootcontainer[@id='228']">	
+		<item name="zombieSkin" count="1" />
+</append>
+<append xpath="/lootcontainers/lootcontainer[@id='229']">	
+		<item name="zombieSkin" count="1" />
+</append> -->
+</stallionsden>
