@@ -594,5 +594,136 @@
 </append> -->
 
 <!-- Farming-master end -->
+<!-- Mayics Melee start -->
+<!--
+<append xpath="/items/item[@name='Sharp Ice Pick']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Worn Handaxe']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Salvaged Axe']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Sturdy Crowbar']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Sharp Skinner']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Dull Sword']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Dull Axe']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Rusty Iron']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Khopesh']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Battle Sword']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Hatchet']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Old Wooden Bat']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Bone Club']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Heavy Spiked Mace']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Worn Flail']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Old Warhammer']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Gutter']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Worn Bayonet']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Rusty Dagger']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Rusty Katana']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Fine Sword']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Battle Spear']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Soul Harvest']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Golden Axe']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Thors Hammer']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Riot Shield']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Shield Plate']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Purple Lightsaber']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Green Lightsaber']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Blue Lightsaber']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Red Lightsaber']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Pink Lightsaber']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Black Lightsaber']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Orange Lightsaber']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Sword of Valor']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Halo Sword']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='HellSlayer']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='Punisher']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>-->
+
+<!-- Mayics Melee end -->
+<!-- Devrixs Sorcery start -->
+<!--
+<append xpath="/items/item[@name='spellcastFire']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='spellcastIce']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>
+<append xpath="/items/item[@name='spellcastLightning']/effect_group">
+<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
+</append>-->
+
+<!-- Devrixs Sorcery end -->
 
 </stallionsden>
