@@ -721,9 +721,6 @@
 <append xpath="/items/item[@name='Riot Shield']/effect_group">
 <triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
 </append>
-<append xpath="/items/item[@name='Shield Plate']/effect_group">
-<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
-</append>
 <append xpath="/items/item[@name='Purple Lightsaber']/effect_group">
 <triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffAntiWhisperer"/>
 </append>
