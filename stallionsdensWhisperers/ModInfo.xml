@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
     <ModInfo>
-        <Name value="Stallionsdens Weapons Modlet" />
-        <Description value="This modlet makes changes to all weapons." />
+        <Name value="Stallionsdens Whisperers" />
+        <Description value="Adds clothing that lets you walk with the zs." />
         <Author value="Stallionsden" />
         <Version value="A18" />
     </ModInfo>

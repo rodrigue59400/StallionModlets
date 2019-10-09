@@ -1,5 +1,0 @@
-npcTraderBilly,entityclasses,Entity,New,Trader Billy,,,,,
-npcTraderStuart,entityclasses,Entity,New,Trader Stuart,,,,,
-npcTraderBorat,entityclasses,Entity,New,Trader Borat,,,,,
-npcTraderKen,entityclasses,Entity,New,Trader Ken,,,,,
-npcTraderPiper,entityclasses,Entity,New,Trader Piper,,,,,

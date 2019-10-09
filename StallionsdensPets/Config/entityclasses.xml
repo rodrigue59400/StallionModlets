@@ -23,13 +23,13 @@
 
 	<property name="AIPathCostScale" value=".4, .6"/>
 	<property name="AITask-1" value="Territorial"/>
-	<property name="AITask-2" value="ApproachAndAttackTarget" param1="EntityEnemy,30,EntityEnemyAnimal,30,EntityZombie,30,EntityZombieCop,30,EntityVulture,30,EntityZombieCrawl,30,EntityZombieDog,30" />
+	<property name="AITask-2" value="ApproachAndAttackTarget" data="class=EntityEnemy,30,EntityEnemyAnimal,30,EntityZombie,30,EntityZombieCop,30,EntityVulture,30,EntityZombieCrawl,30,EntityZombieDog,30"/>
 	<property name="AITask-3" value="Look"/>
 	<property name="AITask-4" value="ApproachSpot"/>
 	<property name="AITask-5" value="Swim"/>
 	<property name="AITask-6" value="Wander"/>
-	<property name="AITarget-1" value="SetNearestEntityAsTarget" param1="EntityEnemy,30,EntityEnemyAnimal,30,EntityZombie,30,EntityZombieCop,30,EntityVulture,30,EntityZombieCrawl,30,EntityZombieDog,30" />
-	<property name="AITarget-2" value="SetAsTargetIfHurt" param1="EntityEnemy,30,EntityEnemyAnimal,30,EntityZombie,30,EntityZombieCop,30,EntityVulture,30,EntityZombieCrawl,30,EntityZombieDog,30" />
+	<property name="AITarget-1" value="SetNearestEntityAsTarget" data="class=EntityEnemy,14,9,EntityEnemyAnimal,0,0,EntityZombie,0,5,EntityZombieCop,0,5,EntityVulture,0,5,EntityZombieCrawl,0,5,EntityZombieDog,0,5"/>
+	<property name="AITarget-2" value="SetAsTargetIfHurt"/>
 	<property name="AITarget-3" value="BlockingTargetTask" />
 	
 	<!-- Stealth settings -->
@@ -64,15 +64,62 @@
 </entity_class>
 </insertAfter>
 <insertAfter xpath="/entity_classes/entity_class[@name='petsTemplate']" >
-<entity_class name="Buck" extends="petsTemplate" >
-	<property name="Tags" value="animal"/>
+
+<entity_class name="Buck" extends="petsTemplate">
+	<property name="Tags" value="entity,animal,deer,perkAT2,perkAT3,perkAT4,perkAT5"/>
+	<property name="MapIcon" value="ui_game_symbol_tracking_deer"/>
+	<property name="TrackerIcon" value="ui_game_symbol_tracking_deer"/>
+	<property name="AvatarController" value="AvatarAnimalController"/>
+	<property name="ModelType" value="Standard"/>
+	<property name="Prefab" value="/Entities/Animals/Deer/animalDeerStagRagdoll"/>
+	<property name="Mesh" value=""/>
+	<property name="Parent" value="Animals"/>
+	<property name="HasDeathAnim" value="true"/>
+	<property name="HasRagdoll" value="true"/>
+	<property name="RootMotion" value="true"/>
+	<property name="RotateToGround" value="true"/>
+	<property name="IsEntityAnimal" value="true"/>
+	<property name="IsEnemyEntity" value="false"/>
+	<property name="Faction" value="animals"/>
+	<property name="PhysicsBody" value="Doe"/>
+	<property name="Mass" value="160"/>
+	<property name="Weight" value="90"/>
+	<property name="SurfaceCategory" value="organic"/>
+	<property name="ParticleOnDeath" value="blood_death"/>
+	<property name="SoundHurt" value="Animals/stagpain"/>
+	<property name="SoundDeath" value="Animals/stagdeath"/>
+	<property name="HandItem" value="meleeHandAnimalhandBuck" />
+	<!-- Gameplay -->
+	<property name="MaxTurnSpeed" value="220"/>
+	<property name="MoveSpeedPanic" value="1.6"/>
+	<property name="ExperienceGain" value="327"/>
+	<property name="TimeStayAfterDeath" value="300"/>
+	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/> <!-- this triggers the special harvesting animation like on the knife -->
+	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="30"/> <!-- animalStag -->
+	<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="9"/>
+	<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="3"/>
+	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="25"/>
+	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="7"/>
+	<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+	<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+	<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+	<effect_group name="Base Effects">
+		<passive_effect name="HealthMax" operation="base_set" value="100"/>
+		<passive_effect name="HealthMax" operation="perc_add" value="0"/> <!-- Animal HP scale -->
+	</effect_group>
+</entity_class>
+<!-- <entity_class name="Buck" extends="petsTemplate" >
+	<property name="Tags" value="entity,animal,deer,perkAT2,perkAT3,perkAT4,perkAT5"/>
+	<property name="MapIcon" value="ui_game_symbol_tracking_deer"/>
+	<property name="TrackerIcon" value="ui_game_symbol_tracking_deer"/>
 	<property name="HasRagdoll" value="true"/>
 	<property name="Mesh" value="Animals/Deer/animalDeerStagRagdoll"/>
+	<property name="HasDeathAnim" value="true"/>
 	<property name="HasRagdoll" value="true"/>
 	<property name="RootMotion" value="true"/>
 	<property name="AvatarController" value="AvatarAnimalController"/>
 	<property name="ModelType" value="Standard"/>
-	<property name="Prefab" value="NPC"/>
+	<property name="Prefab" value="/Entities/Animals/Deer/animalDeerStagRagdoll"/>
 	<property name="Parent" value="Animals"/>
 	<property name="RotateToGround" value="true"/>
 	<property name="IsEntityAnimal" value="true"/>
@@ -85,19 +132,21 @@
 	<property name="ParticleOnDeath" value="blood_death"/>
 	<property name="SoundHurt" value="Animals/stagpain"/>
 	<property name="SoundDeath" value="Animals/stagdeath"/>
-	<property name="HandItem" value="meleeHandAnimalhandBuck" />
+	<property name="HandItem" value="meleeHandAnimalhandBuck" /> -->
 	<!-- Gameplay -->
+<!--	<property name="MaxTurnSpeed" value="220"/>
+	<property name="MoveSpeedPanic" value="1.6"/>
 	<property name="ExperienceGain" value="327"/>
+	<property name="TimeStayAfterDeath" value="300"/>
 	<effect_group name="Base Effects">
-		<passive_effect name="HealthMax" operation="base_set" value="250"/>
-		<passive_effect name="HealthMax" operation="perc_add" value="1"/> <!-- Animal HP scale -->
+		<passive_effect name="HealthMax" operation="base_set" value="100"/>
+		<passive_effect name="HealthMax" operation="perc_add" value="0"/> 
 	</effect_group>
-</entity_class>
+</entity_class> -->
 </insertAfter>
 <insertAfter xpath="/entity_classes/entity_class[@name='Buck']" >
 <entity_class name="Bambi" extends="Buck">
-	<property name="Tags" value="animal"/>
-	<property name="Mesh" value="Animals/Deer/animalDeerDoeRagdoll"/>
+	<property name="Prefab" value="/Entities/Animals/Deer/animalDeerDoeRagdoll"/>
 	<property name="Mass" value="90"/>
 	<property name="HandItem" value="meleeHandAnimalBambi" />
 	<!-- Gameplay -->
@@ -310,6 +359,111 @@
 </entity_class>
 </insertAfter>
 <insertAfter xpath="/entity_classes/entity_class[@name='bigBadWolf']" >
+<entity_class name="Luca" extends="wileyCoyote">
+	<property name="Tags" value="entity,animal,mountainlion,perkAT5"/>
+	<property name="MapIcon" value="ui_game_symbol_tracking_mountain_lion"/>
+	<property name="TrackerIcon" value="ui_game_symbol_tracking_mountain_lion"/>
+	<property name="PhysicsBody" value="MountainLion"/>
+	<property name="Mass" value="140"/>
+	<property name="Prefab" value="/Entities/Animals/Mountain_Lion/animalStandardMountainLionRagdoll"/>
+	<property name="IsEntityAnimal" value="true"/>
+	<property name="IsEnemyEntity" value="false"/>
+
+	<property name="SoundRandom" value="mlionroam"/>
+	<property name="SoundAlert" value="mlionalert"/>
+	<property name="SoundHurt" value="mlionpain"/>
+	<property name="SoundDeath" value="mliondeath"/>
+	<property name="SoundAttack" value="mlionattack"/>
+	<property name="SoundSense" value="mlionsense"/>
+	<property name="SoundGiveUp" value="mliongiveup"/>
+
+	<property name="AITask-1" value="Leap" data="legs=4"/>
+	<property name="AITask-2" value="Swim"/>
+	<property name="AITask-3" value="BreakBlock"/>
+	<property name="AITask-4" value="Territorial"/>
+	<property name="AITask-5" value="RunawayWhenHurt" data="runChance=.4;healthPer=.1;healthPerMax=.4"/>
+	<property name="AITask-6" value="ApproachAndAttackTarget" data="class=EntityEnemy,30,EntityEnemyAnimal,30,EntityZombie,30,EntityZombieCop,30,EntityVulture,30,EntityZombieCrawl,30,EntityZombieDog,30"/>
+	<property name="AITask-7" value="ApproachSpot"/>
+	<property name="AITask-8" value="Look"/>
+	<property name="AITask-9" value="Wander"/>
+	<property name="AITask-10" value=""/>
+	<property name="AITarget-1" value="SetAsTargetIfHurt"/>
+	<property name="AITarget-2" value="BlockingTargetTask"/>
+	<property name="AITarget-3" value="SetNearestEntityAsTarget" data="class=EntityEnemy,14,9,EntityEnemyAnimal,0,0,EntityZombie,0,5,EntityZombieCop,0,5,EntityVulture,0,5,EntityZombieCrawl,0,5,EntityZombieDog,0,5"/>
+	<property name="AITarget-4" value=""/>
+
+	<!-- Gameplay -->
+	<property name="MoveSpeed" value=".6"/>
+	<property name="MoveSpeedAggro" value="2.1, 2.3"/>
+	<property name="JumpDelay" value=".1"/>
+	<property name="JumpMaxDistance" value="6, 7"/>
+
+	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="25"/>
+	<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="10"/>
+	<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="4"/>
+	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="15"/>
+	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+	<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+	<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+	<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+</entity_class>
+</insertAfter>
+<insertAfter xpath="/entity_classes/entity_class[@name='Luca']" >
+<entity_class name="MrFox" extends="wileyCoyote">
+	<property name="Tags" value="entity,animal,hostile,coyote,perkAT4,perkAT5"/>
+	<property name="MapIcon" value="ui_game_symbol_tracking_wolf"/>
+	<property name="TrackerIcon" value="ui_game_symbol_tracking_wolf"/>
+	<property name="PhysicsBody" value="wolf"/>
+	<property name="Mass" value="50"/>
+	<property name="Prefab" value="/Entities/Animals/Wolf/animalStandardCoyoteRagdoll"/>
+	<property name="IsEntityAnimal" value="true"/>
+	<property name="IsEnemyEntity" value="false"/>
+
+	<property name="AITask-1" value="Swim"/>
+	<property name="AITask-2" value="BreakBlock"/>
+	<property name="AITask-3" value="Territorial"/>
+	<property name="AITask-4" value="RunawayWhenHurt" data="runChance=.9;healthPer=.6;healthPerMax=0.75"/>
+	<property name="AITask-5" value="ApproachAndAttackTarget" data="class=EntityEnemy,30,EntityEnemyAnimal,30,EntityZombie,30,EntityZombieCop,30,EntityVulture,30,EntityZombieCrawl,30,EntityZombieDog,30"/>
+	<property name="AITask-6" value="ApproachSpot"/>
+	<property name="AITask-7" value="Look"/>
+	<property name="AITask-8" value="Wander"/>
+	<property name="AITask-9" value=""/>
+	<property name="AITarget-1" value="SetAsTargetIfHurt"/>
+	<property name="AITarget-2" value="BlockingTargetTask"/>
+	<property name="AITarget-3" value="SetNearestEntityAsTarget" data="class=EntityEnemy,14,9,EntityEnemyAnimal,0,0,EntityZombie,0,5,EntityZombieCop,0,5,EntityVulture,0,5,EntityZombieCrawl,0,5,EntityZombieDog,0,5"/>
+	<property name="AITarget-4" value=""/>
+
+	<property name="SoundRandom" value="coyoteroam"/>
+	<property name="SoundAlert" value="wolfalert"/>
+	<property name="SoundHurt" value="wolfpain"/>
+	<property name="SoundDeath" value="wolfdeath"/>
+	<property name="SoundAttack" value="wolfattack"/>
+	<property name="SoundSense" value="wolfsense"/>
+	<property name="SoundGiveUp" value="wolfgiveup"/>
+
+	<property name="HandItem" value="meleeHandMrFox"/>
+	<property name="ExperienceGain" value="275"/>
+	<property name="DeadBodyHitPoints" value="200"/>
+
+	<effect_group name="Base Effects">
+		<passive_effect name="HealthMax" operation="base_set" value="80"/>
+		<passive_effect name="HealthMax" operation="perc_add" value="0"/>
+		<!-- Animal HP scale -->
+	</effect_group>
+
+	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="12"/>
+	<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="5"/>
+	<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2"/>
+	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="8"/>
+	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="3"/>
+	<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+	<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+	<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+</entity_class>
+</insertAfter>
+<insertAfter xpath="/entity_classes/entity_class[@name='MrFox']" >
 <entity_class name="Scooby" extends="wileyCoyote">
 	<property name="Tags" value="animal,zombie"/>
 	<property name="Prefab" value="/Entities/Animals/Wolf/animalStandardDogZombieRagdoll"/>
@@ -482,7 +636,6 @@
 <insertAfter xpath="/entity_classes/entity_class[@name='sirHiss']" >
 <entity_class name="porkyPig" extends="petsTemplate">
 	<property name="Tags" value="animal"/>
-	<property name="IsEnemyEntity" value="false"/><!-- override hostile template setting so he can spawn in safe zones -->
 	<property name="AvatarController" value="AvatarAnimalController"/>
 	<property name="ModelType" value="Standard"/>
 	<property name="HasRagdoll" value="true"/>

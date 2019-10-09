@@ -1,5 +1,5 @@
 <stallionsden>
-<insertAfter xpath="/blocks/block[@name='cubeTileBroken01']" >
+<insertAfter xpath="/blocks/block[@name='raft']" >
 <block name="Excavator">
     <property name="Class" value="UpgradeRated" />
 	<property name="Material" value="Mmetal"/>

@@ -10,6 +10,7 @@
 		<item name="resourceScrapBrass" count="10,15" prob="0.031" />
         <item name="resourceOilShale" count="15,30" prob="0.031"/>
         <item name="resourceWood" count="100" prob="0.031"/>
+		<item name="apparelGhillieSuitJacket"  prob="0.031" />
     </lootgroup>	
 	<lootgroup name="SupplyMedical" count="0,2" >
         <item name="medicalAloeCream" count="1,15" prob="0.031" />
@@ -20,8 +21,7 @@
         <item name="medicalPlasterCast" count="1,10" prob="0.031"/>
 		<item name="medicalBloodDrawKit" count="1,15" prob="0.031" />
         <item name="medicalBloodBag" count="1,20" prob="0.031"/>
-        <item name="medicalSnowberryExtract" count="1,10" prob="0.031"/>
-		<item name="drugVitamins" count="1,15" prob="0.031" />
+      <item name="drugVitamins" count="1,15" prob="0.031" />
         <item name="drugPainkillers" count="1,32" prob="0.031"/>
         <item name="drugHerbalAntibiotics" count="1,20" prob="0.031"/>
         <item name="drugAntibiotics" count="1,15" prob="0.031"/>
@@ -38,7 +38,7 @@
         <item name="foodCanLamb" count="1,2" prob="0.031" />
         <item name="foodCanChili" count="1,2" prob="0.031" />
         <item name="foodCanTuna" count="1,2" prob="0.031" />
-        <item name="foodCanHam" count="1,2" prob="0.031" />
+        <item name="drinkJarPureMineralWater" count="1,2" prob="0.031" />
         <item name="foodCanPasta" count="1,2" prob="0.031" />
         <item name="foodCanSalmon" count="1,2" prob="0.031" />
         <item name="foodCanMiso" count="1,2" prob="0.031" />
@@ -65,12 +65,9 @@
         <item name="foodVegetableStew" count="1,2" prob="0.31" />
         <item name="foodRawMeat" count="1,2" prob="0.031" />
         <item name="foodEgg" count="1,2" prob="0.031" />
-        <item name="drinkCanRiverWater" count="1,2" prob="0.31" />
-        <item name="drinkCanBoiledWater" count="1,2" prob="0.31" />
         <item name="drinkJarEmpty" count="1,2" prob="0.31" />
         <item name="drinkJarRiverWater" count="1,2" prob="0.031" />
         <item name="drinkJarBoiledWater" count="1,2" prob="0.031" />
-        <item name="drinkJarSnowberryJuice" count="1,2" prob="0.031" />
         <item name="drinkJarYuccaJuice" count="1,2" prob="0.031" />
         <item name="drinkJarGoldenRodTea" count="1,2" prob="0.031" />
 		<item name="drinkJarRedTea" count="1,2" prob="0.031" />
@@ -99,15 +96,19 @@
         <item name="resourceRepairKit" count="3,4" prob="0.031"/>
     </lootgroup>
     <lootgroup name="SupplyAssaultRifle" count="0,1">
-        <item name="gunAK47" count="1" prob="0.0031" />
-         <item name="resourceRepairKit" count="3,4" prob="0.031" />
+        <item name="gunAK47" count="1" prob="0.0031" />		
+		<item name="gunTacticalAR" count="1" prob="0.0031" />
+		<item name="gunM60" count="1" prob="0.0031" />
+		<item name="resourceRepairKit" count="3,4" prob="0.031" />
     </lootgroup>
     <lootgroup name="SupplyMagnum" count="0,1" >
         <item name="gun44Magnum" count="1" prob="0.0031" />
          <item name="resourceRepairKit" count="3,4" prob="0.031" />
     </lootgroup>
     <lootgroup name="SupplyShotgunGroup" count="0,1" >
-      <item name="gunPumpShotgun" count="1" prob="0.0031" />
+      <item name="gunPumpShotgun" count="1" prob="0.0031" />	  
+	  <item name="gunDoubleBarrelShotgun" count="1" prob="0.0031" />
+	  <item name="gunBlunderbuss" count="1" prob="0.0031" />
     </lootgroup>
     <lootgroup name="SupplyShotgun" count="0,1">
         <item group="SupplyShotgunGroup" count="1" prob="0.0031" />
@@ -129,7 +130,7 @@
         <item name="resourceRepairKit" count="1,4" prob="0.031"/>
     </lootgroup>
     <lootgroup name="SupplyTools" count="0,2" >
-		<item name="meleeToolMachete" count="1" prob="0.031" />
+		<item name="meleeToolKnifeMachete" count="1" prob="0.031" />
         <item name="meleeToolPickaxeIron" count="1" prob="0.031" />
         <item name="meleeToolPickaxeSteel" count="1" prob="0.031"  />
         <item name="toolBellows" count="1" prob="0.031"  />
@@ -142,7 +143,8 @@
         <item name="meleeToolShovelIron" count="1,2" prob="0.031" />  
         <item name="meleeToolHoeIron" count="1,2" prob="0.031" />             
         <item name="gunToolNailgun" count="1,2" prob="0.031" />
-    </lootgroup>
+		<item name="apparelGhillieSuitPants"  prob="0.031" />
+		</lootgroup>
     <lootgroup name="SupplyAutomotive" count="0,2">
         <item name="vehicleWheels"  count="1" prob="0.031" />
 		<item name="smallEngine"  count="1" prob="0.031" />
@@ -165,17 +167,18 @@
         <item name="vehicleGyrocopterPlaceable"  count="1" prob="0.00031" />   
     </lootgroup>
     <lootgroup name="SupplyAmmo" count="0,2">
-        <item name="ammoShotgunShell" count="15,20" prob="0.031" />
+		<item name="ammoShotgunShell" count="15,20" prob="0.031" />
 		<item name="ammoShotgunSlug" count="15,20" prob="0.031" />
-		<item name="ammo9mmBullet" count="15,30" prob="0.031" />
-		<item name="ammo9mmBulletJHP" count="15,30" prob="0.031" />
-		<item name="ammo9mmBulletSteel" count="15,30" prob="0.031" />
-		<item name="ammo762mmBulletFMJ" count="15,30" prob="0.031"/>
+		<item name="ammoShotgunBreachingSlug" count="15,20" prob="0.031" />
+		<item name="ammo9mmBulletBall" count="15,30" prob="0.031" />
+		<item name="ammo9mmBulletAP" count="15,30" prob="0.031" />
+		<item name="ammo9mmBulletHP" count="15,30" prob="0.031" />
+		<item name="ammo762mmBulletBall" count="15,30" prob="0.031"/>
 		<item name="ammo762mmBulletAP" count="15,30" prob="0.031"/>
-		<item name="ammo762mmBulletFMJSteel" count="15,30" prob="0.031"/>
-		<item name="ammo44MagnumBullet" count="15,22" prob="0.031"/>
+		<item name="ammo762mmBulletHP" count="15,30" prob="0.031"/>
+		<item name="ammo44MagnumBulletBall" count="15,22" prob="0.031"/>
 		<item name="ammo44MagnumBulletAP" count="15,22" prob="0.031"/>
-		<item name="ammo44MagnumBulletSteel" count="15,22" prob="0.031"/>
+		<item name="ammo44MagnumBulletHP" count="15,22" prob="0.031"/>
 		<item name="ammoBlunderbuss" count="1,12" prob="0.031" />
 		<item name="ammoRocketHE" count="1,2" prob="0.031" />
 		<item name="ammoRocketFrag" count="1,2" prob="0.031" />		
@@ -183,21 +186,26 @@
 		<item name="ammoArrowIron" count="1,12" prob="0.031" />
 		<item name="ammoArrowSteelAP" count="1,12" prob="0.031" />
 		<item name="ammoArrowFlaming" count="1,12" prob="0.031" />		
+		<item name="ammoArrowExploding" count="1,12" prob="0.031" />		
 		<item name="ammoCrossbowBoltStone" count="1,12" prob="0.031" />
 		<item name="ammoCrossbowBoltIron" count="1,12" prob="0.031" />
+		<item name="ammoCrossbowBoltFlaming" count="1,12" prob="0.031" />
 		<item name="ammoCrossbowBoltSteelAP" count="1,12" prob="0.031" />
 		<item name="ammoCrossbowBoltExploding" count="1,12" prob="0.031" />		
 		<item name="thrownAmmoPipeBomb" count="0,5" prob="0.031" />
 		<item name="thrownDynamite" count="0,3" prob="0.031" />
 		<item name="thrownAmmoMolotovCocktail" count="0,5" prob="0.031" />
 		<item name="thrownAmmoFlare" count="0,7" prob="0.031" />
-		<item name="ammoDartSteel" count="0,20" prob="0.031" />
+		<item name="ammoDartIron" count="0,20" prob="0.031" />
 		<item name="mineCandyTin" count="0,2" prob="0.031" />
 		<item name="mineHubcap" count="0,2" prob="0.031" />
 		<item name="mineAirFilter" count="0,6" prob="0.031" />
 		<item name="mineCookingPot" count="1,6" prob="0.031" />
 		<item name="rScrapIronPlateMine" count="1,6" prob="0.031" />
-		<item name="tnt" count="1,6" prob="0.031" />		
+		<item name="thrownTimedCharge" count="0,2" prob="0.031" />
+		<item name="thrownGrenade" count="0,6" prob="0.031" />
+		<item name="thrownGrenadeContact" count="1,6" prob="0.031" />
+		<item name="apparelGhillieSuitHood"  prob="0.031" />		
     </lootgroup>
     <lootgroup name="SupplyGroups" count="0,2">
 		<item group="SupplyRocket" count="1,2" prob="0.031" />
@@ -214,20 +222,20 @@
 		<item group="SupplyAutomotive" count="1,2" prob="0.031" />
         <item group="SupplyAmmo" count="1,2" prob="0.031" />
         <item group="SupplyTools" count="1,2" prob="0.031" />
-		<item group="weaponsMelee"  count="1,2" prob="0.031" />
+		<item group="groupWeaponsMeleeScaled"  count="1,2" prob="0.031" />
+		<item group="groupWeaponsRangedScaled"  count="1,2" prob="0.031" />
 		<item group="trophyGroup" count="1,2" prob="0.031" />
 		<item group="books" count="1,2" prob="0.031" />
 		<item group="warmClothes" count="1,2" prob="0.031" />
-		<item group="lightArmor" count="1,2" prob="0.031" />
-		<item group="leatherArmor" count="1,2"  prob="0.031" />
-		<item group="militaryArmor"  count="1,2" prob="0.031" />
-		<item group="steelArmor" count="1,2" prob="0.031" />
+		<item group="groupArmorScaledTPlus" count="1,2" prob="0.031" />
+		<item group="groupArmor_LightTPlus" count="1,2"  prob="0.031" />
+		<item group="groupAllArmor/Cloth"  count="1,2" prob="0.031" />		
 		<item group="sportingGoods" count="1,2" prob="0.031" />
 		<item group="junk" count="1,2" prob="0.031" />
 		<item group="cupboard" count="1,2" prob="0.031" />
 		</lootgroup>
     <lootgroup name="SupplyGeneric" count="0,2">
-        <item group="clothes" count="1,2" prob="0.031" />
+        <item group="groupApparelClothes" count="1,2" prob="0.031" />
 		<item group="cannedfood" count="1,2" prob="0.031" />
         <item group="seeds" count="1,2" prob="0.031" />
         <item group="tools"  count="1,2" prob="0.031" />
@@ -237,7 +245,7 @@
         <item group="SupplyGroups" count="1,2" prob="0.031" />
     </lootgroup>
 		
-	<lootcontainer id="216" count="0,3" size="8,9" destroy_on_close="true" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" loot_quality_template="baseTemplate">
+	<lootcontainer id="216" count="0,3" size="8,9" destroy_on_close="true" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" loot_quality_template="qualPlus1Template">
     	<item group="SupplyRocket" count="1" prob="0.031" />
         <item group="SupplyMaterials" count="1,2" prob="0.031" />
         <item group="SupplyFood" count="1,2" prob="0.031" />

@@ -12,6 +12,7 @@
 <append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsDesert']" ><entity name="sirHiss" prob="0.05" /></append> 
 <append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsDesert']" ><entity name="Tweety" prob="0.05" /></append> 
 <append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsDesert']" ><entity name="beakyBuzzard" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsDesert']" ><entity name="MrFox" prob="0.05" /></append> 
 
 <append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsDesert']" ><entity name="bugsBunny" prob="0.05" /></append> 
 <append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsDesert']" ><entity name="porkyPig" prob="0.05" /></append> 
@@ -24,6 +25,7 @@
 <append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsSnow']" ><entity name="wileyCoyote" prob="0.05" /></append> 
 <append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsSnow']" ><entity name="yogiBear" prob="0.05" /></append> 
 <append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsSnow']" ><entity name="Baloo" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsSnow']" ><entity name="Luca" prob="0.05" /></append>
 
 <append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsSnow']" ><entity name="bugsBunny" prob="0.05" /></append> 
 <append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsSnow']" ><entity name="porkyPig" prob="0.05" /></append> 
@@ -80,6 +82,8 @@
 <append xpath="/entitygroups/entitygroup[@name='AnimalsAll']" ><entity name="Tweety" prob="0.05" /></append> 
 <append xpath="/entitygroups/entitygroup[@name='AnimalsAll']" ><entity name="beakyBuzzard" prob="0.05" /></append> 
 <append xpath="/entitygroups/entitygroup[@name='AnimalsAll']" ><entity name="Scooby" prob="0.05" /></append>
+<append xpath="/entitygroups/entitygroup[@name='AnimalsAll']" ><entity name="MrFox" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='AnimalsAll']" ><entity name="Luca" prob="0.05" />	</append> 
  
 <append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsWasteland']" ><entity name="sirHiss" prob="0.05" /></append> 
 <append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsWasteland']" ><entity name="Tweety" prob="0.05" /></append> 
@@ -87,5 +91,7 @@
 <append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsWasteland']" ><entity name="Scooby" prob="0.05" /></append> 
 <append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsWasteland']" ><entity name="yogiBear" prob="0.05" /></append> 
 <append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsWasteland']" ><entity name="Baloo" prob="0.05" />	</append> 
+<append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsWasteland']" ><entity name="MrFox" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsWasteland']" ><entity name="Luca" prob="0.05" />	</append> 
 
 </stallionsden>

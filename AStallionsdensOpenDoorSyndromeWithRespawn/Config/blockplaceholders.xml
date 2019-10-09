@@ -76,7 +76,7 @@
 	<set xpath="/blockplaceholders/placeholder[@name='cntCashRegisterRandomLootHelper']/block[@name='cntCashRegisterEmpty']/@prob">0.01</set>
 	<set xpath="/blockplaceholders/placeholder[@name='cntCashRegisterRandomLootHelper']/block[@name='cntCashRegister']/@prob">100</set>
 	
-	<set xpath="/blockplaceholders/placeholder[@name='cntShoppingCartRandomLootHelper']/block[@name='shoppingCartEmpty']/@prob">0.01</set>
+	<set xpath="/blockplaceholders/placeholder[@name='cntShoppingCartRandomLootHelper']/block[@name='cntShoppingCartEmpty']/@prob">0.01</set>
 	<set xpath="/blockplaceholders/placeholder[@name='cntShoppingCartRandomLootHelper']/block[@name='cntShoppingCart']/@prob">100</set>
 	
 	<set xpath="/blockplaceholders/placeholder[@name='cntGasGrillRandomLootHelper']/block[@name='cntGasGrillOpen']/@prob">0.01</set>

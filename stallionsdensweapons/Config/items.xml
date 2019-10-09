@@ -1,12 +1,16 @@
 <stallionsden>
-<set xpath="/items/item[@name='gunPistol']/effect_group[@name='Base Effects']/passive_effect[@name='MagazineSize' and @operation='base_set']/@value">50</set>
-<set xpath="/items/item[@name='gun44Magnum']/effect_group[@name='Base Effects']/passive_effect[@name='MagazineSize' and @operation='base_set']/@value">15</set>
-<set xpath="/items/item[@name='gunSMG5']/effect_group[@name='Base Effects']/passive_effect[@name='MagazineSize' and @operation='base_set']/@value">500</set>
-<set xpath="/items/item[@name='gunPumpShotgun']/effect_group[@name='Base Effects']/passive_effect[@name='MagazineSize' and @operation='base_set']/@value">15</set>
-<set xpath="/items/item[@name='gunMR10']/effect_group[@name='Base Effects']/passive_effect[@name='MagazineSize' and @operation='base_set']/@value">128</set>
-<set xpath="/items/item[@name='gunHuntingRifle']/effect_group[@name='Base Effects']/passive_effect[@name='MagazineSize' and @operation='base_set']/@value">10</set>
-<set xpath="/items/item[@name='gunAK47']/effect_group[@name='Base Effects']/passive_effect[@name='MagazineSize' and @operation='base_set']/@value">2500</set>
-<set xpath="/items/item[@name='gunToolNailgun']/effect_group[@name='Base Effects']/passive_effect[@name='MagazineSize' and @operation='base_set']/@value">5000</set>
+<set xpath="/items/item[@name='gunPistol']/effect_group/passive_effect[@name='MagazineSize' and @operation='base_set']/@value">50</set>
+<set xpath="/items/item[@name='gun44Magnum']/effect_group/passive_effect[@name='MagazineSize' and @operation='base_set']/@value">15</set>
+<set xpath="/items/item[@name='gunSMG5']/effect_group/passive_effect[@name='MagazineSize' and @operation='base_set']/@value">500</set>
+<set xpath="/items/item[@name='gunPumpShotgun']/effect_group/passive_effect[@name='MagazineSize' and @operation='base_set']/@value">15</set>
+<set xpath="/items/item[@name='gunMR10']/effect_group/passive_effect[@name='MagazineSize' and @operation='base_set']/@value">128</set>
+<set xpath="/items/item[@name='gunHuntingRifle']/effect_group/passive_effect[@name='MagazineSize' and @operation='base_set']/@value">10</set>
+<set xpath="/items/item[@name='gunAK47']/effect_group/passive_effect[@name='MagazineSize' and @operation='base_set']/@value">500</set>
+<set xpath="/items/item[@name='gunTacticalAR']/effect_group/passive_effect[@name='MagazineSize' and @operation='base_set']/@value">1000</set>
+<set xpath="/items/item[@name='gunM60']/effect_group/passive_effect[@name='MagazineSize' and @operation='base_set']/@value">2000</set>
+<set xpath="/items/item[@name='gunToolNailgun']/effect_group/passive_effect[@name='MagazineSize' and @operation='base_set']/@value">5000</set>
 <append xpath="/items/item[@name='gunHuntingRifle']/property[@name='Tags']/@value">,magazine</append>
-
+<!-- <append xpath="/items/item[@name='unlockBookMaster']">
+		<property name="Stacknumber" value="30000"/>
+	</append> -->
 </stallionsden>

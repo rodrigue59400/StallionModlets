@@ -1,9 +1,5 @@
 <stallionsden>
-	<remove xpath="/recipes/recipe[@name='wineBarrel']" />
-	<remove xpath="/recipes/recipe[@name='wineBarrelPlain']" />
-	<remove xpath="/recipes/recipe[@name='wineBarrelSet']" />
-
-	<append xpath="/recipes">	
+	<append xpath="/recipes">
 		<recipe name="wineBarrel" count="1" craft_area="workbench" >
 			<ingredient name="resourceForgedIron" count="10"/>
 			<ingredient name="resourceLeather" count="10"/>

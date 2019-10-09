@@ -11,12 +11,10 @@
 	<item group="garbage"/>
 	<item group="backpacks"/>
 	<item group="warmClothes" prob="0.08"/>
-	<item group="clothes"/>
-	<item group="militaryArmor" count="1,2" prob="0.5"/>
-	<item group="ammo"/>
-	<item group="weaponsMilitaryGuns+ammo" loot_prob_template="probTemplate1.0"/>
-	<item group="weaponsBasicGuns+ammo"/>
-	<item name="gunCompoundBow" loot_prob_template="probTemplate0.5"/>
+	<item group="groupApparelClothes"/>
+	<item group="groupWeaponsMeleeScaled" count="1" prob="0.05" />
+	<item group="groupWeaponsRangedScaled" count="1" prob="0.05" />
+	<item name="gunBowCompound" loot_prob_template="probTemplate0.5"/>
 	<item name="resourceCloth" count="1,3"/>
 	<item name="resourceBulletCasing" count="1,3"/>
 	</lootcontainer>

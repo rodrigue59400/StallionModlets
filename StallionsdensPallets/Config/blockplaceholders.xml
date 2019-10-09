@@ -2,14 +2,14 @@
 
 	<append xpath="/blockplaceholders">
 		<placeholder name="palletWhiteBagsBase">
-			<block name="palletWhiteBagsBaseEmpty" prob=".66"/>
-			<block name="palletWhiteBagsBaseFull" prob=".33"/>
+			<block name="palletWhiteBagsBaseFull" prob=".66"/>
+			<block name="palletWhiteBagsBaseEmpty" prob=".33"/>
 		</placeholder>
 	</append>
 	<append xpath="/blockplaceholders">
 		<placeholder name="palletWhiteBagsTile">
-			<block name="palletWhiteBagsTileEmpty" prob=".66"/>
-			<block name="palletWhiteBagsTileFull" prob=".33"/>
+			<block name="palletWhiteBagsTileFull" prob=".66"/>
+			<block name="palletWhiteBagsTileEmpty" prob=".33"/>
 		</placeholder>
 	</append>
 	<append xpath="/blockplaceholders">

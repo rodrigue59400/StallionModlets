@@ -1,11 +1,5 @@
 <stallionsden>
-<remove xpath="/recipes/recipe[@name='cntCabinetBottom']"/>
-<remove xpath="/recipes/recipe[@name='cntCupboardCabinetRedTopClosed']"/>
-<remove xpath="/recipes/recipe[@name='cntNightstandClosed']"/>
-<remove xpath="/recipes/recipe[@name='cntWoodDesk01Closed']"/>
-<remove xpath="/recipes/recipe[@name='cntMetalDesk02Closed']"/>
 <remove xpath="/recipes/recipe[@name='cntCoolerClosed']"/>
-<remove xpath="/recipes/recipe[@name='cntLockersShortClosed']"/>
 
 <append xpath="/recipes">
 <recipe name="CabinetBottom" count="1">

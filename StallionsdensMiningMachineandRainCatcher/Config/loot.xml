@@ -18,16 +18,6 @@
 		<item name="terrOreSilver" count="3,12" prob="0.005"/>
 		<item name="terrOreGold" count="3,12" prob="0.001"/>
 		<item name="terrOreDiamond" count="3,12" prob="0.005"/>
-		<item name="terrOreGravelPlusIron" count="8,12" prob="0.005"/>
-		<item name="terrOreGravelPlusLead" count="8,12" prob="0.005"/>
-		<item name="terrOreGravelPlusCoal" count="8,12" prob="0.007"/>
-		<item name="terrOreGravelPlusPotassium" count="8,12" prob="0.005"/>
-		<item name="terrOreSandPlusIron" count="8,12" prob="0.007"/>
-		<item name="terrOreSandPlusLead" count="8,12" prob="0.007"/>
-		<item name="terrOreSandPlusOil" count="8,12" prob="0.007"/>
-		<item name="terrOreSandPlusCoal" count="8,12" prob="0.005"/>
-		<item name="terrOreSandPlusPotassium" count="8,12" prob="0.005"/>
-		<item name="terrFertileFarmland" count="8,12" prob="0.05"/>
 		<item name="terrFertileDirt" count="8,12" prob="0.05"/>
 		<item name="terrFertileGrass" count="8,12"  prob="0.05"/>
 		<item name="resourceSilverNugget" count="1,6" prob="0.007"/>
@@ -44,7 +34,7 @@
 		<!-- Condenser -->
 	<lootcontainer id="224" count="0,4" size="8,9" sound_open="cement_mixer_open" sound_close="cement_mixer_close" destroy_on_close="true" loot_quality_template="baseTemplate" >
 		<item name="drinkJarRiverWater" count="1,10" prob="0.01"/>  
-		<item name="drinkCanRiverWater" count="1,8" prob="0.1"/>  
+		<item name="bucketRiverWater" count="1,8" prob="0.1"/>  
 		<item name="drinkJarBoiledWater" count="1,4" prob="0.01"/>  
 		<item name="drinkJarGoldenRodTea" count="1,2" prob="0.005"/>  
 		</lootcontainer>

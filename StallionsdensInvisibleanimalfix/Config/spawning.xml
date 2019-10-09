@@ -37,6 +37,13 @@ RESPAWN DELAY IS HOW MANY IN GAME DAYS THE ANIMAL WILL RESPAWN IN THAT AREA AFTE
 <set xpath="/spawning/biome[@name='burnt_forest']/spawn[@entitygroup='EnemyAnimalsBurntForest']/@respawndelay">7</set>
 <set xpath="/spawning/biome[@name='snow']/spawn[@entitygroup='EnemyAnimalsSnow']/@respawndelay">7</set> -->
 
+<!-- FRIENDLY ANIMALS ALL BIOMES RESPAWN DAYS -->
+<!-- <set xpath="/spawning/biome[@name='pine_forest']/spawn[@entitygroup='FriendlyAnimalsAll']/@respawndelay">1</set>
+<set xpath="/spawning/biome[@name='desert']/spawn[@entitygroup='FriendlyAnimalsAll']/@respawndelay">1</set>
+<set xpath="/spawning/biome[@name='burnt_forest']/spawn[@entitygroup='FriendlyAnimalsAll']/@respawndelay">1</set>
+<set xpath="/spawning/biome[@name='wasteland']/spawn[@entitygroup='FriendlyAnimalsAll']/@respawndelay">1</set>
+<set xpath="/spawning/biome[@name='snow']/spawn[@entitygroup='FriendlyAnimalsAll']/@respawndelay">1</set> -->
+
 <!-- SET THE MAX SPAWNS TO HOW EVER MANY ALIVE ANIMALS YOU FEEL IS APPROPRIATE -->
 
 <!-- ENEMY ANIMALS ALL BIOMES MAX SPAWNS-->
@@ -46,5 +53,11 @@ RESPAWN DELAY IS HOW MANY IN GAME DAYS THE ANIMAL WILL RESPAWN IN THAT AREA AFTE
 <set xpath="/spawning/biome[@name='snow']/spawn[@entitygroup='EnemyAnimalsSnow']/@maxcount">1</set>
 <set xpath="/spawning/biome[@name='wasteland']/spawn[@entitygroup='EnemyAnimalsWasteland']/@maxcount">1</set> -->
 
+<!-- FRIENDLY ANIMALS ALL BIOMES MAX SPAWNS -->
+<!-- <set xpath="/spawning/biome[@name='pine_forest']/spawn[@entitygroup='FriendlyAnimalsAll']/@maxcount">4</set>
+<set xpath="/spawning/biome[@name='desert']/spawn[@entitygroup='FriendlyAnimalsAll']/@maxcount">4</set>
+<set xpath="/spawning/biome[@name='burnt_forest']/spawn[@entitygroup='FriendlyAnimalsAll']/@maxcount">4</set>
+<set xpath="/spawning/biome[@name='wasteland']/spawn[@entitygroup='FriendlyAnimalsAll']/@maxcount">4</set>
+<set xpath="/spawning/biome[@name='snow']/spawn[@entitygroup='FriendlyAnimalsAll']/@maxcount">4</set> -->
 
 
