@@ -1,7 +1,7 @@
 <stallionsden>
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='116']" >
 <!-- Mining Well -->
-	<lootcontainer id="217" count="0,4" size="8,9" sound_open="forge_open" sound_close="forge_close" destroy_on_close="true" loot_quality_template="baseTemplate" >
+	<lootcontainer id="217" count="0,4" size="8,9" sound_open="forge_open" sound_close="forge_close" destroy_on_close="true" loot_quality_template="qualPlus1Template" >
 		<item name="terrStone" count="8,12" prob="0.07"/>
 		<item name="terrDirt" count="8,12" prob="0.07"/>
 		<item name="terrForestGround" count="8,12" prob="0.07"/>
@@ -32,7 +32,7 @@
 </insertAfter>
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='217']" >		
 		<!-- Condenser -->
-	<lootcontainer id="224" count="0,4" size="8,9" sound_open="cement_mixer_open" sound_close="cement_mixer_close" destroy_on_close="true" loot_quality_template="baseTemplate" >
+	<lootcontainer id="224" count="0,4" size="8,9" sound_open="cement_mixer_open" sound_close="cement_mixer_close" destroy_on_close="true" loot_quality_template="qualPlus1Template" >
 		<item name="drinkJarRiverWater" count="1,10" prob="0.01"/>  
 		<item name="bucketRiverWater" count="1,8" prob="0.1"/>  
 		<item name="drinkJarBoiledWater" count="1,4" prob="0.01"/>  
