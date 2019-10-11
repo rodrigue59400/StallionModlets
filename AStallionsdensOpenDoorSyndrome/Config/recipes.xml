@@ -119,8 +119,5 @@
 	<ingredient name="resourceMechanicalParts" count="4"/>
 	<ingredient name="resourceScrapIron" count="25"/>
 </recipe>
-<recipe name="cntModularClosetClosed" count="1">
-	<ingredient name="resourceNail" count="12"/>
-	<ingredient name="resourceWood" count="24"/>
-</recipe>
+
 </stallionsden>

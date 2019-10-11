@@ -63,6 +63,7 @@
 	<item group="cupboard"/>
     </lootcontainer>
 </insertAfter>	
+<insertAfter xpath="/lootcontainers/lootcontainer[@id='17']" >
 <lootcontainer id="18" count="0,2" size="6,4" destroy_on_close="true" sound_open="UseActions/open_fridge" sound_close="UseActions/close_fridge" loot_quality_template="qualPlus1Template">
 	<item group="groupApparelClothes" prob="0.4"/>
 	<item name="resourceCloth" count="1,5" prob="0.4"/>

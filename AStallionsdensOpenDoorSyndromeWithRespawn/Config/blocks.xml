@@ -77,7 +77,7 @@
 	<property name="Extends" value="cntMicrowaveOvenVer1Open"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="Class" value="UpgradeRated"/>
-	<property name="UpgradeRated.ToBlock" value="cntMicrowaveOvenRandomLootHelper"/>
+	<property name="UpgradeRated.ToBlock" value="cntMicrowaveOvenVer1Closed"/>
 	<property name="UpgradeRated.Rate" value="63"/>
 	<property name="Model" value="Appliances/microwave_oven_ver2" param1="main_mesh"/>
 	<property name="FilterTags" value="floot,ffurniture"/>
@@ -92,7 +92,7 @@
 	<property name="Class" value="Loot"/>
 	<property name="LootList" value="21"/>
 	<property name="FilterTags" value="floot,ffurniture"/>
-		<property name="DowngradeBlock" value="cntMicrowaveOvenVer1Open" />
+		<property name="DowngradeBlock" value="cntMicrowaveOvenRandomLootHelper" />
 	</block>		
 	</insertAfter>
 	
@@ -164,7 +164,7 @@
 	<property name="Extends" value="cntMedicineCabinetOpen"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="Class" value="UpgradeRated"/>
-	<property name="UpgradeRated.ToBlock" value="cntMedicineCabinetClosedRandomLootHelper"/>
+	<property name="UpgradeRated.ToBlock" value="cntMedicineCabinetClosed"/>
 	<property name="UpgradeRated.Rate" value="63"/>
 	<property name="Model" value="#Entities/LootContainers?medicine_cabinet_openPrefab.prefab"/> <property name="Place" value="TowardsPlacerInverted"/>
 	 </block>
@@ -178,7 +178,7 @@
 	<property name="LootList" value="7"/>
 	<property name="Model" value="#Entities/LootContainers?medicine_cabinet_closedPrefab.prefab"/>
 	
-	<property name="DowngradeBlock" value="cntMedicineCabinetOpen" />
+	<property name="DowngradeBlock" value="cntMedicineCabinetClosedRandomLootHelper" />
   </block>
 </insertAfter>
 <!-- MEDICINE CABINET -->
@@ -3035,7 +3035,163 @@
 		<property name="DowngradeBlock"	value="cntPillCaseEmpty" />
 			</append>
 <!-- PILL CASE -->
-				
+<!-- cntWasher -->
+	<append xpath="/blocks/block[@name='cntWasherOpen']">
+	<property name="Class" value="UpgradeRated"/>
+<property name="UpgradeRated.ToBlock" value="cntWasherOpen1"/>
+			<property name="UpgradeRated.Rate" value="63"/>	
+			</append>
+<insertAfter xpath="/blocks/block[@name='cntWasherOpen']">		
+	<block name="cntWasherOpen1">
+	<property name="Extends" value="cntWasherOpen" />
+	<property name="Class" value="UpgradeRated"/>
+<property name="UpgradeRated.ToBlock" value="cntWasherOpen2"/>
+<property name="UpgradeRated.Rate" value="63"/>
+	<property name="Model" value="#Entities/LootContainers?washerOpenPrefab.prefab"/> <property name="Place" value="TowardsPlacerInverted"/>
+	<property name="DescriptionKey" value="furnitureGroupDesc"/>
+	<property name="FilterTags" value="floot,ffurniture"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntWasherOpen1']">
+<block name="cntWasherOpen2">
+	<property name="Extends" value="cntWasherOpen" />
+	<property name="Class" value="UpgradeRated"/>
+<property name="UpgradeRated.ToBlock" value="cntWasherOpen3"/>
+<property name="UpgradeRated.Rate" value="63"/>
+	<property name="Model" value="#Entities/LootContainers?washerOpenPrefab.prefab"/> <property name="Place" value="TowardsPlacerInverted"/>
+	<property name="DescriptionKey" value="furnitureGroupDesc"/>
+	<property name="FilterTags" value="floot,ffurniture"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntWasherOpen2']">
+<block name="cntWasherOpen3">
+	<property name="Extends" value="cntWasherOpen" />
+	<property name="Class" value="UpgradeRated"/>
+<property name="UpgradeRated.ToBlock" value="cntWasherOpen4"/>
+<property name="UpgradeRated.Rate" value="63"/>
+	<property name="Model" value="#Entities/LootContainers?washerOpenPrefab.prefab"/> <property name="Place" value="TowardsPlacerInverted"/>
+	<property name="DescriptionKey" value="furnitureGroupDesc"/>
+	<property name="FilterTags" value="floot,ffurniture"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntWasherOpen3']">
+<block name="cntWasherOpen4">
+	<property name="Extends" value="cntWasherOpen" />
+	<property name="Class" value="UpgradeRated"/>
+<property name="UpgradeRated.ToBlock" value="cntWasherOpen5"/>
+<property name="UpgradeRated.Rate" value="63"/>
+	<property name="Model" value="#Entities/LootContainers?washerOpenPrefab.prefab"/> <property name="Place" value="TowardsPlacerInverted"/>
+	<property name="DescriptionKey" value="furnitureGroupDesc"/>
+	<property name="FilterTags" value="floot,ffurniture"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntWasherOpen4']">
+<block name="cntWasherOpen5">
+	<property name="Extends" value="cntWasherOpen" />
+	<property name="Class" value="UpgradeRated"/>
+<property name="UpgradeRated.ToBlock" value="cntWasherOpen6"/>
+<property name="UpgradeRated.Rate" value="63"/>
+	<property name="Model" value="#Entities/LootContainers?washerOpenPrefab.prefab"/> <property name="Place" value="TowardsPlacerInverted"/>
+	<property name="DescriptionKey" value="furnitureGroupDesc"/>
+	<property name="FilterTags" value="floot,ffurniture"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntWasherOpen5']">
+<block name="cntWasherOpen6">
+	<property name="Extends" value="cntWasherOpen" />
+	<property name="Class" value="UpgradeRated"/>
+<property name="UpgradeRated.ToBlock" value="cntWasherRandomLootHelper"/>
+<property name="UpgradeRated.Rate" value="63"/>
+	<property name="Model" value="#Entities/LootContainers?washerOpenPrefab.prefab"/> <property name="Place" value="TowardsPlacerInverted"/>
+	<property name="DescriptionKey" value="furnitureGroupDesc"/>
+	<property name="FilterTags" value="floot,ffurniture"/>
+</block>
+</insertAfter>
+
+	<append xpath="/blocks/block[@name='cntWasherClosed']">
+		
+		<property name="DowngradeBlock" value="cntWasherOpen" />
+			</append>	
+	<!-- cntWasher -->
+	<!-- Dryer -->
+	<append xpath="/blocks/block[@name='cntDryerOpen']">
+	<property name="Class" value="UpgradeRated"/>
+<property name="UpgradeRated.ToBlock" value="cntDryerOpen1"/>
+			<property name="UpgradeRated.Rate" value="63"/>	
+			</append>
+<insertAfter xpath="/blocks/block[@name='cntDryerOpen']">		
+	<block name="cntDryerOpen1">
+	<property name="Extends" value="cntWasherOpen" />
+	<property name="Class" value="UpgradeRated"/>
+<property name="UpgradeRated.ToBlock" value="cntDryerOpen2"/>
+<property name="UpgradeRated.Rate" value="63"/>
+	<property name="Model" value="#Entities/LootContainers?dryerOpenPrefab.prefab"/>
+<property name="DescriptionKey" value="furnitureGroupDesc"/>
+	<property name="FilterTags" value="floot,ffurniture"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntDryerOpen1']">
+<block name="cntDryerOpen2">
+	<property name="Extends" value="cntWasherOpen" />
+	<property name="Class" value="UpgradeRated"/>
+<property name="UpgradeRated.ToBlock" value="cntDryerOpen3"/>
+<property name="UpgradeRated.Rate" value="63"/>
+	<property name="Model" value="#Entities/LootContainers?dryerOpenPrefab.prefab"/>
+<property name="DescriptionKey" value="furnitureGroupDesc"/>
+	<property name="FilterTags" value="floot,ffurniture"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntDryerOpen2']">
+<block name="cntDryerOpen3">
+	<property name="Extends" value="cntWasherOpen" />
+	<property name="Class" value="UpgradeRated"/>
+<property name="UpgradeRated.ToBlock" value="cntDryerOpen4"/>
+<property name="UpgradeRated.Rate" value="63"/>
+	<property name="Model" value="#Entities/LootContainers?dryerOpenPrefab.prefab"/>
+<property name="DescriptionKey" value="furnitureGroupDesc"/>
+	<property name="FilterTags" value="floot,ffurniture"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntDryerOpen3']">
+<block name="cntDryerOpen4">
+	<property name="Extends" value="cntWasherOpen" />
+	<property name="Class" value="UpgradeRated"/>
+<property name="UpgradeRated.ToBlock" value="cntDryerOpen5"/>
+<property name="UpgradeRated.Rate" value="63"/>
+	<property name="Model" value="#Entities/LootContainers?dryerOpenPrefab.prefab"/>
+<property name="DescriptionKey" value="furnitureGroupDesc"/>
+	<property name="FilterTags" value="floot,ffurniture"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntDryerOpen4']">
+<block name="cntDryerOpen5">
+	<property name="Extends" value="cntWasherOpen" />
+	<property name="Class" value="UpgradeRated"/>
+<property name="UpgradeRated.ToBlock" value="cntDryerOpen6"/>
+<property name="UpgradeRated.Rate" value="63"/>
+	<property name="Model" value="#Entities/LootContainers?dryerOpenPrefab.prefab"/>
+<property name="DescriptionKey" value="furnitureGroupDesc"/>
+	<property name="FilterTags" value="floot,ffurniture"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntDryerOpen5']">
+<block name="cntDryerOpen6">
+	<property name="Extends" value="cntWasherOpen" />
+	<property name="Class" value="UpgradeRated"/>
+<property name="UpgradeRated.ToBlock" value="cntDryerRandomLootHelper"/>
+<property name="UpgradeRated.Rate" value="63"/>
+	<property name="Model" value="#Entities/LootContainers?dryerOpenPrefab.prefab"/>
+<property name="DescriptionKey" value="furnitureGroupDesc"/>
+	<property name="FilterTags" value="floot,ffurniture"/>
+</block>
+</insertAfter>
+
+	<append xpath="/blocks/block[@name='cntDryerClosed']">
+		
+		<property name="DowngradeBlock" value="cntDryerOpen" />
+			</append>	
+	<!-- Dryer -->
+					
 	<set xpath="/blocks/block[@name='cntWallOven']/property[@name='LootList']/@value">23</set>
 	<!-- **************************************************************************** -->	
 <!-- New Blocks -->

@@ -4,6 +4,7 @@
 	<remove xpath="/lootcontainers/lootcontainer[@id='7']"></remove>
 	<remove xpath="/lootcontainers/lootcontainer[@id='13']"></remove>
 	<remove xpath="/lootcontainers/lootcontainer[@id='17']"></remove>
+	<remove xpath="/lootcontainers/lootcontainer[@id='18']"></remove>
 	<remove xpath="/lootcontainers/lootcontainer[@id='21']"></remove>
 	<remove xpath="/lootcontainers/lootcontainer[@id='24']"></remove>
 	<remove xpath="/lootcontainers/lootcontainer[@id='36']"></remove>
@@ -64,6 +65,12 @@
 	<item group="cupboard"/>
     </lootcontainer>
 </insertAfter>	
+<insertAfter xpath="/lootcontainers/lootcontainer[@id='17']" >
+<lootcontainer id="18" count="0,2" size="6,4" destroy_on_close="true" sound_open="UseActions/open_fridge" sound_close="UseActions/close_fridge" loot_quality_template="qualPlus1Template">
+	<item group="groupApparelClothes" prob="0.4"/>
+	<item name="resourceCloth" count="1,5" prob="0.4"/>
+</lootcontainer>
+</insertAfter>
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='20']" >
 	<lootcontainer id="21" count="1,2" size="4,3" destroy_on_close="true" sound_open="UseActions/open_cooler" sound_close="UseActions/close_cooler" loot_quality_template="qualPlus1Template">
 	<item group="rottenFood" prob="1"/>

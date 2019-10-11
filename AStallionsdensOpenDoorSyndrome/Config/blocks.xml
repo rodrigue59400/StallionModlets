@@ -231,13 +231,7 @@
 			<property name="Extends" value="cntDryerOpen"  />
 			</block>
 	</insertAfter>
-	
-	<insertAfter xpath="/blocks/block[@name='cntModularClosetOpen']" >
-		<block name="cntModularClosetOpen_PB">
-			<property name="Extends" value="cntModularClosetOpen"  />
-			</block>
-	</insertAfter>
-	
+		
 		<!-- **************************************************************************** -->
 
 	
@@ -402,11 +396,7 @@
 		<property name="DowngradeBlock" value="cntDryerOpen_PB" />
 			</append>
 			
-			<append xpath="/blocks/block[@name='cntModularClosetClosed']">
-		<drop event="Destroy" count="0" />	
-		<property name="DowngradeBlock" value="cntModularClosetOpen_PB" />
-			</append>
-		
+			
 		<set xpath="/blocks/block[@name='cntWallOven']/property[@name='LootList']/@value">23</set>
 	<!-- **************************************************************************** -->	
 <!-- New Blocks -->
