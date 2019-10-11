@@ -1,0 +1,3 @@
+<stallionsden>
+  <append xpath="/progression/perks/perk[@name='perkMasterChef']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='5,5']/@tags">,activatedCarbon</append>
+</stallionsden>

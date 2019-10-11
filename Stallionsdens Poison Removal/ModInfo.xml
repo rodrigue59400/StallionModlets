@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xml>
+	<ModInfo>
+		<Name value="Stallionsdens Poison Removal Mod" />
+		<Description value="Removes poison from food" />
+		<Author value="Stallionsden" />
+		<Version value="A18" />
+		</ModInfo>
+</xml>

@@ -1,0 +1,13 @@
+<stallionsden>
+<append xpath="/xui/ruleset">
+<window_group name="workstation_TheWeber9000" controller="XUiC_WorkstationWindowGroup">
+			<window name="windowCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<window name="windowCraftingQueue"/>
+			<window name="windowToolsTheWeber9000" />
+			<window name="windowFuel" />
+			<window name="windowOutput" />
+			<window name="windowNonPagingHeader" />
+		</window_group>
+</append>
+</stallionsden>
