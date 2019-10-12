@@ -1,5 +1,5 @@
 <stallionsden>
-<insertAfter xpath="/blocks/block[@name='raft']" >
+<insertAfter xpath="/blocks/block[@name='adobeWhiteWindowArch3MTip']" >
 <block name="Excavator">
     <property name="Class" value="UpgradeRated" />
 	<property name="Material" value="Mmetal"/>
