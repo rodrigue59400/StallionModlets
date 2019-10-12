@@ -7,7 +7,7 @@
 	<property name="Group" value="Building,advBuilding"/>
 	<property name="Tags" value="safes,door,hardenedSafe"/>
 	<property name="DisplayType" value="blockHardenedMulti"/>
-	<property name="Material" value="Mmetal_hard"/><property name="MaxDamage" value="10000"/>
+	<property name="Material" value="Mmetal_hard"/><property name="MaxDamage" value="1200"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#Entities/LootContainers?super_chestPrefab.prefab"/>
 	<property name="MultiBlockDim" value="2,1,1"/>
