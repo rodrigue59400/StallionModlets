@@ -97,6 +97,7 @@
 	</insertAfter>
 	
 	<!-- MICROWAVE -->
+	
 	<!-- MEDICINE CABINET -->
 		<append xpath="/blocks/block[@name='cntMedicineCabinetOpen']">
 		<property name="Class" value="UpgradeRated"/>
@@ -182,30 +183,33 @@
   </block>
 </insertAfter>
 <!-- MEDICINE CABINET -->
-<!-- CABINET BOTTOM -->
-	
+
+<!-- CABINET BOTTOM -->	
 	<append xpath="/blocks/block[@name='cntCabinetBottomOpen']">
 	<property name="Class" value="UpgradeRated"/>
-<property name="UpgradeRated.ToBlock" value="cntCabinetBottomOpen1"/>
-			<property name="UpgradeRated.Rate" value="63"/>	
-			</append>
-<insertAfter xpath="/blocks/block[@name='cntCabinetBottomOpen']">		
+	<property name="UpgradeRated.ToBlock" value="cntCabinetBottomOpen1"/>
+	<property name="UpgradeRated.Rate" value="63"/>	
+	</append>
+	
+	<insertAfter xpath="/blocks/block[@name='cntCabinetBottomOpen']">		
 	<block name="cntCabinetBottomOpen1">
-	<property name="Extends" value="cntCabinetBottomRandomLootHelper" />
+	<property name="Extends" value="cntCabinetBottomRandomLootHelper" param1="Class,LootList,CustomIcon,CustomIconTint,DisplayInfo"/>
+	<property name="CreativeMode" value="Player"/>
 	<property name="Class" value="UpgradeRated"/>
-<property name="UpgradeRated.ToBlock" value="cntCabinetBottomOpen2"/>
-<property name="UpgradeRated.Rate" value="63"/>
+	<property name="UpgradeRated.ToBlock" value="cntCabinetBottomOpen2"/>
+	<property name="UpgradeRated.Rate" value="63"/>
 	<property name="Model" value="cabinet_ajar"/>
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	<property name="FilterTags" value="floot,ffurniture"/>
-</block>
-</insertAfter>
+</block>		
+	</insertAfter>		
 <insertAfter xpath="/blocks/block[@name='cntCabinetBottomOpen1']">
 <block name="cntCabinetBottomOpen2">
-	<property name="Extends" value="cntCabinetBottomRandomLootHelper" />
+	<property name="Extends" value="cntCabinetBottomRandomLootHelper" param1="Class,LootList,CustomIcon,CustomIconTint,DisplayInfo"/>
+	<property name="CreativeMode" value="Player"/>
 	<property name="Class" value="UpgradeRated"/>
-<property name="UpgradeRated.ToBlock" value="cntCabinetBottomOpen3"/>
-<property name="UpgradeRated.Rate" value="63"/>
+	<property name="UpgradeRated.ToBlock" value="cntCabinetBottomOpen3"/>
+	<property name="UpgradeRated.Rate" value="63"/>
 	<property name="Model" value="cabinet_ajar"/>
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	<property name="FilterTags" value="floot,ffurniture"/>
@@ -213,10 +217,11 @@
 </insertAfter>
 <insertAfter xpath="/blocks/block[@name='cntCabinetBottomOpen2']">
 <block name="cntCabinetBottomOpen3">
-	<property name="Extends" value="cntCabinetBottomRandomLootHelper" />
+	<property name="Extends" value="cntCabinetBottomRandomLootHelper" param1="Class,LootList,CustomIcon,CustomIconTint,DisplayInfo"/>
+	<property name="CreativeMode" value="Player"/>
 	<property name="Class" value="UpgradeRated"/>
-<property name="UpgradeRated.ToBlock" value="cntCabinetBottomOpen4"/>
-<property name="UpgradeRated.Rate" value="63"/>
+	<property name="UpgradeRated.ToBlock" value="cntCabinetBottomOpen4"/>
+	<property name="UpgradeRated.Rate" value="63"/>
 	<property name="Model" value="cabinet_ajar"/>
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	<property name="FilterTags" value="floot,ffurniture"/>
@@ -224,10 +229,11 @@
 </insertAfter>
 <insertAfter xpath="/blocks/block[@name='cntCabinetBottomOpen3']">
 <block name="cntCabinetBottomOpen4">
-	<property name="Extends" value="cntCabinetBottomRandomLootHelper" />
+	<property name="Extends" value="cntCabinetBottomRandomLootHelper" param1="Class,LootList,CustomIcon,CustomIconTint,DisplayInfo"/>
+	<property name="CreativeMode" value="Player"/>
 	<property name="Class" value="UpgradeRated"/>
-<property name="UpgradeRated.ToBlock" value="cntCabinetBottomOpen5"/>
-<property name="UpgradeRated.Rate" value="63"/>
+	<property name="UpgradeRated.ToBlock" value="cntCabinetBottomOpen5"/>
+	<property name="UpgradeRated.Rate" value="63"/>
 	<property name="Model" value="cabinet_ajar"/>
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	<property name="FilterTags" value="floot,ffurniture"/>
@@ -235,10 +241,11 @@
 </insertAfter>
 <insertAfter xpath="/blocks/block[@name='cntCabinetBottomOpen4']">
 <block name="cntCabinetBottomOpen5">
-	<property name="Extends" value="cntCabinetBottomRandomLootHelper" />
+	<property name="Extends" value="cntCabinetBottomRandomLootHelper" param1="Class,LootList,CustomIcon,CustomIconTint,DisplayInfo"/>
+	<property name="CreativeMode" value="Player"/>
 	<property name="Class" value="UpgradeRated"/>
-<property name="UpgradeRated.ToBlock" value="cntCabinetBottomOpen6"/>
-<property name="UpgradeRated.Rate" value="63"/>
+	<property name="UpgradeRated.ToBlock" value="cntCabinetBottomOpen6"/>
+	<property name="UpgradeRated.Rate" value="63"/>
 	<property name="Model" value="cabinet_ajar"/>
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	<property name="FilterTags" value="floot,ffurniture"/>
@@ -246,10 +253,11 @@
 </insertAfter>
 <insertAfter xpath="/blocks/block[@name='cntCabinetBottomOpen5']">
 <block name="cntCabinetBottomOpen6">
-	<property name="Extends" value="cntCabinetBottomRandomLootHelper" />
+	<property name="Extends" value="cntCabinetBottomRandomLootHelper" param1="Class,LootList,CustomIcon,CustomIconTint,DisplayInfo"/>
+	<property name="CreativeMode" value="Player"/>
 	<property name="Class" value="UpgradeRated"/>
-<property name="UpgradeRated.ToBlock" value="cntCabinetBottomRandomLootHelper"/>
-<property name="UpgradeRated.Rate" value="63"/>
+	<property name="UpgradeRated.ToBlock" value="cntCabinetBottomRandomLootHelper"/>
+	<property name="UpgradeRated.Rate" value="63"/>
 	<property name="Model" value="cabinet_ajar"/>
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	<property name="FilterTags" value="floot,ffurniture"/>
@@ -257,22 +265,23 @@
 </insertAfter>
 
 	<append xpath="/blocks/block[@name='cntCabinetBottom']">
-		
-		<property name="DowngradeBlock" value="cntCabinetBottomOpen" />
-			</append>
+	<property name="DowngradeBlock" value="cntCabinetBottomOpen" />
+	</append>
 <!-- CABINET BOTTOM -->
+
 <!-- CUPBOARD CABINET RED TOP -->
 		<append xpath="/blocks/block[@name='cntCupboardCabinetRedTopOpen']">
 		<property name="Class" value="UpgradeRated"/>
-<property name="UpgradeRated.ToBlock" value="cntCupboardCabinetRedTopOpen1"/>
-			<property name="UpgradeRated.Rate" value="63"/>
-			</append>
+		<property name="UpgradeRated.ToBlock" value="cntCupboardCabinetRedTopOpen1"/>
+		<property name="UpgradeRated.Rate" value="63"/>
+		</append>
 <insertAfter xpath="/blocks/block[@name='cntCupboardCabinetRedTopOpen']">			
 	<block name="cntCupboardCabinetRedTopOpen1">
-	<property name="Extends" value="cntCupboardCabinetRedTopLootHelper" />
+	<property name="Extends" value="cntCupboardCabinetRedTopLootHelper" param1="Class,LootList,CustomIcon,CustomIconTint"/>
+	<property name="CreativeMode" value="Player"/>
 	<property name="Class" value="UpgradeRated"/>
-<property name="UpgradeRated.ToBlock" value="cntCupboardCabinetRedTopOpen2"/>
-			<property name="UpgradeRated.Rate" value="63"/>
+	<property name="UpgradeRated.ToBlock" value="cntCupboardCabinetRedTopOpen2"/>
+	<property name="UpgradeRated.Rate" value="63"/>
 	<property name="Model" value="cupboard_ajar"/>
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	<property name="FilterTags" value="floot,ffurniture"/>
@@ -280,10 +289,11 @@
 </insertAfter>
 <insertAfter xpath="/blocks/block[@name='cntCupboardCabinetRedTopOpen1']">
 <block name="cntCupboardCabinetRedTopOpen2">
-	<property name="Extends" value="cntCupboardCabinetRedTopLootHelper" />
+	<property name="Extends" value="cntCupboardCabinetRedTopLootHelper" param1="Class,LootList,CustomIcon,CustomIconTint"/>
+	<property name="CreativeMode" value="Player"/>
 	<property name="Class" value="UpgradeRated"/>
-<property name="UpgradeRated.ToBlock" value="cntCupboardCabinetRedTopOpen3"/>
-			<property name="UpgradeRated.Rate" value="63"/>
+	<property name="UpgradeRated.ToBlock" value="cntCupboardCabinetRedTopOpen3"/>
+	<property name="UpgradeRated.Rate" value="63"/>
 	<property name="Model" value="cupboard_ajar"/>
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	<property name="FilterTags" value="floot,ffurniture"/>
@@ -291,10 +301,11 @@
 </insertAfter>
 <insertAfter xpath="/blocks/block[@name='cntCupboardCabinetRedTopOpen2']">
 <block name="cntCupboardCabinetRedTopOpen3">
-	<property name="Extends" value="cntCupboardCabinetRedTopLootHelper" />
+	<property name="Extends" value="cntCupboardCabinetRedTopLootHelper" param1="Class,LootList,CustomIcon,CustomIconTint"/>
+	<property name="CreativeMode" value="Player"/>
 	<property name="Class" value="UpgradeRated"/>
-<property name="UpgradeRated.ToBlock" value="cntCupboardCabinetRedTopOpen4"/>
-			<property name="UpgradeRated.Rate" value="63"/>
+	<property name="UpgradeRated.ToBlock" value="cntCupboardCabinetRedTopOpen4"/>
+	<property name="UpgradeRated.Rate" value="63"/>
 	<property name="Model" value="cupboard_ajar"/>
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	<property name="FilterTags" value="floot,ffurniture"/>
@@ -302,10 +313,11 @@
 </insertAfter>
 <insertAfter xpath="/blocks/block[@name='cntCupboardCabinetRedTopOpen3']">
 <block name="cntCupboardCabinetRedTopOpen4">
-	<property name="Extends" value="cntCupboardCabinetRedTopLootHelper" />
+	<property name="Extends" value="cntCupboardCabinetRedTopLootHelper" param1="Class,LootList,CustomIcon,CustomIconTint"/>
+	<property name="CreativeMode" value="Player"/>
 	<property name="Class" value="UpgradeRated"/>
-<property name="UpgradeRated.ToBlock" value="cntCupboardCabinetRedTopOpen5"/>
-			<property name="UpgradeRated.Rate" value="63"/>
+	<property name="UpgradeRated.ToBlock" value="cntCupboardCabinetRedTopOpen5"/>
+	<property name="UpgradeRated.Rate" value="63"/>
 	<property name="Model" value="cupboard_ajar"/>
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	<property name="FilterTags" value="floot,ffurniture"/>
@@ -313,10 +325,11 @@
 </insertAfter>
 <insertAfter xpath="/blocks/block[@name='cntCupboardCabinetRedTopOpen4']">
 <block name="cntCupboardCabinetRedTopOpen5">
-	<property name="Extends" value="cntCupboardCabinetRedTopLootHelper" />
+	<property name="Extends" value="cntCupboardCabinetRedTopLootHelper" param1="Class,LootList,CustomIcon,CustomIconTint"/>
+	<property name="CreativeMode" value="Player"/>
 	<property name="Class" value="UpgradeRated"/>
-<property name="UpgradeRated.ToBlock" value="cntCupboardCabinetRedTopOpen6"/>
-			<property name="UpgradeRated.Rate" value="63"/>
+	<property name="UpgradeRated.ToBlock" value="cntCupboardCabinetRedTopOpen6"/>
+	<property name="UpgradeRated.Rate" value="63"/>
 	<property name="Model" value="cupboard_ajar"/>
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	<property name="FilterTags" value="floot,ffurniture"/>
@@ -324,32 +337,33 @@
 </insertAfter>
 <insertAfter xpath="/blocks/block[@name='cntCupboardCabinetRedTopOpen5']">
 <block name="cntCupboardCabinetRedTopOpen6">
-	<property name="Extends" value="cntCupboardCabinetRedTopLootHelper" />
+	<property name="Extends" value="cntCupboardCabinetRedTopLootHelper" param1="Class,LootList,CustomIcon,CustomIconTint"/>
+	<property name="CreativeMode" value="Player"/>
 	<property name="Class" value="UpgradeRated"/>
-<property name="UpgradeRated.ToBlock" value="cntCupboardCabinetRedTopLootHelper"/>
-			<property name="UpgradeRated.Rate" value="63"/>
+	<property name="UpgradeRated.ToBlock" value="cntCupboardCabinetRedTopLootHelper"/>
+	<property name="UpgradeRated.Rate" value="63"/>
 	<property name="Model" value="cupboard_ajar"/>
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	<property name="FilterTags" value="floot,ffurniture"/>
-</block>
-</insertAfter>
+</block></insertAfter>
 	<append xpath="/blocks/block[@name='cntCupboardCabinetRedTopClosed']">
-		
-		<property name="DowngradeBlock" value="cntCupboardCabinetRedTopOpen" />
-			</append>
+	<property name="DowngradeBlock" value="cntCupboardCabinetRedTopOpen" />
+	</append>
 <!-- CUPBOARD CABINET RED TOP -->
+
 <!-- CABINET OLD BOTTOM -->
 			<append xpath="/blocks/block[@name='cntCabinetOldBottomOpen']">
 			<property name="Class" value="UpgradeRated"/>
-<property name="UpgradeRated.ToBlock" value="cntCabinetOldBottomOpen1"/>
+			<property name="UpgradeRated.ToBlock" value="cntCabinetOldBottomOpen1"/>
 			<property name="UpgradeRated.Rate" value="63"/>	
 			</append>
 <insertAfter xpath="/blocks/block[@name='cntCabinetOldBottomOpen']">			
 	<block name="cntCabinetOldBottomOpen1">
-	<property name="Extends" value="cntCabinetOldBottomLootHelper" />
+	<property name="Extends" value="cntCabinetOldBottomLootHelper" param1="Class,LootList,CustomIcon,CustomIconTint"/>
+	<property name="CreativeMode" value="Player"/>
 	<property name="Class" value="UpgradeRated"/>
-<property name="UpgradeRated.ToBlock" value="cntCabinetOldBottomOpen2"/>
-			<property name="UpgradeRated.Rate" value="63"/>	
+	<property name="UpgradeRated.ToBlock" value="cntCabinetOldBottomOpen2"/>
+	<property name="UpgradeRated.Rate" value="63"/>
 	<property name="Model" value="cabinet_ajar"/>
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	<property name="FilterTags" value="floot,ffurniture"/>
@@ -357,10 +371,11 @@
 </insertAfter>
 <insertAfter xpath="/blocks/block[@name='cntCabinetOldBottomOpen1']">
 <block name="cntCabinetOldBottomOpen2">
-	<property name="Extends" value="cntCabinetOldBottomLootHelper" />
+	<property name="Extends" value="cntCabinetOldBottomLootHelper" param1="Class,LootList,CustomIcon,CustomIconTint"/>
+	<property name="CreativeMode" value="Player"/>
 	<property name="Class" value="UpgradeRated"/>
-<property name="UpgradeRated.ToBlock" value="cntCabinetOldBottomOpen3"/>
-			<property name="UpgradeRated.Rate" value="63"/>	
+	<property name="UpgradeRated.ToBlock" value="cntCabinetOldBottomOpen3"/>
+	<property name="UpgradeRated.Rate" value="63"/>
 	<property name="Model" value="cabinet_ajar"/>
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	<property name="FilterTags" value="floot,ffurniture"/>
@@ -368,10 +383,11 @@
 </insertAfter>
 <insertAfter xpath="/blocks/block[@name='cntCabinetOldBottomOpen2']">
 <block name="cntCabinetOldBottomOpen3">
-	<property name="Extends" value="cntCabinetOldBottomLootHelper" />
+	<property name="Extends" value="cntCabinetOldBottomLootHelper" param1="Class,LootList,CustomIcon,CustomIconTint"/>
+	<property name="CreativeMode" value="Player"/>
 	<property name="Class" value="UpgradeRated"/>
-<property name="UpgradeRated.ToBlock" value="cntCabinetOldBottomOpen4"/>
-			<property name="UpgradeRated.Rate" value="63"/>	
+	<property name="UpgradeRated.ToBlock" value="cntCabinetOldBottomOpen4"/>
+	<property name="UpgradeRated.Rate" value="63"/>	
 	<property name="Model" value="cabinet_ajar"/>
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	<property name="FilterTags" value="floot,ffurniture"/>
@@ -379,10 +395,11 @@
 </insertAfter>
 <insertAfter xpath="/blocks/block[@name='cntCabinetOldBottomOpen3']">
 <block name="cntCabinetOldBottomOpen4">
-	<property name="Extends" value="cntCabinetOldBottomLootHelper" />
+	<property name="Extends" value="cntCabinetOldBottomLootHelper" param1="Class,LootList,CustomIcon,CustomIconTint"/>
+	<property name="CreativeMode" value="Player"/>
 	<property name="Class" value="UpgradeRated"/>
-<property name="UpgradeRated.ToBlock" value="cntCabinetOldBottomOpen5"/>
-			<property name="UpgradeRated.Rate" value="63"/>	
+	<property name="UpgradeRated.ToBlock" value="cntCabinetOldBottomOpen5"/>
+	<property name="UpgradeRated.Rate" value="63"/>	
 	<property name="Model" value="cabinet_ajar"/>
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	<property name="FilterTags" value="floot,ffurniture"/>
@@ -390,10 +407,11 @@
 </insertAfter>
 <insertAfter xpath="/blocks/block[@name='cntCabinetOldBottomOpen4']">
 <block name="cntCabinetOldBottomOpen5">
-	<property name="Extends" value="cntCabinetOldBottomLootHelper" />
+	<property name="Extends" value="cntCabinetOldBottomLootHelper" param1="Class,LootList,CustomIcon,CustomIconTint"/>
+	<property name="CreativeMode" value="Player"/>
 	<property name="Class" value="UpgradeRated"/>
-<property name="UpgradeRated.ToBlock" value="cntCabinetOldBottomOpen6"/>
-			<property name="UpgradeRated.Rate" value="63"/>	
+	<property name="UpgradeRated.ToBlock" value="cntCabinetOldBottomOpen6"/>
+	<property name="UpgradeRated.Rate" value="63"/>
 	<property name="Model" value="cabinet_ajar"/>
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	<property name="FilterTags" value="floot,ffurniture"/>
@@ -401,97 +419,104 @@
 </insertAfter>
 <insertAfter xpath="/blocks/block[@name='cntCabinetOldBottomOpen5']">
 <block name="cntCabinetOldBottomOpen6">
-	<property name="Extends" value="cntCabinetOldBottomLootHelper" />
+	<property name="Extends" value="cntCabinetOldBottomLootHelper" param1="Class,LootList,CustomIcon,CustomIconTint"/>
+	<property name="CreativeMode" value="Player"/>
 	<property name="Class" value="UpgradeRated"/>
-<property name="UpgradeRated.ToBlock" value="cntCabinetOldBottomLootHelper"/>
-			<property name="UpgradeRated.Rate" value="63"/>	
+	<property name="UpgradeRated.ToBlock" value="cntCabinetOldBottomLootHelper"/>
+	<property name="UpgradeRated.Rate" value="63"/>	
 	<property name="Model" value="cabinet_ajar"/>
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	<property name="FilterTags" value="floot,ffurniture"/>
-</block>		
+</block>	
 </insertAfter>
 	<append xpath="/blocks/block[@name='cntCabinetOldBottom']">
-		
-		<property name="DowngradeBlock" value="cntCabinetOldBottomOpen" />
-			</append>
+	<property name="DowngradeBlock" value="cntCabinetOldBottomOpen" />
+	</append>
 <!-- CABINET OLD BOTTOM -->
+
 <!-- CUPBOARD CABINET OLD TOP -->
 		<append xpath="/blocks/block[@name='cntCupboardCabinetOldTopOpen']">
 		<property name="Class" value="UpgradeRated"/>
-<property name="UpgradeRated.ToBlock" value="cntCupboardCabinetOldTopOpen1"/>
-			<property name="UpgradeRated.Rate" value="63"/>	
-			</append>	
+		<property name="UpgradeRated.ToBlock" value="cntCupboardCabinetOldTopOpen1"/>
+		<property name="UpgradeRated.Rate" value="63"/>	
+		</append>	
 <insertAfter xpath="/blocks/block[@name='cntCupboardCabinetOldTopOpen']">		
-<block name="cntCupboardCabinetOldTopOpen1">
-	<property name="Extends" value="cntCupboardCabinetOldTopLootHelper" />
+	<block name="cntCupboardCabinetOldTopOpen1">
+	<property name="Extends" value="cntCupboardCabinetOldTopLootHelper" param1="Class,LootList,CustomIcon,CustomIconTint"/>
 	<property name="Class" value="UpgradeRated"/>
-<property name="UpgradeRated.ToBlock" value="cntCupboardCabinetOldTopOpen2"/>
-			<property name="UpgradeRated.Rate" value="63"/>	
+	<property name="UpgradeRated.ToBlock" value="cntCupboardCabinetOldTopOpen2"/>
+	<property name="UpgradeRated.Rate" value="63"/>
 	<property name="Model" value="cupboard_ajar"/>
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	<property name="FilterTags" value="floot,ffurniture"/>
+	<property name="CreativeMode" value="Player"/>
 </block>
 </insertAfter>
 <insertAfter xpath="/blocks/block[@name='cntCupboardCabinetOldTopOpen1']">
 <block name="cntCupboardCabinetOldTopOpen2">
-	<property name="Extends" value="cntCupboardCabinetOldTopLootHelper" />
+	<property name="Extends" value="cntCupboardCabinetOldTopLootHelper" param1="Class,LootList,CustomIcon,CustomIconTint"/>
 	<property name="Class" value="UpgradeRated"/>
-<property name="UpgradeRated.ToBlock" value="cntCupboardCabinetOldTopOpen3"/>
-			<property name="UpgradeRated.Rate" value="63"/>	
+	<property name="UpgradeRated.ToBlock" value="cntCupboardCabinetOldTopOpen3"/>
+	<property name="UpgradeRated.Rate" value="63"/>
 	<property name="Model" value="cupboard_ajar"/>
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	<property name="FilterTags" value="floot,ffurniture"/>
+	<property name="CreativeMode" value="Player"/>
 </block>
 </insertAfter>
 <insertAfter xpath="/blocks/block[@name='cntCupboardCabinetOldTopOpen2']">
 <block name="cntCupboardCabinetOldTopOpen3">
-	<property name="Extends" value="cntCupboardCabinetOldTopLootHelper" />
+	<property name="Extends" value="cntCupboardCabinetOldTopLootHelper" param1="Class,LootList,CustomIcon,CustomIconTint"/>
 	<property name="Class" value="UpgradeRated"/>
-<property name="UpgradeRated.ToBlock" value="cntCupboardCabinetOldTopOpen4"/>
-			<property name="UpgradeRated.Rate" value="63"/>	
+	<property name="UpgradeRated.ToBlock" value="cntCupboardCabinetOldTopOpen4"/>
+	<property name="UpgradeRated.Rate" value="63"/>	
 	<property name="Model" value="cupboard_ajar"/>
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	<property name="FilterTags" value="floot,ffurniture"/>
+	<property name="CreativeMode" value="Player"/>
 </block>
 </insertAfter>
 <insertAfter xpath="/blocks/block[@name='cntCupboardCabinetOldTopOpen3']">
 <block name="cntCupboardCabinetOldTopOpen4">
-	<property name="Extends" value="cntCupboardCabinetOldTopLootHelper" />
+	<property name="Extends" value="cntCupboardCabinetOldTopLootHelper" param1="Class,LootList,CustomIcon,CustomIconTint"/>
 	<property name="Class" value="UpgradeRated"/>
-<property name="UpgradeRated.ToBlock" value="cntCupboardCabinetOldTopOpen5"/>
-			<property name="UpgradeRated.Rate" value="63"/>	
+	<property name="UpgradeRated.ToBlock" value="cntCupboardCabinetOldTopOpen5"/>
+	<property name="UpgradeRated.Rate" value="63"/>	
 	<property name="Model" value="cupboard_ajar"/>
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	<property name="FilterTags" value="floot,ffurniture"/>
+	<property name="CreativeMode" value="Player"/>
 </block>
 </insertAfter>
 <insertAfter xpath="/blocks/block[@name='cntCupboardCabinetOldTopOpen4']">
 <block name="cntCupboardCabinetOldTopOpen5">
-	<property name="Extends" value="cntCupboardCabinetOldTopLootHelper" />
+	<property name="Extends" value="cntCupboardCabinetOldTopLootHelper" param1="Class,LootList,CustomIcon,CustomIconTint"/>
 	<property name="Class" value="UpgradeRated"/>
-<property name="UpgradeRated.ToBlock" value="cntCupboardCabinetOldTopOpen6"/>
-			<property name="UpgradeRated.Rate" value="63"/>	
+	<property name="UpgradeRated.ToBlock" value="cntCupboardCabinetOldTopOpen6"/>
+	<property name="UpgradeRated.Rate" value="63"/>	
 	<property name="Model" value="cupboard_ajar"/>
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	<property name="FilterTags" value="floot,ffurniture"/>
+	<property name="CreativeMode" value="Player"/>
 </block>
 </insertAfter>
 <insertAfter xpath="/blocks/block[@name='cntCupboardCabinetOldTopOpen5']">
 <block name="cntCupboardCabinetOldTopOpen6">
-	<property name="Extends" value="cntCupboardCabinetOldTopLootHelper" />
+	<property name="Extends" value="cntCupboardCabinetOldTopLootHelper" param1="Class,LootList,CustomIcon,CustomIconTint"/>
 	<property name="Class" value="UpgradeRated"/>
-<property name="UpgradeRated.ToBlock" value="cntCupboardCabinetOldTopLootHelper"/>
-			<property name="UpgradeRated.Rate" value="63"/>	
+	<property name="UpgradeRated.ToBlock" value="cntCupboardCabinetOldTopLootHelper"/>
+	<property name="UpgradeRated.Rate" value="63"/>	
 	<property name="Model" value="cupboard_ajar"/>
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	<property name="FilterTags" value="floot,ffurniture"/>
+	<property name="CreativeMode" value="Player"/>
 </block>
 	</insertAfter>		
 	<append xpath="/blocks/block[@name='cntCupboardCabinetOldTopClosed']">
-		
-		<property name="DowngradeBlock" value="cntCupboardCabinetOldTopOpen" />
-			</append>
+	<property name="DowngradeBlock" value="cntCupboardCabinetOldTopOpen" />
+	</append>
 <!-- CUPBOARD CABINET OLD TOP -->
+
 <!-- STOVE OLD -->
 		<append xpath="/blocks/block[@name='cntStoveOldVer2Open']">
 		<property name="Class" value="UpgradeRated"/>

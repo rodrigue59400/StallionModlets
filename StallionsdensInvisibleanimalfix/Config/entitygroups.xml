@@ -89,15 +89,25 @@
 
 <append xpath="/entitygroups/entitygroup/entity[@name='animalBoar']" >prob="0.03"</append>
 
-<set xpath="/entitygroups/entitygroup/entity[starts-with(@name, 'animalZombie')]" >prob="0.09"</set> 
+<set xpath="/entitygroups/entitygroup/entity[@name='animalZombieDog']" >prob="0.0001"</set> 
 
-<set xpath="/entitygroups/entitygroup/entity[starts-with(@name, 'animalDire')]" >prob="0.0005"</set> 
+<set xpath="/entitygroups/entitygroup/entity[@name='animalDireWolf']" >prob="0.00001"</set> 
 
-<set xpath="/entitygroups/entitygroup/entity[starts-with(@name, 'animalWolf')]" >prob="0.008"</set> 
+<set xpath="/entitygroups/entitygroup/entity[@name='animalMountainLion']" >prob="0.001"</set> 
 
-<set xpath="/entitygroups/entitygroup/entity[starts-with(@name, 'animalSnake')]" >prob="0.05"</set> 
+<set xpath="/entitygroups/entitygroup/entity[@name='animalWolf']" >prob="0.001"</set> 
 
-<set xpath="/entitygroups/entitygroup/entity[starts-with(@name, 'animalBear')]" >prob="0.09"</set> 
+<set xpath="/entitygroups/entitygroup/entity[@name='animalSnake']" >prob="0.001"</set> 
+
+<set xpath="/entitygroups/entitygroup/entity[@name='animalBear']" >prob="0.001"</set> 
+
+<set xpath="/entitygroups/entitygroup/entity[@name='animalZombieBear']" >prob="0.0001"</set>
+
+<set xpath="/entitygroups/entitygroup/entity[@name='animalZombieVulture']" >prob="0.0001"</set> 
+
+<set xpath="/entitygroups/entitygroup/entity[@name='animalZombieVultureRadiated']" >prob="0.00001"</set> 
+
+<set xpath="/entitygroups/entitygroup/entity[@name='animalCoyote']" >prob="0.001"</set> 
 
 
 
