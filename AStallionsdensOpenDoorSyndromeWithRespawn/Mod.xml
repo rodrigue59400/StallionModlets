@@ -1,0 +1,10 @@
+<mod>
+	<info>
+		<author>Stallionsden</author>
+		<name>AStallionsdensOpenDoorSyndromeWithRespawn</name>
+		<description>when you loot the door goes to open state in which it will return eventually to closed state</description>
+		<mod_version>1.0</mod_version>
+		<game_version>18B143</game_version>
+		<launcher_version>0.1.0</launcher_version>
+	</info>
+</mod>

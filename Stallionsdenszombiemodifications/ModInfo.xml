@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
     <ModInfo>
-        <Name value="Stallionsdens Pets" />
-        <Description value="Adds Pets" />
+        <Name value="Stallionsdens zombie modifications" />
+        <Description value="This modlet changes various things about zombies." />
         <Author value="Stallionsden" />
         <Version value="B208" />
     </ModInfo>

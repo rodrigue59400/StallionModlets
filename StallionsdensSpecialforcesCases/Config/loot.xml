@@ -17,9 +17,8 @@
 		<item name="whispererGloves" count="1,1" quality="6,6" />
 		<item name="armorMiningHelmet" count="1,1" quality="6,6" />
 		<item name="apparelNightvisionGoggles" count="1,1" quality="6,6" />			
-		<item name="gunCrossbowCompound" count="1,1" quality="6,6" />	
-		<item name="gunCrossbowIron" count="1,1" quality="6,6" />
-        <item name="ammoCrossbowBoltSteelAP" count="1000,1500"/>
+		<item name="gunBowCompound" count="1,1" quality="6,6" />	
+		<item name="ammoArrowIron" count="1000,1500"/>
 		<item name="gunAK47" count="1,1" quality="6,6" />
 		<item name="gunM60" count="1,1" quality="6,6" />
 		<item name="ammo762mmBulletHP" count="250,500"/>
