@@ -1,0 +1,170 @@
+<stallionsden>
+<remove xpath="/blockplaceholders/placeholder[@name='cntFileCabinetShortRandomLootHelper']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntFileCabinetTallRandomLootHelper']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntLockersShortRandomLootHelper']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntLockersTallRandomLootHelper']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntLockersTallDoubleRandomLootHelper']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntLockersTallMixRandomLootHelper']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntLockersTallMixLinkRandomLootHelper']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntCashRegisterRandomLootHelper']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntToolBoxRandomLootHelper']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntRollingToolBoxRandomLootHelper']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntLuggageMediumRandomLootHelper']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntLuggageBigRandomLootHelper']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntLuggagePileARandomLootHelper']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntLuggagePileBRandomLootHelper']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntCabinetBottomRandomLootHelper']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntCupboardCabinetRedTopLootHelper']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntCabinetOldBottomLootHelper']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntCupboardCabinetOldTopLootHelper']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntNightstandRandomLootHelper']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntMedicineCabinetFaucetRandomLootHelper']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntMedicineCabinetClosedRandomLootHelper']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntPillCaseRandomLootHelper']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntWoodDesk01RandomLootHelper']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntMetalDesk02RandomLootHelper']"></remove>
+
+	<append xpath="/blockplaceholders">
+	<placeholder name="cntNightstandRandomLootHelper">
+		<block name="cntNightstandOpen" prob=".33"/>
+		<block name="cntNightstandLocked" prob=".33"/>
+		<block name="cntNightstandClosed" prob=".33"/>
+	</placeholder>
+	<placeholder name="cntFileCabinetShortRandomLootHelper">
+		<block name="cntFileCabinetShortOpen" prob=".33"/>
+		<block name="cntFileCabinetShortLocked" prob=".33"/>
+		<block name="cntFileCabinetShortClosed" prob=".33"/>
+	</placeholder>
+	<placeholder name="cntFileCabinetTallRandomLootHelper">
+		<block name="cntFileCabinetTallOpen" prob=".33"/>
+		<block name="cntFileCabinetTallLocked" prob=".66"/>
+		<block name="cntFileCabinetTallClosed" prob=".33"/>
+	</placeholder>
+	<placeholder name="cntLockersShortRandomLootHelper">
+		<block name="cntLockersShortOpen" prob=".33"/>
+		<block name="cntLockersShortLocked" prob=".33"/>
+		<block name="cntLockersShortClosed" prob=".33"/>
+	</placeholder>
+	<placeholder name="cntLockersTallRandomLootHelper">
+		<block name="cntLockersTallOpen" prob=".33"/>
+		<block name="cntLockersTallOpen" prob=".33"/>
+		<block name="cntLockersTallClosed" prob=".33"/>
+	</placeholder>
+	<placeholder name="cntLockersTallDoubleRandomLootHelper">
+		<block name="cntLockersTallDoubleOpen" prob=".33"/>
+		<block name="cntLockersTallDoubleOpen" prob=".33"/>
+		<block name="cntLockersTallDoubleClosed" prob=".33"/>
+	</placeholder>
+	<placeholder name="cntLockersTallMixRandomLootHelper">
+		<block name="cntLockersTallMixOpen" prob=".33"/>
+		<block name="cntLockersTallMixLocked" prob=".33"/>
+		<block name="cntLockersTallMixClosed" prob=".33"/>
+	</placeholder>
+	<placeholder name="cntLockersTallMixLinkRandomLootHelper">
+		<block name="cntLockersTallMixLinkOpen" prob=".33"/>
+		<block name="cntLockersTallMixLinkLocked" prob=".33"/>
+		<block name="cntLockersTallMixLinkClosed" prob=".33"/>
+	</placeholder>
+	<placeholder name="cntCashRegisterRandomLootHelper">
+		<block name="air" prob="0.05"/>
+		<block name="cntCashRegisterEmpty" prob=".33"/>
+		<block name="cntCashRegisterLocked" prob=".33"/>
+		<block name="cntCashRegister" prob=".33"/>
+	</placeholder>
+	<placeholder name="cntToolBoxRandomLootHelper">
+		<block name="cntToolBoxOpen" prob=".33"/>
+		<block name="cntToolBoxLocked" prob=".33"/>
+		<block name="cntToolBoxClosed" prob=".33"/>
+	</placeholder>
+	<placeholder name="cntRollingToolBoxRandomLootHelper">
+		<block name="cntRollingToolBoxOpen" prob=".33"/>
+		<block name="cntRollingToolBoxLocked" prob=".33"/>
+		<block name="cntRollingToolBoxClosed" prob=".33"/>
+	</placeholder>
+	<placeholder name="cntLuggageMediumRandomLootHelper">
+		<block name="cntLuggageMediumOpen" prob=".33"/>
+		<block name="cntLuggageMediumOpen" prob=".33"/>
+		<block name="cntLuggageMediumClosed" prob=".33"/>
+	</placeholder>
+	<placeholder name="cntLuggageBigRandomLootHelper">
+		<block name="cntLuggageBigOpen" prob=".33"/>
+		<block name="cntLuggageBigLocked" prob=".33"/>
+		<block name="cntLuggageBigClosed" prob=".33"/>
+	</placeholder>
+	<placeholder name="cntLuggagePileARandomLootHelper">
+		<block name="cntLuggagePileAOpen" prob=".33"/>
+		<block name="cntLuggagePileALocked" prob=".33"/>
+		<block name="cntLuggagePileAClosed" prob=".33"/>
+	</placeholder>
+	<placeholder name="cntLuggagePileBRandomLootHelper">
+		<block name="cntLuggagePileBOpen" prob=".33"/>
+		<block name="cntLuggagePileBLocked" prob=".33"/>
+		<block name="cntLuggagePileBClosed" prob=".33"/>
+	</placeholder>
+	<placeholder name="cntCabinetBottomRandomLootHelper">
+		<block name="cntCabinetBottomOpen" prob=".33"/>
+		<block name="cntCabinetBottomLocked" prob=".33"/>
+		<block name="cntCabinetBottom" prob=".35"/>
+	</placeholder>
+	<placeholder name="cntCupboardCabinetRedTopLootHelper">
+		<block name="cntCupboardCabinetRedTopOpen" prob=".33"/>
+		<block name="cntCupboardCabinetRedTopLocked" prob=".33"/>
+		<block name="cntCupboardCabinetRedTopClosed" prob=".33"/>
+	</placeholder>
+	<placeholder name="cntCabinetOldBottomLootHelper">
+		<block name="cntCabinetOldBottomOpen" prob=".33"/>
+		<block name="cntCabinetOldBottomLocked" prob=".33"/>
+		<block name="cntCabinetOldBottom" prob=".33"/>
+	</placeholder>
+	<placeholder name="cntCupboardCabinetOldTopLootHelper">
+		<block name="cntCupboardCabinetOldTopOpen" prob=".33"/>
+		<block name="cntCupboardCabinetOldTopLocked" prob=".33"/>
+		<block name="cntCupboardCabinetOldTopClosed" prob=".33"/>
+	</placeholder>
+	<placeholder name="cntMedicineCabinetFaucetRandomLootHelper">
+		<block name="cntMedicineCabinetFaucetOpen" prob=".33"/>
+		<block name="cntMedicineCabinetFaucetLocked" prob=".33"/>
+		<block name="cntMedicineCabinetFaucetClosed" prob=".33"/>
+	</placeholder>
+	<placeholder name="cntMedicineCabinetClosedRandomLootHelper">
+		<block name="cntMedicineCabinetOpen" prob=".33"/>
+		<block name="cntCabinetOldBottomLocked" prob=".33"/>
+		<block name="cntCabinetOldBottom" prob=".33"/>
+	</placeholder>
+	<placeholder name="cntPillCaseRandomLootHelper">
+		<block name="cntPillCaseEmpty" prob=".33"/>
+		<block name="cntPillCaseLocked" prob=".33"/>
+		<block name="cntPillCaseClosed" prob=".33"/>
+	</placeholder>
+	<placeholder name="cntWoodDesk01RandomLootHelper">
+		<block name="cntWoodDesk01Open" prob=".33"/>
+		<block name="cntWoodDesk01Locked" prob=".33"/>
+		<block name="cntWoodDesk01Closed" prob=".33"/>
+	</placeholder>
+	<placeholder name="cntMetalDesk02RandomLootHelper">
+		<block name="cntMetalDesk02Open" prob=".33"/>
+		<block name="cntMetalDesk02Locked" prob=".33"/>
+		<block name="cntMetalDesk02Closed" prob=".33"/>
+	</placeholder>
+	
+	
+	<!-- New blockplaceholders -->	
+	<placeholder name="cntMunitionsBoxRandomLootHelper">		
+		<block name="cntMunitionsBox" prob=".66"/>
+		<block name="cntMunitionsBoxInsecure" prob=".33"/>
+	</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+	<placeholder name="cntDumpsterRandomLootHelper">		
+		<block name="cntDumpsterLocked" prob=".66"/>
+		<block name="cntDumpster" prob=".33"/>
+	</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+	<placeholder name="cntDumpsterFliesRandomLootHelper">		
+		<block name="cntDumpsterFliesLocked" prob=".66"/>
+		<block name="cntDumpsterFlies" prob=".33"/>
+	</placeholder>
+	</append>
+	<!-- New blockplaceholders -->
+</stallionsden>

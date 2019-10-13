@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <ModInfo>
+        <Name value="StallionsdensLock Picking Additions" />
+        <Description value="Adds more items that can be lock picked." />
+        <Author value="Stallionsden" />
+        <Version value="A17" />
+    </ModInfo>
+</xml>

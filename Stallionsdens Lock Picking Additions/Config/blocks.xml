@@ -1,0 +1,760 @@
+<stallionsden>
+<remove xpath="/blocks/block[@name='cntMunitionsBox']"></remove>
+<remove xpath="/blocks/block[@name='cntDumpster']"></remove>
+<remove xpath="/blocks/block[@name='cntDumpsterFlies']"></remove>
+
+
+<append xpath="/blocks">
+	<block name="cntMunitionsBox"> <!-- military ammo -->
+	<property name="Class" value="SecureLoot"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="StabilitySupport" value="false"/> <!-- build restriction -->
+	<property name="Shape" value="Ext3dModel"/> <property name="Texture" value="293"/>
+	<property name="Mesh" value="models"/>
+	<property name="Model" value="LootContainers/munitions_box01" param1="main_mesh"/>
+	<property name="Place" value="TowardsPlacer"/>
+	<property name="ImposterExchange" value="imposterHalf" param1="112"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<drop event="Harvest" name="resourceForgedIron" count="2,4" prob="1" tag="salvageHarvest"/>
+	<property name="LootList" value="40"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="15"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntMunitionsBoxInsecure"/> 
+	<drop event="Harvest" name="resourceForgedSteel" count="2,4" prob="0.5" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceScrapIron" count="30" prob="1" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<property name="EconomicValue" value="250"/> <!-- disassemble value -->
+	<property name="FilterTags" value="floot"/>
+</block>
+<block name="cntMunitionsBoxInsecure"> <!-- military ammo -->
+	<property name="Class" value="Loot"/>
+	<property name="CustomIcon" value="cntMunitionsBox"/>
+	<property name="Texture" value="293"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="LootList" value="40"/>
+	<property name="StabilitySupport" value="false"/> <!-- build restriction -->
+	<property name="Shape" value="Ext3dModel"/> <property name="Texture" value="293"/>
+	<property name="Mesh" value="models"/>
+	<property name="Model" value="LootContainers/munitions_box01" param1="main_mesh"/>
+	<property name="Place" value="TowardsPlacer"/>
+	<property name="ImposterExchange" value="imposterHalf" param1="112"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<drop event="Harvest" name="resourceForgedIron" count="2,4" prob="1" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceForgedSteel" count="2,4" prob="0.5" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceScrapIron" count="30" prob="1" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<property name="EconomicValue" value="250"/> <!-- disassemble value -->
+	<property name="FilterTags" value="floot"/>
+</block>
+<block name="cntMunitionsBoxRandomLootHelper">
+	<property name="Extends" value="cntMunitionsBox" param1="DescriptionKey"/>
+	<property name="CustomIcon" value="cntMunitionsBox"/> <property name="Texture" value="293"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="FilterTags" value="floot,ffurniture,fdesign"/>
+	<property name="DisplayInfo" value="Name"/>
+</block>
+
+	<block name="cntDumpster">
+	<property name="Class" value="Loot"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Path" value="solid"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="#Entities/LootContainers?dumpsterPrefab.prefab"/> <property name="Place" value="TowardsPlacer"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="MultiBlockDim" value="3,2,2"/>
+	<property name="LootList" value="66"/>
+	<property name="ImposterExchange" value="imposterBlock" param1="136"/>
+	<drop event="Destroy" name="resourceScrapIron" count="20" prob="1"/>
+	<property name="FilterTags" value="floot"/>
+</block>
+
+	<block name="cntDumpsterLocked">
+	<property name="Extends" value="cntDumpster" param1="DescriptionKey"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Path" value="solid"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="CustomIcon" value="cntDumpster"/> <property name="CustomIconTint" value="ff8080"/>
+	<property name="Model" value="#Entities/LootContainers?dumpsterPrefab.prefab"/> <property name="Place" value="TowardsPlacer"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="MultiBlockDim" value="3,2,2"/>
+	<property name="LootList" value="66"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="5"/>
+	<property name="LockPickBreakChance" value="0.25"/>	
+	<property name="DowngradeBlock" value="cntDumpster"/> 
+	<property name="ImposterExchange" value="imposterBlock" param1="136"/>
+	<drop event="Destroy" name="resourceScrapIron" count="20" prob="1"/>
+	<property name="FilterTags" value="floot"/>
+	</block>
+	
+	<block name="cntDumpsterRandomLootHelper">
+	<property name="Extends" value="cntDumpster" param1="DescriptionKey"/>
+	<property name="CustomIcon" value="cntDumpster"/> <property name="CustomIconTint" value="ff8080"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="FilterTags" value="floot,ffurniture,fdesign"/>
+	<property name="DisplayInfo" value="Name"/>
+</block>
+
+	<block name="cntDumpsterFlies">
+	<property name="Class" value="Loot"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Path" value="solid"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="#Entities/LootContainers?dumpster_fliesPrefab.prefab"/> <property name="Place" value="TowardsPlacer"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="MultiBlockDim" value="3,2,2"/>
+	<property name="LootList" value="66"/>
+	<property name="ImposterExchange" value="imposterBlock" param1="136"/>
+	<drop event="Destroy" name="resourceScrapIron" count="20" prob="1"/>
+	<property name="FilterTags" value="floot"/>
+</block>
+	
+	<block name="cntDumpsterFliesLocked">
+	<property name="Extends" value="cntDumpsterFlies" param1="DescriptionKey"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Path" value="solid"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="CustomIcon" value="cntDumpsterFlies"/> <property name="CustomIconTint" value="ff8080"/>
+	<property name="Model" value="#Entities/LootContainers?dumpster_fliesPrefab.prefab"/> <property name="Place" value="TowardsPlacer"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="MultiBlockDim" value="3,2,2"/>
+	<property name="LootList" value="66"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="15"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntDumpsterFlies"/> 
+	<property name="ImposterExchange" value="imposterBlock" param1="136"/>
+	<drop event="Destroy" name="resourceScrapIron" count="20" prob="1"/>
+	<property name="FilterTags" value="floot"/>
+	</block>
+	
+		<block name="cntDumpsterFliesRandomLootHelper">
+	<property name="Extends" value="cntDumpsterFlies" param1="DescriptionKey"/>
+	<property name="CustomIcon" value="cntDumpsterFlies"/> <property name="CustomIconTint" value="ff8080"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="FilterTags" value="floot,ffurniture,fdesign"/>
+	<property name="DisplayInfo" value="Name"/>
+</block>
+	
+</append>
+	
+	<append xpath="/blocks/block[@name='cntSecureStorageChest']">
+		<property name="LockPickItem" value="resourceLockPick"/>
+		<property name="LockPickTime" value="15"/>
+		<property name="LockPickBreakChance" value="0.50"/>
+		</append>
+
+<append xpath="/blocks/block[@name='cntStorageGeneric']">
+		<property name="LockPickItem" value="resourceLockPick"/>
+		<property name="LockPickTime" value="5"/>
+		<property name="LockPickBreakChance" value="0.50"/>
+		</append>	
+		
+<!-- <append xpath="/blocks/block[@name='jailDoorStatic']">
+		<property name="LockPickItem" value="resourceLockPick"/>
+		<property name="LockPickTime" value="15"/>
+		<property name="LockPickBreakChance" value="0.50"/>
+		</append>		
+		
+<append xpath="/blocks/block[@name='jailDoorStaticCentered']">
+		<property name="LockPickItem" value="resourceLockPick"/>
+		<property name="LockPickTime" value="15"/>
+		<property name="LockPickBreakChance" value="0.50"/>
+		</append>	
+		
+<append xpath="/blocks/block[@name='secureDoorWooden']">
+		<property name="LockPickItem" value="resourceLockPick"/>
+		<property name="LockPickTime" value="15"/>
+		<property name="LockPickBreakChance" value="0.50"/>
+		</append>		
+-->	
+<!--	
+<append xpath="/blocks/block[@name='secureReinforcedDoorWooden']">
+		<property name="LockPickItem" value="resourceLockPick"/>
+		<property name="LockPickTime" value="15"/>
+		<property name="LockPickBreakChance" value="0.50"/>
+		</append>			
+	
+<append xpath="/blocks/block[@name='metalReinforcedDoorWooden']">
+		<property name="LockPickItem" value="resourceLockPick"/>
+		<property name="LockPickTime" value="15"/>
+		<property name="LockPickBreakChance" value="0.50"/>
+		</append>	
+
+<append xpath="/blocks/block[@name='ironDoor1_v2']">
+		<property name="LockPickItem" value="resourceLockPick"/>
+		<property name="LockPickTime" value="15"/>
+		<property name="LockPickBreakChance" value="0.50"/>
+		</append>
+
+<append xpath="/blocks/block[@name='ironDoor1_v3']">
+		<property name="LockPickItem" value="resourceLockPick"/>
+		<property name="LockPickTime" value="15"/>
+		<property name="LockPickBreakChance" value="0.50"/>
+		</append>
+
+<append xpath="/blocks/block[@name='vaultDoor02']">
+		<property name="LockPickItem" value="resourceLockPick"/>
+		<property name="LockPickTime" value="15"/>
+		<property name="LockPickBreakChance" value="0.50"/>
+		</append>
+
+<append xpath="/blocks/block[@name='vaultDoor03']">
+		<property name="LockPickItem" value="resourceLockPick"/>
+		<property name="LockPickTime" value="15"/>
+		<property name="LockPickBreakChance" value="0.50"/>
+		</append>
+
+<append xpath="/blocks/block[@name='commercialDoor1_v1']">
+		<property name="LockPickItem" value="resourceLockPick"/>
+		<property name="LockPickTime" value="15"/>
+		<property name="LockPickBreakChance" value="0.50"/>
+		</append>
+
+<append xpath="/blocks/block[@name='commercialDoor1_v2']">
+		<property name="LockPickItem" value="resourceLockPick"/>
+		<property name="LockPickTime" value="15"/>
+		<property name="LockPickBreakChance" value="0.50"/>
+		</append>
+
+<append xpath="/blocks/block[@name='commercialDoor1_v3']">
+		<property name="LockPickItem" value="resourceLockPick"/>
+		<property name="LockPickTime" value="15"/>
+		<property name="LockPickBreakChance" value="0.50"/>
+		</append>
+		
+<append xpath="/blocks/block[@name='commercialDoor2_v2']">
+		<property name="LockPickItem" value="resourceLockPick"/>
+		<property name="LockPickTime" value="15"/>
+		<property name="LockPickBreakChance" value="0.50"/>
+		</append>
+
+<append xpath="/blocks/block[@name='commercialDoor2_v3']">
+		<property name="LockPickItem" value="resourceLockPick"/>
+		<property name="LockPickTime" value="15"/>
+		<property name="LockPickBreakChance" value="0.50"/>
+		</append>
+
+<append xpath="/blocks/block[@name='commercialDoor4_v2']">
+		<property name="LockPickItem" value="resourceLockPick"/>
+		<property name="LockPickTime" value="15"/>
+		<property name="LockPickBreakChance" value="0.50"/>
+		</append>
+
+<append xpath="/blocks/block[@name='commercialDoor4_v3']">
+		<property name="LockPickItem" value="resourceLockPick"/>
+		<property name="LockPickTime" value="15"/>
+		<property name="LockPickBreakChance" value="0.50"/>
+		</append>
+
+<append xpath="/blocks/block[@name='houseFrontDoor1_v1']">
+		<property name="LockPickItem" value="resourceLockPick"/>
+		<property name="LockPickTime" value="15"/>
+		<property name="LockPickBreakChance" value="0.50"/>
+		</append>
+		
+<append xpath="/blocks/block[@name='houseFrontDoor1_v2']">
+		<property name="LockPickItem" value="resourceLockPick"/>
+		<property name="LockPickTime" value="15"/>
+		<property name="LockPickBreakChance" value="0.50"/>
+		</append>
+
+<append xpath="/blocks/block[@name='houseFrontDoor1_v3']">
+		<property name="LockPickItem" value="resourceLockPick"/>
+		<property name="LockPickTime" value="15"/>
+		<property name="LockPickBreakChance" value="0.50"/>
+		</append>
+		
+<append xpath="/blocks/block[@name='houseFrontDoor2_v2']">
+		<property name="LockPickItem" value="resourceLockPick"/>
+		<property name="LockPickTime" value="15"/>
+		<property name="LockPickBreakChance" value="0.50"/>
+		</append>
+
+<append xpath="/blocks/block[@name='houseFrontDoor2_v3']">
+		<property name="LockPickItem" value="resourceLockPick"/>
+		<property name="LockPickTime" value="15"/>
+		<property name="LockPickBreakChance" value="0.50"/>
+		</append>
+
+<append xpath="/blocks/block[@name='garageDoorMetal_v1']">
+		<property name="LockPickItem" value="resourceLockPick"/>
+		<property name="LockPickTime" value="15"/>
+		<property name="LockPickBreakChance" value="0.50"/>
+		</append> 
+
+<append xpath="/blocks/block[@name='garageDoorMetal_v2']">
+		<property name="LockPickItem" value="resourceLockPick"/>
+		<property name="LockPickTime" value="15"/>
+		<property name="LockPickBreakChance" value="0.50"/>
+		</append>
+
+<append xpath="/blocks/block[@name='garageDoorMetal_v3']">
+		<property name="LockPickItem" value="resourceLockPick"/>
+		<property name="LockPickTime" value="15"/>
+		<property name="LockPickBreakChance" value="0.50"/>
+		</append>
+
+ <append xpath="/blocks/block[@name='garageDoorHouse']">
+		<property name="LockPickItem" value="resourceLockPick"/>
+		<property name="LockPickTime" value="15"/>
+		<property name="LockPickBreakChance" value="0.50"/>
+		</append>
+
+<append xpath="/blocks/block[@name='garageDoorHousePlayer']">
+		<property name="LockPickItem" value="resourceLockPick"/>
+		<property name="LockPickTime" value="15"/>
+		<property name="LockPickBreakChance" value="0.50"/>
+		</append>
+
+<append xpath="/blocks/block[@name='garageDoorHouseBrown']">
+		<property name="LockPickItem" value="resourceLockPick"/>
+		<property name="LockPickTime" value="15"/>
+		<property name="LockPickBreakChance" value="0.50"/>
+		</append>
+
+<append xpath="/blocks/block[@name='garageDoorIndustrial']">
+		<property name="LockPickItem" value="resourceLockPick"/>
+		<property name="LockPickTime" value="15"/>
+		<property name="LockPickBreakChance" value="0.50"/>
+		</append>
+
+<append xpath="/blocks/block[@name='garageDoorIndustrial_Powered']">
+		<property name="LockPickItem" value="resourceLockPick"/>
+		<property name="LockPickTime" value="15"/>
+		<property name="LockPickBreakChance" value="0.50"/>
+		</append> 
+
+<append xpath="/blocks/block[@name='woodHatch1_v2']">
+		<property name="LockPickItem" value="resourceLockPick"/>
+		<property name="LockPickTime" value="15"/>
+		<property name="LockPickBreakChance" value="0.50"/>
+		</append>
+		
+<append xpath="/blocks/block[@name='woodHatch1_v3']">
+		<property name="LockPickItem" value="resourceLockPick"/>
+		<property name="LockPickTime" value="15"/>
+		<property name="LockPickBreakChance" value="0.50"/>
+		</append>
+
+<append xpath="/blocks/block[@name='scrapHatch_v2']">
+		<property name="LockPickItem" value="resourceLockPick"/>
+		<property name="LockPickTime" value="15"/>
+		<property name="LockPickBreakChance" value="0.50"/>
+		</append>
+		
+<append xpath="/blocks/block[@name='scrapHatch_v3']">
+		<property name="LockPickItem" value="resourceLockPick"/>
+		<property name="LockPickTime" value="15"/>
+		<property name="LockPickBreakChance" value="0.50"/>
+		</append>
+
+<append xpath="/blocks/block[@name='vaultHatch_v2']">
+		<property name="LockPickItem" value="resourceLockPick"/>
+		<property name="LockPickTime" value="15"/>
+		<property name="LockPickBreakChance" value="0.50"/>
+		</append>
+
+<append xpath="/blocks/block[@name='vaultHatch_v3']">
+		<property name="LockPickItem" value="resourceLockPick"/>
+		<property name="LockPickTime" value="15"/>
+		<property name="LockPickBreakChance" value="0.50"/>
+		</append>
+
+<append xpath="/blocks/block[@name='vaultHatch_v3_Powered']">
+		<property name="LockPickItem" value="resourceLockPick"/>
+		<property name="LockPickTime" value="15"/>
+		<property name="LockPickBreakChance" value="0.50"/>
+		</append> 
+
+<append xpath="/blocks/block[@name='garageDoorMetal_v1Powered']">
+		<property name="LockPickItem" value="resourceLockPick"/>
+		<property name="LockPickTime" value="15"/>
+		<property name="LockPickBreakChance" value="0.50"/>
+		</append>
+
+<append xpath="/blocks/block[@name='cntGreenDrawerSecure']">
+		<property name="LockPickItem" value="resourceLockPick"/>
+		<property name="LockPickTime" value="15"/>
+		<property name="LockPickBreakChance" value="0.50"/>
+		</append> -->
+		
+<!-- to be random chance of being locked -->
+<!-- to be random chance of being locked -->
+<!-- to be random chance of being locked -->
+<append xpath="/blocks/block[@name='cntGreenDrawerSecure']">
+		<property name="LockPickItem" value="resourceLockPick"/>
+		<property name="LockPickTime" value="10"/>
+		<property name="LockPickBreakChance" value="0.50"/>
+		</append>
+
+<insertAfter xpath="/blocks/block[@name='cntFileCabinetShortOpen']">	
+	<block name="cntFileCabinetShortLocked">
+	<property name="Extends" value="cntFileCabinetShortRandomLootHelper" param1="ModelOffset"/>
+	<property name="CustomIcon" value="cntFileCabinetShortClosed"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="#Entities/LootContainers?filecabinet_short_closedPrefab.prefab"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="44"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="8"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntFileCabinetShortClosed"/>
+	</block>
+</insertAfter>			
+
+<insertAfter xpath="/blocks/block[@name='cntFileCabinetTallOpen']">	
+	<block name="cntFileCabinetTallLocked">
+	<property name="Extends" value="cntFileCabinetTallOpen" param1="ModelOffset"/>
+	<property name="CustomIcon" value="cntFileCabinetTallClosed"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="#Entities/LootContainers?filecabinet_tall_closedPrefab.prefab"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="44"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="10"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntFileCabinetTallClosed"/>
+	</block>
+</insertAfter>
+
+<insertAfter xpath="/blocks/block[@name='cntLockersShortOpen']">	
+	<block name="cntLockersShortLocked">
+	<property name="Extends" value="cntLockersShortOpen" param1="ModelOffset"/>
+	<property name="CustomIcon" value="cntLockersShortClosed"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="#Entities/LootContainers?locker_ver3_lootPrefab.prefab"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="43"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="8"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntLockersShortClosed"/>
+	</block>
+</insertAfter>
+
+<insertAfter xpath="/blocks/block[@name='cntLockersTallOpen']">	
+	<block name="cntLockersTallLocked">
+	<property name="Extends" value="cntLockersShortOpen" param1="ModelOffset"/>
+	<property name="CustomIcon" value="cntLockersTallClosed"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="#Entities/LootContainers?locker_ver1_lootPrefab.prefab"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="43"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="10"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntLockersTallClosed"/>
+	</block>
+</insertAfter>
+
+<insertAfter xpath="/blocks/block[@name='cntLockersTallDoubleOpen']">	
+	<block name="cntLockersTallDoubleLocked">
+	<property name="Extends" value="cntLockersTallOpen" param1="ModelOffset"/>
+	<property name="CustomIcon" value="cntLockersTallDoubleClosed"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="#Entities/LootContainers?locker_ver2_lootPrefab.prefab"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="43"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="10"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntLockersTallDoubleClosed"/>
+	</block>
+</insertAfter>
+
+<insertAfter xpath="/blocks/block[@name='cntLockersTallMixOpen']">	
+	<block name="cntLockersTallMixLocked">
+	<property name="Extends" value="cntLockersTallClosed" param1="ModelOffset"/>
+	<property name="CustomIcon" value="cntLockersTallMixClosed"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="#Entities/LootContainers?locker_ver4_lootPrefab.prefab"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="43"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="10"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntLockersTallMixClosed"/>
+	</block>
+</insertAfter>
+
+<insertAfter xpath="/blocks/block[@name='cntLockersTallMixLinkOpen']">	
+	<block name="cntLockersTallMixLinkLocked">
+	<property name="Extends" value="cntLockersTallOpen" param1="ModelOffset"/>
+	<property name="CustomIcon" value="cntLockersTallMixLinkClosed"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="#Entities/LootContainers?locker_ver5_lootPrefab.prefab"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="43"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="10"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntLockersTallMixLinkClosed"/>
+	</block>
+</insertAfter>
+
+<insertAfter xpath="/blocks/block[@name='cntCashRegisterEmpty']">	
+	<block name="cntCashRegisterLocked">
+	<property name="Extends" value="cntCashRegisterEmpty" param1="ModelOffset"/>
+	<property name="CustomIcon" value="cntCashRegister"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="LootContainers/cash_register" param1="main_mesh"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="55"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="6"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntCashRegister"/>
+	</block>
+</insertAfter>
+
+<insertAfter xpath="/blocks/block[@name='cntToolBoxOpen']">	
+	<block name="cntToolBoxLocked">
+	<property name="Extends" value="cntToolBoxOpen" param1="ModelOffset"/>
+	<property name="CustomIcon" value="cntToolBoxClosed"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="#Entities/LootContainers?metalToolBoxClosedPrefab.prefab"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="124"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="6"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntToolBoxClosed"/>
+	</block>
+</insertAfter>
+
+<insertAfter xpath="/blocks/block[@name='cntRollingToolBoxOpen']">	
+	<block name="cntRollingToolBoxLocked">
+	<property name="Extends" value="cntToolBoxClosed" param1="ModelOffset"/>
+	<property name="CustomIcon" value="cntRollingToolBoxClosed"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="#Entities/LootContainers?rollingToolChestClosedPrefab.prefab"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="124"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="8"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntRollingToolBoxClosed"/>
+	</block>
+</insertAfter>
+
+<insertAfter xpath="/blocks/block[@name='cntLuggageMediumOpen']">	
+	<block name="cntLuggageMediumLocked">
+	<property name="Extends" value="cntLuggageMediumOpen" param1="ModelOffset"/>
+	<property name="CustomIcon" value="cntLuggageMediumClosed"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="#Entities/LootContainers?luggageMediumClosedPrefab.prefab"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="36"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="5"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntLuggageMediumClosed"/>
+</block>
+</insertAfter>
+
+<insertAfter xpath="/blocks/block[@name='cntLuggageBigOpen']">	
+	<block name="cntLuggageBigLocked">
+	<property name="Extends" value="cntLuggageMediumClosed" param1="ModelOffset"/>
+	<property name="CustomIcon" value="cntLuggageBigClosed"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="#Entities/LootContainers?luggageBigClosedPrefab.prefab"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="36"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="10"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntLuggageBigClosed"/>
+</block>
+</insertAfter>
+
+<insertAfter xpath="/blocks/block[@name='cntLuggagePileAOpen']">	
+	<block name="cntLuggagePileALocked">
+	<property name="Extends" value="cntLuggageMediumClosed" param1="ModelOffset"/>
+	<property name="CustomIcon" value="cntLuggagePileAClosed"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="#Entities/LootContainers?luggagePileClosedAPrefab.prefab"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="36"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="3"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntLuggagePileAClosed"/>
+</block>
+</insertAfter>
+
+<insertAfter xpath="/blocks/block[@name='cntLuggagePileBOpen']">	
+	<block name="cntLuggagePileBLocked">
+	<property name="Extends" value="cntLuggageMediumClosed" param1="ModelOffset"/>
+	<property name="CustomIcon" value="cntLuggagePileBClosed"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="#Entities/LootContainers?luggagePileClosedBPrefab.prefab"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="36"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="3"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntLuggagePileBClosed"/>
+</block>
+</insertAfter>
+
+<insertAfter xpath="/blocks/block[@name='cntCabinetBottomRandomLootHelper']">	
+	<block name="cntCabinetBottomLocked">
+	<property name="Extends" value="cntCabinetBottomRandomLootHelper" param1="ModelOffset"/>
+	<property name="CustomIcon" value="cntCabinetBottom"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="17"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="5"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntCabinetBottom"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntCupboardCabinetRedTopOpen']">	
+	<block name="cntCupboardCabinetRedTopLocked">
+	<property name="Extends" value="cntCupboardCabinetRedTopLootHelper" param1="ModelOffset"/>
+	<property name="CustomIcon" value="cntCupboardCabinetRedTopClosed"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="17"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="5"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntCupboardCabinetRedTopClosed"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntCabinetOldBottomOpen']">	
+	<block name="cntCabinetOldBottomLocked">
+	<property name="Extends" value="cntCabinetOldBottomLootHelper" param1="ModelOffset"/>
+	<property name="CustomIcon" value="cntCabinetOldBottom"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="17"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="5"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntCabinetOldBottom"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntCupboardCabinetOldTopOpen']">	
+	<block name="cntCupboardCabinetOldTopLocked">
+	<property name="Extends" value="cntCupboardCabinetOldTopLootHelper" param1="ModelOffset"/>
+	<property name="CustomIcon" value="cntCupboardCabinetOldTopClosed"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="17"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="5"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntCupboardCabinetOldTopClosed"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntNightstandOpen']">	
+	<block name="cntNightstandLocked">
+	<property name="Extends" value="cntNightstandOpen" param1="ModelOffset"/>
+	<property name="CustomIcon" value="cntNightstandClosed"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="#Entities/LootContainers?nightStand_closedPrefab.prefab"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="6"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="6"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntNightstandClosed"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntMedicineCabinetFaucetOpen']">	
+	<block name="cntMedicineCabinetFaucetLocked">
+	<property name="Extends" value="cntMedicineCabinetFaucetOpen" param1="ModelOffset"/>
+	<property name="CustomIcon" value="cntMedicineCabinetFaucetClosed"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="#Entities/LootContainers?medicine_cabinet_closed_faucetPrefab.prefab"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="7"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="6"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntMedicineCabinetFaucetClosed"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntMedicineCabinetOpen']">	
+	<block name="cntMedicineCabinetLocked">
+	<property name="Extends" value="cntMedicineCabinetOpen" param1="ModelOffset"/>
+	<property name="CustomIcon" value="cntMedicineCabinetClosed"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="#Entities/LootContainers?medicine_cabinet_closedPrefab.prefab"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="7"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="6"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntMedicineCabinetClosed"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntMedicineCabinetClosedRandomLootHelper']">	
+	<block name="cntPillCaseLocked">
+	<property name="Extends" value="cntNightstandOpen" param1="ModelOffset"/>
+	<property name="CustomIcon" value="cntPillCaseClosed"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="#Entities/LootContainers?pill_case_closedPrefab.prefab"/> <property name="HandleFace" value="South"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="106"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="8"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntPillCaseClosed"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntWoodDesk01Open']">	
+	<block name="cntWoodDesk01Locked">
+	<property name="Extends" value="cntWoodDesk01Open" param1="ModelOffset"/>
+	<property name="CustomIcon" value="cntWoodDesk01Closed"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="Furniture/desk01" param1="main_mesh"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="6"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="10"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntWoodDesk01Closed"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntMetalDesk02RandomLootHelper']">	
+	<block name="cntMetalDesk02Locked">
+	<property name="Extends" value="cntMetalDesk02RandomLootHelper" param1="ModelOffset"/>
+	<property name="CustomIcon" value="cntMetalDesk02Closed"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Class" value="SecureLoot"/>
+	<property name="LootList" value="24"/>
+	<property name="LockPickItem" value="resourceLockPick"/>
+	<property name="LockPickTime" value="10"/>
+	<property name="LockPickBreakChance" value="0.50"/>	
+	<property name="DowngradeBlock" value="cntMetalDesk02Closed"/>
+</block>
+</insertAfter>
+<!-- to be random chance of being locked -->
+<!-- New Random Looters -->
+<insertAfter xpath="/blocks/block[@name='cntDumpster']">
+<block name="cntDumpsterRandomLootHelper">
+	<property name="Extends" value="cntDumpster" param1="DescriptionKey"/>
+	<property name="CustomIcon" value="cntDumpster"/> <property name="CustomIconTint" value="ff8080"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="FilterTags" value="floot,ffurniture,fdesign"/>
+	<property name="DisplayInfo" value="Name"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntDumpsterFlies']">
+<block name="cntDumpsterFliesRandomLootHelper">
+	<property name="Extends" value="cntDumpsterFlies" param1="DescriptionKey"/>
+	<property name="CustomIcon" value="cntDumpsterFlies"/> <property name="CustomIconTint" value="ff8080"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="FilterTags" value="floot,ffurniture,fdesign"/>
+	<property name="DisplayInfo" value="Name"/>
+</block>
+</insertAfter>
+
+</stallionsden>
