@@ -27,7 +27,7 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="Class" value="Loot"/>
 	<property name="LootList" value="7"/>
-	<property name="Model" value="Entities/LootContainers/medicine_cabinet_closedPrefab"/>
+	<property name="Model" value="#Entities/LootContainers?medicine_cabinet_closedPrefab.prefab"/>
 	<drop event="Destroy" count="0" />	
 	<property name="DowngradeBlock" value="cntMedicineCabinetOpen_PB" />
 </block>
@@ -40,193 +40,162 @@
 	</insertAfter>
 
 <!-- New Blocks -->
-	<insertAfter xpath="/blocks/block[@name='cntCabinetBottomOpen']" >
+	<insertAfter xpath="/blocks/block[@name='adobeWhiteWindowArch3MTip']" >
 		<block name="cntCabinetBottomOpen_PB">
 			<property name="Extends" value="cntCabinetBottomOpen"  />
 			</block>
-	</insertAfter>
-
-	<insertAfter xpath="/blocks/block[@name='cntCupboardCabinetRedTopOpen']" >
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='cntCabinetBottomOpen_PB']" >
 		<block name="cntCupboardCabinetRedTopOpen_PB">
 			<property name="Extends" value="cntCupboardCabinetRedTopOpen"  />
 			</block>
-	</insertAfter>
-
-	<insertAfter xpath="/blocks/block[@name='cntCabinetOldBottomOpen']" >
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='cntCupboardCabinetRedTopOpen_PB']" >
 		<block name="cntCabinetOldBottomOpen_PB">
 			<property name="Extends" value="cntCabinetOldBottomOpen"  />
 			</block>
-	</insertAfter>
-
-	<insertAfter xpath="/blocks/block[@name='cntCupboardCabinetOldTopOpen']" >
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='cntCabinetOldBottomOpen_PB']" >
 		<block name="cntCupboardCabinetOldTopOpen_PB">
 			<property name="Extends" value="cntCupboardCabinetOldTopOpen"  />
 			</block>
-	</insertAfter>
-
-	<insertAfter xpath="/blocks/block[@name='cntStoveOldVer2Open']" >
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='cntCupboardCabinetOldTopOpen_PB']" >
 		<block name="cntStoveOldVer2Open_PB">
 			<property name="Extends" value="cntStoveOldVer2Open"  />
 			</block>
-	</insertAfter>
-
-	<insertAfter xpath="/blocks/block[@name='cntRetroFridgeVer2Open']" >
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='cntStoveOldVer2Open_PB']" >
 		<block name="cntRetroFridgeVer2Open_PB">
 			<property name="Extends" value="cntRetroFridgeVer2Open"  />
 			</block>
-	</insertAfter>
-
-	<insertAfter xpath="/blocks/block[@name='cntFridgeStainlessSteelVer2Open']" >
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='cntRetroFridgeVer2Open_PB']" >
 		<block name="cntFridgeStainlessSteelVer2Open_PB">
 			<property name="Extends" value="cntFridgeStainlessSteelVer2Open"  />
 			</block>
-	</insertAfter>
-
-	<insertAfter xpath="/blocks/block[@name='cntNightstandOpen']" >
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='cntFridgeStainlessSteelVer2Open_PB']" >
 		<block name="cntNightstandOpen_PB">
 			<property name="Extends" value="cntNightstandOpen"  />
 			</block>
-	</insertAfter>
-
-	<insertAfter xpath="/blocks/block[@name='cntMedicineCabinetFaucetOpen']" >
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='cntNightstandOpen_PB']" >
 		<block name="cntMedicineCabinetFaucetOpen_PB">
 			<property name="Extends" value="cntMedicineCabinetFaucetOpen"  />
 			</block>
-	</insertAfter>
-
-
-	<insertAfter xpath="/blocks/block[@name='cntWoodDesk01Open']" >
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='cntMedicineCabinetFaucetOpen_PB']" >
 		<block name="cntWoodDesk01Open_PB">
 			<property name="Extends" value="cntWoodDesk01Open"  />
 			</block>
-	</insertAfter>
-
-	<insertAfter xpath="/blocks/block[@name='cntMetalDesk02Open']" >
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='cntWoodDesk01Open_PB']" >
 		<block name="cntMetalDesk02Open_PB">
 			<property name="Extends" value="cntMetalDesk02Open"  />
 			</block>
-	</insertAfter>
-
-	<insertAfter xpath="/blocks/block[@name='cntFileCabinetShortOpen']" >
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='cntMetalDesk02Open_PB']" >
 		<block name="cntFileCabinetShortOpen_PB">
 			<property name="Extends" value="cntFileCabinetShortOpen"  />
 			</block>
-	</insertAfter>
-
-	<insertAfter xpath="/blocks/block[@name='cntFileCabinetTallOpen']" >
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='cntFileCabinetShortOpen_PB']" >
 		<block name="cntFileCabinetTallOpen_PB">
 			<property name="Extends" value="cntFileCabinetTallOpen"  />
 			</block>
-	</insertAfter>
-
-	<insertAfter xpath="/blocks/block[@name='cntCoolerOpen']" >
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='cntFileCabinetTallOpen_PB']" >
 		<block name="cntCoolerOpen_PB">
 			<property name="Extends" value="cntCoolerOpen"  />
 			</block>
-	</insertAfter>
-
-	<insertAfter xpath="/blocks/block[@name='cntLockersShortOpen']" >
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='cntCoolerOpen_PB']" >
 		<block name="cntLockersShortOpen_PB">
 			<property name="Extends" value="cntLockersShortOpen"  />
 			</block>
-	</insertAfter>
-
-	<insertAfter xpath="/blocks/block[@name='cntLockersTallOpen']" >
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='cntLockersShortOpen_PB']" >
 		<block name="cntLockersTallOpen_PB">
 			<property name="Extends" value="cntLockersTallOpen"  />
 			</block>
-	</insertAfter>
-
-	<insertAfter xpath="/blocks/block[@name='cntLockersTallDoubleOpen']" >
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='cntLockersTallOpen_PB']" >
 		<block name="cntLockersTallDoubleOpen_PB">
 			<property name="Extends" value="cntLockersTallDoubleOpen"  />
 			</block>
-	</insertAfter>
-
-	<insertAfter xpath="/blocks/block[@name='cntLockersTallMixOpen']" >
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='cntLockersTallDoubleOpen_PB']" >
 		<block name="cntLockersTallMixOpen_PB">
 			<property name="Extends" value="cntLockersTallMixOpen"  />
 			</block>
-	</insertAfter>
-
-	<insertAfter xpath="/blocks/block[@name='cntLockersTallMixLinkOpen']" >
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='cntLockersTallMixOpen_PB']" >
 		<block name="cntLockersTallMixLinkOpen_PB">
 			<property name="Extends" value="cntLockersTallMixLinkOpen"  />
 		</block>
-	</insertAfter>
-
-	<insertAfter xpath="/blocks/block[@name='cntBathTubEmpty']" >
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='cntLockersTallMixLinkOpen_PB']" >
 		<block name="cntBathTubEmpty_PB">
 			<property name="Extends" value="cntBathTubEmpty"  />
 			</block>
-	</insertAfter>
-	
-		<insertAfter xpath="/blocks/block[@name='cntLaundryBasketVer1Empty']" >
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='cntBathTubEmpty_PB']" >
 		<block name="cntLaundryBasketVer1Empty_PB">
 			<property name="Extends" value="cntLaundryBasketVer1Empty"  />
 			</block>
-	</insertAfter>
-	
-		<insertAfter xpath="/blocks/block[@name='cntBookcaseEmpty']" >
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='cntLaundryBasketVer1Empty_PB']" >
 		<block name="cntBookcaseEmpty_PB">
 			<property name="Extends" value="cntBookcaseEmpty"  />
 			</block>
-	</insertAfter>
-	
-		<insertAfter xpath="/blocks/block[@name='cntCashRegisterEmpty']" >
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='cntBookcaseEmpty_PB']" >
 		<block name="cntCashRegisterEmpty_PB">
 			<property name="Extends" value="cntCashRegisterEmpty"  />
 			</block>
-	</insertAfter>
-	
-		<insertAfter xpath="/blocks/block[@name='shoppingCartEmpty']" >
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='cntCashRegisterEmpty_PB']" >
 		<block name="shoppingCartEmpty_PB">
-			<property name="Extends" value="shoppingCartEmpty"  />
+			<property name="Extends" value="cntShoppingCartEmpty"  />
 			</block>
-	</insertAfter>
-	
-	<insertAfter xpath="/blocks/block[@name='cntGasGrillOpen']" >
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='shoppingCartEmpty_PB']" >
 		<block name="cntGasGrillOpen_PB">
 			<property name="Extends" value="cntGasGrillOpen"  />
 			</block>
-	</insertAfter>
-	
-		<insertAfter xpath="/blocks/block[@name='cntCharcoalGrillOpen']" >
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='cntGasGrillOpen_PB']" >
 		<block name="cntCharcoalGrillOpen_PB">
 			<property name="Extends" value="cntCharcoalGrillOpen"  />
 		</block>
-	</insertAfter>
-	
-		<insertAfter xpath="/blocks/block[@name='cntLuggageMediumOpen']" >
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='cntCharcoalGrillOpen_PB']" >
 		<block name="cntLuggageMediumOpen_PB">
 			<property name="Extends" value="cntLuggageMediumOpen"  />
 			</block>
-	</insertAfter>
-	
-		<insertAfter xpath="/blocks/block[@name='cntLuggageBigOpen']" >
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='cntLuggageMediumOpen_PB']" >
 		<block name="cntLuggageBigOpen_PB">
 			<property name="Extends" value="cntLuggageBigOpen"  />
 			</block>
-	</insertAfter>	
-	
-		<insertAfter xpath="/blocks/block[@name='shoppingBasketEmpty']" >
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='cntLuggageBigOpen_PB']" >
 		<block name="shoppingBasketEmpty_PB">
-			<property name="Extends" value="shoppingBasketEmpty"  />
+			<property name="Extends" value="cntShoppingBasketEmpty"  />
 			</block>
-	</insertAfter>	
-			<insertAfter xpath="/blocks/block[@name='cntPillCaseEmpty']" >
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='shoppingBasketEmpty_PB']" >
 		<block name="cntPillCaseEmpty_PB">
 			<property name="Extends" value="cntPillCaseEmpty"  />
 			</block>
-	</insertAfter>	
-	
-	<insertAfter xpath="/blocks/block[@name='cntWasherOpen']" >
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='cntPillCaseEmpty_PB']" >
 		<block name="cntWasherOpen_PB">
 			<property name="Extends" value="cntWasherOpen"  />
 			</block>
-	</insertAfter>
-	
-	<insertAfter xpath="/blocks/block[@name='cntDryerOpen']" >
+		</insertAfter>	
+		<insertAfter xpath="/blocks/block[@name='cntWasherOpen_PB']" >
 		<block name="cntDryerOpen_PB">
 			<property name="Extends" value="cntDryerOpen"  />
 			</block>
@@ -445,7 +414,7 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="Class" value="Loot"/>
 	<property name="LootList" value="237"/>
-	<property name="Model" value="Entities/LootContainers/medicine_cabinet_closedPrefab"/>
+	<property name="Model" value="#Entities/LootContainers?medicine_cabinet_closedPrefab.prefab"/>
 </block>
 
 <block name="CupboardCabinetOldTopClosed">
@@ -489,7 +458,7 @@
 	<property name="Shape" value="Ext3dModel"/> <property name="Texture" value="293"/>
 	<property name="Mesh" value="models"/>
 	<property name="Path" value="solid"/>
-	<property name="Model" value="Appliances/retro_fridge_ver1" param1="main_mesh"/>
+	<property name="Model" value="Appliances/retro_fridge_ver1" param1="main_mesh"/> <property name="Place" value="TowardsPlacerInverted"/>
 	<property name="Collide" value="melee,bullet,arrow,rocket,movement"/>
 	<property name="DisplayType" value="blockMulti" />
 	<property name="MultiBlockDim" value="1,2,1"/>
@@ -526,7 +495,7 @@
 	<block name="NightstandClosed">
 	<property name="Extends" value="cntNightstandOpen"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="Model" value="Entities/LootContainers/nightStand_closedPrefab"/>
+	<property name="Model" value="#Entities/LootContainers?nightStand_closedPrefab.prefab"/>
 	<property name="Class" value="Loot"/>
 	<property name="LootList" value="236"/>
 </block>
@@ -536,7 +505,7 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="Class" value="Loot"/>
 	<property name="LootList" value="237"/>
-	<property name="Model" value="Entities/LootContainers/medicine_cabinet_closed_faucetPrefab"/>
+	<property name="Model" value="#Entities/LootContainers?medicine_cabinet_closed_faucetPrefab.prefab"/>
 </block>
 
 <block name="WoodDesk01Closed">
@@ -562,7 +531,7 @@
 <block name="FileCabinetShortClosed">
 	<property name="Extends" value="cntFileCabinetShortOpen" param1="ModelOffset"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="Model" value="Entities/LootContainers/filecabinet_short_closedPrefab"/>
+	<property name="Model" value="#Entities/LootContainers?filecabinet_short_closedPrefab.prefab"/>
 	<property name="Class" value="Loot"/>
 	<property name="LootList" value="245"/>
 </block>
@@ -570,7 +539,7 @@
 <block name="FileCabinetTallClosed">
 	<property name="Extends" value="FileCabinetShortClosed"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="Model" value="Entities/LootContainers/filecabinet_tall_closedPrefab"/>
+	<property name="Model" value="#Entities/LootContainers?filecabinet_tall_closedPrefab.prefab"/>
 	<property name="DisplayType" value="blockMulti" />
 	<property name="MultiBlockDim" value="1,2,1"/>
 	<property name="ModelOffset" value="0,0,0"/>
@@ -581,7 +550,7 @@
 <block name="CoolerClosed">
 	<property name="Extends" value="cntCoolerOpen"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="Model" value="Entities/LootContainers/coolerPrefab"/>
+	<property name="Model" value="#Entities/LootContainers?coolerPrefab.prefab"/>
 	<property name="Class" value="Loot"/>
 	<property name="LootList" value="246"/>
 </block>
@@ -589,7 +558,7 @@
 <block name="LockersShortClosed">
 	<property name="Extends" value="cntLockersShortOpen"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="Model" value="Entities/LootContainers/locker_ver3_lootPrefab"/>
+	<property name="Model" value="#Entities/LootContainers?locker_ver3_lootPrefab.prefab"/>
 	<property name="Class" value="Loot"/>
 	<property name="LootList" value="244"/>
 	<property name="OnlySimpleRotations" value="true"/>
@@ -598,7 +567,7 @@
 <block name="LockersTallClosed">
 	<property name="Extends" value="cntLockersTallOpen"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="Model" value="Entities/LootContainers/locker_ver1_lootPrefab"/>
+	<property name="Model" value="#Entities/LootContainers?locker_ver1_lootPrefab.prefab"/>
 	<property name="Class" value="Loot"/>
 	<property name="LootList" value="244"/>
 	<property name="DisplayType" value="blockMulti" />
@@ -611,7 +580,7 @@
 	<property name="Class" value="Loot"/>
 	<property name="LootList" value="244"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="Model" value="Entities/LootContainers/locker_ver2_lootPrefab"/>
+	<property name="Model" value="#Entities/LootContainers?locker_ver2_lootPrefab.prefab"/>
 	<property name="DisplayType" value="blockMulti" />
 	<property name="MultiBlockDim" value="1,2,1"/>
 	<property name="OnlySimpleRotations" value="true"/>
@@ -622,7 +591,7 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="Class" value="Loot"/>
 	<property name="LootList" value="244"/>
-	<property name="Model" value="Entities/LootContainers/locker_ver4_lootPrefab"/>
+	<property name="Model" value="#Entities/LootContainers?locker_ver4_lootPrefab.prefab"/>
 	<property name="DisplayType" value="blockMulti" />
 	<property name="MultiBlockDim" value="1,2,1"/>
 	<property name="OnlySimpleRotations" value="true"/>
@@ -633,7 +602,7 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="Class" value="Loot"/>
 	<property name="LootList" value="244"/>
-	<property name="Model" value="Entities/LootContainers/locker_ver5_lootPrefab"/>
+	<property name="Model" value="#Entities/LootContainers?locker_ver5_lootPrefab.prefab"/>
 	<property name="DisplayType" value="blockMulti" />
 	<property name="MultiBlockDim" value="1,2,1"/>
 	<property name="OnlySimpleRotations" value="true"/>
@@ -654,5 +623,5 @@
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 </block>
 	</append>
-		
+	
 	</stallionsden>

@@ -1,11 +1,4 @@
 <stallionsden>
-<remove xpath="/recipes/recipe[@name='cntCabinetBottom']"/>
-<remove xpath="/recipes/recipe[@name='cntCupboardCabinetRedTopClosed']"/>
-<remove xpath="/recipes/recipe[@name='cntNightstandClosed']"/>
-<remove xpath="/recipes/recipe[@name='cntWoodDesk01Closed']"/>
-<remove xpath="/recipes/recipe[@name='cntMetalDesk02Closed']"/>
-<remove xpath="/recipes/recipe[@name='cntCoolerClosed']"/>
-<remove xpath="/recipes/recipe[@name='cntLockersShortClosed']"/>
 
 <append xpath="/recipes">
 <recipe name="CabinetBottom" count="1">
@@ -106,7 +99,6 @@
 	<ingredient name="resourceNail" count="15"/>
 	<ingredient name="resourceWood" count="25"/>
 </recipe>
-</append>
 <recipe name="cntWasherClosed" count="1">
 	<ingredient name="unit_glass" count="5"/>
 	<ingredient name="resourceSpring" count="8" />
@@ -119,5 +111,5 @@
 	<ingredient name="resourceMechanicalParts" count="4"/>
 	<ingredient name="resourceScrapIron" count="25"/>
 </recipe>
-
+</append>
 </stallionsden>

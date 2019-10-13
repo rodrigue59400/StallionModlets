@@ -737,24 +737,6 @@
 </block>
 </insertAfter>
 <!-- to be random chance of being locked -->
-<!-- New Random Looters -->
-<insertAfter xpath="/blocks/block[@name='cntDumpster']">
-<block name="cntDumpsterRandomLootHelper">
-	<property name="Extends" value="cntDumpster" param1="DescriptionKey"/>
-	<property name="CustomIcon" value="cntDumpster"/> <property name="CustomIconTint" value="ff8080"/>
-	<property name="CreativeMode" value="Dev"/>
-	<property name="FilterTags" value="floot,ffurniture,fdesign"/>
-	<property name="DisplayInfo" value="Name"/>
-</block>
-</insertAfter>
-<insertAfter xpath="/blocks/block[@name='cntDumpsterFlies']">
-<block name="cntDumpsterFliesRandomLootHelper">
-	<property name="Extends" value="cntDumpsterFlies" param1="DescriptionKey"/>
-	<property name="CustomIcon" value="cntDumpsterFlies"/> <property name="CustomIconTint" value="ff8080"/>
-	<property name="CreativeMode" value="Dev"/>
-	<property name="FilterTags" value="floot,ffurniture,fdesign"/>
-	<property name="DisplayInfo" value="Name"/>
-</block>
-</insertAfter>
+
 
 </stallionsden>
