@@ -81,6 +81,203 @@
 		<block name="goreBlockHumanBonesEmpty">
 			<property name="Extends" value="goreBlockHumanBones"/>
 		</block>
+		<block name="schoolDeskFull">
+			<property name="Extends" value="schoolDesk"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="249"/>
+		</block>
+		<block name="schoolDeskEmpty">
+			<property name="Extends" value="schoolDesk"/>
+		</block>
+		
+		<block name="coffeeTableFull">
+			<property name="Extends" value="coffeeTable"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="250"/>
+		</block>
+		<block name="coffeeTableEmpty">
+			<property name="Extends" value="coffeeTable"/>
+		</block>
+		
+		<block name="rScrapIronTableFull">
+			<property name="Extends" value="rScrapIronTable"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="250"/>
+		</block>
+		<block name="rScrapIronTableEmpty">
+			<property name="Extends" value="rScrapIronTable"/>
+		</block>
+
+		<block name="rustyIronTableFull">
+			<property name="Extends" value="rustyIronTable"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="250"/>
+		</block>
+		<block name="rustyIronTableEmpty">
+			<property name="Extends" value="rustyIronTable"/>
+		</block>
+
+		<block name="decoPicnicTableFull">
+			<property name="Extends" value="decoPicnicTable"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="251"/>
+		</block>
+		<block name="decoPicnicTableEmpty">
+			<property name="Extends" value="decoPicnicTable"/>
+		</block>
+
+		<block name="sectionalPlaidCouchSofaMiddleFull">
+			<property name="Extends" value="sectionalPlaidCouchSofaMiddle"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="252"/>
+		</block>
+		<block name="sectionalPlaidCouchSofaMiddleEmpty">
+			<property name="Extends" value="sectionalPlaidCouchSofaMiddle"/>
+		</block>
+
+		<block name="sectionalPlaidCouchSofaCornerFull">
+			<property name="Extends" value="sectionalPlaidCouchSofaCorner"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="252"/>
+		</block>
+		<block name="sectionalPlaidCouchSofaCornerEmpty">
+			<property name="Extends" value="sectionalPlaidCouchSofaCorner"/>
+		</block>
+
+		<block name="sectionalPlaidCouchSofaArmFull">
+			<property name="Extends" value="sectionalPlaidCouchSofaArm"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="252"/>
+		</block>
+		<block name="sectionalPlaidCouchSofaArmEmpty">
+			<property name="Extends" value="sectionalPlaidCouchSofaArm"/>
+		</block>
+
+		<block name="sectionalLeatherCouchSofaArmFull">
+			<property name="Extends" value="sectionalLeatherCouchSofaArm"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="252"/>
+		</block>
+		<block name="sectionalLeatherCouchSofaArmEmpty">
+			<property name="Extends" value="sectionalLeatherCouchSofaArm"/>
+		</block>
+
+		<block name="sectionalLeatherCouchSofaCornerFull">
+			<property name="Extends" value="sectionalLeatherCouchSofaCorner"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="252"/>
+		</block>
+		<block name="sectionalLeatherCouchSofaCornerEmpty">
+			<property name="Extends" value="sectionalLeatherCouchSofaCorner"/>
+		</block>
+
+		<block name="sectionalLeatherCouchSofaMiddleFull">
+			<property name="Extends" value="sectionalLeatherCouchSofaMiddle"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="252"/>
+		</block>
+		<block name="sectionalLeatherCouchSofaMiddleEmpty">
+			<property name="Extends" value="sectionalLeatherCouchSofaMiddle"/>
+		</block>
+		
+		<block name="couchSofa01Full">
+			<property name="Extends" value="couchSofa01"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="252"/>
+		</block>
+		<block name="couchSofa01Empty">
+			<property name="Extends" value="couchSofa01"/>
+		</block>
+
+		<block name="chairCouchSofa01Full">
+			<property name="Extends" value="chairCouchSofa01"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="252"/>
+		</block>
+		<block name="chairCouchSofa01Empty">
+			<property name="Extends" value="chairCouchSofa01"/>
+		</block>	
+
+		<block name="leatherCouchSofa2Full">
+			<property name="Extends" value="leatherCouchSofa2"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="252"/>
+		</block>
+		<block name="leatherCouchSofa2Empty">
+			<property name="Extends" value="leatherCouchSofa2"/>
+		</block>	
+
+		<block name="leatherChairCouchSofa2Full">
+			<property name="Extends" value="leatherChairCouchSofa2"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="252"/>
+		</block>
+		<block name="leatherChairCouchSofa2Empty">
+			<property name="Extends" value="leatherChairCouchSofa2"/>
+		</block>	
+
+		<block name="pew_segment01Full">
+			<property name="Extends" value="pew_segment01"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="253"/>
+		</block>
+		<block name="pew_segment01Empty">
+			<property name="Extends" value="pew_segment01"/>
+		</block>	
+
+		<block name="pew_segment02Full">
+			<property name="Extends" value="pew_segment02"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="253"/>
+		</block>
+		<block name="pew_segment02Empty">
+			<property name="Extends" value="pew_segment02"/>
+		</block>	
+
+		<block name="pew_segment03Full">
+			<property name="Extends" value="pew_segment03"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="253"/>
+		</block>
+		<block name="pew_segment03Empty">
+			<property name="Extends" value="pew_segment03"/>
+		</block>	
+
+		<block name="parkBenchAFull">
+			<property name="Extends" value="parkBenchA"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="254"/>
+		</block>
+		<block name="parkBenchAEmpty">
+			<property name="Extends" value="parkBenchA"/>
+		</block>	
+
+		<block name="parkBenchBFull">
+			<property name="Extends" value="parkBenchB"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="254"/>
+		</block>
+		<block name="parkBenchBEmpty">
+			<property name="Extends" value="parkBenchB"/>
+		</block>	
+
+		<block name="decoWildWestWagonFull">
+			<property name="Extends" value="decoWildWestWagon"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="255"/>
+		</block>
+		<block name="decoWildWestWagonEmpty">
+			<property name="Extends" value="decoWildWestWagon"/>
+		</block>
+	
+		<block name="cntIceMachineFull">
+			<property name="Extends" value="cntIceMachine"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="256"/>
+		</block>
+		<block name="cntIceMachineEmpty">
+			<property name="Extends" value="cntIceMachine"/>
+		</block>
 	</append>
 	
-</stallionsden>
+	</stallionsden>
