@@ -2505,8 +2505,8 @@
 	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="50"/> <!-- animalBear -->
 	<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="15"/>
 	<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="7"/>
-	<drop event="Harvest" name="resourceFemur" tag="butcherHarvest" count="5"/>
-	<drop event="Harvest" name="resourceFemur" tag="allToolsHarvest" count="1"/>
+	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="5"/>
+	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 	<drop event="Harvest" name="resourceTestosteroneExtract" tag="butcherHarvest" count="2"/>
 
 	<effect_group name="Base Effects">
@@ -2545,8 +2545,8 @@
 	<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="7"/> <!-- animalZombieBear -->
 	<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="12"/>
 	<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="3"/>
-	<drop event="Harvest" name="resourceFemur" tag="butcherHarvest" count="5"/>
-	<drop event="Harvest" name="resourceFemur" tag="allToolsHarvest" count="1"/>
+	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="5"/>
+	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="1000"/>
@@ -2609,8 +2609,8 @@
 	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="25"/> <!-- animalWolf -->
 	<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="10"/>
 	<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="5"/>
-	<drop event="Harvest" name="resourceFemur" tag="butcherHarvest" count="3"/>
-	<drop event="Harvest" name="resourceFemur" tag="allToolsHarvest" count="1"/>
+	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3"/>
+	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 </entity_class>
 </insertAfter> 
 
@@ -2693,8 +2693,8 @@
 	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="35"/> <!-- animalDireWolf -->
 	<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="12"/>
 	<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="7"/>
-	<drop event="Harvest" name="resourceFemur" tag="butcherHarvest" count="3"/>
-	<drop event="Harvest" name="resourceFemur" tag="allToolsHarvest" count="1"/>
+	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3"/>
+	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="250"/>
