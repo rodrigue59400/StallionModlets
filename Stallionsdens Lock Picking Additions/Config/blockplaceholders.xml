@@ -47,12 +47,12 @@
 	</placeholder>
 	<placeholder name="cntLockersTallRandomLootHelper">
 		<block name="cntLockersTallOpen" prob=".33"/>
-		<block name="cntLockersTallOpen" prob=".33"/>
+		<block name="cntLockersTallLocked" prob=".33"/>
 		<block name="cntLockersTallClosed" prob=".33"/>
 	</placeholder>
 	<placeholder name="cntLockersTallDoubleRandomLootHelper">
 		<block name="cntLockersTallDoubleOpen" prob=".33"/>
-		<block name="cntLockersTallDoubleOpen" prob=".33"/>
+		<block name="cntLockersTallDoubleLocked" prob=".33"/>
 		<block name="cntLockersTallDoubleClosed" prob=".33"/>
 	</placeholder>
 	<placeholder name="cntLockersTallMixRandomLootHelper">
@@ -83,7 +83,7 @@
 	</placeholder>
 	<placeholder name="cntLuggageMediumRandomLootHelper">
 		<block name="cntLuggageMediumOpen" prob=".33"/>
-		<block name="cntLuggageMediumOpen" prob=".33"/>
+		<block name="cntLuggageMediumLocked" prob=".33"/>
 		<block name="cntLuggageMediumClosed" prob=".33"/>
 	</placeholder>
 	<placeholder name="cntLuggageBigRandomLootHelper">
