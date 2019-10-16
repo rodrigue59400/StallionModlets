@@ -108,15 +108,15 @@
 	
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='124']" >
 <!-- Survival Backpacks Start -->
-<lootcontainer id="221" count="1" size="15,20" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" loot_quality_template="qualPlus1Template" >
+<lootcontainer id="221" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" loot_quality_template="qualPlus1Template" >
     <item group="SpecialForceCase1" />
 </lootcontainer>
 
-<lootcontainer id="222" count="1" size="15,20" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" loot_quality_template="qualPlus1Template" >
+<lootcontainer id="222" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" loot_quality_template="qualPlus1Template" >
     <item group="SpecialForceCase2" />
 </lootcontainer>
 
-<lootcontainer id="223" count="1" size="15,20" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" loot_quality_template="qualPlus1Template" >
+<lootcontainer id="223" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" loot_quality_template="qualPlus1Template" >
     <item group="SpecialForceCase3" />
 	</lootcontainer>
 </insertAfter>
