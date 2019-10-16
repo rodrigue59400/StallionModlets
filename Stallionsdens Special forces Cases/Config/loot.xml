@@ -7,66 +7,66 @@
 		 <item name="resourceWood" count="250,500" />
 		 <item name="resourceYuccaFibers" count="250,500" />	 
         <item name="drugAntibiotics" count="250,500" />
-        <item name="meleeStunBaton" count="1,1" quality="6,6" />
-		 <item name="meleeThrownSpearIron" count="1,1" quality="6,6" />
-        <item name="bedroll" count="1,1" />
-        <item name="whispererMask" count="1,1" quality="6,6" />
-		<item name="whispererPants" count="1,1" quality="6,6" />
-		<item name="whispererBoots" count="1,1" quality="6,6" />
-		<item name="whispererShirt" count="1,1" quality="6,6" />
-		<item name="whispererGloves" count="1,1" quality="6,6" />
-		<item name="armorMiningHelmet" count="1,1" quality="6,6" />
-		<item name="apparelNightvisionGoggles" count="1,1" quality="6,6" />			
-		<item name="gunBowCompound" count="1,1" quality="6,6" />	
+        <item name="meleeStunBaton" count="1" quality="6,6" />
+		 <item name="meleeThrownSpearIron" count="1" quality="6,6" />
+        <item name="bedroll" count="1" />
+		<item name="armorMilitaryBoots" count="1" quality="6,6" />
+		<item name="armorMilitaryLegs" count="1" quality="6,6" />
+		<item name="armorMilitaryGloves" count="1" quality="6,6" />
+		<item name="armorMilitaryHelmet" count="1" quality="6,6" />
+		<item name="armorMilitaryVest" count="1" quality="6,6" />
+		<item name="armorMiningHelmet" count="1" quality="6,6" />
+		<item name="apparelNightvisionGoggles" count="1" quality="6,6" />			
+		<item name="gunBowCompound" count="1" quality="6,6" />	
 		<item name="ammoArrowIron" count="1000,1500"/>
-		<item name="gunAK47" count="1,1" quality="6,6" />
-		<item name="gunM60" count="1,1" quality="6,6" />
+		<item name="gunAK47" count="1" quality="6,6" />
+		<item name="gunM60" count="1" quality="6,6" />
 		<item name="ammo762mmBulletHP" count="250,500"/>
-		<item name="gunPistol" count="1,1" quality="6,6" />		
+		<item name="gunPistol" count="1" quality="6,6" />		
         <item name="ammo9mmBulletHP" count="250,500" />		
-		<item name="gunMR10" count="1,1" quality="6,6" />		
+		<item name="gunMR10" count="1" quality="6,6" />		
 		<item name="ammo762mmBulletBall" count="250,500"/>
-		<item name="meleeToolPaintToolAdmin" count="1,1" quality="6,6" />	
+		<item name="meleeToolPaintToolAdmin" count="1" quality="6,6" />	
 		<item name="resourceRepairKit" count="250,500" />   		
 		<item name="casinoCoin" count="250,500"/>		
 		<item name="resourcePaint" count="250,500"/>
 		<item name="medicalFirstAidKit" count="250,500"/>
 		<item name="medicalFirstAidBandage" count="250,500"/>		
-		<item name="vehicleMotorcyclePlaceable" count="1,1" quality="6,6" />
+		<item name="vehicleMotorcyclePlaceable" count="1" quality="6,6" />
 		<item name="ammoGasCan" count="250,500" /> 
 		</lootgroup>  
 		
     <lootgroup name="SpecialForceCase2" count="all">  
-	<item name="modArmorPlatingReinforced" count="1,1" />
-	<item name="modArmorWaterPurifier" count="1,1" />
-	<item name="modArmorCustomizedFittings" count="1,1" />
-	<item name="modGunMeleeTheHunter" count="1,1" />
-	<item name="modGunCrippleEm" count="1,1" />
-	<item name="modMeleeWeightedHead" count="1,1" />
-	<item name="modMeleeStructuralBrace" count="1,1" />
-	<item name="modMeleeErgonomicGrip" count="1,1" />
-	<item name="modMeleeFortifyingGrip" count="1,1" />
-	<item name="modArmorImpactBracing" count="1,1" />
-	<item name="modArmorBandolier" count="2,2" />
-	<item name="modArmorInsulatedLiner" count="1,1" />
-	<item name="modArmorCoolingMesh" count="1,1" />
-	<item name="modArmorImprovedFittings" count="1,1" />
-	<item name="modGunBarrelExtender" count="1,1" />
-	<item name="modGunSoundSuppressorSilencer" count="1,1" />
-	<item name="modGunLaserSight" count="1,1" />
-	<item name="modGunFlashlight" count="1,1" />
-	<item name="modGunScopeSmall" count="1,1" />
-	<item name="modGunScopeMedium" count="1,1" />
-	<item name="modGunScopeLarge" count="1,1" />
-	<item name="modGunReflexSight" count="1,1" />
-	<item name="modGunTriggerGroupSemi" count="1,1" />
-	<item name="modGunTriggerGroupAutomatic" count="1,1" />
-	<item name="modGunRodAndSpring" count="1,1" />
-	<item name="modGunBipod" count="1,1" />
-	<item name="modGunForegrip" count="1,1" />
-	<item name="modGunRetractingStock" count="1,1" />
-	<item name="modGunMagazineExtender" count="1,1" />
-	<item name="modGunBowPolymerString" count="1,1" />
+	<item name="modArmorPlatingReinforced" count="1" />
+	<item name="modArmorWaterPurifier" count="1" />
+	<item name="modArmorCustomizedFittings" count="1" />
+	<item name="modGunMeleeTheHunter" count="1" />
+	<item name="modGunCrippleEm" count="1" />
+	<item name="modMeleeWeightedHead" count="1" />
+	<item name="modMeleeStructuralBrace" count="1" />
+	<item name="modMeleeErgonomicGrip" count="1" />
+	<item name="modMeleeFortifyingGrip" count="1" />
+	<item name="modArmorImpactBracing" count="1" />
+	<item name="modArmorBandolier" count="1" />
+	<item name="modArmorInsulatedLiner" count="1" />
+	<item name="modArmorCoolingMesh" count="1" />
+	<item name="modArmorImprovedFittings" count="1" />
+	<item name="modGunBarrelExtender" count="1" />
+	<item name="modGunSoundSuppressorSilencer" count="1" />
+	<item name="modGunLaserSight" count="1" />
+	<item name="modGunFlashlight" count="1" />
+	<item name="modGunScopeSmall" count="1" />
+	<item name="modGunScopeMedium" count="1" />
+	<item name="modGunScopeLarge" count="1" />
+	<item name="modGunReflexSight" count="1" />
+	<item name="modGunTriggerGroupSemi" count="1" />
+	<item name="modGunTriggerGroupAutomatic" count="1" />
+	<item name="modGunRodAndSpring" count="1" />
+	<item name="modGunBipod" count="1" />
+	<item name="modGunForegrip" count="1" />
+	<item name="modGunRetractingStock" count="1" />
+	<item name="modGunMagazineExtender" count="1" />
+	<item name="modGunBowPolymerString" count="1" />
 	</lootgroup>  
 	
 	<lootgroup name="SpecialForceCase3" count="all">  
@@ -115,11 +115,10 @@
 <lootcontainer id="222" count="1" size="15,20" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" loot_quality_template="qualPlus1Template" >
     <item group="SpecialForceCase2" />
 </lootcontainer>
-<!-- Survival Backpacks End -->
 
-<!-- Survival Backpacks Start -->
 <lootcontainer id="223" count="1" size="15,20" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" loot_quality_template="qualPlus1Template" >
     <item group="SpecialForceCase3" />
 	</lootcontainer>
 </insertAfter>
+<!-- Survival Backpacks End -->
 </stallionsden>
