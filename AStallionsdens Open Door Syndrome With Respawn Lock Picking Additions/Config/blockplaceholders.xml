@@ -192,22 +192,17 @@
 		<block name="cntMunitionsBox" prob=".66"/>
 		<block name="cntMunitionsBoxInsecure" prob=".33"/>
 	</placeholder>
-	</append>
-	<append xpath="/blockplaceholders">
-	<placeholder name="cntDumpsterRandomLootHelper">		
-		<block name="cntDumpsterLocked" prob=".66"/>
-		<block name="cntDumpster" prob=".33"/>
-	</placeholder>
-	</append>
-	<append xpath="/blockplaceholders">
-	<placeholder name="cntDumpsterFliesRandomLootHelper">		
-		<block name="cntDumpsterFliesLocked" prob=".66"/>
-		<block name="cntDumpsterFlies" prob=".33"/>
-	</placeholder>
-	</append>
-	<!-- New blockplaceholders -->
 	
-	<append xpath="/blockplaceholders">
+	<placeholder name="cntDumpsterRandomLootHelper">
+		<block name="cntDumpster" prob=".66"/>
+		<block name="cntDumpsterInsecure" prob=".33"/>		
+	</placeholder>
+	
+	<placeholder name="cntDumpsterFliesRandomLootHelper">
+		<block name="cntDumpsterFlies" prob=".66"/>
+		<block name="cntDumpsterFliesInsecure" prob=".33"/>
+		</placeholder>
+	
 	<placeholder name="shoppingBasketRandomLootHelper">		
 		<block name="shoppingBasketEmpty" prob=".66"/>
 		<block name="cntShoppingBasket" prob=".33"/>
