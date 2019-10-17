@@ -1,0 +1,19 @@
+Key,Source,Context,Changes,English
+palletWhiteBagsBaseFull,blocks,Container,KgNone,pallet White Bags Base
+palletWhiteBagsTileFull,blocks,Container,KgNone,pallet White Bags Tile
+palletWhiteBagsTopFull,blocks,Container,KgNone,pallet White Bags Top
+palletWhiteBagsPartial1Full,blocks,Container,KgNone,pallet White Bags Partial 1
+palletWhiteBagsPartial2Full,blocks,Container,KgNone,pallet White Bags Partial 2
+palletWhiteBagsLooseFull,blocks,Container,KgNone,pallet White Bags Loose
+palletBrownBoxesBaseFull,blocks,Container,KgNone,pallet Brown Boxes Base
+palletBrownBoxesTileFull,blocks,Container,KgNone,pallet Brown Boxes Tile
+palletBrownBoxesTopFull,blocks,Container,KgNone,pallet Brown Boxes Top
+palletBrownBoxesLooseFull,blocks,Container,KgNone,pallet Brown Boxes Loose
+palletBricksBaseFull,blocks,Container,KgNone,pallet Bricks Base
+palletBricksTileFull,blocks,Container,KgNone,pallet Bricks Tile
+palletBricksTopFull,blocks,Container,KgNone,pallet Bricks Top Full
+palletBricksPartial1Full,blocks,Container,KgNone,pallet Bricks Partial 1
+palletBricksPartial2Full,blocks,Container,KgNone,pallet Bricks Partial 2
+palletBricksLooseFull,blocks,Container,KgNone,pallet Bricks Loose
+palletBlueTarpBaseFull,blocks,Container,KgNone,pallet BlueTarp Base
+palletBlueTarpTileFull,blocks,Container,KgNone,pallet BlueTarp Tile
