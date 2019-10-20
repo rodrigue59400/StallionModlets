@@ -20,6 +20,7 @@
 											
 <set xpath="/items/item[starts-with(@name, 'resource')]/property[@name='Stacknumber']/@value">10000</set>
 
+<set xpath="/items/item[starts-with(@name, 'ammoGasCan')]/property[@name='Stacknumber']/@value">10000</set>
 <!-- Sunblocker -->
 <append xpath="/items/item[@name='sunblocker']">
 <property name="Stacknumber" value="150"/>
