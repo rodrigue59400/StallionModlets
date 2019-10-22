@@ -81,203 +81,327 @@
 		<block name="goreBlockHumanBonesEmpty">
 			<property name="Extends" value="goreBlockHumanBones"/>
 		</block>
+		</append>
+		
+		<insertAfter xpath="/blocks/block[@name='schoolDesk']">
 		<block name="schoolDeskFull">
 			<property name="Extends" value="schoolDesk"/>
 			<property name="Class" value="Loot"/>
 			<property name="LootList" value="249"/>
 		</block>
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='schoolDeskFull']">
 		<block name="schoolDeskEmpty">
 			<property name="Extends" value="schoolDesk"/>
 		</block>
-		
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='coffeeTable']">
 		<block name="coffeeTableFull">
 			<property name="Extends" value="coffeeTable"/>
 			<property name="Class" value="Loot"/>
 			<property name="LootList" value="250"/>
 		</block>
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='coffeeTableFull']">
 		<block name="coffeeTableEmpty">
 			<property name="Extends" value="coffeeTable"/>
 		</block>
-		
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='rScrapIronTable']">
 		<block name="rScrapIronTableFull">
 			<property name="Extends" value="rScrapIronTable"/>
 			<property name="Class" value="Loot"/>
 			<property name="LootList" value="250"/>
 		</block>
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='rScrapIronTableFull']">
 		<block name="rScrapIronTableEmpty">
 			<property name="Extends" value="rScrapIronTable"/>
 		</block>
-
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='rustyIronTable']">
 		<block name="rustyIronTableFull">
 			<property name="Extends" value="rustyIronTable"/>
 			<property name="Class" value="Loot"/>
 			<property name="LootList" value="250"/>
 		</block>
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='rustyIronTableFull']">
 		<block name="rustyIronTableEmpty">
 			<property name="Extends" value="rustyIronTable"/>
 		</block>
-
+</insertAfter>
+	<!--<insertAfter xpath="/blocks/block[@name='decoPicnicTable']">
 		<block name="decoPicnicTableFull">
 			<property name="Extends" value="decoPicnicTable"/>
 			<property name="Class" value="Loot"/>
 			<property name="LootList" value="251"/>
-		</block>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+			</block>
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='decoPicnicTableFull']">
 		<block name="decoPicnicTableEmpty">
-			<property name="Extends" value="decoPicnicTable"/>
-		</block>
-
+			<property name="Extends" value="decoPicnicTableFull"/>
+			</block>
+</insertAfter> -->
+		<insertAfter xpath="/blocks/block[@name='sectionalPlaidCouchSofaMiddle']">
 		<block name="sectionalPlaidCouchSofaMiddleFull">
 			<property name="Extends" value="sectionalPlaidCouchSofaMiddle"/>
 			<property name="Class" value="Loot"/>
 			<property name="LootList" value="252"/>
 		</block>
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='sectionalPlaidCouchSofaMiddleFull']">
 		<block name="sectionalPlaidCouchSofaMiddleEmpty">
 			<property name="Extends" value="sectionalPlaidCouchSofaMiddle"/>
 		</block>
-
+</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='sectionalPlaidCouchSofaCorner']">
 		<block name="sectionalPlaidCouchSofaCornerFull">
 			<property name="Extends" value="sectionalPlaidCouchSofaCorner"/>
 			<property name="Class" value="Loot"/>
 			<property name="LootList" value="252"/>
 		</block>
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='sectionalPlaidCouchSofaCornerFull']">
 		<block name="sectionalPlaidCouchSofaCornerEmpty">
 			<property name="Extends" value="sectionalPlaidCouchSofaCorner"/>
-		</block>
-
-		<block name="sectionalPlaidCouchSofaArmFull">
-			<property name="Extends" value="sectionalPlaidCouchSofaArm"/>
-			<property name="Class" value="Loot"/>
-			<property name="LootList" value="252"/>
-		</block>
-		<block name="sectionalPlaidCouchSofaArmEmpty">
-			<property name="Extends" value="sectionalPlaidCouchSofaArm"/>
-		</block>
-
-		<block name="sectionalLeatherCouchSofaArmFull">
-			<property name="Extends" value="sectionalLeatherCouchSofaArm"/>
-			<property name="Class" value="Loot"/>
-			<property name="LootList" value="252"/>
-		</block>
-		<block name="sectionalLeatherCouchSofaArmEmpty">
-			<property name="Extends" value="sectionalLeatherCouchSofaArm"/>
-		</block>
-
+		</block>		
+</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='sectionalLeatherCouchSofaCorner']">
 		<block name="sectionalLeatherCouchSofaCornerFull">
 			<property name="Extends" value="sectionalLeatherCouchSofaCorner"/>
 			<property name="Class" value="Loot"/>
 			<property name="LootList" value="252"/>
 		</block>
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='sectionalLeatherCouchSofaCornerFull']">
 		<block name="sectionalLeatherCouchSofaCornerEmpty">
 			<property name="Extends" value="sectionalLeatherCouchSofaCorner"/>
 		</block>
-
+</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='sectionalLeatherCouchSofaMiddle']">
 		<block name="sectionalLeatherCouchSofaMiddleFull">
 			<property name="Extends" value="sectionalLeatherCouchSofaMiddle"/>
 			<property name="Class" value="Loot"/>
 			<property name="LootList" value="252"/>
 		</block>
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='sectionalLeatherCouchSofaMiddleFull']">
 		<block name="sectionalLeatherCouchSofaMiddleEmpty">
 			<property name="Extends" value="sectionalLeatherCouchSofaMiddle"/>
 		</block>
-		
+		</insertAfter>
+	<!-- 	<insertAfter xpath="/blocks/block[@name='couchSofa01']">
 		<block name="couchSofa01Full">
-			<property name="Extends" value="couchSofa01"/>
+			<property name="Extends" value="couchSofa01" param1="CustomIcon"/>
+			<property name="Path" value="solid"/>
+			<property name="Model" value="Entities/Furniture/sofa02Prefab"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="MultiBlockDim" value="3,1,1"/>
+			<property name="ImposterExchange" value="imposterRamp" param1="43"/>
 			<property name="Class" value="Loot"/>
 			<property name="LootList" value="252"/>
-		</block>
+			<drop event="Harvest" name="resourceWood" count="6" tag="allHarvest"/>
+			<drop event="Harvest" name="resourceCloth" count="6" tag="allHarvest"/>
+			</block>
+</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='couchSofa01Full']">
 		<block name="couchSofa01Empty">
-			<property name="Extends" value="couchSofa01"/>
-		</block>
-
+			<property name="Extends" value="couchSofa01" param1="CustomIcon"/>
+			<property name="Path" value="solid"/>
+			<property name="Model" value="Entities/Furniture/sofa02Prefab"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="MultiBlockDim" value="3,1,1"/>
+			<property name="ImposterExchange" value="imposterRamp" param1="43"/>
+			<drop event="Harvest" name="resourceWood" count="6" tag="allHarvest"/>
+			<drop event="Harvest" name="resourceCloth" count="6" tag="allHarvest"/>
+			</block>
+</insertAfter>-->
+		<insertAfter xpath="/blocks/block[@name='couchSofa01']">
 		<block name="chairCouchSofa01Full">
-			<property name="Extends" value="chairCouchSofa01"/>
+			<property name="Extends" value="sectionalPlaidCouchSofaMiddle" param1="CustomIcon"/>
+			<property name="MaxDamage" value="40"/>
+			<property name="Path" value="solid"/>
+			<property name="Model" value="Entities/Furniture/chair04Prefab"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="ImposterExchange" value="imposterRamp" param1="43"/>
 			<property name="Class" value="Loot"/>
 			<property name="LootList" value="252"/>
 		</block>
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='chairCouchSofa01Full']">
 		<block name="chairCouchSofa01Empty">
-			<property name="Extends" value="chairCouchSofa01"/>
+			<property name="Extends" value="sectionalPlaidCouchSofaMiddle" param1="CustomIcon"/>
+			<property name="MaxDamage" value="40"/>
+			<property name="Path" value="solid"/>
+			<property name="Model" value="Entities/Furniture/chair04Prefab"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="ImposterExchange" value="imposterRamp" param1="43"/>
 		</block>	
-
+</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='leatherCouchSofa2']">
 		<block name="leatherCouchSofa2Full">
-			<property name="Extends" value="leatherCouchSofa2"/>
+			<property name="Extends" value="sectionalLeatherCouchSofaArm" param1="CustomIcon,Harvest"/>
+			<property name="MaxDamage" value="40"/>
+			<property name="Path" value="solid"/>
+			<property name="Model" value="Entities/Furniture/sofa03Prefab"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="MultiBlockDim" value="3,1,1"/>
+			<property name="ImposterExchange" value="imposterRamp" param1="43"/>
+			<drop event="Harvest" name="resourceWood" count="6" tag="allHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1,3" tag="allHarvest"/>
 			<property name="Class" value="Loot"/>
 			<property name="LootList" value="252"/>
 		</block>
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='leatherCouchSofa2Full']">
 		<block name="leatherCouchSofa2Empty">
-			<property name="Extends" value="leatherCouchSofa2"/>
+			<property name="Extends" value="sectionalLeatherCouchSofaArm" param1="CustomIcon,Harvest"/>
+			<property name="MaxDamage" value="40"/>
+			<property name="Path" value="solid"/>
+			<property name="Model" value="Entities/Furniture/sofa03Prefab"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="MultiBlockDim" value="3,1,1"/>
+			<property name="ImposterExchange" value="imposterRamp" param1="43"/>
+			<drop event="Harvest" name="resourceWood" count="6" tag="allHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1,3" tag="allHarvest"/>
 		</block>	
-
+</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='leatherChairCouchSofa2']">
 		<block name="leatherChairCouchSofa2Full">
 			<property name="Extends" value="leatherChairCouchSofa2"/>
 			<property name="Class" value="Loot"/>
 			<property name="LootList" value="252"/>
 		</block>
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='leatherChairCouchSofa2Full']">
 		<block name="leatherChairCouchSofa2Empty">
 			<property name="Extends" value="leatherChairCouchSofa2"/>
 		</block>	
-
+</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='pew_segment01']">
 		<block name="pew_segment01Full">
 			<property name="Extends" value="pew_segment01"/>
 			<property name="Class" value="Loot"/>
 			<property name="LootList" value="253"/>
 		</block>
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='pew_segment01Full']">
 		<block name="pew_segment01Empty">
 			<property name="Extends" value="pew_segment01"/>
 		</block>	
-
+</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='pew_segment02']">
 		<block name="pew_segment02Full">
 			<property name="Extends" value="pew_segment02"/>
 			<property name="Class" value="Loot"/>
 			<property name="LootList" value="253"/>
 		</block>
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='pew_segment02Full']">
 		<block name="pew_segment02Empty">
 			<property name="Extends" value="pew_segment02"/>
 		</block>	
-
+</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='pew_segment03']">
 		<block name="pew_segment03Full">
 			<property name="Extends" value="pew_segment03"/>
 			<property name="Class" value="Loot"/>
 			<property name="LootList" value="253"/>
 		</block>
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='pew_segment03Full']">
 		<block name="pew_segment03Empty">
 			<property name="Extends" value="pew_segment03"/>
 		</block>	
-
+</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='parkBenchA']">
 		<block name="parkBenchAFull">
 			<property name="Extends" value="parkBenchA"/>
 			<property name="Class" value="Loot"/>
 			<property name="LootList" value="254"/>
 		</block>
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='parkBenchAFull']">
 		<block name="parkBenchAEmpty">
 			<property name="Extends" value="parkBenchA"/>
 		</block>	
-
+</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='parkBenchB']">
 		<block name="parkBenchBFull">
 			<property name="Extends" value="parkBenchB"/>
 			<property name="Class" value="Loot"/>
 			<property name="LootList" value="254"/>
 		</block>
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='parkBenchBFull']">
 		<block name="parkBenchBEmpty">
 			<property name="Extends" value="parkBenchB"/>
 		</block>	
-
+</insertAfter>
+		<!-- <insertAfter xpath="/blocks/block[@name='decoWildWestWagon']">
 		<block name="decoWildWestWagonFull">
 			<property name="Extends" value="decoWildWestWagon"/>
+			<property name="Model" value="Entities/OutdoorDecor/wildWestWagonPrefab"/>
+			<property name="MultiBlockDim" value="4,3,2"/>
+			<property name="ActivationDistance" value="8"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="IsTerrainDecoration" value="true"/>
 			<property name="Class" value="Loot"/>
 			<property name="LootList" value="255"/>
-		</block>
+			<property class="RepairItems">
+			<property name="resourceWood" value="60"/>
+			<property name="resourceScrapIron" value="16"/>
+			<property name="resourceCloth" value="12"/>
+			<property name="resourceMechanicalParts" value="2"/>
+			</property>
+			<drop event="Harvest" name="resourceWood" count="30" prob="1" tag="allHarvest"/>
+			<drop event="Harvest" name="resourceScrapIron" count="8" prob="1" tag="allHarvest"/>
+			<drop event="Harvest" name="resourceCloth" count="6" tag="allHarvest"/>
+			<drop event="Harvest" name="resourceMechanicalParts" count="1,2" prob="0.5" tag="allHarvest"/>
+			<property name="FilterTags" value="fdecor,fother,outdoor"/>
+			</block>
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='decoWildWestWagonFull']">
 		<block name="decoWildWestWagonEmpty">
 			<property name="Extends" value="decoWildWestWagon"/>
-		</block>
-	
+			<property name="Model" value="Entities/OutdoorDecor/wildWestWagonPrefab"/>
+			<property name="MultiBlockDim" value="4,3,2"/>
+			<property name="ActivationDistance" value="8"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property class="RepairItems">
+			<property name="resourceWood" value="60"/>
+			<property name="resourceScrapIron" value="16"/>
+			<property name="resourceCloth" value="12"/>
+			<property name="resourceMechanicalParts" value="2"/>
+			</property>
+			<drop event="Harvest" name="resourceWood" count="30" prob="1" tag="allHarvest"/>
+			<drop event="Harvest" name="resourceScrapIron" count="8" prob="1" tag="allHarvest"/>
+			<drop event="Harvest" name="resourceCloth" count="6" tag="allHarvest"/>
+			<drop event="Harvest" name="resourceMechanicalParts" count="1,2" prob="0.5" tag="allHarvest"/>
+			<property name="FilterTags" value="fdecor,fother,outdoor"/>
+			</block>
+</insertAfter> -->
+		<insertAfter xpath="/blocks/block[@name='cntIceMachine']">
 		<block name="cntIceMachineFull">
 			<property name="Extends" value="cntIceMachine"/>
+			<property name="CustomIcon" value="cntIceMachine"/>
 			<property name="Class" value="Loot"/>
 			<property name="LootList" value="256"/>
 		</block>
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='cntIceMachineFull']">
 		<block name="cntIceMachineEmpty">
 			<property name="Extends" value="cntIceMachine"/>
+			<property name="CustomIcon" value="cntIceMachine"/>
+			<property name="CustomIcon" value="cntIceMachine"/>
 		</block>
-	</append>
+	</insertAfter>
 	
 	</stallionsden>
