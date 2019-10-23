@@ -1,0 +1,24 @@
+Key,Source,Context,Changes,English
+cntTiltTruckFullFliesEmpty,blocks,Container,KgNone,Tilt Truck Full Flies Empty
+CabinetBottom,blocks,Container,KgNone,Cabinet Bottom
+CupboardCabinetRedTopClosed,blocks,Container,KgNone,Cupboard Cabinet Red Top
+CabinetOldBottom,blocks,Container,KgNone,Cabinet Old Bottom
+MicrowaveOvenClosed,blocks,Container,KgNone,Microwave Oven
+MedicineCabinetClosed,blocks,Container,KgNone,Medicine Cabinet
+CupboardCabinetOldTopClosed,blocks,Container,KgNone,Cupboard Cabinet Old Top
+StoveOldClosed,blocks,Container,KgNone,Stove Old
+RetroFridgeClosed,blocks,Container,KgNone,Retro Fridge
+FridgeStainlessSteel,blocks,Container,KgNone,Fridge Stainless Steel
+NightstandClosed,blocks,Container,KgNone,Night stand
+MedicineCabinetFaucetClosed,blocks,Container,KgNone,Medicine Cabinet Faucet
+WoodDesk01Closed,blocks,Container,KgNone,Wood Desk
+MetalDeskClosed,blocks,Container,KgNone,Metal Desk
+FileCabinetShortClosed,blocks,Container,KgNone,File Cabinet Short
+FileCabinetTallClosed,blocks,Container,KgNone,File Cabinet Tall
+CoolerClosed,blocks,Container,KgNone,Cooler
+LockersShortClosed,blocks,Container,Lockers Short
+LockersTallClosed,blocks,Container,KgNone,Lockers Tall
+LockersTallDoubleClosed,blocks,Container,KgNone,Lockers Tall Double
+LockersTallMixClosed,blocks,Container,KgNone,Lockers Tall Mix
+LockersTallMixLinkClosed,blocks,Container,KgNone,Lockers Tall Mix Link
+BookcaseFull,blocks,Container,KgNone,Book Case

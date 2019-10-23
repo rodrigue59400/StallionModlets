@@ -62,7 +62,7 @@
 </lootcontainer>
 <!-- Tables -->
 <!-- Picnic Table -->
-<!-- <lootcontainer id="251" count="1,2" size="8,9" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" open_time="2" loot_quality_template="qualBaseTemplate">
+ <lootcontainer id="251" count="1,2" size="8,9" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" open_time="2" loot_quality_template="qualBaseTemplate">
 	<item group="cannedfood" prob="1"/>
 	<item group="grills" prob="1"/>
 	<item group="junk"/>
@@ -72,7 +72,7 @@
 	<item name="resourceCloth" count="1,3"/>
 	<item name="resourcePaper" count="5,15"/>
 	<item group="farmingCookingRecipes" count="1,2"/>
-</lootcontainer> -->
+</lootcontainer> 
 <!-- Picnic Table -->
 <!-- Couches and Sofas -->
 <lootcontainer id="252" count="1,2" size="8,9" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" open_time="2" loot_quality_template="qualBaseTemplate">
@@ -112,7 +112,7 @@
 </lootcontainer>
 <!-- Park Bench A & B -->
 <!-- Wild West Wagon -->
-<!-- <lootcontainer id="255" count="1,2" size="8,9" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" open_time="2" loot_quality_template="qualBaseTemplate">
+ <lootcontainer id="255" count="1,6" size="8,9" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" open_time="2" loot_quality_template="qualBaseTemplate">
 	<item group="rottenFood" prob="1"/>
 	<item group="perkBooks" prob="1"/>
 	<item group="junk" count="10,30" prob="1"/>
@@ -155,7 +155,7 @@
 	<item group="rareTools" count="1,3" prob="0.01"/>
 	<item group="rareFoodDrink" count="1,3" prob="0.01"/>
 	<item group="tools" count="1,3" prob="0.01"/>
-</lootcontainer> -->
+</lootcontainer> 
 <!-- Wild West Wagon -->
 <!-- Ice Machine -->
 <lootcontainer id="256" count="1,2" size="8,9" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" open_time="2" loot_quality_template="qualBaseTemplate">

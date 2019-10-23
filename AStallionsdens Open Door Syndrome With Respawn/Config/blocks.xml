@@ -2,6 +2,20 @@
 	
 	<remove xpath="/blocks/block[@name='cntMicrowaveOvenVer1Closed']"></remove>
 	<remove xpath="/blocks/block[@name='cntMedicineCabinetClosed']"></remove>
+	<remove xpath="/blocks/block[@name='cntRetroFridgeVer1Closed']"></remove>
+	<remove xpath="/blocks/block[@name='cntRetroFridgeVer2Open']"></remove>
+	
+	<remove xpath="/blocks/block[@name='cntFridgeStainlessSteelVer2Open']"></remove>
+	<remove xpath="/blocks/block[@name='cntFridgeStainlessSteel']"></remove>
+	
+	<remove xpath="/blocks/block[@name='cntStoveOldVer1Closed']"></remove>
+	<remove xpath="/blocks/block[@name='cntStoveOldVer2Open']"></remove>
+	
+	<remove xpath="/blocks/block[@name='cntCupboardCornerCNRRed']"></remove>
+	<remove xpath="/blocks/block[@name='cntCupboardCabinetFullRedTopClosed']"></remove>
+	<remove xpath="/blocks/block[@name='cntCabinetBottomBrokenDoor']"></remove>
+	<remove xpath="/blocks/block[@name='cntCupboardCornerCNROld']"></remove>
+	<remove xpath="/blocks/block[@name='cntCupboardCabinetFullOldTopClosed']"></remove>
 	
 	<!-- MICROWAVE -->
 	
@@ -516,87 +530,155 @@
 	<property name="DowngradeBlock" value="cntCupboardCabinetOldTopOpen" />
 	</append>
 <!-- CUPBOARD CABINET OLD TOP -->
-
 <!-- STOVE OLD -->
-		<append xpath="/blocks/block[@name='cntStoveOldVer2Open']">
-		<property name="Class" value="UpgradeRated"/>
+<insertBefore xpath="/blocks/block[@name='cntStoveOldRandomLootHelper']">	
+		<block name="cntStoveOldVer1Closed">
+	<property name="CreativeMode" value="Player"/>
+	<property name="Class" value="Loot"/>
+	<property name="Material" value="Mmetal_weak"/>
+	<property name="Shape" value="Ext3dModel"/> <property name="Texture" value="293"/>
+	<property name="Mesh" value="models"/>
+	<property name="Path" value="solid"/>
+	<property name="Model" value="Appliances/stove_old" param1="main_mesh"/> <property name="Place" value="TowardsPlacerInverted"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="LootList" value="5"/>
+	<property name="DowngradeBlock" value="cntStoveOldVer2Open" />
+	<property class="RepairItems">
+		<property name="resourceForgedIron" value="4"/>
+		<property name="resourceElectricParts" value="4"/>
+	</property>
+	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+	<drop event="Harvest" name="resourceElectricParts" count="1,4" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceScrapIron" count="5,15" tag="salvageHarvest"/>
+	<drop event="Destroy" name="resourceScrapIron" count="5" prob="1"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="EconomicValue" value="156"/>
+	<property name="FilterTags" value="floot,ffurniture"/>
+</block>
+</insertBefore>
+<insertAfter xpath="/blocks/block[@name='cntStoveOldVer1Closed']">	
+<block name="cntStoveOldVer2Open">
+	<property name="Extends" value="cntStoveOldVer1Closed" param1="Class,LootList"/>
+	<property name="Class" value="UpgradeRated"/>
 		<property name="UpgradeRated.ToBlock" value="cntStoveOldVer2Open1"/>
 			<property name="UpgradeRated.Rate" value="63"/>	
-			</append>	
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="Appliances/stove_old_Ver2" param1="main_mesh"/>
+</block>
+	</insertAfter>
 <insertAfter xpath="/blocks/block[@name='cntStoveOldVer2Open']">			
 	<block name="cntStoveOldVer2Open1">
-	<property name="Extends" value="cntStoveOldVer1Closed" />
+	<property name="Extends" value="cntStoveOldVer2Open" />
 	<property name="Class" value="UpgradeRated"/>
 		<property name="UpgradeRated.ToBlock" value="cntStoveOldVer2Open2"/>
 			<property name="UpgradeRated.Rate" value="63"/>	
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="Appliances/stove_old_Ver2" param1="main_mesh"/>
 </block>
 </insertAfter>	
 <insertAfter xpath="/blocks/block[@name='cntStoveOldVer2Open1']">
 <block name="cntStoveOldVer2Open2">
-	<property name="Extends" value="cntStoveOldVer1Closed" />
+	<property name="Extends" value="cntStoveOldVer2Open" />
 	<property name="Class" value="UpgradeRated"/>
 		<property name="UpgradeRated.ToBlock" value="cntStoveOldVer2Open3"/>
 			<property name="UpgradeRated.Rate" value="63"/>	
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="Appliances/stove_old_Ver2" param1="main_mesh"/>
 </block>
 </insertAfter>	
 <insertAfter xpath="/blocks/block[@name='cntStoveOldVer2Open2']">
 <block name="cntStoveOldVer2Open3">
-	<property name="Extends" value="cntStoveOldVer1Closed" />
+	<property name="Extends" value="cntStoveOldVer2Open" />
 	<property name="Class" value="UpgradeRated"/>
 		<property name="UpgradeRated.ToBlock" value="cntStoveOldVer2Open4"/>
 			<property name="UpgradeRated.Rate" value="63"/>	
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="Appliances/stove_old_Ver2" param1="main_mesh"/>
 </block>
 </insertAfter>	
 <insertAfter xpath="/blocks/block[@name='cntStoveOldVer2Open3']">
 <block name="cntStoveOldVer2Open4">
-	<property name="Extends" value="cntStoveOldVer1Closed" />
+	<property name="Extends" value="cntStoveOldVer2Open" />
 	<property name="Class" value="UpgradeRated"/>
 		<property name="UpgradeRated.ToBlock" value="cntStoveOldVer2Open5"/>
 			<property name="UpgradeRated.Rate" value="63"/>	
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="Appliances/stove_old_Ver2" param1="main_mesh"/>
 </block>
 </insertAfter>	
 <insertAfter xpath="/blocks/block[@name='cntStoveOldVer2Open4']">
 <block name="cntStoveOldVer2Open5">
-	<property name="Extends" value="cntStoveOldVer1Closed" />
+	<property name="Extends" value="cntStoveOldVer2Open" />
 	<property name="Class" value="UpgradeRated"/>
 		<property name="UpgradeRated.ToBlock" value="cntStoveOldVer2Open6"/>
 			<property name="UpgradeRated.Rate" value="63"/>	
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="Appliances/stove_old_Ver2" param1="main_mesh"/>
 </block>
 </insertAfter>	
 <insertAfter xpath="/blocks/block[@name='cntStoveOldVer2Open5']">
 <block name="cntStoveOldVer2Open6">
-	<property name="Extends" value="cntStoveOldVer1Closed" />
+	<property name="Extends" value="cntStoveOldVer2Open" />
 	<property name="Class" value="UpgradeRated"/>
 		<property name="UpgradeRated.ToBlock" value="cntStoveOldRandomLootHelper"/>
 			<property name="UpgradeRated.Rate" value="63"/>	
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="Appliances/stove_old_Ver2" param1="main_mesh"/>
 </block>
 </insertAfter>	
-	<append xpath="/blocks/block[@name='cntStoveOldVer1Closed']">
-		
-		<property name="DowngradeBlock" value="cntStoveOldVer2Open" />
-			</append>
 <!-- STOVE OLD -->
 <!-- RETRO FRIDGE -->
-			<append xpath="/blocks/block[@name='cntRetroFridgeVer2Open']">
-			<property name="Class" value="UpgradeRated"/>
+<insertAfter xpath="/blocks/block[@name='decoCookingPot']">		
+<block name="cntRetroFridgeVer1Closed">
+	<property name="CreativeMode" value="Player"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="47"/>
+	<property name="Shape" value="Ext3dModel"/> <property name="Texture" value="293"/>
+	<property name="Mesh" value="models"/>
+	<property name="Path" value="solid"/>
+	<property name="Model" value="Appliances/retro_fridge_ver1" param1="main_mesh"/> <property name="Place" value="TowardsPlacerInverted"/>
+	<property name="Collide" value="melee,bullet,arrow,rocket,movement"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="ImposterExchange" value="imposterBlock" param1="27"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="DescriptionKey" value="refrigeratorGroupDesc"/>
+	<property name="DowngradeBlock" value="cntRetroFridgeVer2Open" />
+	<property class="RepairItems">
+		<property name="resourceForgedIron" value="10"/>
+		<property name="resourceMetalPipe" value="2"/>
+		<property name="resourceElectricParts" value="8"/>
+		<property name="resourceElectricParts" value="2"/>
+	</property>
+	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+	<drop event="Harvest" name="resourceMechanicalParts" count="1,2" prob="0.4" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceElectricParts" count="1,6" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceElectricParts" count="0,2" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceMetalPipe" count="1" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceScrapIron" count="20,50" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceScrapPolymers" count="0,3" prob="0.2" tag="salvageHarvest"/>
+	<drop event="Destroy" name="resourceScrapIron" count="5,15" prob="1"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="EconomicValue" value="192"/>
+	<property name="FilterTags" value="floot,ffurniture"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntRetroFridgeVer1Closed']">		
+<block name="cntRetroFridgeVer2Open">
+	<property name="Extends" value="cntRetroFridgeVer1Closed" param1="Class,LootList"/>
+	<property name="Model" value="Appliances/retro_fridge_ver2" param1="main_mesh"/>
+	<property name="Class" value="UpgradeRated"/>
 			<property name="UpgradeRated.ToBlock" value="cntRetroFridgeVer2Open1"/>
-			<property name="UpgradeRated.Rate" value="63"/>		
-			</append>	
+			<property name="UpgradeRated.Rate" value="63"/>
+	<property name="FilterTags" value="floot,ffurniture,fdesign"/>
+	<property name="CreativeMode" value="Player"/>
+</block>
+</insertAfter>
 <insertAfter xpath="/blocks/block[@name='cntRetroFridgeVer2Open']">			
 <block name="cntRetroFridgeVer2Open1">
-	<property name="Extends" value="cntRetroFridgeVer1Closed" />
+	<property name="Extends" value="cntRetroFridgeVer2Open" />
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="UpgradeRated"/>
 			<property name="UpgradeRated.ToBlock" value="cntRetroFridgeVer2Open2"/>
 			<property name="UpgradeRated.Rate" value="63"/>
@@ -606,7 +688,8 @@
 </insertAfter>
 <insertAfter xpath="/blocks/block[@name='cntRetroFridgeVer2Open1']">
 <block name="cntRetroFridgeVer2Open2">
-	<property name="Extends" value="cntRetroFridgeVer1Closed" />
+	<property name="Extends" value="cntRetroFridgeVer2Open" />
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="UpgradeRated"/>
 			<property name="UpgradeRated.ToBlock" value="cntRetroFridgeVer2Open3"/>
 			<property name="UpgradeRated.Rate" value="63"/>
@@ -616,7 +699,8 @@
 </insertAfter>
 <insertAfter xpath="/blocks/block[@name='cntRetroFridgeVer2Open2']">
 <block name="cntRetroFridgeVer2Open3">
-	<property name="Extends" value="cntRetroFridgeVer1Closed" />
+	<property name="Extends" value="cntRetroFridgeVer2Open" />
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="UpgradeRated"/>
 			<property name="UpgradeRated.ToBlock" value="cntRetroFridgeVer2Open4"/>
 			<property name="UpgradeRated.Rate" value="63"/>
@@ -626,7 +710,8 @@
 </insertAfter>
 <insertAfter xpath="/blocks/block[@name='cntRetroFridgeVer2Open3']">
 <block name="cntRetroFridgeVer2Open4">
-	<property name="Extends" value="cntRetroFridgeVer1Closed" />
+	<property name="Extends" value="cntRetroFridgeVer2Open" />
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="UpgradeRated"/>
 			<property name="UpgradeRated.ToBlock" value="cntRetroFridgeVer2Open5"/>
 			<property name="UpgradeRated.Rate" value="63"/>
@@ -636,7 +721,8 @@
 </insertAfter>
 <insertAfter xpath="/blocks/block[@name='cntRetroFridgeVer2Open4']">
 <block name="cntRetroFridgeVer2Open5">
-	<property name="Extends" value="cntRetroFridgeVer1Closed" />
+	<property name="Extends" value="cntRetroFridgeVer2Open" />
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="UpgradeRated"/>
 			<property name="UpgradeRated.ToBlock" value="cntRetroFridgeVer2Open6"/>
 			<property name="UpgradeRated.Rate" value="63"/>
@@ -646,7 +732,8 @@
 </insertAfter>
 <insertAfter xpath="/blocks/block[@name='cntRetroFridgeVer2Open5']">
 <block name="cntRetroFridgeVer2Open6">
-	<property name="Extends" value="cntRetroFridgeVer1Closed" />
+	<property name="Extends" value="cntRetroFridgeVer2Open" />
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="UpgradeRated"/>
 			<property name="UpgradeRated.ToBlock" value="cntRetroFridgeRandomLootHelper"/>
 			<property name="UpgradeRated.Rate" value="63"/>
@@ -654,21 +741,58 @@
 	<property name="FilterTags" value="floot,ffurniture,fdesign"/>
 </block>
 </insertAfter>
-
-	<append xpath="/blocks/block[@name='cntRetroFridgeVer1Closed']">
-		
-		<property name="DowngradeBlock" value="cntRetroFridgeVer2Open" />
-			</append>
 <!-- RETRO FRIDGE -->
 <!-- FRIDGE STAINLESS STEEL -->
-			<append xpath="/blocks/block[@name='cntFridgeStainlessSteelVer2Open']">
-			<property name="Class" value="UpgradeRated"/>
+	<insertAfter xpath="/blocks/block[@name='cntRetroFridgeRandomLootHelper']">	
+	<block name="cntFridgeStainlessSteel">
+	<property name="CreativeMode" value="Player"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="47"/>
+	<property name="Shape" value="Ext3dModel"/> <property name="Texture" value="293"/>
+	<property name="Mesh" value="models"/>
+	<property name="Path" value="solid"/>
+	<property name="Model" value="Appliances/stainless_steel_fridge" param1="main_mesh"/> <property name="Place" value="TowardsPlacerInverted"/>
+	<property name="Collide" value="melee,bullet,arrow,rocket,movement"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="ImposterExchange" value="imposterBlock" param1="27"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="DowngradeBlock" value="cntFridgeStainlessSteelVer2Open" />
+	<property name="DescriptionKey" value="refrigeratorGroupDesc"/>
+	<property class="RepairItems">
+		<property name="resourceForgedIron" value="10"/>
+		<property name="resourceMetalPipe" value="2"/>
+		<property name="resourceElectricParts" value="8"/>
+		<property name="resourceElectricParts" value="2"/>
+	</property>
+	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+	<drop event="Harvest" name="resourceMechanicalParts" count="1,2" prob="0.4" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceElectricParts" count="1,6" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceElectricParts" count="0,2" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceMetalPipe" count="1" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceScrapIron" count="20,50" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceScrapPolymers" count="0,3" prob="0.2" tag="salvageHarvest"/>
+	<drop event="Destroy" name="resourceScrapIron" count="5,15" prob="1"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="EconomicValue" value="192"/>
+	<property name="FilterTags" value="floot,ffurniture"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntFridgeStainlessSteel']">	
+<block name="cntFridgeStainlessSteelVer2Open">
+	<property name="Extends" value="cntFridgeStainlessSteel" param1="Class,LootList"/>
+	<property name="Class" value="UpgradeRated"/>
 			<property name="UpgradeRated.ToBlock" value="cntFridgeStainlessSteelVer2Open1"/>
-			<property name="UpgradeRated.Rate" value="63"/>	
-			</append>	
+			<property name="UpgradeRated.Rate" value="63"/>
+	<property name="Model" value="Appliances/stainless_steel_fridge_ver2" param1="main_mesh"/>
+	<property name="CreativeMode" value="Player"/>
+</block>
+</insertAfter>
 <insertAfter xpath="/blocks/block[@name='cntFridgeStainlessSteelVer2Open']">			
 <block name="cntFridgeStainlessSteelVer2Open1">
-	<property name="Extends" value="cntRetroFridgeVer1Closed" />
+	<property name="Extends" value="cntFridgeStainlessSteelVer2Open" />
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="UpgradeRated"/>
 			<property name="UpgradeRated.ToBlock" value="cntFridgeStainlessSteelVer2Open2"/>
 			<property name="UpgradeRated.Rate" value="63"/>
@@ -677,7 +801,8 @@
 </insertAfter>
 <insertAfter xpath="/blocks/block[@name='cntFridgeStainlessSteelVer2Open1']">
 <block name="cntFridgeStainlessSteelVer2Open2">
-	<property name="Extends" value="cntRetroFridgeVer1Closed" />
+	<property name="Extends" value="cntFridgeStainlessSteelVer2Open" />
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="UpgradeRated"/>
 			<property name="UpgradeRated.ToBlock" value="cntFridgeStainlessSteelVer2Open3"/>
 			<property name="UpgradeRated.Rate" value="63"/>
@@ -686,7 +811,8 @@
 </insertAfter>
 <insertAfter xpath="/blocks/block[@name='cntFridgeStainlessSteelVer2Open2']">
 <block name="cntFridgeStainlessSteelVer2Open3">
-	<property name="Extends" value="cntRetroFridgeVer1Closed" />
+	<property name="Extends" value="cntFridgeStainlessSteelVer2Open" />
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="UpgradeRated"/>
 			<property name="UpgradeRated.ToBlock" value="cntFridgeStainlessSteelVer2Open4"/>
 			<property name="UpgradeRated.Rate" value="63"/>
@@ -695,7 +821,8 @@
 </insertAfter>
 <insertAfter xpath="/blocks/block[@name='cntFridgeStainlessSteelVer2Open3']">
 <block name="cntFridgeStainlessSteelVer2Open4">
-	<property name="Extends" value="cntRetroFridgeVer1Closed" />
+	<property name="Extends" value="cntFridgeStainlessSteelVer2Open" />
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="UpgradeRated"/>
 			<property name="UpgradeRated.ToBlock" value="cntFridgeStainlessSteelVer2Open5"/>
 			<property name="UpgradeRated.Rate" value="63"/>
@@ -704,7 +831,8 @@
 </insertAfter>
 <insertAfter xpath="/blocks/block[@name='cntFridgeStainlessSteelVer2Open4']">
 <block name="cntFridgeStainlessSteelVer2Open5">
-	<property name="Extends" value="cntRetroFridgeVer1Closed" />
+	<property name="Extends" value="cntFridgeStainlessSteelVer2Open" />
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="UpgradeRated"/>
 			<property name="UpgradeRated.ToBlock" value="cntFridgeStainlessSteelVer2Open6"/>
 			<property name="UpgradeRated.Rate" value="63"/>
@@ -713,18 +841,14 @@
 </insertAfter>
 <insertAfter xpath="/blocks/block[@name='cntFridgeStainlessSteelVer2Open5']">
 <block name="cntFridgeStainlessSteelVer2Open6">
-	<property name="Extends" value="cntRetroFridgeVer1Closed" />
+	<property name="Extends" value="cntFridgeStainlessSteelVer2Open" />
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="UpgradeRated"/>
 			<property name="UpgradeRated.ToBlock" value="cntFridgeStainlessSteelRandomLootHelper"/>
 			<property name="UpgradeRated.Rate" value="63"/>
 	<property name="Model" value="Appliances/stainless_steel_fridge_ver2" param1="main_mesh"/>
 </block>
 </insertAfter>
-
-	<append xpath="/blocks/block[@name='cntFridgeStainlessSteel']">
-		
-		<property name="DowngradeBlock" value="cntFridgeStainlessSteelVer2Open" />
-			</append>
 <!-- FRIDGE STAINLESS STEEL -->
 <!-- NIGHT STAND -->
 			<append xpath="/blocks/block[@name='cntNightstandOpen']">
@@ -2861,17 +2985,147 @@
 		<property name="DowngradeBlock"	value="cntLuggageBigOpen" />
 			</append>
 <!-- LUGGAGE BIG -->
-<!-- SHOPPING BASKET -->
-<!--	<insertBefore xpath="/blocks/block[@name='cntShoppingBasketEmpty']">
-	<block name="shoppingBasketRandomLootHelper">
-	<property name="Extends" value="cntShoppingCartRandomLootHelper"/>
-	<property name="CustomIcon" value="cntShoppingBasketEmpty"/> <property name="CustomIconTint" value="ff8080"/>
+<!-- LUGGAGE PILE A -->
+<append xpath="/blocks/block[@name='cntLuggagePileAOpen']">
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntLuggagePileAOpen1"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+	</append>
+<insertAfter xpath="/blocks/block[@name='cntLuggagePileAOpen']">
+<block name="cntLuggagePileAOpen1">
+	<property name="Extends" value="cntLuggageMediumOpen"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="FilterTags" value="floot,fdesign"/>
-	<property name="DisplayInfo" value="Name"/>
-    </block>
-</insertBefore>	-->
-
+	<property name="Model" value="#Entities/LootContainers?luggagePileEmptyAPrefab.prefab"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntLuggagePileAOpen2"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntLuggagePileAOpen1']">
+<block name="cntLuggagePileAOpen2">
+	<property name="Extends" value="cntLuggageMediumOpen"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Model" value="#Entities/LootContainers?luggagePileEmptyAPrefab.prefab"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntLuggagePileAOpen3"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntLuggagePileAOpen2']">
+<block name="cntLuggagePileAOpen3">
+	<property name="Extends" value="cntLuggageMediumOpen"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Model" value="#Entities/LootContainers?luggagePileEmptyAPrefab.prefab"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntLuggagePileAOpen4"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntLuggagePileAOpen3']">
+<block name="cntLuggagePileAOpen4">
+	<property name="Extends" value="cntLuggageMediumOpen"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Model" value="#Entities/LootContainers?luggagePileEmptyAPrefab.prefab"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntLuggagePileAOpen5"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntLuggagePileAOpen4']">
+<block name="cntLuggagePileAOpen5">
+	<property name="Extends" value="cntLuggageMediumOpen"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Model" value="#Entities/LootContainers?luggagePileEmptyAPrefab.prefab"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntLuggagePileAOpen6"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntLuggagePileAOpen5']">
+<block name="cntLuggagePileAOpen6">
+	<property name="Extends" value="cntLuggageMediumOpen"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Model" value="#Entities/LootContainers?luggagePileEmptyAPrefab.prefab"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntLuggagePileARandomLootHelper"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+	<append xpath="/blocks/block[@name='cntLuggagePileAClosed']">
+	<property name="DowngradeBlock"	value="cntLuggagePileAOpen" />
+	</append>
+<!-- LUGGAGE PILE A -->
+<!-- LUGGAGE PILE B -->
+<append xpath="/blocks/block[@name='cntLuggagePileBOpen']">
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntLuggagePileBOpen1"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+	</append>
+<insertAfter xpath="/blocks/block[@name='cntLuggagePileBOpen']">
+<block name="cntLuggagePileBOpen1">
+	<property name="Extends" value="cntLuggageMediumOpen"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Model" value="#Entities/LootContainers?luggagePileEmptyBPrefab.prefab"/>
+	<property name="Class" value="UpgradeRated"/>
+		<property name="UpgradeRated.ToBlock" value="cntLuggagePileBOpen2"/>
+			<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntLuggagePileBOpen1']">
+<block name="cntLuggagePileBOpen2">
+	<property name="Extends" value="cntLuggageMediumOpen"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Model" value="#Entities/LootContainers?luggagePileEmptyBPrefab.prefab"/>
+	<property name="Class" value="UpgradeRated"/>
+		<property name="UpgradeRated.ToBlock" value="cntLuggagePileBOpen3"/>
+			<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntLuggagePileBOpen2']">
+<block name="cntLuggagePileBOpen3">
+	<property name="Extends" value="cntLuggageMediumOpen"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Model" value="#Entities/LootContainers?luggagePileEmptyBPrefab.prefab"/>
+	<property name="Class" value="UpgradeRated"/>
+		<property name="UpgradeRated.ToBlock" value="cntLuggagePileBOpen4"/>
+			<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntLuggagePileBOpen3']">
+<block name="cntLuggagePileBOpen4">
+	<property name="Extends" value="cntLuggageMediumOpen"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Model" value="#Entities/LootContainers?luggagePileEmptyBPrefab.prefab"/>
+	<property name="Class" value="UpgradeRated"/>
+		<property name="UpgradeRated.ToBlock" value="cntLuggagePileBOpen5"/>
+			<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntLuggagePileBOpen4']">
+<block name="cntLuggagePileBOpen5">
+	<property name="Extends" value="cntLuggageMediumOpen"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Model" value="#Entities/LootContainers?luggagePileEmptyBPrefab.prefab"/>
+	<property name="Class" value="UpgradeRated"/>
+		<property name="UpgradeRated.ToBlock" value="cntLuggagePileBOpen6"/>
+			<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntLuggagePileBOpen5']">
+<block name="cntLuggagePileBOpen6">
+	<property name="Extends" value="cntLuggageMediumOpen"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Model" value="#Entities/LootContainers?luggagePileEmptyBPrefab.prefab"/>
+	<property name="Class" value="UpgradeRated"/>
+		<property name="UpgradeRated.ToBlock" value="cntLuggagePileBRandomLootHelper"/>
+			<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+	<append xpath="/blocks/block[@name='cntLuggagePileBClosed']">
+	<property name="DowngradeBlock"	value="cntLuggagePileBOpen" />
+	</append>
+<!-- LUGGAGE PILE B -->
+<!-- SHOPPING BASKET -->
 	<append xpath="/blocks/block[@name='cntShoppingBasketEmpty']">
 		<property name="Class" value="UpgradeRated"/>
 		<property name="UpgradeRated.ToBlock" value="shoppingBasketEmpty1"/>
@@ -3210,12 +3464,379 @@
 	<property name="FilterTags" value="floot,ffurniture"/>
 </block>
 </insertAfter>
-
 	<append xpath="/blocks/block[@name='cntDryerClosed']">
-		
-		<property name="DowngradeBlock" value="cntDryerOpen" />
-			</append>	
+	<property name="DowngradeBlock" value="cntDryerOpen" />
+	</append>	
 	<!-- Dryer -->
+	<!-- TOOLBOX -->
+	<append xpath="/blocks/block[@name='cntToolBoxOpen']">
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntToolBoxOpen1"/>
+	<property name="UpgradeRated.Rate" value="63"/>	
+	</append>
+	<insertAfter xpath="/blocks/block[@name='cntToolBoxOpen']">	
+	<block name="cntToolBoxOpen1">
+	<property name="Extends" value="cntToolBoxOpen"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntToolBoxOpen2"/>
+	<property name="UpgradeRated.Rate" value="63"/>	
+	</block>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='cntToolBoxOpen1']">
+	<block name="cntToolBoxOpen2">
+	<property name="Extends" value="cntToolBoxOpen"/>	
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntToolBoxOpen3"/>
+	<property name="UpgradeRated.Rate" value="63"/>	
+	</block>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='cntToolBoxOpen2']">
+	<block name="cntToolBoxOpen3">
+	<property name="Extends" value="cntToolBoxOpen"/>	
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntToolBoxOpen4"/>
+	<property name="UpgradeRated.Rate" value="63"/>	
+	</block>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='cntToolBoxOpen3']">
+	<block name="cntToolBoxOpen4">
+	<property name="Extends" value="cntToolBoxOpen"/>		
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntToolBoxOpen5"/>
+	<property name="UpgradeRated.Rate" value="63"/>	
+	</block>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='cntToolBoxOpen4']">
+	<block name="cntToolBoxOpen5">
+	<property name="Extends" value="cntToolBoxOpen"/>	
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntToolBoxOpen6"/>
+	<property name="UpgradeRated.Rate" value="63"/>	
+	</block>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='cntToolBoxOpen5']">
+	<block name="cntToolBoxOpen6">
+	<property name="Extends" value="cntToolBoxOpen"/>	
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntToolBoxRandomLootHelper"/>
+	<property name="UpgradeRated.Rate" value="63"/>	
+	</block>
+	</insertAfter>
+	<append xpath="/blocks/block[@name='cntToolBoxClosed']">
+	<property name="DowngradeBlock" value="cntToolBoxOpen" />
+	</append>
+<!-- TOOLBOX -->
+<!-- ROLING TOOL BOX -->
+	<append xpath="/blocks/block[@name='cntRollingToolBoxOpen']">
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntRollingToolBoxOpen1"/>
+	<property name="UpgradeRated.Rate" value="63"/>	
+	</append>
+	<insertAfter xpath="/blocks/block[@name='cntRollingToolBoxOpen']">	
+	<block name="cntRollingToolBoxOpen1">
+	<property name="Extends" value="cntToolBoxOpen"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Model" value="#Entities/LootContainers?rollingToolChestEmptyPrefab.prefab"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntRollingToolBoxOpen2"/>
+	<property name="UpgradeRated.Rate" value="63"/>	
+	</block>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='cntRollingToolBoxOpen1']">
+	<block name="cntRollingToolBoxOpen2">
+	<property name="Extends" value="cntToolBoxOpen"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Model" value="#Entities/LootContainers?rollingToolChestEmptyPrefab.prefab"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntRollingToolBoxOpen3"/>
+	<property name="UpgradeRated.Rate" value="63"/>	
+	</block>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='cntRollingToolBoxOpen2']">
+	<block name="cntRollingToolBoxOpen3">
+	<property name="Extends" value="cntToolBoxOpen"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Model" value="#Entities/LootContainers?rollingToolChestEmptyPrefab.prefab"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntRollingToolBoxOpen4"/>
+	<property name="UpgradeRated.Rate" value="63"/>	
+	</block>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='cntRollingToolBoxOpen3']">
+	<block name="cntRollingToolBoxOpen4">
+	<property name="Extends" value="cntToolBoxOpen"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Model" value="#Entities/LootContainers?rollingToolChestEmptyPrefab.prefab"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntRollingToolBoxOpen5"/>
+	<property name="UpgradeRated.Rate" value="63"/>	
+	</block>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='cntRollingToolBoxOpen4']">
+	<block name="cntRollingToolBoxOpen5">
+	<property name="Extends" value="cntToolBoxOpen"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Model" value="#Entities/LootContainers?rollingToolChestEmptyPrefab.prefab"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntRollingToolBoxOpen6"/>
+	<property name="UpgradeRated.Rate" value="63"/>	
+	</block>
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='cntRollingToolBoxOpen5']">
+	<block name="cntRollingToolBoxOpen6">
+	<property name="Extends" value="cntToolBoxOpen"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Model" value="#Entities/LootContainers?rollingToolChestEmptyPrefab.prefab"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntRollingToolBoxRandomLootHelper"/>
+	<property name="UpgradeRated.Rate" value="63"/>	
+	</block>
+	</insertAfter>
+	<append xpath="/blocks/block[@name='cntRollingToolBoxClosed']">
+	<property name="DowngradeBlock" value="cntRollingToolBoxOpen" />
+	</append>
+<!-- ROLING TOOL BOX -->
+<!-- UTILITY CART -->
+	<append xpath="/blocks/block[@name='cntUtilityCartEmpty']">
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntUtilityCartEmpty1"/>
+	<property name="UpgradeRated.Rate" value="63"/>	
+	</append>
+	<insertAfter xpath="/blocks/block[@name='cntUtilityCartEmpty']">
+	<block name="cntUtilityCartEmpty1">
+	<property name="Extends" value="cntUtilityCartEmpty"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Model" value="#Entities/LootContainers?utilityCartEmptyPrefab.prefab"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntUtilityCartEmpty2"/>
+	<property name="UpgradeRated.Rate" value="63"/>	
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntUtilityCartEmpty1']">
+<block name="cntUtilityCartEmpty2">
+	<property name="Extends" value="cntUtilityCartEmpty"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Model" value="#Entities/LootContainers?utilityCartEmptyPrefab.prefab"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntUtilityCartEmpty3"/>
+	<property name="UpgradeRated.Rate" value="63"/>	
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntUtilityCartEmpty2']">
+<block name="cntUtilityCartEmpty3">
+	<property name="Extends" value="cntUtilityCartEmpty"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Model" value="#Entities/LootContainers?utilityCartEmptyPrefab.prefab"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntUtilityCartEmpty4"/>
+	<property name="UpgradeRated.Rate" value="63"/>	
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntUtilityCartEmpty3']">
+<block name="cntUtilityCartEmpty4">
+	<property name="Extends" value="cntUtilityCartEmpty"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Model" value="#Entities/LootContainers?utilityCartEmptyPrefab.prefab"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntUtilityCartEmpty5"/>
+	<property name="UpgradeRated.Rate" value="63"/>	
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntUtilityCartEmpty4']">
+<block name="cntUtilityCartEmpty5">
+	<property name="Extends" value="cntUtilityCartEmpty"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Model" value="#Entities/LootContainers?utilityCartEmptyPrefab.prefab"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntUtilityCartEmpty6"/>
+	<property name="UpgradeRated.Rate" value="63"/>	
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntUtilityCartEmpty5']">
+<block name="cntUtilityCartEmpty6">
+	<property name="Extends" value="cntUtilityCartEmpty"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Model" value="#Entities/LootContainers?utilityCartEmptyPrefab.prefab"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntUtilityCartRandomLootHelper"/>
+	<property name="UpgradeRated.Rate" value="63"/>	
+</block>
+	</insertAfter>
+	<append xpath="/blocks/block[@name='cntUtilityCartFull']">
+	<property name="DowngradeBlock" value="cntUtilityCartEmpty" />
+	</append>
+<!-- UTILITY CART -->
+<!-- TILT TRUCK -->
+<append xpath="/blocks/block[@name='cntTiltTruckEmpty']">
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntTiltTruckEmpty1"/>
+	<property name="UpgradeRated.Rate" value="63"/>	
+	</append>
+<insertAfter xpath="/blocks/block[@name='cntTiltTruckEmpty']">
+<block name="cntTiltTruckEmpty1">
+	<property name="Extends" value="cntTiltTruckEmpty"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Model" value="#Entities/LootContainers?tiltTruckEmptyPrefab.prefab"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntTiltTruckEmpty2"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntTiltTruckEmpty1']">	
+<block name="cntTiltTruckEmpty2">
+	<property name="Extends" value="cntTiltTruckEmpty"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Model" value="#Entities/LootContainers?tiltTruckEmptyPrefab.prefab"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntTiltTruckEmpty3"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntTiltTruckEmpty2']">	
+<block name="cntTiltTruckEmpty3">
+	<property name="Extends" value="cntTiltTruckEmpty"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Model" value="#Entities/LootContainers?tiltTruckEmptyPrefab.prefab"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntTiltTruckEmpty4"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntTiltTruckEmpty3']">	
+<block name="cntTiltTruckEmpty4">
+	<property name="Extends" value="cntTiltTruckEmpty"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Model" value="#Entities/LootContainers?tiltTruckEmptyPrefab.prefab"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntTiltTruckEmpty5"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntTiltTruckEmpty4']">	
+<block name="cntTiltTruckEmpty5">
+	<property name="Extends" value="cntTiltTruckEmpty"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Model" value="#Entities/LootContainers?tiltTruckEmptyPrefab.prefab"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntTiltTruckEmpty6"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntTiltTruckEmpty5']">	
+<block name="cntTiltTruckEmpty6">
+<property name="Extends" value="cntTiltTruckEmpty"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Model" value="#Entities/LootContainers?tiltTruckEmptyPrefab.prefab"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntTiltTruckRandomLootHelper"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntTiltTruckEmpty6']">
+<block name="cntTiltTruckRandomLootHelper">
+	<property name="Extends" value="cntTiltTruckEmpty"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="cntTiltTruckEmpty"/> <property name="CustomIconTint" value="ff8080"/>
+	<property name="DescriptionKey" value="cntGenericRandomLootHelperDesc"/>
+	<property name="FilterTags" value="floot,ffurniture,fdesign"/>
+	<property name="DisplayInfo" value="Name"/>
+</block>
+</insertAfter>
+	<append xpath="/blocks/block[@name='cntTiltTruckFull']">
+	<property name="DowngradeBlock" value="cntTiltTruckEmpty" />
+	</append>
+<!-- TILT TRUCK -->
+<!-- TILT TRUCK WITH FLIES -->
+<insertAfter xpath="/blocks/block[@name='cntTiltTruckFullFlies']">
+	<block name="cntTiltTruckFullFliesEmpty">
+	<property name="Extends" value="cntTiltTruckEmpty"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="#Entities/LootContainers?tiltTruckEmptyPrefab.prefab"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntTiltTruckFullFliesEmpty1"/>
+	<property name="UpgradeRated.Rate" value="63"/>	
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntTiltTruckFullFliesEmpty']">	
+<block name="cntTiltTruckFullFliesEmpty1">
+	<property name="Extends" value="cntTiltTruckFullFlies"/>
+	<property name="CreativeMode" value="Dev"/>	
+	<property name="Model" value="#Entities/LootContainers?tiltTruckEmptyPrefab.prefab"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntTiltTruckFullFliesEmpty2"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntTiltTruckFullFliesEmpty1']">	
+<block name="cntTiltTruckFullFliesEmpty2">
+	<property name="Extends" value="cntTiltTruckFullFlies"/>
+	<property name="CreativeMode" value="Dev"/>	
+	<property name="Model" value="#Entities/LootContainers?tiltTruckEmptyPrefab.prefab"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntTiltTruckFullFliesEmpty3"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntTiltTruckFullFliesEmpty2']">	
+<block name="cntTiltTruckFullFliesEmpty3">
+	<property name="Extends" value="cntTiltTruckFullFlies"/>
+	<property name="CreativeMode" value="Dev"/>	
+	<property name="Model" value="#Entities/LootContainers?tiltTruckEmptyPrefab.prefab"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntTiltTruckFullFliesEmpty4"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntTiltTruckFullFliesEmpty3']">	
+<block name="cntTiltTruckFullFliesEmpty4">
+	<property name="Extends" value="cntTiltTruckFullFlies"/>
+	<property name="CreativeMode" value="Dev"/>	
+	<property name="Model" value="#Entities/LootContainers?tiltTruckEmptyPrefab.prefab"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntTiltTruckFullFliesEmpty5"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntTiltTruckFullFliesEmpty4']">	
+<block name="cntTiltTruckFullFliesEmpty5">
+	<property name="Extends" value="cntTiltTruckFullFlies"/>
+	<property name="CreativeMode" value="Dev"/>	
+	<property name="Model" value="#Entities/LootContainers?tiltTruckEmptyPrefab.prefab"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntTiltTruckFullFliesEmpty6"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntTiltTruckFullFliesEmpty5']">	
+<block name="cntTiltTruckFullFliesEmpty6">
+	<property name="Extends" value="cntTiltTruckFullFlies"/>
+	<property name="CreativeMode" value="Dev"/>	
+	<property name="Model" value="#Entities/LootContainers?tiltTruckEmptyPrefab.prefab"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntTiltTruckFullFliesRandomLootHelper"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntTiltTruckFullFliesEmpty6']">
+<block name="cntTiltTruckFullFliesRandomLootHelper">
+	<property name="Extends" value="cntTiltTruckFullFlies"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="cntTiltTruckFullFlies"/> <property name="CustomIconTint" value="ff8080"/>
+	<property name="DescriptionKey" value="cntGenericRandomLootHelperDesc"/>
+	<property name="FilterTags" value="floot,ffurniture,fdesign"/>
+	<property name="DisplayInfo" value="Name"/>
+</block>
+</insertAfter>
+	<append xpath="/blocks/block[@name='cntTiltTruckFullFlies']">
+	<property name="DowngradeBlock" value="cntTiltTruckFullFliesEmpty" />
+	</append>
+<!-- TILT TRUCK WITH FLIES -->
 					
 	<set xpath="/blocks/block[@name='cntWallOven']/property[@name='LootList']/@value">23</set>
 	<!-- **************************************************************************** -->	
@@ -3239,6 +3860,22 @@
 	<property name="CustomIcon" value="cntCupboardCabinetRedTopLootHelper"/>
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	<property name="FilterTags" value="floot,ffurniture"/>
+</block>
+
+<block name="cntCupboardCornerCNRRed">
+	<property name="Extends" value="CupboardCabinetRedTopClosed" param1="CustomIcon,Place"/>
+	<property name="Path" value="solid"/>
+	<property name="Model" value="cupboard_corner"/>
+</block>
+<block name="cntCupboardCabinetFullRedTopClosed">
+	<property name="Extends" value="CupboardCabinetRedTopClosed" param1="CustomIcon"/>
+	<property name="Model" value="cube"/>
+</block>
+<block name="cntCabinetBottomBrokenDoor">
+	<property name="Extends" value="CupboardCabinetRedTopClosed" param1="DescriptionKey"/>
+	<property name="FilterTags" value="fdesign"/>
+	<property name="Model" value="cabinet_broken_door"/> <property name="Place" value="TowardsPlacerInverted"/>
+	<property name="Texture" value="79"/>
 </block>
 
 <block name="CabinetOldBottom">
@@ -3276,6 +3913,16 @@
 	<property name="CustomIcon" value="cntCupboardCabinetOldTopLootHelper"/>
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	<property name="FilterTags" value="floot,ffurniture"/>
+</block>
+
+<block name="cntCupboardCornerCNROld">
+	<property name="Extends" value="CupboardCabinetOldTopClosed" param1="CustomIcon,Place"/>
+	<property name="Path" value="solid"/>
+	<property name="Model" value="cupboard_corner"/>
+</block>
+<block name="cntCupboardCabinetFullOldTopClosed">
+	<property name="Extends" value="CupboardCabinetOldTopClosed" param1="CustomIcon"/>
+	<property name="Model" value="cube"/>
 </block>
 
 <block name="StoveOldClosed">

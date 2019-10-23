@@ -10,7 +10,7 @@
 	<property name="Material" value="Mmetal_hard"/><property name="MaxDamage" value="1000"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#Entities/LootContainers?super_chestPrefab.prefab"/>
-	<property name="ModelOffset" value="0,0,0"/>
+	<property name="IsTerrainDecoration" value="true"/>
 	<property name="MultiBlockDim" value="2,1,1"/>
 	<property name="AllowAllRotations" value="true"/>
 	<property name="ParticleOnDeath" value="supply_crate_gib_Prefab"/>
@@ -37,7 +37,7 @@
 	<property name="Material" value="Mmetal_hard"/><property name="MaxDamage" value="10000"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#Entities/LootContainers?super_chestPrefab.prefab"/>
-	<property name="ModelOffset" value="0,0,0"/>
+	<property name="IsTerrainDecoration" value="true"/>
 	<property name="MultiBlockDim" value="2,1,1"/>
 	<property name="AllowAllRotations" value="true"/>
 	<property name="ImposterExchange" value="imposterBlock" param1="115"/>

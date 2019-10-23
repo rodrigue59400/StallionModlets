@@ -2,6 +2,7 @@
  	<remove xpath="/lootcontainers/lootcontainer[@id='5']"></remove>
 	<remove xpath="/lootcontainers/lootcontainer[@id='6']"></remove>
 	<remove xpath="/lootcontainers/lootcontainer[@id='7']"></remove>
+	<remove xpath="/lootcontainers/lootcontainer[@id='10']"></remove>
 	<remove xpath="/lootcontainers/lootcontainer[@id='13']"></remove>
 	<remove xpath="/lootcontainers/lootcontainer[@id='17']"></remove>
 	<remove xpath="/lootcontainers/lootcontainer[@id='18']"></remove>
@@ -9,6 +10,7 @@
 	<remove xpath="/lootcontainers/lootcontainer[@id='24']"></remove>
 	<remove xpath="/lootcontainers/lootcontainer[@id='36']"></remove>
 	<remove xpath="/lootcontainers/lootcontainer[@id='37']"></remove>
+	<remove xpath="/lootcontainers/lootcontainer[@id='40']"></remove>
 	<remove xpath="/lootcontainers/lootcontainer[@id='43']"></remove>
 	<remove xpath="/lootcontainers/lootcontainer[@id='44']"></remove>
 	<remove xpath="/lootcontainers/lootcontainer[@id='45']"></remove>	
@@ -18,10 +20,14 @@
 	<remove xpath="/lootcontainers/lootcontainer[@id='55']"></remove>	
 	<remove xpath="/lootcontainers/lootcontainer[@id='57']"></remove>
 	<remove xpath="/lootcontainers/lootcontainer[@id='58']"></remove>
+	<remove xpath="/lootcontainers/lootcontainer[@id='66']"></remove>
 	<remove xpath="/lootcontainers/lootcontainer[@id='75']"></remove>
-	<remove xpath="/lootcontainers/lootcontainer[@id='106']"></remove>	
+	<remove xpath="/lootcontainers/lootcontainer[@id='106']"></remove>
+	<remove xpath="/lootcontainers/lootcontainer[@id='117']"></remove>
+	<remove xpath="/lootcontainers/lootcontainer[@id='124']"></remove>	
 	
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='4']" >
+<!-- stove/oven, cooking pots and pans rotten food -->
 	<lootcontainer id="5" count="1,2" size="4,3" destroy_on_close="true" sound_open="UseActions/open_mailbox" sound_close="UseActions/close_mailbox" loot_quality_template="qualPlus1Template">
 	<item name="toolCookingPot" count="1,2" prob="1.5"/>
 	<item name="toolCookingGrill"/>
@@ -32,6 +38,7 @@
     </lootcontainer>
 </insertAfter>
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='5']" >
+<!-- cntNightstandClosed and dressers, wooden desk: pistol, ammo, magazines, books -->
 	<lootcontainer id="6" count="1,2" size="4,3" destroy_on_close="true" sound_open="UseActions/open_drawer" sound_close="UseActions/close_drawer" loot_quality_template="qualPlus1Template">
 	<item group="groupApparelClothes" count="1" prob="0.05" />
 	<item group="trophyGroup"/>
@@ -49,11 +56,19 @@
     </lootcontainer>
 </insertAfter>
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='6']" >
+<!-- medicine cabinets -->
 	<lootcontainer id="7" count="1,2" size="5,3" destroy_on_close="true" sound_open="UseActions/open_medicine_cabinet" sound_close="UseActions/close_medicine_cabinet" loot_quality_template="qualPlus1Template">
 	<item group="medicine"/>
     </lootcontainer>
 </insertAfter>	
+<insertAfter xpath="/lootcontainers/lootcontainer[@id='9']" >
+<!-- garbage, cntTrashPile -->
+<lootcontainer id="10" count="0,2" size="6,2" destroy_on_close="true" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" loot_quality_template="qualBaseTemplate">
+	<item group="junk"/>
+</lootcontainer>
+</insertAfter>
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='12']" >
+<!-- laundry basket (Helper) -->
 	<lootcontainer id="13" count="1,2" size="5,3" destroy_on_close="true" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" loot_quality_template="qualPlus1Template">
 	<item group="groupApparelClothes" count="1" prob="0.05" />
 	<item name="resourceCloth" count="1,5" prob="0.2"/>
@@ -61,17 +76,20 @@
     </lootcontainer>
 </insertAfter>	
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='16']" >
+<!-- canned or dry food cupboard door open sound-->
 	<lootcontainer id="17" count="1,2" size="5,4" destroy_on_close="true" sound_open="UseActions/open_cupboard" sound_close="UseActions/close_cupboard" loot_quality_template="qualPlus1Template">
 	<item group="cupboard"/>
     </lootcontainer>
 </insertAfter>	
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='17']" >
+<!-- washing machine, clothes in good condition -->
 <lootcontainer id="18" count="0,2" size="6,4" destroy_on_close="true" sound_open="UseActions/open_fridge" sound_close="UseActions/close_fridge" loot_quality_template="qualPlus1Template">
 	<item group="groupApparelClothes" prob="0.4"/>
 	<item name="resourceCloth" count="1,5" prob="0.4"/>
 </lootcontainer>
 </insertAfter>
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='20']" >
+	<!-- microwave oven loot -->
 	<lootcontainer id="21" count="1,2" size="4,3" destroy_on_close="true" sound_open="UseActions/open_cooler" sound_close="UseActions/close_cooler" loot_quality_template="qualPlus1Template">
 	<item group="rottenFood" prob="1"/>
 	<item name="resourceScrapPolymers" count="1,2" prob="1"/>
@@ -80,7 +98,8 @@
     </lootcontainer>
 </insertAfter>	
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='22']" >
-	<lootcontainer id="23" count="1,2" size="4,3" sound_open="UseActions/open_mailbox" sound_close="UseActions/close_mailbox" loot_quality_template="qualPlus1Template">
+	<!-- free -->
+	<lootcontainer id="23" count="1,2" size="4,3"  sound_open="UseActions/open_mailbox" sound_close="UseActions/close_mailbox" loot_quality_template="qualPlus1Template">
 	<item name="toolCookingPot" count="1,2" prob="1.5"/>
 	<item name="toolCookingGrill"/>
 	<item name="resourceScrapIron" count="1,15" prob="1.5"/>
@@ -90,6 +109,7 @@
     </lootcontainer>
 </insertAfter>
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='23']" >
+	<!-- metal desk -->
 	<lootcontainer id="24" count="1,2" size="4,3" destroy_on_close="true" sound_open="UseActions/open_file_cabinet" sound_close="UseActions/close_file_cabinet" loot_quality_template="qualPlus1Template">
 	<item group="groupApparelClothes" count="1" prob="0.05" />
 	<item group="trophyGroup"/>
@@ -123,6 +143,7 @@
 </lootcontainer>
 </insertAfter>
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='36']" >
+<!-- Bath tub filled with... don't ask. -->
 	<lootcontainer id="37" count="1,2" size="5,4" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="qualPlus1Template">
 	<item name="foodRottingFlesh" prob="5"/>
 	<item name="resourceBone" count="2,4" prob="2"/>
@@ -132,7 +153,18 @@
 	<item group="junk"/>
     </lootcontainer>
 </insertAfter>	
+<insertAfter xpath="/lootcontainers/lootcontainer[@id='39']" >
+<!-- military munitions ammo box -->
+<lootcontainer id="40" count="2,3" size="8,4" destroy_on_close="true" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" open_time="8" loot_quality_template="qualBaseTemplate">
+	<item group="groupAmmoRegular" prob=".7" count="2"/>
+	<item group="groupWeaponsScaled" prob=".3"/>
+	<item group="groupModAllScaled" prob=".15"/>
+	<item group="groupAmmoAdvanced"/>
+	<item group="groupArmorT3_Light" prob="0.2"/>
+</lootcontainer>
+</insertAfter>
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='42']" >
+	<!-- lockers -->
 	<lootcontainer id="43" count="1,2" size="4,3" destroy_on_close="true" sound_open="UseActions/open_locker" sound_close="UseActions/close_locker" loot_quality_template="qualPlus1Template">
 	<item group="groupApparelClothes" prob="30"/>
 	<item group="groupApparelHats" prob="5"/>
@@ -151,6 +183,7 @@
     </lootcontainer>
 </insertAfter>	
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='43']" >
+	<!-- file cabinet -->
 	<lootcontainer id="44" count="1,2" size="4,3" destroy_on_close="true" sound_open="UseActions/open_file_cabinet" sound_close="UseActions/close_file_cabinet" loot_quality_template="qualPlus1Template">
 	<item group="groupAmmoRegularGunslinger"/>
 	<item group="groupAmmoRegular"/>
@@ -165,6 +198,7 @@
     </lootcontainer>
 </insertAfter>	
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='44']" >
+	<!-- cooler loot -->
 	<lootcontainer id="45" count="1,2" size="4,3" destroy_on_close="true" sound_open="UseActions/open_cooler" sound_close="UseActions/close_cooler" loot_quality_template="qualPlus1Template">
 	<item group="cupboard"/>
 	<item group="coldfood"/>
@@ -172,6 +206,7 @@
     </lootcontainer>
 </insertAfter>	
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='46']" >
+	<!-- frozen or refridgerated food, spoiled food (Helper) -->
 	<lootcontainer id="47" count="1,2" size="6,4" destroy_on_close="true" sound_open="UseActions/open_fridge" sound_close="UseActions/close_fridge" loot_quality_template="qualPlus1Template">
 	<item group="coldfood" prob="0.7"/>
 	<item name="drinkJarBoiledWater" count="1,2" prob="0.5"/>
@@ -180,6 +215,7 @@
     </lootcontainer>
 </insertAfter>
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='48']" >
+<!-- bookcase -->
 <lootcontainer id="49" count="1,2" size="4,3" destroy_on_close="true" sound_open="UseActions/open_drawer" sound_close="UseActions/close_drawer" loot_quality_template="qualPlus1Template">
 	<item name="resourcePaper" count="2,8" prob="0.2"/>
 	<item group="books"/>
@@ -187,6 +223,7 @@
 </lootcontainer>
 </insertAfter>
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='53']" >
+<!-- shopping cart-->
 <lootcontainer id="54" count="1,2" size="5,4" destroy_on_close="true" sound_open="UseActions/open_shopping_cart" sound_close="UseActions/close_shopping_cart" loot_quality_template="qualPlus1Template">
 	<item group="cupboard"/>
 	<item group="beverages"/>
@@ -194,6 +231,7 @@
 </lootcontainer>
 </insertAfter>
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='54']" >
+	<!-- cash register-->
 	<lootcontainer id="55" count="1,5" size="5,4" destroy_on_close="true" sound_open="UseActions/open_cash_register" sound_close="UseActions/close_cash_register" loot_quality_template="qualPlus1Template">
 	<item name="resourcePaper" count="1,3" prob="0.031"/>
 	<item name="oldCash" count="5,60" prob="0.1"/>
@@ -201,6 +239,7 @@
 	</lootcontainer>
 </insertAfter>
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='56']" >
+<!-- cntCharcoalGrillClosed -->
 <lootcontainer id="57" count="1,2" size="4,3" destroy_on_close="true" sound_open="UseActions/open_file_cabinet" sound_close="UseActions/close_file_cabinet" loot_quality_template="qualPlus1Template">
 	<item group="grills"/>
 	<item name="resourceCoal" count="4,15" prob="1"/>
@@ -214,6 +253,12 @@
 	<item group="beverages"/>
     </lootcontainer>
 </insertAfter>
+<insertAfter xpath="/lootcontainers/lootcontainer[@id='65']" >
+<!-- gas pump loot -->
+<lootcontainer id="66" count="0,2" size="8,4" destroy_on_close="true" sound_open="UseActions/open_dumpster" sound_close="UseActions/close_dumpster" loot_quality_template="qualBaseTemplate">
+	<item group="junk"/>
+</lootcontainer>
+</insertAfter>
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='74']" >
 <!-- cntGasGrillClosed -->
 <lootcontainer id="75" count="1,2" size="4,3" destroy_on_close="true" sound_open="UseActions/open_file_cabinet" sound_close="UseActions/close_file_cabinet" loot_quality_template="qualPlus1Template">
@@ -224,6 +269,32 @@
 <!-- cntPillCase -->
 <lootcontainer id="106" count="1,2" size="5,3" destroy_on_close="true" sound_open="UseActions/open_cupboard" sound_close="UseActions/close_cupboard" loot_quality_template="qualPlus1Template">
 	<item group="medicine"/>
+</lootcontainer>
+</insertAfter>
+<!-- cntUtilityCartFull-->
+<insertAfter xpath="/lootcontainers/lootcontainer[@id='116']" >
+<lootcontainer id="117" count="1,2" size="6,2" destroy_on_close="true" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" loot_quality_template="qualBaseTemplate">
+	<item group="junk"/>
+	<item name="resourceAcid" count="1,2" prob=".07"/>
+</lootcontainer>
+</insertAfter>
+<insertAfter xpath="/lootcontainers/lootcontainer[@id='123']" >
+<!-- cntToolBoxClosed, cntRollingToolBoxClosed -->
+<lootcontainer id="124" count="1,2" size="6,2" destroy_on_close="true" sound_open="UseActions/close_locker" sound_close="UseActions/close_locker" loot_quality_template="qualBaseTemplate">
+	<item name="resourceNail" count="10,40"/>
+	<item name="resourceMechanicalParts" count="4,10"/>
+	<item name="resourceScrapPolymers" count="1,8" prob="0.4"/>
+	<item name="resourceLockPick" count="1,4" prob="0.2"/>
+	<item name="meleeToolClawHammer"/>
+	<item name="meleeToolWrench"/>
+	<item name="resourceRepairKit" count="1,4"/>
+	<item name="resourceForgedIron" count="1,4" prob="0.4"/>
+	<item name="resourceForgedSteel" count="1,4" prob="0.2"/>
+	<item name="meleeToolPaintTool" prob="0.3"/>
+	<item name="meleeToolWireTool"/>
+	<item group="toolParts" prob="2"/>
+	<item name="armorMilitarySetParts" count="1,4" prob="0.5"/>
+	<item name="armorSteelSetParts" count="1,4" prob="0.5"/>
 </lootcontainer>
 </insertAfter>
 
@@ -384,4 +455,9 @@
 	<item name="drinkCanEmpty" count="1,2"/>
     </lootcontainer>
 </insertAfter>
+<!--<insertAfter xpath="/lootcontainers/lootcontainer[@id='248']" >
+	<lootcontainer id="249" count="1,2" size="6,4" sound_open="UseActions/open_fridge" sound_close="UseActions/close_fridge" loot_quality_template="qualPlus1Template">
+	<item name="cobweb" count="1,2"/>
+    </lootcontainer>
+</insertAfter>-->
 	</stallionsden>
