@@ -1,31 +1,34 @@
 <stallionsden>
+<remove xpath="blocks/block[@name='wineBarrelSet']/property[@name='DisplayType' or @name='MultiBlockDim']"/>
+
 <append xpath="/blocks">
-<!-- LOOTABLE PALLET INSERTION START -->
-<block name="wineBarrelFull">
-			<property name="Extends" value="wineBarrel"/>
+		<block name="wineBarrelEmpty"><property name="Extends" value="wineBarrel"/></block>
+		<block name="wineBarrelSetEmpty"><property name="Extends" value="wineBarrelSet"/></block>
+		<block name="wineBarrelPlainEmpty"><property name="Extends" value="wineBarrelPlain"/></block>
+		
+		<block name="wineBarrelFull"><property name="Extends" value="wineBarrelEmpty"/></block>
+		<block name="wineBarrelSetFull"><property name="Extends" value="wineBarrelSetEmpty"/></block>
+		<block name="wineBarrelPlainFull"><property name="Extends" value="wineBarrelPlainEmpty"/></block>
+</append>
+
+<append xpath="/blocks/block[@name='wineBarrelFull']">
 			<property name="Class" value="Loot"/>
 			<property name="LootList" value="218"/>
-		</block>
-		<block name="wineBarrelEmpty">
-			<property name="Extends" value="wineBarrel"/>
-		</block>
-		<block name="wineBarrelSetFull">
-			<property name="Extends" value="wineBarrelSet"/>
+	</append>
+
+<append xpath="/blocks/block[@name='wineBarrelSetEmpty']">
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="MultiBlockDim" value="1,1,2"/>
+	</append>	
+<append xpath="/blocks/block[@name='wineBarrelSetFull']">
 			<property name="Class" value="Loot"/>
 			<property name="LootList" value="219"/>
-		</block>
-		<block name="wineBarrelSetEmpty">
-			<property name="Extends" value="wineBarrelSet"/>
-		</block>
-		<block name="wineBarrelPlainFull">
-			<property name="Extends" value="wineBarrelPlain"/>
+	</append>
+	
+<append xpath="/blocks/block[@name='wineBarrelPlainFull']">
 			<property name="Class" value="Loot"/>
 			<property name="LootList" value="220"/>
-		</block>
-		<block name="wineBarrelPlainEmpty">
-			<property name="Extends" value="wineBarrelPlain"/>
-		</block>
-</append>
-<!-- LOOTABLE PALLET INSERTION END -->
+	</append>
+<!-- WINE BARREL -->
 
 </stallionsden>
