@@ -9,7 +9,7 @@
 <append xpath="/lootcontainers/lootgroup[@name='garbage']">	
 		<item name="activatedCarbon" count="1,5" />
 </append>
-<append xpath="/lootcontainers/lootgroup[@name='backpacks']">	
+<append xpath="/lootcontainers/lootgroup[@name='backpacks/survival']">	
 		<item name="activatedCarbon" count="1,5" />
 </append>
 <append xpath="/lootcontainers/lootgroup[@name='grills']">	
@@ -41,7 +41,7 @@
 <append xpath="/lootcontainers/lootgroup[@name='garbage']">	
 		<item name="Clingwrap" count="25" />
 </append>
-<append xpath="/lootcontainers/lootgroup[@name='backpacks']">	
+<append xpath="/lootcontainers/lootgroup[@name='backpacks/survival']">	
 		<item name="Clingwrap" count="25" />
 	</append>
 	<!-- Clingwrap -->

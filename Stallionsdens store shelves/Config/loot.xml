@@ -9,7 +9,7 @@
 	<item name="resourcePaint" count="50,150" prob="0.01"/>
 	<item group="garbage"/>
 	<item group="dyes" prob="0.08"/>
-	<item group="backpacks"/>
+	<item group="backpacks/survival"/>
 	<item group="electricalDevices" prob="0.01"/>	
 	<item group="groupAmmoRegularGunslinger"/>
 	<item group="groupAmmoRegular"/>

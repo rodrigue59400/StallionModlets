@@ -9,7 +9,7 @@
 	<item name="casinoCoin" count="10,25" prob="2.5"/>
 	<item name="oldCash" count="50,100" prob="2.5"/>
 	<item group="garbage"/>
-	<item group="backpacks"/>
+	<item group="backpacks/survival"/>
 	<item group="warmClothes" prob="0.08"/>
 	<item group="groupApparelClothes"/>
 	<item group="groupWeaponsMeleeScaled" count="1" prob="0.05" />
