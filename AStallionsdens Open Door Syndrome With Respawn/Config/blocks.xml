@@ -3738,16 +3738,6 @@
 	<property name="UpgradeRated.Rate" value="63"/>
 </block>
 </insertAfter>
-<insertAfter xpath="/blocks/block[@name='cntTiltTruckEmpty6']">
-<block name="cntTiltTruckRandomLootHelper">
-	<property name="Extends" value="cntTiltTruckEmpty"/>
-	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="cntTiltTruckEmpty"/> <property name="CustomIconTint" value="ff8080"/>
-	<property name="DescriptionKey" value="cntGenericRandomLootHelperDesc"/>
-	<property name="FilterTags" value="floot,ffurniture,fdesign"/>
-	<property name="DisplayInfo" value="Name"/>
-</block>
-</insertAfter>
 	<append xpath="/blocks/block[@name='cntTiltTruckFull']">
 	<property name="DowngradeBlock" value="cntTiltTruckEmpty" />
 	</append>
