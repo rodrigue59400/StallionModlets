@@ -1555,13 +1555,13 @@
 	<property name="DowngradeBlock" value="cntMetalDesk02Closed"/>
 </block>
 </insertAfter>
-	<insertAfter xpath="/blocks/block[@name='cntMetalDesk02Locked']">	
+	<!--<insertAfter xpath="/blocks/block[@name='cntMetalDesk02Locked']">	
 	<block name="cntMetalDesk02RandomLootHelper">
 	<property name="Extends" value="cntMetalDesk02Closed" />
 	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="Furniture/desk02" param1="main_mesh"/>
 	</block>
-	</insertAfter>
+	</insertAfter>-->
 <!-- METAL DESK -->
 <!-- FILE CABINET SHORT -->
 			<append xpath="/blocks/block[@name='cntFileCabinetShortOpen']">

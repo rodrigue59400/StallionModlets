@@ -1457,13 +1457,13 @@
 	<property name="UpgradeRated.Rate" value="63"/>
 	</block>
 	</insertAfter>	
-	<insertAfter xpath="/blocks/block[@name='cntMetalDesk02Open6']">	
+	<!--<insertAfter xpath="/blocks/block[@name='cntMetalDesk02Open6']">	
 	<block name="cntMetalDesk02RandomLootHelper">
 	<property name="Extends" value="cntMetalDesk02Closed" />
 	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="Furniture/desk02" param1="main_mesh"/>
 	</block>
-	</insertAfter>
+	</insertAfter>-->
 <!-- METAL DESK -->
 <!-- FILE CABINET SHORT -->
 			<append xpath="/blocks/block[@name='cntFileCabinetShortOpen']">
