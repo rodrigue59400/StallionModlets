@@ -455,9 +455,41 @@
 	<item name="drinkCanEmpty" count="1,2"/>
     </lootcontainer>
 </insertAfter>
-<!--<insertAfter xpath="/lootcontainers/lootcontainer[@id='248']" >
-	<lootcontainer id="249" count="1,2" size="6,4" sound_open="UseActions/open_fridge" sound_close="UseActions/close_fridge" loot_quality_template="qualPlus1Template">
-	<item name="cobweb" count="1,2"/>
-    </lootcontainer>
-</insertAfter>-->
+<insertAfter xpath="/lootcontainers/lootcontainer[@id='248']" >
+<!-- wall oven, cooking pots and pans rotten food -->
+	<lootcontainer id="257" count="1,2" size="4,3"  sound_open="UseActions/open_mailbox" sound_close="UseActions/close_mailbox" loot_quality_template="qualPlus1Template">
+	<item name="toolCookingPot" count="1,2" prob="1.5"/>
+	<item name="toolCookingGrill"/>
+	<item name="resourceScrapIron" count="1,15" prob="1.5"/>
+	<item name="drinkJarEmpty" count="1,2"/>
+	<item name="drinkCanEmpty" count="1,2"/>
+	<item name="resourceCoal" count="4,12" prob="0.5"/>
+    </lootcontainer>	
+</insertAfter>
+<insertAfter xpath="/lootcontainers/lootcontainer[@id='257']" >
+<lootcontainer id="258" count="0,2" size="6,2" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" loot_quality_template="qualBaseTemplate">
+	<item group="junk"/>
+</lootcontainer>
+</insertAfter>
+<insertAfter xpath="/lootcontainers/lootcontainer[@id='258']" >
+<lootcontainer id="259" count="0,2" size="6,4" sound_open="UseActions/open_fridge" sound_close="UseActions/close_fridge" loot_quality_template="qualPlus1Template">
+	<item group="groupApparelClothes" prob="0.4"/>
+	<item name="resourceCloth" count="1,5" prob="0.4"/>
+</lootcontainer>
+</insertAfter>
+<insertAfter xpath="/lootcontainers/lootcontainer[@id='259']" >
+<lootcontainer id="260" count="0,2" size="4,3" sound_open="UseActions/open_suitcase" sound_close="UseActions/close_suitcase" loot_quality_template="qualPlus1Template">
+	<item name="drinkJarBoiledWater" count="1,2" prob="0.15"/>
+	<item group="cannedfood" prob="0.5"/>
+	<item group="junk"/>
+	<item name="meleeToolFlashlight02" prob="0.1"/>
+	<item group="medicine" prob="0.1"/>
+	<item group="groupWeaponsMeleeScaled" count="1" prob="0.05" />
+	<item group="groupWeaponsRangedScaled" count="1" prob="0.05" />
+	<item group="groupAmmoRegularGunslinger"/>
+	<item group="groupAmmoRegular"/>
+	<item group="groupAmmoAdvancedGunslinger"/>
+	<item group="groupAmmoAdvanced"/>
+</lootcontainer>
+</insertAfter>
 	</stallionsden>
