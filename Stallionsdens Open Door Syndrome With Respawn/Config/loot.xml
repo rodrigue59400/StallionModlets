@@ -4,6 +4,7 @@
 	<remove xpath="/lootcontainers/lootcontainer[@id='7']"></remove>
 	<remove xpath="/lootcontainers/lootcontainer[@id='10']"></remove>
 	<remove xpath="/lootcontainers/lootcontainer[@id='13']"></remove>
+	<remove xpath="/lootcontainers/lootcontainer[@id='16']"></remove>
 	<remove xpath="/lootcontainers/lootcontainer[@id='17']"></remove>
 	<remove xpath="/lootcontainers/lootcontainer[@id='18']"></remove>
 	<remove xpath="/lootcontainers/lootcontainer[@id='21']"></remove>
@@ -75,6 +76,12 @@
 	<item name="oldCash" count="1,7" prob="0.1"/>
     </lootcontainer>
 </insertAfter>	
+<insertAfter xpath="/lootcontainers/lootcontainer[@id='15']" >
+	<!-- metal garbage can-->
+<lootcontainer id="16" count="0,2" size="6,2" destroy_on_close="true" sound_open="UseActions/open_trashcan" sound_close="UseActions/close_trashcan" loot_quality_template="qualBaseTemplate">
+	<item group="garbage"/>
+</lootcontainer>
+</insertAfter>
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='16']" >
 <!-- canned or dry food cupboard door open sound-->
 	<lootcontainer id="17" count="1,2" size="5,4" destroy_on_close="true" sound_open="UseActions/open_cupboard" sound_close="UseActions/close_cupboard" loot_quality_template="qualPlus1Template">

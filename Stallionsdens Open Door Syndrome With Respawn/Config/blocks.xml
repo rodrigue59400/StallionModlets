@@ -4092,6 +4092,194 @@
 	<property name="DowngradeBlock" value="cntTiltTruckFullFliesEmpty" />
 	</append>
 <!-- TILT TRUCK WITH FLIES -->
+<!-- DOMED TRASH CAN -->
+	<append xpath="/blocks/block[@name='cntDomedTrashCanEmpty']">
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntDomedTrashCanEmpty1"/>
+	<property name="UpgradeRated.Rate" value="63"/>	
+	</append>
+<insertAfter xpath="/blocks/block[@name='cntDomedTrashCanEmpty']">
+	<block name="cntDomedTrashCanEmpty1">
+	<property name="Extends" value="cntDomedTrashCanEmpty"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Model" value="#Entities/LootContainers?domedTrashCanEmptyPrefab.prefab"/>
+	<property class="RepairItems"> <property name="resourceScrapIron" value="30"/> </property>
+	<drop event="Destroy" name="resourceScrapIron" count="1,15"/>
+	<drop event="Fall" count="0" stick_chance="0"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntDomedTrashCanEmpty2"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+	</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntDomedTrashCanEmpty1']">
+	<block name="cntDomedTrashCanEmpty2">
+	<property name="Extends" value="cntDomedTrashCanEmpty"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Model" value="#Entities/LootContainers?domedTrashCanEmptyPrefab.prefab"/>
+	<property class="RepairItems"> <property name="resourceScrapIron" value="30"/> </property>
+	<drop event="Destroy" name="resourceScrapIron" count="1,15"/>
+	<drop event="Fall" count="0" stick_chance="0"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntDomedTrashCanEmpty3"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+	</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntDomedTrashCanEmpty2']">
+	<block name="cntDomedTrashCanEmpty3">
+	<property name="Extends" value="cntDomedTrashCanEmpty"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Model" value="#Entities/LootContainers?domedTrashCanEmptyPrefab.prefab"/>
+	<property class="RepairItems"> <property name="resourceScrapIron" value="30"/> </property>
+	<drop event="Destroy" name="resourceScrapIron" count="1,15"/>
+	<drop event="Fall" count="0" stick_chance="0"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntDomedTrashCanEmpty4"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+	</block>
+</insertAfter>	
+<insertAfter xpath="/blocks/block[@name='cntDomedTrashCanEmpty3']">
+	<block name="cntDomedTrashCanEmpty4">
+	<property name="Extends" value="cntDomedTrashCanEmpty"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Model" value="#Entities/LootContainers?domedTrashCanEmptyPrefab.prefab"/>
+	<property class="RepairItems"> <property name="resourceScrapIron" value="30"/> </property>
+	<drop event="Destroy" name="resourceScrapIron" count="1,15"/>
+	<drop event="Fall" count="0" stick_chance="0"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntDomedTrashCanEmpty5"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+	</block>
+</insertAfter>	
+<insertAfter xpath="/blocks/block[@name='cntDomedTrashCanEmpty4']">
+	<block name="cntDomedTrashCanEmpty5">
+	<property name="Extends" value="cntDomedTrashCanEmpty"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Model" value="#Entities/LootContainers?domedTrashCanEmptyPrefab.prefab"/>
+	<property class="RepairItems"> <property name="resourceScrapIron" value="30"/> </property>
+	<drop event="Destroy" name="resourceScrapIron" count="1,15"/>
+	<drop event="Fall" count="0" stick_chance="0"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntDomedTrashCanEmpty6"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+	</block>
+</insertAfter>	
+<insertAfter xpath="/blocks/block[@name='cntDomedTrashCanEmpty5']">
+	<block name="cntDomedTrashCanEmpty6">
+	<property name="Extends" value="cntDomedTrashCanEmpty"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Model" value="#Entities/LootContainers?domedTrashCanEmptyPrefab.prefab"/>
+	<property class="RepairItems"> <property name="resourceScrapIron" value="30"/> </property>
+	<drop event="Destroy" name="resourceScrapIron" count="1,15"/>
+	<drop event="Fall" count="0" stick_chance="0"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntDomedTrashCanRandomLootHelper"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+	</block>
+</insertAfter>
+	<append xpath="/blocks/block[@name='cntDomedTrashCanFull']">
+	<property name="DowngradeBlock" value="cntDomedTrashCanEmpty" />
+	</append>
+<!-- DOMED TRASH CAN -->
+<!-- BRUTE STYLE TRASH CAN -->
+	<append xpath="/blocks/block[@name='cntBruteStyleTrashCanEmpty']">
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntBruteStyleTrashCanEmpty1"/>
+	<property name="UpgradeRated.Rate" value="63"/>	
+	</append>
+<insertAfter xpath="/blocks/block[@name='cntBruteStyleTrashCanEmpty']">	
+	<block name="cntBruteStyleTrashCanEmpty1">
+	<property name="Extends" value="cntBruteStyleTrashCanEmpty"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Model" value="#Entities/LootContainers?bruteStyleTrashCanEmptyPrefab.prefab"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property class="RepairItems"> <property name="resourceScrapPolymers" value="14"/> </property>
+	<drop event="Harvest" name="resourceScrapPolymers" count="2,7" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" count="0" stick_chance="0"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntBruteStyleTrashCanEmpty2"/>
+	<property name="UpgradeRated.Rate" value="63"/>	
+	</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntBruteStyleTrashCanEmpty1']">
+	<block name="cntBruteStyleTrashCanEmpty2">
+	<property name="Extends" value="cntBruteStyleTrashCanEmpty"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Model" value="#Entities/LootContainers?bruteStyleTrashCanEmptyPrefab.prefab"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property class="RepairItems"> <property name="resourceScrapPolymers" value="14"/> </property>
+	<drop event="Harvest" name="resourceScrapPolymers" count="2,7" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" count="0" stick_chance="0"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntBruteStyleTrashCanEmpty3"/>
+	<property name="UpgradeRated.Rate" value="63"/>	
+	</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntBruteStyleTrashCanEmpty2']">	
+	<block name="cntBruteStyleTrashCanEmpty3">
+	<property name="Extends" value="cntBruteStyleTrashCanEmpty"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Model" value="#Entities/LootContainers?bruteStyleTrashCanEmptyPrefab.prefab"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property class="RepairItems"> <property name="resourceScrapPolymers" value="14"/> </property>
+	<drop event="Harvest" name="resourceScrapPolymers" count="2,7" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" count="0" stick_chance="0"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntBruteStyleTrashCanEmpty4"/>
+	<property name="UpgradeRated.Rate" value="63"/>	
+	</block>
+</insertAfter>	
+<insertAfter xpath="/blocks/block[@name='cntBruteStyleTrashCanEmpty3']">	
+	<block name="cntBruteStyleTrashCanEmpty4">
+	<property name="Extends" value="cntBruteStyleTrashCanEmpty"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Model" value="#Entities/LootContainers?bruteStyleTrashCanEmptyPrefab.prefab"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property class="RepairItems"> <property name="resourceScrapPolymers" value="14"/> </property>
+	<drop event="Harvest" name="resourceScrapPolymers" count="2,7" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" count="0" stick_chance="0"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntBruteStyleTrashCanEmpty5"/>
+	<property name="UpgradeRated.Rate" value="63"/>	
+	</block>
+</insertAfter>	
+<insertAfter xpath="/blocks/block[@name='cntBruteStyleTrashCanEmpty4']">	
+	<block name="cntBruteStyleTrashCanEmpty5">
+	<property name="Extends" value="cntBruteStyleTrashCanEmpty"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Model" value="#Entities/LootContainers?bruteStyleTrashCanEmptyPrefab.prefab"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property class="RepairItems"> <property name="resourceScrapPolymers" value="14"/> </property>
+	<drop event="Harvest" name="resourceScrapPolymers" count="2,7" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" count="0" stick_chance="0"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntBruteStyleTrashCanEmpty6"/>
+	<property name="UpgradeRated.Rate" value="63"/>	
+	</block>
+</insertAfter>	
+<insertAfter xpath="/blocks/block[@name='cntBruteStyleTrashCanEmpty5']">	
+	<block name="cntBruteStyleTrashCanEmpty6">
+	<property name="Extends" value="cntBruteStyleTrashCanEmpty"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Model" value="#Entities/LootContainers?bruteStyleTrashCanEmptyPrefab.prefab"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property class="RepairItems"> <property name="resourceScrapPolymers" value="14"/> </property>
+	<drop event="Harvest" name="resourceScrapPolymers" count="2,7" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" count="0" stick_chance="0"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntBruteStyleTrashCanRandomLootHelper"/>
+	<property name="UpgradeRated.Rate" value="63"/>	
+	</block>
+</insertAfter>
+	<append xpath="/blocks/block[@name='cntBruteStyleTrashCanFull']">
+	<property name="DowngradeBlock" value="cntBruteStyleTrashCanEmpty" />
+	</append>
+<!-- BRUTE STYLE TRASH CAN -->
 					
 		<!-- **************************************************************************** -->	
 <!-- New Blocks -->
