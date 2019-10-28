@@ -1,48 +1,42 @@
 <stallionsden>
 <!-- Activated Carbon -->
+<append xpath="/lootcontainers/lootgroup[@name='schematicsToolsRare']">	
+		<item name="theBBQSchematic" count="1" prob="0.1" />
+</append>
 <append xpath="/lootcontainers/lootgroup[@name='cupboard']">	
-		<item name="activatedCarbon" count="1,5" />
+		<item name="activatedCarbon" count="1,5" prob="0.1" />
+		<item name="theBBQSchematic" count="1" prob="0.1" />
+		<item name="Clingwrap" count="25" prob="0.1" />
 </append>
 <append xpath="/lootcontainers/lootgroup[@name='junk']">	
-		<item name="activatedCarbon" count="1,5" />
+		<item name="activatedCarbon" count="1,5" prob="0.1" />
+		<item name="Clingwrap" count="25" prob="0.1" />
 </append>
 <append xpath="/lootcontainers/lootgroup[@name='garbage']">	
-		<item name="activatedCarbon" count="1,5" />
+		<item name="activatedCarbon" count="1,5" prob="0.1" />
+		<item name="Clingwrap" count="25" prob="0.1" />
 </append>
 <append xpath="/lootcontainers/lootgroup[@name='backpacks/survival']">	
-		<item name="activatedCarbon" count="1,5" />
+		<item name="activatedCarbon" count="1,5" prob="0.1" />
+		<item name="Clingwrap" count="25" prob="0.1" />
 </append>
 <append xpath="/lootcontainers/lootgroup[@name='grills']">	
-		<item name="activatedCarbon" count="1,5" />
+		<item name="activatedCarbon" count="1,5" prob="0.1" />
 </append>
 <append xpath="/lootcontainers/lootgroup[@name='rottenFood']">	
-		<item name="activatedCarbon" count="1,5" />
+		<item name="activatedCarbon" count="1,5" prob="0.1" />
 </append>
 <append xpath="/lootcontainers/lootgroup[@name='cannedfood']">	
-		<item name="activatedCarbon" count="1,5" />
+		<item name="activatedCarbon" count="1,5" prob="0.1" />
 </append>
 <append xpath="/lootcontainers/lootgroup[@name='coldfood']">	
-		<item name="activatedCarbon" count="1,5" />
+		<item name="activatedCarbon" count="1,5" prob="0.1" />
 </append>
 <append xpath="/lootcontainers/lootgroup[@name='shamwaySafeFiller']">	
-		<item name="activatedCarbon" count="1,5" />
+		<item name="activatedCarbon" count="1,5" prob="0.1" />
 </append>
 <append xpath="/lootcontainers/lootgroup[@name='brewerySafeFiller']">	
-		<item name="activatedCarbon" count="1,5" />
+		<item name="activatedCarbon" count="1,5" prob="0.1" />
 		</append>
 	<!-- Activated Carbon -->
-	<!-- Clingwrap -->		
-	<append xpath="/lootcontainers/lootgroup[@name='cupboard']">	
-		<item name="Clingwrap" count="25" />
-</append>
-<append xpath="/lootcontainers/lootgroup[@name='junk']">	
-		<item name="Clingwrap" count="25" />
-</append>
-<append xpath="/lootcontainers/lootgroup[@name='garbage']">	
-		<item name="Clingwrap" count="25" />
-</append>
-<append xpath="/lootcontainers/lootgroup[@name='backpacks/survival']">	
-		<item name="Clingwrap" count="25" />
-	</append>
-	<!-- Clingwrap -->
 </stallionsden>
