@@ -8,6 +8,7 @@
 	<property name="MaxDamage" value="100"/>
 	<property name="StabilitySupport" value="false"/>
 	<property name="DisplayInfo" value="Name"/>
+	<property name="UnlockedBy" value="theBBQSchematic"/>
 	<property name="Material" value="Mmetal"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#Entities/LootContainers?GasGrill_FullPrefab.prefab"/>
@@ -47,6 +48,6 @@
 	<property name="SellableToTrader" value="true"/>
 	<property name="FilterTags" value="fdecor,fother,ffurniture"/>
 	<property name="SortOrder1" value="70i0"/>
-	</block>
+	</block>	
 </append>
 </stallionsden>
