@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <ModInfo>
+        <Name value="Stallionsdens Extra Recipes" />
+        <Description value="Adds recipes to items and blocks that have none." />
+        <Author value="Stallionsden" />
+        <Version value="A18" />
+    </ModInfo>
+</xml>

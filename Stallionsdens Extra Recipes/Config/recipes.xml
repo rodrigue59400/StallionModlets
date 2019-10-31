@@ -1,0 +1,559 @@
+<stallionsden>
+<append xpath="/recipes">
+<!-- EXTRA RECIPES -->
+<recipe name="decoComputerDeskTopPC" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceElectricParts" count="6"/>
+	<ingredient name="resourceForgedSteel" count="20"/>
+	<ingredient name="resourceDuctTape" count="2"/>
+	<ingredient name="carBattery" count="1"/>
+	<ingredient name="resourceMechanicalParts" count="4"/>
+</recipe>
+
+<recipe name="decoComputerMonitorKeyboardMousePC" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceElectricParts" count="2"/>
+	<ingredient name="resourceForgedSteel" count="10"/>
+	<ingredient name="resourceDuctTape" count="1"/>
+	<ingredient name="resourceGlue" count="1"/>
+	<ingredient name="resourceMechanicalParts" count="2"/>
+</recipe>
+
+<recipe name="decoComputerMonitorKeyboardMouse" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceElectricParts" count="2"/>
+	<ingredient name="resourceForgedSteel" count="5"/>
+	<ingredient name="resourceDuctTape" count="1"/>
+	<ingredient name="resourceGlue" count="1"/>
+	<ingredient name="resourceMechanicalParts" count="2"/>
+</recipe>
+
+<recipe name="decoComputerMonitor" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceElectricParts" count="1"/>
+	<ingredient name="resourceForgedSteel" count="4"/>
+	<ingredient name="resourceDuctTape" count="2"/>
+	<ingredient name="resourceMechanicalParts" count="4"/>
+</recipe>
+
+<recipe name="decoPoolTable" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceWood" count="60"/>
+	<ingredient name="gunBowWoodenParts" count="5"/>
+	<ingredient name="resourceDuctTape" count="10"/>
+	<ingredient name="resourceLeather" count="15"/>
+	<ingredient name="resourceMechanicalParts" count="4"/>
+</recipe>
+
+<recipe name="decoReptileTerrarium" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceGlue" count="6"/>
+	<ingredient name="resourceBrokenGlass" count="20"/>
+	<ingredient name="resourceDuctTape" count="2"/>
+	<ingredient name="resourceWood" count="5"/>
+	<ingredient name="resourceScrapPolymers" count="4"/>
+</recipe>
+
+<recipe name="decoClassicDogHouse" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceWood" count="40"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceScrapPolymers" count="8"/>
+	<ingredient name="ironBars" count="4"/>
+</recipe>
+
+<recipe name="decoLargePetCage" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceWood" count="100"/>
+	<ingredient name="resourceDuctTape" count="14"/>
+	<ingredient name="resourceScrapPolymers" count="20"/>
+	<ingredient name="ironBars" count="8"/>
+</recipe>
+
+<recipe name="decoMetalSlide" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceForgedSteel" count="12"/>
+	<ingredient name="resourceMetalPipe" count="12"/>
+	<ingredient name="resourceDuctTape" count="2"/>
+	<ingredient name="resourceScrapPolymers" count="4"/>
+	</recipe>
+
+<recipe name="decoSwingSet" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceForgedSteel" count="15"/>
+	<ingredient name="resourceMetalPipe" count="24"/>
+	<ingredient name="resourceDuctTape" count="8"/>
+	<ingredient name="resourceScrapPolymers" count="10"/>
+	<ingredient name="resourceMechanicalParts" count="8"/>
+</recipe>
+
+<recipe name="decoBasketBallHoop" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceForgedSteel" count="6"/>
+	<ingredient name="resourceMetalPipe" count="20"/>
+	<ingredient name="resourceDuctTape" count="12"/>
+	<ingredient name="resourceScrapPolymers" count="10"/>
+	<ingredient name="resourceMechanicalParts" count="6"/>
+</recipe>
+
+<recipe name="decoStationaryBike" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceElectricParts" count="6"/>
+	<ingredient name="resourceForgedSteel" count="20"/>
+	<ingredient name="resourceDuctTape" count="2"/>
+	<ingredient name="smallEngine" count="1"/>
+	<ingredient name="resourceMechanicalParts" count="4"/>
+</recipe>
+
+<recipe name="decoTreadmill" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceElectricParts" count="3"/>
+	<ingredient name="resourceForgedSteel" count="10"/>
+	<ingredient name="resourceDuctTape" count="2"/>
+	<ingredient name="smallEngine" count="1"/>
+	<ingredient name="resourceMechanicalParts" count="3"/>
+</recipe>
+
+<recipe name="decoWeightBar" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceForgedSteel" count="20"/>
+	<ingredient name="resourceDuctTape" count="2"/>
+	<ingredient name="resourceLeather" count="3"/>
+	<ingredient name="resourceSpring" count="2"/>
+	</recipe>
+
+<recipe name="decoBenchPress" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceForgedSteel" count="20"/>
+	<ingredient name="resourceDuctTape" count="2"/>
+	<ingredient name="resourceLeather" count="3"/>
+	<ingredient name="resourceSpring" count="2"/>
+	</recipe>
+
+<recipe name="bed01Frame" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceForgedSteel" count="6"/>
+	<ingredient name="resourceDuctTape" count="2"/>
+	<ingredient name="resourceSpring" count="16"/>
+	<ingredient name="resourceScrapPolymers" count="4"/>
+</recipe>
+
+<recipe name="mattress" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceSpring" count="16"/>
+	<ingredient name="resourceCloth" count="25"/>
+	<ingredient name="resourceDuctTape" count="2"/>
+	<ingredient name="resourceLeather" count="1"/>
+	</recipe>
+
+<recipe name="mattressFlat" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceSpring" count="20"/>
+	<ingredient name="resourceCloth" count="30"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceLeather" count="2"/>
+</recipe>
+
+<recipe name="gurneyBed" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceForgedSteel" count="6"/>
+	<ingredient name="resourceSpring" count="4"/>
+	<ingredient name="resourceDuctTape" count="2"/>
+	<ingredient name="resourceLeather" count="1"/>
+	<ingredient name="resourceMechanicalParts" count="4"/>
+</recipe>
+
+<recipe name="hospitalBed" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceForgedSteel" count="6"/>
+	<ingredient name="resourceElectricParts" count="4"/>
+	<ingredient name="resourceDuctTape" count="2"/>
+	<ingredient name="resourceLeather" count="1"/>
+	<ingredient name="resourceMechanicalParts" count="4"/>
+</recipe>
+
+<recipe name="cntVendingMachine" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceElectricParts" count="6"/>
+	<ingredient name="resourceForgedSteel" count="14"/>
+	<ingredient name="resourceDuctTape" count="2"/>
+	<ingredient name="smallEngine" count="1"/>
+	<ingredient name="resourceMechanicalParts" count="4"/>
+</recipe>
+
+<recipe name="modularFireWoodStackA" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceWood" count="50"/>
+	</recipe>
+
+<recipe name="modularFireWoodStackB" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceWood" count="100"/>
+	</recipe>
+
+<recipe name="modularFireWoodStackC" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceWood" count="200"/>
+	</recipe>
+
+<recipe name="decoWildWestWagon" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceWood" count="60"/>
+	<ingredient name="decoWildWestWagonWheelBack" count="2"/>
+	<ingredient name="decoWildWestWagonWheelFront" count="2"/>
+	<ingredient name="resourceNail" count="48"/>
+	<ingredient name="resourceMechanicalParts" count="4"/>
+</recipe>
+
+<recipe name="decoWildWestWagonWheelBack" count="2" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceWood" count="15"/>
+	<ingredient name="resourceNail" count="20"/>
+	<ingredient name="resourceDuctTape" count="5"/>
+	<ingredient name="resourceMechanicalParts" count="2"/>
+</recipe>
+
+<recipe name="decoWildWestWagonWheelFront" count="2" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceWood" count="15"/>
+	<ingredient name="resourceNail" count="20"/>
+	<ingredient name="resourceDuctTape" count="5"/>
+	<ingredient name="resourceMechanicalParts" count="2"/>
+</recipe>
+
+<recipe name="satelliteDish" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceElectricParts" count="6"/>
+	<ingredient name="resourceForgedSteel" count="8"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="carBattery" count="2"/>
+	<ingredient name="resourceMechanicalParts" count="6"/>
+</recipe>
+
+<recipe name="satelliteDishSmall" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceElectricParts" count="2"/>
+	<ingredient name="resourceForgedSteel" count="3"/>
+	<ingredient name="resourceDuctTape" count="11"/>
+	<ingredient name="carBattery" count="1"/>
+	<ingredient name="resourceMechanicalParts" count="1"/>
+</recipe>
+
+<recipe name="graveStone01" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceConcreteMix" count="6"/>
+	<ingredient name="resourceOil" count="1"/>
+	</recipe>
+	
+<recipe name="graveStone02" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceConcreteMix" count="6"/>
+	<ingredient name="resourceOil" count="1"/>
+	</recipe>
+	
+<recipe name="graveStone03" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceConcreteMix" count="6"/>
+	<ingredient name="resourceOil" count="1"/>
+	</recipe>
+
+<recipe name="graveStone04" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceConcreteMix" count="6"/>
+	<ingredient name="resourceOil" count="1"/>
+	</recipe>
+	
+<recipe name="graveStone05" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceConcreteMix" count="6"/>
+	<ingredient name="resourceOil" count="1"/>
+	</recipe>
+	
+<recipe name="graveStone06" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceConcreteMix" count="6"/>
+	<ingredient name="resourceOil" count="1"/>
+	</recipe>
+	
+<recipe name="graveStone07" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceConcreteMix" count="6"/>
+	<ingredient name="resourceOil" count="1"/>
+	</recipe>
+	
+<recipe name="graveStone08" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceConcreteMix" count="6"/>
+	<ingredient name="resourceOil" count="1"/>
+	</recipe>
+
+<recipe name="decoHoistChain" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceForgedSteel" count="20"/>
+	<ingredient name="resourceDuctTape" count="2"/>
+	</recipe>
+
+<recipe name="decoHoistSpreader" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceElectricParts" count="2"/>
+	<ingredient name="resourceForgedSteel" count="8"/>
+	<ingredient name="resourceSpring" count="2"/>
+	<ingredient name="resourceMetalPipe" count="8"/>
+	<ingredient name="resourceMechanicalParts" count="4"/>
+</recipe>
+
+<recipe name="decoHoistHook" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceMechanicalParts" count="3"/>
+	<ingredient name="resourceForgedSteel" count="4"/>
+	<ingredient name="resourceDuctTape" count="2"/>
+	</recipe>
+
+<recipe name="decoHoistMagnet" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceElectricParts" count="6"/>
+	<ingredient name="resourceForgedSteel" count="14"/>
+	<ingredient name="resourceDuctTape" count="2"/>
+	<ingredient name="carBattery" count="1"/>
+	<ingredient name="resourceMechanicalParts" count="4"/>
+</recipe>
+
+<recipe name="decoHoistTopMount" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceElectricParts" count="6"/>
+	<ingredient name="resourceForgedSteel" count="20"/>
+	<ingredient name="resourceDuctTape" count="2"/>
+	<ingredient name="carBattery" count="1"/>
+	<ingredient name="resourceMechanicalParts" count="4"/>
+</recipe>
+
+<recipe name="decoHandTruck" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceElectricParts" count="6"/>
+	<ingredient name="resourceForgedSteel" count="20"/>
+	<ingredient name="resourceMetalPipe" count="12"/>
+	<ingredient name="vehicleWheels" count="2"/>
+	<ingredient name="resourceMechanicalParts" count="4"/>
+</recipe>
+
+<recipe name="chandelierLight" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceBrokenGlass" count="50"/>
+	<ingredient name="resourceForgedSteel" count="6"/>
+	<ingredient name="resourceDuctTape" count="2"/>
+	<ingredient name="resourceElectricParts" count="4"/>
+</recipe>
+
+<recipe name="candelabraLight" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceBrokenGlass" count="6"/>
+	<ingredient name="resourceForgedSteel" count="4"/>
+	<ingredient name="resourceDuctTape" count="2"/>
+	<ingredient name="resourceMechanicalParts" count="4"/>
+</recipe>
+
+<recipe name="endTable" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceWood" count="8"/>
+		<ingredient name="resourcePaint" count="4"/>
+		<ingredient name="resourceNail" count="6"/>
+</recipe>
+
+<recipe name="workLightPOI" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceElectricParts" count="2"/>
+	<ingredient name="resourceForgedSteel" count="2"/>
+	<ingredient name="resourceDuctTape" count="1"/>
+	<ingredient name="resourceBrokenGlass" count="2"/>
+	</recipe>
+
+<recipe name="spotlightNailedDownPOI" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceElectricParts" count="6"/>
+	<ingredient name="resourceForgedSteel" count="20"/>
+	<ingredient name="resourceBrokenGlass" count="2"/>
+	<ingredient name="carBattery" count="1"/>
+	<ingredient name="resourceMechanicalParts" count="4"/>
+</recipe>
+
+<recipe name="wallTorchLight" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceWood" count="4"/>
+	<ingredient name="resourceGlue" count="2"/>
+	<ingredient name="meleeToolTorch" count="1"/>
+	</recipe>
+
+<recipe name="torchWallHolder" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceForgedIron" count="2"/>
+	<ingredient name="resourceDuctTape" count="1"/>
+	</recipe>
+
+<recipe name="candleWallLight" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceElectricParts" count="6"/>
+	<ingredient name="resourceForgedSteel" count="20"/>
+	<ingredient name="candle" count="2"/>
+	</recipe>
+
+<recipe name="candleTableLight" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceWood" count="6"/>
+	<ingredient name="resourceGlue" count="20"/>
+	<ingredient name="candle" count="2"/>
+	</recipe>
+
+<recipe name="burningBarrel" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="ammoGasCan" count="3"/>
+	<ingredient name="resourceForgedSteel" count="10"/>
+	<ingredient name="resourceDuctTape" count="2"/>
+	</recipe>
+
+<recipe name="signShopOpen" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceElectricParts" count="4"/>
+	<ingredient name="resourceForgedSteel" count="8"/>
+	<ingredient name="resourceDuctTape" count="2"/>
+	<ingredient name="resourceBrokenGlass" count="2"/>
+	<ingredient name="resourceMechanicalParts" count="4"/>
+</recipe>
+
+<recipe name="solarbank" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceElectricParts" count="6"/>
+	<ingredient name="resourceForgedSteel" count="20"/>
+	<ingredient name="resourceBrokenGlass" count="2"/>
+	<ingredient name="carBattery" count="1"/>
+	<ingredient name="resourceMechanicalParts" count="4"/>
+</recipe>
+
+<recipe name="loudspeaker" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceElectricParts" count="6"/>
+	<ingredient name="resourceForgedSteel" count="20"/>
+	<ingredient name="resourceLeather" count="2"/>
+	<ingredient name="carBattery" count="1"/>
+	<ingredient name="resourceMechanicalParts" count="4"/>
+</recipe>
+
+<recipe name="flamethrowerTrap" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceElectricParts" count="6"/>
+	<ingredient name="resourceForgedSteel" count="30"/>
+	<ingredient name="ammoGasCan" count="10"/>
+	<ingredient name="carBattery" count="3"/>
+	<ingredient name="resourceMechanicalParts" count="4"/>
+</recipe>
+
+<recipe name="concreteBarrier1" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceConcreteMix" count="40"/>
+	</recipe>
+
+<recipe name="concreteBarrier2" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceConcreteMix" count="60"/>
+	</recipe>
+
+<recipe name="concreteBarrier3" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceConcreteMix" count="80"/>
+	</recipe>
+
+<recipe name="securityGateCTRPlate" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="ironBarsCentered" count="20"/>
+	<ingredient name="resourceForgedSteel" count="6"/>
+	<ingredient name="resourceDuctTape" count="2"/>
+	<ingredient name="resourcePaint" count="1"/>
+	</recipe>
+
+<recipe name="securityGatePlate" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="ironBars" count="20"/>
+	<ingredient name="resourceForgedSteel" count="6"/>
+	<ingredient name="resourceDuctTape" count="2"/>
+	<ingredient name="resourcePaint" count="1"/>
+	</recipe>
+
+<recipe name="jailBars" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="ironBars" count="8"/>
+</recipe>
+
+<recipe name="jailDoorStatic" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="ironBars" count="10"/>
+</recipe>
+
+<recipe name="jailDoorStaticCentered" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="ironBarsCentered" count="12"/>
+	</recipe>
+
+<recipe name="secureReinforcedDoorWooden" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceScrapIron" count="12"/>
+	<ingredient name="resourceDoorKnob" count="2"/>
+	<ingredient name="resourceNail" count="10"/>
+	</recipe>
+
+<recipe name="metalReinforcedDoorWooden" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceDoorKnob" count="2"/>
+	<ingredient name="resourceScrapIron" count="15"/>
+	<ingredient name="resourceForgedSteel" count="2"/>
+	<ingredient name="resourceNail" count="2"/>
+	</recipe>
+
+<recipe name="ironDoor1_v2" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceForgedIron" count="20"/>
+	<ingredient name="resourceDoorKnob" count="2"/>
+	<ingredient name="resourceDuctTape" count="2"/>
+	<ingredient name="resourceMechanicalParts" count="4"/>
+</recipe>
+
+<recipe name="ironDoor1_v3" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceForgedIron" count="20"/>
+	<ingredient name="resourceForgedSteel" count="4"/>
+	<ingredient name="resourceDoorKnob" count="2"/>
+	<ingredient name="resourceMechanicalParts" count="8"/>
+</recipe>
+
+<recipe name="vaultDoor02" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceForgedSteel" count="30"/>
+	<ingredient name="resourceSpring" count="6"/>
+	<ingredient name="resourceMechanicalParts" count="4"/>
+	<ingredient name="resourceDoorKnob" count="2"/>
+</recipe>
+
+<recipe name="vaultDoor03" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceForgedSteel" count="60"/>
+	<ingredient name="resourceSpring" count="10"/>
+	<ingredient name="resourceMechanicalParts" count="8"/>
+	<ingredient name="resourceDoorKnob" count="2"/>
+</recipe>
+
+<recipe name="commercialDoor2_v1" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceSpring" count="2"/>
+	<ingredient name="resourceForgedSteel" count="20"/>
+	<ingredient name="resourceDoorKnob" count="2"/>
+	<ingredient name="resourceMetalPipe" count="4"/>
+	<ingredient name="resourceMechanicalParts" count="4"/>
+</recipe>
+
+<recipe name="commercialDoor4_v1" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceSpring" count="4"/>
+	<ingredient name="resourceForgedSteel" count="20"/>
+	<ingredient name="resourceDoorKnob" count="4"/>
+	<ingredient name="resourceMetalPipe" count="8"/>
+	<ingredient name="resourceMechanicalParts" count="5"/>
+</recipe>
+
+<recipe name="houseFrontDoor1_v1" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceWood" count="12"/>
+	<ingredient name="resourcePaint" count="1"/>
+	<ingredient name="resourceDoorKnob" count="2"/>
+	<ingredient name="resourceNail" count="10"/>
+	<ingredient name="resourceMechanicalParts" count="2"/>
+</recipe>
+
+<recipe name="houseFrontDoor2_v1" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceWood" count="14"/>
+	<ingredient name="resourcePaint" count="2"/>
+	<ingredient name="resourceDoorKnob" count="2"/>
+	<ingredient name="resourceNail" count="12"/>
+	<ingredient name="resourceMechanicalParts" count="2"/>
+</recipe>
+
+<recipe name="garageDoorHouse" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceWood" count="6"/>
+	<ingredient name="resourcePaint" count="2"/>
+	<ingredient name="resourceDoorKnob" count="2"/>
+	<ingredient name="resourceNail" count="1"/>
+	<ingredient name="resourceMechanicalParts" count="2"/>
+</recipe>
+
+<recipe name="garageDoorHouseBrown" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceWood" count="6"/>
+	<ingredient name="resourcePaint" count="20"/>
+	<ingredient name="resourceDoorKnob" count="2"/>
+	<ingredient name="resourceNail" count="1"/>
+	<ingredient name="resourceMechanicalParts" count="3"/>
+</recipe>
+
+<recipe name="garageDoorIndustrial" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceElectricParts" count="2"/>
+	<ingredient name="resourceForgedSteel" count="4"/>
+	<ingredient name="resourceDuctTape" count="2"/>
+	<ingredient name="resourceNail" count="1"/>
+	<ingredient name="resourceMechanicalParts" count="4"/>
+</recipe>
+
+<recipe name="metalReinforcedWoodDrawBridge" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceWood" count="100"/>
+	<ingredient name="resourceForgedSteel" count="20"/>
+	<ingredient name="resourceDuctTape" count="8"/>
+	<ingredient name="resourceNail" count="120"/>
+	<ingredient name="resourceMechanicalParts" count="8"/>
+</recipe>
+
+<recipe name="trapSpikesNew" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceWood" count="14"/>
+	<ingredient name="resourcePaint" count="2"/>
+	<ingredient name="resourceNail" count="12"/>
+</recipe>
+
+<recipe name="barbedWireSheet" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceForgedIron" count="12"/>
+	</recipe>
+
+<recipe name="hubcapNoMine" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="resourceForgedSteel" count="12"/>
+	</recipe>
+
+<recipe name="decoCarTirePile" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="vehicleWheels" count="6"/>
+	</recipe>
+
+<recipe name="decoCarTireStack" count="1" craft_time="25" craft_area="workbench" >
+	<ingredient name="vehicleWheels" count="15"/>
+	</recipe>
+<!-- EXTRA RECIPES -->
+</append>
+</stallionsden>
