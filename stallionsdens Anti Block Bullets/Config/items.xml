@@ -1,0 +1,1220 @@
+<stallionsden>
+<insertAfter xpath="/items/item[@name='ammoCrossbowBoltExploding']">
+<!-- 9MM AMMO -->
+<item name="9mmBulletBall">
+	<property name="CustomIcon" value="ammo9mmBulletBall"/>
+	<property name="CustomIconTint" value="b0ffb0"/>
+	<property name="Tags" value="ammo"/>
+	<property name="DisplayType" value="ammoBullet"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Mbrass"/>
+	<property name="Stacknumber" value="300"/> <!-- STK ammo high -->
+	<property name="EconomicValue" value="9"/>
+	<property name="Group" value="Ammo/Weapons"/>
+	<effect_group name="9mmBulletBall" tiered="false">
+		<passive_effect name="EntityDamage" operation="base_set" value="32"/>
+		</effect_group>
+</item>
+</insertAfter>
+<insertAfter xpath="/items/item[@name='9mmBulletBall']">
+<item name="9mmBulletHP">
+	<property name="CustomIcon" value="ammo9mmBulletBall"/>
+	<property name="CustomIconTint" value="b0ffb0"/>
+	<property name="Extends" value="9mmBulletBall"/>
+	<property name="DisplayType" value="ammoBulletHP"/>
+	<property name="EconomicValue" value="14"/>
+	<property name="DescriptionKey" value="ammoHPGroupDesc"/>
+	<property name="UnlockedBy" value="perkPistolPeteHPAmmo"/>
+	<effect_group name="9mmBulletHP" tiered="false">
+		<passive_effect name="EntityDamage" operation="base_set" value="41.6"/>
+		<passive_effect name="TargetArmor" operation="perc_add" value="1"/>
+		<display_value name="dTargetArmor" value="1"/>
+	</effect_group>
+</item>
+</insertAfter>
+<insertAfter xpath="/items/item[@name='9mmBulletHP']">
+<item name="9mmBulletAP">
+	<property name="CustomIcon" value="ammo9mmBulletAP"/>
+	<property name="CustomIconTint" value="b0ffb0"/>
+	<property name="Extends" value="9mmBulletBall"/>
+	<property name="DisplayType" value="ammoBulletAP"/>
+	<property name="EconomicValue" value="14"/>
+	<property name="DescriptionKey" value="ammoAPGroupDesc"/>
+	<property name="UnlockedBy" value="perkPistolPeteAPAmmo"/>
+	<effect_group name="9mmBulletAP" tiered="false">
+		<passive_effect name="EntityDamage" operation="base_set" value="32"/>
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.2"/>
+		<display_value name="dTargetArmor" value="-.2"/>
+		<passive_effect name="EntityPenetrationCount" operation="base_set" value="1"/>
+		<display_value name="dTargetPenetration" value="1"/>
+		<passive_effect name="DegradationPerUse" operation="perc_add" value=".5" tags="perkGunslinger,9mmGun"/>
+		<display_value name="dDegradationPerUse" value=".5"/>
+		</effect_group>
+</item>
+<!-- 9MM AMMO -->
+</insertAfter>
+<insertAfter xpath="/items/item[@name='9mmBulletAP']">
+<!-- 44 MAGNUM AMMO -->
+<item name="44MagnumBulletBall">
+	<property name="CustomIcon" value="ammo44MagnumBulletBall"/>
+	<property name="CustomIconTint" value="b0ffb0"/>
+	<property name="Extends" value="9mmBulletBall"/>
+	<property name="Stacknumber" value="150"/> <!-- STK ammo low -->
+	<property name="EconomicValue" value="10"/>
+	<effect_group name="44MagnumBulletBall" tiered="false">
+		<passive_effect name="EntityDamage" operation="base_set" value="65"/>
+		<passive_effect name="EntityPenetrationCount" operation="base_set" value="1">
+		<requirement name="ProgressionLevel" progression_name="perkEnforcerComplete" operation="Equals" value="1"/>
+		</passive_effect>
+	</effect_group>
+</item>
+</insertAfter>
+<insertAfter xpath="/items/item[@name='44MagnumBulletBall']">
+<item name="44MagnumBulletHP">
+	<property name="CustomIcon" value="ammo44MagnumBulletHP"/>
+	<property name="CustomIconTint" value="b0ffb0"/>
+	<property name="Extends" value="44MagnumBulletBall"/>
+	<property name="DisplayType" value="ammoBulletHP"/>
+	<property name="EconomicValue" value="15"/>
+	<property name="DescriptionKey" value="ammoHPGroupDesc"/>
+	<property name="UnlockedBy" value="perkEnforcerHPAmmo"/>
+	<effect_group name="44MagnumBulletHP" tiered="false">
+		<passive_effect name="EntityDamage" operation="base_set" value="84.5"/>
+		<passive_effect name="TargetArmor" operation="perc_add" value="1"/>
+		<display_value name="dTargetArmor" value="1"/>
+		<passive_effect name="EntityPenetrationCount" operation="base_set" value="1">
+		<requirement name="ProgressionLevel" progression_name="perkEnforcerComplete" operation="Equals" value="1"/>
+		</passive_effect>
+	</effect_group>
+</item>
+</insertAfter>
+<insertAfter xpath="/items/item[@name='44MagnumBulletHP']">
+<item name="44MagnumBulletAP">
+	<property name="CustomIcon" value="ammo44MagnumBulletAP"/>
+	<property name="CustomIconTint" value="b0ffb0"/>
+	<property name="Extends" value="44MagnumBulletBall"/>
+	<property name="DisplayType" value="ammoBulletAP"/>
+	<property name="EconomicValue" value="15"/>
+	<property name="DescriptionKey" value="ammoAPGroupDesc"/>
+	<property name="UnlockedBy" value="perkEnforcerAPAmmo"/>
+	<effect_group name="44MagnumBulletAP" tiered="false">
+		<passive_effect name="EntityDamage" operation="base_set" value="80"/>
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.2"/>
+		<display_value name="dTargetArmor" value="-.2"/>
+		<passive_effect name="EntityPenetrationCount" operation="base_set" value="1"/>
+		<display_value name="dTargetPenetration" value="1"/>
+		</effect_group>
+</item>
+<!-- 44 MAGNUM AMMO -->
+</insertAfter>
+<insertAfter xpath="/items/item[@name='44MagnumBulletAP']">
+<!-- 7.62MM AMMO -->
+<item name="762mmBulletBall">
+	<property name="Extends" value="9mmBulletBall"/>
+	<property name="CustomIcon" value="ammo762mmBulletBall"/>
+	<property name="CustomIconTint" value="b0ffb0"/>
+	<property name="Stacknumber" value="150"/> <!-- STK ammo low -->
+	<property name="EconomicValue" value="11"/>
+	<effect_group name="762mmBulletBall" tiered="false">
+		<passive_effect name="EntityDamage" operation="base_set" value="50"/>
+</effect_group>
+</item>
+</insertAfter>
+<insertAfter xpath="/items/item[@name='762mmBulletBall']">
+<item name="762mmBulletHP">
+	<property name="Extends" value="762mmBulletBall"/>
+	<property name="CustomIcon" value="ammo762mmBulletHP"/>
+	<property name="CustomIconTint" value="b0ffb0"/>
+	<property name="DisplayType" value="ammoBulletHP"/>
+	<property name="EconomicValue" value="16"/>
+	<property name="DescriptionKey" value="ammoHPGroupDesc"/>
+	<property name="UnlockedBy" value="perkSniperHPAmmo"/>
+	<effect_group name="762mmBulletHP" tiered="false">
+		<passive_effect name="EntityDamage" operation="base_set" value="65"/>
+		<passive_effect name="TargetArmor" operation="perc_add" value="1"/>
+		<display_value name="dTargetArmor" value="1"/>
+		</effect_group>
+</item>
+</insertAfter>
+<insertAfter xpath="/items/item[@name='762mmBulletHP']">
+<item name="762mmBulletAP">
+	<property name="Extends" value="762mmBulletBall"/>
+	<property name="CustomIcon" value="ammo762mmBulletAP"/>
+	<property name="CustomIconTint" value="b0ffb0"/>
+	<property name="DisplayType" value="ammoBulletAP"/>
+	<property name="EconomicValue" value="16"/>
+	<property name="DescriptionKey" value="ammoAPGroupDesc"/>
+	<property name="UnlockedBy" value="perkSniperAPAmmo"/>
+	<effect_group name="762mmBulletAP" tiered="false">
+		<passive_effect name="EntityDamage" operation="base_set" value="50"/>
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.2"/>
+		<display_value name="dTargetArmor" value="-.2"/>
+		<passive_effect name="EntityPenetrationCount" operation="base_set" value="1"/>
+		<display_value name="dTargetPenetration" value="1"/>
+		<passive_effect name="DegradationPerUse" operation="perc_add" value=".5" tags="perkDeadEye,perkMachineGunner"/>
+		<display_value name="dDegradationPerUse" value=".5"/>
+		</effect_group>
+</item>
+<!-- 7.62MM AMMO -->
+</insertAfter>
+<insertAfter xpath="/items/item[@name='762mmBulletAP']">
+<!-- SHOTGUN AMMO -->
+<item name="ShotgunShell">
+	<property name="CustomIcon" value="ammoShotgunShell"/>
+	<property name="CustomIconTint" value="b0ffb0"/>
+	<property name="Tags" value="ammo,shotgun"/>
+	<property name="DisplayType" value="ammoShotgun"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Mlead_scrap"/>
+	<property name="Stacknumber" value="150"/> <!-- STK ammo low -->
+	<property name="EconomicValue" value="11"/>
+	<property name="Group" value="Ammo/Weapons"/>
+	<effect_group name="ShotgunShell" tiered="false">
+		<passive_effect name="EntityDamage" operation="base_set" value="12"/>
+<passive_effect name="RoundRayCount" operation="base_set" value="8"/>
+		<passive_effect name="TargetArmor" operation="perc_add" value=".4"/><display_value name="dTargetArmor" value=".4"/>
+		<passive_effect name="MaxRange" operation="base_set" value="18"/>
+		<passive_effect name="DamageFalloffRange" operation="base_set" value="3"/>
+		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="3.02"/>
+		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="3.02"/>
+		<passive_effect name="DismemberChance" operation="perc_add" value="-.875"/>
+		<passive_effect name="SpreadMultiplierAiming" operation="perc_add" value="-.13"/>
+		<passive_effect name="SpreadMultiplierCrouching" operation="perc_add" value="-.05"/>
+		<passive_effect name="SpreadMultiplierWalking" operation="perc_add" value=".15"/>
+		<passive_effect name="SpreadMultiplierRunning" operation="perc_add" value=".3"/>
+	</effect_group>
+</item>
+</insertAfter>
+<insertAfter xpath="/items/item[@name='ShotgunShell']">
+<item name="ShotgunSlug">
+	<property name="CustomIcon" value="ammoShotgunSlug"/>
+	<property name="CustomIconTint" value="b0ffb0"/>
+	<property name="Tags" value="ammo,shotgun"/>
+	<property name="DisplayType" value="ammoShotgun"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Mbrass"/>
+	<property name="Stacknumber" value="150"/> <!-- STK ammo low -->
+	<property name="EconomicValue" value="20"/>
+	<property name="Group" value="Ammo/Weapons"/>
+	<property name="UnlockedBy" value="perkShotgunMessiahSlugs"/>
+	<effect_group name="ShotgunSlug" tiered="false">
+		<passive_effect name="EntityDamage" operation="base_set" value="80"/>
+		<passive_effect name="RoundRayCount" operation="base_set" value="1"/>
+		<passive_effect name="MaxRange" operation="base_set" value="25"/>
+		<passive_effect name="DamageFalloffRange" operation="base_set" value="3"/>
+		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.4"/>
+		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.4"/>
+		<passive_effect name="SpreadMultiplierAiming" operation="perc_add" value="-.35"/>
+		<passive_effect name="SpreadMultiplierCrouching" operation="perc_add" value="-.05"/>
+		<passive_effect name="SpreadMultiplierWalking" operation="perc_add" value=".15"/>
+		<passive_effect name="SpreadMultiplierRunning" operation="perc_add" value=".3"/>
+	</effect_group>
+</item>
+</insertAfter>
+<insertAfter xpath="/items/item[@name='ShotgunSlug']">
+<item name="ShotgunBreachingSlug">
+	<property name="CustomIcon" value="ammoShotgunBreachingSlug"/>
+	<property name="CustomIconTint" value="b0ffb0"/>
+	<property name="Tags" value="ammo,shotgun"/>
+	<property name="DisplayType" value="ammoShotgunBreaching"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Mbrass"/>
+	<property name="Stacknumber" value="150"/> <!-- STK ammo low -->
+	<property name="EconomicValue" value="20"/>
+	<property name="Group" value="Ammo/Weapons"/>
+	<property name="UnlockedBy" value="perkShotgunMessiahBreachingSlugs"/>
+	<effect_group name="ShotgunBreachingSlug" tiered="false">
+		<passive_effect name="EntityDamage" operation="base_set" value="80"/>
+		<passive_effect name="RoundRayCount" operation="base_set" value="1"/>
+		<passive_effect name="MaxRange" operation="base_set" value="4"/>
+		<passive_effect name="DamageFalloffRange" operation="base_set" value="1"/>
+		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.4"/>
+		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.4"/>
+		<passive_effect name="SpreadMultiplierAiming" operation="perc_add" value="-.35"/>
+		<passive_effect name="SpreadMultiplierCrouching" operation="perc_add" value="-.05"/>
+		<passive_effect name="SpreadMultiplierWalking" operation="perc_add" value=".15"/>
+		<passive_effect name="SpreadMultiplierRunning" operation="perc_add" value=".3"/>
+	</effect_group>
+</item>
+<!-- SHOTGUN AMMO -->
+</insertAfter>
+<insertAfter xpath="/items/item[@name='ShotgunBreachingSlug']">
+<!-- BLUNDERBUSS AMMO -->
+<item name="BlunderbussBalls">
+	<property name="CustomIcon" value="ammoBlunderbuss"/>
+	<property name="CustomIconTint" value="b0ffb0"/>
+	<property name="Tags" value="ammo,shotgun"/>
+	<property name="DisplayType" value="ammoShotgun"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Mpaper"/>
+	<property name="Stacknumber" value="150"/> <!-- STK ammo low -->
+	<property name="Group" value="Ammo/Weapons"/>
+	<property name="EconomicValue" value="5"/>
+	<effect_group name="Blunderbuss" tiered="false">
+		<passive_effect name="EntityDamage" operation="base_set" value="11"/>
+		<passive_effect name="RoundRayCount" operation="base_set" value="8"/>
+		<passive_effect name="TargetArmor" operation="perc_add" value=".4"/><display_value name="dTargetArmor" value=".4"/>
+		<passive_effect name="DismemberChance" operation="perc_add" value="-.875"/>
+		<passive_effect name="MaxRange" operation="base_set" value="15"/>
+		<passive_effect name="DamageFalloffRange" operation="base_set" value="2"/>
+	</effect_group>
+</item>
+<!-- BLUNDERBUSS AMMO -->
+</insertAfter>
+<insertAfter xpath="/items/item[@name='BlunderbussBalls']">
+<!-- JUNK TURRET AMMO -->
+<item name="JunkTurretAmmo">
+	<property name="CustomIcon" value="ammoJunkTurret"/>
+	<property name="CustomIconTint" value="b0ffb0"/>
+	<property name="Tags" value="ammo"/>
+	<property name="DisplayType" value="ammoBulletFake"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Stacknumber" value="1000"/>
+	<property name="EconomicValue" value="9"/>
+	<property name="Group" value="Ammo/Weapons"/>
+	<effect_group name="JunkTurret" tiered="false">
+		<display_value name="dEntityDamage" value="11.8"/>
+</effect_group>
+</item>
+<!-- JUNK TURRET AMMO -->
+</insertAfter>
+<insertAfter xpath="/items/item[@name='JunkTurretAmmo']">
+<!-- ROCKET AMMO -->
+<item name="RocketHE">
+	<property name="CustomIcon" value="ammoRocketHE"/>
+	<property name="CustomIconTint" value="b0ffb0"/>
+	<property name="Tags" value="ammo"/>
+	<property name="DisplayType" value="ammoLauncher"/>
+	<property name="Meshfile" value="#Other/Items?Weapons/Ranged/RocketLauncher/rocketPrefab.prefab"/>
+	<property name="HoldType" value="45"/>
+	<property name="HandMeshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Mlead_scrap"/>
+	<property name="Stacknumber" value="20"/>
+	<property name="EconomicValue" value="250"/>
+	<property name="Group" value="Ammo/Weapons"/>
+	<property name="UnlockedBy" value="perkDemolitionsExpert,gunRocketLauncherSchematic"/>
+	<property class="Action1">
+		<property name="Class" value="Projectile"/>
+		<property name="Explosion.ParticleIndex" value="4"/> <!-- which Prefab/particle is used -->
+		<property name="Explosion.RadiusBlocks" value="5"/> <!-- damage radius for blocks -->
+		<property name="Explosion.RadiusEntities" value="4"/> <!-- damage radius for entities -->
+		<property name="Explosion.DamageBonus.water" value="0"/>
+		<property name="Gravity" value="-6"/>
+		<property name="FlyTime" value=".2"/>
+		<property name="LifeTime" value="20"/>
+	</property>
+	<effect_group name="RocketHE" tiered="false">
+		<passive_effect name="EntityDamage" operation="base_set" value="210"/><display_value name="dExDamageEntity" value="420"/>
+		<passive_effect name="ProjectileVelocity" operation="base_set" value="50"/>
+		<display_value name="dExRadius" value="5"/>
+	</effect_group>
+</item>
+</insertAfter>
+<insertAfter xpath="/items/item[@name='RocketHE']">
+<item name="RocketFrag">
+	<property name="CustomIcon" value="ammoRocketFrag"/>
+	<property name="CustomIconTint" value="b0ffb0"/>
+	<property name="Extends" value="RocketHE"/>
+	<property class="Action1">
+		<property name="Explosion.RadiusEntities" value="6"/> <!-- damage radius for entities -->
+		</property>
+	<effect_group name="RocketFrag" tiered="false">
+		<passive_effect name="EntityDamage" operation="base_set" value="325"/><display_value name="dExDamageEntity" value="650"/>
+		<passive_effect name="ProjectileVelocity" operation="base_set" value="50"/>
+		<display_value name="dExRadius" value="6"/>
+	</effect_group>
+</item>
+<!-- ROCKET AMMO -->
+</insertAfter>
+<insertAfter xpath="/items/item[@name='RocketFrag']">
+<!-- BOW AMMO -->
+<item name="ArrowStone">
+	<property name="CustomIcon" value="ammoArrowStone"/>
+	<property name="CustomIconTint" value="b0ffb0"/>
+	<property name="DisplayType" value="ammoArrow"/>
+	<property name="Tags" value="ammo,ranged,attAgility,perkArchery"/>
+	<property name="Meshfile" value="#Other/Items?Weapons/Ranged/Bows/WoodenBow/arrowPrefab"/>
+	<property name="HoldType" value="45"/>
+	<property name="HandMeshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="IsSticky" value="true"/>
+	<property name="StickyOffset" value=".5"/>
+	<property name="StickyColliderUp" value="2"/>
+	<property name="StickyColliderRadius" value=".05"/>
+	<property name="StickyColliderLength" value="1"/>
+	<property name="Material" value="Mwood"/>
+	<property name="Stacknumber" value="150"/> <!-- STK ammo low -->
+	<property name="FuelValue" value="25"/>
+	<property name="EconomicValue" value="12"/>
+	<property name="EconomicBundleSize" value="5"/>
+	<property name="Group" value="Ammo/Weapons,Basics"/>
+	<property class="Action1">
+		<property name="Class" value="Projectile"/>
+		<property name="Explosion.ParticleIndex" value="0"/> <!-- no expl. -->
+		<property name="FlyTime" value="0"/>
+		<property name="Gravity" value="-4"/>
+		<property name="LifeTime" value="14"/>
+	</property>
+	<effect_group name="ArrowStone" tiered="false"> <!-- ammoArrowStone -->
+		<passive_effect name="EntityDamage" operation="base_set" value="25"/>
+		<passive_effect name="ProjectileVelocity" operation="base_set" value="45"/>
+	</effect_group>
+	<effect_group tiered="false">
+		<!-- perkRangersCripplingShot, Shots to the leg with arrows slow your opponent -->
+		<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffInjuryCrippled01">
+			<requirement name="!EntityTagCompare" tags="player"/>
+			<requirement name="ProgressionLevel" progression_name="perkRangersCripplingShot" operation="Equals" value="1"/>
+			<requirement name="HitLocation" body_parts="LeftUpperLeg,RightUpperLeg,LeftLowerLeg,RightLowerLeg"/>
+		</triggered_effect>
+		<!-- perkRangersKnockdown, Successful sneak attacks with arrows have a 20% greater chance of knocking down the target -->
+		<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffInjuryKnockdown01">
+			<requirement name="ProgressionLevel" progression_name="perkRangersKnockdown" operation="Equals" value="1"/>
+			<requirement name="CVarCompare" cvar="_crouching" operation="Equals" value="1"/>
+			<requirement name="CVarCompare" cvar="_notAlerted" operation="Equals" value="1" target="other"/>
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="20"/>
+		</triggered_effect>
+	</effect_group>
+	<effect_group tiered="false">
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.1">
+			<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="Equals" value="1"/></passive_effect>
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.2">
+			<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="Equals" value="2"/></passive_effect>
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.3">
+			<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="Equals" value="3"/></passive_effect>
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.35">
+			<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="GTE" value="4"/></passive_effect>
+	</effect_group>
+</item>
+</insertAfter>
+<insertAfter xpath="/items/item[@name='ArrowStone']">
+<item name="ArrowIron">
+	<property name="CustomIcon" value="ammoArrowIron"/>
+	<property name="CustomIconTint" value="b0ffb0"/>
+	<property name="Extends" value="ArrowStone"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="EconomicValue" value="25"/>
+	<property name="EconomicBundleSize" value="5"/>
+	<property name="Group" value="Ammo/Weapons"/>
+	<property class="Action1">
+		<property name="Gravity" value="-3.5"/>
+	</property>
+
+	<effect_group name="ArrowIron" tiered="false"> <!-- ammoArrowIron -->
+		<passive_effect name="EntityDamage" operation="base_set" value="28"/>
+		<passive_effect name="ProjectileVelocity" operation="base_set" value="50"/>
+	</effect_group>
+	<effect_group tiered="false">
+		<!-- perkRangersCripplingShot, Shots to the leg with arrows slow your opponent -->
+		<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffInjuryCrippled01">
+			<requirement name="!EntityTagCompare" tags="player"/>
+			<requirement name="ProgressionLevel" progression_name="perkRangersCripplingShot" operation="Equals" value="1"/>
+			<requirement name="HitLocation" body_parts="LeftUpperLeg,RightUpperLeg,LeftLowerLeg,RightLowerLeg"/>
+		</triggered_effect>
+		<!-- perkRangersKnockdown, Successful sneak attacks with arrows have a 20% greater chance of knocking down the target -->
+		<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffInjuryKnockdown01">
+			<requirement name="ProgressionLevel" progression_name="perkRangersKnockdown" operation="Equals" value="1"/>
+			<requirement name="CVarCompare" cvar="_crouching" operation="Equals" value="1"/>
+			<requirement name="CVarCompare" cvar="_notAlerted" operation="Equals" value="1" target="other"/>
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="20"/>
+		</triggered_effect>
+	</effect_group>
+	<effect_group tiered="false">
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.1">
+			<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="Equals" value="1"/></passive_effect>
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.2">
+			<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="Equals" value="2"/></passive_effect>
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.3">
+			<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="Equals" value="3"/></passive_effect>
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.35">
+			<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="GTE" value="4"/></passive_effect>
+	</effect_group>
+</item>
+</insertAfter>
+<insertAfter xpath="/items/item[@name='ArrowIron']">
+<item name="ArrowSteelAP">
+	<property name="CustomIcon" value="ammoArrowSteelAP"/>
+	<property name="CustomIconTint" value="b0ffb0"/>
+	<property name="Extends" value="ArrowIron"/>
+	<property name="Meshfile" value="#Other/Items?Weapons/Ranged/Bows/WoodenBow/bodkinArrowPrefab.prefab"/>
+	<property name="StickyMeshFile" value="#Other/Items?Weapons/Ranged/Bows/WoodenBow/bodkinArrowPrefab.prefab"/>
+	<property name="EconomicValue" value="57"/>
+	<property name="EconomicBundleSize" value="5"/>
+	<property name="StickyOffset" value=".5"/>
+	<property name="UnlockedBy" value="perkRangersAPAmmo"/>
+	<effect_group name="ArrowSteelAP" tiered="false"> <!-- ammoArrowSteelAP -->
+		<passive_effect name="EntityDamage" operation="base_set" value="31"/>
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.2"/>
+		<display_value name="dTargetArmor" value="-.2"/>
+		<passive_effect name="ProjectileVelocity" operation="base_set" value="55"/>
+	</effect_group>
+	<effect_group tiered="false">
+		<!-- perkRangersCripplingShot, Shots to the leg with arrows slow your opponent -->
+		<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffInjuryCrippled01">
+			<requirement name="!EntityTagCompare" tags="player"/>
+			<requirement name="ProgressionLevel" progression_name="perkRangersCripplingShot" operation="Equals" value="1"/>
+			<requirement name="HitLocation" body_parts="LeftUpperLeg,RightUpperLeg,LeftLowerLeg,RightLowerLeg"/>
+		</triggered_effect>
+		<!-- perkRangersKnockdown, Successful sneak attacks with arrows have a 20% greater chance of knocking down the target -->
+		<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffInjuryKnockdown01">
+			<requirement name="ProgressionLevel" progression_name="perkRangersKnockdown" operation="Equals" value="1"/>
+			<requirement name="CVarCompare" cvar="_crouching" operation="Equals" value="1"/>
+			<requirement name="CVarCompare" cvar="_notAlerted" operation="Equals" value="1" target="other"/>
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="20"/>
+		</triggered_effect>
+	</effect_group>
+	<effect_group tiered="false">
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.1">
+			<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="Equals" value="1"/></passive_effect>
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.2">
+			<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="Equals" value="2"/></passive_effect>
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.3">
+			<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="Equals" value="3"/></passive_effect>
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.35">
+			<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="GTE" value="4"/></passive_effect>
+	</effect_group>
+</item>
+</insertAfter>
+<insertAfter xpath="/items/item[@name='ArrowSteelAP']">
+<item name="ArrowFlaming">
+	<property name="CustomIcon" value="ammoArrowFlaming"/>
+	<property name="CustomIconTint" value="b0ffb0"/>
+	<property name="Extends" value="ArrowIron"/>
+	<property name="DisplayType" value="ammoArrowFlaming"/>
+	<property name="Meshfile" value="#Other/Items?Weapons/Ranged/Bows/WoodenBow/flamingArrowPrefab.prefab"/>
+	<property name="StickyMeshFile" value="#Other/Items?Weapons/Ranged/Bows/WoodenBow/flamingArrowPrefab.prefab"/>
+	<property name="UsableUnderwater" value="false"/>
+	<property name="FuelValue" value="27"/>
+	<property name="EconomicValue" value="44"/>
+	<property name="EconomicBundleSize" value="1"/>
+	<property name="Damage_type" value="Heat"/>
+	<property name="StickyOffset" value=".7"/>
+	<property name="UnlockedBy" value="perkRangersFlamingArrows"/>
+	<property class="Action1">
+		<property name="Gravity" value="-5"/>
+		</property>
+
+	<effect_group name="ArrowFlaming" tiered="false"> <!-- ammoArrowFlaming -->
+		<passive_effect name="EntityDamage" operation="base_set" value="25"/>
+		<passive_effect name="ProjectileVelocity" operation="base_set" value="40"/>
+		<passive_effect name="ProjectileStickChance" operation="perc_set" value="0"/>
+
+		<triggered_effect trigger="onProjectileImpact" action="ModifyCVar" target="other" cvar="$buffBurningFlamingArrowDuration" operation="set" value="14">
+			<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="Equals" value="0"/></triggered_effect>
+		<triggered_effect trigger="onProjectileImpact" action="ModifyCVar" target="other" cvar="$buffBurningFlamingArrowDuration" operation="set" value="15">
+			<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="Equals" value="1"/></triggered_effect>
+
+		<triggered_effect trigger="onProjectileImpact" action="AddBuff" target="other" buff="buffBurningFlamingArrow"/>
+
+		<display_value name="dEntityDamageFire" value="120"/>
+		<display_value name="dDuration" value="14"/>
+	</effect_group>
+	<effect_group tiered="false">
+		<!-- perkRangersCripplingShot, Shots to the leg with arrows slow your opponent -->
+		<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffInjuryCrippled01">
+			<requirement name="!EntityTagCompare" tags="player"/>
+			<requirement name="ProgressionLevel" progression_name="perkRangersCripplingShot" operation="Equals" value="1"/>
+			<requirement name="HitLocation" body_parts="LeftUpperLeg,RightUpperLeg,LeftLowerLeg,RightLowerLeg"/>
+		</triggered_effect>
+		<!-- perkRangersKnockdown, Successful sneak attacks with arrows have a 20% greater chance of knocking down the target -->
+		<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffInjuryKnockdown01">
+			<requirement name="ProgressionLevel" progression_name="perkRangersKnockdown" operation="Equals" value="1"/>
+			<requirement name="CVarCompare" cvar="_crouching" operation="Equals" value="1"/>
+			<requirement name="CVarCompare" cvar="_notAlerted" operation="Equals" value="1" target="other"/>
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="20"/>
+		</triggered_effect>
+	</effect_group>
+</item>
+</insertAfter>
+<insertAfter xpath="/items/item[@name='ArrowFlaming']">
+<item name="ArrowExploding">
+	<property name="CustomIcon" value="ammoArrowExploding"/>
+	<property name="CustomIconTint" value="b0ffb0"/>
+	<property name="Extends" value="ArrowIron"/>
+	<property name="DisplayType" value="ammoArrowExploding"/>
+	<property name="Meshfile" value="#Other/Items?Weapons/Ranged/Bows/WoodenBow/explodingArrowPrefab.prefab"/>
+	<property name="IsSticky" value="false"/>
+	<property name="Stacknumber" value="75"/>
+	<property name="FuelValue" value="27"/>
+	<property name="EconomicValue" value="65"/>
+	<property name="EconomicBundleSize" value="1"/>
+	<property name="UnlockedBy" value="perkRangersExplodingBolts"/>
+	<property class="Action1">
+		<!--<property name="Explosion.ParticleIndex" value="0"/>  no expl. -->
+		<property name="Gravity" value="-5"/>
+		<property name="Explosion.ParticleIndex" value="1"/>
+		<property name="Explosion.RadiusEntities" value="4"/>
+		</property>
+	<effect_group name="ArrowExploding" tiered="false"> <!-- ammoArrowExploding -->
+		<passive_effect name="EntityDamage" operation="base_set" value="90"/><display_value name="dExDamageEntity" value="180"/>
+		<!-- do we have damage modifiers for explosions? -->
+		<passive_effect name="ProjectileVelocity" operation="base_set" value="40"/>
+		<passive_effect name="ProjectileStickChance" operation="perc_set" value="0"/>
+		<display_value name="dExRadius" value="4"/>
+	</effect_group>
+	<effect_group tiered="false">
+		<!-- perkRangersCripplingShot, Shots to the leg with arrows slow your opponent -->
+		<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffInjuryCrippled01">
+			<requirement name="!EntityTagCompare" tags="player"/>
+			<requirement name="ProgressionLevel" progression_name="perkRangersCripplingShot" operation="Equals" value="1"/>
+			<requirement name="HitLocation" body_parts="LeftUpperLeg,RightUpperLeg,LeftLowerLeg,RightLowerLeg"/>
+		</triggered_effect>
+		<!-- perkRangersKnockdown, Successful sneak attacks with arrows have a 20% greater chance of knocking down the target -->
+		<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffInjuryKnockdown01">
+			<requirement name="ProgressionLevel" progression_name="perkRangersKnockdown" operation="Equals" value="1"/>
+			<requirement name="CVarCompare" cvar="_crouching" operation="Equals" value="1"/>
+			<requirement name="CVarCompare" cvar="_notAlerted" operation="Equals" value="1" target="other"/>
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="20"/>
+		</triggered_effect>
+	</effect_group>
+</item>
+<!-- BOW AMMO -->
+</insertAfter>
+<insertAfter xpath="/items/item[@name='ArrowExploding']">
+<!-- CROSSBOW AMMO -->
+<item name="CrossbowBoltStone">
+	<property name="CustomIcon" value="ammoCrossbowBoltStone"/>
+	<property name="CustomIconTint" value="b0ffb0"/>
+	<property name="Tags" value="ammo,ranged,attAgility,perkArchery"/>
+	<property name="DisplayType" value="ammoArrow"/>
+	<property name="Meshfile" value="#Other/Items?Weapons/Ranged/Bows/Crossbow/crossbowBoltStonePrefab.prefab"/>
+	<property name="HoldType" value="45"/>
+	<property name="HandMeshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Mwood"/>
+	<property name="IsSticky" value="true"/>
+	<property name="StickyOffset" value=".325"/>
+	<property name="StickyColliderUp" value="2"/>
+	<property name="StickyColliderRadius" value=".05"/>
+	<property name="StickyColliderLength" value=".75"/>
+	<property name="Stacknumber" value="150"/> <!-- STK ammo low -->
+	<property name="FuelValue" value="8"/>
+	<property name="EconomicValue" value="12"/>
+	<property name="EconomicBundleSize" value="5"/>
+	<property name="Group" value="Ammo/Weapons"/>
+	<property class="Action1">
+		<property name="Class" value="Projectile"/>
+		<property name="Explosion.ParticleIndex" value="0"/>
+		<property name="Gravity" value="-3"/>
+		<property name="FlyTime" value="0"/>
+		<property name="LifeTime" value="14"/>
+		<!-- <property name="DamageBonus.earth" value="0"/>
+		<property name="DamageBonus.metal" value="0"/>
+		<property name="DamageBonus.cloth" value="0"/> -->
+	</property>
+
+	<effect_group name="CrossbowBoltStone" tiered="false"> <!-- ammoCrossbowBoltStone -->
+		<passive_effect name="EntityDamage" operation="base_set" value="32"/>
+		<passive_effect name="ProjectileVelocity" operation="base_set" value="67.5"/>
+	</effect_group>
+	<effect_group tiered="false">
+		<!-- perkRangersCripplingShot, Shots to the leg with arrows slow your opponent -->
+		<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffInjuryCrippled01">
+			<requirement name="!EntityTagCompare" tags="player"/>
+			<requirement name="ProgressionLevel" progression_name="perkRangersCripplingShot" operation="Equals" value="1"/>
+			<requirement name="HitLocation" body_parts="LeftUpperLeg,RightUpperLeg,LeftLowerLeg,RightLowerLeg"/>
+		</triggered_effect>
+		<!-- perkRangersKnockdown, Successful sneak attacks with arrows have a 20% greater chance of knocking down the target -->
+		<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffInjuryKnockdown01">
+			<requirement name="ProgressionLevel" progression_name="perkRangersKnockdown" operation="Equals" value="1"/>
+			<requirement name="CVarCompare" cvar="_crouching" operation="Equals" value="1"/>
+			<requirement name="CVarCompare" cvar="_notAlerted" operation="Equals" value="1" target="other"/>
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="20"/>
+		</triggered_effect>
+	</effect_group>
+	<effect_group tiered="false">
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.1">
+			<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="Equals" value="1"/></passive_effect>
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.2">
+			<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="Equals" value="2"/></passive_effect>
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.3">
+			<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="Equals" value="3"/></passive_effect>
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.35">
+			<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="GTE" value="4"/></passive_effect>
+	</effect_group>
+</item>
+</insertAfter>
+<insertAfter xpath="/items/item[@name='CrossbowBoltStone']">
+<item name="CrossbowBoltIron">
+	<property name="CustomIcon" value="ammoCrossbowBoltIron"/>
+	<property name="CustomIconTint" value="b0ffb0"/>
+	<property name="Tags" value="ammo,ranged,attAgility,perkArchery"/>
+	<property name="DisplayType" value="ammoArrow"/>
+	<property name="Meshfile" value="#Other/Items?Weapons/Ranged/Bows/Crossbow/crossbowBoltPrefab.prefab"/>
+	<property name="HoldType" value="45"/>
+	<property name="HandMeshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="IsSticky" value="true"/>
+	<property name="StickyOffset" value=".325"/>
+	<property name="StickyColliderUp" value="2"/>
+	<property name="StickyColliderRadius" value=".05"/>
+	<property name="StickyColliderLength" value=".75"/>
+	<property name="Stacknumber" value="150"/> <!-- STK ammo low -->
+	<property name="FuelValue" value="25"/>
+	<property name="EconomicValue" value="25"/>
+	<property name="EconomicBundleSize" value="5"/>
+	<property name="Group" value="Ammo/Weapons"/>
+	<property class="Action1">
+		<property name="Class" value="Projectile"/>
+		<property name="Explosion.ParticleIndex" value="0"/> <!-- no expl. -->
+		<property name="Gravity" value="-2.5"/>
+		<property name="FlyTime" value="0"/>
+		<property name="LifeTime" value="14"/>
+	</property>
+	<property class="Attributes">
+		<property name="GetQualityFromWeapon" value="true"/>
+	</property>
+	<effect_group name="CrossbowBoltIron" tiered="false"> <!-- ammoCrossbowBoltIron -->
+		<passive_effect name="EntityDamage" operation="base_set" value="38"/>
+		<passive_effect name="ProjectileVelocity" operation="base_set" value="75"/>
+	</effect_group>
+	<effect_group tiered="false">
+		<!-- perkRangersCripplingShot, Shots to the leg with arrows slow your opponent -->
+		<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffInjuryCrippled01">
+			<requirement name="!EntityTagCompare" tags="player"/>
+			<requirement name="ProgressionLevel" progression_name="perkRangersCripplingShot" operation="Equals" value="1"/>
+			<requirement name="HitLocation" body_parts="LeftUpperLeg,RightUpperLeg,LeftLowerLeg,RightLowerLeg"/>
+		</triggered_effect>
+		<!-- perkRangersKnockdown, Successful sneak attacks with arrows have a 20% greater chance of knocking down the target -->
+		<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffInjuryKnockdown01">
+			<requirement name="ProgressionLevel" progression_name="perkRangersKnockdown" operation="Equals" value="1"/>
+			<requirement name="CVarCompare" cvar="_crouching" operation="Equals" value="1"/>
+			<requirement name="CVarCompare" cvar="_notAlerted" operation="Equals" value="1" target="other"/>
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="20"/>
+		</triggered_effect>
+	</effect_group>
+	<effect_group tiered="false">
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.1">
+			<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="Equals" value="1"/></passive_effect>
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.2">
+			<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="Equals" value="2"/></passive_effect>
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.3">
+			<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="Equals" value="3"/></passive_effect>
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.35">
+			<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="GTE" value="4"/></passive_effect>
+	</effect_group>
+</item>
+</insertAfter>
+<insertAfter xpath="/items/item[@name='CrossbowBoltIron']">
+<item name="CrossbowBoltSteelAP">
+	<property name="CustomIcon" value="ammoCrossbowBoltSteelAP"/>
+	<property name="CustomIconTint" value="b0ffb0"/>
+	<property name="Extends" value="CrossbowBoltIron"/>
+	<property name="Meshfile" value="#Other/Items?Weapons/Ranged/Bows/Crossbow/crossbowBoltSteelPrefab.prefab"/>
+	<property name="EconomicValue" value="57"/>
+	<property name="UnlockedBy" value="perkRangersAPAmmo"/>
+	<property name="EconomicBundleSize" value="5"/>
+	<property name="IsSticky" value="true"/>
+	<property name="StickyOffset" value=".325"/>
+	<property name="StickyColliderUp" value="2"/>
+	<property name="StickyColliderRadius" value=".05"/>
+	<property name="StickyColliderLength" value=".75"/>
+	<effect_group name="CrossbowBoltSteelAP" tiered="false"> <!-- ammoCrossbowBoltSteelAP -->
+		<passive_effect name="EntityDamage" operation="base_set" value="45"/>
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.2"/>
+		<display_value name="dTargetArmor" value="-.2"/>
+		<passive_effect name="ProjectileVelocity" operation="base_set" value="82.5"/>
+	</effect_group>
+	<effect_group tiered="false">
+		<!-- perkRangersCripplingShot, Shots to the leg with arrows slow your opponent -->
+		<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffInjuryCrippled01">
+			<requirement name="!EntityTagCompare" tags="player"/>
+			<requirement name="ProgressionLevel" progression_name="perkRangersCripplingShot" operation="Equals" value="1"/>
+			<requirement name="HitLocation" body_parts="LeftUpperLeg,RightUpperLeg,LeftLowerLeg,RightLowerLeg"/>
+		</triggered_effect>
+		<!-- perkRangersKnockdown, Successful sneak attacks with arrows have a 20% greater chance of knocking down the target -->
+		<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffInjuryKnockdown01">
+			<requirement name="ProgressionLevel" progression_name="perkRangersKnockdown" operation="Equals" value="1"/>
+			<requirement name="CVarCompare" cvar="_crouching" operation="Equals" value="1"/>
+			<requirement name="CVarCompare" cvar="_notAlerted" operation="Equals" value="1" target="other"/>
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="20"/>
+		</triggered_effect>
+	</effect_group>
+	<effect_group tiered="false">
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.1">
+			<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="Equals" value="1"/></passive_effect>
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.2">
+			<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="Equals" value="2"/></passive_effect>
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.3">
+			<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="Equals" value="3"/></passive_effect>
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.35">
+			<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="GTE" value="4"/></passive_effect>
+	</effect_group>
+</item>
+</insertAfter>
+<insertAfter xpath="/items/item[@name='CrossbowBoltSteelAP']">
+<item name="CrossbowBoltFlaming">
+	<property name="CustomIcon" value="ammoCrossbowBoltFlaming"/>
+	<property name="CustomIconTint" value="b0ffb0"/>
+	<property name="Extends" value="CrossbowBoltIron"/>
+	<property name="DisplayType" value="ammoArrowFlaming"/>
+	<property name="Meshfile" value="#Other/Items?Weapons/Ranged/Bows/Crossbow/CrossbowBoltFlamingPrefab.prefab"/>
+	<property name="StickyMeshFile" value="#Other/Items?Weapons/Ranged/Bows/Crossbow/CrossbowBoltFlamingPrefab.prefab"/>
+	<property name="UsableUnderwater" value="false"/>
+	<property name="FuelValue" value="27"/>
+	<property name="EconomicValue" value="44"/>
+	<property name="EconomicBundleSize" value="1"/>
+	<property name="Damage_type" value="Heat"/>
+	<property name="StickyOffset" value=".7"/>
+	<property name="UnlockedBy" value="perkRangersFlamingArrows"/>
+	<property class="Action1">
+		<property name="Gravity" value="-5"/>
+		<property name="DamageBonus.wood" value="2"/>
+	</property>
+
+	<effect_group name="CrossbowBoltFlaming" tiered="false"> <!-- ammoCrossbowBoltFlaming -->
+		<passive_effect name="EntityDamage" operation="base_set" value="38"/>
+		<passive_effect name="ProjectileVelocity" operation="base_set" value="50"/>
+		<passive_effect name="ProjectileStickChance" operation="perc_set" value="0"/>
+
+		<triggered_effect trigger="onProjectileImpact" action="ModifyCVar" target="other" cvar="$buffBurningFlamingArrowDuration" operation="set" value="14">
+			<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="Equals" value="0"/></triggered_effect>
+		<triggered_effect trigger="onProjectileImpact" action="ModifyCVar" target="other" cvar="$buffBurningFlamingArrowDuration" operation="set" value="15">
+			<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="Equals" value="1"/></triggered_effect>
+
+		<triggered_effect trigger="onProjectileImpact" action="AddBuff" target="other" buff="buffBurningFlamingArrow"/>
+
+		<display_value name="dEntityDamageFire" value="120"/>
+		<display_value name="dDuration" value="14"/>
+	</effect_group>
+	<effect_group tiered="false">
+		<!-- perkRangersCripplingShot, Shots to the leg with arrows slow your opponent -->
+		<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffInjuryCrippled01">
+			<requirement name="!EntityTagCompare" tags="player"/>
+			<requirement name="ProgressionLevel" progression_name="perkRangersCripplingShot" operation="Equals" value="1"/>
+			<requirement name="HitLocation" body_parts="LeftUpperLeg,RightUpperLeg,LeftLowerLeg,RightLowerLeg"/>
+		</triggered_effect>
+		<!-- perkRangersKnockdown, Successful sneak attacks with arrows have a 20% greater chance of knocking down the target -->
+		<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffInjuryKnockdown01">
+			<requirement name="ProgressionLevel" progression_name="perkRangersKnockdown" operation="Equals" value="1"/>
+			<requirement name="CVarCompare" cvar="_crouching" operation="Equals" value="1"/>
+			<requirement name="CVarCompare" cvar="_notAlerted" operation="Equals" value="1" target="other"/>
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="20"/>
+		</triggered_effect>
+	</effect_group>
+</item>
+</insertAfter>
+<insertAfter xpath="/items/item[@name='CrossbowBoltFlaming']">
+<item name="CrossbowBoltExploding">
+	<property name="CustomIcon" value="ammoCrossbowBoltExploding"/>
+	<property name="CustomIconTint" value="b0ffb0"/>
+	<property name="Extends" value="CrossbowBoltIron"/>
+	<property name="Tags" value="ammo,ranged,attAgility,perkArchery"/>
+	<property name="DisplayType" value="ammoArrowExploding"/>
+	<property name="Meshfile" value="#Other/Items?Weapons/Ranged/Bows/Crossbow/crossbowBoltExplosivePrefab.prefab"/>
+	<property name="HoldType" value="45"/>
+	<property name="HandMeshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="IsSticky" value="false"/>
+	<property name="Stacknumber" value="75"/>
+	<property name="FuelValue" value="27"/>
+	<property name="EconomicValue" value="80"/>
+	<property name="EconomicBundleSize" value="1"/>
+	<property name="UnlockedBy" value="perkRangersExplodingBolts"/>
+	<property class="Action1">
+		<!--<property name="Explosion.ParticleIndex" value="0"/>  no expl. -->
+		<property name="Gravity" value="-5"/>
+		<property name="Explosion.ParticleIndex" value="1"/>
+		<property name="Explosion.RadiusEntities" value="4"/>
+		</property>
+	<effect_group name="CrossbowBoltExploding" tiered="false"> <!-- ammoCrossbowBoltExploding -->
+		<passive_effect name="EntityDamage" operation="base_set" value="125"/><display_value name="dExDamageEntity" value="250"/>
+			<!-- do we have damage modifiers for explosions? -->
+		<passive_effect name="ProjectileVelocity" operation="base_set" value="45"/>
+		<passive_effect name="ProjectileStickChance" operation="perc_set" value="0"/>
+		<display_value name="dExRadius" value="4"/>
+	</effect_group>
+	<effect_group tiered="false">
+		<!-- perkRangersCripplingShot, Shots to the leg with arrows slow your opponent -->
+		<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffInjuryCrippled01">
+			<requirement name="!EntityTagCompare" tags="player"/>
+			<requirement name="ProgressionLevel" progression_name="perkRangersCripplingShot" operation="Equals" value="1"/>
+			<requirement name="HitLocation" body_parts="LeftUpperLeg,RightUpperLeg,LeftLowerLeg,RightLowerLeg"/>
+		</triggered_effect>
+		<!-- perkRangersKnockdown, Successful sneak attacks with arrows have a 20% greater chance of knocking down the target -->
+		<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffInjuryKnockdown01">
+			<requirement name="ProgressionLevel" progression_name="perkRangersKnockdown" operation="Equals" value="1"/>
+			<requirement name="CVarCompare" cvar="_crouching" operation="Equals" value="1"/>
+			<requirement name="CVarCompare" cvar="_notAlerted" operation="Equals" value="1" target="other"/>
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="20"/>
+		</triggered_effect>
+	</effect_group>
+</item>
+</insertAfter>
+<append xpath="/items">
+<item name="PipeBomb"> <!-- T2 demolitions (perk 1) -->
+	<property name="Tags" value="ammo,weapon,attPerception,perkDemolitionsExpert"/>
+	<property name="ItemTypeIcon" value="explosion"/>
+	<property name="DisplayType" value="ammoGrenade"/>
+	<property name="Class" value="ItemClassTimeBomb"/>
+	<property name="HoldType" value="25"/>
+	<property name="Meshfile" value="#Other/Items?Weapons/Ranged/PipeBomb/PipeBombPrefab.prefab"/>
+	<property name="DropScale" value="2.5"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Stacknumber" value="20"/>
+	<property name="EconomicValue" value="41"/>
+	<property name="Weight" value="0"/>
+	<property name="Explosion.ParticleIndex" value="12"/>
+	<property name="Explosion.RadiusEntities" value="4"/>
+	<property name="Explosion.BlastPower" value="75"/> <!-- (int,100) how far ragdolls and such are flung -->
+	<property name="FuseTime" value="4"/> <!-- End: Needed for  time in sec, max 6 -->
+	<property name="StickPercent" value=".4"/>
+	<property name="UnlockedBy" value="perkDemolitionsExpert,thrownAmmoPipeBombSchematic"/>
+	<property name="Group" value="Ammo/Weapons"/>
+	<property name="ActivationTransformToHide" value="Sparks"/>
+	<property class="Action0">
+		<property name="Class" value="ThrowAway"/>
+		<!-- <property name="Hitmask_override" value="Arrow"/> unfortunately this cannot work without a serious rewrite of the hitmask system -->
+		<property name="Delay" value="1.2"/> <!-- obsolete if rounds per minute exists -->
+		<property name="Throw_strength_default" value="8"/>
+		<property name="Throw_strength_max" value="50"/>
+		<property name="Max_strain_time" value="1.25"/>
+		<property name="Sound_start" value="swoosh"/>
+		<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".98"/>
+	</property>
+	<property class="Action1"> <!-- UseAction -->
+		<property name="Class" value="Activate"/>
+		<property name="Delay" value="1"/> <!-- obsolete if rounds per minute exists -->
+	</property>
+	<property name="ThrowableDecoy" value="true"/>
+	<effect_group tiered="false">
+		<passive_effect name="EntityDamage" operation="base_set" value="253"/><display_value name="dExDamageEntity" value="230"/>
+		<display_value name="dExRadius" value="4"/>
+		<display_value name="dFuseTime" value="4"/>
+	</effect_group>
+</item>
+
+<item name="GrenadeContact"> <!-- T2 demolitions (perk 5) -->
+	<property name="Tags" value="ammo,weapon,attPerception,perkDemolitionsExpert"/>
+	<property name="ItemTypeIcon" value="explosion"/>
+	<property name="DisplayType" value="ammoGrenadeContact"/>
+	<property name="Class" value="ItemClassTimeBomb"/>
+	<property name="HoldType" value="57"/>
+	<property name="Meshfile" value="#Other/Items?Weapons/Ranged/Grenade/GrenadePrefab.prefab"/>
+	<property name="DropScale" value="2.5"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Stacknumber" value="25"/>
+	<property name="EconomicValue" value="41"/>
+	<property name="Weight" value="0"/>
+	<property name="Explosion.ParticleIndex" value="13"/>
+	<property name="Explosion.RadiusEntities" value="5"/>
+	<property name="Explosion.BlastPower" value="75"/> <!-- (int,100) how far ragdolls and such are flung -->
+	<property name="FuseTime" value="6"/>
+	<property name="FusePrimeOnActivate" value="true"/>
+	<property name="ExplodeOnHit" value="true"/>
+	<property name="StickPercent" value=".5"/>
+	<property name="UnlockedBy" value="perkDemolitionsExpert,thrownGrenadeContactSchematic"/>
+	<property name="Group" value="Ammo/Weapons"/>
+	<property name="SoundUnholster" value="grenade_unholster"/>
+	<property class="Action0">
+		<property name="Class" value="ThrowAway"/>
+		<!-- <property name="Hitmask_override" value="Arrow"/> unfortunately this cannot work without a serious rewrite of the hitmask system -->
+		<property name="Delay" value="1.2"/> <!-- obsolete if rounds per minute exists -->
+		<property name="Throw_strength_default" value="8"/>
+		<property name="Throw_strength_max" value="50"/>
+		<property name="Max_strain_time" value="1.25"/>
+		<property name="Sound_start" value="grenade_throw"/>
+		<property name="Gravity" value="-5"/>
+		<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".98"/>
+	</property>
+	<property class="Action1">
+		<property name="Class" value="Activate"/>
+		<property name="Delay" value="1"/>
+		<property name="Sound_start" value="grenade_pullpin"/>
+	</property>
+	<property name="ThrowableDecoy" value="true"/>
+	<effect_group tiered="false">
+		<passive_effect name="EntityDamage" operation="base_set" value="341"/><display_value name="dExDamageEntity" value="310"/>
+		<display_value name="dExRadius" value="5"/>
+	</effect_group>
+</item>
+
+<item name="Grenade"> <!-- T2 demolitions (perk 3) -->
+	<property name="Extends" value="GrenadeContact" param1="ExplodeOnHit"/>
+	<property name="Meshfile" value="#Other/Items?Weapons/Ranged/Grenade/GrenadePrefab.prefab"/>
+	<property name="UnlockedBy" value="perkDemolitionsExpert,thrownGrenadeSchematic"/>
+	<property name="DisplayType" value="ammoGrenade"/>
+	<property name="FuseTime" value="3"/>
+	<property name="StickPercent" value=".3"/>
+	<effect_group tiered="false">
+		<passive_effect name="EntityDamage" operation="base_set" value="341"/><display_value name="dExDamageEntity" value="310"/>
+		<display_value name="dExRadius" value="5"/>
+		<display_value name="dFuseTime" value="3"/>
+	</effect_group>
+</item>
+
+<item name="TimedCharge"> <!-- T2 demolitions (perk 5) -->
+	<property name="Tags" value="ammo,weapon,attPerception,perkDemolitionsExpert"/>
+	<property name="ItemTypeIcon" value="explosion"/>
+	<property name="DisplayType" value="ammoGrenadeTimedCharge"/>
+	<property name="Class" value="ItemClassTimeBomb"/>
+	<property name="HoldType" value="62"/>
+	<property name="Meshfile" value="#Other/Items?Weapons/Ranged/TimedCharge/timedChargePrefab.prefab"/>
+	<property name="DropScale" value="1.8"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Stacknumber" value="10"/>
+	<property name="EconomicValue" value="41"/>
+	<property name="Weight" value="0"/>
+	<property name="Explosion.BlockTags" value="door,safes"/>
+	<property name="Explosion.DamageBonus.tags" value="38"/>
+	<property name="Explosion.ParticleIndex" value="12"/>
+	<property name="Explosion.RadiusEntities" value="1.2"/>
+	<property name="Explosion.BlastPower" value="75"/> <!-- (int,100) how far ragdolls and such are flung -->
+	<property name="FuseStartOnDrop" value="true"/>
+	<property name="FuseTime" value="4"/> <!-- End: Needed for  time in sec, max 6 -->
+	<property name="StickPercent" value="1"/>
+	<property name="UnlockedBy" value="perkDemolitionsExpert,bookGreatHeistTimedCharge"/>
+	<property name="Group" value="Ammo/Weapons"/>
+	<property name="SoundUnholster" value="charge_unholster"/>
+	<property name="SoundStick" value="charge_stick"/>
+	<property name="SoundTick" value="charge_beep,.8"/>
+	<property class="Action0">
+		<property name="Class" value="ThrowAway"/>
+		<property name="Delay" value="1.2"/>
+		<property name="Throw_strength_default" value="15"/>
+		<property name="Max_strain_time" value="0"/>
+		<property name="Sound_start" value="charge_throw"/>
+		<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".98"/>
+	</property>
+	<property name="ThrowableDecoy" value="true"/>
+	<effect_group tiered="false">
+		<passive_effect name="EntityDamage" operation="base_set" value="800"/><display_value name="dExDamageEntity" value="600"/>
+		<display_value name="dExRadius" value="1"/>
+		<display_value name="dFuseTime" value="4"/>
+	</effect_group>
+</item>
+
+<item name="Dynamite"> <!-- T2 demolitions (perk 2) -->
+	<property name="Tags" value="ammo,weapon,attPerception,perkDemolitionsExpert"/>
+	<property name="ItemTypeIcon" value="explosion"/>
+	<property name="DisplayType" value="ammoGrenade"/>
+	<property name="Class" value="ItemClassTimeBomb"/>
+	<property name="HoldType" value="66"/>
+	<property name="Meshfile" value="#Other/Items?Weapons/Ranged/Dynamite/dynamitePrefab.prefab"/>
+	<property name="DropScale" value="2.5"/>
+	<property name="Material" value="MDynamite"/>
+	<property name="Stacknumber" value="10"/>
+	<property name="EconomicValue" value="100"/>
+	<property name="Weight" value="0"/>
+	<property name="ActivationTransformToHide" value="Sparks"/>
+	<property name="Explosion.ParticleIndex" value="13"/>
+	<property name="Explosion.RadiusEntities" value="6"/>
+	<!--<property name="Explosion.DamageBonus.stone" value="0"/><property name="Explosion.DamageBonus.metal" value="0"/><property name="Explosion.DamageBonus.earth" value="0"/><property name="Explosion.DamageBonus.cloth" value="5"/><property name="Explosion.DamageBonus.wood" value="0"/><property name="Explosion.DamageBonus.water" value="0"/>-->
+	<property name="FuseTime" value="4"/> <!-- End: Needed for  time in sec, max 6 -->
+	<property name="StickPercent" value=".2"/>
+	<property name="UnlockedBy" value="perkDemolitionsExpert,thrownDynamiteSchematic"/>
+	<property name="Group" value="Ammo/Weapons"/>
+	<property class="Action0">
+		<property name="Class" value="ThrowAway"/>
+		<property name="Delay" value="1.2"/> <!-- obsolete if rounds per minute exists -->
+		<property name="Throw_strength_default" value="6"/>
+		<property name="Throw_strength_max" value="28"/>
+		<property name="Max_strain_time" value="1.25"/>
+		<property name="Sound_start" value="swoosh"/>
+		<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".98"/>
+	</property>
+	<property class="Action1"> <!-- UseAction -->
+		<property name="Class" value="Activate"/>
+		<property name="Delay" value="1"/> <!-- obsolete if rounds per minute exists -->
+	</property>
+	<property name="ThrowableDecoy" value="true"/>
+	<effect_group tiered="false">
+		<passive_effect name="EntityDamage" operation="base_set" value="550"/><display_value name="dExDamageEntity" value="500"/>
+		<display_value name="dExRadius" value="6"/>
+		<display_value name="dFuseTime" value="4"/>
+	</effect_group>
+</item>
+
+<item name="MolotovCocktail"> <!-- T1 demolitions -->
+	<property name="Tags" value="ammo,weapon,attPerception,perkDemolitionsExpert"/>
+	<property name="ItemTypeIcon" value="explosion"/>
+	<property name="DisplayType" value="ammoGrenadeFire"/>
+	<property name="Class" value="ItemClassTimeBomb"/>
+	<property name="HoldType" value="54"/>
+	<property name="Meshfile" value="#Other/Items?Weapons/Ranged/Molotov/molotovPrefab.prefab"/>
+	<property name="DropScale" value="2.1"/>
+	<property name="Material" value="Morganic"/>
+	<property name="ThrowableDecoy" value="true"/>
+	<property name="Weight" value="0"/>
+	<property name="FuelValue" value="60"/>
+	<property name="Stacknumber" value="20"/>
+	<property name="LightValue" value=".35"/>
+	<property name="LightSource" value="lightSource"/>
+	<property name="ActivateObject" value="lightSource"/>
+	<property name="AlwaysActive" value="true"/>
+	<property name="Explosion.ParticleIndex" value="10"/>
+	<property name="Explosion.RadiusEntities" value="1"/>
+	<property name="Explosion.BlastPower" value="35"/>
+	<property name="FuseTime" value="20000"/> <!-- theoretically redundant but I don't want to experiment on this -->
+	<property name="ExplodeOnHit" value="true"/>
+	<property name="StickPercent" value=".5"/>
+	<property name="EconomicValue" value="41"/>
+	<property name="Group" value="Ammo/Weapons"/>
+	<property class="Action0">
+		<property name="Class" value="ThrowAway"/>
+		<!-- <property name="Hitmask_override" value="Arrow"/> unfortunately this cannot work without a serious rewrite of the hitmask system -->
+		<property name="Delay" value="1.2"/> <!-- obsolete if rounds per minute exists -->
+		<property name="Explosion.ParticleIndex" value="7"/>
+		<property name="Throw_strength_default" value="20"/>
+		<property name="Throw_strength_max" value="50"/>
+		<property name="Max_strain_time" value="1.25"/>
+		<property name="Sound_start" value="swoosh"/>
+		<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".98"/>
+	</property>
+	<!-- <property class="Action1">
+		<property name="Class" value="Activate"/>
+		<property name="Delay" value="1"/>
+	</property> -->
+
+	<effect_group tiered="false">
+		<triggered_effect trigger="onProjectileImpact" action="ModifyCVar" target="positionAOE" range="2.7" cvar="buffBurningMolotovDuration" operation="set" value="16">
+			<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="Equals" value="0"/></triggered_effect>
+		<triggered_effect trigger="onProjectileImpact" action="ModifyCVar" target="positionAOE" range="2.7" cvar="buffBurningMolotovDuration" operation="set" value="17">
+			<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="NotEquals" value="0"/></triggered_effect>
+		<triggered_effect trigger="onProjectileImpact" action="AddBuff" target="positionAOE" range="2.7" buff="buffBurningMolotov"/>
+
+		<display_value name="dExDamageFire" value="250"/>
+		<passive_effect name="EntityDamage" operation="base_set" value="5"/><display_value name="dExDamageEntity" value="5"/>
+		<display_value name="dExRadius" value="3"/>
+		<display_value name="dDuration" value="16"/>
+	</effect_group>
+</item>
+<item name="Flare">
+	<property name="CreativeMode" value="None"/>
+	<property name="CustomIcon" value="thrownAmmoPipeBomb"/>
+	<property name="Class" value="ItemClassTimeBomb"/>
+	<property name="ItemTypeIcon" value="explosion"/>
+	<property name="DisplayType" value="ammoGrenade"/>
+	<property name="HoldType" value="25"/>
+	<property name="Meshfile" value="#Other/Items?Weapons/Ranged/PipeBomb/PipeBombPrefab.prefab"/>
+	<property name="DropScale" value="2.5"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Stacknumber" value="40"/> <!-- STK explosives -->
+	<property name="EconomicValue" value="5"/>
+	<property name="EconomicBundleSize" value="1"/>
+	<property name="SellableToTrader" value="false"/>
+	<property name="Weight" value="0"/>
+	<property name="Explosion.ParticleIndex" value="1"/>
+	<property name="Explosion.RadiusBlocks" value="1"/>
+	<property name="Explosion.RadiusEntities" value="1"/>
+	<property name="FuseTime" value="4"/> <!-- End: Needed for  time in sec, max 6 -->
+	<property name="StickPercent" value=".3"/>
+	<property name="ThrowableDecoy" value="true"/>
+	<property name="Group" value="Ammo/Weapons"/>
+	<property class="Action0">
+		<property name="Class" value="ThrowAway"/>
+		<property name="Delay" value="1.2"/> <!-- obsolete if rounds per minute exists -->
+		<property name="Throw_strength_default" value="8"/>
+		<property name="Throw_strength_max" value="30"/>
+		<property name="Max_strain_time" value="1.25"/>
+		<property name="Sound_start" value="swoosh"/>
+		<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".98"/>
+	</property>
+	<property class="Action1"> <!-- UseAction -->
+		<property name="Class" value="Activate"/>
+		<property name="Delay" value="1"/> <!-- obsolete if rounds per minute exists -->
+	</property>
+	<effect_group tiered="false">
+		<passive_effect name="EntityDamage" operation="base_set" value="1"/><display_value name="dExDamageEntity" value="1"/>
+		<display_value name="dExRadius" value="1"/>
+	</effect_group>
+</item>
+
+<item name="DartIron">
+	<property name="Extends" value="ammoArrowIron" param1="HandMeshfile"/>
+	<property name="Meshfile" value="Entities/Electrical/steel_dartPrefab"/>
+	<property name="HoldType" value="45"/>
+	<property name="HandMeshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Stacknumber" value="500"/> <!-- STK ammo -->
+	<property name="EconomicValue" value="34"/>
+	<property name="EconomicBundleSize" value="10"/>
+	<property name="DisplayType" value="ammoDart"/>
+	<property class="Action1">
+		<property name="Velocity" value="55"/>
+		<property name="Gravity" value="-4"/>
+		<property name="LifeTime" value="2"/>
+	</property>
+	<property class="Attributes">
+		<property name="EntityDamage" value="22,45"/>
+		<property name="ApplyBuff" value=".3,.3" param1="buffArrowCriticalBleedout"/>
+	</property>
+	<effect_group name="ammoDartIron" tiered="false">
+		<passive_effect name="EntityDamage" operation="base_set" value="45"/>
+		<passive_effect name="ProjectileVelocity" operation="base_set" value="55"/>
+	</effect_group>
+</item>
+</append>
+
+<!-- 9MM AMMO -->
+<append xpath="/items/item[@name='ammoBundle9mmBulletHP']/property[@class='Action0']/property[@name='Create_item']/@value">,9mmBulletBall</append>
+<append xpath="/items/item[@name='ammoBundle9mmBulletHP']/property[@class='Action0']/property[@name='Create_item']/@value">,9mmBulletHP</append>
+<append xpath="/items/item[@name='ammoBundle9mmBulletHP']/property[@class='Action0']/property[@name='Create_item']/@value">,9mmBulletAP</append>
+<!-- 9MM AMMO -->
+<!-- 44 MAGNUM AMMO -->
+<append xpath="/items/item[@name='ammoBundle44MagnumBulletBall']/property[@class='Action0']/property[@name='Create_item']/@value">,44MagnumBulletBall</append>
+<append xpath="/items/item[@name='ammoBundle44MagnumBulletHP']/property[@class='Action0']/property[@name='Create_item']/@value">,44MagnumBulletHP</append>
+<append xpath="/items/item[@name='ammoBundle44MagnumBulletAP']/property[@class='Action0']/property[@name='Create_item']/@value">,44MagnumBulletAP</append>
+<!-- 44 MAGNUM AMMO -->
+<!-- 7.62MM AMMO -->
+<append xpath="/items/item[@name='ammoBundle762mmBulletBall']/property[@class='Action0']/property[@name='Create_item']/@value">,762mmBulletBall</append>
+<append xpath="/items/item[@name='ammoBundle762mmBulletHP']/property[@class='Action0']/property[@name='Create_item']/@value">,762mmBulletHP</append>
+<append xpath="/items/item[@name='ammoBundle762mmBulletAP']/property[@class='Action0']/property[@name='Create_item']/@value">,762mmBulletAP</append>
+<!-- 7.62MM AMMO -->
+<!-- SHOTGUN AMMO -->
+<append xpath="/items/item[@name='ammoBundleShotgunShell']/property[@class='Action0']/property[@name='Create_item']/@value">,ShotgunShell</append>
+<append xpath="/items/item[@name='ammoBundleShotgunSlug']/property[@class='Action0']/property[@name='Create_item']/@value">,ShotgunSlug</append>
+<append xpath="/items/item[@name='ammoBundleShotgunBreachingSlug']/property[@class='Action0']/property[@name='Create_item']/@value">,ShotgunBreachingSlug</append>
+<!-- SHOTGUN AMMO -->
+<!-- BLUNDERBUSS AMMO -->
+<append xpath="/items/item[@name='ammoBundleBlunderbuss']/property[@class='Action0']/property[@name='Create_item']/@value">,BlunderbussBalls</append>
+<!-- BLUNDERBUSS AMMO -->
+<!-- BOW AMMO -->
+<append xpath="/items/item[@name='ammoBundleArrowStone']/property[@class='Action0']/property[@name='Create_item']/@value">,ArrowStone</append>
+<append xpath="/items/item[@name='ammoBundleArrowIron']/property[@class='Action0']/property[@name='Create_item']/@value">,ArrowIron</append>
+<append xpath="/items/item[@name='ammoBundleArrowSteelAP']/property[@class='Action0']/property[@name='Create_item']/@value">,ArrowSteelAP</append>
+<append xpath="/items/item[@name='ammoBundleArrowFlaming']/property[@class='Action0']/property[@name='Create_item']/@value">,ArrowFlaming</append>
+<append xpath="/items/item[@name='ammoBundleArrowExploding']/property[@class='Action0']/property[@name='Create_item']/@value">,ArrowExploding</append>
+<!-- BOW AMMO -->
+<!-- CROSSBOW AMMO -->
+<append xpath="/items/item[@name='ammoBundleCrossbowBoltStone']/property[@class='Action0']/property[@name='Create_item']/@value">,CrossbowBoltStone</append>
+<append xpath="/items/item[@name='ammoBundleCrossbowBoltIron']/property[@class='Action0']/property[@name='Create_item']/@value">,CrossbowBoltIron</append>
+<append xpath="/items/item[@name='ammoBundleCrossbowBoltSteelAP']/property[@class='Action0']/property[@name='Create_item']/@value">,CrossbowBoltSteelAP</append>
+<append xpath="/items/item[@name='ammoBundleCrossbowBoltFlaming']/property[@class='Action0']/property[@name='Create_item']/@value">,CrossbowBoltFlaming</append>
+<append xpath="/items/item[@name='ammoBundleCrossbowBoltExploding']/property[@class='Action0']/property[@name='Create_item']/@value">,CrossbowBoltExploding</append>
+<!-- CROSSBOW AMMO -->
+
+<append xpath="/items/item[@name='gunPistol']/property[@class='Action0']/property[@name='Magazine_items']/@value">,9mmBulletBall,9mmBulletHP,9mmBulletAP</append>
+<append xpath="/items/item[@name='gun44Magnum']/property[@class='Action0']/property[@name='Magazine_items']/@value">,44MagnumBulletBall,44MagnumBulletHP,44MagnumBulletAP</append>
+<append xpath="/items/item[@name='gunSMG5']/property[@class='Action0']/property[@name='Magazine_items']/@value">,9mmBulletBall,9mmBulletHP,9mmBulletAP</append>
+<append xpath="/items/item[@name='gunBlunderbuss']/property[@class='Action0']/property[@name='Magazine_items']/@value">,BlunderbussBalls</append>
+<append xpath="/items/item[@name='gunDoubleBarrelShotgun']/property[@class='Action0']/property[@name='Magazine_items']/@value">,ShotgunShell,ShotgunSlug,ShotgunBreachingSlug</append>
+<append xpath="/items/item[@name='gunPumpShotgun']/property[@class='Action0']/property[@name='Magazine_items']/@value">,ShotgunShell,ShotgunSlug,ShotgunBreachingSlug</append>
+<append xpath="/items/item[@name='gunHuntingRifle']/property[@class='Action0']/property[@name='Magazine_items']/@value">,762mmBulletBall,762mmBulletHP,762mmBulletAP</append>
+<append xpath="/items/item[@name='gunMR10']/property[@class='Action0']/property[@name='Magazine_items']/@value">,762mmBulletBall,762mmBulletHP,762mmBulletAP</append>
+<append xpath="/items/item[@name='gunAK47']/property[@class='Action0']/property[@name='Magazine_items']/@value">,762mmBulletBall,762mmBulletHP,762mmBulletAP</append>
+<append xpath="/items/item[@name='gunTacticalAR']/property[@class='Action0']/property[@name='Magazine_items']/@value">,762mmBulletBall,762mmBulletHP,762mmBulletAP</append>
+<append xpath="/items/item[@name='gunM60']/property[@class='Action0']/property[@name='Magazine_items']/@value">,762mmBulletBall,762mmBulletHP,762mmBulletAP</append>
+<append xpath="/items/item[@name='gunRocketLauncher']/property[@class='Action0']/property[@name='Magazine_items']/@value">,RocketHE,RocketFrag</append>
+<append xpath="/items/item[@name='gunBowPrimitive']/property[@class='Action0']/property[@name='Magazine_items']/@value">,ArrowStone,ArrowIron,ArrowSteelAP,ArrowFlaming,ArrowExploding</append>
+<append xpath="/items/item[@name='gunBowWooden']/property[@class='Action0']/property[@name='Magazine_items']/@value">,ArrowStone,ArrowIron,ArrowSteelAP,ArrowFlaming,ArrowExploding</append>
+<append xpath="/items/item[@name='gunBowCompound']/property[@class='Action0']/property[@name='Magazine_items']/@value">,ArrowStone,ArrowIron,ArrowSteelAP,ArrowFlaming,ArrowExploding</append>
+<append xpath="/items/item[@name='gunCrossbowIron']/property[@class='Action0']/property[@name='Magazine_items']/@value">,CrossbowBoltStone,CrossbowBoltIron,CrossbowBoltSteelAP,CrossbowBoltFlaming,CrossbowBoltExploding</append>
+<append xpath="/items/item[@name='gunCrossbowCompound']/property[@class='Action0']/property[@name='Magazine_items']/@value">,CrossbowBoltStone,CrossbowBoltIron,CrossbowBoltSteelAP,CrossbowBoltFlaming,CrossbowBoltExploding</append>
+<append xpath="/items/item[@name='gunJunkTurret']/property[@class='Action0']/property[@name='Magazine_items']/@value">,JunkTurretAmmo</append>
+<!-- *************************************************************************************************************************************************************************************************** -->
+</stallionsden>

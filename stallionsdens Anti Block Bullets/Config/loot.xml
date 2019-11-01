@@ -1,0 +1,841 @@
+<stallionsden>
+<append xpath="/lootcontainers/lootgroup[@name='groupAmmoRegular']" >
+		<item name="9mmBulletBall" count="0,3" prob="0.1"/>
+		<item name="9mmBulletHP" count="0,3" prob="0.1"/>		
+		<item name="9mmBulletAP" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletBall" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletHP" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletAP" count="0,3" prob="0.1"/>
+		<item name="762mmBulletBall" count="0,3" prob="0.1"/>
+		<item name="762mmBulletHP" count="0,3" prob="0.1"/>
+		<item name="762mmBulletAP" count="0,3" prob="0.1"/>
+		<item name="BlunderbussBalls" count="0,3" prob="0.1"/>
+		<item name="ShotgunShell" count="0,3" prob="0.1"/>
+		<item name="ShotgunSlug" count="0,3" prob="0.1"/>
+		<item name="ShotgunBreachingSlug" count="0,3" prob="0.1"/>
+		<item name="JunkTurretAmmo" count="0,3" prob="0.1"/>
+		<item name="ArrowFlaming" count="0,3" prob="0.1"/>
+		<item name="ArrowExploding" count="0,3" prob="0.1"/>
+		<item name="ArrowIron" count="0,3" prob="0.1"/>
+		<item name="ArrowSteelAP" count="0,3" prob="0.1"/>
+		<item name="ArrowStone" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltFlaming" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltExploding" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltIron" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltSteelAP" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltStone" count="0,3" prob="0.1"/>
+		<item name="DartIron" count="0,3" prob="0.1"/>
+		<item name="RocketFrag" count="0,3" prob="0.1"/>
+		<item name="RocketHE" count="0,3" prob="0.1"/>		
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='backpacks/survival']" >
+		<item name="9mmBulletBall" count="0,3" prob="0.1"/>
+		<item name="9mmBulletHP" count="0,3" prob="0.1"/>		
+		<item name="9mmBulletAP" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletBall" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletHP" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletAP" count="0,3" prob="0.1"/>
+		<item name="762mmBulletBall" count="0,3" prob="0.1"/>
+		<item name="762mmBulletHP" count="0,3" prob="0.1"/>
+		<item name="762mmBulletAP" count="0,3" prob="0.1"/>
+		<item name="BlunderbussBalls" count="0,3" prob="0.1"/>
+		<item name="ShotgunShell" count="0,3" prob="0.1"/>
+		<item name="ShotgunSlug" count="0,3" prob="0.1"/>
+		<item name="ShotgunBreachingSlug" count="0,3" prob="0.1"/>
+		<item name="JunkTurretAmmo" count="0,3" prob="0.1"/>
+		<item name="ArrowFlaming" count="0,3" prob="0.1"/>
+		<item name="ArrowExploding" count="0,3" prob="0.1"/>
+		<item name="ArrowIron" count="0,3" prob="0.1"/>
+		<item name="ArrowSteelAP" count="0,3" prob="0.1"/>
+		<item name="ArrowStone" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltFlaming" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltExploding" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltIron" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltSteelAP" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltStone" count="0,3" prob="0.1"/>
+		<item name="DartIron" count="0,3" prob="0.1"/>
+		<item name="RocketFrag" count="0,3" prob="0.1"/>
+		<item name="RocketHE" count="0,3" prob="0.1"/>		
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupAmmoAdvancedGunslinger']" >
+		<item name="9mmBulletBall" count="0,3" prob="0.1"/>
+		<item name="9mmBulletHP" count="0,3" prob="0.1"/>		
+		<item name="9mmBulletAP" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletBall" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletHP" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletAP" count="0,3" prob="0.1"/>
+		<item name="762mmBulletBall" count="0,3" prob="0.1"/>
+		<item name="762mmBulletHP" count="0,3" prob="0.1"/>
+		<item name="762mmBulletAP" count="0,3" prob="0.1"/>
+		<item name="BlunderbussBalls" count="0,3" prob="0.1"/>
+		<item name="ShotgunShell" count="0,3" prob="0.1"/>
+		<item name="ShotgunSlug" count="0,3" prob="0.1"/>
+		<item name="ShotgunBreachingSlug" count="0,3" prob="0.1"/>
+		<item name="JunkTurretAmmo" count="0,3" prob="0.1"/>
+		<item name="ArrowFlaming" count="0,3" prob="0.1"/>
+		<item name="ArrowExploding" count="0,3" prob="0.1"/>
+		<item name="ArrowIron" count="0,3" prob="0.1"/>
+		<item name="ArrowSteelAP" count="0,3" prob="0.1"/>
+		<item name="ArrowStone" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltFlaming" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltExploding" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltIron" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltSteelAP" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltStone" count="0,3" prob="0.1"/>
+		<item name="DartIron" count="0,3" prob="0.1"/>
+		<item name="RocketFrag" count="0,3" prob="0.1"/>
+		<item name="RocketHE" count="0,3" prob="0.1"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupAmmoAdvanced']" >
+		<item name="9mmBulletBall" count="0,3" prob="0.1"/>
+		<item name="9mmBulletHP" count="0,3" prob="0.1"/>		
+		<item name="9mmBulletAP" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletBall" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletHP" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletAP" count="0,3" prob="0.1"/>
+		<item name="762mmBulletBall" count="0,3" prob="0.1"/>
+		<item name="762mmBulletHP" count="0,3" prob="0.1"/>
+		<item name="762mmBulletAP" count="0,3" prob="0.1"/>
+		<item name="BlunderbussBalls" count="0,3" prob="0.1"/>
+		<item name="ShotgunShell" count="0,3" prob="0.1"/>
+		<item name="ShotgunSlug" count="0,3" prob="0.1"/>
+		<item name="ShotgunBreachingSlug" count="0,3" prob="0.1"/>
+		<item name="JunkTurretAmmo" count="0,3" prob="0.1"/>
+		<item name="ArrowFlaming" count="0,3" prob="0.1"/>
+		<item name="ArrowExploding" count="0,3" prob="0.1"/>
+		<item name="ArrowIron" count="0,3" prob="0.1"/>
+		<item name="ArrowSteelAP" count="0,3" prob="0.1"/>
+		<item name="ArrowStone" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltFlaming" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltExploding" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltIron" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltSteelAP" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltStone" count="0,3" prob="0.1"/>
+		<item name="DartIron" count="0,3" prob="0.1"/>
+		<item name="RocketFrag" count="0,3" prob="0.1"/>
+		<item name="RocketHE" count="0,3" prob="0.1"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='treasureAmmo']" >
+		<item name="9mmBulletBall" count="0,3" prob="0.1"/>
+		<item name="9mmBulletHP" count="0,3" prob="0.1"/>		
+		<item name="9mmBulletAP" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletBall" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletHP" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletAP" count="0,3" prob="0.1"/>
+		<item name="762mmBulletBall" count="0,3" prob="0.1"/>
+		<item name="762mmBulletHP" count="0,3" prob="0.1"/>
+		<item name="762mmBulletAP" count="0,3" prob="0.1"/>
+		<item name="BlunderbussBalls" count="0,3" prob="0.1"/>
+		<item name="ShotgunShell" count="0,3" prob="0.1"/>
+		<item name="ShotgunSlug" count="0,3" prob="0.1"/>
+		<item name="ShotgunBreachingSlug" count="0,3" prob="0.1"/>
+		<item name="JunkTurretAmmo" count="0,3" prob="0.1"/>
+		<item name="ArrowFlaming" count="0,3" prob="0.1"/>
+		<item name="ArrowExploding" count="0,3" prob="0.1"/>
+		<item name="ArrowIron" count="0,3" prob="0.1"/>
+		<item name="ArrowSteelAP" count="0,3" prob="0.1"/>
+		<item name="ArrowStone" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltFlaming" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltExploding" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltIron" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltSteelAP" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltStone" count="0,3" prob="0.1"/>
+		<item name="DartIron" count="0,3" prob="0.1"/>
+		<item name="RocketFrag" count="0,3" prob="0.1"/>
+		<item name="RocketHE" count="0,3" prob="0.1"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupQuestAmmo']" >
+		<item name="9mmBulletBall" count="0,3" prob="0.1"/>
+		<item name="9mmBulletHP" count="0,3" prob="0.1"/>		
+		<item name="9mmBulletAP" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletBall" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletHP" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletAP" count="0,3" prob="0.1"/>
+		<item name="762mmBulletBall" count="0,3" prob="0.1"/>
+		<item name="762mmBulletHP" count="0,3" prob="0.1"/>
+		<item name="762mmBulletAP" count="0,3" prob="0.1"/>
+		<item name="BlunderbussBalls" count="0,3" prob="0.1"/>
+		<item name="ShotgunShell" count="0,3" prob="0.1"/>
+		<item name="ShotgunSlug" count="0,3" prob="0.1"/>
+		<item name="ShotgunBreachingSlug" count="0,3" prob="0.1"/>
+		<item name="JunkTurretAmmo" count="0,3" prob="0.1"/>
+		<item name="ArrowFlaming" count="0,3" prob="0.1"/>
+		<item name="ArrowExploding" count="0,3" prob="0.1"/>
+		<item name="ArrowIron" count="0,3" prob="0.1"/>
+		<item name="ArrowSteelAP" count="0,3" prob="0.1"/>
+		<item name="ArrowStone" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltFlaming" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltExploding" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltIron" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltSteelAP" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltStone" count="0,3" prob="0.1"/>
+		<item name="DartIron" count="0,3" prob="0.1"/>
+		<item name="RocketFrag" count="0,3" prob="0.1"/>
+		<item name="RocketHE" count="0,3" prob="0.1"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='6']" >
+		<item name="9mmBulletBall" count="0,3" prob="0.1"/>
+		<item name="9mmBulletHP" count="0,3" prob="0.1"/>		
+		<item name="9mmBulletAP" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletBall" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletHP" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletAP" count="0,3" prob="0.1"/>
+		<item name="762mmBulletBall" count="0,3" prob="0.1"/>
+		<item name="762mmBulletHP" count="0,3" prob="0.1"/>
+		<item name="762mmBulletAP" count="0,3" prob="0.1"/>
+		<item name="BlunderbussBalls" count="0,3" prob="0.1"/>
+		<item name="ShotgunShell" count="0,3" prob="0.1"/>
+		<item name="ShotgunSlug" count="0,3" prob="0.1"/>
+		<item name="ShotgunBreachingSlug" count="0,3" prob="0.1"/>
+		<item name="JunkTurretAmmo" count="0,3" prob="0.1"/>
+		<item name="ArrowFlaming" count="0,3" prob="0.1"/>
+		<item name="ArrowExploding" count="0,3" prob="0.1"/>
+		<item name="ArrowIron" count="0,3" prob="0.1"/>
+		<item name="ArrowSteelAP" count="0,3" prob="0.1"/>
+		<item name="ArrowStone" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltFlaming" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltExploding" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltIron" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltSteelAP" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltStone" count="0,3" prob="0.1"/>
+		<item name="DartIron" count="0,3" prob="0.1"/>
+		<item name="RocketFrag" count="0,3" prob="0.1"/>
+		<item name="RocketHE" count="0,3" prob="0.1"/>
+		</append> 
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='8']" >
+		<item name="9mmBulletBall" count="0,3" prob="0.1"/>
+		<item name="9mmBulletHP" count="0,3" prob="0.1"/>		
+		<item name="9mmBulletAP" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletBall" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletHP" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletAP" count="0,3" prob="0.1"/>
+		<item name="762mmBulletBall" count="0,3" prob="0.1"/>
+		<item name="762mmBulletHP" count="0,3" prob="0.1"/>
+		<item name="762mmBulletAP" count="0,3" prob="0.1"/>
+		<item name="BlunderbussBalls" count="0,3" prob="0.1"/>
+		<item name="ShotgunShell" count="0,3" prob="0.1"/>
+		<item name="ShotgunSlug" count="0,3" prob="0.1"/>
+		<item name="ShotgunBreachingSlug" count="0,3" prob="0.1"/>
+		<item name="JunkTurretAmmo" count="0,3" prob="0.1"/>
+		<item name="ArrowFlaming" count="0,3" prob="0.1"/>
+		<item name="ArrowExploding" count="0,3" prob="0.1"/>
+		<item name="ArrowIron" count="0,3" prob="0.1"/>
+		<item name="ArrowSteelAP" count="0,3" prob="0.1"/>
+		<item name="ArrowStone" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltFlaming" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltExploding" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltIron" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltSteelAP" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltStone" count="0,3" prob="0.1"/>
+		<item name="DartIron" count="0,3" prob="0.1"/>
+		<item name="RocketFrag" count="0,3" prob="0.1"/>
+		<item name="RocketHE" count="0,3" prob="0.1"/>
+	</append> 
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='9']" >
+		<item name="9mmBulletBall" count="0,3" prob="0.1"/>
+		<item name="9mmBulletHP" count="0,3" prob="0.1"/>		
+		<item name="9mmBulletAP" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletBall" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletHP" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletAP" count="0,3" prob="0.1"/>
+		<item name="762mmBulletBall" count="0,3" prob="0.1"/>
+		<item name="762mmBulletHP" count="0,3" prob="0.1"/>
+		<item name="762mmBulletAP" count="0,3" prob="0.1"/>
+		<item name="BlunderbussBalls" count="0,3" prob="0.1"/>
+		<item name="ShotgunShell" count="0,3" prob="0.1"/>
+		<item name="ShotgunSlug" count="0,3" prob="0.1"/>
+		<item name="ShotgunBreachingSlug" count="0,3" prob="0.1"/>
+		<item name="JunkTurretAmmo" count="0,3" prob="0.1"/>
+		<item name="ArrowFlaming" count="0,3" prob="0.1"/>
+		<item name="ArrowExploding" count="0,3" prob="0.1"/>
+		<item name="ArrowIron" count="0,3" prob="0.1"/>
+		<item name="ArrowSteelAP" count="0,3" prob="0.1"/>
+		<item name="ArrowStone" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltFlaming" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltExploding" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltIron" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltSteelAP" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltStone" count="0,3" prob="0.1"/>
+		<item name="DartIron" count="0,3" prob="0.1"/>
+		<item name="RocketFrag" count="0,3" prob="0.1"/>
+		<item name="RocketHE" count="0,3" prob="0.1"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='11']" >
+		<item name="9mmBulletBall" count="0,3" prob="0.1"/>
+		<item name="9mmBulletHP" count="0,3" prob="0.1"/>		
+		<item name="9mmBulletAP" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletBall" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletHP" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletAP" count="0,3" prob="0.1"/>
+		<item name="762mmBulletBall" count="0,3" prob="0.1"/>
+		<item name="762mmBulletHP" count="0,3" prob="0.1"/>
+		<item name="762mmBulletAP" count="0,3" prob="0.1"/>
+		<item name="BlunderbussBalls" count="0,3" prob="0.1"/>
+		<item name="ShotgunShell" count="0,3" prob="0.1"/>
+		<item name="ShotgunSlug" count="0,3" prob="0.1"/>
+		<item name="ShotgunBreachingSlug" count="0,3" prob="0.1"/>
+		<item name="JunkTurretAmmo" count="0,3" prob="0.1"/>
+		<item name="ArrowFlaming" count="0,3" prob="0.1"/>
+		<item name="ArrowExploding" count="0,3" prob="0.1"/>
+		<item name="ArrowIron" count="0,3" prob="0.1"/>
+		<item name="ArrowSteelAP" count="0,3" prob="0.1"/>
+		<item name="ArrowStone" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltFlaming" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltExploding" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltIron" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltSteelAP" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltStone" count="0,3" prob="0.1"/>
+		<item name="DartIron" count="0,3" prob="0.1"/>
+		<item name="RocketFrag" count="0,3" prob="0.1"/>
+		<item name="RocketHE" count="0,3" prob="0.1"/>
+		</append> 
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='12']" >
+		<item name="9mmBulletBall" count="0,3" prob="0.1"/>
+		<item name="9mmBulletHP" count="0,3" prob="0.1"/>		
+		<item name="9mmBulletAP" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletBall" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletHP" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletAP" count="0,3" prob="0.1"/>
+		<item name="762mmBulletBall" count="0,3" prob="0.1"/>
+		<item name="762mmBulletHP" count="0,3" prob="0.1"/>
+		<item name="762mmBulletAP" count="0,3" prob="0.1"/>
+		<item name="BlunderbussBalls" count="0,3" prob="0.1"/>
+		<item name="ShotgunShell" count="0,3" prob="0.1"/>
+		<item name="ShotgunSlug" count="0,3" prob="0.1"/>
+		<item name="ShotgunBreachingSlug" count="0,3" prob="0.1"/>
+		<item name="JunkTurretAmmo" count="0,3" prob="0.1"/>
+		<item name="ArrowFlaming" count="0,3" prob="0.1"/>
+		<item name="ArrowExploding" count="0,3" prob="0.1"/>
+		<item name="ArrowIron" count="0,3" prob="0.1"/>
+		<item name="ArrowSteelAP" count="0,3" prob="0.1"/>
+		<item name="ArrowStone" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltFlaming" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltExploding" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltIron" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltSteelAP" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltStone" count="0,3" prob="0.1"/>
+		<item name="DartIron" count="0,3" prob="0.1"/>
+		<item name="RocketFrag" count="0,3" prob="0.1"/>
+		<item name="RocketHE" count="0,3" prob="0.1"/>
+	</append> 
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='15']" >
+		<item name="9mmBulletBall" count="0,3" prob="0.1"/>
+		<item name="9mmBulletHP" count="0,3" prob="0.1"/>		
+		<item name="9mmBulletAP" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletBall" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletHP" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletAP" count="0,3" prob="0.1"/>
+		<item name="762mmBulletBall" count="0,3" prob="0.1"/>
+		<item name="762mmBulletHP" count="0,3" prob="0.1"/>
+		<item name="762mmBulletAP" count="0,3" prob="0.1"/>
+		<item name="BlunderbussBalls" count="0,3" prob="0.1"/>
+		<item name="ShotgunShell" count="0,3" prob="0.1"/>
+		<item name="ShotgunSlug" count="0,3" prob="0.1"/>
+		<item name="ShotgunBreachingSlug" count="0,3" prob="0.1"/>
+		<item name="JunkTurretAmmo" count="0,3" prob="0.1"/>
+		<item name="ArrowFlaming" count="0,3" prob="0.1"/>
+		<item name="ArrowExploding" count="0,3" prob="0.1"/>
+		<item name="ArrowIron" count="0,3" prob="0.1"/>
+		<item name="ArrowSteelAP" count="0,3" prob="0.1"/>
+		<item name="ArrowStone" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltFlaming" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltExploding" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltIron" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltSteelAP" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltStone" count="0,3" prob="0.1"/>
+		<item name="DartIron" count="0,3" prob="0.1"/>
+		<item name="RocketFrag" count="0,3" prob="0.1"/>
+		<item name="RocketHE" count="0,3" prob="0.1"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='19']" >
+		<item name="9mmBulletBall" count="0,3" prob="0.1"/>
+		<item name="9mmBulletHP" count="0,3" prob="0.1"/>		
+		<item name="9mmBulletAP" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletBall" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletHP" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletAP" count="0,3" prob="0.1"/>
+		<item name="762mmBulletBall" count="0,3" prob="0.1"/>
+		<item name="762mmBulletHP" count="0,3" prob="0.1"/>
+		<item name="762mmBulletAP" count="0,3" prob="0.1"/>
+		<item name="BlunderbussBalls" count="0,3" prob="0.1"/>
+		<item name="ShotgunShell" count="0,3" prob="0.1"/>
+		<item name="ShotgunSlug" count="0,3" prob="0.1"/>
+		<item name="ShotgunBreachingSlug" count="0,3" prob="0.1"/>
+		<item name="JunkTurretAmmo" count="0,3" prob="0.1"/>
+		<item name="ArrowFlaming" count="0,3" prob="0.1"/>
+		<item name="ArrowExploding" count="0,3" prob="0.1"/>
+		<item name="ArrowIron" count="0,3" prob="0.1"/>
+		<item name="ArrowSteelAP" count="0,3" prob="0.1"/>
+		<item name="ArrowStone" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltFlaming" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltExploding" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltIron" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltSteelAP" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltStone" count="0,3" prob="0.1"/>
+		<item name="DartIron" count="0,3" prob="0.1"/>
+		<item name="RocketFrag" count="0,3" prob="0.1"/>
+		<item name="RocketHE" count="0,3" prob="0.1"/>
+		</append> 
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='22']" >
+		<item name="9mmBulletBall" count="0,3" prob="0.1"/>
+		<item name="9mmBulletHP" count="0,3" prob="0.1"/>		
+		<item name="9mmBulletAP" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletBall" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletHP" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletAP" count="0,3" prob="0.1"/>
+		<item name="762mmBulletBall" count="0,3" prob="0.1"/>
+		<item name="762mmBulletHP" count="0,3" prob="0.1"/>
+		<item name="762mmBulletAP" count="0,3" prob="0.1"/>
+		<item name="BlunderbussBalls" count="0,3" prob="0.1"/>
+		<item name="ShotgunShell" count="0,3" prob="0.1"/>
+		<item name="ShotgunSlug" count="0,3" prob="0.1"/>
+		<item name="ShotgunBreachingSlug" count="0,3" prob="0.1"/>
+		<item name="JunkTurretAmmo" count="0,3" prob="0.1"/>
+		<item name="ArrowFlaming" count="0,3" prob="0.1"/>
+		<item name="ArrowExploding" count="0,3" prob="0.1"/>
+		<item name="ArrowIron" count="0,3" prob="0.1"/>
+		<item name="ArrowSteelAP" count="0,3" prob="0.1"/>
+		<item name="ArrowStone" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltFlaming" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltExploding" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltIron" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltSteelAP" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltStone" count="0,3" prob="0.1"/>
+		<item name="DartIron" count="0,3" prob="0.1"/>
+		<item name="RocketFrag" count="0,3" prob="0.1"/>
+		<item name="RocketHE" count="0,3" prob="0.1"/>
+	</append> 
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='24']" >
+		<item name="9mmBulletBall" count="0,3" prob="0.1"/>
+		<item name="9mmBulletHP" count="0,3" prob="0.1"/>		
+		<item name="9mmBulletAP" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletBall" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletHP" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletAP" count="0,3" prob="0.1"/>
+		<item name="762mmBulletBall" count="0,3" prob="0.1"/>
+		<item name="762mmBulletHP" count="0,3" prob="0.1"/>
+		<item name="762mmBulletAP" count="0,3" prob="0.1"/>
+		<item name="BlunderbussBalls" count="0,3" prob="0.1"/>
+		<item name="ShotgunShell" count="0,3" prob="0.1"/>
+		<item name="ShotgunSlug" count="0,3" prob="0.1"/>
+		<item name="ShotgunBreachingSlug" count="0,3" prob="0.1"/>
+		<item name="JunkTurretAmmo" count="0,3" prob="0.1"/>
+		<item name="ArrowFlaming" count="0,3" prob="0.1"/>
+		<item name="ArrowExploding" count="0,3" prob="0.1"/>
+		<item name="ArrowIron" count="0,3" prob="0.1"/>
+		<item name="ArrowSteelAP" count="0,3" prob="0.1"/>
+		<item name="ArrowStone" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltFlaming" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltExploding" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltIron" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltSteelAP" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltStone" count="0,3" prob="0.1"/>
+		<item name="DartIron" count="0,3" prob="0.1"/>
+		<item name="RocketFrag" count="0,3" prob="0.1"/>
+		<item name="RocketHE" count="0,3" prob="0.1"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='34']" >
+		<item name="9mmBulletBall" count="0,3" prob="0.1"/>
+		<item name="9mmBulletHP" count="0,3" prob="0.1"/>		
+		<item name="9mmBulletAP" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletBall" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletHP" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletAP" count="0,3" prob="0.1"/>
+		<item name="762mmBulletBall" count="0,3" prob="0.1"/>
+		<item name="762mmBulletHP" count="0,3" prob="0.1"/>
+		<item name="762mmBulletAP" count="0,3" prob="0.1"/>
+		<item name="BlunderbussBalls" count="0,3" prob="0.1"/>
+		<item name="ShotgunShell" count="0,3" prob="0.1"/>
+		<item name="ShotgunSlug" count="0,3" prob="0.1"/>
+		<item name="ShotgunBreachingSlug" count="0,3" prob="0.1"/>
+		<item name="JunkTurretAmmo" count="0,3" prob="0.1"/>
+		<item name="ArrowFlaming" count="0,3" prob="0.1"/>
+		<item name="ArrowExploding" count="0,3" prob="0.1"/>
+		<item name="ArrowIron" count="0,3" prob="0.1"/>
+		<item name="ArrowSteelAP" count="0,3" prob="0.1"/>
+		<item name="ArrowStone" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltFlaming" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltExploding" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltIron" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltSteelAP" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltStone" count="0,3" prob="0.1"/>
+		<item name="DartIron" count="0,3" prob="0.1"/>
+		<item name="RocketFrag" count="0,3" prob="0.1"/>
+		<item name="RocketHE" count="0,3" prob="0.1"/>
+		</append> 
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='40']" >
+		<item name="9mmBulletBall" count="0,3" prob="0.1"/>
+		<item name="9mmBulletHP" count="0,3" prob="0.1"/>		
+		<item name="9mmBulletAP" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletBall" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletHP" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletAP" count="0,3" prob="0.1"/>
+		<item name="762mmBulletBall" count="0,3" prob="0.1"/>
+		<item name="762mmBulletHP" count="0,3" prob="0.1"/>
+		<item name="762mmBulletAP" count="0,3" prob="0.1"/>
+		<item name="BlunderbussBalls" count="0,3" prob="0.1"/>
+		<item name="ShotgunShell" count="0,3" prob="0.1"/>
+		<item name="ShotgunSlug" count="0,3" prob="0.1"/>
+		<item name="ShotgunBreachingSlug" count="0,3" prob="0.1"/>
+		<item name="JunkTurretAmmo" count="0,3" prob="0.1"/>
+		<item name="ArrowFlaming" count="0,3" prob="0.1"/>
+		<item name="ArrowExploding" count="0,3" prob="0.1"/>
+		<item name="ArrowIron" count="0,3" prob="0.1"/>
+		<item name="ArrowSteelAP" count="0,3" prob="0.1"/>
+		<item name="ArrowStone" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltFlaming" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltExploding" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltIron" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltSteelAP" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltStone" count="0,3" prob="0.1"/>
+		<item name="DartIron" count="0,3" prob="0.1"/>
+		<item name="RocketFrag" count="0,3" prob="0.1"/>
+		<item name="RocketHE" count="0,3" prob="0.1"/>
+	</append> 
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='42']" >
+		<item name="9mmBulletBall" count="0,3" prob="0.1"/>
+		<item name="9mmBulletHP" count="0,3" prob="0.1"/>		
+		<item name="9mmBulletAP" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletBall" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletHP" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletAP" count="0,3" prob="0.1"/>
+		<item name="762mmBulletBall" count="0,3" prob="0.1"/>
+		<item name="762mmBulletHP" count="0,3" prob="0.1"/>
+		<item name="762mmBulletAP" count="0,3" prob="0.1"/>
+		<item name="BlunderbussBalls" count="0,3" prob="0.1"/>
+		<item name="ShotgunShell" count="0,3" prob="0.1"/>
+		<item name="ShotgunSlug" count="0,3" prob="0.1"/>
+		<item name="ShotgunBreachingSlug" count="0,3" prob="0.1"/>
+		<item name="JunkTurretAmmo" count="0,3" prob="0.1"/>
+		<item name="ArrowFlaming" count="0,3" prob="0.1"/>
+		<item name="ArrowExploding" count="0,3" prob="0.1"/>
+		<item name="ArrowIron" count="0,3" prob="0.1"/>
+		<item name="ArrowSteelAP" count="0,3" prob="0.1"/>
+		<item name="ArrowStone" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltFlaming" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltExploding" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltIron" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltSteelAP" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltStone" count="0,3" prob="0.1"/>
+		<item name="DartIron" count="0,3" prob="0.1"/>
+		<item name="RocketFrag" count="0,3" prob="0.1"/>
+		<item name="RocketHE" count="0,3" prob="0.1"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='43']" >
+		<item name="9mmBulletBall" count="0,3" prob="0.1"/>
+		<item name="9mmBulletHP" count="0,3" prob="0.1"/>		
+		<item name="9mmBulletAP" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletBall" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletHP" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletAP" count="0,3" prob="0.1"/>
+		<item name="762mmBulletBall" count="0,3" prob="0.1"/>
+		<item name="762mmBulletHP" count="0,3" prob="0.1"/>
+		<item name="762mmBulletAP" count="0,3" prob="0.1"/>
+		<item name="BlunderbussBalls" count="0,3" prob="0.1"/>
+		<item name="ShotgunShell" count="0,3" prob="0.1"/>
+		<item name="ShotgunSlug" count="0,3" prob="0.1"/>
+		<item name="ShotgunBreachingSlug" count="0,3" prob="0.1"/>
+		<item name="JunkTurretAmmo" count="0,3" prob="0.1"/>
+		<item name="ArrowFlaming" count="0,3" prob="0.1"/>
+		<item name="ArrowExploding" count="0,3" prob="0.1"/>
+		<item name="ArrowIron" count="0,3" prob="0.1"/>
+		<item name="ArrowSteelAP" count="0,3" prob="0.1"/>
+		<item name="ArrowStone" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltFlaming" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltExploding" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltIron" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltSteelAP" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltStone" count="0,3" prob="0.1"/>
+		<item name="DartIron" count="0,3" prob="0.1"/>
+		<item name="RocketFrag" count="0,3" prob="0.1"/>
+		<item name="RocketHE" count="0,3" prob="0.1"/>
+		</append> 
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='50']" >
+		<item name="9mmBulletBall" count="0,3" prob="0.1"/>
+		<item name="9mmBulletHP" count="0,3" prob="0.1"/>		
+		<item name="9mmBulletAP" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletBall" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletHP" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletAP" count="0,3" prob="0.1"/>
+		<item name="762mmBulletBall" count="0,3" prob="0.1"/>
+		<item name="762mmBulletHP" count="0,3" prob="0.1"/>
+		<item name="762mmBulletAP" count="0,3" prob="0.1"/>
+		<item name="BlunderbussBalls" count="0,3" prob="0.1"/>
+		<item name="ShotgunShell" count="0,3" prob="0.1"/>
+		<item name="ShotgunSlug" count="0,3" prob="0.1"/>
+		<item name="ShotgunBreachingSlug" count="0,3" prob="0.1"/>
+		<item name="JunkTurretAmmo" count="0,3" prob="0.1"/>
+		<item name="ArrowFlaming" count="0,3" prob="0.1"/>
+		<item name="ArrowExploding" count="0,3" prob="0.1"/>
+		<item name="ArrowIron" count="0,3" prob="0.1"/>
+		<item name="ArrowSteelAP" count="0,3" prob="0.1"/>
+		<item name="ArrowStone" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltFlaming" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltExploding" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltIron" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltSteelAP" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltStone" count="0,3" prob="0.1"/>
+		<item name="DartIron" count="0,3" prob="0.1"/>
+		<item name="RocketFrag" count="0,3" prob="0.1"/>
+		<item name="RocketHE" count="0,3" prob="0.1"/>
+	</append> 
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='54']" >
+		<item name="9mmBulletBall" count="0,3" prob="0.1"/>
+		<item name="9mmBulletHP" count="0,3" prob="0.1"/>		
+		<item name="9mmBulletAP" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletBall" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletHP" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletAP" count="0,3" prob="0.1"/>
+		<item name="762mmBulletBall" count="0,3" prob="0.1"/>
+		<item name="762mmBulletHP" count="0,3" prob="0.1"/>
+		<item name="762mmBulletAP" count="0,3" prob="0.1"/>
+		<item name="BlunderbussBalls" count="0,3" prob="0.1"/>
+		<item name="ShotgunShell" count="0,3" prob="0.1"/>
+		<item name="ShotgunSlug" count="0,3" prob="0.1"/>
+		<item name="ShotgunBreachingSlug" count="0,3" prob="0.1"/>
+		<item name="JunkTurretAmmo" count="0,3" prob="0.1"/>
+		<item name="ArrowFlaming" count="0,3" prob="0.1"/>
+		<item name="ArrowExploding" count="0,3" prob="0.1"/>
+		<item name="ArrowIron" count="0,3" prob="0.1"/>
+		<item name="ArrowSteelAP" count="0,3" prob="0.1"/>
+		<item name="ArrowStone" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltFlaming" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltExploding" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltIron" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltSteelAP" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltStone" count="0,3" prob="0.1"/>
+		<item name="DartIron" count="0,3" prob="0.1"/>
+		<item name="RocketFrag" count="0,3" prob="0.1"/>
+		<item name="RocketHE" count="0,3" prob="0.1"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='70']" >
+		<item name="9mmBulletBall" count="0,3" prob="0.1"/>
+		<item name="9mmBulletHP" count="0,3" prob="0.1"/>		
+		<item name="9mmBulletAP" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletBall" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletHP" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletAP" count="0,3" prob="0.1"/>
+		<item name="762mmBulletBall" count="0,3" prob="0.1"/>
+		<item name="762mmBulletHP" count="0,3" prob="0.1"/>
+		<item name="762mmBulletAP" count="0,3" prob="0.1"/>
+		<item name="BlunderbussBalls" count="0,3" prob="0.1"/>
+		<item name="ShotgunShell" count="0,3" prob="0.1"/>
+		<item name="ShotgunSlug" count="0,3" prob="0.1"/>
+		<item name="ShotgunBreachingSlug" count="0,3" prob="0.1"/>
+		<item name="JunkTurretAmmo" count="0,3" prob="0.1"/>
+		<item name="ArrowFlaming" count="0,3" prob="0.1"/>
+		<item name="ArrowExploding" count="0,3" prob="0.1"/>
+		<item name="ArrowIron" count="0,3" prob="0.1"/>
+		<item name="ArrowSteelAP" count="0,3" prob="0.1"/>
+		<item name="ArrowStone" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltFlaming" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltExploding" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltIron" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltSteelAP" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltStone" count="0,3" prob="0.1"/>
+		<item name="DartIron" count="0,3" prob="0.1"/>
+		<item name="RocketFrag" count="0,3" prob="0.1"/>
+		<item name="RocketHE" count="0,3" prob="0.1"/>
+		</append> 
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='71']" >
+		<item name="9mmBulletBall" count="0,3" prob="0.1"/>
+		<item name="9mmBulletHP" count="0,3" prob="0.1"/>		
+		<item name="9mmBulletAP" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletBall" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletHP" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletAP" count="0,3" prob="0.1"/>
+		<item name="762mmBulletBall" count="0,3" prob="0.1"/>
+		<item name="762mmBulletHP" count="0,3" prob="0.1"/>
+		<item name="762mmBulletAP" count="0,3" prob="0.1"/>
+		<item name="BlunderbussBalls" count="0,3" prob="0.1"/>
+		<item name="ShotgunShell" count="0,3" prob="0.1"/>
+		<item name="ShotgunSlug" count="0,3" prob="0.1"/>
+		<item name="ShotgunBreachingSlug" count="0,3" prob="0.1"/>
+		<item name="JunkTurretAmmo" count="0,3" prob="0.1"/>
+		<item name="ArrowFlaming" count="0,3" prob="0.1"/>
+		<item name="ArrowExploding" count="0,3" prob="0.1"/>
+		<item name="ArrowIron" count="0,3" prob="0.1"/>
+		<item name="ArrowSteelAP" count="0,3" prob="0.1"/>
+		<item name="ArrowStone" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltFlaming" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltExploding" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltIron" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltSteelAP" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltStone" count="0,3" prob="0.1"/>
+		<item name="DartIron" count="0,3" prob="0.1"/>
+		<item name="RocketFrag" count="0,3" prob="0.1"/>
+		<item name="RocketHE" count="0,3" prob="0.1"/>
+	</append> 
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='73']" >
+		<item name="9mmBulletBall" count="0,3" prob="0.1"/>
+		<item name="9mmBulletHP" count="0,3" prob="0.1"/>		
+		<item name="9mmBulletAP" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletBall" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletHP" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletAP" count="0,3" prob="0.1"/>
+		<item name="762mmBulletBall" count="0,3" prob="0.1"/>
+		<item name="762mmBulletHP" count="0,3" prob="0.1"/>
+		<item name="762mmBulletAP" count="0,3" prob="0.1"/>
+		<item name="BlunderbussBalls" count="0,3" prob="0.1"/>
+		<item name="ShotgunShell" count="0,3" prob="0.1"/>
+		<item name="ShotgunSlug" count="0,3" prob="0.1"/>
+		<item name="ShotgunBreachingSlug" count="0,3" prob="0.1"/>
+		<item name="JunkTurretAmmo" count="0,3" prob="0.1"/>
+		<item name="ArrowFlaming" count="0,3" prob="0.1"/>
+		<item name="ArrowExploding" count="0,3" prob="0.1"/>
+		<item name="ArrowIron" count="0,3" prob="0.1"/>
+		<item name="ArrowSteelAP" count="0,3" prob="0.1"/>
+		<item name="ArrowStone" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltFlaming" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltExploding" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltIron" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltSteelAP" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltStone" count="0,3" prob="0.1"/>
+		<item name="DartIron" count="0,3" prob="0.1"/>
+		<item name="RocketFrag" count="0,3" prob="0.1"/>
+		<item name="RocketHE" count="0,3" prob="0.1"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootcontainer[@id='100']" >
+		<item name="9mmBulletBall" count="0,3" prob="0.1"/>
+		<item name="9mmBulletHP" count="0,3" prob="0.1"/>		
+		<item name="9mmBulletAP" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletBall" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletHP" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletAP" count="0,3" prob="0.1"/>
+		<item name="762mmBulletBall" count="0,3" prob="0.1"/>
+		<item name="762mmBulletHP" count="0,3" prob="0.1"/>
+		<item name="762mmBulletAP" count="0,3" prob="0.1"/>
+		<item name="BlunderbussBalls" count="0,3" prob="0.1"/>
+		<item name="ShotgunShell" count="0,3" prob="0.1"/>
+		<item name="ShotgunSlug" count="0,3" prob="0.1"/>
+		<item name="ShotgunBreachingSlug" count="0,3" prob="0.1"/>
+		<item name="JunkTurretAmmo" count="0,3" prob="0.1"/>
+		<item name="ArrowFlaming" count="0,3" prob="0.1"/>
+		<item name="ArrowExploding" count="0,3" prob="0.1"/>
+		<item name="ArrowIron" count="0,3" prob="0.1"/>
+		<item name="ArrowSteelAP" count="0,3" prob="0.1"/>
+		<item name="ArrowStone" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltFlaming" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltExploding" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltIron" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltSteelAP" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltStone" count="0,3" prob="0.1"/>
+		<item name="DartIron" count="0,3" prob="0.1"/>
+		<item name="RocketFrag" count="0,3" prob="0.1"/>
+		<item name="RocketHE" count="0,3" prob="0.1"/>
+		</append> 
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='101']" >
+		<item name="9mmBulletBall" count="0,3" prob="0.1"/>
+		<item name="9mmBulletHP" count="0,3" prob="0.1"/>		
+		<item name="9mmBulletAP" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletBall" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletHP" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletAP" count="0,3" prob="0.1"/>
+		<item name="762mmBulletBall" count="0,3" prob="0.1"/>
+		<item name="762mmBulletHP" count="0,3" prob="0.1"/>
+		<item name="762mmBulletAP" count="0,3" prob="0.1"/>
+		<item name="BlunderbussBalls" count="0,3" prob="0.1"/>
+		<item name="ShotgunShell" count="0,3" prob="0.1"/>
+		<item name="ShotgunSlug" count="0,3" prob="0.1"/>
+		<item name="ShotgunBreachingSlug" count="0,3" prob="0.1"/>
+		<item name="JunkTurretAmmo" count="0,3" prob="0.1"/>
+		<item name="ArrowFlaming" count="0,3" prob="0.1"/>
+		<item name="ArrowExploding" count="0,3" prob="0.1"/>
+		<item name="ArrowIron" count="0,3" prob="0.1"/>
+		<item name="ArrowSteelAP" count="0,3" prob="0.1"/>
+		<item name="ArrowStone" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltFlaming" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltExploding" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltIron" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltSteelAP" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltStone" count="0,3" prob="0.1"/>
+		<item name="DartIron" count="0,3" prob="0.1"/>
+		<item name="RocketFrag" count="0,3" prob="0.1"/>
+		<item name="RocketHE" count="0,3" prob="0.1"/>
+	</append> 
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='104']" >
+		<item name="9mmBulletBall" count="0,3" prob="0.1"/>
+		<item name="9mmBulletHP" count="0,3" prob="0.1"/>		
+		<item name="9mmBulletAP" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletBall" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletHP" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletAP" count="0,3" prob="0.1"/>
+		<item name="762mmBulletBall" count="0,3" prob="0.1"/>
+		<item name="762mmBulletHP" count="0,3" prob="0.1"/>
+		<item name="762mmBulletAP" count="0,3" prob="0.1"/>
+		<item name="BlunderbussBalls" count="0,3" prob="0.1"/>
+		<item name="ShotgunShell" count="0,3" prob="0.1"/>
+		<item name="ShotgunSlug" count="0,3" prob="0.1"/>
+		<item name="ShotgunBreachingSlug" count="0,3" prob="0.1"/>
+		<item name="JunkTurretAmmo" count="0,3" prob="0.1"/>
+		<item name="ArrowFlaming" count="0,3" prob="0.1"/>
+		<item name="ArrowExploding" count="0,3" prob="0.1"/>
+		<item name="ArrowIron" count="0,3" prob="0.1"/>
+		<item name="ArrowSteelAP" count="0,3" prob="0.1"/>
+		<item name="ArrowStone" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltFlaming" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltExploding" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltIron" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltSteelAP" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltStone" count="0,3" prob="0.1"/>
+		<item name="DartIron" count="0,3" prob="0.1"/>
+		<item name="RocketFrag" count="0,3" prob="0.1"/>
+		<item name="RocketHE" count="0,3" prob="0.1"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='110']" >
+		<item name="9mmBulletBall" count="0,3" prob="0.1"/>
+		<item name="9mmBulletHP" count="0,3" prob="0.1"/>		
+		<item name="9mmBulletAP" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletBall" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletHP" count="0,3" prob="0.1"/>
+		<item name="44MagnumBulletAP" count="0,3" prob="0.1"/>
+		<item name="762mmBulletBall" count="0,3" prob="0.1"/>
+		<item name="762mmBulletHP" count="0,3" prob="0.1"/>
+		<item name="762mmBulletAP" count="0,3" prob="0.1"/>
+		<item name="BlunderbussBalls" count="0,3" prob="0.1"/>
+		<item name="ShotgunShell" count="0,3" prob="0.1"/>
+		<item name="ShotgunSlug" count="0,3" prob="0.1"/>
+		<item name="ShotgunBreachingSlug" count="0,3" prob="0.1"/>
+		<item name="JunkTurretAmmo" count="0,3" prob="0.1"/>
+		<item name="ArrowFlaming" count="0,3" prob="0.1"/>
+		<item name="ArrowExploding" count="0,3" prob="0.1"/>
+		<item name="ArrowIron" count="0,3" prob="0.1"/>
+		<item name="ArrowSteelAP" count="0,3" prob="0.1"/>
+		<item name="ArrowStone" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltFlaming" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltExploding" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltIron" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltSteelAP" count="0,3" prob="0.1"/>
+		<item name="CrossbowBoltStone" count="0,3" prob="0.1"/>
+		<item name="DartIron" count="0,3" prob="0.1"/>
+		<item name="RocketFrag" count="0,3" prob="0.1"/>
+		<item name="RocketHE" count="0,3" prob="0.1"/>
+		</append> 	
+</stallionsden>
