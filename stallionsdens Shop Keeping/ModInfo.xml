@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <ModInfo>
+        <Name value="stallionsdens Shop Keeping" />
+        <Description value="Allows the player to build a shop and sell items and stuff." />
+        <Author value="Stallionsden" />
+        <Version value="A18" />
+    </ModInfo>
+</xml>

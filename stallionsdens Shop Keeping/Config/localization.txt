@@ -1,0 +1,196 @@
+Key,Source,Context,Changes,English
+shopCabinet,blocks,Container,KgNone,Shop Cabinet
+ShopTopCupboardCabinet,blocks,Container,KgNone,Shop Top Cupboard Cabinet
+shopCornerRedCupboard,blocks,Container,KgNone,shop Corner Red Cupboard
+shopCabinetRedTop,blocks,Container,KgNone,shop Cabinet Red Top
+shopOldBottomCabinet,blocks,Container,KgNone,shop Old Bottom Cabinet
+shopCabinetOldTop,blocks,Container,KgNone,shop Cabinet Old Top
+shopCornerOld,blocks,Container,KgNone,shop Corner Old
+shopCabinetFullOldTop,blocks,Container,KgNone,shop Cabinet Full Old Top
+shopCoffeeBrewer,blocks,Container,KgNone,shop Coffee Brewer
+shopCoffeeBrewerCommercial,blocks,Container,KgNone,shop Coffee Brewer Commercial
+shopSodaFountain,blocks,Container,KgNone,shop Soda Fountain
+shopRetroFridge,blocks,Container,KgNone,shop Retro Fridge
+shopStainlessFridge,blocks,Container,KgNone,shop Stainless Fridge
+shopCooler,blocks,Container,KgNone,shop Cooler
+shopBeerCooler,blocks,Container,KgNone,shop Beer Cooler
+shopIceMachine,blocks,Container,KgNone,shop Ice Machine
+shopTrashCompactor,blocks,Container,KgNone,shop Trash Compactor
+shopGasPump,blocks,Container,KgNone,shop Gas Pump
+shopNightstand,blocks,Container,KgNone,shop Night stand
+shopMedicineCabinetFaucet,blocks,Container,KgNone,shop Medicine Cabinet Faucet
+shopMedicineCabinet,blocks,Container,KgNone,shop Medicine Cabinet
+shopPillCase,blocks,Container,KgNone,shop Pill Case
+shopWallSafe,blocks,Container,KgNone,shop Wall Safe
+shopDeskSafe,blocks,Container,KgNone,shop Desk Safe
+shopGunSafe,blocks,Container,KgNone,shop Gun Safe
+shopHardenedChest,blocks,Container,KgNone,shop Hardened Chest
+shopSmallWeaponsBag,blocks,Container,KgNone,shop Small Weapons Bag
+shopLargeWeaponsBag,blocks,Container,KgNone,shop Large Weapons Bag
+shopPistolMagnumAmmo,blocks,Container,KgNone,shop Pistol Magnum Ammo
+shopBlunderbussShotgunAmmo,blocks,Container,KgNone,shop Blunderbuss Shotgun Ammo
+shopCrossbowsBowsAmmo,blocks,Container,KgNone,shop Crossbows Bows Ammo
+shopAutomaticSniperAmmo,blocks,Container,KgNone,shop Automatic Sniper Ammo
+shopRocketAmmo,blocks,Container,KgNone,shop Rocket Ammo
+shopMedicalPileSmall,blocks,Container,KgNone,shop Medical Pile Small
+shopMedicalPileMedium,blocks,Container,KgNone,shop Medical Pile Medium
+shopMedicalPileLarge,blocks,Container,KgNone,shop Medical Pile Large
+shopMedicLootPileA,blocks,Container,KgNone,shop Medic Loot Pile A
+shopMedicLootPileB,blocks,Container,KgNone,shop Medic Loot Pile B
+shopCannedFoodPile,blocks,Container,KgNone,shop Canned Food Pile
+shopMeatsFoodPile,blocks,Container,KgNone,shopMeatsFoodPile
+shopFruitVegieFoodPile,blocks,Container,KgNone,shop Fruit Vegie Food Pile
+shopWoodDesk,blocks,Container,KgNone,shop Wood Desk
+shopMetalDesk,blocks,Container,KgNone,shop Metal Desk
+shopWaterCooler,blocks,Container,KgNone,shop Water Cooler
+shopWineBarrel,blocks,Container,KgNone,shop Wine Barrel
+shopWineBarrelSet,blocks,Container,KgNone,shop Wine Barrel Set
+shopWineBarrelPlain,blocks,Container,KgNone,shop Wine Barrel Plain
+shopFileCabinetShort,blocks,Container,KgNone,shop File Cabinet Short
+shopFileCabinetTall,blocks,Container,KgNone,shop File Cabinet Tall
+shopLockersShort,blocks,Container,KgNone,shop Lockers Short
+shopLockersTall,blocks,Container,KgNone,shop Lockers Tall
+shopLockersTallDouble,blocks,Container,KgNone,shop Lockers Tall Double
+shopLockersTallMix,blocks,Container,KgNone,shop Lockers Tall Mix
+shopLockersTallMixLink,blocks,Container,KgNone,shop Lockers Tall Mix Link
+shopBookcase,blocks,Container,KgNone,shop Book case
+shopCashRegister,blocks,Container,KgNone,shopCashRegister
+shopToolBox,blocks,Container,KgNone,shop Tool Box
+shopRollingToolBox,blocks,Container,KgNone,shop Rolling Tool Box
+shopStoreShelving01,blocks,Container,KgNone,shop Store Shelving 01
+shopStoreShelvingDouble,blocks,Container,KgNone,shop Store Shelving Double
+shopStoreShelvingTop,blocks,Container,KgNone,shop Store Shelving Top
+shopShelvingTopDouble,blocks,Container,KgNone,shop Shelving Top Double
+shopPartsBox,blocks,Container,KgNone,shop Parts Box
+shopStove,blocks,Container,KgNone,shop Stove
+shopOven,blocks,Container,KgNone,shop Oven
+shopCabinet,blocks,Container,New,Player Vending Machine,,,,,
+ShopTopCupboardCabinet,blocks,Container,New,Player Vending Machine,,,,,
+shopCornerRedCupboard,blocks,Container,New,Player Vending Machine,,,,,
+shopCabinetRedTop,blocks,Container,New,Player Vending Machine,,,,,
+shopOldBottomCabinet,blocks,Container,New,Player Vending Machine,,,,,
+shopCabinetOldTop,blocks,Container,New,Player Vending Machine,,,,,
+shopCornerOld,blocks,Container,New,Player Vending Machine,,,,,
+shopCabinetFullOldTop,blocks,Container,New,Player Vending Machine,,,,,
+shopCoffeeBrewer,blocks,Container,New,Player Vending Machine,,,,,
+shopCoffeeBrewerCommercial,blocks,Container,New,Player Vending Machine,,,,,
+shopSodaFountain,blocks,Container,New,Player Vending Machine,,,,,
+shopRetroFridge,blocks,Container,New,Player Vending Machine,,,,,
+shopStainlessFridge,blocks,Container,New,Player Vending Machine,,,,,
+shopCooler,blocks,Container,New,Player Vending Machine,,,,,
+shopBeerCooler,blocks,Container,New,Player Vending Machine,,,,,
+shopIceMachine,blocks,Container,New,Player Vending Machine,,,,,
+shopTrashCompactor,blocks,Container,New,Player Vending Machine,,,,,
+shopGasPump,blocks,Container,New,Player Vending Machine,,,,,
+shopNightstand,blocks,Container,New,Player Vending Machine,,,,,
+shopMedicineCabinetFaucet,blocks,Container,New,Player Vending Machine,,,,,
+shopMedicineCabinet,blocks,Container,New,Player Vending Machine,,,,,
+shopPillCase,blocks,Container,New,Player Vending Machine,,,,,
+shopWallSafe,blocks,Container,New,Player Vending Machine,,,,,
+shopDeskSafe,blocks,Container,New,Player Vending Machine,,,,,
+shopGunSafe,blocks,Container,New,Player Vending Machine,,,,,
+shopHardenedChest,blocks,Container,New,Player Vending Machine,,,,,
+shopSmallWeaponsBag,blocks,Container,New,Player Vending Machine,,,,,
+shopLargeWeaponsBag,blocks,Container,New,Player Vending Machine,,,,,
+shopPistolMagnumAmmo,blocks,Container,New,Player Vending Machine,,,,,
+shopBlunderbussShotgunAmmo,blocks,Container,New,Player Vending Machine,,,,,
+shopCrossbowsBowsAmmo,blocks,Container,New,Player Vending Machine,,,,,
+shopAutomaticSniperAmmo,blocks,Container,New,Player Vending Machine,,,,,
+shopRocketAmmo,blocks,Container,New,Player Vending Machine,,,,,
+shopMedicalPileSmall,blocks,Container,New,Player Vending Machine,,,,,
+shopMedicalPileMedium,blocks,Container,New,Player Vending Machine,,,,,
+shopMedicalPileLarge,blocks,Container,New,Player Vending Machine,,,,,
+shopMedicLootPileA,blocks,Container,New,Player Vending Machine,,,,,
+shopMedicLootPileB,blocks,Container,New,Player Vending Machine,,,,,
+shopCannedFoodPile,blocks,Container,New,Player Vending Machine,,,,,
+shopMeatsFoodPile,blocks,Container,New,Player Vending Machine,,,,,
+shopFruitVegieFoodPile,blocks,Container,New,Player Vending Machine,,,,,
+shopWoodDesk,blocks,Container,New,Player Vending Machine,,,,,
+shopMetalDesk,blocks,Container,New,Player Vending Machine,,,,,
+shopWaterCooler,blocks,Container,New,Player Vending Machine,,,,,
+shopWineBarrel,blocks,Container,New,Player Vending Machine,,,,,
+shopWineBarrelSet,blocks,Container,New,Player Vending Machine,,,,,
+shopWineBarrelPlain,blocks,Container,New,Player Vending Machine,,,,,
+shopFileCabinetShort,blocks,Container,New,Player Vending Machine,,,,,
+shopFileCabinetTall,blocks,Container,New,Player Vending Machine,,,,,
+shopLockersShort,blocks,Container,New,Player Vending Machine,,,,,
+shopLockersTall,blocks,Container,New,Player Vending Machine,,,,,
+shopLockersTallDouble,blocks,Container,New,Player Vending Machine,,,,,
+shopLockersTallMix,blocks,Container,New,Player Vending Machine,,,,,
+shopLockersTallMixLink,blocks,Container,New,Player Vending Machine,,,,,
+shopBookcase,blocks,Container,New,Player Vending Machine,,,,,
+shopCashRegister,blocks,Container,New,Player Vending Machine,,,,,
+shopToolBox,blocks,Container,New,Player Vending Machine,,,,,
+shopRollingToolBox,blocks,Container,New,Player Vending Machine,,,,,
+shopStoreShelving01,blocks,Container,New,Player Vending Machine,,,,,
+shopStoreShelvingDouble,blocks,Container,New,Player Vending Machine,,,,,
+shopStoreShelvingTop,blocks,Container,New,Player Vending Machine,,,,,
+shopShelvingTopDouble,blocks,Container,New,Player Vending Machine,,,,,
+shopPartsBox,blocks,Container,New,Player Vending Machine,,,,,
+shopStove,blocks,Container,New,Player Vending Machine,,,,,
+shopOven,blocks,Container,New,Player Vending Machine,,,,,
+shopCabinetActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+ShopTopCupboardCabinetActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+shopCornerRedCupboardActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+shopCabinetRedTopActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+shopOldBottomCabinetActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+shopCabinetOldTopActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+shopCornerOldActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+shopCabinetFullOldTopActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+shopCoffeeBrewerActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+shopCoffeeBrewerCommercialActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+shopSodaFountainActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+shopRetroFridgeActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+shopStainlessFridgeActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+shopCoolerActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+shopBeerCoolerActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+shopIceMachineActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+shopTrashCompactorActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+shopGasPumpActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+shopNightstandActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+shopMedicineCabinetFaucetActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+shopMedicineCabinetActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+shopPillCaseActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+shopWallSafeActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+shopDeskSafeActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+shopGunSafeActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+shopHardenedChestActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+shopSmallWeaponsBagActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+shopLargeWeaponsBagActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+shopPistolMagnumAmmoActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+shopBlunderbussShotgunAmmoActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+shopCrossbowsBowsAmmoActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+shopAutomaticSniperAmmoActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+shopRocketAmmoActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+shopMedicalPileSmallActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+shopMedicalPileMediumActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+shopMedicalPileLargeActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+shopMedicLootPileAActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+shopMedicLootPileBActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+shopCannedFoodPileActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+shopMeatsFoodPileActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+shopFruitVegieFoodPileActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+shopWoodDeskActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+shopMetalDeskActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+shopWaterCoolerActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+shopWineBarrelActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+shopWineBarrelSetActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+shopWineBarrelPlainActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+shopFileCabinetShortActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+shopFileCabinetTallActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+shopLockersShortActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+shopLockersTallActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+shopLockersTallDoubleActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+shopLockersTallMixActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+shopLockersTallMixLinkActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+shopBookcaseActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+shopCashRegisterActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+shopToolBoxActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+shopRollingToolBoxActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+shopStoreShelving01Activate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+shopStoreShelvingDoubleActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+shopStoreShelvingTopActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+shopShelvingTopDoubleActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+shopPartsBoxActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+shopStoveActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
+shopOvenActivate,UI,Use Prompt,New,<{0}> to interact with {1},,,,,
