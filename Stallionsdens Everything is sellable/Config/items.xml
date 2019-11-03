@@ -1,0 +1,65 @@
+<stallionsden>
+<append xpath="/items/item[@name='resourceRockSmallBundle']">
+<property name="EconomicValue" value="120"/>
+</append>
+
+<append xpath="/items/item[@name='resourceWoodBundle']">
+<property name="EconomicValue" value="80"/>
+</append>
+
+<append xpath="/items/item[@name='resourceIronFragmentBundle']">
+<property name="EconomicValue" value="150"/>
+</append>
+
+<append xpath="/items/item[@name='resourcePotassiumNitratePowderBundle']">
+<property name="EconomicValue" value="170"/>
+</append>
+
+<append xpath="/items/item[@name='resourceLeadBundle']">
+<property name="EconomicValue" value="170"/>
+</append>
+
+<append xpath="/items/item[@name='resourceCoalBundle']">
+<property name="EconomicValue" value="170"/>
+</append>
+
+<append xpath="/items/item[@name='resourceOilShaleBundle']">
+<property name="EconomicValue" value="200"/>
+</append>
+
+<append xpath="/items/item[@name='thrownGrenade']">
+<property name="EconomicValue" value="100"/>
+</append>
+
+<append xpath="/items/item[@name='drugRedPill']">
+<property name="EconomicValue" value="50"/>
+</append>
+
+<append xpath="/items/item[@name='drugBluePill']">
+<property name="EconomicValue" value="50"/>
+</append>
+
+<append xpath="/items/item[@name='unit_iron']">
+<property name="EconomicValue" value="75"/>
+</append>
+
+<append xpath="/items/item[@name='unit_brass']">
+<property name="EconomicValue" value="85"/>
+</append>
+
+<append xpath="/items/item[@name='unit_lead']">
+<property name="EconomicValue" value="75"/>
+</append>
+
+<append xpath="/items/item[@name='unit_glass']">
+<property name="EconomicValue" value="45"/>
+</append>
+
+<append xpath="/items/item[@name='unit_stone']">
+<property name="EconomicValue" value="35"/>
+</append>
+
+<append xpath="/items/item[@name='unit_clay']">
+<property name="EconomicValue" value="25"/>
+</append>
+</stallionsden>

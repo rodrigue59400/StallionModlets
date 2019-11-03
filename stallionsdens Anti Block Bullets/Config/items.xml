@@ -857,6 +857,8 @@
 </insertAfter>
 <append xpath="/items">
 <item name="PipeBomb"> <!-- T2 demolitions (perk 1) -->
+	<property name="CustomIcon" value="thrownAmmoPipeBomb"/>
+	<property name="CustomIconTint" value="b0ffb0"/>
 	<property name="Tags" value="ammo,weapon,attPerception,perkDemolitionsExpert"/>
 	<property name="ItemTypeIcon" value="explosion"/>
 	<property name="DisplayType" value="ammoGrenade"/>
@@ -899,6 +901,8 @@
 </item>
 
 <item name="GrenadeContact"> <!-- T2 demolitions (perk 5) -->
+	<property name="CustomIcon" value="thrownGrenadeContact"/>
+	<property name="CustomIconTint" value="b0ffb0"/>
 	<property name="Tags" value="ammo,weapon,attPerception,perkDemolitionsExpert"/>
 	<property name="ItemTypeIcon" value="explosion"/>
 	<property name="DisplayType" value="ammoGrenadeContact"/>
@@ -944,6 +948,8 @@
 </item>
 
 <item name="Grenade"> <!-- T2 demolitions (perk 3) -->
+	<property name="CustomIcon" value="thrownGrenade"/>
+	<property name="CustomIconTint" value="b0ffb0"/>
 	<property name="Extends" value="GrenadeContact" param1="ExplodeOnHit"/>
 	<property name="Meshfile" value="#Other/Items?Weapons/Ranged/Grenade/GrenadePrefab.prefab"/>
 	<property name="UnlockedBy" value="perkDemolitionsExpert,thrownGrenadeSchematic"/>
@@ -958,6 +964,8 @@
 </item>
 
 <item name="TimedCharge"> <!-- T2 demolitions (perk 5) -->
+	<property name="CustomIcon" value="thrownTimedCharge"/>
+	<property name="CustomIconTint" value="b0ffb0"/>
 	<property name="Tags" value="ammo,weapon,attPerception,perkDemolitionsExpert"/>
 	<property name="ItemTypeIcon" value="explosion"/>
 	<property name="DisplayType" value="ammoGrenadeTimedCharge"/>
@@ -999,6 +1007,8 @@
 </item>
 
 <item name="Dynamite"> <!-- T2 demolitions (perk 2) -->
+	<property name="CustomIcon" value="thrownDynamite"/>
+	<property name="CustomIconTint" value="b0ffb0"/>
 	<property name="Tags" value="ammo,weapon,attPerception,perkDemolitionsExpert"/>
 	<property name="ItemTypeIcon" value="explosion"/>
 	<property name="DisplayType" value="ammoGrenade"/>
@@ -1040,6 +1050,8 @@
 </item>
 
 <item name="MolotovCocktail"> <!-- T1 demolitions -->
+	<property name="CustomIcon" value="thrownAmmoMolotovCocktail"/>
+	<property name="CustomIconTint" value="b0ffb0"/>
 	<property name="Tags" value="ammo,weapon,attPerception,perkDemolitionsExpert"/>
 	<property name="ItemTypeIcon" value="explosion"/>
 	<property name="DisplayType" value="ammoGrenadeFire"/>
@@ -1094,6 +1106,8 @@
 	</effect_group>
 </item>
 <item name="Flare">
+	<property name="CustomIcon" value="thrownAmmoFlare"/>
+	<property name="CustomIconTint" value="b0ffb0"/>
 	<property name="CreativeMode" value="None"/>
 	<property name="CustomIcon" value="thrownAmmoPipeBomb"/>
 	<property name="Class" value="ItemClassTimeBomb"/>
@@ -1135,6 +1149,8 @@
 </item>
 
 <item name="DartIron">
+	<property name="CustomIcon" value="ammoDartIron"/>
+	<property name="CustomIconTint" value="b0ffb0"/>
 	<property name="Extends" value="ammoArrowIron" param1="HandMeshfile"/>
 	<property name="Meshfile" value="Entities/Electrical/steel_dartPrefab"/>
 	<property name="HoldType" value="45"/>

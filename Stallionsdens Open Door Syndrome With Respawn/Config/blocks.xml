@@ -120,7 +120,7 @@
 	<insertAfter xpath="/blocks/block[@name='cntMicrowaveOvenVer1Open']">
 	<block name="cntMicrowaveOvenVer1Open1">
 	<property name="Extends" value="cntMicrowaveOvenVer1Open"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntMicrowaveOvenVer1Open2"/>
 	<property name="UpgradeRated.Rate" value="63"/>
@@ -131,7 +131,7 @@
 	<insertAfter xpath="/blocks/block[@name='cntMicrowaveOvenVer1Open1']">
 	<block name="cntMicrowaveOvenVer1Open2">
 	<property name="Extends" value="cntMicrowaveOvenVer1Open"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntMicrowaveOvenVer1Open3"/>
 	<property name="UpgradeRated.Rate" value="63"/>
@@ -142,7 +142,7 @@
 	<insertAfter xpath="/blocks/block[@name='cntMicrowaveOvenVer1Open2']">
 	<block name="cntMicrowaveOvenVer1Open3">
 	<property name="Extends" value="cntMicrowaveOvenVer1Open"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntMicrowaveOvenVer1Open4"/>
 	<property name="UpgradeRated.Rate" value="63"/>
@@ -153,7 +153,7 @@
 	<insertAfter xpath="/blocks/block[@name='cntMicrowaveOvenVer1Open3']">
 	<block name="cntMicrowaveOvenVer1Open4">
 	<property name="Extends" value="cntMicrowaveOvenVer1Open"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntMicrowaveOvenVer1Open5"/>
 	<property name="UpgradeRated.Rate" value="63"/>
@@ -164,7 +164,7 @@
 	<insertAfter xpath="/blocks/block[@name='cntMicrowaveOvenVer1Open4']">
 	<block name="cntMicrowaveOvenVer1Open5">
 	<property name="Extends" value="cntMicrowaveOvenVer1Open"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntMicrowaveOvenVer1Open6"/>
 	<property name="UpgradeRated.Rate" value="63"/>
@@ -175,7 +175,7 @@
 	<insertAfter xpath="/blocks/block[@name='cntMicrowaveOvenVer1Open5']">
 	<block name="cntMicrowaveOvenVer1Open6">
 	<property name="Extends" value="cntMicrowaveOvenVer1Open"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntMicrowaveOvenVer1Closed"/>
 	<property name="UpgradeRated.Rate" value="63"/>
@@ -183,17 +183,6 @@
 	<property name="FilterTags" value="floot,ffurniture"/>
 	</block>		
 	</insertAfter>	
-	<!--<insertAfter xpath="/blocks/block[@name='cntMicrowaveOvenVer1Open6']">
-	<block name="cntMicrowaveOvenVer1Closed">
-	<property name="Extends" value="cntMicrowaveOvenVer1Open"/>
-	<property name="CreativeMode" value="Player"/>
-	<property name="Model" value="Appliances/microwave_oven_ver1" param1="main_mesh"/>
-	<property name="Class" value="Loot"/>
-	<property name="LootList" value="21"/>
-	<property name="FilterTags" value="floot,ffurniture"/>
-		<property name="DowngradeBlock" value="cntMicrowaveOvenRandomLootHelper" />
-	</block>		
-	</insertAfter>-->
 	<append xpath="/blocks/block[@name='cntMicrowaveOvenVer1Closed']">
 	<property name="DowngradeBlock" value="cntMicrowaveOvenVer1Open" />
 	</append>
@@ -207,7 +196,7 @@
 	<insertAfter xpath="/blocks/block[@name='cntMedicineCabinetOpen']">
 	<block name="cntMedicineCabinetOpen1">
 	<property name="Extends" value="cntMedicineCabinetOpen"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntMedicineCabinetOpen2"/>
 	<property name="UpgradeRated.Rate" value="63"/>
@@ -217,7 +206,7 @@
 	<insertAfter xpath="/blocks/block[@name='cntMedicineCabinetOpen1']">
 	<block name="cntMedicineCabinetOpen2">
 	<property name="Extends" value="cntMedicineCabinetOpen"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntMedicineCabinetOpen3"/>
 	<property name="UpgradeRated.Rate" value="63"/>
@@ -227,7 +216,7 @@
 	<insertAfter xpath="/blocks/block[@name='cntMedicineCabinetOpen2']">
 	<block name="cntMedicineCabinetOpen3">
 	<property name="Extends" value="cntMedicineCabinetOpen"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntMedicineCabinetOpen4"/>
 	<property name="UpgradeRated.Rate" value="63"/>
@@ -237,7 +226,7 @@
 	<insertAfter xpath="/blocks/block[@name='cntMedicineCabinetOpen3']">
 	<block name="cntMedicineCabinetOpen4">
 	<property name="Extends" value="cntMedicineCabinetOpen"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntMedicineCabinetOpen5"/>
 	<property name="UpgradeRated.Rate" value="63"/>
@@ -247,7 +236,7 @@
 	<insertAfter xpath="/blocks/block[@name='cntMedicineCabinetOpen4']">
 	<block name="cntMedicineCabinetOpen5">
 	<property name="Extends" value="cntMedicineCabinetOpen"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntMedicineCabinetOpen6"/>
 	<property name="UpgradeRated.Rate" value="63"/>
@@ -257,23 +246,13 @@
 	<insertAfter xpath="/blocks/block[@name='cntMedicineCabinetOpen5']">
 	<block name="cntMedicineCabinetOpen6">
 	<property name="Extends" value="cntMedicineCabinetOpen"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntMedicineCabinetClosed"/>
 	<property name="UpgradeRated.Rate" value="63"/>
 	<property name="Model" value="#Entities/LootContainers?medicine_cabinet_openPrefab.prefab"/> <property name="Place" value="TowardsPlacerInverted"/>
 	 </block>
 </insertAfter>	
-	<!--<insertAfter xpath="/blocks/block[@name='cntMedicineCabinetOpen6']">
-	<block name="cntMedicineCabinetClosed">
-	<property name="Extends" value="cntMedicineCabinetOpen"/>
-	<property name="CreativeMode" value="Player"/>
-	<property name="Class" value="Loot"/>
-	<property name="LootList" value="7"/>
-	<property name="Model" value="#Entities/LootContainers?medicine_cabinet_closedPrefab.prefab"/>
-	<property name="DowngradeBlock" value="cntMedicineCabinetClosedRandomLootHelper" />
-  </block>
-</insertAfter>-->
 <append xpath="/blocks/block[@name='cntMedicineCabinetClosed']">
 	<property name="DowngradeBlock" value="cntMedicineCabinetOpen" />
 	</append>
@@ -289,7 +268,7 @@
 	<insertAfter xpath="/blocks/block[@name='cntCabinetBottomOpen']">		
 	<block name="cntCabinetBottomOpen1">
 	<property name="Extends" value="cntCabinetBottomRandomLootHelper" param1="Class,LootList,CustomIcon,CustomIconTint,DisplayInfo"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntCabinetBottomOpen2"/>
 	<property name="UpgradeRated.Rate" value="63"/>
@@ -301,7 +280,7 @@
 <insertAfter xpath="/blocks/block[@name='cntCabinetBottomOpen1']">
 <block name="cntCabinetBottomOpen2">
 	<property name="Extends" value="cntCabinetBottomRandomLootHelper" param1="Class,LootList,CustomIcon,CustomIconTint,DisplayInfo"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntCabinetBottomOpen3"/>
 	<property name="UpgradeRated.Rate" value="63"/>
@@ -313,7 +292,7 @@
 <insertAfter xpath="/blocks/block[@name='cntCabinetBottomOpen2']">
 <block name="cntCabinetBottomOpen3">
 	<property name="Extends" value="cntCabinetBottomRandomLootHelper" param1="Class,LootList,CustomIcon,CustomIconTint,DisplayInfo"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntCabinetBottomOpen4"/>
 	<property name="UpgradeRated.Rate" value="63"/>
@@ -325,7 +304,7 @@
 <insertAfter xpath="/blocks/block[@name='cntCabinetBottomOpen3']">
 <block name="cntCabinetBottomOpen4">
 	<property name="Extends" value="cntCabinetBottomRandomLootHelper" param1="Class,LootList,CustomIcon,CustomIconTint,DisplayInfo"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntCabinetBottomOpen5"/>
 	<property name="UpgradeRated.Rate" value="63"/>
@@ -337,7 +316,7 @@
 <insertAfter xpath="/blocks/block[@name='cntCabinetBottomOpen4']">
 <block name="cntCabinetBottomOpen5">
 	<property name="Extends" value="cntCabinetBottomRandomLootHelper" param1="Class,LootList,CustomIcon,CustomIconTint,DisplayInfo"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntCabinetBottomOpen6"/>
 	<property name="UpgradeRated.Rate" value="63"/>
@@ -349,7 +328,7 @@
 <insertAfter xpath="/blocks/block[@name='cntCabinetBottomOpen5']">
 <block name="cntCabinetBottomOpen6">
 	<property name="Extends" value="cntCabinetBottomRandomLootHelper" param1="Class,LootList,CustomIcon,CustomIconTint,DisplayInfo"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntCabinetBottomRandomLootHelper"/>
 	<property name="UpgradeRated.Rate" value="63"/>
@@ -385,7 +364,7 @@
 <insertAfter xpath="/blocks/block[@name='cntCupboardCabinetRedTopOpen']">			
 	<block name="cntCupboardCabinetRedTopOpen1">
 	<property name="Extends" value="cntCupboardCabinetRedTopLootHelper" param1="Class,LootList,CustomIcon,CustomIconTint"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntCupboardCabinetRedTopOpen2"/>
 	<property name="UpgradeRated.Rate" value="63"/>
@@ -397,7 +376,7 @@
 <insertAfter xpath="/blocks/block[@name='cntCupboardCabinetRedTopOpen1']">
 <block name="cntCupboardCabinetRedTopOpen2">
 	<property name="Extends" value="cntCupboardCabinetRedTopLootHelper" param1="Class,LootList,CustomIcon,CustomIconTint"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntCupboardCabinetRedTopOpen3"/>
 	<property name="UpgradeRated.Rate" value="63"/>
@@ -409,7 +388,7 @@
 <insertAfter xpath="/blocks/block[@name='cntCupboardCabinetRedTopOpen2']">
 <block name="cntCupboardCabinetRedTopOpen3">
 	<property name="Extends" value="cntCupboardCabinetRedTopLootHelper" param1="Class,LootList,CustomIcon,CustomIconTint"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntCupboardCabinetRedTopOpen4"/>
 	<property name="UpgradeRated.Rate" value="63"/>
@@ -421,7 +400,7 @@
 <insertAfter xpath="/blocks/block[@name='cntCupboardCabinetRedTopOpen3']">
 <block name="cntCupboardCabinetRedTopOpen4">
 	<property name="Extends" value="cntCupboardCabinetRedTopLootHelper" param1="Class,LootList,CustomIcon,CustomIconTint"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntCupboardCabinetRedTopOpen5"/>
 	<property name="UpgradeRated.Rate" value="63"/>
@@ -433,7 +412,7 @@
 <insertAfter xpath="/blocks/block[@name='cntCupboardCabinetRedTopOpen4']">
 <block name="cntCupboardCabinetRedTopOpen5">
 	<property name="Extends" value="cntCupboardCabinetRedTopLootHelper" param1="Class,LootList,CustomIcon,CustomIconTint"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntCupboardCabinetRedTopOpen6"/>
 	<property name="UpgradeRated.Rate" value="63"/>
@@ -445,7 +424,7 @@
 <insertAfter xpath="/blocks/block[@name='cntCupboardCabinetRedTopOpen5']">
 <block name="cntCupboardCabinetRedTopOpen6">
 	<property name="Extends" value="cntCupboardCabinetRedTopLootHelper" param1="Class,LootList,CustomIcon,CustomIconTint"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntCupboardCabinetRedTopLootHelper"/>
 	<property name="UpgradeRated.Rate" value="63"/>
@@ -500,7 +479,7 @@
 <insertAfter xpath="/blocks/block[@name='cntCabinetOldBottomOpen']">			
 	<block name="cntCabinetOldBottomOpen1">
 	<property name="Extends" value="cntCabinetOldBottomLootHelper" param1="Class,LootList,CustomIcon,CustomIconTint"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntCabinetOldBottomOpen2"/>
 	<property name="UpgradeRated.Rate" value="63"/>
@@ -512,7 +491,7 @@
 <insertAfter xpath="/blocks/block[@name='cntCabinetOldBottomOpen1']">
 <block name="cntCabinetOldBottomOpen2">
 	<property name="Extends" value="cntCabinetOldBottomLootHelper" param1="Class,LootList,CustomIcon,CustomIconTint"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntCabinetOldBottomOpen3"/>
 	<property name="UpgradeRated.Rate" value="63"/>
@@ -524,7 +503,7 @@
 <insertAfter xpath="/blocks/block[@name='cntCabinetOldBottomOpen2']">
 <block name="cntCabinetOldBottomOpen3">
 	<property name="Extends" value="cntCabinetOldBottomLootHelper" param1="Class,LootList,CustomIcon,CustomIconTint"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntCabinetOldBottomOpen4"/>
 	<property name="UpgradeRated.Rate" value="63"/>	
@@ -536,7 +515,7 @@
 <insertAfter xpath="/blocks/block[@name='cntCabinetOldBottomOpen3']">
 <block name="cntCabinetOldBottomOpen4">
 	<property name="Extends" value="cntCabinetOldBottomLootHelper" param1="Class,LootList,CustomIcon,CustomIconTint"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntCabinetOldBottomOpen5"/>
 	<property name="UpgradeRated.Rate" value="63"/>	
@@ -548,7 +527,7 @@
 <insertAfter xpath="/blocks/block[@name='cntCabinetOldBottomOpen4']">
 <block name="cntCabinetOldBottomOpen5">
 	<property name="Extends" value="cntCabinetOldBottomLootHelper" param1="Class,LootList,CustomIcon,CustomIconTint"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntCabinetOldBottomOpen6"/>
 	<property name="UpgradeRated.Rate" value="63"/>
@@ -560,7 +539,7 @@
 <insertAfter xpath="/blocks/block[@name='cntCabinetOldBottomOpen5']">
 <block name="cntCabinetOldBottomOpen6">
 	<property name="Extends" value="cntCabinetOldBottomLootHelper" param1="Class,LootList,CustomIcon,CustomIconTint"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntCabinetOldBottomLootHelper"/>
 	<property name="UpgradeRated.Rate" value="63"/>	
@@ -601,7 +580,7 @@
 	<property name="Model" value="cupboard_ajar"/>
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	<property name="FilterTags" value="floot,ffurniture"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 </block>
 </insertAfter>
 <insertAfter xpath="/blocks/block[@name='cntCupboardCabinetOldTopOpen1']">
@@ -613,7 +592,7 @@
 	<property name="Model" value="cupboard_ajar"/>
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	<property name="FilterTags" value="floot,ffurniture"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 </block>
 </insertAfter>
 <insertAfter xpath="/blocks/block[@name='cntCupboardCabinetOldTopOpen2']">
@@ -625,7 +604,7 @@
 	<property name="Model" value="cupboard_ajar"/>
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	<property name="FilterTags" value="floot,ffurniture"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 </block>
 </insertAfter>
 <insertAfter xpath="/blocks/block[@name='cntCupboardCabinetOldTopOpen3']">
@@ -637,7 +616,7 @@
 	<property name="Model" value="cupboard_ajar"/>
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	<property name="FilterTags" value="floot,ffurniture"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 </block>
 </insertAfter>
 <insertAfter xpath="/blocks/block[@name='cntCupboardCabinetOldTopOpen4']">
@@ -649,7 +628,7 @@
 	<property name="Model" value="cupboard_ajar"/>
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	<property name="FilterTags" value="floot,ffurniture"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 </block>
 </insertAfter>
 <insertAfter xpath="/blocks/block[@name='cntCupboardCabinetOldTopOpen5']">
@@ -661,7 +640,7 @@
 	<property name="Model" value="cupboard_ajar"/>
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	<property name="FilterTags" value="floot,ffurniture"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 </block>
 	</insertAfter>		
 	<append xpath="/blocks/block[@name='cntCupboardCabinetOldTopClosed']">
@@ -740,7 +719,7 @@
 	<insertAfter xpath="/blocks/block[@name='cntStoveOldVer1Closed']">	
 	<block name="cntStoveOldVer2Open">
 	<property name="Extends" value="cntStoveOldRandomLootHelper" />
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="Appliances/stove_old_Ver2" param1="main_mesh"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntStoveOldVer2Open1"/>
@@ -1064,7 +1043,7 @@
 	<property name="Class" value="UpgradeRated"/>
 			<property name="UpgradeRated.ToBlock" value="cntNightstandOpen2"/>
 			<property name="UpgradeRated.Rate" value="63"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="#Entities/LootContainers?nightStand_emptyPrefab.prefab"/>
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	<property name="FilterTags" value="floot,ffurniture"/>
@@ -1076,7 +1055,7 @@
 	<property name="Class" value="UpgradeRated"/>
 			<property name="UpgradeRated.ToBlock" value="cntNightstandOpen3"/>
 			<property name="UpgradeRated.Rate" value="63"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="#Entities/LootContainers?nightStand_emptyPrefab.prefab"/>
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	<property name="FilterTags" value="floot,ffurniture"/>
@@ -1088,7 +1067,7 @@
 	<property name="Class" value="UpgradeRated"/>
 			<property name="UpgradeRated.ToBlock" value="cntNightstandOpen4"/>
 			<property name="UpgradeRated.Rate" value="63"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="#Entities/LootContainers?nightStand_emptyPrefab.prefab"/>
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	<property name="FilterTags" value="floot,ffurniture"/>
@@ -1100,7 +1079,7 @@
 	<property name="Class" value="UpgradeRated"/>
 			<property name="UpgradeRated.ToBlock" value="cntNightstandOpen5"/>
 			<property name="UpgradeRated.Rate" value="63"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="#Entities/LootContainers?nightStand_emptyPrefab.prefab"/>
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	<property name="FilterTags" value="floot,ffurniture"/>
@@ -1112,7 +1091,7 @@
 	<property name="Class" value="UpgradeRated"/>
 			<property name="UpgradeRated.ToBlock" value="cntNightstandOpen6"/>
 			<property name="UpgradeRated.Rate" value="63"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="#Entities/LootContainers?nightStand_emptyPrefab.prefab"/>
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	<property name="FilterTags" value="floot,ffurniture"/>
@@ -1124,7 +1103,7 @@
 	<property name="Class" value="UpgradeRated"/>
 			<property name="UpgradeRated.ToBlock" value="cntNightstandRandomLootHelper"/>
 			<property name="UpgradeRated.Rate" value="63"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="#Entities/LootContainers?nightStand_emptyPrefab.prefab"/>
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	<property name="FilterTags" value="floot,ffurniture"/>
@@ -1144,7 +1123,7 @@
 <insertAfter xpath="/blocks/block[@name='cntMedicineCabinetFaucetOpen']">				
 <block name="cntMedicineCabinetFaucetOpen1">
 	<property name="Material" value="Mglass"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#Entities/LootContainers?medicine_cabinet_open_faucetPrefab.prefab"/> <property name="Place" value="TowardsPlacerInverted"/>
 	<property name="Place" value="TowardsPlacerInverted"/>
@@ -1160,7 +1139,7 @@
 <insertAfter xpath="/blocks/block[@name='cntMedicineCabinetFaucetOpen1']">	
 <block name="cntMedicineCabinetFaucetOpen2">
 	<property name="Material" value="Mglass"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#Entities/LootContainers?medicine_cabinet_open_faucetPrefab.prefab"/> <property name="Place" value="TowardsPlacerInverted"/>
 	<property name="Place" value="TowardsPlacerInverted"/>
@@ -1176,7 +1155,7 @@
 <insertAfter xpath="/blocks/block[@name='cntMedicineCabinetFaucetOpen2']">	
 <block name="cntMedicineCabinetFaucetOpen3">
 	<property name="Material" value="Mglass"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#Entities/LootContainers?medicine_cabinet_open_faucetPrefab.prefab"/> <property name="Place" value="TowardsPlacerInverted"/>
 	<property name="Place" value="TowardsPlacerInverted"/>
@@ -1192,7 +1171,7 @@
 <insertAfter xpath="/blocks/block[@name='cntMedicineCabinetFaucetOpen3']">	
 <block name="cntMedicineCabinetFaucetOpen4">
 	<property name="Material" value="Mglass"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#Entities/LootContainers?medicine_cabinet_open_faucetPrefab.prefab"/> <property name="Place" value="TowardsPlacerInverted"/>
 	<property name="Place" value="TowardsPlacerInverted"/>
@@ -1208,7 +1187,7 @@
 <insertAfter xpath="/blocks/block[@name='cntMedicineCabinetFaucetOpen4']">	
 <block name="cntMedicineCabinetFaucetOpen5">
 	<property name="Material" value="Mglass"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#Entities/LootContainers?medicine_cabinet_open_faucetPrefab.prefab"/> <property name="Place" value="TowardsPlacerInverted"/>
 	<property name="Place" value="TowardsPlacerInverted"/>
@@ -1224,7 +1203,7 @@
 <insertAfter xpath="/blocks/block[@name='cntMedicineCabinetFaucetOpen5']">	
 <block name="cntMedicineCabinetFaucetOpen6">
 	<property name="Material" value="Mglass"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#Entities/LootContainers?medicine_cabinet_open_faucetPrefab.prefab"/> <property name="Place" value="TowardsPlacerInverted"/>
 	<property name="Place" value="TowardsPlacerInverted"/>
@@ -1254,7 +1233,7 @@
 	<property name="Class" value="UpgradeRated"/>
 		<property name="UpgradeRated.ToBlock" value="cntWoodDesk01Open2"/>
 			<property name="UpgradeRated.Rate" value="63"/>	
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="Furniture/desk01_ver2" param1="main_mesh"/>
 	<property name="DisplayType" value="blockMulti" />
 	<property name="MultiBlockDim" value="2,1,1"/>
@@ -1268,7 +1247,7 @@
 	<property name="Class" value="UpgradeRated"/>
 		<property name="UpgradeRated.ToBlock" value="cntWoodDesk01Open3"/>
 			<property name="UpgradeRated.Rate" value="63"/>	
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="Furniture/desk01_ver2" param1="main_mesh"/>
 	<property name="DisplayType" value="blockMulti" />
 	<property name="MultiBlockDim" value="2,1,1"/>
@@ -1282,7 +1261,7 @@
 	<property name="Class" value="UpgradeRated"/>
 		<property name="UpgradeRated.ToBlock" value="cntWoodDesk01Open4"/>
 			<property name="UpgradeRated.Rate" value="63"/>	
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="Furniture/desk01_ver2" param1="main_mesh"/>
 	<property name="DisplayType" value="blockMulti" />
 	<property name="MultiBlockDim" value="2,1,1"/>
@@ -1296,7 +1275,7 @@
 	<property name="Class" value="UpgradeRated"/>
 		<property name="UpgradeRated.ToBlock" value="cntWoodDesk01Open5"/>
 			<property name="UpgradeRated.Rate" value="63"/>	
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="Furniture/desk01_ver2" param1="main_mesh"/>
 	<property name="DisplayType" value="blockMulti" />
 	<property name="MultiBlockDim" value="2,1,1"/>
@@ -1310,7 +1289,7 @@
 	<property name="Class" value="UpgradeRated"/>
 		<property name="UpgradeRated.ToBlock" value="cntWoodDesk01Open6"/>
 			<property name="UpgradeRated.Rate" value="63"/>	
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="Furniture/desk01_ver2" param1="main_mesh"/>
 	<property name="DisplayType" value="blockMulti" />
 	<property name="MultiBlockDim" value="2,1,1"/>
@@ -1324,7 +1303,7 @@
 	<property name="Class" value="UpgradeRated"/>
 		<property name="UpgradeRated.ToBlock" value="cntWoodDesk01RandomLootHelper"/>
 			<property name="UpgradeRated.Rate" value="63"/>	
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="Furniture/desk01_ver2" param1="main_mesh"/>
 	<property name="DisplayType" value="blockMulti" />
 	<property name="MultiBlockDim" value="2,1,1"/>
@@ -1384,8 +1363,6 @@
 	<property name="Extends" value="cntMetalDesk02RandomLootHelper" param1="Class,LootList,CustomIcon"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="Model" value="Furniture/desk02_ver2" param1="main_mesh"/>
-	<property name="DisplayType" value="blockMulti"/>
-	<property name="MultiBlockDim" value="2,1,1"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntMetalDesk02Open1"/>
 	<property name="UpgradeRated.Rate" value="63"/>	
@@ -1395,8 +1372,6 @@
 	<block name="cntMetalDesk02Open1">
 	<property name="Extends" value="cntMetalDesk02RandomLootHelper" param1="DisplayInfo,CustomIcon,CustomIconTint"/>
 	<property name="Model" value="Furniture/desk02_ver2" param1="main_mesh"/>
-	<property name="DisplayType" value="blockMulti"/>
-	<property name="MultiBlockDim" value="2,1,1"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntMetalDesk02Open2"/>
 	<property name="UpgradeRated.Rate" value="63"/>	
@@ -1406,8 +1381,6 @@
 	<block name="cntMetalDesk02Open2">
 	<property name="Extends" value="cntMetalDesk02RandomLootHelper" param1="DisplayInfo,CustomIcon,CustomIconTint"/>
 	<property name="Model" value="Furniture/desk02_ver2" param1="main_mesh"/>
-	<property name="DisplayType" value="blockMulti"/>
-	<property name="MultiBlockDim" value="2,1,1"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntMetalDesk02Open3"/>
 	<property name="UpgradeRated.Rate" value="63"/>
@@ -1417,8 +1390,6 @@
 	<block name="cntMetalDesk02Open3">
 	<property name="Extends" value="cntMetalDesk02RandomLootHelper" param1="DisplayInfo,CustomIcon,CustomIconTint"/>
 	<property name="Model" value="Furniture/desk02_ver2" param1="main_mesh"/>
-	<property name="DisplayType" value="blockMulti"/>
-	<property name="MultiBlockDim" value="2,1,1"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntMetalDesk02Open4"/>
 	<property name="UpgradeRated.Rate" value="63"/>
@@ -1428,8 +1399,6 @@
 	<block name="cntMetalDesk02Open4">
 	<property name="Extends" value="cntMetalDesk02RandomLootHelper" param1="DisplayInfo,CustomIcon,CustomIconTint"/>
 	<property name="Model" value="Furniture/desk02_ver2" param1="main_mesh"/>
-	<property name="DisplayType" value="blockMulti"/>
-	<property name="MultiBlockDim" value="2,1,1"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntMetalDesk02Open5"/>
 	<property name="UpgradeRated.Rate" value="63"/>
@@ -1439,8 +1408,6 @@
 	<block name="cntMetalDesk02Open5">
 	<property name="Extends" value="cntMetalDesk02RandomLootHelper" param1="DisplayInfo,CustomIcon,CustomIconTint"/>
 	<property name="Model" value="Furniture/desk02_ver2" param1="main_mesh"/>
-	<property name="DisplayType" value="blockMulti"/>
-	<property name="MultiBlockDim" value="2,1,1"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntMetalDesk02Open6"/>
 	<property name="UpgradeRated.Rate" value="63"/>
@@ -1450,20 +1417,11 @@
 	<block name="cntMetalDesk02Open6">
 	<property name="Extends" value="cntMetalDesk02RandomLootHelper" param1="DisplayInfo,CustomIcon,CustomIconTint"/>
 	<property name="Model" value="Furniture/desk02_ver2" param1="main_mesh"/>
-	<property name="DisplayType" value="blockMulti"/>
-	<property name="MultiBlockDim" value="2,1,1"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntMetalDesk02RandomLootHelper"/>
 	<property name="UpgradeRated.Rate" value="63"/>
 	</block>
 	</insertAfter>	
-	<!--<insertAfter xpath="/blocks/block[@name='cntMetalDesk02Open6']">	
-	<block name="cntMetalDesk02RandomLootHelper">
-	<property name="Extends" value="cntMetalDesk02Closed" />
-	<property name="CreativeMode" value="Dev"/>
-	<property name="Model" value="Furniture/desk02" param1="main_mesh"/>
-	</block>
-	</insertAfter>-->
 <!-- METAL DESK -->
 <!-- FILE CABINET SHORT -->
 			<append xpath="/blocks/block[@name='cntFileCabinetShortOpen']">
@@ -1477,7 +1435,7 @@
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntFileCabinetShortOpen2"/>
 	<property name="UpgradeRated.Rate" value="63"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="#Entities/LootContainers?filecabinet_short_emptyPrefab.prefab"/>
 	<property name="ModelOffset" value="0,0,0"/>
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
@@ -1490,7 +1448,7 @@
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntFileCabinetShortOpen3"/>
 	<property name="UpgradeRated.Rate" value="63"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="#Entities/LootContainers?filecabinet_short_emptyPrefab.prefab"/>
 	<property name="ModelOffset" value="0,0,0"/>
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
@@ -1503,7 +1461,7 @@
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntFileCabinetShortOpen4"/>
 	<property name="UpgradeRated.Rate" value="63"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="#Entities/LootContainers?filecabinet_short_emptyPrefab.prefab"/>
 	<property name="ModelOffset" value="0,0,0"/>
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
@@ -1516,7 +1474,7 @@
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntFileCabinetShortOpen5"/>
 	<property name="UpgradeRated.Rate" value="63"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="#Entities/LootContainers?filecabinet_short_emptyPrefab.prefab"/>
 	<property name="ModelOffset" value="0,0,0"/>
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
@@ -1529,7 +1487,7 @@
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntFileCabinetShortOpen6"/>
 	<property name="UpgradeRated.Rate" value="63"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="#Entities/LootContainers?filecabinet_short_emptyPrefab.prefab"/>
 	<property name="ModelOffset" value="0,0,0"/>
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
@@ -1542,7 +1500,7 @@
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntFileCabinetShortRandomLootHelper"/>
 	<property name="UpgradeRated.Rate" value="63"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="#Entities/LootContainers?filecabinet_short_emptyPrefab.prefab"/>
 	<property name="ModelOffset" value="0,0,0"/>
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
@@ -1566,7 +1524,7 @@
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntFileCabinetTallOpen2"/>
 	<property name="UpgradeRated.Rate" value="63"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="#Entities/LootContainers?filecabinet_tall_emptyPrefab.prefab"/>
 	<property name="DisplayType" value="blockMulti" />
 	<property name="MultiBlockDim" value="1,2,1"/>
@@ -1578,7 +1536,7 @@
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntFileCabinetTallOpen3"/>
 	<property name="UpgradeRated.Rate" value="63"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="#Entities/LootContainers?filecabinet_tall_emptyPrefab.prefab"/>
 	<property name="DisplayType" value="blockMulti" />
 	<property name="MultiBlockDim" value="1,2,1"/>
@@ -1590,7 +1548,7 @@
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntFileCabinetTallOpen4"/>
 	<property name="UpgradeRated.Rate" value="63"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="#Entities/LootContainers?filecabinet_tall_emptyPrefab.prefab"/>
 	<property name="DisplayType" value="blockMulti" />
 	<property name="MultiBlockDim" value="1,2,1"/>
@@ -1602,7 +1560,7 @@
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntFileCabinetTallOpen5"/>
 	<property name="UpgradeRated.Rate" value="63"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="#Entities/LootContainers?filecabinet_tall_emptyPrefab.prefab"/>
 	<property name="DisplayType" value="blockMulti" />
 	<property name="MultiBlockDim" value="1,2,1"/>
@@ -1614,7 +1572,7 @@
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntFileCabinetTallOpen6"/>
 	<property name="UpgradeRated.Rate" value="63"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="#Entities/LootContainers?filecabinet_tall_emptyPrefab.prefab"/>
 	<property name="DisplayType" value="blockMulti" />
 	<property name="MultiBlockDim" value="1,2,1"/>
@@ -1626,7 +1584,7 @@
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntFileCabinetTallRandomLootHelper"/>
 	<property name="UpgradeRated.Rate" value="63"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="#Entities/LootContainers?filecabinet_tall_emptyPrefab.prefab"/>
 	<property name="DisplayType" value="blockMulti" />
 	<property name="MultiBlockDim" value="1,2,1"/>
@@ -1649,7 +1607,7 @@
 	<property name="Class" value="UpgradeRated"/>
 			<property name="UpgradeRated.ToBlock" value="cntCoolerOpen2"/>
 			<property name="UpgradeRated.Rate" value="63"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="#Entities/LootContainers?coolerPrefab.prefab"/>
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	<property name="FilterTags" value="floot,ffurniture"/>
@@ -1661,7 +1619,7 @@
 	<property name="Class" value="UpgradeRated"/>
 			<property name="UpgradeRated.ToBlock" value="cntCoolerOpen3"/>
 			<property name="UpgradeRated.Rate" value="63"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="#Entities/LootContainers?coolerPrefab.prefab"/>
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	<property name="FilterTags" value="floot,ffurniture"/>
@@ -1673,7 +1631,7 @@
 	<property name="Class" value="UpgradeRated"/>
 			<property name="UpgradeRated.ToBlock" value="cntCoolerOpen4"/>
 			<property name="UpgradeRated.Rate" value="63"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="#Entities/LootContainers?coolerPrefab.prefab"/>
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	<property name="FilterTags" value="floot,ffurniture"/>
@@ -1685,7 +1643,7 @@
 	<property name="Class" value="UpgradeRated"/>
 			<property name="UpgradeRated.ToBlock" value="cntCoolerOpen5"/>
 			<property name="UpgradeRated.Rate" value="63"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="#Entities/LootContainers?coolerPrefab.prefab"/>
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	<property name="FilterTags" value="floot,ffurniture"/>
@@ -1697,7 +1655,7 @@
 	<property name="Class" value="UpgradeRated"/>
 			<property name="UpgradeRated.ToBlock" value="cntCoolerOpen6"/>
 			<property name="UpgradeRated.Rate" value="63"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="#Entities/LootContainers?coolerPrefab.prefab"/>
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	<property name="FilterTags" value="floot,ffurniture"/>
@@ -1709,7 +1667,7 @@
 	<property name="Class" value="UpgradeRated"/>
 			<property name="UpgradeRated.ToBlock" value="cntCoolerRandomLootHelper"/>
 			<property name="UpgradeRated.Rate" value="63"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="#Entities/LootContainers?coolerPrefab.prefab"/>
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	<property name="FilterTags" value="floot,ffurniture"/>
@@ -1732,7 +1690,7 @@
 	<property name="Class" value="UpgradeRated"/>
 		<property name="UpgradeRated.ToBlock" value="cntLockersShortOpen2"/>
 			<property name="UpgradeRated.Rate" value="63"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#Entities/LootContainers?locker_ver3_emptyPrefab.prefab"/>
 	<property name="ImposterExchange" value="imposterCTRSheet" param1="9"/>
@@ -1748,7 +1706,7 @@
 	<property name="Class" value="UpgradeRated"/>
 		<property name="UpgradeRated.ToBlock" value="cntLockersShortOpen3"/>
 			<property name="UpgradeRated.Rate" value="63"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#Entities/LootContainers?locker_ver3_emptyPrefab.prefab"/>
 	<property name="ImposterExchange" value="imposterCTRSheet" param1="9"/>
@@ -1764,7 +1722,7 @@
 	<property name="Class" value="UpgradeRated"/>
 		<property name="UpgradeRated.ToBlock" value="cntLockersShortOpen4"/>
 			<property name="UpgradeRated.Rate" value="63"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#Entities/LootContainers?locker_ver3_emptyPrefab.prefab"/>
 	<property name="ImposterExchange" value="imposterCTRSheet" param1="9"/>
@@ -1780,7 +1738,7 @@
 	<property name="Class" value="UpgradeRated"/>
 		<property name="UpgradeRated.ToBlock" value="cntLockersShortOpen5"/>
 			<property name="UpgradeRated.Rate" value="63"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#Entities/LootContainers?locker_ver3_emptyPrefab.prefab"/>
 	<property name="ImposterExchange" value="imposterCTRSheet" param1="9"/>
@@ -1796,7 +1754,7 @@
 	<property name="Class" value="UpgradeRated"/>
 		<property name="UpgradeRated.ToBlock" value="cntLockersShortOpen6"/>
 			<property name="UpgradeRated.Rate" value="63"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#Entities/LootContainers?locker_ver3_emptyPrefab.prefab"/>
 	<property name="ImposterExchange" value="imposterCTRSheet" param1="9"/>
@@ -1812,7 +1770,7 @@
 	<property name="Class" value="UpgradeRated"/>
 		<property name="UpgradeRated.ToBlock" value="cntLockersShortRandomLootHelper"/>
 			<property name="UpgradeRated.Rate" value="63"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#Entities/LootContainers?locker_ver3_emptyPrefab.prefab"/>
 	<property name="ImposterExchange" value="imposterCTRSheet" param1="9"/>
@@ -1839,7 +1797,7 @@
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntLockersTallOpen2"/>
 	<property name="UpgradeRated.Rate" value="63"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="#Entities/LootContainers?locker_ver1_emptyPrefab.prefab"/>
 	<property name="DisplayType" value="blockMulti" />
 	<property name="MultiBlockDim" value="1,2,1"/>
@@ -1852,7 +1810,7 @@
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntLockersTallOpen3"/>
 	<property name="UpgradeRated.Rate" value="63"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="#Entities/LootContainers?locker_ver1_emptyPrefab.prefab"/>
 	<property name="DisplayType" value="blockMulti" />
 	<property name="MultiBlockDim" value="1,2,1"/>
@@ -1865,7 +1823,7 @@
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntLockersTallOpen4"/>
 	<property name="UpgradeRated.Rate" value="63"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="#Entities/LootContainers?locker_ver1_emptyPrefab.prefab"/>
 	<property name="DisplayType" value="blockMulti" />
 	<property name="MultiBlockDim" value="1,2,1"/>
@@ -1878,7 +1836,7 @@
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntLockersTallOpen5"/>
 	<property name="UpgradeRated.Rate" value="63"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="#Entities/LootContainers?locker_ver1_emptyPrefab.prefab"/>
 	<property name="DisplayType" value="blockMulti" />
 	<property name="MultiBlockDim" value="1,2,1"/>
@@ -1891,7 +1849,7 @@
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntLockersTallOpen6"/>
 	<property name="UpgradeRated.Rate" value="63"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="#Entities/LootContainers?locker_ver1_emptyPrefab.prefab"/>
 	<property name="DisplayType" value="blockMulti" />
 	<property name="MultiBlockDim" value="1,2,1"/>
@@ -1904,7 +1862,7 @@
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntLockersTallRandomLootHelper"/>
 	<property name="UpgradeRated.Rate" value="63"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="#Entities/LootContainers?locker_ver1_emptyPrefab.prefab"/>
 	<property name="DisplayType" value="blockMulti" />
 	<property name="MultiBlockDim" value="1,2,1"/>
@@ -1928,7 +1886,7 @@
 	<property name="Class" value="UpgradeRated"/>
 		<property name="UpgradeRated.ToBlock" value="cntLockersTallDoubleOpen2"/>
 			<property name="UpgradeRated.Rate" value="63"/>	
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="#Entities/LootContainers?locker_ver2_emptyPrefab.prefab"/>
 	<property name="DisplayType" value="blockMulti" />
 	<property name="MultiBlockDim" value="1,2,1"/>
@@ -1941,7 +1899,7 @@
 	<property name="Class" value="UpgradeRated"/>
 		<property name="UpgradeRated.ToBlock" value="cntLockersTallDoubleOpen3"/>
 			<property name="UpgradeRated.Rate" value="63"/>	
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="#Entities/LootContainers?locker_ver2_emptyPrefab.prefab"/>
 	<property name="DisplayType" value="blockMulti" />
 	<property name="MultiBlockDim" value="1,2,1"/>
@@ -1954,7 +1912,7 @@
 	<property name="Class" value="UpgradeRated"/>
 		<property name="UpgradeRated.ToBlock" value="cntLockersTallDoubleOpen4"/>
 			<property name="UpgradeRated.Rate" value="63"/>	
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="#Entities/LootContainers?locker_ver2_emptyPrefab.prefab"/>
 	<property name="DisplayType" value="blockMulti" />
 	<property name="MultiBlockDim" value="1,2,1"/>
@@ -1967,7 +1925,7 @@
 	<property name="Class" value="UpgradeRated"/>
 		<property name="UpgradeRated.ToBlock" value="cntLockersTallDoubleOpen5"/>
 			<property name="UpgradeRated.Rate" value="63"/>	
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="#Entities/LootContainers?locker_ver2_emptyPrefab.prefab"/>
 	<property name="DisplayType" value="blockMulti" />
 	<property name="MultiBlockDim" value="1,2,1"/>
@@ -1980,7 +1938,7 @@
 	<property name="Class" value="UpgradeRated"/>
 		<property name="UpgradeRated.ToBlock" value="cntLockersTallDoubleOpen6"/>
 			<property name="UpgradeRated.Rate" value="63"/>	
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="#Entities/LootContainers?locker_ver2_emptyPrefab.prefab"/>
 	<property name="DisplayType" value="blockMulti" />
 	<property name="MultiBlockDim" value="1,2,1"/>
@@ -1993,7 +1951,7 @@
 	<property name="Class" value="UpgradeRated"/>
 		<property name="UpgradeRated.ToBlock" value="cntLockersTallDoubleRandomLootHelper"/>
 			<property name="UpgradeRated.Rate" value="63"/>	
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="#Entities/LootContainers?locker_ver2_emptyPrefab.prefab"/>
 	<property name="DisplayType" value="blockMulti" />
 	<property name="MultiBlockDim" value="1,2,1"/>
@@ -2017,7 +1975,7 @@
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntLockersTallMixOpen2"/>
 	<property name="UpgradeRated.Rate" value="63"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="#Entities/LootContainers?locker_ver4_emptyPrefab.prefab"/>
 	<property name="DisplayType" value="blockMulti" />
 	<property name="MultiBlockDim" value="1,2,1"/>
@@ -2030,7 +1988,7 @@
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntLockersTallMixOpen3"/>
 	<property name="UpgradeRated.Rate" value="63"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="#Entities/LootContainers?locker_ver4_emptyPrefab.prefab"/>
 	<property name="DisplayType" value="blockMulti" />
 	<property name="MultiBlockDim" value="1,2,1"/>
@@ -2043,7 +2001,7 @@
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntLockersTallMixOpen4"/>
 	<property name="UpgradeRated.Rate" value="63"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="#Entities/LootContainers?locker_ver4_emptyPrefab.prefab"/>
 	<property name="DisplayType" value="blockMulti" />
 	<property name="MultiBlockDim" value="1,2,1"/>
@@ -2056,7 +2014,7 @@
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntLockersTallMixOpen5"/>
 	<property name="UpgradeRated.Rate" value="63"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="#Entities/LootContainers?locker_ver4_emptyPrefab.prefab"/>
 	<property name="DisplayType" value="blockMulti" />
 	<property name="MultiBlockDim" value="1,2,1"/>
@@ -2069,7 +2027,7 @@
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntLockersTallMixOpen6"/>
 	<property name="UpgradeRated.Rate" value="63"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="#Entities/LootContainers?locker_ver4_emptyPrefab.prefab"/>
 	<property name="DisplayType" value="blockMulti" />
 	<property name="MultiBlockDim" value="1,2,1"/>
@@ -2082,7 +2040,7 @@
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntLockersTallMixRandomLootHelper"/>
 	<property name="UpgradeRated.Rate" value="63"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="#Entities/LootContainers?locker_ver4_emptyPrefab.prefab"/>
 	<property name="DisplayType" value="blockMulti" />
 	<property name="MultiBlockDim" value="1,2,1"/>
@@ -2106,7 +2064,7 @@
 	<property name="Class" value="UpgradeRated"/>
 		<property name="UpgradeRated.ToBlock" value="cntLockersTallMixLinkOpen2"/>
 			<property name="UpgradeRated.Rate" value="63"/>	
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="#Entities/LootContainers?locker_ver5_emptyPrefab.prefab"/>
 	<property name="DisplayType" value="blockMulti" />
 	<property name="MultiBlockDim" value="1,2,1"/>
@@ -2119,7 +2077,7 @@
 	<property name="Class" value="UpgradeRated"/>
 		<property name="UpgradeRated.ToBlock" value="cntLockersTallMixLinkOpen3"/>
 			<property name="UpgradeRated.Rate" value="63"/>	
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="#Entities/LootContainers?locker_ver5_emptyPrefab.prefab"/>
 	<property name="DisplayType" value="blockMulti" />
 	<property name="MultiBlockDim" value="1,2,1"/>
@@ -2132,7 +2090,7 @@
 	<property name="Class" value="UpgradeRated"/>
 		<property name="UpgradeRated.ToBlock" value="cntLockersTallMixLinkOpen4"/>
 			<property name="UpgradeRated.Rate" value="63"/>	
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="#Entities/LootContainers?locker_ver5_emptyPrefab.prefab"/>
 	<property name="DisplayType" value="blockMulti" />
 	<property name="MultiBlockDim" value="1,2,1"/>
@@ -2145,7 +2103,7 @@
 	<property name="Class" value="UpgradeRated"/>
 		<property name="UpgradeRated.ToBlock" value="cntLockersTallMixLinkOpen5"/>
 			<property name="UpgradeRated.Rate" value="63"/>	
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="#Entities/LootContainers?locker_ver5_emptyPrefab.prefab"/>
 	<property name="DisplayType" value="blockMulti" />
 	<property name="MultiBlockDim" value="1,2,1"/>
@@ -2158,7 +2116,7 @@
 	<property name="Class" value="UpgradeRated"/>
 		<property name="UpgradeRated.ToBlock" value="cntLockersTallMixLinkOpen6"/>
 			<property name="UpgradeRated.Rate" value="63"/>	
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="#Entities/LootContainers?locker_ver5_emptyPrefab.prefab"/>
 	<property name="DisplayType" value="blockMulti" />
 	<property name="MultiBlockDim" value="1,2,1"/>
@@ -2171,7 +2129,7 @@
 	<property name="Class" value="UpgradeRated"/>
 		<property name="UpgradeRated.ToBlock" value="cntLockersTallMixLinkRandomLootHelper"/>
 			<property name="UpgradeRated.Rate" value="63"/>	
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="#Entities/LootContainers?locker_ver5_emptyPrefab.prefab"/>
 	<property name="DisplayType" value="blockMulti" />
 	<property name="MultiBlockDim" value="1,2,1"/>
@@ -2330,7 +2288,7 @@
 			</append>
 <insertAfter xpath="/blocks/block[@name='cntLaundryBasketVer1Empty']">			
 <block name="cntLaundryBasketVer1Empty1">
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntLaundryBasketVer1Empty2"/>
 	<property name="UpgradeRated.Rate" value="63"/>
@@ -2350,7 +2308,7 @@
 </insertAfter>
 <insertAfter xpath="/blocks/block[@name='cntLaundryBasketVer1Empty1']">
 <block name="cntLaundryBasketVer1Empty2">
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntLaundryBasketVer1Empty3"/>
 	<property name="UpgradeRated.Rate" value="63"/>
@@ -2370,7 +2328,7 @@
 </insertAfter>
 <insertAfter xpath="/blocks/block[@name='cntLaundryBasketVer1Empty2']">
 <block name="cntLaundryBasketVer1Empty3">
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntLaundryBasketVer1Empty4"/>
 	<property name="UpgradeRated.Rate" value="63"/>
@@ -2390,7 +2348,7 @@
 </insertAfter>
 <insertAfter xpath="/blocks/block[@name='cntLaundryBasketVer1Empty3']">
 <block name="cntLaundryBasketVer1Empty4">
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntLaundryBasketVer1Empty5"/>
 	<property name="UpgradeRated.Rate" value="63"/>
@@ -2410,7 +2368,7 @@
 </insertAfter>
 <insertAfter xpath="/blocks/block[@name='cntLaundryBasketVer1Empty4']">
 <block name="cntLaundryBasketVer1Empty5">
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntLaundryBasketVer1Empty6"/>
 	<property name="UpgradeRated.Rate" value="63"/>
@@ -2430,7 +2388,7 @@
 </insertAfter>
 <insertAfter xpath="/blocks/block[@name='cntLaundryBasketVer1Empty5']">
 <block name="cntLaundryBasketVer1Empty6">
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntLaundryBasketRandomLootHelper"/>
 	<property name="UpgradeRated.Rate" value="63"/>
@@ -2461,7 +2419,7 @@
 			</append>
 <insertAfter xpath="/blocks/block[@name='cntBookcaseEmpty']">			
 <block name="cntBookcaseEmpty1">
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntBookcaseEmpty2"/>
 	<property name="UpgradeRated.Rate" value="63"/>
@@ -2478,7 +2436,7 @@
 </insertAfter>	
 <insertAfter xpath="/blocks/block[@name='cntBookcaseEmpty1']">			
 <block name="cntBookcaseEmpty2">
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntBookcaseEmpty3"/>
 	<property name="UpgradeRated.Rate" value="63"/>
@@ -2495,7 +2453,7 @@
 </insertAfter>	
 <insertAfter xpath="/blocks/block[@name='cntBookcaseEmpty2']">			
 <block name="cntBookcaseEmpty3">
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntBookcaseEmpty4"/>
 	<property name="UpgradeRated.Rate" value="63"/>
@@ -2512,7 +2470,7 @@
 </insertAfter>	
 <insertAfter xpath="/blocks/block[@name='cntBookcaseEmpty3']">			
 <block name="cntBookcaseEmpty4">
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntBookcaseEmpty5"/>
 	<property name="UpgradeRated.Rate" value="63"/>
@@ -2529,7 +2487,7 @@
 </insertAfter>	
 <insertAfter xpath="/blocks/block[@name='cntBookcaseEmpty4']">			
 <block name="cntBookcaseEmpty5">
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntBookcaseEmpty6"/>
 	<property name="UpgradeRated.Rate" value="63"/>
@@ -2546,7 +2504,7 @@
 </insertAfter>	
 <insertAfter xpath="/blocks/block[@name='cntBookcaseEmpty5']">			
 <block name="cntBookcaseEmpty6">
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntBookcaseGoodRandomLootHelper"/>
 	<property name="UpgradeRated.Rate" value="63"/>
@@ -2729,7 +2687,7 @@
 			</append>
 <insertAfter xpath="/blocks/block[@name='cntShoppingCartEmpty']">			
 <block name="shoppingCartEmpty1">
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="shoppingCartEmpty2"/>
 	<property name="UpgradeRated.Rate" value="63"/>
@@ -2753,7 +2711,7 @@
 </insertAfter>	
 <insertAfter xpath="/blocks/block[@name='shoppingCartEmpty1']">			
 <block name="shoppingCartEmpty2">
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="shoppingCartEmpty3"/>
 	<property name="UpgradeRated.Rate" value="63"/>
@@ -2777,7 +2735,7 @@
 </insertAfter>
 <insertAfter xpath="/blocks/block[@name='shoppingCartEmpty2']">			
 <block name="shoppingCartEmpty3">
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="shoppingCartEmpty4"/>
 	<property name="UpgradeRated.Rate" value="63"/>
@@ -2801,7 +2759,7 @@
 </insertAfter>
 <insertAfter xpath="/blocks/block[@name='shoppingCartEmpty3']">			
 <block name="shoppingCartEmpty4">
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="shoppingCartEmpty5"/>
 	<property name="UpgradeRated.Rate" value="63"/>
@@ -2825,7 +2783,7 @@
 </insertAfter>
 <insertAfter xpath="/blocks/block[@name='shoppingCartEmpty4']">			
 <block name="shoppingCartEmpty5">
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="shoppingCartEmpty6"/>
 	<property name="UpgradeRated.Rate" value="63"/>
@@ -2849,7 +2807,7 @@
 </insertAfter>
 <insertAfter xpath="/blocks/block[@name='shoppingCartEmpty5']">			
 <block name="shoppingCartEmpty6">
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntShoppingCartRandomLootHelper"/>
 	<property name="UpgradeRated.Rate" value="63"/>
@@ -2889,7 +2847,7 @@
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntGasGrillOpen2"/>
 	<property name="UpgradeRated.Rate" value="63"/>	
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="#Entities/LootContainers?GasGrill_EmptyPrefab.prefab"/>
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	<property name="FilterTags" value="floot,ffurniture"/>
@@ -2901,7 +2859,7 @@
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntGasGrillOpen3"/>
 	<property name="UpgradeRated.Rate" value="63"/>	
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="#Entities/LootContainers?GasGrill_EmptyPrefab.prefab"/>
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	<property name="FilterTags" value="floot,ffurniture"/>
@@ -2913,7 +2871,7 @@
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntGasGrillOpen4"/>
 	<property name="UpgradeRated.Rate" value="63"/>	
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="#Entities/LootContainers?GasGrill_EmptyPrefab.prefab"/>
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	<property name="FilterTags" value="floot,ffurniture"/>
@@ -2925,7 +2883,7 @@
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntGasGrillOpen5"/>
 	<property name="UpgradeRated.Rate" value="63"/>	
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="#Entities/LootContainers?GasGrill_EmptyPrefab.prefab"/>
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	<property name="FilterTags" value="floot,ffurniture"/>
@@ -2937,7 +2895,7 @@
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntGasGrillOpen6"/>
 	<property name="UpgradeRated.Rate" value="63"/>	
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="#Entities/LootContainers?GasGrill_EmptyPrefab.prefab"/>
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	<property name="FilterTags" value="floot,ffurniture"/>
@@ -2949,7 +2907,7 @@
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntGasGrillRandomLootHelper"/>
 	<property name="UpgradeRated.Rate" value="63"/>	
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="#Entities/LootContainers?GasGrill_EmptyPrefab.prefab"/>
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	<property name="FilterTags" value="floot,ffurniture"/>
@@ -2972,7 +2930,7 @@
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntCharcoalGrillOpen2"/>
 	<property name="UpgradeRated.Rate" value="63"/>	
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="#Entities/LootContainers?Grill_Simple_EmptyPrefab.prefab"/>
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	<property name="FilterTags" value="floot,ffurniture"/>
@@ -2984,7 +2942,7 @@
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntCharcoalGrillOpen3"/>
 	<property name="UpgradeRated.Rate" value="63"/>	
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="#Entities/LootContainers?Grill_Simple_EmptyPrefab.prefab"/>
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	<property name="FilterTags" value="floot,ffurniture"/>
@@ -2996,7 +2954,7 @@
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntCharcoalGrillOpen4"/>
 	<property name="UpgradeRated.Rate" value="63"/>	
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="#Entities/LootContainers?Grill_Simple_EmptyPrefab.prefab"/>
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	<property name="FilterTags" value="floot,ffurniture"/>
@@ -3008,7 +2966,7 @@
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntCharcoalGrillOpen5"/>
 	<property name="UpgradeRated.Rate" value="63"/>	
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="#Entities/LootContainers?Grill_Simple_EmptyPrefab.prefab"/>
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	<property name="FilterTags" value="floot,ffurniture"/>
@@ -3020,7 +2978,7 @@
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntCharcoalGrillOpen6"/>
 	<property name="UpgradeRated.Rate" value="63"/>	
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="#Entities/LootContainers?Grill_Simple_EmptyPrefab.prefab"/>
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	<property name="FilterTags" value="floot,ffurniture"/>
@@ -3032,7 +2990,7 @@
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntCharcoalGrillRandomLootHelper"/>
 	<property name="UpgradeRated.Rate" value="63"/>	
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="#Entities/LootContainers?Grill_Simple_EmptyPrefab.prefab"/>
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	<property name="FilterTags" value="floot,ffurniture"/>
@@ -3058,7 +3016,7 @@
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntLuggageMediumOpen2"/>
 	<property name="UpgradeRated.Rate" value="63"/>	
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#Entities/LootContainers?luggageMediumEmptyPrefab.prefab"/>
 	<property name="ImposterExclude" value="true"/>
@@ -3078,7 +3036,7 @@
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntLuggageMediumOpen3"/>
 	<property name="UpgradeRated.Rate" value="63"/>	
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#Entities/LootContainers?luggageMediumEmptyPrefab.prefab"/>
 	<property name="ImposterExclude" value="true"/>
@@ -3098,7 +3056,7 @@
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntLuggageMediumOpen4"/>
 	<property name="UpgradeRated.Rate" value="63"/>	
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#Entities/LootContainers?luggageMediumEmptyPrefab.prefab"/>
 	<property name="ImposterExclude" value="true"/>
@@ -3118,7 +3076,7 @@
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntLuggageMediumOpen5"/>
 	<property name="UpgradeRated.Rate" value="63"/>	
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#Entities/LootContainers?luggageMediumEmptyPrefab.prefab"/>
 	<property name="ImposterExclude" value="true"/>
@@ -3138,7 +3096,7 @@
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntLuggageMediumOpen6"/>
 	<property name="UpgradeRated.Rate" value="63"/>	
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#Entities/LootContainers?luggageMediumEmptyPrefab.prefab"/>
 	<property name="ImposterExclude" value="true"/>
@@ -3158,7 +3116,7 @@
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntLuggageMediumRandomLootHelper"/>
 	<property name="UpgradeRated.Rate" value="63"/>	
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#Entities/LootContainers?luggageMediumEmptyPrefab.prefab"/>
 	<property name="ImposterExclude" value="true"/>
@@ -3190,7 +3148,7 @@
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntLuggageBigOpen2"/>
 	<property name="UpgradeRated.Rate" value="63"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="#Entities/LootContainers?luggageBigClosedPrefab.prefab"/>
 </block>			
 </insertAfter>
@@ -3200,7 +3158,7 @@
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntLuggageBigOpen3"/>
 	<property name="UpgradeRated.Rate" value="63"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="#Entities/LootContainers?luggageBigClosedPrefab.prefab"/>
 </block>			
 </insertAfter>
@@ -3210,7 +3168,7 @@
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntLuggageBigOpen4"/>
 	<property name="UpgradeRated.Rate" value="63"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="#Entities/LootContainers?luggageBigClosedPrefab.prefab"/>
 </block>			
 </insertAfter>
@@ -3220,7 +3178,7 @@
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntLuggageBigOpen5"/>
 	<property name="UpgradeRated.Rate" value="63"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="#Entities/LootContainers?luggageBigClosedPrefab.prefab"/>
 </block>			
 </insertAfter>
@@ -3230,7 +3188,7 @@
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntLuggageBigOpen6"/>
 	<property name="UpgradeRated.Rate" value="63"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="#Entities/LootContainers?luggageBigClosedPrefab.prefab"/>
 </block>			
 </insertAfter>
@@ -3240,7 +3198,7 @@
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntLuggageBigRandomLootHelper"/>
 	<property name="UpgradeRated.Rate" value="63"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Model" value="#Entities/LootContainers?luggageBigClosedPrefab.prefab"/>
 </block>			
 </insertAfter>
@@ -3506,7 +3464,7 @@
 	<property name="Class" value="UpgradeRated"/>
 		<property name="UpgradeRated.ToBlock" value="cntPillCaseEmpty2"/>
 		<property name="UpgradeRated.Rate" value="63"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#Entities/LootContainers?pill_case_emptyPrefab.prefab"/> <property name="HandleFace" value="South"/>
 	<property name="StabilitySupport" value="false"/> <!-- build restriction -->
@@ -3518,7 +3476,7 @@
 	<property name="Class" value="UpgradeRated"/>
 		<property name="UpgradeRated.ToBlock" value="cntPillCaseEmpty3"/>
 		<property name="UpgradeRated.Rate" value="63"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#Entities/LootContainers?pill_case_emptyPrefab.prefab"/> <property name="HandleFace" value="South"/>
 	<property name="StabilitySupport" value="false"/> <!-- build restriction -->
@@ -3530,7 +3488,7 @@
 	<property name="Class" value="UpgradeRated"/>
 		<property name="UpgradeRated.ToBlock" value="cntPillCaseEmpty4"/>
 		<property name="UpgradeRated.Rate" value="63"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#Entities/LootContainers?pill_case_emptyPrefab.prefab"/> <property name="HandleFace" value="South"/>
 	<property name="StabilitySupport" value="false"/> <!-- build restriction -->
@@ -3542,7 +3500,7 @@
 	<property name="Class" value="UpgradeRated"/>
 		<property name="UpgradeRated.ToBlock" value="cntPillCaseEmpty5"/>
 		<property name="UpgradeRated.Rate" value="63"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#Entities/LootContainers?pill_case_emptyPrefab.prefab"/> <property name="HandleFace" value="South"/>
 	<property name="StabilitySupport" value="false"/> <!-- build restriction -->
@@ -3554,7 +3512,7 @@
 	<property name="Class" value="UpgradeRated"/>
 		<property name="UpgradeRated.ToBlock" value="cntPillCaseEmpty6"/>
 		<property name="UpgradeRated.Rate" value="63"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#Entities/LootContainers?pill_case_emptyPrefab.prefab"/> <property name="HandleFace" value="South"/>
 	<property name="StabilitySupport" value="false"/> <!-- build restriction -->
@@ -3566,7 +3524,7 @@
 	<property name="Class" value="UpgradeRated"/>
 		<property name="UpgradeRated.ToBlock" value="cntPillCaseRandomLootHelper"/>
 		<property name="UpgradeRated.Rate" value="63"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#Entities/LootContainers?pill_case_emptyPrefab.prefab"/> <property name="HandleFace" value="South"/>
 	<property name="StabilitySupport" value="false"/> <!-- build restriction -->
@@ -4092,194 +4050,6 @@
 	<property name="DowngradeBlock" value="cntTiltTruckFullFliesEmpty" />
 	</append>
 <!-- TILT TRUCK WITH FLIES -->
-<!-- DOMED TRASH CAN -->
-	<append xpath="/blocks/block[@name='cntDomedTrashCanEmpty']">
-	<property name="Class" value="UpgradeRated"/>
-	<property name="UpgradeRated.ToBlock" value="cntDomedTrashCanEmpty1"/>
-	<property name="UpgradeRated.Rate" value="63"/>	
-	</append>
-<insertAfter xpath="/blocks/block[@name='cntDomedTrashCanEmpty']">
-	<block name="cntDomedTrashCanEmpty1">
-	<property name="Extends" value="cntDomedTrashCanEmpty"/>
-	<property name="CreativeMode" value="Dev"/>
-	<property name="Model" value="#Entities/LootContainers?domedTrashCanEmptyPrefab.prefab"/>
-	<property class="RepairItems"> <property name="resourceScrapIron" value="30"/> </property>
-	<drop event="Destroy" name="resourceScrapIron" count="1,15"/>
-	<drop event="Fall" count="0" stick_chance="0"/>
-	<property name="Class" value="UpgradeRated"/>
-	<property name="UpgradeRated.ToBlock" value="cntDomedTrashCanEmpty2"/>
-	<property name="UpgradeRated.Rate" value="63"/>
-	</block>
-</insertAfter>
-<insertAfter xpath="/blocks/block[@name='cntDomedTrashCanEmpty1']">
-	<block name="cntDomedTrashCanEmpty2">
-	<property name="Extends" value="cntDomedTrashCanEmpty"/>
-	<property name="CreativeMode" value="Dev"/>
-	<property name="Model" value="#Entities/LootContainers?domedTrashCanEmptyPrefab.prefab"/>
-	<property class="RepairItems"> <property name="resourceScrapIron" value="30"/> </property>
-	<drop event="Destroy" name="resourceScrapIron" count="1,15"/>
-	<drop event="Fall" count="0" stick_chance="0"/>
-	<property name="Class" value="UpgradeRated"/>
-	<property name="UpgradeRated.ToBlock" value="cntDomedTrashCanEmpty3"/>
-	<property name="UpgradeRated.Rate" value="63"/>
-	</block>
-</insertAfter>
-<insertAfter xpath="/blocks/block[@name='cntDomedTrashCanEmpty2']">
-	<block name="cntDomedTrashCanEmpty3">
-	<property name="Extends" value="cntDomedTrashCanEmpty"/>
-	<property name="CreativeMode" value="Dev"/>
-	<property name="Model" value="#Entities/LootContainers?domedTrashCanEmptyPrefab.prefab"/>
-	<property class="RepairItems"> <property name="resourceScrapIron" value="30"/> </property>
-	<drop event="Destroy" name="resourceScrapIron" count="1,15"/>
-	<drop event="Fall" count="0" stick_chance="0"/>
-	<property name="Class" value="UpgradeRated"/>
-	<property name="UpgradeRated.ToBlock" value="cntDomedTrashCanEmpty4"/>
-	<property name="UpgradeRated.Rate" value="63"/>
-	</block>
-</insertAfter>	
-<insertAfter xpath="/blocks/block[@name='cntDomedTrashCanEmpty3']">
-	<block name="cntDomedTrashCanEmpty4">
-	<property name="Extends" value="cntDomedTrashCanEmpty"/>
-	<property name="CreativeMode" value="Dev"/>
-	<property name="Model" value="#Entities/LootContainers?domedTrashCanEmptyPrefab.prefab"/>
-	<property class="RepairItems"> <property name="resourceScrapIron" value="30"/> </property>
-	<drop event="Destroy" name="resourceScrapIron" count="1,15"/>
-	<drop event="Fall" count="0" stick_chance="0"/>
-	<property name="Class" value="UpgradeRated"/>
-	<property name="UpgradeRated.ToBlock" value="cntDomedTrashCanEmpty5"/>
-	<property name="UpgradeRated.Rate" value="63"/>
-	</block>
-</insertAfter>	
-<insertAfter xpath="/blocks/block[@name='cntDomedTrashCanEmpty4']">
-	<block name="cntDomedTrashCanEmpty5">
-	<property name="Extends" value="cntDomedTrashCanEmpty"/>
-	<property name="CreativeMode" value="Dev"/>
-	<property name="Model" value="#Entities/LootContainers?domedTrashCanEmptyPrefab.prefab"/>
-	<property class="RepairItems"> <property name="resourceScrapIron" value="30"/> </property>
-	<drop event="Destroy" name="resourceScrapIron" count="1,15"/>
-	<drop event="Fall" count="0" stick_chance="0"/>
-	<property name="Class" value="UpgradeRated"/>
-	<property name="UpgradeRated.ToBlock" value="cntDomedTrashCanEmpty6"/>
-	<property name="UpgradeRated.Rate" value="63"/>
-	</block>
-</insertAfter>	
-<insertAfter xpath="/blocks/block[@name='cntDomedTrashCanEmpty5']">
-	<block name="cntDomedTrashCanEmpty6">
-	<property name="Extends" value="cntDomedTrashCanEmpty"/>
-	<property name="CreativeMode" value="Dev"/>
-	<property name="Model" value="#Entities/LootContainers?domedTrashCanEmptyPrefab.prefab"/>
-	<property class="RepairItems"> <property name="resourceScrapIron" value="30"/> </property>
-	<drop event="Destroy" name="resourceScrapIron" count="1,15"/>
-	<drop event="Fall" count="0" stick_chance="0"/>
-	<property name="Class" value="UpgradeRated"/>
-	<property name="UpgradeRated.ToBlock" value="cntDomedTrashCanRandomLootHelper"/>
-	<property name="UpgradeRated.Rate" value="63"/>
-	</block>
-</insertAfter>
-	<append xpath="/blocks/block[@name='cntDomedTrashCanFull']">
-	<property name="DowngradeBlock" value="cntDomedTrashCanEmpty" />
-	</append>
-<!-- DOMED TRASH CAN -->
-<!-- BRUTE STYLE TRASH CAN -->
-	<append xpath="/blocks/block[@name='cntBruteStyleTrashCanEmpty']">
-	<property name="Class" value="UpgradeRated"/>
-	<property name="UpgradeRated.ToBlock" value="cntBruteStyleTrashCanEmpty1"/>
-	<property name="UpgradeRated.Rate" value="63"/>	
-	</append>
-<insertAfter xpath="/blocks/block[@name='cntBruteStyleTrashCanEmpty']">	
-	<block name="cntBruteStyleTrashCanEmpty1">
-	<property name="Extends" value="cntBruteStyleTrashCanEmpty"/>
-	<property name="CreativeMode" value="Dev"/>
-	<property name="Model" value="#Entities/LootContainers?bruteStyleTrashCanEmptyPrefab.prefab"/>
-	<property name="IsTerrainDecoration" value="true"/>
-	<property class="RepairItems"> <property name="resourceScrapPolymers" value="14"/> </property>
-	<drop event="Harvest" name="resourceScrapPolymers" count="2,7" tag="allHarvest"/>
-	<drop event="Destroy" count="0"/>
-	<drop event="Fall" count="0" stick_chance="0"/>
-	<property name="Class" value="UpgradeRated"/>
-	<property name="UpgradeRated.ToBlock" value="cntBruteStyleTrashCanEmpty2"/>
-	<property name="UpgradeRated.Rate" value="63"/>	
-	</block>
-</insertAfter>
-<insertAfter xpath="/blocks/block[@name='cntBruteStyleTrashCanEmpty1']">
-	<block name="cntBruteStyleTrashCanEmpty2">
-	<property name="Extends" value="cntBruteStyleTrashCanEmpty"/>
-	<property name="CreativeMode" value="Dev"/>
-	<property name="Model" value="#Entities/LootContainers?bruteStyleTrashCanEmptyPrefab.prefab"/>
-	<property name="IsTerrainDecoration" value="true"/>
-	<property class="RepairItems"> <property name="resourceScrapPolymers" value="14"/> </property>
-	<drop event="Harvest" name="resourceScrapPolymers" count="2,7" tag="allHarvest"/>
-	<drop event="Destroy" count="0"/>
-	<drop event="Fall" count="0" stick_chance="0"/>
-	<property name="Class" value="UpgradeRated"/>
-	<property name="UpgradeRated.ToBlock" value="cntBruteStyleTrashCanEmpty3"/>
-	<property name="UpgradeRated.Rate" value="63"/>	
-	</block>
-</insertAfter>
-<insertAfter xpath="/blocks/block[@name='cntBruteStyleTrashCanEmpty2']">	
-	<block name="cntBruteStyleTrashCanEmpty3">
-	<property name="Extends" value="cntBruteStyleTrashCanEmpty"/>
-	<property name="CreativeMode" value="Dev"/>
-	<property name="Model" value="#Entities/LootContainers?bruteStyleTrashCanEmptyPrefab.prefab"/>
-	<property name="IsTerrainDecoration" value="true"/>
-	<property class="RepairItems"> <property name="resourceScrapPolymers" value="14"/> </property>
-	<drop event="Harvest" name="resourceScrapPolymers" count="2,7" tag="allHarvest"/>
-	<drop event="Destroy" count="0"/>
-	<drop event="Fall" count="0" stick_chance="0"/>
-	<property name="Class" value="UpgradeRated"/>
-	<property name="UpgradeRated.ToBlock" value="cntBruteStyleTrashCanEmpty4"/>
-	<property name="UpgradeRated.Rate" value="63"/>	
-	</block>
-</insertAfter>	
-<insertAfter xpath="/blocks/block[@name='cntBruteStyleTrashCanEmpty3']">	
-	<block name="cntBruteStyleTrashCanEmpty4">
-	<property name="Extends" value="cntBruteStyleTrashCanEmpty"/>
-	<property name="CreativeMode" value="Dev"/>
-	<property name="Model" value="#Entities/LootContainers?bruteStyleTrashCanEmptyPrefab.prefab"/>
-	<property name="IsTerrainDecoration" value="true"/>
-	<property class="RepairItems"> <property name="resourceScrapPolymers" value="14"/> </property>
-	<drop event="Harvest" name="resourceScrapPolymers" count="2,7" tag="allHarvest"/>
-	<drop event="Destroy" count="0"/>
-	<drop event="Fall" count="0" stick_chance="0"/>
-	<property name="Class" value="UpgradeRated"/>
-	<property name="UpgradeRated.ToBlock" value="cntBruteStyleTrashCanEmpty5"/>
-	<property name="UpgradeRated.Rate" value="63"/>	
-	</block>
-</insertAfter>	
-<insertAfter xpath="/blocks/block[@name='cntBruteStyleTrashCanEmpty4']">	
-	<block name="cntBruteStyleTrashCanEmpty5">
-	<property name="Extends" value="cntBruteStyleTrashCanEmpty"/>
-	<property name="CreativeMode" value="Dev"/>
-	<property name="Model" value="#Entities/LootContainers?bruteStyleTrashCanEmptyPrefab.prefab"/>
-	<property name="IsTerrainDecoration" value="true"/>
-	<property class="RepairItems"> <property name="resourceScrapPolymers" value="14"/> </property>
-	<drop event="Harvest" name="resourceScrapPolymers" count="2,7" tag="allHarvest"/>
-	<drop event="Destroy" count="0"/>
-	<drop event="Fall" count="0" stick_chance="0"/>
-	<property name="Class" value="UpgradeRated"/>
-	<property name="UpgradeRated.ToBlock" value="cntBruteStyleTrashCanEmpty6"/>
-	<property name="UpgradeRated.Rate" value="63"/>	
-	</block>
-</insertAfter>	
-<insertAfter xpath="/blocks/block[@name='cntBruteStyleTrashCanEmpty5']">	
-	<block name="cntBruteStyleTrashCanEmpty6">
-	<property name="Extends" value="cntBruteStyleTrashCanEmpty"/>
-	<property name="CreativeMode" value="Dev"/>
-	<property name="Model" value="#Entities/LootContainers?bruteStyleTrashCanEmptyPrefab.prefab"/>
-	<property name="IsTerrainDecoration" value="true"/>
-	<property class="RepairItems"> <property name="resourceScrapPolymers" value="14"/> </property>
-	<drop event="Harvest" name="resourceScrapPolymers" count="2,7" tag="allHarvest"/>
-	<drop event="Destroy" count="0"/>
-	<drop event="Fall" count="0" stick_chance="0"/>
-	<property name="Class" value="UpgradeRated"/>
-	<property name="UpgradeRated.ToBlock" value="cntBruteStyleTrashCanRandomLootHelper"/>
-	<property name="UpgradeRated.Rate" value="63"/>	
-	</block>
-</insertAfter>
-	<append xpath="/blocks/block[@name='cntBruteStyleTrashCanFull']">
-	<property name="DowngradeBlock" value="cntBruteStyleTrashCanEmpty" />
-	</append>
-<!-- BRUTE STYLE TRASH CAN -->
 					
 		<!-- **************************************************************************** -->	
 <!-- New Blocks -->

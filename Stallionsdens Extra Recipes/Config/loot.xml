@@ -1,0 +1,14 @@
+<Stallionsden>
+<append xpath="/lootcontainers/lootgroup[@name='cupboard']">	
+		<item name="hessianBag" count="1,5" />
+</append>
+<append xpath="/lootcontainers/lootgroup[@name='junk']">	
+		<item name="hessianBag" count="1,5" />
+</append>
+<append xpath="/lootcontainers/lootgroup[@name='garbage']">	
+		<item name="hessianBag" count="1,5" />
+</append>
+<append xpath="/lootcontainers/lootgroup[@name='backpacks/survival']">	
+		<item name="hessianBag" count="1,5" />
+</append>
+</Stallionsden>

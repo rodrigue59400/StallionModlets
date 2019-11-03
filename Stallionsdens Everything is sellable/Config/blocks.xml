@@ -1,0 +1,733 @@
+<stallionsden>
+<append xpath="/blocks/block[@name='woodStairs50']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='concreteStairs50']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='flagstoneGable']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='rebarDestroyed']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='sandbagStraight01']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='plantedMushroom3Harvest']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='ductSoft']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='ductControlPanel']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='controlPanelBase01']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='signRoadArrowheadApache']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='signShopGas']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='signShopGunStore']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='signShopBookStore']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='signShopPharmacy']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='signShopToolStore']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='signShopGrocery']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='playerSignWood1x1']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntChest01']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntStorageChest']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntStorageGenericInsecure']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntCabinetBottom']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntWallOven']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntCupboardCabinetRedTopClosed']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntCupboardCornerCNRRed']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntCupboardCabinetFullRedTopClosed']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntCabinetOldBottom']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntCupboardCabinetOldTopClosed']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntCupboardCornerCNROld']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntCupboardCabinetFullOldTopClosed']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntGasGrillClosed']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntCharcoalGrillClosed']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntWoodBurningStove']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntMicrowaveOvenVer1Closed']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntToaster']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntCoffeeMaker']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntCoffeeMakerCommercial']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntSodaFountain']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntFridgeStainlessSteel']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntBeerCooler']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntIceMachine']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntDryerClosed']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntLaundryBasketVer1Empty']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='radiatorHouse01Player']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntFancyGarbageCan']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntDumpster']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='cable1']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='conduit01']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntNightstandClosed']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntNightstandClosed']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntMedicineCabinetClosed']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntPillCaseClosed']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='mirror']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntWeaponsBagSmall']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntAmmoPileSmall']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntMedicalPileSmall']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntMedicLootPileA']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='pictureFrame']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='paintingBen']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='heatVent']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='heatVentIndustrial']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='schoolDesk']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='coffeeTable']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='metalTablePillar0.025CTR']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='decoPicnicTable']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='woodChair1']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='oldChair1']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='barracksChair']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='pew_segment01']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='parkBenchA']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntWaterCoolerBottle']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='wineBarrel']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='decoComputerDeskTopPC']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='tv']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='decoPoolTable']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='decoClassicDogHouse']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='decoLargePetCage']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='decoMetalSlide']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='decoSwingSet']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='decoBasketBallHoop']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='decoStationaryBike']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='decoTreadmill']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='decoWeightBar']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='decoBenchPress']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='bed01Frame']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntFileCabinetShortClosed']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntFileCabinetTallClosed']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntLockersShortClosed']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntLockersTallClosed']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntLockersTallDoubleClosed']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntLockersTallMixClosed']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntLockersTallMixLinkClosed']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntCoffin']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='decoClawFootBathTub']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntBookcaseFull']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntPillCase']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntCashRegister']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntShoppingBasketEmpty']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntToolBoxClosed']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntRollingToolBoxClosed']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntSuitcase']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntLuggageMediumClosed']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntLuggageBigClosed']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntLuggagePileAClosed']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntLuggagePileBClosed']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='modularFireWoodStackA']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='decoWildWestWagon']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='decoWildWestWagonWheelBack']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='decoCowSkull']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='modularRopeTiled']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='poleTop01']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='airConditionVentFanDouble']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='graveStone01']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='palletWhiteBagsBase']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='palletBrownBoxesBase']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='palletBricksBase']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='palletBlueTarpBase']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='palletCompressedCardboard']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='tableSaw']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='streetLight01']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='streetLightClassic']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='chandelierLight']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='endTable']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='endTableLamp']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='signExitLight']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='roadBarricadeLight']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='spotlightNailedDownPOI']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='ceilingLight01_player']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='lanternLight_player']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='wallTorchLight']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='torchWallHolder']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='candleWallLight']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='wallTorchLightPlayer']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='candleWallLightPlayer']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='burningBarrelPlayer']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='xRayDisplayLight1']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='flagPoleWhiteRiver']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='loudspeaker']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='doorTrimTop']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='doorFrameWhite1']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='doorFrameWhiteBoarded1']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='doorFrameMetal1']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='woodBarsCentered']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='concreteBarrier1']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='jailBars']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='secureReinforcedDoorWooden']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='metalReinforcedDoorWooden']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='vaultDoor03']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='vaultDoor03_Powered']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='commercialDoor1_v1']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='commercialDoor1_v2']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='commercialDoor1_v3']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='houseFrontDoor1_v1']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='garageDoorMetal_v1']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='garageDoorHouse']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='garageDoorHousePlayer']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='garageDoorHouseBrown']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='garageDoorIndustrial']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='garageDoorIndustrial_Powered']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='metalReinforcedWoodDrawBridge']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='glassShowerBlock']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='glassShowerRamp']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='woodCrown']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='woodWindowTrim']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='boardedWindowsSheet4']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='plywoodOsbCTRPlate']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='plainWoodBarricade02CTRPlate']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='woodBarricadeCTRPlate']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='woodBarricade2CTRPlate']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='plainWoodWindowPlug']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='WindowPlug01']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='WindowPlug02']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='WindowPlug03']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='WindowPlug04']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='scrapIronWindowPlug05CTRPlate']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='rScrapIronWindowPlug06CTRPlate']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='looseBoardsTrapBlock1x1']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='fakeCabinetDoorTrap1x1Sheet']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='fakeCabinetDoorTrap1x2Sheet']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='fakeCabinetDoorTrap1x1SheetMetal']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='fakeCabinetDoorTrap1x2SheetMetal']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='hubcapNoMine']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntBarrelMetalMaster']">
+<property name="EconomicValue" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntBarrelPolymerMaster']">
+<property name="EconomicValue" value="15"/>
+</append>	
+</stallionsden>
