@@ -1030,7 +1030,7 @@
 	<item name="theBBQSchematic">
 	<property name="Extends" value="schematicNoQualityMaster"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="CustomIcon" value="TheWeber9000"/>
+	<property name="CustomIcon" value="theBBQSchematic"/>
 	<property name="Unlocks" value="TheWeber9000"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="TheWeber9000" operation="set" value="1"/>
