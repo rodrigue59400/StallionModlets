@@ -1,0 +1,3 @@
+<stallionsden>
+<set xpath="/buffs/buff[@name='god']/effect_group//passive_effect[@name='CarryCapacity']/@value">187</set>
+</stallionsden>

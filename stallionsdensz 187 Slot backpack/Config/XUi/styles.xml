@@ -1,7 +1,7 @@
 <stallionsden>
 	<!-- Make the icon select area a bit smaller so there's no overlap -->	
-    <set xpath="/styles/style[@name='itemStack']/style_entry[@name='width']/@value">70</set>
-    <set xpath="/styles/style[@name='itemStack']/style_entry[@name='height']/@value">70</set>
+    <set xpath="/styles/style[@name='itemStack']/style_entry[@name='width']/@value">75</set>
+    <set xpath="/styles/style[@name='itemStack']/style_entry[@name='height']/@value">75</set>
 <insertAfter xpath="/styles/style[@name='crafting.info.window']">
 <style name="backpack_itemStack">
 <style_entry name="select_color" value="[beige]"/>

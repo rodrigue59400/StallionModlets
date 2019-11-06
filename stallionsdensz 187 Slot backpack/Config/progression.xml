@@ -18,5 +18,5 @@
 <set xpath="/progression/perks/perk[@name='perkSelfMedicated']/level_requirements[@level='5']/requirement[@name='ProgressionLevel']/@value">0</set> -->
 
 <!-- Change Pack Mule Perk to unlock all slots -->
-	<set xpath="/progression/perks/perk[@name='perkPackMule']/effect_group/passive_effect[@name='CarryCapacity'][@value='3,6,10,14,18']/@value">375</set>
+	<set xpath="/progression/perks/perk[@name='perkPackMule']/effect_group/passive_effect[@name='CarryCapacity'][@value='3,6,10,14,18']/@value">187</set>
 </stallionsden>

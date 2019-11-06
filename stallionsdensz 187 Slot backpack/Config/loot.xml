@@ -1,0 +1,4 @@
+<stallionsden>
+	<!-- Player dropped backpack-->
+	<set xpath="/lootcontainers/lootcontainer[@id='2']/@size">20,11</set>
+</stallionsden>
