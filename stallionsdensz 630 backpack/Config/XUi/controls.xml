@@ -1,7 +1,7 @@
 <stallionsden>
 <append xpath="/controls">
 	<!-- Make cells not look like crap and item icons fit properly -->
-	<kh60_backpack_item_stack>
+	<Stallionsbackpack_item_stack>
 		<rect controller="ItemStack" style="itemStack, hover" collider_scale="1" >
 			<sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="53" height="53" color="[black]" type="sliced" fillcenter="false" />	
 			<sprite depth="3" name="background" sprite="menu_empty3px" width="48" height="48" color="[darkGrey]" type="sliced" globalopacity="true" fillcenter="false"/>
@@ -25,6 +25,6 @@
 			<!--*#$-IGS END.-$#-->
 			<sprite depth="13" name="assembleIcon" size="21,21" sprite="{stacklockicon}" color="{stacklockcolor}" visible="{isassemblelocked}" pos="14,-14" foregroundlayer="true" />
 		</rect>
-	</kh60_backpack_item_stack>
+	</Stallionsbackpack_item_stack>
 </append>
 </stallionsden>
