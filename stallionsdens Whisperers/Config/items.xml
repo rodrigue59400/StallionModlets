@@ -223,21 +223,19 @@
 </item>
 
 	<item name="zombieSkin">
-	<property name="Extends" value="resourceLeather" param1="CustomIcon"/>
-	<property name="CustomIcon" value="zombieSkin"/>
-	<property name="CustomIconTint" value="87,87,87"/>
-	<property name="HoldType" value="45"/>
-	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
-	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-	<property name="Material" value="MresourceLeather"/>
-	<property name="Weight" value="5"/>
-	<property name="Stacknumber" value="250"/> <!-- STK resource -->
-	<property name="FuelValue" value="5"/>
-	<property name="EconomicValue" value="22"/>
-	<property name="Group" value="Resources,Clothing"/>
-	<property name="CraftingIngredientTime" value="2"/>
-	<property name="CraftingSkillGroup" value="craftSkillMiscellaneous"/>
-</item>
+				<property name="CustomIcon" value="zombieSkin"/>
+				<property name="CustomIconTint" value="87,87,87"/> 
+				<property name="HoldType" value="45"/>
+				<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+				<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+				<property name="Material" value="MresourceLeather"/>
+				<property name="Weight" value="5"/>
+				<property name="Stacknumber" value="250"/> <!-- STK resource -->
+				<property name="FuelValue" value="5"/>
+				<property name="EconomicValue" value="22"/>
+				<property name="Group" value="Resources"/>
+				<property name="CraftingIngredientTime" value="2"/>
+		</item>
    </append>
    
 <!-- ************************************************************************************************  -->
