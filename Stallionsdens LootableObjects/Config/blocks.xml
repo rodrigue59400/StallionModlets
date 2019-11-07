@@ -129,14 +129,10 @@
 		<block name="sectionalPlaidCouchSofaMiddleFull"><property name="Extends" value="sectionalPlaidCouchSofaMiddleEmpty"/></block>
 		<block name="sectionalPlaidCouchSofaCornerEmpty"><property name="Extends" value="sectionalPlaidCouchSofaCorner"/></block>
 		<block name="sectionalPlaidCouchSofaCornerFull"><property name="Extends" value="sectionalPlaidCouchSofaCornerEmpty"/></block>
-		<block name="sectionalPlaidCouchSofaArmEmpty"><property name="Extends" value="sectionalPlaidCouchSofaArm"/></block>
-		<block name="sectionalPlaidCouchSofaArmFull"><property name="Extends" value="sectionalPlaidCouchSofaArmEmpty"/></block>
 		<block name="sectionalLeatherCouchSofaMiddleEmpty"><property name="Extends" value="sectionalLeatherCouchSofaMiddle"/></block>
 		<block name="sectionalLeatherCouchSofaMiddleFull"><property name="Extends" value="sectionalLeatherCouchSofaMiddleEmpty"/></block>
 		<block name="sectionalLeatherCouchSofaCornerEmpty"><property name="Extends" value="sectionalLeatherCouchSofaCorner"/></block>
 		<block name="sectionalLeatherCouchSofaCornerFull"><property name="Extends" value="sectionalLeatherCouchSofaCornerEmpty"/></block>
-		<block name="sectionalLeatherCouchSofaArmEmpty"><property name="Extends" value="sectionalLeatherCouchSofaArm"/></block>
-		<block name="sectionalLeatherCouchSofaArmFull"><property name="Extends" value="sectionalLeatherCouchSofaArmEmpty"/></block>
 		<block name="chairCouchSofa01Empty"><property name="Extends" value="chairCouchSofa01"/></block>
 		<block name="chairCouchSofa01Full"><property name="Extends" value="chairCouchSofa01Empty"/></block>
 		<block name="leatherChairCouchSofa2Empty"><property name="Extends" value="leatherChairCouchSofa2"/></block>
@@ -168,10 +164,8 @@
 	</append>
 	<append xpath="/blocks/block[@name='sectionalPlaidCouchSofaMiddleFull' or
 								 @name='sectionalPlaidCouchSofaCornerFull' or
-								 @name='sectionalPlaidCouchSofaArmFull' or
 								 @name='sectionalLeatherCouchSofaMiddleFull' or
 								 @name='sectionalLeatherCouchSofaCornerFull' or
-								 @name='sectionalLeatherCouchSofaArmFull' or
 								 @name='chairCouchSofa01Full' or
 								 @name='leatherChairCouchSofa2Full']">
 			<property name="Class" value="Loot"/>
