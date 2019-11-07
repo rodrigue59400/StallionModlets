@@ -4688,7 +4688,7 @@
 	<property name="LockPickItem" value="resourceLockPick"/>
 	<property name="LockPickTime" value="15"/>
 	<property name="LockPickBreakChance" value="0.10"/>	
-	<property name="DowngradeBlock" value="cntMunitionsBoxRandomLootHelper"/>
+	<property name="DowngradeBlock" value="cntMunitionsBoxInsecure"/>
 	<property name="EconomicValue" value="250"/> <!-- disassemble value -->
 	<property name="FilterTags" value="floot"/>
 </block>
@@ -4796,7 +4796,7 @@
 	<property name="LockPickItem" value="resourceLockPick"/>
 	<property name="LockPickTime" value="15"/>
 	<property name="LockPickBreakChance" value="0.10"/>	
-	<property name="DowngradeBlock" value="cntDumpsterRandomLootHelper" />
+	<property name="DowngradeBlock" value="cntDumpsterInsecure" />
 	<property name="LootList" value="66"/>
 	</block>
 <block name="cntDumpsterInsecure">
@@ -4894,7 +4894,7 @@
 	<property name="LockPickItem" value="resourceLockPick"/>
 	<property name="LockPickTime" value="15"/>
 	<property name="LockPickBreakChance" value="0.10"/>	
-	<property name="DowngradeBlock" value="cntDumpsterFliesRandomLootHelper"/>
+	<property name="DowngradeBlock" value="cntDumpsterFliesInsecure"/>
 	<property name="LootList" value="66"/>
 	</block>
 <block name="cntDumpsterFliesInsecure">
