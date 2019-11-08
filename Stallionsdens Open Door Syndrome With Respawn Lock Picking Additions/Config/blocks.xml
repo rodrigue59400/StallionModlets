@@ -5,9 +5,10 @@
 	<remove xpath="/blocks/block[@name='cntCabinetBottomBrokenDoor']"></remove>
 	<remove xpath="/blocks/block[@name='cntCupboardCornerCNROld']"></remove>
 	<remove xpath="/blocks/block[@name='cntCupboardCabinetFullOldTopClosed']"></remove>
+	<remove xpath="/blocks/block[@name='cntPillCase']"></remove>
 	
 	<remove xpath="/blocks/block[@name='cntWallOven']"></remove>	
-	<remove xpath="/blocks/block[@name='cntTrashPile01']" ></remove>	
+	<!--<remove xpath="/blocks/block[@name='cntTrashPile01']" ></remove>	-->
 	<remove xpath="/blocks/block[@name='cntBin']" ></remove>	
 	<remove xpath="/blocks/block[@name='cntWashingMachine']" ></remove>	
 	<remove xpath="/blocks/block[@name='cntSuitcase']" ></remove>
@@ -32,7 +33,7 @@
 	<property name="FilterTags" value="floot,ffurniture"/>
 </block>
 </insertAfter>
-<insertAfter xpath="/blocks/block[@name='cntTrashCompactor']">
+<!--<insertAfter xpath="/blocks/block[@name='cntTrashCompactor']">
 <block name="cntTrashPile01">
 	<property name="Tags" value="trashPile"/>
 	<property name="Class" value="Loot"/>
@@ -45,14 +46,14 @@
 	<property name="Collide" value="melee,bullet,arrow,rocket"/>
 	<property name="VehicleHitScale" value="999"/>
 	<property name="IsTerrainDecoration" value="true"/>
-	<property name="LootList" value="258"/>
+	<property name="LootList" value="10"/>
 	<drop event="Harvest" name="resourcePaper" count="1,2" prob="0.3" tag="allHarvest"/>
 	<drop event="Destroy" name="resourceScrapPolymers" count="1,2" prob="0.2" tag="allHarvest"/>
 	<drop event="Destroy" name="resourceMilitaryFiber" prob="0.02" count="1,2" tag="WasteTreasuresCompleteHarvest"/>
 	<property name="ShowModelOnFall" value="false"/>
 	<property name="FilterTags" value="floot,ftrash"/>
 </block>
-</insertAfter>
+</insertAfter>-->
 <insertAfter xpath="/blocks/block[@name='cntTrash_can01']">
 <block name="cntBin">
 	<property name="Class" value="Loot"/>
@@ -1469,8 +1470,6 @@
 	<property name="Extends" value="cntMetalDesk02RandomLootHelper" param1="Class,LootList,CustomIcon"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="Model" value="Furniture/desk02_ver2" param1="main_mesh"/>
-	<property name="DisplayType" value="blockMulti"/>
-	<property name="MultiBlockDim" value="2,1,1"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntMetalDesk02Open1"/>
 	<property name="UpgradeRated.Rate" value="63"/>	
@@ -1480,8 +1479,6 @@
 	<block name="cntMetalDesk02Open1">
 	<property name="Extends" value="cntMetalDesk02RandomLootHelper" param1="DisplayInfo,CustomIcon,CustomIconTint"/>
 	<property name="Model" value="Furniture/desk02_ver2" param1="main_mesh"/>
-	<property name="DisplayType" value="blockMulti"/>
-	<property name="MultiBlockDim" value="2,1,1"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntMetalDesk02Open2"/>
 	<property name="UpgradeRated.Rate" value="63"/>	
@@ -1491,8 +1488,6 @@
 	<block name="cntMetalDesk02Open2">
 	<property name="Extends" value="cntMetalDesk02RandomLootHelper" param1="DisplayInfo,CustomIcon,CustomIconTint"/>
 	<property name="Model" value="Furniture/desk02_ver2" param1="main_mesh"/>
-	<property name="DisplayType" value="blockMulti"/>
-	<property name="MultiBlockDim" value="2,1,1"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntMetalDesk02Open3"/>
 	<property name="UpgradeRated.Rate" value="63"/>
@@ -1502,8 +1497,6 @@
 	<block name="cntMetalDesk02Open3">
 	<property name="Extends" value="cntMetalDesk02RandomLootHelper" param1="DisplayInfo,CustomIcon,CustomIconTint"/>
 	<property name="Model" value="Furniture/desk02_ver2" param1="main_mesh"/>
-	<property name="DisplayType" value="blockMulti"/>
-	<property name="MultiBlockDim" value="2,1,1"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntMetalDesk02Open4"/>
 	<property name="UpgradeRated.Rate" value="63"/>
@@ -1513,8 +1506,6 @@
 	<block name="cntMetalDesk02Open4">
 	<property name="Extends" value="cntMetalDesk02RandomLootHelper" param1="DisplayInfo,CustomIcon,CustomIconTint"/>
 	<property name="Model" value="Furniture/desk02_ver2" param1="main_mesh"/>
-	<property name="DisplayType" value="blockMulti"/>
-	<property name="MultiBlockDim" value="2,1,1"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntMetalDesk02Open5"/>
 	<property name="UpgradeRated.Rate" value="63"/>
@@ -1524,8 +1515,6 @@
 	<block name="cntMetalDesk02Open5">
 	<property name="Extends" value="cntMetalDesk02RandomLootHelper" param1="DisplayInfo,CustomIcon,CustomIconTint"/>
 	<property name="Model" value="Furniture/desk02_ver2" param1="main_mesh"/>
-	<property name="DisplayType" value="blockMulti"/>
-	<property name="MultiBlockDim" value="2,1,1"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntMetalDesk02Open6"/>
 	<property name="UpgradeRated.Rate" value="63"/>
@@ -1535,8 +1524,6 @@
 	<block name="cntMetalDesk02Open6">
 	<property name="Extends" value="cntMetalDesk02RandomLootHelper" param1="DisplayInfo,CustomIcon,CustomIconTint"/>
 	<property name="Model" value="Furniture/desk02_ver2" param1="main_mesh"/>
-	<property name="DisplayType" value="blockMulti"/>
-	<property name="MultiBlockDim" value="2,1,1"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntMetalDesk02RandomLootHelper"/>
 	<property name="UpgradeRated.Rate" value="63"/>
@@ -1549,13 +1536,15 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="Class" value="SecureLoot"/>
 	<property name="LootList" value="24"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="MultiBlockDim" value="2,1,1"/>
 	<property name="LockPickItem" value="resourceLockPick"/>
 	<property name="LockPickTime" value="10"/>
 	<property name="LockPickBreakChance" value="0.10"/>	
 	<property name="DowngradeBlock" value="cntMetalDesk02Closed"/>
 </block>
 </insertAfter>
-	<!--<insertAfter xpath="/blocks/block[@name='cntMetalDesk02Locked']">	
+	<!-- <insertAfter xpath="/blocks/block[@name='cntMetalDesk02Locked']">	
 	<block name="cntMetalDesk02RandomLootHelper">
 	<property name="Extends" value="cntMetalDesk02Closed" />
 	<property name="CreativeMode" value="Dev"/>
@@ -3899,7 +3888,7 @@
 </insertAfter>	
 <insertAfter xpath="/blocks/block[@name='cntPillCaseEmpty6']">	
 	<block name="cntPillCaseLocked">
-	<property name="Extends" value="cntNightstandOpen"/>
+	<property name="Extends" value="cntPillCaseClosed"/>
 	<property name="CustomIcon" value="cntPillCaseClosed"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="Model" value="#Entities/LootContainers?pill_case_closedPrefab.prefab"/> <property name="HandleFace" value="South"/>
@@ -3915,6 +3904,125 @@
 		<property name="DowngradeBlock"	value="cntPillCaseEmpty" />
 		</append>
 <!-- PILL CASE -->
+<!-- MED CASE -->
+<insertAfter xpath="/blocks/block[@name='cntBookcasePoorRandomLootHelper']">
+<block name="MedCaseRandomLootHelper">
+	<property name="Material" value="Mwood_weak"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="cube_half"/>
+	<property name="SortOrder2" value="0060"/> <!-- SortShape -->
+	<property name="Texture" value="25,25,312,312,312,312"/> <!-- 55 wood -->
+	<property name="Place" value="TowardsPlacer90"/>
+	<property class="RepairItems"> <property name="resourceWood" value="10"/> </property>
+	<drop event="Destroy" name="resourceWood" count="1,3"/>
+	<property name="FilterTags" value="floot,ffurniture"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='MedCaseRandomLootHelper']">
+<block name="cntPillCase">
+	<property name="Class" value="Loot"/>
+	<property name="Material" value="Mwood_weak"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="cube_half"/>
+	<property name="SortOrder2" value="0060"/> <!-- SortShape -->
+	<property name="Texture" value="25,25,312,312,312,312"/> <!-- 55 wood -->
+	<property name="Place" value="TowardsPlacer90"/>
+	<property name="LootList" value="51"/>
+	<property name="DowngradeBlock"	value="MedCaseEmpty" />
+	<property class="RepairItems"> <property name="resourceWood" value="10"/> </property>
+	<drop event="Destroy" name="resourceWood" count="1,3"/>
+	<property name="FilterTags" value="floot,ffurniture"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntPillCase']">
+<block name="MedCaseEmpty">
+	<property name="Extends" value="MedCaseRandomLootHelper"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Material" value="Mwood_weak"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="bookcase_empty"/> <property name="Place" value="TowardsPlacer90"/>
+	<property name="Texture" value="269"/>
+	<property name="UseGlobalUV" value="Local"/>
+	<property name="Class" value="UpgradeRated"/>
+		<property name="UpgradeRated.ToBlock" value="MedCaseEmpty1"/>
+		<property name="UpgradeRated.Rate" value="63"/>
+	<property class="RepairItems"> <property name="resourceWood" value="10"/> </property>
+	<drop event="Destroy" name="resourceWood" count="1,3"/>
+	</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='MedCaseEmpty']">
+<block name="MedCaseEmpty1">
+	<property name="Extends" value="MedCaseEmpty"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Model" value="bookcase_empty"/> <property name="Place" value="TowardsPlacer90"/>
+	<property name="Texture" value="269"/>
+	<property name="Class" value="UpgradeRated"/>
+		<property name="UpgradeRated.ToBlock" value="MedCaseEmpty2"/>
+		<property name="UpgradeRated.Rate" value="63"/>
+		<drop event="Destroy" name="resourceWood" count="1,3"/>
+	</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='MedCaseEmpty1']">
+<block name="MedCaseEmpty2">
+	<property name="Extends" value="MedCaseEmpty"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Model" value="bookcase_empty"/> <property name="Place" value="TowardsPlacer90"/>
+	<property name="Texture" value="269"/>
+	<property name="Class" value="UpgradeRated"/>
+		<property name="UpgradeRated.ToBlock" value="MedCaseEmpty3"/>
+		<property name="UpgradeRated.Rate" value="63"/>
+	<drop event="Destroy" name="resourceWood" count="1,3"/>
+	</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='MedCaseEmpty2']">
+<block name="MedCaseEmpty3">
+	<property name="Extends" value="MedCaseEmpty"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Model" value="bookcase_empty"/> <property name="Place" value="TowardsPlacer90"/>
+	<property name="Texture" value="269"/>
+	<property name="Class" value="UpgradeRated"/>
+		<property name="UpgradeRated.ToBlock" value="MedCaseEmpty4"/>
+		<property name="UpgradeRated.Rate" value="63"/>
+	<drop event="Destroy" name="resourceWood" count="1,3"/>
+	</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='MedCaseEmpty3']">
+<block name="MedCaseEmpty4">
+	<property name="Extends" value="MedCaseEmpty"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Model" value="bookcase_empty"/> <property name="Place" value="TowardsPlacer90"/>
+	<property name="Texture" value="269"/>
+	<property name="Class" value="UpgradeRated"/>
+		<property name="UpgradeRated.ToBlock" value="MedCaseEmpty5"/>
+		<property name="UpgradeRated.Rate" value="63"/>
+	<drop event="Destroy" name="resourceWood" count="1,3"/>
+	</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='MedCaseEmpty4']">
+<block name="MedCaseEmpty5">
+	<property name="Extends" value="MedCaseEmpty"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Model" value="bookcase_empty"/> <property name="Place" value="TowardsPlacer90"/>
+	<property name="Texture" value="269"/>
+	<property name="Class" value="UpgradeRated"/>
+		<property name="UpgradeRated.ToBlock" value="MedCaseEmpty6"/>
+		<property name="UpgradeRated.Rate" value="63"/>
+	<drop event="Destroy" name="resourceWood" count="1,3"/>
+	</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='MedCaseEmpty5']">
+<block name="MedCaseEmpty6">
+	<property name="Extends" value="MedCaseEmpty"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Model" value="bookcase_empty"/> <property name="Place" value="TowardsPlacer90"/>
+	<property name="Texture" value="269"/>
+	<property name="Class" value="UpgradeRated"/>
+		<property name="UpgradeRated.ToBlock" value="MedCaseRandomLootHelper"/>
+		<property name="UpgradeRated.Rate" value="63"/>
+	<drop event="Destroy" name="resourceWood" count="1,3"/>
+	</block>
+</insertAfter>
+<!-- MED CASE -->
 <!-- WASHER -->
 	<append xpath="/blocks/block[@name='cntWasherOpen']">
 	<property name="Class" value="UpgradeRated"/>
