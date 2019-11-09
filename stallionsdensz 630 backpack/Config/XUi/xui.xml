@@ -2,7 +2,6 @@
 	<!-- Main scale of UI -->
 	<set xpath="/xui/ruleset[@name='default']/@scale">1.05</set>
 	<set xpath="/xui/ruleset[@name='default']/@stackpanel_scale">0.66</set>
-	<append xpath="/xui/ruleset/window_group[@name='crafting']" >
-		<window name="windowCombine" />
-	</append>
+	 <!-- Player toolbelt window -->
+   	<set xpath="/xui/ruleset/window_group[@name='toolbelt']/window[@name='HUDLeftStatBars']/@name">KHHUDLeftStatBars</set>
 	</stallionsden>
