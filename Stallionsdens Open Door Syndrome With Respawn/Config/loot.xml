@@ -20,7 +20,6 @@
 	<remove xpath="/lootcontainers/lootcontainer[@id='55']"></remove>	
 	<remove xpath="/lootcontainers/lootcontainer[@id='57']"></remove>
 	<remove xpath="/lootcontainers/lootcontainer[@id='58']"></remove>
-	<remove xpath="/lootcontainers/lootcontainer[@id='66']"></remove>
 	<remove xpath="/lootcontainers/lootcontainer[@id='75']"></remove>
 	<remove xpath="/lootcontainers/lootcontainer[@id='106']"></remove>
 	<remove xpath="/lootcontainers/lootcontainer[@id='117']"></remove>
@@ -252,12 +251,6 @@
 	<item group="cupboard"/>
 	<item group="beverages"/>
     </lootcontainer>
-</insertAfter>
-<insertAfter xpath="/lootcontainers/lootcontainer[@id='65']" >
-<!-- gas pump loot -->
-<lootcontainer id="66" count="0,2" size="8,4" destroy_on_close="true" sound_open="UseActions/open_dumpster" sound_close="UseActions/close_dumpster" loot_quality_template="qualBaseTemplate">
-	<item group="junk"/>
-</lootcontainer>
 </insertAfter>
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='74']" >
 <!-- cntGasGrillClosed -->
