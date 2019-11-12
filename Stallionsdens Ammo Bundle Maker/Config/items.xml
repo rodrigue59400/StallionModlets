@@ -1,7 +1,7 @@
 <Stallionsden>
 <append xpath="/items">
 <item name="ammoBundleGasCan">
-	<property name="Extends" value="ammoGasCan"/>
+	<property name="Extends" value="ammoBundle9mmBulletBall"/>
 	<property name="CustomIcon" value="ammoGasCan"/>
 	<property name="EconomicValue" value="500"/>
 	<property class="Action0">
@@ -10,7 +10,7 @@
 	</property>
 </item>
 <item name="ammoBundleRocketFrag">
-	<property name="Extends" value="ammoRocketHE"/>
+	<property name="Extends" value="ammoBundle9mmBulletBall"/>
 	<property name="CustomIcon" value="ammoRocketHE"/>
 	<property name="EconomicValue" value="1140"/>
 	<property class="Action0">
@@ -19,7 +19,7 @@
 	</property>
 </item>
 <item name="ammoBundleRocketHE">
-	<property name="Extends" value="ammoRocketHE"/>
+	<property name="Extends" value="ammoBundle9mmBulletBall"/>
 	<property name="CustomIcon" value="ammoRocketHE"/>
 	<property name="EconomicValue" value="4400"/>
 	<property class="Action0">
@@ -28,7 +28,7 @@
 	</property>
 </item>
 <item name="ammoBundleJunkTurret">
-	<property name="Extends" value="ammoJunkTurret"/>
+	<property name="Extends" value="ammoBundle9mmBulletBall"/>
 	<property name="CustomIcon" value="ammoJunkTurret"/>
 	<property name="EconomicValue" value="4400"/>
 	<property class="Action0">
