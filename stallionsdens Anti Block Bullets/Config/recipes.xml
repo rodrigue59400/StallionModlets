@@ -221,5 +221,245 @@
 	<ingredient name="resourceDuctTape" count="2"/>
 	<ingredient name="resourcePaper" count="10"/>
 </recipe>
+<!-- ********** CONVERTS VANILLA BULLETS TO ANTI BLOCK BULLETS ************************ -->
+<recipe name="9mmBulletBall" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="ammo9mmBulletBall" count="1"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="1"/>
+	<ingredient name="resourceScrapPolymers" count="1"/>
+	</recipe>
+<recipe name="9mmBulletHP" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="ammo9mmBulletHP" count="2"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="1"/>
+	<ingredient name="resourceScrapPolymers" count="1"/>
+	</recipe>
+<recipe name="9mmBulletAP" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="ammo9mmBulletAP" count="1"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="2"/>
+	<ingredient name="resourceScrapPolymers" count="1"/>
+</recipe>
+<recipe name="44MagnumBulletBall" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="ammo44MagnumBulletBall" count="1"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="3"/>
+	<ingredient name="resourceScrapPolymers" count="1"/>
+</recipe>
+<recipe name="44MagnumBulletHP" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="ammo44MagnumBulletHP" count="2"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="3"/>
+	<ingredient name="resourceScrapPolymers" count="1"/>
+</recipe>
+<recipe name="44MagnumBulletAP" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="ammo44MagnumBulletAP" count="1"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="5"/>
+	<ingredient name="resourceScrapPolymers" count="1"/>
+</recipe>
+<recipe name="762mmBulletBall" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="ammo762mmBulletBall" count="1"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="3"/>
+	<ingredient name="resourceScrapPolymers" count="1"/>
+</recipe>
+<recipe name="762mmBulletHP" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="ammo762mmBulletHP" count="2"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="3"/>
+	<ingredient name="resourceScrapPolymers" count="1"/>
+</recipe>
+<recipe name="762mmBulletAP" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="ammo762mmBulletAP" count="1"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="5"/>
+	<ingredient name="resourceScrapPolymers" count="1"/>
+</recipe>
+<recipe name="BlunderbussBalls" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="ammoBlunderbuss" count="1"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="1"/>
+	<ingredient name="resourceScrapPolymers" count="1"/>
+</recipe>
+<recipe name="ShotgunShell" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="ammoShotgunShell" count="1"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="2"/>
+	<ingredient name="resourceScrapPolymers" count="1"/>
+</recipe>
+<recipe name="ShotgunSlug" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="ammoShotgunSlug" count="3"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="3"/>
+	<ingredient name="resourceScrapPolymers" count="1"/>
+</recipe>
+<recipe name="ShotgunBreachingSlug" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="ammoShotgunBreachingSlug" count="4"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="2"/>
+	<ingredient name="resourceScrapPolymers" count="1"/>
+</recipe>
+<recipe name="JunkTurretAmmo" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="ammoJunkTurret" count="3"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="6"/>
+	<ingredient name="resourceScrapPolymers" count="1"/>
+	<ingredient name="resourceDuctTape" count="1"/>
+</recipe>
+<recipe name="ArrowFlaming" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="ammoArrowFlaming" count="1"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="12"/>
+	<ingredient name="resourceCloth" count="1"/>
+	<ingredient name="resourceAnimalFat" count="1"/>
+	<ingredient name="resourceScrapPolymers" count="1"/>
+</recipe>
+<recipe name="ArrowExploding" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="ammoArrowExploding" count="1"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="20"/>
+	<ingredient name="resourceDuctTape" count="1"/>
+	<ingredient name="resourceScrapPolymers" count="1"/>
+</recipe>
+<recipe name="ArrowIron" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="ammoArrowIron" count="1"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="10"/>
+	<ingredient name="resourceFeather" count="1"/>
+	<ingredient name="resourceScrapPolymers" count="1"/>
+</recipe>
+<recipe name="ArrowSteelAP" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="ammoArrowSteelAP" count="1"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="9"/>
+	<ingredient name="resourceScrapPolymers" count="1"/>
+</recipe>
+<recipe name="ArrowStone" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="ammoArrowStone" count="1"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="10"/>
+	<ingredient name="resourceFeather" count="1"/>
+	<ingredient name="resourceScrapPolymers" count="1"/>
+</recipe>
+<recipe name="CrossbowBoltFlaming" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="ammoCrossbowBoltFlaming" count="1"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="20"/>
+	<ingredient name="resourceCloth" count="1"/>
+	<ingredient name="resourceAnimalFat" count="1"/>
+	<ingredient name="resourceScrapPolymers" count="1"/>
+</recipe>
+<recipe name="CrossbowBoltExploding" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="ammoCrossbowBoltExploding" count="1"/>
+	<ingredient name="resourceScrapPolymers" count="2"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="8"/>
+	<ingredient name="resourceDuctTape" count="1"/>
+</recipe>
+<recipe name="CrossbowBoltIron" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="ammoCrossbowBoltIron" count="1"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="5"/>
+	<ingredient name="resourceFeather" count="1"/>
+	<ingredient name="resourceScrapPolymers" count="1"/>
+</recipe>
+<recipe name="CrossbowBoltSteelAP" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="ammoCrossbowBoltSteelAP" count="1"/>
+	<ingredient name="resourceScrapPolymers" count="2"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="5"/>
+</recipe>
+<recipe name="CrossbowBoltStone" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="ammoCrossbowBoltStone" count="1"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="6"/>
+	<ingredient name="resourceFeather" count="1"/>
+	<ingredient name="resourceScrapPolymers" count="1"/>
+</recipe>
+<recipe name="DartIron" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="unit_iron" count="3"/>
+	<ingredient name="unit_clay" count="1"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="6"/>
+	<ingredient name="resourceScrapPolymers" count="1"/>
+</recipe>
+<recipe name="RocketFrag" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="ammoRocketFrag" count="25"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="75"/>
+	<ingredient name="resourceDuctTape" count="2"/>
+	<ingredient name="resourceScrapPolymers" count="10"/>
+	<ingredient name="resourceRocketCasing" count="1"/>
+</recipe>
+<recipe name="RocketHE" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="ammoRocketHE" count="1"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="500"/>
+	<ingredient name="resourceDuctTape" count="2"/>
+	<ingredient name="resourceScrapPolymers" count="5"/>
+	<ingredient name="resourceRocketCasing" count="1"/>
+</recipe>
+<recipe name="CandyTinMine" count="1" craft_area="workbench" tags="workbenchCrafting" > <!-- trap size 1 -->
+	<ingredient name="ammoRocketFrag" count="10"/>
+	<ingredient name="mineCandyTin" count="8"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="100"/>
+	<ingredient name="resourceDuctTape" count="1"/>
+	<ingredient name="resourceScrapPolymers" count="5"/>
+</recipe>
+
+<recipe name="HubcapMine" count="1" craft_area="workbench" tags="learnable,workbenchCrafting"> <!-- trap size 2 -->
+	<ingredient name="mineHubcap" count="15"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="130"/>
+	<ingredient name="resourceScrapPolymers" count="5"/>
+	<ingredient name="resourceDuctTape" count="1"/>
+	<ingredient name="resourceSpring" count="1"/>
+</recipe>
+
+<recipe name="AirFilterMine" count="1" craft_area="workbench" tags="learnable,workbenchCrafting"> <!-- trap size 3 -->
+	<ingredient name="mineAirFilter" count="25"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="200"/>
+	<ingredient name="resourceScrapPolymers" count="5"/>
+	<ingredient name="resourceDuctTape" count="1"/>
+	<ingredient name="resourceSpring" count="1"/>
+</recipe>
+
+<recipe name="CookingPotMine" count="1" craft_area="workbench" tags="learnable,workbenchCrafting"> <!-- trap size 1.1 -->
+	<ingredient name="mineCookingPot" count="10"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="100"/>
+	<ingredient name="toolCookingPot" count="1"/>
+	<ingredient name="resourceDuctTape" count="2"/>
+	<ingredient name="resourceScrapPolymers" count="5"/>
+</recipe>
+<recipe name="ScrapIronPlateMine" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="rScrapIronPlateMine" count="30"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="80"/>
+	<ingredient name="resourceDuctTape" count="1"/>
+	<ingredient name="resourceScrapPolymers" count="5"/>
+</recipe>
+<recipe name="Flare" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="thrownAmmoFlare" count="30"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="80"/>
+	<ingredient name="resourceDuctTape" count="1"/>
+	<ingredient name="resourceScrapPolymers" count="5"/>
+</recipe>
+<recipe name="MolotovCocktail" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="thrownAmmoMolotovCocktail" count="1"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="300"/>
+	<ingredient name="resourceOil" count="1"/>
+	<ingredient name="drinkJarEmpty" count="1"/>
+	<ingredient name="resourceScrapPolymers" count="5"/>
+</recipe>
+
+<recipe name="PipeBomb" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="thrownAmmoPipeBomb" count="1"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="120"/>
+	<ingredient name="resourceMetalPipe" count="1"/>
+	<ingredient name="resourceScrapPolymers" count="5"/>
+</recipe>
+
+<recipe name="Grenade" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="thrownGrenade" count="1"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="140"/>
+	<ingredient name="resourceForgedIron" count="4"/>
+	<ingredient name="resourceSpring" count="1"/>
+	<ingredient name="resourceScrapPolymers" count="5"/>
+</recipe>
+
+<recipe name="GrenadeContact" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="thrownGrenadeContact" count="2"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="140"/>
+	<ingredient name="resourceForgedIron" count="4"/>
+	<ingredient name="resourceScrapPolymers" count="5"/>
+</recipe>
+
+<recipe name="TimedCharge" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="thrownTimedCharge" count="50"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="250"/>
+	<ingredient name="resourceElectricParts" count="10"/>
+	<ingredient name="resourceScrapPolymers" count="5"/>
+	<ingredient name="resourceAcid" count="1"/>
+</recipe>
+
+<recipe name="Dynamite" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="thrownDynamite" count="1"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="200"/>
+	<ingredient name="resourceDuctTape" count="2"/>
+	<ingredient name="resourcePaper" count="10"/>
+	<ingredient name="resourceScrapPolymers" count="5"/>
+</recipe>
 </append>
 </stallionsden>

@@ -1177,7 +1177,7 @@
 </append>
 
 <!-- 9MM AMMO -->
-<append xpath="/items/item[@name='ammoBundle9mmBulletHP']/property[@class='Action0']/property[@name='Create_item']/@value">,9mmBulletBall</append>
+<append xpath="/items/item[@name='ammoBundle9mmBulletBall']/property[@class='Action0']/property[@name='Create_item']/@value">,9mmBulletBall</append>
 <append xpath="/items/item[@name='ammoBundle9mmBulletHP']/property[@class='Action0']/property[@name='Create_item']/@value">,9mmBulletHP</append>
 <append xpath="/items/item[@name='ammoBundle9mmBulletHP']/property[@class='Action0']/property[@name='Create_item']/@value">,9mmBulletAP</append>
 <!-- 9MM AMMO -->
