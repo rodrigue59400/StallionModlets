@@ -1,0 +1,43 @@
+<Stallionsden>
+<append xpath="/lootcontainers/lootgroup[@name='schematicsElectrical']">	
+		<item name="nuclearGeneratorSchematic" count="1" prob="0.01" />
+		<item name="nuclearBatterySchematic" count="1" prob="0.01" />
+		<item name="nuclearSolarSchematic" count="1" prob="0.01" />
+</append>
+<append xpath="/lootcontainers/lootgroup[@name='rareBooks']">	
+		<item name="nuclearGeneratorSchematic" count="1" prob="0.01" />
+		<item name="nuclearBatterySchematic" count="1" prob="0.01" />
+		<item name="nuclearSolarSchematic" count="1" prob="0.01" />
+</append>
+<append xpath="/lootcontainers/lootgroup[@name='schematicsToolsRare']">	
+		<item name="nuclearGeneratorSchematic" count="1" prob="0.01" />
+		<item name="nuclearBatterySchematic" count="1" prob="0.01" />
+		<item name="nuclearSolarSchematic" count="1" prob="0.01" />
+</append>
+<append xpath="/lootcontainers/lootgroup[@name='schematicsModsRare']">	
+		<item name="nuclearGeneratorSchematic" count="1" prob="0.01" />
+		<item name="nuclearBatterySchematic" count="1" prob="0.01" />
+		<item name="nuclearSolarSchematic" count="1" prob="0.01" />
+		</append>
+<append xpath="/lootcontainers/lootgroup[@name='chemistryStationLoot']">	
+		<item name="nuclearGeneratorSchematic" count="1" prob="0.01" />
+		<item name="nuclearBatterySchematic" count="1" prob="0.01" />
+		<item name="nuclearSolarSchematic" count="1" prob="0.01" />
+		</append>
+<append xpath="/lootcontainers/lootgroup[@name='groupQuestSchematics']">	
+		<item name="nuclearGeneratorSchematic" count="1" prob="0.01" />
+		<item name="nuclearBatterySchematic" count="1" prob="0.01" />
+		<item name="nuclearSolarSchematic" count="1" prob="0.01" />
+</append>
+<append xpath="/lootcontainers/lootgroup[@name='groupHeroChestLoot']">	
+		<item name="nuclearGeneratorSchematic" count="1" prob="0.01" />
+		<item name="nuclearBatterySchematic" count="1" prob="0.01" />
+		<item name="nuclearSolarSchematic" count="1" prob="0.01" />
+</append>
+<append xpath="/lootcontainers/lootcontainer[@id='73']">
+		<item name="nuclearGeneratorSchematic" count="1" prob="0.01" />
+		<item name="nuclearBatterySchematic" count="1" prob="0.01" />
+		<item name="nuclearSolarSchematic" count="1" prob="0.01" />
+	</append>
+ 
+</Stallionsden>

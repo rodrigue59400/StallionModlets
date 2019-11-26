@@ -8,7 +8,7 @@
 			<property name="Material" value="MsmallEngine"/>
 			<property name="RepairTools" value="resourceRepairKit"/>
 			<property name="Stacknumber" value="1"/>
-			<property name="UnlockedBy" value="perkYeahScience"/>
+			<property name="UnlockedBy" value="perkYeahScience,nuclearGeneratorSchematic"/>
 			<property name="Material" value="MmechanicalParts"/> <property name="Weight" value="200"/>
 			<property name="EconomicValue" value="1000"/>
 			<property name="Group" value="Resources"/>
@@ -32,7 +32,7 @@
 	<property name="Tags" value="junk"/>
 	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-	<property name="UnlockedBy" value="perkYeahScience"/>
+	<property name="UnlockedBy" value="perkYeahScience,nuclearBatterySchematic"/>
 	<property name="Material" value="MresourceScrapLeadLarge"/>
 	<property name="Stacknumber" value="1"/>
 	<property name="Weight" value="160"/>
@@ -58,7 +58,7 @@
 	<property name="Stacknumber" value="1"/>
 	<property name="Weight" value="10"/>
 	<property name="EconomicValue" value="4000"/>
-	<property name="UnlockedBy" value="perkYeahScience"/>
+	<property name="UnlockedBy" value="perkYeahScience,nuclearSolarSchematic"/>
 	<property name="Group" value="Resources"/>
 	<property name="SellableToTrader" value="false"/>
 	<property name="ShowQuality" value="true"/>
@@ -71,35 +71,32 @@
 	</effect_group>
 </item>	
 
-<item name="nuclearGeneratorBankSchematic">
+<item name="nuclearGeneratorSchematic">
 	<property name="Extends" value="schematicNoQualityMaster"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="CustomIcon" value="batterybank"/>
-	<property name="Unlocks" value="batterybank"/>
+	<property name="Unlocks" value="nuclearGeneratorBank"/>
 	<effect_group tiered="false">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="batterybank" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="nuclearGeneratorBank" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
 	</effect_group>
 </item>
 
-<item name="nuclearBatterybankSchematic">
+<item name="nuclearBatterySchematic">
 	<property name="Extends" value="schematicNoQualityMaster"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="CustomIcon" value="batterybank"/>
-	<property name="Unlocks" value="batterybank"/>
+	<property name="Unlocks" value="nuclearBatteryBank"/>
 	<effect_group tiered="false">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="batterybank" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="nuclearBatteryBank" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
 	</effect_group>
 </item>
 
-<item name="nuclearSolarBankSchematic">
+<item name="nuclearSolarSchematic">
 	<property name="Extends" value="schematicNoQualityMaster"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="CustomIcon" value="batterybank"/>
-	<property name="Unlocks" value="batterybank"/>
+	<property name="Unlocks" value="nuclearSolarBank"/>
 	<effect_group tiered="false">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="batterybank" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="nuclearSolarBank" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
 	</effect_group>
 </item>	
