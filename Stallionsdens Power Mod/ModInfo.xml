@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <ModInfo>
+        <Name value="Stallionsdens Power Mod" />
+        <Description value="Adds power sources that last a long time." />
+        <Author value="Stallionsden" />
+        <Version value="A18.2" />
+    </ModInfo>
+</xml>

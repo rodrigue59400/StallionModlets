@@ -1,0 +1,46 @@
+<Stallionsden>
+<append xpath="/recipes">
+<recipe name="nuclearGeneratorBank" count="1" craft_area="chemistryStation" tags="learnable,perkYeahScience,chemStationCrafting">
+	<ingredient name="resourceForgedSteel" count="100"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="200"/>
+	<ingredient name="generatorbank" count="15"/>
+	<ingredient name="nuclearPoweredEngine" count="10"/>
+	<ingredient name="resourceDuctTape" count="6"/>
+</recipe>
+<recipe name="nuclearPoweredEngine" count="1" craft_area="chemistryStation" tags="learnable,perkYeahScience,chemStationCrafting">
+	<ingredient name="resourceForgedSteel" count="12"/>
+	<ingredient name="resourceOil" count="50"/>
+	<ingredient name="smallEngine" count="5"/>
+	<ingredient name="resourceScrapBrass" count="12"/>
+	<ingredient name="resourceGoldNugget" count="6"/>
+</recipe>
+<recipe name="nuclearBatteryBank" count="1" craft_area="chemistryStation" tags="learnable,perkYeahScience,chemStationCrafting">
+	<ingredient name="resourceForgedIron" count="100"/>
+	<ingredient name="resourceRawDiamond" count="12"/>
+	<ingredient name="batterybank" count="5"/>
+	<ingredient name="nuclearPoweredBattery" count="5"/>
+	<ingredient name="resourceDuctTape" count="3"/>
+</recipe>
+<recipe name="nuclearPoweredBattery" count="1" craft_area="chemistryStation" tags="learnable,perkYeahScience,chemStationCrafting">
+	<ingredient name="resourceForgedIron" count="50"/>
+	<ingredient name="resourceGoldNugget" count="8"/>
+	<ingredient name="resourceDuctTape" count="5"/>
+	<ingredient name="resourceScrapBrass" count="12"/>
+	<ingredient name="carBattery" count="3"/>
+</recipe>
+<recipe name="nuclearSolarBank" count="1" craft_area="chemistryStation" tags="learnable,perkYeahScience,chemStationCrafting">
+	<ingredient name="resourceForgedIron" count="100"/>
+	<ingredient name="resourceRawDiamond" count="12"/>
+	<ingredient name="solarbank" count="5"/>
+	<ingredient name="nuclearSolarCell" count="5"/>
+	<ingredient name="resourceDuctTape" count="3"/>
+</recipe>
+<recipe name="nuclearSolarCell" count="1" craft_area="chemistryStation" tags="learnable,perkYeahScience,chemStationCrafting">
+	<ingredient name="resourceForgedIron" count="50"/>
+	<ingredient name="resourceGoldNugget" count="8"/>
+	<ingredient name="solarCell" count="5"/>
+	<ingredient name="resourceScrapBrass" count="12"/>
+	<ingredient name="resourceDuctTape" count="3"/>
+</recipe>
+</append>
+</Stallionsden>
