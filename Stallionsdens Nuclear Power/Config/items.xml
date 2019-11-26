@@ -42,12 +42,12 @@
 	<property name="ShowQuality" value="true"/>
 	<property class="Attributes">
 		<property name="DegradationMax" value="70000000,75000000"/> <!-- needed for electrical calculations -->
-		<property name="BatteryMaxLoadInVolts" value="24, 36"/>
-		<property name="BatteryDischargeTimeInMinutes" value="30,90"/>
+		<property name="BatteryMaxLoadInVolts" value="70000000, 75000000"/>
+		<property name="BatteryDischargeTimeInMinutes" value="70000000,75000000"/>
 	</property>
 	<effect_group>
 		<passive_effect name="ModSlots" operation="base_set" value="0"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="5000,10000" tier="1,6"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="70000000,75000000" tier="1,6"/>
 	</effect_group>
 </item>
 <item name="nuclearSolarCell">
@@ -67,7 +67,7 @@
 	</property>
 	<effect_group>
 		<passive_effect name="ModSlots" operation="base_set" value="0"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="1000,6000" tier="1,6"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="70000000,75000000" tier="1,6"/>
 	</effect_group>
 </item>	
 
