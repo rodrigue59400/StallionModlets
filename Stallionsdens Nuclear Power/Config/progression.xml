@@ -1,0 +1,5 @@
+<Stallionsden>
+<append xpath="/progression/perks/perk[@name='perkYeahScience']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='3,5']/@tags">,nuclearSolarCell,nuclearSolarBank</append>
+<append xpath="/progression/perks/perk[@name='perkYeahScience']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='4,5']/@tags">,nuclearPoweredBattery,nuclearBatteryBank</append>
+<append xpath="/progression/perks/perk[@name='perkYeahScience']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='5']/@tags">,nuclearPoweredEngine,nuclearGeneratorBank</append>
+</Stallionsden>

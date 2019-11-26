@@ -73,6 +73,7 @@
 
 <item name="nuclearGeneratorSchematic">
 	<property name="Extends" value="schematicNoQualityMaster"/>
+	<property name="CustomIcon" value="nuclearGeneratorSchematic"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="Unlocks" value="nuclearGeneratorBank"/>
 	<effect_group tiered="false">
@@ -83,6 +84,7 @@
 
 <item name="nuclearBatterySchematic">
 	<property name="Extends" value="schematicNoQualityMaster"/>
+	<property name="CustomIcon" value="nuclearBatterySchematic"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="Unlocks" value="nuclearBatteryBank"/>
 	<effect_group tiered="false">
@@ -93,6 +95,7 @@
 
 <item name="nuclearSolarSchematic">
 	<property name="Extends" value="schematicNoQualityMaster"/>
+	<property name="CustomIcon" value="nuclearSolarSchematic"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="Unlocks" value="nuclearSolarBank"/>
 	<effect_group tiered="false">
