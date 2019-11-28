@@ -1,4 +1,4 @@
-Key,Source,Context,Changes,English
+Key,UsedInMainMenu,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish
 shopCabinet,blocks,Container,KgNone,Shop Cabinet
 ShopTopCupboardCabinet,blocks,Container,KgNone,Shop Top Cupboard Cabinet
 shopCornerRedCupboard,blocks,Container,KgNone,shop Corner Red Cupboard

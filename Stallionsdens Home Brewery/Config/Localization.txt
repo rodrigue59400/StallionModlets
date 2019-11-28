@@ -1,4 +1,4 @@
-Key,Source,Context,Changes,English
+Key,UsedInMainMenu,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish
 wineBarrelEmpty,blocks,Container,KgNone,wine Barrel Empty
 wineBarrelSetEmpty,blocks,Container,KgNone,wine Barrel Set Empty 
 wineBarrelPlainEmpty,blocks,Container,KgNone,wine Barrel Plain Empty 

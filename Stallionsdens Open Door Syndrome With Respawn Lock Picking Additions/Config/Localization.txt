@@ -1,4 +1,4 @@
-Key,Source,Context,Changes,English
+Key,UsedInMainMenu,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish
 cntMedicineCabinetLocked,blocks,Container,KgNone,Medicine Cabinet 
 cntCabinetBottomLocked,blocks,Container,KgNone,Cabinet Bottom 
 cntCupboardCabinetRedTopLocked,blocks,Container,KgNone,Cupboard Cabinet Red Top 

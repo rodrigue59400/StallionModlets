@@ -1,4 +1,4 @@
-Key,Source,Context,Changes,English
+Key,UsedInMainMenu,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish
 cntTiltTruckFullFliesEmpty,blocks,Container,KgNone,Tilt Truck Full Flies Empty
 CabinetBottom,blocks,Container,KgNone,Cabinet Bottom
 CupboardCabinetRedTopClosed,blocks,Container,KgNone,Cupboard Cabinet Red Top

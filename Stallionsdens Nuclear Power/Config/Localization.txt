@@ -1,4 +1,4 @@
-Key,Source,Context,Changes,English
+Key,UsedInMainMenu,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish
 nuclearGeneratorBank,blocks,Container,KgNone,nuclear Generator Bank
 nuclearPoweredEngine,items,Item,KgNone,nuclear Powered Engine
 nuclearBatteryBank,blocks,Container,KgNone,nuclear Battery Bank
