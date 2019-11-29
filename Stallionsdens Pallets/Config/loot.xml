@@ -766,7 +766,6 @@
 	<item name="resourceSilverNugget" count="1,5" prob="0.05" />
 	<item name="resourceGoldNugget" count="1,5" prob="0.05" />
 	<item name="resourceRawDiamond" count="1,5" prob="0.05" />
-	<item name="resourceTrophy3" count="1,5" prob="0.05" />
 	<item name="resourcePaint" count="1,5" prob="0.05" />
 	<item name="resourceRocketCasing" count="1,5" prob="0.05" />
 	<item name="resourceRocketTip" count="1,5" prob="0.05" />
