@@ -2156,4 +2156,5 @@
 		<passive_effect name="EntityDamage" operation="perc_add" value="0"/> <!-- Feral damage -->
 	</effect_group>
 </entity_class>
+</insertAfter>
 </Stallionsden>
