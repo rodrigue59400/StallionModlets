@@ -24,351 +24,351 @@
 	</insertAfter>
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='SupplyResources']">	
     <lootgroup name="SupplyDesigns" count="1,6">
-		<item name="modArmorHelmetLightSchematic" prob="0.05"/>
-		<item name="modArmorBandolierSchematic" prob="0.05"/>
-		<item name="modArmorInsulatedLinerSchematic" prob="0.05"/>
-		<item name="modArmorCoolingMeshSchematic" prob="0.05"/>
-		<item name="modArmorPlatingBasicSchematic" prob="0.05"/>
-		<item name="modArmorImprovedFittingsSchematic" prob="0.05"/>
-		<item name="modArmorStoragePocketSchematic" prob="0.05"/>
-		<item name="modArmorDoubleStoragePocketSchematic" prob="0.05"/>
-		<item name="modArmorMuffledConnectorsSchematic" prob="0.05"/>
-		<item name="modGunBarrelExtenderSchematic" prob="0.05"/>
-		<item name="modGunMuzzleBrakeSchematic" prob="0.05"/>
-		<item name="modGunFlashlightSchematic" prob="0.05"/>
-		<item name="modGunScopeSmallSchematic" prob="0.05"/>
-		<item name="modGunScopeMediumSchematic" prob="0.05"/>
-		<item name="modGunReflexSightSchematic" prob="0.05"/>
-		<item name="modGunTriggerGroupSemiSchematic" prob="0.05"/>
-		<item name="modGunBipodSchematic" prob="0.05"/>
-		<item name="modGunForegripSchematic" prob="0.05"/>
-		<item name="modGunRetractingStockSchematic" prob="0.05"/>
-		<item name="modGunDuckbillSchematic" prob="0.05"/>
-		<item name="modGunChokeSchematic" prob="0.05"/>
-		<item name="modGunMagazineExtenderSchematic" prob="0.05"/>
-		<item name="modShotgunSawedOffBarrelSchematic" prob="0.05"/>
-		<item name="modGunCrippleEmSchematic" prob="0.05"/>
-		<item name="modGunBowArrowRestSchematic" prob="0.05"/>
-		<item name="modGunBowPolymerStringSchematic" prob="0.05"/>
-		<item name="modMeleeTemperedBladeSchematic" prob="0.05"/>
-		<item name="modMeleeSerratedBladeSchematic" prob="0.05"/>
-		<item name="modMeleeWeightedHeadSchematic" prob="0.05"/>
-		<item name="modMeleeStructuralBraceSchematic" prob="0.05"/>
-		<item name="modMeleeErgonomicGripSchematic" prob="0.05"/>
-		<item name="modMeleeFortifyingGripSchematic" prob="0.05"/>
-		<item name="modMeleeClubBarbedWireSchematic" prob="0.05"/>
-		<item name="modMeleeClubMetalSpikesSchematic" prob="0.05"/>
-		<item name="modMeleeClubBurningShaftSchematic" prob="0.05"/>
-		<item name="modMeleeGraveDiggerSchematic" prob="0.05"/>
-		<item name="modMeleeWoodSplitterSchematic" prob="0.05"/>
-		<item name="modFuelTankSmallSchematic" prob="0.05"/>
-		<item name="modFuelTankLargeSchematic" prob="0.05"/>
-		<item name="medicalFirstAidBandageSchematic" prob="0.05"/>
-		<item name="medicalBloodDrawKitSchematic" prob="0.05"/>
-		<item name="resourceMilitaryFiberSchematic" prob="0.05"/>
-		<item name="modGunRodAndSpringSchematic" prob="0.05"/>
-		<item name="modGunScopeLargeSchematic" prob="0.05"/>
-		<item name="modGunLaserSightSchematic" prob="0.05"/>
-		<item name="modGunTriggerGroupBurst3Schematic" prob="0.05"/>
-		<item name="modGunSoundSuppressorSilencerSchematic" prob="0.05"/>
-		<item name="modGunTriggerGroupAutomaticSchematic" prob="0.05"/>
-		<item name="modGunMeleeRadRemoverSchematic" prob="0.05"/>
-		<item name="modArmorPlatingReinforcedSchematic" prob="0.05"/>
-		<item name="modArmorTripleStoragePocketSchematic" prob="0.05"/>
-		<item name="modArmorAdvancedMuffledConnectorsSchematic" prob="0.05"/>
-		<item name="modArmorWaterPurifierSchematic" prob="0.05"/>
-		<item name="modArmorCustomizedFittingsSchematic" prob="0.05"/>
-		<item name="modMeleeBunkerBusterSchematic" prob="0.05"/>
-		<item name="modMeleeIronBreakerSchematic" prob="0.05"/>
-		<item name="modArmorImpactBracingSchematic" prob="0.05"/>
-		<item name="medicalFirstAidKitSchematic" prob="0.05"/>
-		<item name="medicalPlasterCastSchematic" prob="0.05"/>
-		<item name="drugAntibioticsSchematic" prob="0.05"/>
-		<item name="drugHerbalAntibioticsSchematic" prob="0.05"/>
-		<item name="forgeSchematic" prob="0.05"/>
-		<item name="meleeToolIronSetSchematic" prob="0.05"/>
-		<item name="meleeToolWrenchSchematic" prob="0.05"/>
-		<item name="meleeToolKnifeIronSchematic" prob="0.05"/>
-		<item name="meleeToolSledgehammerIronSchematic" prob="0.05"/>
-		<item name="ammoGasCanSchematic" prob="0.05"/>
-		<item name="resourceOilSchematic" prob="0.05"/>
-		<item name="gunToolNailgunSchematic" prob="0.05"/>
-		<item name="meleeToolSteelSetSchematic" prob="0.05"/>
-		<item name="meleeToolSledgehammerSteelSchematic" prob="0.05"/>
-		<item name="meleeToolAugerSchematic" prob="0.05"/>
-		<item name="meleeToolChainsawSchematic" prob="0.05"/>
-		<item name="toolBellowsSchematic" prob="0.05"/>
-		<item name="toolForgeCrucibleSchematic" prob="0.05"/>
-		<item name="toolAnvilSchematic" prob="0.05"/>
-		<item name="tableSawSchematic" prob="0.05"/>
-		<item name="cementMixerSchematic" prob="0.05"/>
-		<item name="workbenchSchematic" prob="0.05"/>
-		<item name="chemistryStationSchematic" prob="0.05"/>
-		<item name="gunPistolSchematic" prob="0.05"/>
-		<item name="gunDoubleBarrelShotgunSchematic" prob="0.05"/>
-		<item name="gunHuntingRifleSchematic" prob="0.05"/>
-		<item name="gunAK47Schematic" prob="0.05"/>
-		<item name="gunBowWoodenSchematic" prob="0.05"/>
-		<item name="gunCrossbowIronSchematic" prob="0.05"/>
-		<item name="gunJunkTurretSchematic" prob="0.05"/>
-		<item name="thrownAmmoPipeBombSchematic" prob="0.05"/>
-		<item name="thrownGrenadeSchematic" prob="0.05"/>
-		<item name="meleeToolKnifeIronSchematic" prob="0.05"/>
-		<item name="meleeClubIronSchematic" prob="0.05"/>
-		<item name="meleeStunBatonSchematic" prob="0.05"/>
-		<item name="meleeThrownSpearIronSchematic" prob="0.05"/>
-		<item name="meleeKnucklesIronSchematic" prob="0.05"/>
-		<item name="gunBowCompoundSchematic" prob="0.05"/>
-		<item name="gunCrossbowCompoundSchematic" prob="0.05"/>
-		<item name="gun44MagnumSchematic" prob="0.05"/>
-		<item name="gunPumpShotgunSchematic" prob="0.05"/>
-		<item name="gunSMG5Schematic" prob="0.05"/>
-		<item name="gunMR10Schematic" prob="0.05"/>
-		<item name="gunRocketLauncherSchematic" prob="0.05"/>
-		<item name="thrownDynamiteSchematic" prob="0.05"/>
-		<item name="thrownGrenadeContactSchematic" prob="0.05"/>
-		<item name="meleeKnucklesSteelSchematic" prob="0.05"/>
-		<item name="thrownGrenadeContactSchematic" prob="0.05"/>
-		<item name="thrownGrenadeSchematic" prob="0.05"/>
-		<item name="thrownDynamiteSchematic" prob="0.05"/>
-		<item name="meleeToolKnifeMacheteSchematic" prob="0.05"/>
-		<item name="meleeThrownSpearSteelSchematic" prob="0.05"/>
-		<item name="armorLeatherSetSchematic" prob="0.05"/>
-		<item name="armorIronSetSchematic" prob="0.05"/>
-		<item name="armorMilitarySetSchematic" prob="0.05"/>
-		<item name="armorSteelSetSchematic" prob="0.05"/>
-		<item name="vehicleBicycleChassisSchematic" prob="0.05"/>
-		<item name="vehicleBicycleHandlebarsSchematic" prob="0.05"/>
-		<item name="vehicleMinibikeChassisSchematic" prob="0.05"/>
-		<item name="vehicleMinibikeHandlebarsSchematic" prob="0.05"/>
-		<item name="vehicleMotorcycleChassisSchematic" prob="0.05"/>
-		<item name="vehicleMotorcycleHandlebarsSchematic" prob="0.05"/>
-		<item name="vehicle4x4TruckChassisSchematic" prob="0.05"/>
-		<item name="vehicle4x4TruckAccessoriesSchematic" prob="0.05"/>
-		<item name="vehicleGyroCopterChassisSchematic" prob="0.05"/>
-		<item name="vehicleGyroCopterAccessoriesSchematic" prob="0.05"/>
-		<item name="drinkJarCoffeeSchematic" prob="0.05"/>
-		<item name="drinkJarGoldenRodTeaSchematic" prob="0.05"/>
-		<item name="drinkJarRedTeaSchematic" prob="0.05"/>
-		<item name="drinkYuccaJuiceSmoothieSchematic" prob="0.05"/>
-		<item name="drinkJarBeerSchematic" prob="0.05"/>
-		<item name="drinkJarGrandpasAwesomeSauceSchematic" prob="0.05"/>
-		<item name="drinkJarGrandpasLearningElixirSchematic" prob="0.05"/>
-		<item name="drinkJarGrandpasMoonshineSchematic" prob="0.05"/>
-		<item name="foodBaconAndEggsSchematic" prob="0.05"/>
-		<item name="foodBakedPotatoSchematic" prob="0.05"/>
-		<item name="foodBlueberryPieSchematic" prob="0.05"/>
-		<item name="foodBoiledMeatSchematic" prob="0.05"/>
-		<item name="foodCornBreadSchematic" prob="0.05"/>
-		<item name="foodCornOnTheCobSchematic" prob="0.05"/>
-		<item name="foodGrilledMeatSchematic" prob="0.05"/>
-		<item name="foodMeatStewSchematic" prob="0.05"/>
-		<item name="foodSteakAndPotatoSchematic" prob="0.05"/>
-		<item name="foodVegetableStewSchematic" prob="0.05"/>
-		<item name="foodShamChowderSchematic" prob="0.05"/>
-		<item name="foodHoboStewSchematic" prob="0.05"/>
-		<item name="foodFishTacosSchematic" prob="0.05"/>
-		<item name="foodChiliDogSchematic" prob="0.05"/>
-		<item name="plantedAloe1Schematic" prob="0.05"/>
-		<item name="plantedBlueberry1Schematic" prob="0.05"/>
-		<item name="plantedChrysanthemum1Schematic" prob="0.05"/>
-		<item name="plantedCoffee1Schematic" prob="0.05"/>
-		<item name="plantedCorn1Schematic" prob="0.05"/>
-		<item name="plantedCotton1Schematic" prob="0.05"/>
-		<item name="plantedGoldenrod1Schematic" prob="0.05"/>
-		<item name="plantedGraceCorn1Schematic" prob="0.05"/>
-		<item name="plantedHop1Schematic" prob="0.05"/>
-		<item name="plantedMushroom1Schematic" prob="0.05"/>
-		<item name="plantedPotato1Schematic" prob="0.05"/>
-		<item name="plantedYucca1Schematic" prob="0.05"/>
-		<item name="plantedPumpkin1Schematic" prob="0.05"/>
-		<item name="pressureplateSchematic" prob="0.05"/>
-		<item name="poweredDoorsSchematic" prob="0.05"/>
-		<item name="bladeTrapSchematic" prob="0.05"/>
-		<item name="dartTrapSchematic" prob="0.05"/>
-		<item name="shotgunTurretSchematic" prob="0.05"/>
-		<item name="autoTurretSchematic" prob="0.05"/>
-		<item name="electricfencepostSchematic" prob="0.05"/>
-		<item name="motionsensorSchematic" prob="0.05"/>
-		<item name="speakerSchematic" prob="0.05"/>
-		<item name="spotlightPlayerSchematic" prob="0.05"/>
-		<item name="switchSchematic" prob="0.05"/>
-		<item name="batterybankSchematic" prob="0.05"/>
-		<item name="electrictimerrelaySchematic" prob="0.05"/>
+		<item name="modArmorHelmetLightSchematic" count="1" prob="0.05"/>
+		<item name="modArmorBandolierSchematic" count="1" prob="0.05"/>
+		<item name="modArmorInsulatedLinerSchematic" count="1" prob="0.05"/>
+		<item name="modArmorCoolingMeshSchematic" count="1" prob="0.05"/>
+		<item name="modArmorPlatingBasicSchematic" count="1" prob="0.05"/>
+		<item name="modArmorImprovedFittingsSchematic" count="1" prob="0.05"/>
+		<item name="modArmorStoragePocketSchematic" count="1" prob="0.05"/>
+		<item name="modArmorDoubleStoragePocketSchematic" count="1" prob="0.05"/>
+		<item name="modArmorMuffledConnectorsSchematic" count="1" prob="0.05"/>
+		<item name="modGunBarrelExtenderSchematic" count="1" prob="0.05"/>
+		<item name="modGunMuzzleBrakeSchematic" count="1" prob="0.05"/>
+		<item name="modGunFlashlightSchematic" count="1" prob="0.05"/>
+		<item name="modGunScopeSmallSchematic" count="1" prob="0.05"/>
+		<item name="modGunScopeMediumSchematic" count="1" prob="0.05"/>
+		<item name="modGunReflexSightSchematic" count="1" prob="0.05"/>
+		<item name="modGunTriggerGroupSemiSchematic" count="1" prob="0.05"/>
+		<item name="modGunBipodSchematic" count="1" prob="0.05"/>
+		<item name="modGunForegripSchematic" count="1" prob="0.05"/>
+		<item name="modGunRetractingStockSchematic" count="1" prob="0.05"/>
+		<item name="modGunDuckbillSchematic" count="1" prob="0.05"/>
+		<item name="modGunChokeSchematic" count="1" prob="0.05"/>
+		<item name="modGunMagazineExtenderSchematic" count="1" prob="0.05"/>
+		<item name="modShotgunSawedOffBarrelSchematic" count="1" prob="0.05"/>
+		<item name="modGunCrippleEmSchematic" count="1" prob="0.05"/>
+		<item name="modGunBowArrowRestSchematic" count="1" prob="0.05"/>
+		<item name="modGunBowPolymerStringSchematic" count="1" prob="0.05"/>
+		<item name="modMeleeTemperedBladeSchematic" count="1" prob="0.05"/>
+		<item name="modMeleeSerratedBladeSchematic" count="1" prob="0.05"/>
+		<item name="modMeleeWeightedHeadSchematic" count="1" prob="0.05"/>
+		<item name="modMeleeStructuralBraceSchematic" count="1" prob="0.05"/>
+		<item name="modMeleeErgonomicGripSchematic" count="1" prob="0.05"/>
+		<item name="modMeleeFortifyingGripSchematic" count="1" prob="0.05"/>
+		<item name="modMeleeClubBarbedWireSchematic" count="1" prob="0.05"/>
+		<item name="modMeleeClubMetalSpikesSchematic" count="1" prob="0.05"/>
+		<item name="modMeleeClubBurningShaftSchematic" count="1" prob="0.05"/>
+		<item name="modMeleeGraveDiggerSchematic" count="1" prob="0.05"/>
+		<item name="modMeleeWoodSplitterSchematic" count="1" prob="0.05"/>
+		<item name="modFuelTankSmallSchematic" count="1" prob="0.05"/>
+		<item name="modFuelTankLargeSchematic" count="1" prob="0.05"/>
+		<item name="medicalFirstAidBandageSchematic" count="1" prob="0.05"/>
+		<item name="medicalBloodDrawKitSchematic" count="1" prob="0.05"/>
+		<item name="resourceMilitaryFiberSchematic" count="1" prob="0.05"/>
+		<item name="modGunRodAndSpringSchematic" count="1" prob="0.05"/>
+		<item name="modGunScopeLargeSchematic" count="1" prob="0.05"/>
+		<item name="modGunLaserSightSchematic" count="1" prob="0.05"/>
+		<item name="modGunTriggerGroupBurst3Schematic" count="1" prob="0.05"/>
+		<item name="modGunSoundSuppressorSilencerSchematic" count="1" prob="0.05"/>
+		<item name="modGunTriggerGroupAutomaticSchematic" count="1" prob="0.05"/>
+		<item name="modGunMeleeRadRemoverSchematic" count="1" prob="0.05"/>
+		<item name="modArmorPlatingReinforcedSchematic" count="1" prob="0.05"/>
+		<item name="modArmorTripleStoragePocketSchematic" count="1" prob="0.05"/>
+		<item name="modArmorAdvancedMuffledConnectorsSchematic" count="1" prob="0.05"/>
+		<item name="modArmorWaterPurifierSchematic" count="1" prob="0.05"/>
+		<item name="modArmorCustomizedFittingsSchematic" count="1" prob="0.05"/>
+		<item name="modMeleeBunkerBusterSchematic" count="1" prob="0.05"/>
+		<item name="modMeleeIronBreakerSchematic" count="1" prob="0.05"/>
+		<item name="modArmorImpactBracingSchematic" count="1" prob="0.05"/>
+		<item name="medicalFirstAidKitSchematic" count="1" prob="0.05"/>
+		<item name="medicalPlasterCastSchematic" count="1" prob="0.05"/>
+		<item name="drugAntibioticsSchematic" count="1" prob="0.05"/>
+		<item name="drugHerbalAntibioticsSchematic" count="1" prob="0.05"/>
+		<item name="forgeSchematic" count="1" prob="0.05"/>
+		<item name="meleeToolIronSetSchematic" count="1" prob="0.05"/>
+		<item name="meleeToolWrenchSchematic" count="1" prob="0.05"/>
+		<item name="meleeToolKnifeIronSchematic" count="1" prob="0.05"/>
+		<item name="meleeToolSledgehammerIronSchematic" count="1" prob="0.05"/>
+		<item name="ammoGasCanSchematic" count="1" prob="0.05"/>
+		<item name="resourceOilSchematic" count="1" prob="0.05"/>
+		<item name="gunToolNailgunSchematic" count="1" prob="0.05"/>
+		<item name="meleeToolSteelSetSchematic" count="1" prob="0.05"/>
+		<item name="meleeToolSledgehammerSteelSchematic" count="1" prob="0.05"/>
+		<item name="meleeToolAugerSchematic" count="1" prob="0.05"/>
+		<item name="meleeToolChainsawSchematic" count="1" prob="0.05"/>
+		<item name="toolBellowsSchematic" count="1" prob="0.05"/>
+		<item name="toolForgeCrucibleSchematic" count="1" prob="0.05"/>
+		<item name="toolAnvilSchematic" count="1" prob="0.05"/>
+		<item name="tableSawSchematic" count="1" prob="0.05"/>
+		<item name="cementMixerSchematic" count="1" prob="0.05"/>
+		<item name="workbenchSchematic" count="1" prob="0.05"/>
+		<item name="chemistryStationSchematic" count="1" prob="0.05"/>
+		<item name="gunPistolSchematic" count="1" prob="0.05"/>
+		<item name="gunDoubleBarrelShotgunSchematic" count="1" prob="0.05"/>
+		<item name="gunHuntingRifleSchematic" count="1" prob="0.05"/>
+		<item name="gunAK47Schematic" count="1" prob="0.05"/>
+		<item name="gunBowWoodenSchematic" count="1" prob="0.05"/>
+		<item name="gunCrossbowIronSchematic" count="1" prob="0.05"/>
+		<item name="gunJunkTurretSchematic" count="1" prob="0.05"/>
+		<item name="thrownAmmoPipeBombSchematic" count="1" prob="0.05"/>
+		<item name="thrownGrenadeSchematic" count="1" prob="0.05"/>
+		<item name="meleeToolKnifeIronSchematic" count="1" prob="0.05"/>
+		<item name="meleeClubIronSchematic" count="1" prob="0.05"/>
+		<item name="meleeStunBatonSchematic" count="1" prob="0.05"/>
+		<item name="meleeThrownSpearIronSchematic" count="1" prob="0.05"/>
+		<item name="meleeKnucklesIronSchematic" count="1" prob="0.05"/>
+		<item name="gunBowCompoundSchematic" count="1" prob="0.05"/>
+		<item name="gunCrossbowCompoundSchematic" count="1" prob="0.05"/>
+		<item name="gun44MagnumSchematic" count="1" prob="0.05"/>
+		<item name="gunPumpShotgunSchematic" count="1" prob="0.05"/>
+		<item name="gunSMG5Schematic" count="1" prob="0.05"/>
+		<item name="gunMR10Schematic" count="1" prob="0.05"/>
+		<item name="gunRocketLauncherSchematic" count="1" prob="0.05"/>
+		<item name="thrownDynamiteSchematic" count="1" prob="0.05"/>
+		<item name="thrownGrenadeContactSchematic" count="1" prob="0.05"/>
+		<item name="meleeKnucklesSteelSchematic" count="1" prob="0.05"/>
+		<item name="thrownGrenadeContactSchematic" count="1" prob="0.05"/>
+		<item name="thrownGrenadeSchematic" count="1" prob="0.05"/>
+		<item name="thrownDynamiteSchematic" count="1" prob="0.05"/>
+		<item name="meleeToolKnifeMacheteSchematic" count="1" prob="0.05"/>
+		<item name="meleeThrownSpearSteelSchematic" count="1" prob="0.05"/>
+		<item name="armorLeatherSetSchematic" count="1" prob="0.05"/>
+		<item name="armorIronSetSchematic" count="1" prob="0.05"/>
+		<item name="armorMilitarySetSchematic" count="1" prob="0.05"/>
+		<item name="armorSteelSetSchematic" count="1" prob="0.05"/>
+		<item name="vehicleBicycleChassisSchematic" count="1" prob="0.05"/>
+		<item name="vehicleBicycleHandlebarsSchematic" count="1" prob="0.05"/>
+		<item name="vehicleMinibikeChassisSchematic" count="1" prob="0.05"/>
+		<item name="vehicleMinibikeHandlebarsSchematic" count="1" prob="0.05"/>
+		<item name="vehicleMotorcycleChassisSchematic" count="1" prob="0.05"/>
+		<item name="vehicleMotorcycleHandlebarsSchematic" count="1" prob="0.05"/>
+		<item name="vehicle4x4TruckChassisSchematic" count="1" prob="0.05"/>
+		<item name="vehicle4x4TruckAccessoriesSchematic" count="1" prob="0.05"/>
+		<item name="vehicleGyroCopterChassisSchematic" count="1" prob="0.05"/>
+		<item name="vehicleGyroCopterAccessoriesSchematic" count="1" prob="0.05"/>
+		<item name="drinkJarCoffeeSchematic" count="1" prob="0.05"/>
+		<item name="drinkJarGoldenRodTeaSchematic" count="1" prob="0.05"/>
+		<item name="drinkJarRedTeaSchematic" count="1" prob="0.05"/>
+		<item name="drinkYuccaJuiceSmoothieSchematic" count="1" prob="0.05"/>
+		<item name="drinkJarBeerSchematic" count="1" prob="0.05"/>
+		<item name="drinkJarGrandpasAwesomeSauceSchematic" count="1" prob="0.05"/>
+		<item name="drinkJarGrandpasLearningElixirSchematic" count="1" prob="0.05"/>
+		<item name="drinkJarGrandpasMoonshineSchematic" count="1" prob="0.05"/>
+		<item name="foodBaconAndEggsSchematic" count="1" prob="0.05"/>
+		<item name="foodBakedPotatoSchematic" count="1" prob="0.05"/>
+		<item name="foodBlueberryPieSchematic" count="1" prob="0.05"/>
+		<item name="foodBoiledMeatSchematic" count="1" prob="0.05"/>
+		<item name="foodCornBreadSchematic" count="1" prob="0.05"/>
+		<item name="foodCornOnTheCobSchematic" count="1" prob="0.05"/>
+		<item name="foodGrilledMeatSchematic" count="1" prob="0.05"/>
+		<item name="foodMeatStewSchematic" count="1" prob="0.05"/>
+		<item name="foodSteakAndPotatoSchematic" count="1" prob="0.05"/>
+		<item name="foodVegetableStewSchematic" count="1" prob="0.05"/>
+		<item name="foodShamChowderSchematic" count="1" prob="0.05"/>
+		<item name="foodHoboStewSchematic" count="1" prob="0.05"/>
+		<item name="foodFishTacosSchematic" count="1" prob="0.05"/>
+		<item name="foodChiliDogSchematic" count="1" prob="0.05"/>
+		<item name="plantedAloe1Schematic" count="1" prob="0.05"/>
+		<item name="plantedBlueberry1Schematic" count="1" prob="0.05"/>
+		<item name="plantedChrysanthemum1Schematic" count="1" prob="0.05"/>
+		<item name="plantedCoffee1Schematic" count="1" prob="0.05"/>
+		<item name="plantedCorn1Schematic" count="1" prob="0.05"/>
+		<item name="plantedCotton1Schematic" count="1" prob="0.05"/>
+		<item name="plantedGoldenrod1Schematic" count="1" prob="0.05"/>
+		<item name="plantedGraceCorn1Schematic" count="1" prob="0.05"/>
+		<item name="plantedHop1Schematic" count="1" prob="0.05"/>
+		<item name="plantedMushroom1Schematic" count="1" prob="0.05"/>
+		<item name="plantedPotato1Schematic" count="1" prob="0.05"/>
+		<item name="plantedYucca1Schematic" count="1" prob="0.05"/>
+		<item name="plantedPumpkin1Schematic" count="1" prob="0.05"/>
+		<item name="pressureplateSchematic" count="1" prob="0.05"/>
+		<item name="poweredDoorsSchematic" count="1" prob="0.05"/>
+		<item name="bladeTrapSchematic" count="1" prob="0.05"/>
+		<item name="dartTrapSchematic" count="1" prob="0.05"/>
+		<item name="shotgunTurretSchematic" count="1" prob="0.05"/>
+		<item name="autoTurretSchematic" count="1" prob="0.05"/>
+		<item name="electricfencepostSchematic" count="1" prob="0.05"/>
+		<item name="motionsensorSchematic" count="1" prob="0.05"/>
+		<item name="speakerSchematic" count="1" prob="0.05"/>
+		<item name="spotlightPlayerSchematic" count="1" prob="0.05"/>
+		<item name="switchSchematic" count="1" prob="0.05"/>
+		<item name="batterybankSchematic" count="1" prob="0.05"/>
+		<item name="electrictimerrelaySchematic" count="1" prob="0.05"/>
 	</lootgroup>
 	</insertAfter>
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='SupplyDesigns']">
 	<lootgroup name="SupplyBooks" count="1,6">	
-		<item name="bookRangersArrowRecovery" prob="0.05"/>
-		<item name="bookRangersCripplingShot" prob="0.05"/>
-		<item name="bookRangersKnockdown" prob="0.05"/>
-		<item name="bookRangersFlamingArrows" prob="0.05"/>
-		<item name="bookRangersAPAmmo" prob="0.05"/>
-		<item name="bookRangersExplodingBolts" prob="0.05"/>
-		<item name="bookRangersForestGuide" prob="0.05"/>
-		<item name="bookArtOfMiningLuckyStrike" prob="0.05"/>
-		<item name="bookArtOfMiningDiamondTools" prob="0.05"/>
-		<item name="bookArtOfMiningCoffee" prob="0.05"/>
-		<item name="bookArtOfMiningBlackStrap" prob="0.05"/>
-		<item name="bookArtOfMiningPallets" prob="0.05"/>
-		<item name="bookArtOfMiningAvalanche" prob="0.05"/>
-		<item name="bookArtOfMiningLantern" prob="0.05"/>
-		<item name="bookAutoWeaponsDamage" prob="0.05"/>
-		<item name="bookAutoWeaponsRagdoll" prob="0.05"/>
-		<item name="bookAutoWeaponsMaintenance" prob="0.05"/>
-		<item name="bookAutoWeaponsRecoil" prob="0.05"/>
-		<item name="bookAutoWeaponsDrumMag" prob="0.05"/>
-		<item name="bookAutoWeaponsUncontrolledBurst" prob="0.05"/>
-		<item name="bookAutoWeaponsMachineGuns" prob="0.05"/>
-		<item name="bookBatterUpBaseballBats" prob="0.05"/>
-		<item name="bookBatterUpBigHits" prob="0.05"/>
-		<item name="bookBatterUpGear" prob="0.05"/>
-		<item name="bookBatterUpKnockdown" prob="0.05"/>
-		<item name="bookBatterUpSlowPitch" prob="0.05"/>
-		<item name="bookBatterUpMaintenance" prob="0.05"/>
-		<item name="bookEnforcerAPAmmo" prob="0.05"/>
-		<item name="bookEnforcerApparel" prob="0.05"/>
-		<item name="bookEnforcerCriminalPursuit" prob="0.05"/>
-		<item name="bookEnforcerHPAmmo" prob="0.05"/>
-		<item name="bookEnforcerDamage" prob="0.05"/>
-		<item name="bookEnforcerIntimidation" prob="0.05"/>
-		<item name="bookEnforcerPunks" prob="0.05"/>
-		<item name="bookFiremansAlmanacSpeed" prob="0.05"/>
-		<item name="bookFiremansAlmanacAxes" prob="0.05"/>
-		<item name="bookFiremansAlmanacEquipment" prob="0.05"/>
-		<item name="bookFiremansAlmanacPrevention" prob="0.05"/>
-		<item name="bookFiremansAlmanacHarvest" prob="0.05"/>
-		<item name="bookFiremansAlmanacHeat" prob="0.05"/>
-		<item name="bookFiremansAlmanacMolotov" prob="0.05"/>
-		<item name="bookGreatHeistAdrenalineFall" prob="0.05"/>
-		<item name="bookGreatHeistTimedCharge" prob="0.05"/>
-		<item name="bookGreatHeistClaimed" prob="0.05"/>
-		<item name="bookGreatHeistGems" prob="0.05"/>
-		<item name="bookGreatHeistMotionDetection" prob="0.05"/>
-		<item name="bookGreatHeistSafes" prob="0.05"/>
-		<item name="bookGreatHeistSprintSneak" prob="0.05"/>
-		<item name="bookHuntingJournalBears" prob="0.05"/>
-		<item name="bookHuntingJournalCoyotes" prob="0.05"/>
-		<item name="bookHuntingJournalDeer" prob="0.05"/>
-		<item name="bookHuntingJournalMountainLions" prob="0.05"/>
-		<item name="bookHuntingJournalVultures" prob="0.05"/>
-		<item name="bookHuntingJournalWolves" prob="0.05"/>
-		<item name="bookHuntingJournalSelfDefense" prob="0.05"/>
-		<item name="bookLuckyLooterAmmunition" prob="0.05"/>
-		<item name="bookLuckyLooterBooks" prob="0.05"/>
-		<item name="bookLuckyLooterBrass" prob="0.05"/>
-		<item name="bookLuckyLooterDukes" prob="0.05"/>
-		<item name="bookLuckyLooterFood" prob="0.05"/>
-		<item name="bookLuckyLooterLead" prob="0.05"/>
-		<item name="bookLuckyLooterMedical" prob="0.05"/>
-		<item name="bookNeedleAndThreadDesertWear" prob="0.05"/>
-		<item name="bookNeedleAndThreadDusters" prob="0.05"/>
-		<item name="bookNeedleAndThreadFootwear" prob="0.05"/>
-		<item name="bookNeedleAndThreadLegwear" prob="0.05"/>
-		<item name="bookNeedleAndThreadPockets" prob="0.05"/>
-		<item name="bookNeedleAndThreadPufferCoats" prob="0.05"/>
-		<item name="bookNeedleAndThreadWinterWear" prob="0.05"/>
-		<item name="bookNightStalkerArchery" prob="0.05"/>
-		<item name="bookNightStalkerBlades" prob="0.05"/>
-		<item name="bookNightStalkerSilentNight" prob="0.05"/>
-		<item name="bookNightStalkerSlumberParty" prob="0.05"/>
-		<item name="bookNightStalkerStealthDamage" prob="0.05"/>
-		<item name="bookNightStalkerThiefAdrenaline" prob="0.05"/>
-		<item name="bookNightStalkerTwilightThief" prob="0.05"/>
-		<item name="bookPistolPeteAPAmmo" prob="0.05"/>
-		<item name="bookPistolPeteDamage" prob="0.05"/>
-		<item name="bookPistolPeteHPAmmo" prob="0.05"/>
-		<item name="bookPistolPeteMaintenance" prob="0.05"/>
-		<item name="bookPistolPeteSteadyHand" prob="0.05"/>
-		<item name="bookPistolPeteSwissKnees" prob="0.05"/>
-		<item name="bookPistolPeteTakeAim" prob="0.05"/>
-		<item name="bookShotgunMessiahBreachingSlugs" prob="0.05"/>
-		<item name="bookShotgunMessiahDamage" prob="0.05"/>
-		<item name="bookShotgunMessiahLimbShot" prob="0.05"/>
-		<item name="bookShotgunMessiahMaintenance" prob="0.05"/>
-		<item name="bookShotgunMessiahMagazine" prob="0.05"/>
-		<item name="bookShotgunMessiahPartyStarter" prob="0.05"/>
-		<item name="bookShotgunMessiahSlugs" prob="0.05"/>
-		<item name="bookSniperAPAmmo" prob="0.05"/>
-		<item name="bookSniperControlledBreathing" prob="0.05"/>
-		<item name="bookSniperCripplingShot" prob="0.05"/>
-		<item name="bookSniperDamage" prob="0.05"/>
-		<item name="bookSniperHeadShot" prob="0.05"/>
-		<item name="bookSniperGhost" prob="0.05"/>
-		<item name="bookSniperHPAmmo" prob="0.05"/>
-		<item name="bookUrbanCombatAdrenalineRush" prob="0.05"/>
-		<item name="bookUrbanCombatControlledBreathing" prob="0.05"/>
-		<item name="bookUrbanCombatRoomClearing" prob="0.05"/>
-		<item name="bookUrbanCombatJumping" prob="0.05"/>
-		<item name="bookUrbanCombatLandMines" prob="0.05"/>
-		<item name="bookUrbanCombatLanding" prob="0.05"/>
-		<item name="bookUrbanCombatSneaking" prob="0.05"/>
-		<item name="bookWasteTreasuresAcid" prob="0.05"/>
-		<item name="bookWasteTreasuresCloth" prob="0.05"/>
-		<item name="bookWasteTreasuresCoffins" prob="0.05"/>
-		<item name="bookWasteTreasuresDoors" prob="0.05"/>
-		<item name="bookWasteTreasuresHoney" prob="0.05"/>
-		<item name="bookWasteTreasuresSinks" prob="0.05"/>
-		<item name="bookWasteTreasuresWater" prob="0.05"/>
+		<item name="bookRangersArrowRecovery" count="1" prob="0.05"/>
+		<item name="bookRangersCripplingShot" count="1" prob="0.05"/>
+		<item name="bookRangersKnockdown" count="1" prob="0.05"/>
+		<item name="bookRangersFlamingArrows" count="1" prob="0.05"/>
+		<item name="bookRangersAPAmmo" count="1" prob="0.05"/>
+		<item name="bookRangersExplodingBolts" count="1" prob="0.05"/>
+		<item name="bookRangersForestGuide" count="1" prob="0.05"/>
+		<item name="bookArtOfMiningLuckyStrike" count="1" prob="0.05"/>
+		<item name="bookArtOfMiningDiamondTools" count="1" prob="0.05"/>
+		<item name="bookArtOfMiningCoffee" count="1" prob="0.05"/>
+		<item name="bookArtOfMiningBlackStrap" count="1" prob="0.05"/>
+		<item name="bookArtOfMiningPallets" count="1" prob="0.05"/>
+		<item name="bookArtOfMiningAvalanche" count="1" prob="0.05"/>
+		<item name="bookArtOfMiningLantern" count="1" prob="0.05"/>
+		<item name="bookAutoWeaponsDamage" count="1" prob="0.05"/>
+		<item name="bookAutoWeaponsRagdoll" count="1" prob="0.05"/>
+		<item name="bookAutoWeaponsMaintenance" count="1" prob="0.05"/>
+		<item name="bookAutoWeaponsRecoil" count="1" prob="0.05"/>
+		<item name="bookAutoWeaponsDrumMag" count="1" prob="0.05"/>
+		<item name="bookAutoWeaponsUncontrolledBurst" count="1" prob="0.05"/>
+		<item name="bookAutoWeaponsMachineGuns" count="1" prob="0.05"/>
+		<item name="bookBatterUpBaseballBats" count="1" prob="0.05"/>
+		<item name="bookBatterUpBigHits" count="1" prob="0.05"/>
+		<item name="bookBatterUpGear" count="1" prob="0.05"/>
+		<item name="bookBatterUpKnockdown" count="1" prob="0.05"/>
+		<item name="bookBatterUpSlowPitch" count="1" prob="0.05"/>
+		<item name="bookBatterUpMaintenance" count="1" prob="0.05"/>
+		<item name="bookEnforcerAPAmmo" count="1" prob="0.05"/>
+		<item name="bookEnforcerApparel" count="1" prob="0.05"/>
+		<item name="bookEnforcerCriminalPursuit" count="1" prob="0.05"/>
+		<item name="bookEnforcerHPAmmo" count="1" prob="0.05"/>
+		<item name="bookEnforcerDamage" count="1" prob="0.05"/>
+		<item name="bookEnforcerIntimidation" count="1" prob="0.05"/>
+		<item name="bookEnforcerPunks" count="1" prob="0.05"/>
+		<item name="bookFiremansAlmanacSpeed" count="1" prob="0.05"/>
+		<item name="bookFiremansAlmanacAxes" count="1" prob="0.05"/>
+		<item name="bookFiremansAlmanacEquipment" count="1" prob="0.05"/>
+		<item name="bookFiremansAlmanacPrevention" count="1" prob="0.05"/>
+		<item name="bookFiremansAlmanacHarvest" count="1" prob="0.05"/>
+		<item name="bookFiremansAlmanacHeat" count="1" prob="0.05"/>
+		<item name="bookFiremansAlmanacMolotov" count="1" prob="0.05"/>
+		<item name="bookGreatHeistAdrenalineFall" count="1" prob="0.05"/>
+		<item name="bookGreatHeistTimedCharge" count="1" prob="0.05"/>
+		<item name="bookGreatHeistClaimed" count="1" prob="0.05"/>
+		<item name="bookGreatHeistGems" count="1" prob="0.05"/>
+		<item name="bookGreatHeistMotionDetection" count="1" prob="0.05"/>
+		<item name="bookGreatHeistSafes" count="1" prob="0.05"/>
+		<item name="bookGreatHeistSprintSneak" count="1" prob="0.05"/>
+		<item name="bookHuntingJournalBears" count="1" prob="0.05"/>
+		<item name="bookHuntingJournalCoyotes" count="1" prob="0.05"/>
+		<item name="bookHuntingJournalDeer" count="1" prob="0.05"/>
+		<item name="bookHuntingJournalMountainLions" count="1" prob="0.05"/>
+		<item name="bookHuntingJournalVultures" count="1" prob="0.05"/>
+		<item name="bookHuntingJournalWolves" count="1" prob="0.05"/>
+		<item name="bookHuntingJournalSelfDefense" count="1" prob="0.05"/>
+		<item name="bookLuckyLooterAmmunition" count="1" prob="0.05"/>
+		<item name="bookLuckyLooterBooks" count="1" prob="0.05"/>
+		<item name="bookLuckyLooterBrass" count="1" prob="0.05"/>
+		<item name="bookLuckyLooterDukes" count="1" prob="0.05"/>
+		<item name="bookLuckyLooterFood" count="1" prob="0.05"/>
+		<item name="bookLuckyLooterLead" count="1" prob="0.05"/>
+		<item name="bookLuckyLooterMedical" count="1" prob="0.05"/>
+		<item name="bookNeedleAndThreadDesertWear" count="1" prob="0.05"/>
+		<item name="bookNeedleAndThreadDusters" count="1" prob="0.05"/>
+		<item name="bookNeedleAndThreadFootwear" count="1" prob="0.05"/>
+		<item name="bookNeedleAndThreadLegwear" count="1" prob="0.05"/>
+		<item name="bookNeedleAndThreadPockets" count="1" prob="0.05"/>
+		<item name="bookNeedleAndThreadPufferCoats" count="1" prob="0.05"/>
+		<item name="bookNeedleAndThreadWinterWear" count="1" prob="0.05"/>
+		<item name="bookNightStalkerArchery" count="1" prob="0.05"/>
+		<item name="bookNightStalkerBlades" count="1" prob="0.05"/>
+		<item name="bookNightStalkerSilentNight" count="1" prob="0.05"/>
+		<item name="bookNightStalkerSlumberParty" count="1" prob="0.05"/>
+		<item name="bookNightStalkerStealthDamage" count="1" prob="0.05"/>
+		<item name="bookNightStalkerThiefAdrenaline" count="1" prob="0.05"/>
+		<item name="bookNightStalkerTwilightThief" count="1" prob="0.05"/>
+		<item name="bookPistolPeteAPAmmo" count="1" prob="0.05"/>
+		<item name="bookPistolPeteDamage" count="1" prob="0.05"/>
+		<item name="bookPistolPeteHPAmmo" count="1" prob="0.05"/>
+		<item name="bookPistolPeteMaintenance" count="1" prob="0.05"/>
+		<item name="bookPistolPeteSteadyHand" count="1" prob="0.05"/>
+		<item name="bookPistolPeteSwissKnees" count="1" prob="0.05"/>
+		<item name="bookPistolPeteTakeAim" count="1" prob="0.05"/>
+		<item name="bookShotgunMessiahBreachingSlugs" count="1" prob="0.05"/>
+		<item name="bookShotgunMessiahDamage" count="1" prob="0.05"/>
+		<item name="bookShotgunMessiahLimbShot" count="1" prob="0.05"/>
+		<item name="bookShotgunMessiahMaintenance" count="1" prob="0.05"/>
+		<item name="bookShotgunMessiahMagazine" count="1" prob="0.05"/>
+		<item name="bookShotgunMessiahPartyStarter" count="1" prob="0.05"/>
+		<item name="bookShotgunMessiahSlugs" count="1" prob="0.05"/>
+		<item name="bookSniperAPAmmo" count="1" prob="0.05"/>
+		<item name="bookSniperControlledBreathing" count="1" prob="0.05"/>
+		<item name="bookSniperCripplingShot" count="1" prob="0.05"/>
+		<item name="bookSniperDamage" count="1" prob="0.05"/>
+		<item name="bookSniperHeadShot" count="1" prob="0.05"/>
+		<item name="bookSniperGhost" count="1" prob="0.05"/>
+		<item name="bookSniperHPAmmo" count="1" prob="0.05"/>
+		<item name="bookUrbanCombatAdrenalineRush" count="1" prob="0.05"/>
+		<item name="bookUrbanCombatControlledBreathing" count="1" prob="0.05"/>
+		<item name="bookUrbanCombatRoomClearing" count="1" prob="0.05"/>
+		<item name="bookUrbanCombatJumping" count="1" prob="0.05"/>
+		<item name="bookUrbanCombatLandMines" count="1" prob="0.05"/>
+		<item name="bookUrbanCombatLanding" count="1" prob="0.05"/>
+		<item name="bookUrbanCombatSneaking" count="1" prob="0.05"/>
+		<item name="bookWasteTreasuresAcid" count="1" prob="0.05"/>
+		<item name="bookWasteTreasuresCloth" count="1" prob="0.05"/>
+		<item name="bookWasteTreasuresCoffins" count="1" prob="0.05"/>
+		<item name="bookWasteTreasuresDoors" count="1" prob="0.05"/>
+		<item name="bookWasteTreasuresHoney" count="1" prob="0.05"/>
+		<item name="bookWasteTreasuresSinks" count="1" prob="0.05"/>
+		<item name="bookWasteTreasuresWater" count="1" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='SupplyBooks']">	
 	<lootgroup name="SupplyMeals" count="1,6">
-       <item name="foodCanBeef"/>
-		<item name="foodCanCatfood"/>
-		<item name="foodCanChicken"/>
-		<item name="foodCanChili"/>
-		<item name="foodCanDogfood"/>
-		<item name="foodCanSham"/>
-		<item name="foodCanLamb"/>
-		<item name="foodCanMiso"/>
-		<item name="foodCanPasta"/>
-		<item name="foodCanPeas"/>
-		<item name="foodCanSalmon"/>
-		<item name="foodCanSoup"/>
-		<item name="foodCanStock"/>
-		<item name="foodCanTuna"/>
-		<item name="foodCanPears"/>
-		<item name="foodHoney"/>
-		<item name="foodCornMeal"/>
+       <item name="foodCanBeef" count="1,6" prob="0.05"/>
+		<item name="foodCanCatfood" count="1,6" prob="0.05"/>
+		<item name="foodCanChicken" count="1,6" prob="0.05"/>
+		<item name="foodCanChili" count="1,6" prob="0.05"/>
+		<item name="foodCanDogfood" count="1,6" prob="0.05"/>
+		<item name="foodCanSham" count="1,6" prob="0.05"/>
+		<item name="foodCanLamb" count="1,6" prob="0.05"/>
+		<item name="foodCanMiso" count="1,6" prob="0.05"/>
+		<item name="foodCanPasta" count="1,6" prob="0.05"/>
+		<item name="foodCanPeas" count="1,6" prob="0.05"/>
+		<item name="foodCanSalmon" count="1,6" prob="0.05"/>
+		<item name="foodCanSoup" count="1,6" prob="0.05"/>
+		<item name="foodCanStock" count="1,6" prob="0.05"/>
+		<item name="foodCanTuna" count="1,6" prob="0.05"/>
+		<item name="foodCanPears" count="1,6" prob="0.05"/>
+		<item name="foodHoney" count="1,6" prob="0.05"/>
+		<item name="foodCornMeal" count="1,6" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='SupplyMeals']">
 	<lootgroup name="SupplyTech" count="1,3">
-		<item name="gunAk47Parts" count="1,4"/>
-		<item name="gunPistolParts" count="1,4"/>
-		<item name="gunBowWoodenParts" count="1,4"/>
-		<item name="gunHuntingRifleParts" count="1,4"/>
-		<item name="gunDoubleBarrelShotgunParts" count="1,4"/>
-		<item name="gunRocketLauncherParts" count="1,4"/>
-		<item name="gunJunkTurretParts" count="1,4"/>
-		<item name="meleeStunBatonParts" count="1,4"/>
-		<item name="meleeToolKnifeMacheteParts" count="1,4"/>
-		<item name="meleeThrownSpearSteelParts" count="1,4"/>
-		<item name="meleeClubBaseballBatParts" count="1,4"/>
-		<item name="meleeToolSledgehammerSteelParts" count="1,4"/>
+		<item name="gunAk47Parts" count="1,4" prob="0.05"/>
+		<item name="gunPistolParts" count="1,4" prob="0.05"/>
+		<item name="gunBowWoodenParts" count="1,4" prob="0.05"/>
+		<item name="gunHuntingRifleParts" count="1,4" prob="0.05"/>
+		<item name="gunDoubleBarrelShotgunParts" count="1,4" prob="0.05"/>
+		<item name="gunRocketLauncherParts" count="1,4" prob="0.05"/>
+		<item name="gunJunkTurretParts" count="1,4" prob="0.05"/>
+		<item name="meleeStunBatonParts" count="1,4" prob="0.05"/>
+		<item name="meleeToolKnifeMacheteParts" count="1,4" prob="0.05"/>
+		<item name="meleeThrownSpearSteelParts" count="1,4" prob="0.05"/>
+		<item name="meleeClubBaseballBatParts" count="1,4" prob="0.05"/>
+		<item name="meleeToolSledgehammerSteelParts" count="1,4" prob="0.05"/>
 	 </lootgroup>
 	</insertAfter>
 	 <insertAfter xpath="/lootcontainers/lootgroup[@name='SupplyTech']">
     <lootgroup name="SupplyGuns" count="1,3">
-	    <item name="gunPistol"/>
-		<item name="gunPumpShotgun"/>
-		<item name="gunDoubleBarrelShotgun"/>
-		<item name="gunSMG5"/>
-		<item name="gunBowWooden"/>
-		<item name="gunBowCompound"/>
-		<item name="gunCrossbowIron"/>
-		<item name="gunAK47"/>
-		<item name="gunCrossbowCompound"/>
-		<item name="gunHuntingRifle"/>
-		<item name="gunMR10"/>
-		<item name="gunM60"/>
-		<item name="gunRocketLauncher"/>
-		<item name="gun44Magnum"/>
-		<item name="gunBlunderbuss"/>
-		<item name="gunTacticalAR"/>
-		<item name="gunBowPrimitive"/>
-		<item name="gunJunkTurret"/>
+	    <item name="gunPistol" count="1" prob="0.05"/>
+		<item name="gunPumpShotgun" count="1" prob="0.05"/>
+		<item name="gunDoubleBarrelShotgun" count="1" prob="0.05"/>
+		<item name="gunSMG5" count="1" prob="0.05"/>
+		<item name="gunBowWooden" count="1" prob="0.05"/>
+		<item name="gunBowCompound" count="1" prob="0.05"/>
+		<item name="gunCrossbowIron" count="1" prob="0.05"/>
+		<item name="gunAK47" count="1" prob="0.05"/>
+		<item name="gunCrossbowCompound" count="1" prob="0.05"/>
+		<item name="gunHuntingRifle" count="1" prob="0.05"/>
+		<item name="gunMR10" count="1" prob="0.05"/>
+		<item name="gunM60" count="1" prob="0.05"/>
+		<item name="gunRocketLauncher" count="1" prob="0.05"/>
+		<item name="gun44Magnum" count="1" prob="0.05"/>
+		<item name="gunBlunderbuss" count="1" prob="0.05"/>
+		<item name="gunTacticalAR" count="1" prob="0.05"/>
+		<item name="gunBowPrimitive" count="1" prob="0.05"/>
+		<item name="gunJunkTurret" count="1" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='SupplyGuns']">	
@@ -395,109 +395,109 @@
 	</insertAfter>
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='SupplyFirstAid']">
 	<lootgroup name="SupplyAmmunition" count="1,3">
-        <item name="ammo9mmBulletBall" count="15,30"/>
-        <item name="ammo9mmBulletHP" count="15,30"/>
-        <item name="ammo9mmBulletAP" count="15,30"/>
-        <item name="ammo44MagnumBulletBall" count="15,30"/>
-        <item name="ammo44MagnumBulletHP" count="15,22"/>
-        <item name="ammo44MagnumBulletAP" count="15,30"/>
-        <item name="ammo762mmBulletBall" count="15,30"/>
-		<item name="ammo762mmBulletHP" count="15,30"/>
-        <item name="ammo762mmBulletAP" count="15,30"/>
-        <item name="ammoShotgunShell" count="15,30"/>
-        <item name="ammoShotgunSlug" count="15,30"/>
-        <item name="ammoShotgunBreachingSlug" count="15,30"/>
-        <item name="ammoBlunderbuss" count="15,30"/>
-        <item name="ammoJunkTurret" count="15,30"/>
-		<item name="ammoRocketHE" count="15,30"/>
-        <item name="ammoRocketFrag" count="15,30"/>
-        <item name="ammoGasCan" count="15,30"/>
-        <item name="ammoArrowStone" count="15,30"/>
-        <item name="ammoArrowIron" count="15,30"/>
-        <item name="ammoArrowSteelAP" count="15,30"/>
-        <item name="ammoArrowFlaming" count="15,30"/>
-		<item name="ammoArrowExploding" count="15,30"/>
-        <item name="ammoCrossbowBoltStone" count="15,30"/>
-        <item name="ammoCrossbowBoltIron" count="15,30"/>
-        <item name="ammoCrossbowBoltSteelAP" count="15,30"/>
-        <item name="ammoCrossbowBoltFlaming" count="15,30"/>
-        <item name="ammoCrossbowBoltExploding" count="15,30"/>
-		<item name="thrownAmmoPipeBomb" count="1,6"  />
-		<item name="thrownDynamite" count="1,6"  />
-		<item name="thrownAmmoMolotovCocktail" count="1,6"  />
-		<item name="thrownAmmoFlare" count="1,6"  />
-		<item name="ammoDartIron" count="1,20"  />
-		<item name="mineCandyTin" count="1,6"  />
-		<item name="mineHubcap" count="1,6"  />
-		<item name="mineAirFilter" count="1,6"  />
-		<item name="mineCookingPot" count="1,6"  />
-		<item name="rScrapIronPlateMine" count="1,6"  />
-		<item name="thrownTimedCharge" count="1,6"  />
-		<item name="thrownGrenade" count="1,6"  />
-		<item name="thrownGrenadeContact" count="1,6"  />
-		<item name="apparelGhillieSuitHood"   />
+        <item name="ammo9mmBulletBall" count="15,30" prob="0.05"/>
+        <item name="ammo9mmBulletHP" count="15,30" prob="0.05"/>
+        <item name="ammo9mmBulletAP" count="15,30" prob="0.05"/>
+        <item name="ammo44MagnumBulletBall" count="15,30" prob="0.05"/>
+        <item name="ammo44MagnumBulletHP" count="15,22" prob="0.05"/>
+        <item name="ammo44MagnumBulletAP" count="15,30" prob="0.05"/>
+        <item name="ammo762mmBulletBall" count="15,30" prob="0.05"/>
+		<item name="ammo762mmBulletHP" count="15,30" prob="0.05"/>
+        <item name="ammo762mmBulletAP" count="15,30" prob="0.05"/>
+        <item name="ammoShotgunShell" count="15,30" prob="0.05"/>
+        <item name="ammoShotgunSlug" count="15,30" prob="0.05"/>
+        <item name="ammoShotgunBreachingSlug" count="15,30" prob="0.05"/>
+        <item name="ammoBlunderbuss" count="15,30" prob="0.05"/>
+        <item name="ammoJunkTurret" count="15,30" prob="0.05"/>
+		<item name="ammoRocketHE" count="15,30" prob="0.05"/>
+        <item name="ammoRocketFrag" count="15,30" prob="0.05"/>
+        <item name="ammoGasCan" count="15,30" prob="0.05"/>
+        <item name="ammoArrowStone" count="15,30" prob="0.05"/>
+        <item name="ammoArrowIron" count="15,30" prob="0.05"/>
+        <item name="ammoArrowSteelAP" count="15,30" prob="0.05"/>
+        <item name="ammoArrowFlaming" count="15,30" prob="0.05"/>
+		<item name="ammoArrowExploding" count="15,30" prob="0.05"/>
+        <item name="ammoCrossbowBoltStone" count="15,30" prob="0.05"/>
+        <item name="ammoCrossbowBoltIron" count="15,30" prob="0.05"/>
+        <item name="ammoCrossbowBoltSteelAP" count="15,30" prob="0.05"/>
+        <item name="ammoCrossbowBoltFlaming" count="15,30" prob="0.05"/>
+        <item name="ammoCrossbowBoltExploding" count="15,30" prob="0.05"/>
+		<item name="thrownAmmoPipeBomb" count="1,6" prob="0.05"/>
+		<item name="thrownDynamite" count="1,6" prob="0.05"/>
+		<item name="thrownAmmoMolotovCocktail" count="1,6" prob="0.05"/>
+		<item name="thrownAmmoFlare" count="1,6" prob="0.05"/>
+		<item name="ammoDartIron" count="1,20" prob="0.05"/>
+		<item name="mineCandyTin" count="1,6" prob="0.05"/>
+		<item name="mineHubcap" count="1,6" prob="0.05"/>
+		<item name="mineAirFilter" count="1,6" prob="0.05"/>
+		<item name="mineCookingPot" count="1,6" prob="0.05"/>
+		<item name="rScrapIronPlateMine" count="1,6" prob="0.05"/>
+		<item name="thrownTimedCharge" count="1,6" prob="0.05"/>
+		<item name="thrownGrenade" count="1,6" prob="0.05"/>
+		<item name="thrownGrenadeContact" count="1,6" prob="0.05"/>
+		<item name="apparelGhillieSuitHood" count="1" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>	
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='SupplyAmmunition']">	
 	<lootgroup name="SupplyAmmunitionBundles" count="1,3">
-        <item name="ammoBundle9mmBulletBall" count="5"/>
-		<item name="ammoBundle9mmBulletHP" count="5"/>
-        <item name="ammoBundle9mmBulletAP" count="5"/>
-        <item name="ammoBundle44MagnumBulletBall" count="5"/>
-        <item name="ammoBundle44MagnumBulletHP" count="5"/>
-        <item name="ammoBundle44MagnumBulletAP" count="5"/>
-        <item name="ammoBundle762mmBulletBall" count="5"/>
-        <item name="ammoBundle762mmBulletHP" count="5"/>
-		<item name="ammoBundle762mmBulletAP" count="5"/>
-        <item name="ammoBundleShotgunShell" count="5"/>
-        <item name="ammoBundleShotgunSlug" count="5"/>
-        <item name="ammoBundleShotgunBreachingSlug" count="5"/>
-        <item name="ammoBundleBlunderbuss" count="5"/>
-        <item name="ammoBundleArrowStone" count="5"/>
-        <item name="ammoBundleArrowIron" count="5"/>
-		<item name="ammoBundleArrowSteelAP" count="5"/>
-		<item name="ammoBundleArrowFlaming" count="5"/>
-        <item name="ammoBundleArrowExploding" count="5"/>
-        <item name="ammoBundleCrossbowBoltStone" count="5"/>
-        <item name="ammoBundleCrossbowBoltIron" count="5"/>
-        <item name="ammoBundleCrossbowBoltSteelAP" count="5"/>
-        <item name="ammoBundleCrossbowBoltFlaming" count="5"/>
-        <item name="ammoBundleCrossbowBoltExploding" count="5"/>
+        <item name="ammoBundle9mmBulletBall" count="5" prob="0.05"/>
+		<item name="ammoBundle9mmBulletHP" count="5" prob="0.05"/>
+        <item name="ammoBundle9mmBulletAP" count="5" prob="0.05"/>
+        <item name="ammoBundle44MagnumBulletBall" count="5" prob="0.05"/>
+        <item name="ammoBundle44MagnumBulletHP" count="5" prob="0.05"/>
+        <item name="ammoBundle44MagnumBulletAP" count="5" prob="0.05"/>
+        <item name="ammoBundle762mmBulletBall" count="5" prob="0.05"/>
+        <item name="ammoBundle762mmBulletHP" count="5" prob="0.05"/>
+		<item name="ammoBundle762mmBulletAP" count="5" prob="0.05"/>
+        <item name="ammoBundleShotgunShell" count="5" prob="0.05"/>
+        <item name="ammoBundleShotgunSlug" count="5" prob="0.05"/>
+        <item name="ammoBundleShotgunBreachingSlug" count="5" prob="0.05"/>
+        <item name="ammoBundleBlunderbuss" count="5" prob="0.05"/>
+        <item name="ammoBundleArrowStone" count="5" prob="0.05"/>
+        <item name="ammoBundleArrowIron" count="5" prob="0.05"/>
+		<item name="ammoBundleArrowSteelAP" count="5" prob="0.05"/>
+		<item name="ammoBundleArrowFlaming" count="5" prob="0.05"/>
+        <item name="ammoBundleArrowExploding" count="5" prob="0.05"/>
+        <item name="ammoBundleCrossbowBoltStone" count="5" prob="0.05"/>
+        <item name="ammoBundleCrossbowBoltIron" count="5" prob="0.05"/>
+        <item name="ammoBundleCrossbowBoltSteelAP" count="5" prob="0.05"/>
+        <item name="ammoBundleCrossbowBoltFlaming" count="5" prob="0.05"/>
+        <item name="ammoBundleCrossbowBoltExploding" count="5" prob="0.05"/>
 	</lootgroup>
 	</insertAfter>
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='SupplyAmmunitionBundles']">
     <lootgroup name="SupplyWorkGear" count="1,3">
-        <item name="meleeToolWrench"/>
-        <item name="meleeToolStoneAxe"/>
-        <item name="meleeToolClawHammer"/>
-        <item name="gunToolNailgun"/>
-        <item name="meleeToolFireaxeIron"/>
-        <item name="meleeToolPickaxeSteel"/>
-        <item name="meleeToolShovelSteel"/>  
-        <item name="meleeToolChainsaw"/>  
-        <item name="meleeToolAuger"/>  
-        <item name="meleeToolKnifeMachete"/>     
-        <item name="meleeToolHoeIron"/> 
-		<item name="meleeToolPaintTool" />
-		<item name="meleeToolWireTool"/>
+        <item name="meleeToolWrench" count="1" prob="0.05"/>
+        <item name="meleeToolStoneAxe" count="1" prob="0.05"/>
+        <item name="meleeToolClawHammer" count="1" prob="0.05"/>
+        <item name="gunToolNailgun" count="1" prob="0.05"/>
+        <item name="meleeToolFireaxeIron" count="1" prob="0.05"/>
+        <item name="meleeToolPickaxeSteel" count="1" prob="0.05"/>
+        <item name="meleeToolShovelSteel" count="1" prob="0.05"/>  
+        <item name="meleeToolChainsaw" count="1" prob="0.05"/>  
+        <item name="meleeToolAuger" count="1" prob="0.05"/>  
+        <item name="meleeToolKnifeMachete" count="1" prob="0.05"/>     
+        <item name="meleeToolHoeIron" count="1" prob="0.05"/> 
+		<item name="meleeToolPaintTool"  count="1" prob="0.05"/>
+		<item name="meleeToolWireTool" count="1" prob="0.05"/>
         </lootgroup>
 	</insertAfter>
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='SupplyWorkGear']">
     <lootgroup name="SupplyMechanical" count="1,3">
-        <item name="vehicleBicycleChassis"/>
-		<item name="vehicleBicycleHandlebars"/>
-		<item name="vehicleWheels"/>
-        <item name="vehicleMinibikeChassis"/>
-		<item name="vehicleMinibikeHandlebars"/>
-		<item name="vehicleMotorcycleChassis"/>
-		<item name="vehicleMotorcycleHandlebars"/>
-		<item name="vehicle4x4TruckChassis"/>
-		<item name="vehicle4x4TruckAccessories"/>
-		<item name="vehicleGyroCopterChassis"/>
-		<item name="vehicleGyroCopterAccessories"/>
-		<item name="smallEngine"/>
-		<item name="carBattery"/>
-		<item name="ammoGasCan" count="150,500"/>
+        <item name="vehicleBicycleChassis" count="1" prob="0.05"/>
+		<item name="vehicleBicycleHandlebars" count="1" prob="0.05"/>
+		<item name="vehicleWheels" count="1" prob="0.05"/>
+        <item name="vehicleMinibikeChassis" count="1" prob="0.05"/>
+		<item name="vehicleMinibikeHandlebars" count="1" prob="0.05"/>
+		<item name="vehicleMotorcycleChassis" count="1" prob="0.05"/>
+		<item name="vehicleMotorcycleHandlebars" count="1" prob="0.05"/>
+		<item name="vehicle4x4TruckChassis" count="1" prob="0.05"/>
+		<item name="vehicle4x4TruckAccessories" count="1" prob="0.05"/>
+		<item name="vehicleGyroCopterChassis" count="1" prob="0.05"/>
+		<item name="vehicleGyroCopterAccessories" count="1" prob="0.05"/>
+		<item name="smallEngine" count="1" prob="0.05"/>
+		<item name="carBattery" count="1" prob="0.05"/>
+		<item name="ammoGasCan" count="150,500" prob="0.05"/>
         </lootgroup>
 	</insertAfter>	
 	<insertAfter xpath="/lootcontainers/lootcontainer[@id='124']" >	

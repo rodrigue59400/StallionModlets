@@ -1,30 +1,30 @@
 <stallionsden>
 	<append xpath="/worldgeneration/biomes/biome[@name='snow']/decorations">
-			<decoration type="block" blockname="SupplyContainer(Locked)" prob ="0.0009"/>
+			<decoration type="block" blockname="SupplyContainer(Locked)" prob ="0.000009"/>
 	</append>	
 	<append xpath="/worldgeneration/biomes/biome[@name='wasteland']/decorations">
-			<decoration type="block" blockname="SupplyContainer(Locked)" prob ="0.0009"/>
+			<decoration type="block" blockname="SupplyContainer(Locked)" prob ="0.000009"/>
 	</append>	
 	<append xpath="/worldgeneration/biomes/biome[@name='desert']/decorations">
-			<decoration type="block" blockname="SupplyContainer(Locked)" prob ="0.0009"/>
+			<decoration type="block" blockname="SupplyContainer(Locked)" prob ="0.000009"/>
 	</append>	
 	<append xpath="/worldgeneration/biomes/biome[@name='burnt_forest']/decorations">
-			<decoration type="block" blockname="SupplyContainer(Locked)" prob ="0.0009"/>
+			<decoration type="block" blockname="SupplyContainer(Locked)" prob ="0.000009"/>
 	</append>	
 	<append xpath="/worldgeneration/biomes/biome[@name='pine_forest']/decorations">
-			<decoration type="block" blockname="SupplyContainer(Locked)" prob ="0.0009"/>
+			<decoration type="block" blockname="SupplyContainer(Locked)" prob ="0.000009"/>
 	</append>
 	<append xpath="/worldgeneration/biomes/biome[@name='city']/decorations">
-			<decoration type="block" blockname="SupplyContainer(Locked)" prob ="0.0009"/>
+			<decoration type="block" blockname="SupplyContainer(Locked)" prob ="0.000009"/>
 	</append>	
 	<append xpath="/worldgeneration/biomes/biome[@name='city_wasteland']/decorations">
-			<decoration type="block" blockname="SupplyContainer(Locked)" prob ="0.0009"/>
+			<decoration type="block" blockname="SupplyContainer(Locked)" prob ="0.000009"/>
 	</append>	
 	<append xpath="/worldgeneration/biomes/biome[@name='wasteland_hub']/decorations">
-			<decoration type="block" blockname="SupplyContainer(Locked)" prob ="0.0009"/>
+			<decoration type="block" blockname="SupplyContainer(Locked)" prob ="0.000009"/>
 	</append>		
 	<append xpath="/worldgeneration/biomes/biome[@name='underwater']/decorations">
-			<decoration type="block" blockname="SupplyContainer(Locked)" prob ="0.0009"/>
+			<decoration type="block" blockname="SupplyContainer(Locked)" prob ="0.000009"/>
 	</append>
 	
 	<!-- <append xpath="/worldgeneration/pois/poi[@name='City Asphalt']">
