@@ -306,7 +306,7 @@
 	<property name="Stacknumber" value="20"/>
 	<property name="EconomicValue" value="250"/>
 	<property name="Group" value="Ammo/Weapons"/>
-	<property name="UnlockedBy" value="perkDemolitionsExpert,gunRocketLauncherSchematic"/>
+	<property name="UnlockedBy" value="gunRocketLauncherSchematic"/>
 	<property class="Action1">
 		<property name="Class" value="Projectile"/>
 		<property name="Explosion.ParticleIndex" value="4"/> <!-- which Prefab/particle is used -->
@@ -329,6 +329,7 @@
 	<property name="CustomIcon" value="ammoRocketFrag"/>
 	<property name="CustomIconTint" value="b0ffb0"/>
 	<property name="Extends" value="RocketHE"/>
+	<property name="UnlockedBy" value="gunRocketLauncherSchematic"/>
 	<property class="Action1">
 		<property name="Explosion.RadiusEntities" value="6"/> <!-- damage radius for entities -->
 		</property>
@@ -875,7 +876,7 @@
 	<property name="Explosion.BlastPower" value="75"/> <!-- (int,100) how far ragdolls and such are flung -->
 	<property name="FuseTime" value="4"/> <!-- End: Needed for  time in sec, max 6 -->
 	<property name="StickPercent" value=".4"/>
-	<property name="UnlockedBy" value="perkDemolitionsExpert,thrownAmmoPipeBombSchematic"/>
+	<property name="UnlockedBy" value="thrownAmmoPipeBombSchematic"/>
 	<property name="Group" value="Ammo/Weapons"/>
 	<property name="ActivationTransformToHide" value="Sparks"/>
 	<property class="Action0">
@@ -921,7 +922,7 @@
 	<property name="FusePrimeOnActivate" value="true"/>
 	<property name="ExplodeOnHit" value="true"/>
 	<property name="StickPercent" value=".5"/>
-	<property name="UnlockedBy" value="perkDemolitionsExpert,thrownGrenadeContactSchematic"/>
+	<property name="UnlockedBy" value="thrownGrenadeContactSchematic"/>
 	<property name="Group" value="Ammo/Weapons"/>
 	<property name="SoundUnholster" value="grenade_unholster"/>
 	<property class="Action0">
@@ -952,7 +953,7 @@
 	<property name="CustomIconTint" value="b0ffb0"/>
 	<property name="Extends" value="GrenadeContact" param1="ExplodeOnHit"/>
 	<property name="Meshfile" value="#Other/Items?Weapons/Ranged/Grenade/GrenadePrefab.prefab"/>
-	<property name="UnlockedBy" value="perkDemolitionsExpert,thrownGrenadeSchematic"/>
+	<property name="UnlockedBy" value="thrownGrenadeSchematic"/>
 	<property name="DisplayType" value="ammoGrenade"/>
 	<property name="FuseTime" value="3"/>
 	<property name="StickPercent" value=".3"/>
@@ -985,7 +986,7 @@
 	<property name="FuseStartOnDrop" value="true"/>
 	<property name="FuseTime" value="4"/> <!-- End: Needed for  time in sec, max 6 -->
 	<property name="StickPercent" value="1"/>
-	<property name="UnlockedBy" value="perkDemolitionsExpert,bookGreatHeistTimedCharge"/>
+	<property name="UnlockedBy" value="bookGreatHeistTimedCharge"/>
 	<property name="Group" value="Ammo/Weapons"/>
 	<property name="SoundUnholster" value="charge_unholster"/>
 	<property name="SoundStick" value="charge_stick"/>
@@ -1026,7 +1027,7 @@
 	<!--<property name="Explosion.DamageBonus.stone" value="0"/><property name="Explosion.DamageBonus.metal" value="0"/><property name="Explosion.DamageBonus.earth" value="0"/><property name="Explosion.DamageBonus.cloth" value="5"/><property name="Explosion.DamageBonus.wood" value="0"/><property name="Explosion.DamageBonus.water" value="0"/>-->
 	<property name="FuseTime" value="4"/> <!-- End: Needed for  time in sec, max 6 -->
 	<property name="StickPercent" value=".2"/>
-	<property name="UnlockedBy" value="perkDemolitionsExpert,thrownDynamiteSchematic"/>
+	<property name="UnlockedBy" value="thrownDynamiteSchematic"/>
 	<property name="Group" value="Ammo/Weapons"/>
 	<property class="Action0">
 		<property name="Class" value="ThrowAway"/>
@@ -1233,4 +1234,36 @@
 <append xpath="/items/item[@name='gunCrossbowCompound']/property[@class='Action0']/property[@name='Magazine_items']/@value">,CrossbowBoltStone,CrossbowBoltIron,CrossbowBoltSteelAP,CrossbowBoltFlaming,CrossbowBoltExploding</append>
 <append xpath="/items/item[@name='gunJunkTurret']/property[@class='Action0']/property[@name='Magazine_items']/@value">,JunkTurretAmmo</append>
 <!-- *************************************************************************************************************************************************************************************************** -->
+<!-- PERK ADDITIONS -->
+<append xpath="/items/item[@name='bookPistolPeteHPAmmo']/property[@name='Unlocks']/@value">,9mmBulletHP</append>
+<append xpath="/items/item[@name='bookPistolPeteAPAmmo']/property[@name='Unlocks']/@value">,9mmBulletAP</append>
+
+<append xpath="/items/item[@name='ammo44MagnumBulletHP']/property[@name='Unlocks']/@value">,44MagnumBulletHP</append>
+<append xpath="/items/item[@name='ammo44MagnumBulletAP']/property[@name='Unlocks']/@value">,44MagnumBulletAP</append>
+
+<append xpath="/items/item[@name='ammo762mmBulletHP']/property[@name='Unlocks']/@value">,762mmBulletHP</append>
+<append xpath="/items/item[@name='ammo762mmBulletAP']/property[@name='Unlocks']/@value">,762mmBulletAP</append>
+
+<append xpath="/items/item[@name='bookShotgunMessiahSlugs']/property[@name='Unlocks']/@value">,ShotgunSlug</append>
+<append xpath="/items/item[@name='bookShotgunMessiahBreachingSlugs']/property[@name='Unlocks']/@value">,ShotgunBreachingSlug</append>
+
+<append xpath="/items/item[@name='gunRocketLauncherSchematic']/property[@name='Unlocks']/@value">,RocketHE</append>
+<append xpath="/items/item[@name='gunRocketLauncherSchematic']/property[@name='Unlocks']/@value">,RocketFrag</append>
+
+<append xpath="/items/item[@name='bookRangersExplodingBolts']/property[@name='Unlocks']/@value">,ArrowExploding</append>
+<append xpath="/items/item[@name='bookRangersFlamingArrows']/property[@name='Unlocks']/@value">,ArrowFlaming</append>
+<append xpath="/items/item[@name='bookRangersAPAmmo']/property[@name='Unlocks']/@value">,ArrowSteelAP</append>
+
+<append xpath="/items/item[@name='bookRangersAPAmmo']/property[@name='Unlocks']/@value">,CrossbowBoltSteelAP</append>
+<append xpath="/items/item[@name='bookRangersFlamingArrows']/property[@name='Unlocks']/@value">,CrossbowBoltFlaming</append>
+<append xpath="/items/item[@name='bookRangersExplodingBolts']/property[@name='Unlocks']/@value">,CrossbowBoltExploding</append>
+
+<append xpath="/items/item[@name='thrownAmmoPipeBombSchematic']/property[@name='Unlocks']/@value">,PipeBomb</append>
+<append xpath="/items/item[@name='thrownGrenadeContactSchematic']/property[@name='Unlocks']/@value">,GrenadeContact</append>
+
+<append xpath="/items/item[@name='thrownGrenadeSchematic']/property[@name='Unlocks']/@value">,Grenade</append>
+<append xpath="/items/item[@name='bookGreatHeistTimedCharge']/property[@name='Unlocks']/@value">,TimedCharge</append>
+
+<append xpath="/items/item[@name='thrownDynamiteSchematic']/property[@name='Unlocks']/@value">,Dynamite</append>
+<!-- PERK ADDITIONS -->
 </stallionsden>

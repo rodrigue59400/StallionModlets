@@ -58,7 +58,7 @@
 	<property name="CustomIcon" value="toolCookingPot"/> <property name="CustomIconTint" value="ffb0b0"/>
 	<property name="Model" value="CampingGear/cooking_pot" param1="main_mesh"/>
 	<property name="Collide" value="melee,bullet,arrow,rocket"/>
-	<property name="UnlockedBy" value="perkYeahScience"/>
+	<!--<property name="UnlockedBy" value="perkYeahScience"/>-->
 	<property name="Stacknumber" value="25"/> <!-- STK explosives -->
 	<property name="Explosion.RadiusEntities" value="3"/>
 	<property name="Explosion.EntityDamage" value="300"/>
@@ -70,7 +70,7 @@
 	<property name="Extends" value="mineCandyTin"/>
 	<property name="Model" value="Traps/trap_mine_hubcap" param1="main_mesh"/>
 	<property name="Stacknumber" value="20"/> <!-- STK explosives -->
-	<property name="UnlockedBy" value="perkYeahScience"/>
+	<!--<property name="UnlockedBy" value="perkYeahScience"/>-->
 	<property name="MaxDamage" value="5"/>
 	<property name="Explosion.RadiusEntities" value="5"/>
 	<property name="Explosion.EntityDamage" value="450"/>
@@ -82,7 +82,7 @@
 	<property name="Model" value="Traps/trap_mine_filter" param1="main_mesh"/>
 	<property name="Stacknumber" value="10"/> <!-- STK explosives -->
 	<property name="MaxDamage" value="6"/>
-	<property name="UnlockedBy" value="perkYeahScience"/>
+	<!--<property name="UnlockedBy" value="perkYeahScience"/>-->
 	<property name="Explosion.RadiusEntities" value="5"/>
 	<property name="Explosion.EntityDamage" value="690"/>
 	<property name="EconomicValue" value="182"/>
