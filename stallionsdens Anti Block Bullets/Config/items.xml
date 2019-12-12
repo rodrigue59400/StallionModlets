@@ -26,7 +26,7 @@
 	<property name="DisplayType" value="ammoBulletHP"/>
 	<property name="EconomicValue" value="14"/>
 	<property name="DescriptionKey" value="ammoHPGroupDesc"/>
-	<property name="UnlockedBy" value="perkPistolPeteHPAmmo"/>
+	<property name="UnlockedBy" value="bookPistolPeteHPAmmo"/>
 	<effect_group name="9mmBulletHP" tiered="false">
 		<passive_effect name="EntityDamage" operation="base_set" value="41.6"/>
 		<passive_effect name="TargetArmor" operation="perc_add" value="1"/>
@@ -42,7 +42,7 @@
 	<property name="DisplayType" value="ammoBulletAP"/>
 	<property name="EconomicValue" value="14"/>
 	<property name="DescriptionKey" value="ammoAPGroupDesc"/>
-	<property name="UnlockedBy" value="perkPistolPeteAPAmmo"/>
+	<property name="UnlockedBy" value="bookPistolPeteAPAmmo"/>
 	<effect_group name="9mmBulletAP" tiered="false">
 		<passive_effect name="EntityDamage" operation="base_set" value="32"/>
 		<passive_effect name="TargetArmor" operation="perc_add" value="-.2"/>
@@ -79,7 +79,7 @@
 	<property name="DisplayType" value="ammoBulletHP"/>
 	<property name="EconomicValue" value="15"/>
 	<property name="DescriptionKey" value="ammoHPGroupDesc"/>
-	<property name="UnlockedBy" value="perkEnforcerHPAmmo"/>
+	<property name="UnlockedBy" value="bookEnforcerHPAmmo"/>
 	<effect_group name="44MagnumBulletHP" tiered="false">
 		<passive_effect name="EntityDamage" operation="base_set" value="84.5"/>
 		<passive_effect name="TargetArmor" operation="perc_add" value="1"/>
@@ -98,7 +98,7 @@
 	<property name="DisplayType" value="ammoBulletAP"/>
 	<property name="EconomicValue" value="15"/>
 	<property name="DescriptionKey" value="ammoAPGroupDesc"/>
-	<property name="UnlockedBy" value="perkEnforcerAPAmmo"/>
+	<property name="UnlockedBy" value="bookEnforcerAPAmmo"/>
 	<effect_group name="44MagnumBulletAP" tiered="false">
 		<passive_effect name="EntityDamage" operation="base_set" value="80"/>
 		<passive_effect name="TargetArmor" operation="perc_add" value="-.2"/>
@@ -130,7 +130,7 @@
 	<property name="DisplayType" value="ammoBulletHP"/>
 	<property name="EconomicValue" value="16"/>
 	<property name="DescriptionKey" value="ammoHPGroupDesc"/>
-	<property name="UnlockedBy" value="perkSniperHPAmmo"/>
+	<property name="UnlockedBy" value="bookSniperHPAmmo"/>
 	<effect_group name="762mmBulletHP" tiered="false">
 		<passive_effect name="EntityDamage" operation="base_set" value="65"/>
 		<passive_effect name="TargetArmor" operation="perc_add" value="1"/>
@@ -146,7 +146,7 @@
 	<property name="DisplayType" value="ammoBulletAP"/>
 	<property name="EconomicValue" value="16"/>
 	<property name="DescriptionKey" value="ammoAPGroupDesc"/>
-	<property name="UnlockedBy" value="perkSniperAPAmmo"/>
+	<property name="UnlockedBy" value="bookSniperAPAmmo"/>
 	<effect_group name="762mmBulletAP" tiered="false">
 		<passive_effect name="EntityDamage" operation="base_set" value="50"/>
 		<passive_effect name="TargetArmor" operation="perc_add" value="-.2"/>
@@ -202,7 +202,7 @@
 	<property name="Stacknumber" value="150"/> <!-- STK ammo low -->
 	<property name="EconomicValue" value="20"/>
 	<property name="Group" value="Ammo/Weapons"/>
-	<property name="UnlockedBy" value="perkShotgunMessiahSlugs"/>
+	<property name="UnlockedBy" value="bookShotgunMessiahSlugs"/>
 	<effect_group name="ShotgunSlug" tiered="false">
 		<passive_effect name="EntityDamage" operation="base_set" value="80"/>
 		<passive_effect name="RoundRayCount" operation="base_set" value="1"/>
@@ -230,7 +230,7 @@
 	<property name="Stacknumber" value="150"/> <!-- STK ammo low -->
 	<property name="EconomicValue" value="20"/>
 	<property name="Group" value="Ammo/Weapons"/>
-	<property name="UnlockedBy" value="perkShotgunMessiahBreachingSlugs"/>
+	<property name="UnlockedBy" value="bookShotgunMessiahBreachingSlugs"/>
 	<effect_group name="ShotgunBreachingSlug" tiered="false">
 		<passive_effect name="EntityDamage" operation="base_set" value="80"/>
 		<passive_effect name="RoundRayCount" operation="base_set" value="1"/>
@@ -455,7 +455,7 @@
 	<property name="EconomicValue" value="57"/>
 	<property name="EconomicBundleSize" value="5"/>
 	<property name="StickyOffset" value=".5"/>
-	<property name="UnlockedBy" value="perkRangersAPAmmo"/>
+	<property name="UnlockedBy" value="bookRangersAPAmmo"/>
 	<effect_group name="ArrowSteelAP" tiered="false"> <!-- ammoArrowSteelAP -->
 		<passive_effect name="EntityDamage" operation="base_set" value="31"/>
 		<passive_effect name="TargetArmor" operation="perc_add" value="-.2"/>
@@ -503,7 +503,7 @@
 	<property name="EconomicBundleSize" value="1"/>
 	<property name="Damage_type" value="Heat"/>
 	<property name="StickyOffset" value=".7"/>
-	<property name="UnlockedBy" value="perkRangersFlamingArrows"/>
+	<property name="UnlockedBy" value="bookRangersFlamingArrows"/>
 	<property class="Action1">
 		<property name="Gravity" value="-5"/>
 		</property>
@@ -552,7 +552,7 @@
 	<property name="FuelValue" value="27"/>
 	<property name="EconomicValue" value="65"/>
 	<property name="EconomicBundleSize" value="1"/>
-	<property name="UnlockedBy" value="perkRangersExplodingBolts"/>
+	<property name="UnlockedBy" value="bookRangersExplodingBolts"/>
 	<property class="Action1">
 		<!--<property name="Explosion.ParticleIndex" value="0"/>  no expl. -->
 		<property name="Gravity" value="-5"/>
@@ -717,7 +717,7 @@
 	<property name="Extends" value="CrossbowBoltIron"/>
 	<property name="Meshfile" value="#Other/Items?Weapons/Ranged/Bows/Crossbow/crossbowBoltSteelPrefab.prefab"/>
 	<property name="EconomicValue" value="57"/>
-	<property name="UnlockedBy" value="perkRangersAPAmmo"/>
+	<property name="UnlockedBy" value="bookRangersAPAmmo"/>
 	<property name="EconomicBundleSize" value="5"/>
 	<property name="IsSticky" value="true"/>
 	<property name="StickyOffset" value=".325"/>
@@ -771,7 +771,7 @@
 	<property name="EconomicBundleSize" value="1"/>
 	<property name="Damage_type" value="Heat"/>
 	<property name="StickyOffset" value=".7"/>
-	<property name="UnlockedBy" value="perkRangersFlamingArrows"/>
+	<property name="UnlockedBy" value="bookRangersFlamingArrows"/>
 	<property class="Action1">
 		<property name="Gravity" value="-5"/>
 		<property name="DamageBonus.wood" value="2"/>
@@ -825,7 +825,7 @@
 	<property name="FuelValue" value="27"/>
 	<property name="EconomicValue" value="80"/>
 	<property name="EconomicBundleSize" value="1"/>
-	<property name="UnlockedBy" value="perkRangersExplodingBolts"/>
+	<property name="UnlockedBy" value="bookRangersExplodingBolts"/>
 	<property class="Action1">
 		<!--<property name="Explosion.ParticleIndex" value="0"/>  no expl. -->
 		<property name="Gravity" value="-5"/>
@@ -1237,33 +1237,20 @@
 <!-- PERK ADDITIONS -->
 <append xpath="/items/item[@name='bookPistolPeteHPAmmo']/property[@name='Unlocks']/@value">,9mmBulletHP</append>
 <append xpath="/items/item[@name='bookPistolPeteAPAmmo']/property[@name='Unlocks']/@value">,9mmBulletAP</append>
-
-<append xpath="/items/item[@name='ammo44MagnumBulletHP']/property[@name='Unlocks']/@value">,44MagnumBulletHP</append>
-<append xpath="/items/item[@name='ammo44MagnumBulletAP']/property[@name='Unlocks']/@value">,44MagnumBulletAP</append>
-
-<append xpath="/items/item[@name='ammo762mmBulletHP']/property[@name='Unlocks']/@value">,762mmBulletHP</append>
-<append xpath="/items/item[@name='ammo762mmBulletAP']/property[@name='Unlocks']/@value">,762mmBulletAP</append>
-
+<append xpath="/items/item[@name='bookEnforcerHPAmmo']/property[@name='Unlocks']/@value">,44MagnumBulletHP</append>
+<append xpath="/items/item[@name='bookEnforcerAPAmmo']/property[@name='Unlocks']/@value">,44MagnumBulletAP</append>
+<append xpath="/items/item[@name='bookSniperHPAmmo']/property[@name='Unlocks']/@value">,762mmBulletHP</append>
+<append xpath="/items/item[@name='bookSniperAPAmmo']/property[@name='Unlocks']/@value">,762mmBulletAP</append>
 <append xpath="/items/item[@name='bookShotgunMessiahSlugs']/property[@name='Unlocks']/@value">,ShotgunSlug</append>
 <append xpath="/items/item[@name='bookShotgunMessiahBreachingSlugs']/property[@name='Unlocks']/@value">,ShotgunBreachingSlug</append>
-
-<append xpath="/items/item[@name='gunRocketLauncherSchematic']/property[@name='Unlocks']/@value">,RocketHE</append>
-<append xpath="/items/item[@name='gunRocketLauncherSchematic']/property[@name='Unlocks']/@value">,RocketFrag</append>
-
-<append xpath="/items/item[@name='bookRangersExplodingBolts']/property[@name='Unlocks']/@value">,ArrowExploding</append>
-<append xpath="/items/item[@name='bookRangersFlamingArrows']/property[@name='Unlocks']/@value">,ArrowFlaming</append>
-<append xpath="/items/item[@name='bookRangersAPAmmo']/property[@name='Unlocks']/@value">,ArrowSteelAP</append>
-
-<append xpath="/items/item[@name='bookRangersAPAmmo']/property[@name='Unlocks']/@value">,CrossbowBoltSteelAP</append>
-<append xpath="/items/item[@name='bookRangersFlamingArrows']/property[@name='Unlocks']/@value">,CrossbowBoltFlaming</append>
-<append xpath="/items/item[@name='bookRangersExplodingBolts']/property[@name='Unlocks']/@value">,CrossbowBoltExploding</append>
-
+<append xpath="/items/item[@name='gunRocketLauncherSchematic']/property[@name='Unlocks']/@value">,RocketHE,RocketFrag</append>
+<append xpath="/items/item[@name='bookRangersExplodingBolts']/property[@name='Unlocks']/@value">,ArrowExploding,CrossbowBoltExploding</append>
+<append xpath="/items/item[@name='bookRangersFlamingArrows']/property[@name='Unlocks']/@value">,ArrowFlaming,CrossbowBoltFlaming</append>
+<append xpath="/items/item[@name='bookRangersAPAmmo']/property[@name='Unlocks']/@value">,ArrowSteelAP,CrossbowBoltSteelAP</append>
 <append xpath="/items/item[@name='thrownAmmoPipeBombSchematic']/property[@name='Unlocks']/@value">,PipeBomb</append>
 <append xpath="/items/item[@name='thrownGrenadeContactSchematic']/property[@name='Unlocks']/@value">,GrenadeContact</append>
-
 <append xpath="/items/item[@name='thrownGrenadeSchematic']/property[@name='Unlocks']/@value">,Grenade</append>
 <append xpath="/items/item[@name='bookGreatHeistTimedCharge']/property[@name='Unlocks']/@value">,TimedCharge</append>
-
 <append xpath="/items/item[@name='thrownDynamiteSchematic']/property[@name='Unlocks']/@value">,Dynamite</append>
 <!-- PERK ADDITIONS -->
 </stallionsden>

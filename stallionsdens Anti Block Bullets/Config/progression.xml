@@ -1,0 +1,14 @@
+<Stallionsden>
+<append xpath="/progression/perks/perk[@name='perkPistolPeteHPAmmo']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='1']/@tags">,9mmBulletHP</append>
+<append xpath="/progression/perks/perk[@name='perkPistolPeteAPAmmo']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='1']/@tags">,9mmBulletAP</append>
+<append xpath="/progression/perks/perk[@name='perkEnforcerHPAmmo']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='1']/@tags">,44MagnumBulletHP</append>
+<append xpath="/progression/perks/perk[@name='perkEnforcerAPAmmo']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='1']/@tags">,44MagnumBulletAP</append>
+<append xpath="/progression/perks/perk[@name='perkSniperHPAmmo']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='1']/@tags">,762mmBulletHP</append>
+<append xpath="/progression/perks/perk[@name='perkSniperAPAmmo']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='1']/@tags">,762mmBulletAP</append>
+<append xpath="/progression/perks/perk[@name='perkShotgunMessiahSlugs']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='1']/@tags">,ShotgunSlug</append>
+<append xpath="/progression/perks/perk[@name='perkShotgunMessiahBreachingSlugs']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='1']/@tags">,ShotgunBreachingSlug</append>
+<append xpath="/progression/perks/perk[@name='perkRangersExplodingBolts']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='1']/@tags">,ArrowExploding,CrossbowBoltExploding</append>
+<append xpath="/progression/perks/perk[@name='perkRangersFlamingArrows']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='1']/@tags">,ArrowFlaming,CrossbowBoltFlaming</append>
+<append xpath="/progression/perks/perk[@name='perkRangersAPAmmo']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='1']/@tags">,ArrowSteelAP,CrossbowBoltSteelAP</append>
+<append xpath="/progression/perks/perk[@name='perkDemolitionsExpert']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='1,5']/@tags">,PipeBomb,GrenadeContact,Grenade,TimedCharge,Dynamite</append>
+</Stallionsden>
