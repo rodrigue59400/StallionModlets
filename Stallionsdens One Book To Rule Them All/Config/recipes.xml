@@ -1,0 +1,10 @@
+<stallionsden>
+<append xpath="/recipes">
+<recipe name="TheOneBook" count="1" craft_area="campfire">
+	<ingredient name="resourcePaper" count="100"/>
+	</recipe>
+<recipe name="TheOneBookSchematics" count="1" craft_area="campfire">
+	<ingredient name="resourcePaper" count="150"/>
+	</recipe>
+</append>
+</stallionsden>
