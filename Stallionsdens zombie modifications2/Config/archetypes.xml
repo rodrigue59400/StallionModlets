@@ -16,7 +16,7 @@
 <!-- ######################################################### -->
 <!-- ######################################################### -->
 <append xpath="/archetypes">
-			<archetype name="ZombieAiden" male="true" hair_color="249,130,2" eye_color="101,111,145" skin_color="64,64,64" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="ZombieAiden" male="true" hair_color="249,130,2" eye_color="101,111,145" skin_color="64,64,64" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head" color="skin"/>
@@ -132,7 +132,7 @@
 					<gene name="breastSize" value="0.5"/>
 				</dna>
 			</archetype>
-			<archetype name="ZombieBob" male="true" hair_color="34,31,30" eye_color="100,110,115" skin_color="64,64,64" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="ZombieBob" male="true" hair_color="34,31,30" eye_color="100,110,115" skin_color="64,64,64" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head" color="skin"/>
@@ -248,7 +248,7 @@
 					<gene name="breastSize" value="0"/>
 				</dna>
 			</archetype>
-			<archetype name="ZombieBolivar" male="true" hair_color="0,0,0" eye_color="255,200,200" skin_color="64,64,64" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="ZombieBolivar" male="true" hair_color="0,0,0" eye_color="255,200,200" skin_color="64,64,64" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head" color="skin"/>
@@ -361,7 +361,7 @@
 					<gene name="breastSize" value="0.5"/>
 				</dna>
 			</archetype>
-			<archetype name="ZombieCaitlin" male="false" hair_color="90,35,23" eye_color="70,80,70" skin_color="64,64,64" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="ZombieCaitlin" male="false" hair_color="90,35,23" eye_color="70,80,70" skin_color="64,64,64" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="female_base_face">
 						<texture name="female_head" color="skin"/>
@@ -476,7 +476,7 @@
 					<gene name="breastSize" value="1"/>
 				</dna>
 			</archetype>
-			<archetype name="ZombieCallie" male="false" hair_color="35,29,42" eye_color="39,64,98" skin_color="83,73,73" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="ZombieCallie" male="false" hair_color="35,29,42" eye_color="39,64,98" skin_color="83,73,73" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="female_base_face">
 						<texture name="female_head" color="skin"/>
@@ -598,7 +598,7 @@
 					<gene name="breastSize" value="0.22"/>
 				</dna>
 			</archetype>
-			<archetype name="ZombieChang" male="true" hair_color="100,100,100" eye_color="40,20,20" skin_color="64,64,64" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="ZombieChang" male="true" hair_color="100,100,100" eye_color="40,20,20" skin_color="64,64,64" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_asian_face">
 						<texture name="male_head" color="skin"/>
@@ -722,7 +722,7 @@
 					<gene name="breastSize" value="0.5"/>
 				</dna>
 			</archetype>
-			<archetype name="ZombieCharlotte" male="false" hair_color="60,25,23" eye_color="70,80,70" skin_color="64,64,64" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="ZombieCharlotte" male="false" hair_color="60,25,23" eye_color="70,80,70" skin_color="64,64,64" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="female_base_face">
 						<texture name="female_head" color="skin"/>
@@ -839,7 +839,7 @@
 					<gene name="breastSize" value="0.265"/>
 				</dna>
 			</archetype>
-			<archetype name="ZombieClint" male="true" hair_color="50,30,30" eye_color="116,119,117" skin_color="64,64,64" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="ZombieClint" male="true" hair_color="50,30,30" eye_color="116,119,117" skin_color="64,64,64" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head" color="skin"/>
@@ -964,7 +964,7 @@
 					<gene name="breastSize" value="0"/>
 				</dna>
 			</archetype>
-			<archetype name="ZombieCur" male="true" hair_color="0,0,0" eye_color="128,0,0" skin_color="32,16,16" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="ZombieCur" male="true" hair_color="0,0,0" eye_color="128,0,0" skin_color="32,16,16" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head_old" color="skin"/>
@@ -1084,7 +1084,7 @@
 					<gene name="breastSize" value="0.73"/>
 				</dna>
 			</archetype>
-			<archetype name="ZombieEmma" male="false" hair_color="81,70,70" eye_color="144,146,147" skin_color="64,64,64" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="ZombieEmma" male="false" hair_color="81,70,70" eye_color="144,146,147" skin_color="64,64,64" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="female_base_face">
 						<texture name="female_head_old" color="skin"/>
@@ -1198,7 +1198,7 @@
 					<gene name="breastSize" value="0.5"/>
 				</dna>
 			</archetype>
-			<archetype name="ZombieGabrielle" male="false" hair_color="30,10,10" eye_color="99,62,14" skin_color="32,32,64" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="ZombieGabrielle" male="false" hair_color="30,10,10" eye_color="99,62,14" skin_color="32,32,64" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="female_base_face">
 						<texture name="female_head" color="skin"/>
@@ -1314,7 +1314,7 @@
 					<gene name="breastSize" value="1"/>
 				</dna>
 			</archetype>
-			<archetype name="ZombieGrace" male="false" hair_color="30,25,23" eye_color="60,30,30" skin_color="64,64,64" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="ZombieGrace" male="false" hair_color="30,25,23" eye_color="60,30,30" skin_color="64,64,64" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="female_asian_face">
 						<texture name="female_head_asian" color="skin"/>
@@ -1430,7 +1430,7 @@
 					<gene name="breastSize" value="0.33"/>
 				</dna>
 			</archetype>
-			<archetype name="ZombieHank" male="true" hair_color="200,200,200" eye_color="99,62,14" skin_color="64,64,64" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="ZombieHank" male="true" hair_color="200,200,200" eye_color="99,62,14" skin_color="64,64,64" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head_old" color="skin"/>
@@ -1551,7 +1551,7 @@
 					<gene name="breastSize" value="0"/>
 				</dna>
 			</archetype>
-			<archetype name="ZombieHelen" male="false" hair_color="230,200,160" eye_color="200,200,255" skin_color="64,64,64" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="ZombieHelen" male="false" hair_color="230,200,160" eye_color="200,200,255" skin_color="64,64,64" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="female_base_face">
 						<texture name="female_head" color="skin"/>
@@ -1671,7 +1671,7 @@
 					<gene name="breastSize" value="1"/>
 				</dna>
 			</archetype>
-			<archetype name="ZombieHugh" male="true" hair_color="120,57,23" eye_color="131,115,91" skin_color="64,64,64" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="ZombieHugh" male="true" hair_color="120,57,23" eye_color="131,115,91" skin_color="64,64,64" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head_old" color="skin"/>
@@ -1801,7 +1801,7 @@
 					<gene name="breastSize" value="0"/>
 				</dna>
 			</archetype>
-			<archetype name="ZombieJack" male="true" hair_color="30,30,30" eye_color="99,62,14" skin_color="64,64,64" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="ZombieJack" male="true" hair_color="30,30,30" eye_color="99,62,14" skin_color="64,64,64" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head_old" color="skin"/>
@@ -1926,7 +1926,7 @@
 					<gene name="breastSize" value="0"/>
 				</dna>
 			</archetype>
-			<archetype name="ZombieJeff" male="true" hair_color="20,20,20" eye_color="99,62,14" skin_color="32,32,64" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="ZombieJeff" male="true" hair_color="20,20,20" eye_color="99,62,14" skin_color="32,32,64" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head" color="skin"/>
@@ -2045,7 +2045,7 @@
 					<gene name="breastSize" value="0.5"/>
 				</dna>
 			</archetype>
-			<archetype name="ZombieJethro" male="true" hair_color="48,32,32" eye_color="184,169,166" skin_color="10,10,10" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="ZombieJethro" male="true" hair_color="48,32,32" eye_color="184,169,166" skin_color="10,10,10" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head_zombie" color="skin"/>
@@ -2152,7 +2152,7 @@
 					<gene name="breastSize" value="0.5"/>
 				</dna>
 			</archetype>
-			<archetype name="ZombieJimmy" male="true" hair_color="27,27,27" eye_color="118,58,45" skin_color="32,32,64" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="ZombieJimmy" male="true" hair_color="27,27,27" eye_color="118,58,45" skin_color="32,32,64" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head" color="skin"/>
@@ -2275,7 +2275,7 @@
 					<gene name="breastSize" value="0"/>
 				</dna>
 			</archetype>
-			<archetype name="ZombieJoel" male="true" hair_color="85,70,60" eye_color="100,110,115" skin_color="64,64,64" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="ZombieJoel" male="true" hair_color="85,70,60" eye_color="100,110,115" skin_color="64,64,64" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head" color="skin"/>
@@ -2399,7 +2399,7 @@
 					<gene name="breastSize" value="0"/>
 				</dna>
 			</archetype>
-			<archetype name="ZombieMaria" male="false" hair_color="9,9,9" eye_color="99,62,14" skin_color="64,64,64" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="ZombieMaria" male="false" hair_color="9,9,9" eye_color="99,62,14" skin_color="64,64,64" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="female_base_face">
 						<texture name="female_head" color="skin"/>
@@ -2513,7 +2513,7 @@
 					<gene name="breastSize" value="1"/>
 				</dna>
 			</archetype>
-			<archetype name="ZombieMercura" male="false" hair_color="0,0,0" eye_color="255,255,255" skin_color="100,100,100" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="ZombieMercura" male="false" hair_color="0,0,0" eye_color="255,255,255" skin_color="100,100,100" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="female_base_face">
 						<texture name="female_head_zombie" color="skin"/>
@@ -2635,7 +2635,7 @@
 					<gene name="breastSize" value="0.21"/>
 				</dna>
 			</archetype>
-			<archetype name="ZombieMiguel" male="true" hair_color="23,23,23" eye_color="51,20,0" skin_color="64,64,64" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="ZombieMiguel" male="true" hair_color="23,23,23" eye_color="51,20,0" skin_color="64,64,64" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head" color="skin"/>
@@ -2751,7 +2751,7 @@
 					<gene name="breastSize" value="0.5"/>
 				</dna>
 			</archetype>
-			<archetype name="ZombieRayah" male="false" hair_color="30,10,10" eye_color="99,90,14" skin_color="64,64,64" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="ZombieRayah" male="false" hair_color="30,10,10" eye_color="99,90,14" skin_color="64,64,64" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="female_base_face">
 						<texture name="female_head" color="skin"/>
@@ -2870,7 +2870,7 @@
 					<gene name="breastSize" value="1"/>
 				</dna>
 			</archetype>
-			<archetype name="ZombieRekt" male="true" hair_color="185,170,160" eye_color="130,90,75" skin_color="64,64,64" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="ZombieRekt" male="true" hair_color="185,170,160" eye_color="130,90,75" skin_color="64,64,64" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head_old" color="skin"/>
@@ -2988,7 +2988,7 @@
 					<gene name="breastSize" value="0"/>
 				</dna>
 			</archetype>
-			<archetype name="ZombieSeryph" male="false" hair_color="222,170,86" eye_color="39,64,98" skin_color="105,105,107" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="ZombieSeryph" male="false" hair_color="222,170,86" eye_color="39,64,98" skin_color="105,105,107" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="female_base_face">
 						<texture name="female_head" color="skin"/>
@@ -3109,7 +3109,7 @@
 					<gene name="breastSize" value="0.305"/>
 				</dna>
 			</archetype>
-			<archetype name="ZombieSeryphSnow" male="false" hair_color="113,114,115" eye_color="39,64,98" skin_color="80,136,166" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="ZombieSeryphSnow" male="false" hair_color="113,114,115" eye_color="39,64,98" skin_color="80,136,166" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="female_base_face">
 						<texture name="female_head" color="skin"/>
@@ -3239,7 +3239,7 @@
 					<gene name="breastSize" value="0.4"/>
 				</dna>
 			</archetype>
-			<archetype name="ZombieStripperMole" male="true" hair_color="85,70,60" eye_color="100,110,115" skin_color="64,64,64" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="ZombieStripperMole" male="true" hair_color="85,70,60" eye_color="100,110,115" skin_color="64,64,64" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head" color="skin"/>
@@ -3364,7 +3364,7 @@
 					<gene name="breastSize" value="0"/>
 				</dna>
 			</archetype>
-			<archetype name="ZombieTallman" male="true" hair_color="0,0,0" eye_color="255,0,0" skin_color="0,0,0" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="ZombieTallman" male="true" hair_color="0,0,0" eye_color="255,0,0" skin_color="0,0,0" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head_zombie" color="skin"/>
@@ -3467,7 +3467,7 @@
 					<gene name="breastSize" value="0.5"/>
 				</dna>
 			</archetype>
-			<archetype name="ZombieVince" male="true" hair_color="100,100,100" eye_color="99,62,14" skin_color="64,64,64" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="ZombieVince" male="true" hair_color="100,100,100" eye_color="99,62,14" skin_color="64,64,64" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head_old" color="skin"/>
@@ -3586,7 +3586,7 @@
 					<gene name="breastSize" value="0"/>
 				</dna>
 			</archetype>
-			<archetype name="ZombieWarlord" male="true" hair_color="94,24,24" eye_color="184,169,166" skin_color="0,0,0" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="ZombieWarlord" male="true" hair_color="94,24,24" eye_color="184,169,166" skin_color="0,0,0" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head_zombie" color="skin"/>
@@ -3699,7 +3699,7 @@
 					<gene name="breastSize" value="0.5"/>
 				</dna>
 			</archetype>
-			<archetype name="ZombieWillie" male="true" hair_color="10,10,10" eye_color="40,30,24" skin_color="32,32,64" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="ZombieWillie" male="true" hair_color="10,10,10" eye_color="40,30,24" skin_color="32,32,64" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head" color="skin"/>
@@ -3819,7 +3819,7 @@
 					<gene name="breastSize" value="0.5"/>
 				</dna>
 			</archetype>
-			<archetype name="ZombieSWATMale" male="true" hair_color="32,32,32" eye_color="28,62,14" skin_color="64,64,64" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="ZombieSWATMale" male="true" hair_color="32,32,32" eye_color="28,62,14" skin_color="64,64,64" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head" color="skin"/>
@@ -3944,7 +3944,7 @@
 					<gene name="breastSize" value="0"/>
 				</dna>
 			</archetype>
-			<archetype name="ZombieSWATFemale" male="false" hair_color="32,32,32" eye_color="28,62,14" skin_color="64,64,64" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="ZombieSWATFemale" male="false" hair_color="32,32,32" eye_color="28,62,14" skin_color="64,64,64" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="female_base_face">
 						<texture name="female_head" color="skin"/>
@@ -4069,7 +4069,7 @@
 					<gene name="breastSize" value="0"/>
 				</dna>
 			</archetype>
-			<archetype name="ZombieOfficeGirl" male="false" hair_color="255,155,43" eye_color="255,255,255" skin_color="196,186,186" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="ZombieOfficeGirl" male="false" hair_color="255,155,43" eye_color="255,255,255" skin_color="196,186,186" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="female_base_face">
 						<texture name="female_head" color="skin"/>
@@ -4190,7 +4190,7 @@
 					<gene name="breastSize" value="0.7"/>
 				</dna>
 			</archetype>
-			<archetype name="ZombieBaby" male="true" hair_color="255,255,255" eye_color="184,169,166" skin_color="147,238,246" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="ZombieBaby" male="true" hair_color="255,255,255" eye_color="184,169,166" skin_color="147,238,246" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head" color="skin"/>
@@ -4295,7 +4295,7 @@
 					<gene name="breastSize" value="0"/>
 				</dna>
 			</archetype>
-			<archetype name="ZombieMord" male="false" hair_color="255,155,43" eye_color="255,255,255" skin_color="196,186,186" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="ZombieMord" male="false" hair_color="255,155,43" eye_color="255,255,255" skin_color="196,186,186" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="female_base_face">
 						<texture name="female_head" color="skin"/>
@@ -4402,7 +4402,7 @@
 					<gene name="breastSize" value="0.6"/>
 				</dna>
 			</archetype>
-			<archetype name="ZombieBomberMole" male="true" hair_color="85,70,60" eye_color="100,110,115" skin_color="64,64,64" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="ZombieBomberMole" male="true" hair_color="85,70,60" eye_color="100,110,115" skin_color="64,64,64" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head" color="skin"/>
@@ -4529,7 +4529,7 @@
 					<gene name="breastSize" value="0"/>
 				</dna>
 			</archetype>
-			<archetype name="BanditWarLeader" male="false" hair_color="10,10,10" eye_color="25,207,28" skin_color="175,175,175" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="BanditWarLeader" male="false" hair_color="10,10,10" eye_color="25,207,28" skin_color="175,175,175" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="female_base_face">
 						<texture name="female_michonne_head" color="skin"/>
@@ -4648,7 +4648,7 @@
 					<gene name="breastSize" value="0.7"/>
 				</dna>
 			</archetype>
-			<archetype name="BanditDreadLeader" male="true" hair_color="250,200,200" eye_color="30,30,25" skin_color="175,175,175" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="BanditDreadLeader" male="true" hair_color="250,200,200" eye_color="30,30,25" skin_color="175,175,175" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head" color="skin"/>
@@ -4771,7 +4771,7 @@
 					<gene name="breastSize" value="0.5"/>
 				</dna>
 			</archetype>
-			<archetype name="BanditTheMakerLeader" male="true" hair_color="30,30,30" eye_color="68,68,60" skin_color="175,175,175" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="BanditTheMakerLeader" male="true" hair_color="30,30,30" eye_color="68,68,60" skin_color="175,175,175" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head_old" color="skin"/>
@@ -4897,7 +4897,7 @@
 					<gene name="breastSize" value="0.5"/>
 				</dna>
 			</archetype>
-			<archetype name="BanditFamineLeader" male="true" hair_color="255,255,255" eye_color="0,0,0" skin_color="196,196,196" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="BanditFamineLeader" male="true" hair_color="255,255,255" eye_color="0,0,0" skin_color="196,196,196" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head_old" color="skin"/>
@@ -5003,7 +5003,7 @@
 					<gene name="breastSize" value="0.5"/>
 				</dna>
 			</archetype>
-			<archetype name="BanditDragonLeader" male="true" hair_color="255,24,24" eye_color="184,169,166" skin_color="48,32,32" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="BanditDragonLeader" male="true" hair_color="255,24,24" eye_color="184,169,166" skin_color="48,32,32" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head" color="skin"/>
@@ -5119,7 +5119,7 @@
 					<gene name="breastSize" value="0.5"/>
 				</dna>
 			</archetype>
-			<archetype name="BanditDeathLeader" male="false" hair_color="32,32,32" eye_color="28,62,14" skin_color="255,255,255" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="BanditDeathLeader" male="false" hair_color="32,32,32" eye_color="28,62,14" skin_color="255,255,255" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="female_base_face_pretty">
 						<texture name="female_michonne_head" color="255,255,255"/>
@@ -5238,7 +5238,7 @@
 					<gene name="breastSize" value="0.75"/>
 				</dna>
 			</archetype>
-			<archetype name="BanditPestilenceLeader" male="true" hair_color="32,32,32" eye_color="28,62,14" skin_color="75,64,64" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="BanditPestilenceLeader" male="true" hair_color="32,32,32" eye_color="28,62,14" skin_color="75,64,64" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_armor_hazmat_head">
 						<texture name="male_armor_hazmat_hood" color="0,128,0"/>
@@ -5353,7 +5353,7 @@
 					<gene name="breastSize" value="0"/>
 				</dna>
 			</archetype>
-			<archetype name="BanditMale" male="true" hair_color="0,0,0" eye_color="0,0,255" skin_color="255,255,255" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="BanditMale" male="true" hair_color="0,0,0" eye_color="0,0,255" skin_color="255,255,255" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head" color="skin"/>
@@ -5466,7 +5466,7 @@
 					<gene name="breastSize" value="0.5"/>
 				</dna>
 			</archetype>
-			<archetype name="BanditFemale" male="false" hair_color="0,0,0" eye_color="0,0,255" skin_color="255,255,255" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="BanditFemale" male="false" hair_color="0,0,0" eye_color="0,0,255" skin_color="255,255,255" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="female_base_face">
 						<texture name="female_head" color="skin"/>
@@ -5582,7 +5582,7 @@
 					<gene name="breastSize" value="0.5"/>
 				</dna>
 			</archetype>
-			<archetype name="BanditMaleWar" male="true" hair_color="0,0,0" eye_color="0,0,255" skin_color="255,255,255" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="BanditMaleWar" male="true" hair_color="0,0,0" eye_color="0,0,255" skin_color="255,255,255" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head" color="skin"/>
@@ -5695,7 +5695,7 @@
 					<gene name="breastSize" value="0.5"/>
 				</dna>
 			</archetype>
-			<archetype name="BanditFemaleWar" male="false" hair_color="0,0,0" eye_color="0,0,255" skin_color="255,255,255" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="BanditFemaleWar" male="false" hair_color="0,0,0" eye_color="0,0,255" skin_color="255,255,255" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="female_base_face">
 						<texture name="female_head" color="skin"/>
@@ -5811,7 +5811,7 @@
 					<gene name="breastSize" value="0.5"/>
 				</dna>
 			</archetype>
-			<archetype name="BanditMaleDread" male="true" hair_color="255,255,255" eye_color="0,0,255" skin_color="255,255,255" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="BanditMaleDread" male="true" hair_color="255,255,255" eye_color="0,0,255" skin_color="255,255,255" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head" color="skin"/>
@@ -5924,7 +5924,7 @@
 					<gene name="breastSize" value="0.5"/>
 				</dna>
 			</archetype>
-			<archetype name="BanditFemaleDread" male="false" hair_color="255,255,255" eye_color="0,0,255" skin_color="255,255,255" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="BanditFemaleDread" male="false" hair_color="255,255,255" eye_color="0,0,255" skin_color="255,255,255" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="female_base_face">
 						<texture name="female_head" color="skin"/>
@@ -6040,7 +6040,7 @@
 					<gene name="breastSize" value="0.5"/>
 				</dna>
 			</archetype>
-			<archetype name="BanditMaleTheMaker" male="true" hair_color="0,0,0" eye_color="0,255,0" skin_color="255,255,255" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="BanditMaleTheMaker" male="true" hair_color="0,0,0" eye_color="0,255,0" skin_color="255,255,255" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head" color="skin"/>
@@ -6155,7 +6155,7 @@
 					<gene name="breastSize" value="0.5"/>
 				</dna>
 			</archetype>
-			<archetype name="BanditFemaleTheMaker" male="false" hair_color="0,0,0" eye_color="0,255,0" skin_color="255,255,255" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="BanditFemaleTheMaker" male="false" hair_color="0,0,0" eye_color="0,255,0" skin_color="255,255,255" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="female_base_face">
 						<texture name="female_head" color="skin"/>
@@ -6274,7 +6274,7 @@
 					<gene name="breastSize" value="0.5"/>
 				</dna>
 			</archetype>
-			<archetype name="BanditMaleFamine" male="true" hair_color="12,12,12" eye_color="0,0,255" skin_color="255,255,255" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="BanditMaleFamine" male="true" hair_color="12,12,12" eye_color="0,0,255" skin_color="255,255,255" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head" color="skin"/>
@@ -6380,7 +6380,7 @@
 					<gene name="breastSize" value="0.5"/>
 				</dna>
 			</archetype>
-			<archetype name="BanditFemaleFamine" male="false" hair_color="12,12,12" eye_color="0,0,255" skin_color="255,255,255" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="BanditFemaleFamine" male="false" hair_color="12,12,12" eye_color="0,0,255" skin_color="255,255,255" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="female_base_face">
 						<texture name="female_head" color="skin"/>
@@ -6489,7 +6489,7 @@
 					<gene name="breastSize" value="0.5"/>
 				</dna>
 			</archetype>
-			<archetype name="BanditMaleDragon" male="true" hair_color="128,0,0" eye_color="0,0,255" skin_color="255,255,255" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="BanditMaleDragon" male="true" hair_color="128,0,0" eye_color="0,0,255" skin_color="255,255,255" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head" color="skin"/>
@@ -6606,7 +6606,7 @@
 					<gene name="breastSize" value="0.5"/>
 				</dna>
 			</archetype>
-			<archetype name="BanditFemaleDragon" male="false" hair_color="128,0,0" eye_color="0,0,255" skin_color="255,255,255" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="BanditFemaleDragon" male="false" hair_color="128,0,0" eye_color="0,0,255" skin_color="255,255,255" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="female_base_face">
 						<texture name="female_head" color="skin"/>
@@ -6726,7 +6726,7 @@
 					<gene name="breastSize" value="0.5"/>
 				</dna>
 			</archetype>
-			<archetype name="BanditMaleDeath" male="true" hair_color="0,0,0" eye_color="0,0,0" skin_color="255,255,255" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="BanditMaleDeath" male="true" hair_color="0,0,0" eye_color="0,0,0" skin_color="255,255,255" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head" color="skin"/>
@@ -6836,7 +6836,7 @@
 					<gene name="breastSize" value="0.5"/>
 				</dna>
 			</archetype>
-			<archetype name="BanditFemaleDeath" male="false" hair_color="0,0,0" eye_color="0,0,0" skin_color="255,255,255" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="BanditFemaleDeath" male="false" hair_color="0,0,0" eye_color="0,0,0" skin_color="255,255,255" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="female_base_face">
 						<texture name="female_head" color="skin"/>
@@ -6949,7 +6949,7 @@
 					<gene name="breastSize" value="0.5"/>
 				</dna>
 			</archetype>
-			<archetype name="BanditMalePestilence" male="true" hair_color="0,64,0" eye_color="0,0,255" skin_color="255,255,255" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="BanditMalePestilence" male="true" hair_color="0,64,0" eye_color="0,0,255" skin_color="255,255,255" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head" color="skin"/>
@@ -7062,7 +7062,7 @@
 					<gene name="breastSize" value="0.5"/>
 				</dna>
 			</archetype>
-			<archetype name="BanditFemalePestilence" male="false" hair_color="0,64,0" eye_color="0,0,255" skin_color="255,255,255" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="BanditFemalePestilence" male="false" hair_color="0,64,0" eye_color="0,0,255" skin_color="255,255,255" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="female_base_face">
 						<texture name="female_head" color="skin"/>
@@ -7178,7 +7178,7 @@
 					<gene name="breastSize" value="0.5"/>
 				</dna>
 			</archetype>
-			<archetype name="TraderValmar" male="true" hair_color="0,0,0" eye_color="100,110,115" skin_color="230,230,230" type="Zombie" stance="Neutral" voice_set="trader">
+			<archetype name="TraderValmar" male="true" hair_color="0,0,0" eye_color="100,110,115" skin_color="230,230,230" type="Player" stance="Neutral" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head" color="skin"/>
@@ -7306,7 +7306,7 @@
 					<gene name="breastSize" value="0"/>
 				</dna>
 			</archetype>
-			<archetype name="valZombieBigBitch" male="false" hair_color="60,25,23" eye_color="100,110,115" skin_color="161,214,204" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="valZombieBigBitch" male="false" hair_color="60,25,23" eye_color="100,110,115" skin_color="161,214,204" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="female_base_face">
 						<texture name="female_head_zombie" color="skin"/>
@@ -7424,7 +7424,7 @@
 					<gene name="breastSize" value="6"/>
 				</dna>
 			</archetype>
-			<archetype name="valZombieDan" male="true" hair_color="255,255,255" eye_color="184,169,166" skin_color="135,170,186" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="valZombieDan" male="true" hair_color="255,255,255" eye_color="184,169,166" skin_color="135,170,186" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head_zombie" color="skin"/>
@@ -7535,7 +7535,7 @@
 					<gene name="breastSize" value="0.5"/>
 				</dna>
 			</archetype>
-			<archetype name="valZombieLumberjack" male="true" hair_color="98,85,79" eye_color="100,110,115" skin_color="110,173,255" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="valZombieLumberjack" male="true" hair_color="98,85,79" eye_color="100,110,115" skin_color="110,173,255" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head_zombie" color="skin"/>
@@ -7656,7 +7656,7 @@
 					<gene name="breastSize" value="0"/>
 				</dna>
 			</archetype>
-			<archetype name="valZombieSurvivorMale" male="true" hair_color="31,28,26" eye_color="184,169,166" skin_color="96,96,96" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="valZombieSurvivorMale" male="true" hair_color="31,28,26" eye_color="184,169,166" skin_color="96,96,96" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head_zombie" color="skin"/>
@@ -7788,7 +7788,7 @@
 					<gene name="breastSize" value="0.5"/>
 				</dna>
 			</archetype>
-			<archetype name="valZombieSurvivorFemale" male="false" hair_color="31,28,26" eye_color="184,169,166" skin_color="96,96,96" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="valZombieSurvivorFemale" male="false" hair_color="31,28,26" eye_color="184,169,166" skin_color="96,96,96" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="female_base_face">
 						<texture name="female_head_zombie" color="skin"/>
@@ -7909,7 +7909,7 @@
 					<gene name="breastSize" value="0.5"/>
 				</dna>
 			</archetype>
-			<archetype name="valZombieTrucker" male="true" hair_color="148,74,40" eye_color="184,169,166" skin_color="155,218,179" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="valZombieTrucker" male="true" hair_color="148,74,40" eye_color="184,169,166" skin_color="155,218,179" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head_zombie" color="skin"/>
@@ -8027,7 +8027,7 @@
 					<gene name="breastSize" value="0.5"/>
 				</dna>
 			</archetype>
-			<archetype name="valZombieClarice" male="false" hair_color="30,29,28" eye_color="184,169,166" skin_color="135,170,186" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="valZombieClarice" male="false" hair_color="30,29,28" eye_color="184,169,166" skin_color="135,170,186" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="female_base_face">
 						<texture name="female_head_zombie" color="skin"/>
@@ -8146,7 +8146,7 @@
 					<gene name="breastSize" value="0.5"/>
 				</dna>
 			</archetype>
-			<archetype name="valZombieJane" male="false" hair_color="230,200,160" eye_color="184,169,166" skin_color="161,214,204" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="valZombieJane" male="false" hair_color="230,200,160" eye_color="184,169,166" skin_color="161,214,204" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="female_base_face">
 						<texture name="female_head_zombie" color="skin"/>
@@ -8257,7 +8257,7 @@
 					<gene name="breastSize" value="0.5"/>
 				</dna>
 			</archetype>
-			<archetype name="valZombieVoodooMale" male="true" hair_color="20,20,20" eye_color="184,169,166" skin_color="69,59,43" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="valZombieVoodooMale" male="true" hair_color="20,20,20" eye_color="184,169,166" skin_color="69,59,43" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head_zombie" color="skin"/>
@@ -8368,7 +8368,7 @@
 					<gene name="breastSize" value="0.5"/>
 				</dna>
 			</archetype>
-			<archetype name="valZombieVoodooFemale" male="false" hair_color="20,20,20" eye_color="184,169,166" skin_color="69,59,43" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="valZombieVoodooFemale" male="false" hair_color="20,20,20" eye_color="184,169,166" skin_color="69,59,43" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="female_base_face">
 						<texture name="female_head_zombie" color="skin"/>
@@ -8483,7 +8483,7 @@
 					<gene name="breastSize" value="1"/>
 				</dna>
 			</archetype>
-			<archetype name="valZombieRaveReaper" male="false" hair_color="196,131,255" eye_color="172,33,50" skin_color="155,218,179" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="valZombieRaveReaper" male="false" hair_color="196,131,255" eye_color="172,33,50" skin_color="155,218,179" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="female_base_face">
 						<texture name="female_head_zombie" color="skin"/>
@@ -8602,7 +8602,7 @@
 					<gene name="breastSize" value="0.6"/>
 				</dna>
 			</archetype>
-			<archetype name="valZombieLibrarian" male="false" hair_color="9,9,9" eye_color="184,169,166" skin_color="135,170,186" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="valZombieLibrarian" male="false" hair_color="9,9,9" eye_color="184,169,166" skin_color="135,170,186" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="female_base_face">
 						<texture name="female_head_zombie" color="skin"/>
@@ -8720,7 +8720,7 @@
 					<gene name="breastSize" value="0.5"/>
 				</dna>
 			</archetype>
-			<archetype name="valZombieKenny" male="true" hair_color="255,255,255" eye_color="184,169,166" skin_color="135,170,186" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="valZombieKenny" male="true" hair_color="255,255,255" eye_color="184,169,166" skin_color="135,170,186" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head_zombie" color="skin"/>
@@ -8834,7 +8834,7 @@
 					<gene name="breastSize" value="0.5"/>
 				</dna>
 			</archetype>
-			<archetype name="valZombieRavager" male="true" hair_color="255,255,255" eye_color="184,169,166" skin_color="220,220,220" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="valZombieRavager" male="true" hair_color="255,255,255" eye_color="184,169,166" skin_color="220,220,220" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head_zombie" color="skin"/>
@@ -8950,7 +8950,7 @@
 					<gene name="breastSize" value="0"/>
 				</dna>
 			</archetype>
-			<archetype name="valZombieChildFemale" male="false" hair_color="30,29,28" eye_color="184,169,166" skin_color="135,170,186" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="valZombieChildFemale" male="false" hair_color="30,29,28" eye_color="184,169,166" skin_color="135,170,186" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="female_base_face">
 						<texture name="female_head" color="skin"/>
@@ -9069,7 +9069,7 @@
 					<gene name="breastSize" value="-0.5"/>
 				</dna>
 			</archetype>
-			<archetype name="valZombieChildMale" male="true" hair_color="255,255,255" eye_color="184,169,166" skin_color="135,170,186" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="valZombieChildMale" male="true" hair_color="255,255,255" eye_color="184,169,166" skin_color="135,170,186" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head" color="skin"/>
@@ -9179,7 +9179,7 @@
 					<gene name="breastSize" value="-5"/>
 				</dna>
 			</archetype>
-			<archetype name="valZombieNerd" male="true" hair_color="148,74,40" eye_color="184,169,166" skin_color="135,170,186" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="valZombieNerd" male="true" hair_color="148,74,40" eye_color="184,169,166" skin_color="135,170,186" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head_zombie" color="skin"/>
@@ -9291,7 +9291,7 @@
 					<gene name="breastSize" value="0"/>
 				</dna>
 			</archetype>
-			<archetype name="valZombieInmate" male="true" hair_color="255,255,255" eye_color="184,169,166" skin_color="135,170,186" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="valZombieInmate" male="true" hair_color="255,255,255" eye_color="184,169,166" skin_color="135,170,186" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head_zombie" color="skin"/>
@@ -9397,7 +9397,7 @@
 					<gene name="breastSize" value="0.5"/>
 				</dna>
 			</archetype>
-			<archetype name="valZombieInmateBlack" male="true" hair_color="255,255,255" eye_color="184,169,166" skin_color="69,59,43" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="valZombieInmateBlack" male="true" hair_color="255,255,255" eye_color="184,169,166" skin_color="69,59,43" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head_zombie" color="skin"/>
@@ -9503,7 +9503,7 @@
 					<gene name="breastSize" value="0.5"/>
 				</dna>
 			</archetype>
-			<archetype name="valZombieBrute" male="true" hair_color="255,255,255" eye_color="184,169,166" skin_color="155,218,179" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="valZombieBrute" male="true" hair_color="255,255,255" eye_color="184,169,166" skin_color="155,218,179" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head_zombie" color="skin"/>
@@ -9642,7 +9642,7 @@
 					<gene name="breastSize" value="0.5"/>
 				</dna>
 			</archetype>
-			<archetype name="valZombieCharred" male="true" hair_color="255,255,255" eye_color="184,169,166" skin_color="0,0,0" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="valZombieCharred" male="true" hair_color="255,255,255" eye_color="184,169,166" skin_color="0,0,0" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head_zombie" color="skin"/>
@@ -9760,7 +9760,7 @@
 					<gene name="breastSize" value="0"/>
 				</dna>
 			</archetype>
-			<archetype name="valZombieRanger" male="true" hair_color="255,255,255" eye_color="184,169,166" skin_color="135,170,186" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="valZombieRanger" male="true" hair_color="255,255,255" eye_color="184,169,166" skin_color="135,170,186" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head_zombie" color="skin"/>
@@ -9872,7 +9872,7 @@
 					<gene name="breastSize" value="0"/>
 				</dna>
 			</archetype>
-			<archetype name="valZombieJason" male="true" hair_color="255,255,255" eye_color="184,169,166" skin_color="1,12,18" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="valZombieJason" male="true" hair_color="255,255,255" eye_color="184,169,166" skin_color="1,12,18" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head_zombie" color="skin"/>
@@ -10006,7 +10006,7 @@
 					<gene name="breastSize" value="0.5"/>
 				</dna>
 			</archetype>
-			<archetype name="valZombieRegen" male="true" hair_color="25,228,44" eye_color="184,169,166" skin_color="42,92,67" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="valZombieRegen" male="true" hair_color="25,228,44" eye_color="184,169,166" skin_color="42,92,67" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head_zombie" color="skin"/>
@@ -10125,7 +10125,7 @@
 					<gene name="breastSize" value="0.5"/>
 				</dna>
 			</archetype>
-			<archetype name="gupZombieClimber" male="false" hair_color="60,25,23" eye_color="241,246,241" skin_color="64,64,64" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="gupZombieClimber" male="false" hair_color="60,25,23" eye_color="241,246,241" skin_color="64,64,64" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="female_base_face">
 						<texture name="female_hair_overlay" color="skin"/>
@@ -10242,7 +10242,7 @@
 					<gene name="breastSize" value="0"/>
 				</dna>
 			</archetype>
-			<archetype name="gupZombieMartha" male="false" hair_color="9,9,9" eye_color="241,246,241" skin_color="160,225,255" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="gupZombieMartha" male="false" hair_color="9,9,9" eye_color="241,246,241" skin_color="160,225,255" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="female_base_face">
 						<texture name="male_hair_overlay" color="hair"/>
@@ -10369,7 +10369,7 @@
 					<gene name="breastSize" value="1"/>
 				</dna>
 			</archetype>
-			<archetype name="gupZombieBiff" male="true" hair_color="50,50,50" eye_color="241,246,241" skin_color="150,225,255" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="gupZombieBiff" male="true" hair_color="50,50,50" eye_color="241,246,241" skin_color="150,225,255" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head_zombie" color="150,225,255"/>
@@ -10481,7 +10481,7 @@
 					<gene name="breastSize" value="0"/>
 				</dna>
 			</archetype>
-			<archetype name="gupZombieSally" male="false" hair_color="30,29,28" eye_color="241,246,241" skin_color="75,125,120" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="gupZombieSally" male="false" hair_color="30,29,28" eye_color="241,246,241" skin_color="75,125,120" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="female_base_face">
 						<texture name="female_head_zombie" color="skin"/>
@@ -10604,7 +10604,7 @@
 					<gene name="breastSize" value="-1"/>
 				</dna>
 			</archetype>
-			<archetype name="gupZombieBouncer" male="true" hair_color="139,153,181" eye_color="184,169,166" skin_color="65,109,140" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="gupZombieBouncer" male="true" hair_color="139,153,181" eye_color="184,169,166" skin_color="65,109,140" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head_zombie" color="skin"/>
@@ -10729,7 +10729,7 @@
 					<gene name="breastSize" value="0"/>
 				</dna>
 			</archetype>
-			<archetype name="gupZombieSunStroked" male="true" hair_color="23,23,23" eye_color="51,20,0" skin_color="167,114,114" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="gupZombieSunStroked" male="true" hair_color="23,23,23" eye_color="51,20,0" skin_color="167,114,114" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head_zombie" color="skin"/>
@@ -10850,7 +10850,7 @@
 					<gene name="breastSize" value="0"/>
 				</dna>
 			</archetype>
-			<archetype name="gupZombieSnowQueen" male="false" hair_color="255,255,255" eye_color="241,246,241" skin_color="75,155,255" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="gupZombieSnowQueen" male="false" hair_color="255,255,255" eye_color="241,246,241" skin_color="75,155,255" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="female_base_face">
 						<texture name="male_head_zombie" color="skin"/>
@@ -10989,7 +10989,7 @@
 					<gene name="breastSize" value="0.73"/>
 				</dna>
 			</archetype>
-			<archetype name="sanZombieCpl" male="false" hair_color="163,152,124" eye_color="184,169,166" skin_color="135,170,186" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="sanZombieCpl" male="false" hair_color="163,152,124" eye_color="184,169,166" skin_color="135,170,186" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="female_base_face">
 						<texture name="female_head_zombie" color="skin"/>
@@ -11114,7 +11114,7 @@
 					<gene name="breastSize" value="0.695"/>
 				</dna>
 			</archetype>
-			<archetype name="sanZombieTrailerPark" male="true" hair_color="0,0,0" eye_color="184,169,166" skin_color="96,96,96" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="sanZombieTrailerPark" male="true" hair_color="0,0,0" eye_color="184,169,166" skin_color="96,96,96" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head_zombie" color="skin"/>
@@ -11232,7 +11232,7 @@
 					<gene name="breastSize" value="0.5"/>
 				</dna>
 			</archetype>
-			<archetype name="sanZombieHunter" male="true" hair_color="85,70,60" eye_color="100,110,115" skin_color="230,230,230" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="sanZombieHunter" male="true" hair_color="85,70,60" eye_color="100,110,115" skin_color="230,230,230" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head_zombie" color="skin"/>
@@ -11347,7 +11347,7 @@
 					<gene name="breastSize" value="0"/>
 				</dna>
 			</archetype>
-			<archetype name="sanZombieVagrant" male="true" hair_color="100,100,100" eye_color="255,255,255" skin_color="135,205,255" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="sanZombieVagrant" male="true" hair_color="100,100,100" eye_color="255,255,255" skin_color="135,205,255" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head_old" color="skin"/>
@@ -11467,7 +11467,7 @@
 					<gene name="breastSize" value="0.5"/>
 				</dna>
 			</archetype>
-			<archetype name="sanZombieMitchHazmat" male="true" hair_color="100,100,100" eye_color="255,255,255" skin_color="255,255,255" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="sanZombieMitchHazmat" male="true" hair_color="100,100,100" eye_color="255,255,255" skin_color="255,255,255" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head_zombie" color="skin"/>
@@ -11573,7 +11573,7 @@
 					<gene name="breastSize" value="0.5"/>
 				</dna>
 			</archetype>
-			<archetype name="sanZombieMarkHazmat" male="true" hair_color="45,0,0" eye_color="255,255,255" skin_color="135,205,255" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="sanZombieMarkHazmat" male="true" hair_color="45,0,0" eye_color="255,255,255" skin_color="135,205,255" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head_old" color="skin"/>
@@ -11685,7 +11685,7 @@
 					<gene name="breastSize" value="0.5"/>
 				</dna>
 			</archetype>
-			<archetype name="sanZombieClaireHazmat" male="false" hair_color="163,152,124" eye_color="184,169,166" skin_color="135,170,186" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="sanZombieClaireHazmat" male="false" hair_color="163,152,124" eye_color="184,169,166" skin_color="135,170,186" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="female_base_face">
 						<texture name="female_head_zombie" color="skin"/>
@@ -11797,7 +11797,7 @@
 					<gene name="breastSize" value="0.5"/>
 				</dna>
 			</archetype>
-			<archetype name="sanZombieSueHazmat" male="false" hair_color="163,152,124" eye_color="184,169,166" skin_color="135,170,186" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="sanZombieSueHazmat" male="false" hair_color="163,152,124" eye_color="184,169,166" skin_color="135,170,186" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="female_base_face">
 						<texture name="female_head_zombie" color="skin"/>
@@ -11906,7 +11906,7 @@
 					<gene name="breastSize" value="0.5"/>
 				</dna>
 			</archetype>
-			<archetype name="sanZombieOldLady" male="false" hair_color="145,145,145" eye_color="255,255,255" skin_color="155,205,225" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="sanZombieOldLady" male="false" hair_color="145,145,145" eye_color="255,255,255" skin_color="155,205,225" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="female_base_face">
 						<texture name="female_head_zombie" color="skin"/>
@@ -12028,7 +12028,7 @@
 					<gene name="breastSize" value="0.4"/>
 				</dna>
 			</archetype>
-			<archetype name="sanZombiePunk" male="true" hair_color="60,2,2" eye_color="101,111,145" skin_color="65,109,140" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="sanZombiePunk" male="true" hair_color="60,2,2" eye_color="101,111,145" skin_color="65,109,140" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head_zombie" color="skin"/>
@@ -12145,7 +12145,7 @@
 					<gene name="breastSize" value="0.5"/>
 				</dna>
 			</archetype>
-			<archetype name="sanZombieRioter" male="true" hair_color="0,0,0" eye_color="99,62,14" skin_color="79,89,123" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="sanZombieRioter" male="true" hair_color="0,0,0" eye_color="99,62,14" skin_color="79,89,123" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head_zombie" color="skin"/>
@@ -12262,7 +12262,7 @@
 					<gene name="breastSize" value="0.5"/>
 				</dna>
 			</archetype>
-			<archetype name="sanZombieBanditRaider" male="true" hair_color="60,2,2" eye_color="131,111,145" skin_color="115,139,210" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="sanZombieBanditRaider" male="true" hair_color="60,2,2" eye_color="131,111,145" skin_color="115,139,210" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head_zombie" color="skin"/>
@@ -12390,7 +12390,7 @@
 					<gene name="breastSize" value="0.5"/>
 				</dna>
 			</archetype>
-			<archetype name="sanZombieExperiment" male="true" hair_color="150,0,0" eye_color="255,255,255" skin_color="205,225,155" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="sanZombieExperiment" male="true" hair_color="150,0,0" eye_color="255,255,255" skin_color="205,225,155" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_asian_face">
 						<texture name="male_head_zombie" color="skin"/>
@@ -12504,7 +12504,7 @@
 					<gene name="breastSize" value="0.5"/>
 				</dna>
 			</archetype>
-			<archetype name="sanZombieReaper" male="true" hair_color="31,28,26" eye_color="134,169,166" skin_color="126,156,255" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="sanZombieReaper" male="true" hair_color="31,28,26" eye_color="134,169,166" skin_color="126,156,255" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head_zombie" color="skin"/>
@@ -12627,7 +12627,7 @@
 					<gene name="breastSize" value="0.5"/>
 				</dna>
 			</archetype>
-			<archetype name="sanZombieBanditLooter" male="true" hair_color="60,2,2" eye_color="101,111,145" skin_color="115,139,210" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="sanZombieBanditLooter" male="true" hair_color="60,2,2" eye_color="101,111,145" skin_color="115,139,210" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head_zombie" color="skin"/>
@@ -12749,7 +12749,7 @@
 					<gene name="breastSize" value="0.5"/>
 				</dna>
 			</archetype>
-			<archetype name="sanZombieRocker" male="true" hair_color="116,97,76" eye_color="255,255,255" skin_color="135,205,255" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="sanZombieRocker" male="true" hair_color="116,97,76" eye_color="255,255,255" skin_color="135,205,255" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head_old" color="skin"/>
@@ -12873,7 +12873,7 @@
 					<gene name="breastSize" value="0.5"/>
 				</dna>
 			</archetype>
-			<archetype name="sanZombieClown" male="true" hair_color="60,2,2" eye_color="184,169,166" skin_color="175,175,175" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="sanZombieClown" male="true" hair_color="60,2,2" eye_color="184,169,166" skin_color="175,175,175" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head_zombie" color="skin"/>
@@ -13001,7 +13001,7 @@
 					<gene name="breastSize" value="0.72"/>
 				</dna>
 			</archetype>
-			<archetype name="sanZombieOldMan" male="true" hair_color="155,155,155" eye_color="0,0,0" skin_color="115,139,210" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="sanZombieOldMan" male="true" hair_color="155,155,155" eye_color="0,0,0" skin_color="115,139,210" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head_old" color="skin"/>
@@ -13116,7 +13116,7 @@
 					<gene name="breastSize" value="0"/>
 				</dna>
 			</archetype>
-			<archetype name="sanZombieBanditKiller" male="true" hair_color="100,100,100" eye_color="131,111,145" skin_color="115,139,210" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="sanZombieBanditKiller" male="true" hair_color="100,100,100" eye_color="131,111,145" skin_color="115,139,210" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head_zombie" color="skin"/>
@@ -13235,7 +13235,7 @@
 					<gene name="breastSize" value="0"/>
 				</dna>
 			</archetype>
-			<archetype name="sanZombieBanditSavage" male="true" hair_color="0,0,0" eye_color="40,30,24" skin_color="135,205,255" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="sanZombieBanditSavage" male="true" hair_color="0,0,0" eye_color="40,30,24" skin_color="135,205,255" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head_old" color="skin"/>
@@ -13358,7 +13358,7 @@
 					<gene name="breastSize" value="0.5"/>
 				</dna>
 			</archetype>
-			<archetype name="sanZombieBanditSentry" male="false" hair_color="30,10,10" eye_color="255,255,255" skin_color="135,205,255" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="sanZombieBanditSentry" male="false" hair_color="30,10,10" eye_color="255,255,255" skin_color="135,205,255" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="female_base_face">
 						<texture name="female_head_zombie" color="skin"/>
@@ -13478,7 +13478,7 @@
 					<gene name="breastSize" value="1"/>
 				</dna>
 			</archetype>
-			<archetype name="sanZombieBodyBuilder" male="true" hair_color="0,0,0" eye_color="100,110,115" skin_color="135,205,255" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="sanZombieBodyBuilder" male="true" hair_color="0,0,0" eye_color="100,110,115" skin_color="135,205,255" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head_zombie" color="skin"/>
@@ -13592,7 +13592,7 @@
 					<gene name="breastSize" value="0"/>
 				</dna>
 			</archetype>
-			<archetype name="sanZombieEvilGranny" male="false" hair_color="100,100,100" eye_color="40,30,24" skin_color="135,205,255" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="sanZombieEvilGranny" male="false" hair_color="100,100,100" eye_color="40,30,24" skin_color="135,205,255" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="female_base_face">
 						<texture name="female_head_zombie" color="skin"/>
@@ -13718,7 +13718,7 @@
 					<gene name="breastSize" value="6"/>
 				</dna>
 			</archetype>
-			<archetype name="sanZombieBloodmoon" male="true" hair_color="94,24,24" eye_color="131,111,145" skin_color="75,59,85" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="sanZombieBloodmoon" male="true" hair_color="94,24,24" eye_color="131,111,145" skin_color="75,59,85" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head_zombie" color="skin"/>
@@ -13825,7 +13825,7 @@
 					<gene name="breastSize" value="0.5"/>
 				</dna>
 			</archetype>
-			<archetype name="sanZombieFemaleRocker" male="false" hair_color="60,2,2" eye_color="255,255,255" skin_color="175,206,167" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="sanZombieFemaleRocker" male="false" hair_color="60,2,2" eye_color="255,255,255" skin_color="175,206,167" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="female_base_face">
 						<texture name="female_head_zombie" color="skin"/>
@@ -13941,7 +13941,7 @@
 					<gene name="breastSize" value="0.6"/>
 				</dna>
 			</archetype>
-			<archetype name="sanZombieHermit" male="true" hair_color="100,100,100" eye_color="255,255,255" skin_color="135,205,255" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="sanZombieHermit" male="true" hair_color="100,100,100" eye_color="255,255,255" skin_color="135,205,255" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head_zombie" color="skin"/>
@@ -14079,7 +14079,7 @@
 					<gene name="breastSize" value="0.5"/>
 				</dna>
 			</archetype>
-			<archetype name="sanZombieBanditJuggernaut" male="true" hair_color="214,177,117" eye_color="184,169,166" skin_color="15,32,14" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="sanZombieBanditJuggernaut" male="true" hair_color="214,177,117" eye_color="184,169,166" skin_color="15,32,14" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head_zombie" color="skin"/>
@@ -14212,7 +14212,7 @@
 					<gene name="breastSize" value="0.72"/>
 				</dna>
 			</archetype>
-			<archetype name="sanZombieFrank" male="true" hair_color="50,30,30" eye_color="184,169,166" skin_color="135,205,255" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="sanZombieFrank" male="true" hair_color="50,30,30" eye_color="184,169,166" skin_color="135,205,255" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head_zombie" color="skin"/>
@@ -14338,7 +14338,7 @@
 					<gene name="breastSize" value="0.72"/>
 				</dna>
 			</archetype>
-			<archetype name="sanZombieCannibalFemale" male="false" hair_color="60,2,2" eye_color="255,255,255" skin_color="135,176,169" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="sanZombieCannibalFemale" male="false" hair_color="60,2,2" eye_color="255,255,255" skin_color="135,176,169" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="female_base_face">
 						<texture name="female_head_zombie" color="skin"/>
@@ -14464,7 +14464,7 @@
 					<gene name="breastSize" value="0.72"/>
 				</dna>
 			</archetype>
-			<archetype name="sanZombieCannibalMale" male="true" hair_color="1,2,6" eye_color="30,30,25" skin_color="115,176,169" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="sanZombieCannibalMale" male="true" hair_color="1,2,6" eye_color="30,30,25" skin_color="115,176,169" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head_zombie" color="skin"/>
@@ -14596,7 +14596,7 @@
 					<gene name="breastSize" value="0.535"/>
 				</dna>
 			</archetype>
-			<archetype name="sanZombieBikerChick" male="false" hair_color="0,0,0" eye_color="255,255,255" skin_color="135,176,169" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="sanZombieBikerChick" male="false" hair_color="0,0,0" eye_color="255,255,255" skin_color="135,176,169" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="female_base_face">
 						<texture name="female_head_zombie" color="skin"/>
@@ -14715,7 +14715,7 @@
 					<gene name="breastSize" value="0.21"/>
 				</dna>
 			</archetype>
-			<archetype name="sanZombieFreak" male="true" hair_color="248,239,239" eye_color="0,0,0" skin_color="190,190,195" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="sanZombieFreak" male="true" hair_color="248,239,239" eye_color="0,0,0" skin_color="190,190,195" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head_zombie" color="skin"/>
@@ -14835,7 +14835,7 @@
 					<gene name="breastSize" value="0.5"/>
 				</dna>
 			</archetype>
-			<archetype name="sanZombieInfectedSurvivor" male="true" hair_color="20,20,20" eye_color="99,62,14" skin_color="115,139,210" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="sanZombieInfectedSurvivor" male="true" hair_color="20,20,20" eye_color="99,62,14" skin_color="115,139,210" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head_zombie" color="skin"/>
@@ -14949,7 +14949,7 @@
 					<gene name="breastSize" value="0.5"/>
 				</dna>
 			</archetype>
-			<archetype name="sanZombieInfectedLady" male="false" hair_color="60,25,23" eye_color="70,80,70" skin_color="75,99,130" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="sanZombieInfectedLady" male="false" hair_color="60,25,23" eye_color="70,80,70" skin_color="75,99,130" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="female_base_face">
 						<texture name="female_head" color="skin"/>
@@ -15069,7 +15069,7 @@
 					<gene name="breastSize" value="0.265"/>
 				</dna>
 			</archetype>
-			<archetype name="sanZombieNude" male="true" hair_color="100,100,100" eye_color="40,20,20" skin_color="145,176,169" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="sanZombieNude" male="true" hair_color="100,100,100" eye_color="40,20,20" skin_color="145,176,169" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_asian_face">
 						<texture name="male_head_zombie" color="skin"/>
@@ -15178,7 +15178,7 @@
 					<gene name="breastSize" value="0.5"/>
 				</dna>
 			</archetype>
-			<archetype name="sanZombiePrisoner" male="true" hair_color="12,12,12" eye_color="184,169,166" skin_color="135,176,169" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="sanZombiePrisoner" male="true" hair_color="12,12,12" eye_color="184,169,166" skin_color="135,176,169" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head_zombie" color="skin"/>
@@ -15292,7 +15292,7 @@
 					<gene name="breastSize" value="0"/>
 				</dna>
 			</archetype>
-			<archetype name="sanZombieDriver" male="true" hair_color="138,137,137" eye_color="41,40,157" skin_color="233,222,222" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="sanZombieDriver" male="true" hair_color="138,137,137" eye_color="41,40,157" skin_color="233,222,222" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head_zombie" color="skin"/>
@@ -15410,7 +15410,7 @@
 					<gene name="breastSize" value="0.49"/>
 				</dna>
 			</archetype>
-			<archetype name="sanZombieSecurityGuard" male="true" hair_color="42,31,9" eye_color="74,73,167" skin_color="162,159,199" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="sanZombieSecurityGuard" male="true" hair_color="42,31,9" eye_color="74,73,167" skin_color="162,159,199" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head_zombie" color="skin"/>
@@ -15525,7 +15525,7 @@
 					<gene name="breastSize" value="0.49"/>
 				</dna>
 			</archetype>
-			<archetype name="sanZombieFiend" male="true" hair_color="40,37,22" eye_color="41,40,157" skin_color="176,166,166" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="sanZombieFiend" male="true" hair_color="40,37,22" eye_color="41,40,157" skin_color="176,166,166" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head_zombie" color="skin"/>
@@ -15653,7 +15653,7 @@
 					<gene name="breastSize" value="0.49"/>
 				</dna>
 			</archetype>
-			<archetype name="sanZombieBanditSharpshooter" male="true" hair_color="30,30,30" eye_color="99,62,14" skin_color="82,89,87" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="sanZombieBanditSharpshooter" male="true" hair_color="30,30,30" eye_color="99,62,14" skin_color="82,89,87" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head_zombie" color="skin"/>
@@ -15775,7 +15775,7 @@
 					<gene name="breastSize" value="0"/>
 				</dna>
 			</archetype>
-			<archetype name="sanZombieHunterSven" male="true" hair_color="0,0,0" eye_color="0,0,0" skin_color="135,205,255" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="sanZombieHunterSven" male="true" hair_color="0,0,0" eye_color="0,0,0" skin_color="135,205,255" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head_zombie" color="skin"/>
@@ -15906,7 +15906,7 @@
 					<gene name="breastSize" value="0.5"/>
 				</dna>
 			</archetype>
-			<archetype name="sanZombieFrozen" male="false" hair_color="255,255,255" eye_color="241,246,241" skin_color="52,89,117" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="sanZombieFrozen" male="false" hair_color="255,255,255" eye_color="241,246,241" skin_color="52,89,117" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="female_base_face">
 						<texture name="female_head_zombie" color="skin"/>
@@ -16028,7 +16028,7 @@
 					<gene name="breastSize" value="1"/>
 				</dna>
 			</archetype>
-			<archetype name="sanZombiePsycho" male="true" hair_color="10,10,10" eye_color="40,30,24" skin_color="135,205,255" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="sanZombiePsycho" male="true" hair_color="10,10,10" eye_color="40,30,24" skin_color="135,205,255" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head_zombie" color="skin"/>
@@ -16153,7 +16153,7 @@
 					<gene name="breastSize" value="0.5"/>
 				</dna>
 			</archetype>
-			<archetype name="sanZombieKim" male="false" hair_color="55,2,2" eye_color="0,0,0" skin_color="135,205,255" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="sanZombieKim" male="false" hair_color="55,2,2" eye_color="0,0,0" skin_color="135,205,255" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="female_base_face">
 						<texture name="female_head_zombie" color="skin"/>
@@ -16269,7 +16269,7 @@
 					<gene name="breastSize" value="1"/>
 				</dna>
 			</archetype>
-			<archetype name="sanZombieCrazed" male="true" hair_color="10,8,4" eye_color="100,110,115" skin_color="135,205,255" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="sanZombieCrazed" male="true" hair_color="10,8,4" eye_color="100,110,115" skin_color="135,205,255" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head_zombie" color="skin"/>
@@ -16402,7 +16402,7 @@
 					<gene name="breastSize" value="0"/>
 				</dna>
 			</archetype>
-			<archetype name="bkSanta" male="true" hair_color="248,239,239" eye_color="99,62,14" skin_color="190,190,195" type="Zombie" stance="Like" voice_set="trader">
+			<archetype name="bkSanta" male="true" hair_color="248,239,239" eye_color="99,62,14" skin_color="190,190,195" type="Player" stance="Like" voice_set="trader">
 				<base_mesh_parts>
 					<part slot="head" layer="base" mesh="male_base_face">
 						<texture name="male_head_zombie" color="skin"/>
