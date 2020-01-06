@@ -1,18 +1,4 @@
 <stallionsden>
 <!-- Change Pack Mule Perk to unlock all slots -->
-<!-- 	<set xpath="/progression/perks/perk[@name='perkPackMule']/effect_group/passive_effect[@name='CarryCapacity'][@value='1']/@value">375</set>
-	<set xpath="/progression/perks/perk[@name='perkPackMule']/effect_group/passive_effect[@name='CarryCapacity'][@value='2']/@value">0</set>
-	<set xpath="/progression/perks/perk[@name='perkPackMule']/effect_group/passive_effect[@name='CarryCapacity'][@value='3']/@value">0</set>
-	<set xpath="/progression/perks/perk[@name='perkPackMule']/effect_group/passive_effect[@name='CarryCapacity'][@value='4']/@value">0</set>
-	<set xpath="/progression/perks/perk[@name='perkPackMule']/effect_group/passive_effect[@name='CarryCapacity'][@value='5']/@value">0</set> -->
-	<!-- Change Pack Mule Perk to unlock all slots -->
-	<!-- Change self_medicated Perk to unlock -->
-<!-- <set xpath="/progression/perks/perk[@name='perkSelfMedicated']/level_requirements[@level='1']/requirement[@name='ProgressionLevel']/@value">0</set>
-<set xpath="/progression/perks/perk[@name='perkSelfMedicated']/level_requirements[@level='2']/requirement[@name='ProgressionLevel']/@value">0</set>
-<set xpath="/progression/perks/perk[@name='perkSelfMedicated']/level_requirements[@level='3']/requirement[@name='ProgressionLevel']/@value">0</set>
-<set xpath="/progression/perks/perk[@name='perkSelfMedicated']/level_requirements[@level='4']/requirement[@name='ProgressionLevel']/@value">0</set>
-<set xpath="/progression/perks/perk[@name='perkSelfMedicated']/level_requirements[@level='5']/requirement[@name='ProgressionLevel']/@value">0</set> -->
-
-<!-- Change Pack Mule Perk to unlock all slots -->
 	<set xpath="/progression/perks/perk[@name='perkPackMule']/effect_group/passive_effect[@name='CarryCapacity'][@value='3,6,10,14,18']/@value">187</set>
 </stallionsden>
