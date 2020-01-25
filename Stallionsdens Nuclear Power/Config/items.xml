@@ -27,7 +27,7 @@
 				</property>
 			<property name="CraftingSkillGroup" value="craftSkillScience"/>
         </item>
-		<item name="nuclearPoweredBattery">
+	<item name="nuclearPoweredBattery">
 	<property name="HoldType" value="45"/>
 	<property name="Tags" value="junk"/>
 	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
@@ -103,5 +103,6 @@
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
 	</effect_group>
 </item>	
+
 </append>
 </Stallionsden>
