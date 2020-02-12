@@ -1,28 +1,28 @@
 Key,UsedInMainMenu,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish
-cntNightstandLocked,blocks,Container,KgNone,Night Stand
-cntFileCabinetShortLocked,blocks,Container,KgNone,FileCabinet
-cntFileCabinetTallLocked,blocks,Container,KgNone,File Cabinet
-cntLockersShortLocked,blocks,Container,KgNone,Lockers
-cntLockersTallLocked,blocks,Container,KgNone,Lockers
-cntLockersTallDoubleLocked,blocks,Container,KgNone,Lockers
-cntLockersTallMixLocked,blocks,Container,KgNone,Lockers
-cntLockersTallMixLinkLocked,blocks,Container,KgNone,Lockers
-cntCashRegisterLocked,blocks,Container,KgNone,Cash Register
-cntCashRegister,blocks,Container,KgNone,Cash Register
-cntToolBoxLocked,blocks,Container,KgNone,Toolbox
-cntRollingToolBoxLocked,blocks,Container,KgNone,Tool Box
-cntLuggageMediumLocked,blocks,Container,KgNone,Luggage
-cntLuggageBigLocked,blocks,Container,KgNone,Luggage
-cntLuggagePileALocked,blocks,Container,KgNone,Luggage Pile
-cntLuggagePileBLocked,blocks,Container,KgNone,Luggage Pile
-cntMedicineCabinetFaucetLocked,blocks,Container,KgNone,Medicine Cabinet
-cntPillCaseLocked,blocks,Container,KgNone,Pill Case
-cntWoodDesk01Locked,blocks,Container,KgNone,Wooden Desk
-cntMetalDesk02Locked,blocks,Container,KgNone,Metal Desk
-cntMunitionsBoxLocked,blocks,Container,KgNone,Munitions Box
-cntDumpsterLocked,blocks,Container,KgNone,Dumpster
-cntDumpsterFliesLocked,blocks,Container,KgNone,Dumpster
-cntCabinetBottomLocked,blocks,Container,KgNone,Cabinet
-cntCupboardCabinetRedTopLocked,blocks,Container,KgNone,Cupboard
-cntCabinetOldBottomLocked,blocks,Container,KgNone,Cabinet
-cntCupboardCabinetOldTopLocked,blocks,Container,KgNone,Cupboard
+cntNightstandLocked,,blocks,Container,KgNone,Night Stand
+cntFileCabinetShortLocked,,blocks,Container,KgNone,FileCabinet
+cntFileCabinetTallLocked,,blocks,Container,KgNone,File Cabinet
+cntLockersShortLocked,,blocks,Container,KgNone,Lockers
+cntLockersTallLocked,,blocks,Container,KgNone,Lockers
+cntLockersTallDoubleLocked,,blocks,Container,KgNone,Lockers
+cntLockersTallMixLocked,,blocks,Container,KgNone,Lockers
+cntLockersTallMixLinkLocked,,blocks,Container,KgNone,Lockers
+cntCashRegisterLocked,,blocks,Container,KgNone,Cash Register
+cntCashRegister,,blocks,Container,KgNone,Cash Register
+cntToolBoxLocked,,blocks,Container,KgNone,Toolbox
+cntRollingToolBoxLocked,,blocks,Container,KgNone,Tool Box
+cntLuggageMediumLocked,,blocks,Container,KgNone,Luggage
+cntLuggageBigLocked,,blocks,Container,KgNone,Luggage
+cntLuggagePileALocked,,blocks,Container,KgNone,Luggage Pile
+cntLuggagePileBLocked,,blocks,Container,KgNone,Luggage Pile
+cntMedicineCabinetFaucetLocked,,blocks,Container,KgNone,Medicine Cabinet
+cntPillCaseLocked,,blocks,Container,KgNone,Pill Case
+cntWoodDesk01Locked,,blocks,Container,KgNone,Wooden Desk
+cntMetalDesk02Locked,,blocks,Container,KgNone,Metal Desk
+cntMunitionsBoxLocked,,blocks,Container,KgNone,Munitions Box
+cntDumpsterLocked,,blocks,Container,KgNone,Dumpster
+cntDumpsterFliesLocked,,blocks,Container,KgNone,Dumpster
+cntCabinetBottomLocked,,blocks,Container,KgNone,Cabinet
+cntCupboardCabinetRedTopLocked,,blocks,Container,KgNone,Cupboard
+cntCabinetOldBottomLocked,,blocks,Container,KgNone,Cabinet
+cntCupboardCabinetOldTopLocked,,blocks,Container,KgNone,Cupboard
