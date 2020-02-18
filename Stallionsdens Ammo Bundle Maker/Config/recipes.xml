@@ -81,7 +81,7 @@
 </recipe>
 
 <recipe name="ammoBundleGasCan" count="1" craft_area="workbench">
-	<ingredient name="ammoGasCan" count="100"/>
+	<ingredient name="ammoGasCan" count="10000"/>
 	<ingredient name="resourceScrapPolymers" count="1"/>
 </recipe>
 
@@ -110,13 +110,13 @@
 </recipe>
 
 <recipe name="ammoBundleArrowExploding" count="1" craft_area="workbench">
-	<ingredient name="ammoArrowExploding" count="100"/>
+	<ingredient name="ammoArrowExploding" count="75"/>
 	<ingredient name="resourceSewingKit" count="1"/>
 	<ingredient name="resourceLeather" count="1"/>
 </recipe>
 
 <recipe name="ammoBundleCrossbowBoltStone" count="1" craft_area="workbench">
-	<ingredient name="ammoCrossbowBoltStone" count="1"/>
+	<ingredient name="ammoCrossbowBoltStone" count="100"/>
 	<ingredient name="resourceSewingKit" count="1"/>
 	<ingredient name="resourceLeather" count="1"/>
 </recipe>
@@ -140,7 +140,7 @@
 </recipe>
 
 <recipe name="ammoBundleCrossbowBoltExploding" count="1" craft_area="workbench">
-	<ingredient name="ammoCrossbowBoltExploding" count="100"/>
+	<ingredient name="ammoCrossbowBoltExploding" count="75"/>
 	<ingredient name="resourceSewingKit" count="1"/>
 	<ingredient name="resourceLeather" count="1"/>
 </recipe>

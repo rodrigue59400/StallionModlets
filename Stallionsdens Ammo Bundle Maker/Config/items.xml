@@ -6,7 +6,7 @@
 	<property name="EconomicValue" value="500"/>
 	<property class="Action0">
 		<property name="Create_item" value="ammoGasCan"/>
-		<property name="Create_item_count" value="100"/>
+		<property name="Create_item_count" value="10000"/>
 	</property>
 </item>
 <item name="ammoBundleRocketFrag">
