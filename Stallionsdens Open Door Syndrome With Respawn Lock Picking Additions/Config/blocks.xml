@@ -15,7 +15,15 @@
 	
 	<remove xpath="/blocks/block[@name='cntMunitionsBox']"></remove>	
 	<remove xpath="/blocks/block[@name='cntDumpster']"></remove>
-	<remove xpath="/blocks/block[@name='cntDumpsterFlies']"></remove>	
+	<remove xpath="/blocks/block[@name='cntDumpsterFlies']"></remove>
+
+	<remove xpath="/blocks/block[@name='cntDomedTrashCanEmpty']"></remove>
+	<remove xpath="/blocks/block[@name='cntDomedTrashCanFull']"></remove>
+	<remove xpath="/blocks/block[@name='cntDomedTrashCanRandomLootHelper']"></remove>
+	<remove xpath="/blocks/block[@name='cntBruteStyleTrashCanEmpty']"></remove>
+	<remove xpath="/blocks/block[@name='cntBruteStyleTrashCanFull']"></remove>
+	<remove xpath="/blocks/block[@name='cntBruteStyleTrashCanRandomLootHelper']"></remove>
+	
 <!-- REMOVES -->
 <!-- FIXED CONTAINERS -->
 <insertAfter xpath="/blocks/block[@name='cntCabinetBottomOpen']">
@@ -106,9 +114,9 @@
 	<property name="DisplayType" value="blockHardened"/>
 	<property name="Material" value="Mcloth"/>
 	<property name="StabilitySupport" value="false"/> <!-- build restriction -->
-	<property name="Shape" value="Ext3dModel"/> <property name="Texture" value="293"/>
+	<property name="Shape" value="ModelEntity"/>
 	<property name="Mesh" value="models"/>
-	<property name="Model" value="LootContainers/suitcase" param1="main_mesh"/>
+	<property name="Model" value="#Entities/LootContainers?luggageMediumClosedPrefab.prefab"/>
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="LootList" value="260"/>
 	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
@@ -128,7 +136,7 @@
 	<insertAfter xpath="/blocks/block[@name='cntMicrowaveOvenVer1Open']">
 	<block name="cntMicrowaveOvenVer1Open1">
 	<property name="Extends" value="cntMicrowaveOvenVer1Open"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntMicrowaveOvenVer1Open2"/>
 	<property name="UpgradeRated.Rate" value="63"/>
@@ -139,7 +147,7 @@
 	<insertAfter xpath="/blocks/block[@name='cntMicrowaveOvenVer1Open1']">
 	<block name="cntMicrowaveOvenVer1Open2">
 	<property name="Extends" value="cntMicrowaveOvenVer1Open"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntMicrowaveOvenVer1Open3"/>
 	<property name="UpgradeRated.Rate" value="63"/>
@@ -150,7 +158,7 @@
 	<insertAfter xpath="/blocks/block[@name='cntMicrowaveOvenVer1Open2']">
 	<block name="cntMicrowaveOvenVer1Open3">
 	<property name="Extends" value="cntMicrowaveOvenVer1Open"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntMicrowaveOvenVer1Open4"/>
 	<property name="UpgradeRated.Rate" value="63"/>
@@ -161,7 +169,7 @@
 	<insertAfter xpath="/blocks/block[@name='cntMicrowaveOvenVer1Open3']">
 	<block name="cntMicrowaveOvenVer1Open4">
 	<property name="Extends" value="cntMicrowaveOvenVer1Open"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntMicrowaveOvenVer1Open5"/>
 	<property name="UpgradeRated.Rate" value="63"/>
@@ -172,7 +180,7 @@
 	<insertAfter xpath="/blocks/block[@name='cntMicrowaveOvenVer1Open4']">
 	<block name="cntMicrowaveOvenVer1Open5">
 	<property name="Extends" value="cntMicrowaveOvenVer1Open"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntMicrowaveOvenVer1Open6"/>
 	<property name="UpgradeRated.Rate" value="63"/>
@@ -183,7 +191,7 @@
 	<insertAfter xpath="/blocks/block[@name='cntMicrowaveOvenVer1Open5']">
 	<block name="cntMicrowaveOvenVer1Open6">
 	<property name="Extends" value="cntMicrowaveOvenVer1Open"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntMicrowaveOvenVer1Closed"/>
 	<property name="UpgradeRated.Rate" value="63"/>
@@ -204,7 +212,7 @@
 	<insertAfter xpath="/blocks/block[@name='cntMedicineCabinetOpen']">
 	<block name="cntMedicineCabinetOpen1">
 	<property name="Extends" value="cntMedicineCabinetOpen"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntMedicineCabinetOpen2"/>
 	<property name="UpgradeRated.Rate" value="63"/>
@@ -214,7 +222,7 @@
 	<insertAfter xpath="/blocks/block[@name='cntMedicineCabinetOpen1']">
 	<block name="cntMedicineCabinetOpen2">
 	<property name="Extends" value="cntMedicineCabinetOpen"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntMedicineCabinetOpen3"/>
 	<property name="UpgradeRated.Rate" value="63"/>
@@ -224,7 +232,7 @@
 	<insertAfter xpath="/blocks/block[@name='cntMedicineCabinetOpen2']">
 	<block name="cntMedicineCabinetOpen3">
 	<property name="Extends" value="cntMedicineCabinetOpen"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntMedicineCabinetOpen4"/>
 	<property name="UpgradeRated.Rate" value="63"/>
@@ -234,7 +242,7 @@
 	<insertAfter xpath="/blocks/block[@name='cntMedicineCabinetOpen3']">
 	<block name="cntMedicineCabinetOpen4">
 	<property name="Extends" value="cntMedicineCabinetOpen"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntMedicineCabinetOpen5"/>
 	<property name="UpgradeRated.Rate" value="63"/>
@@ -244,7 +252,7 @@
 	<insertAfter xpath="/blocks/block[@name='cntMedicineCabinetOpen4']">
 	<block name="cntMedicineCabinetOpen5">
 	<property name="Extends" value="cntMedicineCabinetOpen"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntMedicineCabinetOpen6"/>
 	<property name="UpgradeRated.Rate" value="63"/>
@@ -254,7 +262,7 @@
 	<insertAfter xpath="/blocks/block[@name='cntMedicineCabinetOpen5']">
 	<block name="cntMedicineCabinetOpen6">
 	<property name="Extends" value="cntMedicineCabinetOpen"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntMedicineCabinetClosed"/>
 	<property name="UpgradeRated.Rate" value="63"/>
@@ -2772,9 +2780,8 @@
 </block>
 </insertAfter>			
 		<append xpath="/blocks/block[@name='cntBookcaseFull']">
-		
 		<property name="DowngradeBlock" value="cntBookcaseEmpty" />
-			</append>
+		</append>
 <!-- BOOK CASE -->
 <!-- CASH REGISTER -->
 			<append xpath="/blocks/block[@name='cntCashRegisterEmpty']">
@@ -4575,11 +4582,29 @@
 	</append>
 <!-- TILT TRUCK WITH FLIES -->
 <!-- DOMED TRASH CAN -->
-	<append xpath="/blocks/block[@name='cntDomedTrashCanEmpty']">
+<insertAfter xpath="/blocks/block[@name='cntFancyGarbageCan']">
+	<block name="cntDomedTrashCanEmpty">
+	<property name="CreativeMode" value="Player"/>
+	<property name="Material" value="Mmetal_thin"/>
+	<property name="StabilitySupport" value="false"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="#Entities/LootContainers?domedTrashCanEmptyPrefab.prefab"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="Path" value="solid"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="ImposterExchange" value="imposterDontBlockCTRQuarter" param1="12"/>
+	<property class="RepairItems"> <property name="resourceScrapIron" value="30"/> </property>
+	<drop event="Destroy" name="resourceScrapIron" count="1,15"/>
+	<drop event="Fall" count="0" stick_chance="0"/>
+	<property name="DescriptionKey" value="furnitureGroupDesc"/>
+	<property name="EconomicValue" value="60"/> <!-- disassemble value -->
+	<property name="FilterTags" value="floot,ffurniture"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntDomedTrashCanEmpty1"/>
 	<property name="UpgradeRated.Rate" value="63"/>	
-	</append>
+</block>
+	</insertAfter>
 <insertAfter xpath="/blocks/block[@name='cntDomedTrashCanEmpty']">
 	<block name="cntDomedTrashCanEmpty1">
 	<property name="Extends" value="cntDomedTrashCanEmpty"/>
@@ -4654,20 +4679,56 @@
 	<drop event="Destroy" name="resourceScrapIron" count="1,15"/>
 	<drop event="Fall" count="0" stick_chance="0"/>
 	<property name="Class" value="UpgradeRated"/>
-	<property name="UpgradeRated.ToBlock" value="cntDomedTrashCanRandomLootHelper"/>
+	<property name="UpgradeRated.ToBlock" value="cntDomedTrashCanFull"/>
 	<property name="UpgradeRated.Rate" value="63"/>
 	</block>
 </insertAfter>
-	<append xpath="/blocks/block[@name='cntDomedTrashCanFull']">
+<insertAfter xpath="/blocks/block[@name='cntDomedTrashCanEmpty6']">
+	<block name="cntDomedTrashCanFull">
+	<property name="Extends" value="cntDomedTrashCanEmpty"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="#Entities/LootContainers?domedTrashCanFullPrefab.prefab"/>
 	<property name="DowngradeBlock" value="cntDomedTrashCanEmpty" />
-	</append>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="16"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntDomedTrashCanFull']">
+	<block name="cntDomedTrashCanRandomLootHelper">
+	<property name="Extends" value="cntDomedTrashCanEmpty"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="cntDomedTrashCanEmpty"/> <property name="CustomIconTint" value="ff8080"/>
+	<property name="DescriptionKey" value="cntGenericRandomLootHelperDesc"/>
+	<property name="FilterTags" value="floot,ffurniture,fdesign"/>
+	<property name="DisplayInfo" value="Name"/>
+</block>
+</insertAfter>
 <!-- DOMED TRASH CAN -->
 <!-- BRUTE STYLE TRASH CAN -->
-	<append xpath="/blocks/block[@name='cntBruteStyleTrashCanEmpty']">
+<insertAfter xpath="/blocks/block[@name='cntDomedTrashCanRandomLootHelper']">	
+	<block name="cntBruteStyleTrashCanEmpty">
+	<property name="CreativeMode" value="Player"/>
+	<property name="Material" value="Mplastics"/>
+	<property name="StabilitySupport" value="false"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="#Entities/LootContainers?bruteStyleTrashCanEmptyPrefab.prefab"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="Path" value="solid"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="ImposterExchange" value="imposterDontBlockCTRQuarter" param1="112"/>
+	<property class="RepairItems"> <property name="resourceScrapPolymers" value="14"/> </property>
+	<drop event="Harvest" name="resourceScrapPolymers" count="2,7" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" count="0" stick_chance="0"/>
+	<property name="DescriptionKey" value="furnitureGroupDesc"/>
+	<property name="EconomicValue" value="60"/> <!-- disassemble value -->
+	<property name="FilterTags" value="floot,ffurniture"/>
 	<property name="Class" value="UpgradeRated"/>
 	<property name="UpgradeRated.ToBlock" value="cntBruteStyleTrashCanEmpty1"/>
-	<property name="UpgradeRated.Rate" value="63"/>	
-	</append>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>		
+	</insertAfter>
 <insertAfter xpath="/blocks/block[@name='cntBruteStyleTrashCanEmpty']">	
 	<block name="cntBruteStyleTrashCanEmpty1">
 	<property name="Extends" value="cntBruteStyleTrashCanEmpty"/>
@@ -4754,13 +4815,30 @@
 	<drop event="Destroy" count="0"/>
 	<drop event="Fall" count="0" stick_chance="0"/>
 	<property name="Class" value="UpgradeRated"/>
-	<property name="UpgradeRated.ToBlock" value="cntBruteStyleTrashCanRandomLootHelper"/>
+	<property name="UpgradeRated.ToBlock" value="cntBruteStyleTrashCanFull"/>
 	<property name="UpgradeRated.Rate" value="63"/>	
 	</block>
 </insertAfter>
-	<append xpath="/blocks/block[@name='cntBruteStyleTrashCanFull']">
+<insertAfter xpath="/blocks/block[@name='cntBruteStyleTrashCanEmpty6']">	
+	<block name="cntBruteStyleTrashCanFull">
+	<property name="Extends" value="cntBruteStyleTrashCanEmpty"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="#Entities/LootContainers?bruteStyleTrashCanFullPrefab.prefab"/>
 	<property name="DowngradeBlock" value="cntBruteStyleTrashCanEmpty" />
-	</append>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="10"/>
+	</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntBruteStyleTrashCanFull']">	
+	<block name="cntBruteStyleTrashCanRandomLootHelper">
+	<property name="Extends" value="cntBruteStyleTrashCanEmpty"/>
+	<property name="CreativeMode" value="Dev"/>
+	<property name="CustomIcon" value="cntBruteStyleTrashCanEmpty"/> <property name="CustomIconTint" value="ff8080"/>
+	<property name="DescriptionKey" value="cntGenericRandomLootHelperDesc"/>
+	<property name="FilterTags" value="floot,ffurniture,fdesign"/>
+	<property name="DisplayInfo" value="Name"/>
+</block>
+</insertAfter>
 <!-- BRUTE STYLE TRASH CAN -->
 
 <!-- LOCK PICKING --><!-- LOCK PICKING --><!-- LOCK PICKING --><!-- LOCK PICKING --><!-- LOCK PICKING --><!-- LOCK PICKING --><!-- LOCK PICKING -->
@@ -4769,7 +4847,7 @@
 <!-- MUNITIONS BOX -->
 
 <block name="cntMunitionsBoxRandomLootHelper">
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Material" value="Mmetal"/>
 	<property name="StabilitySupport" value="false"/> <!-- build restriction -->
 	<property name="Shape" value="Ext3dModel"/> <property name="Texture" value="293"/>
@@ -4979,7 +5057,7 @@
 <!-- DUMPSTER FLIES -->
 <block name="cntDumpsterFliesRandomLootHelper">	
 	<property name="Material" value="Mmetal"/>
-	<property name="CreativeMode" value="Player"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="Path" value="solid"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#Entities/LootContainers?dumpster_fliesPrefab.prefab"/>
