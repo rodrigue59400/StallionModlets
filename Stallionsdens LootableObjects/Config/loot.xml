@@ -1,7 +1,7 @@
 <stallionsden>
 <append xpath="/lootcontainers">
 <!-- bodyBagBlackFull, bodyBagYellowFull,bodyBagPileFull,bodyBagPileMixFull,bodyBagPairFull,bodyBagPairYellowFull,bodyBagPairMixedFull -->
-<lootcontainer id="228" count="1,2" size="8,9" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="2" loot_quality_template="qualBaseTemplate">
+<lootcontainer id="233" count="1,2" size="8,9" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="2" loot_quality_template="qualBaseTemplate">
 	<item group="rottenFood" prob="1"/>
 	<item name="foodRottingFlesh" count="5,12"/>
 	<item group="junk"/>
@@ -20,7 +20,7 @@
 	</lootcontainer>
 
 <!-- goreBlockHumanCorpse,goreBlockHumanBones -->
-<lootcontainer id="229" count="1,2" size="8,9" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="2" loot_quality_template="qualBaseTemplate">
+<lootcontainer id="234" count="1,2" size="8,9" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="2" loot_quality_template="qualBaseTemplate">
 	<item group="rottenFood" prob="1"/>
 	<item name="foodRottingFlesh" count="5,12"/>
 	<item group="junk"/>

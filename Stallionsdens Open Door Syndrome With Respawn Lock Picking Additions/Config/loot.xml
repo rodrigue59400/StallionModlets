@@ -307,7 +307,7 @@
 
 <!-- ************************************************************************************************************************************************ -->
 
-<insertAfter xpath="/lootcontainers/lootcontainer[@id='116']" >
+<insertAfter xpath="/lootcontainers/lootcontainer[@id='124']" >
 	<lootcontainer id="235" count="1,2" size="4,3" sound_open="UseActions/open_mailbox" sound_close="UseActions/close_mailbox" loot_quality_template="qualPlus1Template">
 	<item name="toolCookingPot" count="1,2" prob="1.5"/>
 	<item name="toolCookingGrill"/>
