@@ -1,0 +1,4 @@
+<stallionsden>
+	<set xpath="/blocks/block/property[@name='Stacknumber' and not(@value='1')]/@value">30000</set>
+	
+</stallionsden>

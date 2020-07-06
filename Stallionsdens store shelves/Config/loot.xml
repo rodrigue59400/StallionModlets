@@ -11,7 +11,8 @@
 	<item group="dyes" prob="0.08"/>
 	<item group="backpacks/survival"/>
 	<item group="electricalDevices" prob="0.01"/>	
-	<item group="groupAmmoRegularGunslinger"/>
+	<item group="groupAmmoRegularGunslingerT1"/>
+	<item group="groupAmmoRegularGunslingerT2"/>
 	<item group="groupAmmoRegular"/>
 	<item group="groupAmmoAdvancedGunslinger"/>
 	<item group="groupAmmoAdvanced"/>
@@ -19,8 +20,8 @@
 	<item name="resourceCloth" count="1,3"/>
 	<item name="resourceGlue"/>
 	<item name="resourceBulletCasing"/>
-	<item group="workingStiffs"/>
-</lootcontainer>
+	<item group="workingStiffsBox"/>
+	</lootcontainer>
 
 <!-- storeShelving01Double -->
 <lootcontainer id="213" count="1,2" size="8,9" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="3.5" loot_quality_template="qualPlus1Template">

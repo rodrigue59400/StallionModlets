@@ -31,11 +31,11 @@
 <property name="EconomicValue" value="100"/>
 </append>
 
-<append xpath="/items/item[@name='drugRedPill']">
+<append xpath="/items/item[@name='drugRedPillAdmin']">
 <property name="EconomicValue" value="50"/>
 </append>
 
-<append xpath="/items/item[@name='drugBluePill']">
+<append xpath="/items/item[@name='drugBluePillAdmin']">
 <property name="EconomicValue" value="50"/>
 </append>
 

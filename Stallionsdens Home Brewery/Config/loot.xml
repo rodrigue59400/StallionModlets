@@ -10,21 +10,16 @@
 	<item name="foodHoney" count="1,50" />
 	<item name="drinkCanEmpty" count="1,10" />
 	<item name="drinkJarPureMineralWater" count="1,10" /> 
-	<item name="drinkJarYuccaJuice" count="1,10" />
-	<item name="drinkJarGoldenRodTea" count="1,10" />
-	<item name="drinkCanMegaCrush" count="1,10" />
-	<item name="drinkJarRedTea" count="1,10" />
+	<item group="drinks" count="1,10" />
 	<item name="drinkYuccaJuiceSmoothie" count="1,10" />
 	<item name="drinkJarBlackStrapCoffee" count="1,10" /> 
-	<item name="drinkJarCoffee" count="1,10" />
 	</lootgroup> 
 
 <!-- The following section adds lootgroup 130 -->
 		<lootgroup name="wineBarrelSet" count="2">  
 	<item name="drinkCanEmpty" count="1,10" />
-	<item name="drinkJarGrandpasMoonshine" count="1,10" />
-	<item name="drinkJarGrandpasAwesomeSauce" count="1,10" />
-	<item name="drinkJarGrandpasLearningElixir" count="1,10" />
+	<item group="rareFoodDrink" count="1,10" />
+	<item group="drinks" count="1,10" />
 	<item name="drinkJarBoiledWater" count="1,10" />
 	</lootgroup> 
 

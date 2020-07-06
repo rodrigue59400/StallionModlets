@@ -69,6 +69,13 @@
 <recipe name="JunkTurretAmmo" count="1">
 	<ingredient name="resourceScrapIron" count="3"/>
 </recipe>
+<recipe name="JunkTurretShellammo" count="1" craft_time="360" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="resourceScrapIron" count="800"/>
+	<ingredient name="resourceBuckshot" count="800"/>
+</recipe>
+<recipe name="JunkTurretAPammo" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="resourceScrapIron" count="5"/>
+</recipe>
 <recipe name="ArrowFlaming" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
 	<ingredient name="resourceArrowHeadSteelAP" count="1"/>
 	<ingredient name="resourceScrapPolymers" count="2"/>
@@ -288,9 +295,21 @@
 	<ingredient name="resourceScrapPolymers" count="1"/>
 </recipe>
 <recipe name="JunkTurretAmmo" count="1" craft_area="workbench" tags="workbenchCrafting">
-	<ingredient name="ammoJunkTurret" count="3"/>
+	<ingredient name="ammoJunkTurretRegular" count="3"/>
 	<ingredient name="resourcePotassiumNitratePowder" count="6"/>
-	<ingredient name="resourceScrapPolymers" count="1"/>
+	<ingredient name="resourceScrapIron" count="1"/>
+	<ingredient name="resourceDuctTape" count="1"/>
+</recipe>
+<recipe name="JunkTurretShellammo" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="ammoJunkTurretShell" count="3"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="6"/>
+	<ingredient name="resourceScrapIron" count="1"/>
+	<ingredient name="resourceBuckshot" count="1"/>
+</recipe>
+<recipe name="JunkTurretAPammo" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="ammoJunkTurretAP" count="3"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="6"/>
+	<ingredient name="resourceScrapIron" count="1"/>
 	<ingredient name="resourceDuctTape" count="1"/>
 </recipe>
 <recipe name="ArrowFlaming" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">

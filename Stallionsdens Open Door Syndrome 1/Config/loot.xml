@@ -1,0 +1,25 @@
+<stallionsden>
+ 	
+<!-- ************************************************************************************************************************************************ -->
+<!--<insertAfter xpath="/lootcontainers/lootcontainer[@id='142']">-->
+<!-- garbage, cntTrashPile -->
+<!--<lootcontainer id="225" count="0,2" size="6,2" destroy_on_close="true" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" loot_quality_template="qualBaseTemplate">
+	<item group="farmCrops"/>
+</lootcontainer>
+</insertAfter>
+<insertAfter xpath="/lootcontainers/lootcontainer[@id='225']">
+<lootcontainer id="226" count="0,2" size="6,2" destroy_on_close="true" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" loot_quality_template="qualBaseTemplate">
+	<item group="groupApparelClothes" prob="0.8"/>
+	<item name="resourceCloth" count="1,5" prob="0.2"/>
+	<item name="oldCash" count="1,7" prob="0.1"/>
+	<item name="resourceSewingKit"/>
+</lootcontainer>
+</insertAfter>
+<insertAfter xpath="/lootcontainers/lootcontainer[@id='226']" >-->
+<!-- garbage, cntTrashPile -->
+<!--<lootcontainer id="227" count="0,2" size="6,2" destroy_on_close="true" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" loot_quality_template="qualBaseTemplate">
+	<item group="junk"/>
+</lootcontainer>
+</insertAfter>-->
+
+	</stallionsden>

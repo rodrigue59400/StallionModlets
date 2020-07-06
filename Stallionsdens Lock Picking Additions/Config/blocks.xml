@@ -502,7 +502,7 @@
 	<property name="Extends" value="cntCashRegisterEmpty" param1="ModelOffset"/>
 	<property name="CustomIcon" value="cntCashRegister"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="Model" value="LootContainers/cash_register" param1="main_mesh"/>
+	<property name="Model" value="#Entities/LootContainers?cashRegisterClosedPrefab.prefab"/>
 	<property name="Class" value="SecureLoot"/>
 	<property name="LootList" value="55"/>
 	<property name="LockPickItem" value="resourceLockPick"/>

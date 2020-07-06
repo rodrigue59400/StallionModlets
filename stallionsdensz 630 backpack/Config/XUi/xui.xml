@@ -3,7 +3,7 @@
 	<set xpath="/xui/ruleset[@name='default']/@scale">1.05</set>
 	<set xpath="/xui/ruleset[@name='default']/@stackpanel_scale">0.66</set>
 	 <!-- Player toolbelt window -->
-   	<set xpath="/xui/ruleset/window_group[@name='toolbelt']/window[@name='HUDLeftStatBars']/@name">KHHUDLeftStatBars</set>
+  <!-- 	<set xpath="/xui/ruleset/window_group[@name='toolbelt']/window[@name='HUDLeftStatBars']/@name">KHHUDLeftStatBars</set>-->
 	<remove xpath="/xui/ruleset/window_group[@name='workstation_campfire']"></remove>
 	<insertAfter xpath="/xui/ruleset/window_group[@name='character']" >
 	<window_group name="workstation_campfire" controller="XUiC_WorkstationWindowGroup">

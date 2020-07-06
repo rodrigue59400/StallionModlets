@@ -122,13 +122,27 @@
 	<property name="AITarget-3" value="SetNearestCorpseAsTarget" data="class=EntityPlayer"/>
 	<property name="AITarget-4" value="SetNearestEntityAsTarget" data="class=EntityPlayer,0,0,EntityNPC,0,0"/> <!-- class, hear distance, see dist (checked left to right, 0 dist uses entity default) -->
 
-	<!-- Values Are: MinHeight, MinWeight, MaxWeight(value @ 5 meter fall height) -->
 	<property class="FallLandBehavior">
-		<property name="None" data="weightmin=0.6"/> <!-- a chance none of these options will be chosen -->
-		<property name="Ragdoll" data="heightMin=2;weightMin=.2;weightMax=.4"/>
-		<!-- <property name="Stumble" data="heightMin=2.0;weightMin=0.2"/> -->
-		<!-- <property name="Boost" data="heightMin=2.0;weightMin=0.2"/> -->
-		<!-- <property name="CatBoost" data="heightMin=2.0;weightMin=0.2"/> -->
+		<property name="1None" data="anim=None;height=0,1;weight=0.4"/>
+		<property name="1Land" data="anim=Land;height=0,1;weight=0.4"/>
+		<property name="1LandLow" data="anim=LandLow;height=0,1;weight=0.15"/>
+		<property name="1Stumble" data="anim=Stumble;height=0,1;weight=0.05"/>
+
+		<property name="LowLand" data="anim=LandLow;height=1,3;weight=0.7"/>
+		<property name="LowStumble" data="anim=Stumble;height=1,3;weight=0.3"/>
+
+		<property name="MidStumble" data="anim=Stumble;height=3,5;weight=0.3"/>
+		<property name="MidStumbleAndRage" data="anim=Stumble;height=3,5;weight=0.3;ragePer=0.5,1.5;rageTime=1.0,2.0"/>
+		<property name="MidLandHard" data="anim=LandHard;height=3,5;weight=0.3"/>
+		<property name="MidLandHardAndRage" data="anim=LandHard;height=3,5;weight=0.3;ragePer=0.5,1.5;rageTime=1.0,2.0"/>
+
+		<property name="Ragdoll" data="anim=Ragdoll;height=3;weight=0.4"/>
+	</property>
+
+	<property class="DestroyBlockBehavior">
+		<property name="None" data="weight=0.0"/>
+		<property name="Stumble" data="weight=0.2"/>
+		<property name="Ragdoll" data="weight=0.2"/>
 	</property>
 
 	<property name="WalkType" value="7"/>
@@ -187,9 +201,12 @@
 
 	<!-- Gameplay -->
 	<property name="MaxTurnSpeed" value="250"/>
-	<property name="MoveSpeed" value="0.08"/> <!-- just shambling around -->
-	<property name="MoveSpeedAggro" value="0.2, 1.25"/> <!-- chasing a target min/max (like day or night)-->
+	<property name="MoveSpeed" value="0.08"/> <!-- Just shambling around -->
+	<property name="MoveSpeedAggro" value="0.2, 1.25"/> <!-- Chasing a target min/max (like day or night)-->
+	<property name="MoveSpeedRand" value="-.2, .25"/> <!-- Rand added to min aggro speed -->
 	<property name="MoveSpeedPanic" value="0.55"/>
+	<property name="SwimSpeed" value="1"/>
+	<property name="SwimStrokeRate" value="1,1.5"/>
 	<property name="CanClimbLadders" value="true"/>
 	<property name="JumpMaxDistance" value="2.8, 3.9"/>
 
@@ -210,11 +227,19 @@
 	<property name="TimeStayAfterDeath" value="30"/>
 	<property name="DeadBodyHitPoints" value="1000"/> <!-- For harvesting or resisting corpse destruction --> <!-- to adjust corpse destruction speed for the non-harvest zombie corpses. This property does not extend. -->
 
+	<property name="NavObject" value="clear_sleeper" />
+
 	<effect_group name="Base Effects"> <!-- zombieTemplateMale -->
 		<passive_effect name="DistractionResistance" operation="base_set" value="0,0"/>
 		<passive_effect name="HealthMax" operation="base_set" value="150"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
 		<passive_effect name="StaminaMax" operation="base_set" value="100"/>
+		<passive_effect name="BuffResistance" operation="base_set" value="5" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffInfectionCatch,buffAbrasionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo"/>
+
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="noTeethNoInfection" operation="set" value="0">
+			<requirement name="NotHasBuff" buff="buffBrawlerNoTeeth"/></triggered_effect>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="noTeethNoInfection" operation="set" value="1">
+			<requirement name="HasBuff" buff="buffBrawlerNoTeeth"/></triggered_effect>
 	</effect_group>
 </entity_class>
 </insertAfter> 
@@ -324,7 +349,7 @@
 <insertAfter xpath="/entity_classes/entity_class[@name='zombieBoe']" >
 <entity_class name="zombieBoeFeral" extends="zombieBoe">
 	<property name="Tags" value="entity,zombie,walker,feral"/>
-	<property name="ReplaceMaterial1" value="entities/zombies/materials/feral_eye"/>
+	<property name="Mesh" value="Zombies/zombieStandardBoeHDFeralRagdoll"/>
 
 	<!-- Gameplay -->
 	<property name="DismemberMultiplierHead" value=".7"/><property name="DismemberMultiplierArms" value=".7"/><property name="DismemberMultiplierLegs" value=".7"/><!-- Feral -->
@@ -339,7 +364,7 @@
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="285"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
-		<passive_effect name="EntityDamage" operation="perc_add" value="0"/> <!-- Feral damage -->
+		<!--<passive_effect name="EntityDamage" operation="perc_add" value="0"/>--> <!-- Feral damage -->
 	</effect_group>
 </entity_class>
 </insertAfter> 
@@ -347,8 +372,7 @@
 <insertAfter xpath="/entity_classes/entity_class[@name='zombieBoeFeral']" >
 <entity_class name="zombieBoeRadiated" extends="zombieBoeFeral">
 	<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
-	<property name="ReplaceMaterial0" value="entities/zombies/materials/boe_radiated"/>
-	<property name="ReplaceMaterial1" value="entities/zombies/materials/feral_eye"/>
+	<property name="Mesh" value="Zombies/zombieStandardBoeHDRadiatedRagdoll"/>
 	<!--<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>-->
 	<!-- Gameplay -->
 	<property name="DismemberMultiplierHead" value=".4"/><property name="DismemberMultiplierArms" value=".4"/><property name="DismemberMultiplierLegs" value=".4"/><!-- Radiated -->
@@ -403,7 +427,7 @@
 <insertAfter xpath="/entity_classes/entity_class[@name='zombieFootballPlayer']" >
 <entity_class name="zombieFemaleFat" extends="zombieTemplateMale">
 	<property name="Tags" value="entity,zombie,walker"/>
-	<property name="Mesh" value="Zombies/zombieStandardFatLadyZRagdoll"/>
+	<property name="Mesh" value="Zombies/zombieStandardBigMamaHDRagdoll"/>
 	<property name="SoundRandom" value="Enemies/Base_Zombie_Female2/zombiefemale2roam"/>
 	<property name="SoundAlert" value="Enemies/Base_Zombie_Female2/zombiefemale2alert"/>
 	<property name="SoundAttack" value="Enemies/Base_Zombie_Female2/zombiefemale2attack"/>
@@ -428,9 +452,10 @@
 	<property name="CanClimbLadders" value="true"/>
 	<property name="HandItem" value="meleeHandZombieStrong"/>
 	<property name="JumpMaxDistance" value=".5, .6"/>
-
+	<property name="ExperienceGain" value="750"/> <!-- XP strong -->
+	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
 	<effect_group name="Base Effects">
-		<passive_effect name="HealthMax" operation="base_set" value="200"/>
+		<passive_effect name="HealthMax" operation="base_set" value="300"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
 	</effect_group>
 </entity_class>
@@ -439,7 +464,7 @@
 <insertAfter xpath="/entity_classes/entity_class[@name='zombieFemaleFat']" >
 <entity_class name="zombieFemaleFatFeral" extends="zombieFemaleFat">
 	<property name="Tags" value="entity,zombie,walker,feral"/>
-	<property name="ReplaceMaterial1" value="entities/zombies/materials/feral_eye"/>
+	<property name="Mesh" value="Zombies/zombieStandardBigMamaHDFeralRagdoll"/>
 
 	<!-- Gameplay -->
 	<property name="DismemberMultiplierHead" value=".7"/><property name="DismemberMultiplierArms" value=".7"/><property name="DismemberMultiplierLegs" value=".7"/><!-- Feral -->
@@ -448,14 +473,13 @@
 
 	<property name="HandItem" value="meleeHandZombieStrongFeral"/>
 
-	<property name="ExperienceGain" value="750"/> <!-- XP grunt feral -->
+	<property name="ExperienceGain" value="1200"/> <!-- XP strong -->
 	<property name="LootDropProb" value=".03"/> <!-- Feral -->
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
-
 	<effect_group name="Base Effects">
-		<passive_effect name="HealthMax" operation="base_set" value="380"/>
+		<passive_effect name="HealthMax" operation="base_set" value="570"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
-		<passive_effect name="EntityDamage" operation="perc_add" value="0"/> <!-- Feral damage -->
+		<!--<passive_effect name="EntityDamage" operation="perc_add" value="0"/>--> <!-- Feral damage -->
 	</effect_group>
 </entity_class>
 </insertAfter>
@@ -463,7 +487,7 @@
 <insertAfter  xpath="/entity_classes/entity_class[@name='zombieFemaleFatFeral']" >
 <entity_class name="zombieFemaleFatRadiated" extends="zombieFemaleFatFeral">
 	<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
-	<property name="ReplaceMaterial0" value="entities/zombies/materials/fatLadyZS_radiated"/>
+	<property name="Mesh" value="Zombies/zombieStandardBigMamaHDRadiatedRagdoll"/>
 	<!--<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>-->
 	<!-- Gameplay -->
 	<property name="DismemberMultiplierHead" value=".4"/><property name="DismemberMultiplierArms" value=".4"/><property name="DismemberMultiplierLegs" value=".4"/><!-- Radiated -->
@@ -485,7 +509,7 @@
 <insertAfter xpath="/entity_classes/entity_class[@name='zombieFemaleFatRadiated']" >
 <entity_class name="zombieJoe" extends="zombieTemplateMale">
 	<property name="Tags" value="entity,zombie,walker"/>
-	<property name="Mesh" value="Zombies/zombieStandardJoeRagdoll"/>
+	<property name="Mesh" value="Zombies/zombieStandardJoeHDRagdoll"/>
 	<property name="AvatarController" value="AvatarZombie01Controller"/>
 	<property name="ModelType" value="Standard"/>
 	<property name="WalkType" value="5"/>
@@ -504,7 +528,7 @@
 <insertAfter xpath="/entity_classes/entity_class[@name='zombieJoe']" >
 <entity_class name="zombieJoeFeral" extends="zombieJoe">
 	<property name="Tags" value="entity,zombie,walker,feral"/>
-	<property name="ReplaceMaterial1" value="entities/zombies/materials/feral_eye"/>
+	<property name="Mesh" value="Zombies/zombieStandardJoeHDFeralRagdoll"/>
 
 	<!-- Gameplay -->
 	<property name="DismemberMultiplierHead" value=".7"/><property name="DismemberMultiplierArms" value=".7"/><property name="DismemberMultiplierLegs" value=".7"/><!-- Feral -->
@@ -526,7 +550,7 @@
 <insertAfter xpath="/entity_classes/entity_class[@name='zombieJoeFeral']" >
 <entity_class name="zombieJoeRadiated" extends="zombieJoeFeral">
 	<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
-	<property name="ReplaceMaterial0" value="entities/zombies/materials/joe_radiated"/>
+	<property name="Mesh" value="Zombies/zombieStandardJoeHDRadiatedRagdoll"/>
 	<!--<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>-->
 	<!-- Gameplay -->
 	<property name="DismemberMultiplierHead" value=".4"/><property name="DismemberMultiplierArms" value=".4"/><property name="DismemberMultiplierLegs" value=".4"/><!-- Radiated -->
@@ -548,7 +572,7 @@
 <insertAfter xpath="/entity_classes/entity_class[@name='zombieJoeRadiated']" >
 <entity_class name="zombieMoe" extends="zombieTemplateMale">
 	<property name="Tags" value="entity,zombie,walker"/>
-	<property name="Mesh" value="Zombies/zombieStandardMoeRagdoll"/>
+	<property name="Mesh" value="Zombies/zombieStandardMoeHDRagdoll"/>
 	<property name="AvatarController" value="AvatarZombie01Controller"/>
 	<property name="ModelType" value="Standard"/>
 	<property name="WalkType" value="1"/>
@@ -580,7 +604,7 @@
 <insertAfter xpath="/entity_classes/entity_class[@name='zombieMoe']" >
 <entity_class name="zombieMoeFeral" extends="zombieMoe">
 	<property name="Tags" value="entity,zombie,walker,feral"/>
-	<property name="ReplaceMaterial1" value="entities/zombies/materials/feral_eye"/>
+	<property name="Mesh" value="Zombies/zombieStandardMoeHDFeralRagdoll"/>
 
 	<!-- Gameplay -->
 	<property name="DismemberMultiplierHead" value=".7"/><property name="DismemberMultiplierArms" value=".7"/><property name="DismemberMultiplierLegs" value=".7"/><!-- Feral -->
@@ -603,7 +627,7 @@
 <insertAfter xpath="/entity_classes/entity_class[@name='zombieMoeFeral']" >
 <entity_class name="zombieMoeRadiated" extends="zombieMoeFeral">
 	<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
-	<property name="ReplaceMaterial0" value="entities/zombies/materials/moe_radiated"/>
+	<property name="Mesh" value="Zombies/zombieStandardMoeHDRadiatedRagdoll"/>
 	<!--<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>-->
 	<!-- Gameplay -->
 	<property name="DismemberMultiplierHead" value=".4"/><property name="DismemberMultiplierArms" value=".4"/><property name="DismemberMultiplierLegs" value=".4"/><!-- Radiated -->
@@ -623,7 +647,7 @@
 <insertAfter xpath="/entity_classes/entity_class[@name='zombieMoeRadiated']" >
 <entity_class name="zombieArlene" extends="zombieTemplateMale">
 	<property name="Tags" value="entity,zombie,walker"/>
-	<property name="Mesh" value="Zombies/zombieStandardArleneRagdoll"/>
+	<property name="Mesh" value="Zombies/zombieStandardArleneHDRagdoll"/>
 	<property name="SoundRandom" value="Enemies/Base_Zombie_Female/zombiefemaleroam"/>
 	<property name="SoundAlert" value="Enemies/Base_Zombie_Female/zombiefemalealert"/>
 	<property name="SoundAttack" value="Enemies/Base_Zombie_Female/zombiefemaleattack"/>
@@ -655,9 +679,9 @@
 <insertAfter xpath="/entity_classes/entity_class[@name='zombieArlene']" >
 <entity_class name="zombieArleneFeral" extends="zombieArlene">
 	<property name="Tags" value="entity,zombie,walker,feral"/>
+	<property name="Mesh" value="Zombies/zombieStandardArleneHDFeralRagdoll"/>
 	<property name="HandItem" value="meleeHandZombieFeral"/>
-	<property name="ReplaceMaterial2" value="entities/zombies/materials/feral_eye"/>
-
+	
 	<!-- Gameplay -->
 	<property name="DismemberMultiplierHead" value=".7"/><property name="DismemberMultiplierArms" value=".7"/><property name="DismemberMultiplierLegs" value=".7"/><!-- Feral -->
 	<property name="PainResistPerHit" value=".25"/><!-- Feral -->
@@ -676,8 +700,8 @@
 <insertAfter xpath="/entity_classes/entity_class[@name='zombieArleneFeral']" >
 <entity_class name="zombieArleneRadiated" extends="zombieArleneFeral">
 	<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
+	<property name="Mesh" value="Zombies/zombieStandardArleneHDRadiatedRagdoll"/>
 	<property name="HandItem" value="meleeHandZombieFeral"/>
-	<property name="ReplaceMaterial0" value="entities/zombies/materials/arlene_radiated"/>
 	<property name="DismemberMultiplierHead" value=".4"/><property name="DismemberMultiplierArms" value=".4"/><property name="DismemberMultiplierLegs" value=".4"/><!-- Radiated -->
 	<property name="PainResistPerHit" value=".5"/><!-- Radiated -->
 	<property name="MoveSpeedAggro" value=".5, 1.35"/>
@@ -842,7 +866,7 @@
 <insertAfter xpath="/entity_classes/entity_class[@name='zombieScreamerRadiated']" >
 <entity_class name="zombieDarlene" extends="zombieTemplateMale">
 	<property name="Tags" value="entity,zombie,walker"/>
-	<property name="Mesh" value="Zombies/zombieStandardDarleneRagdoll"/>
+	<property name="Mesh" value="Zombies/zombieStandardDarleneHDRagdoll"/>
 	<property name="SoundRandom" value="Enemies/Base_Zombie_Female2/zombiefemale2roam"/>
 	<property name="SoundAlert" value="Enemies/Base_Zombie_Female2/zombiefemale2alert"/>
 	<property name="SoundAttack" value="Enemies/Base_Zombie_Female2/zombiefemale2attack"/>
@@ -869,7 +893,7 @@
 <insertAfter xpath="/entity_classes/entity_class[@name='zombieDarlene']" >
 <entity_class name="zombieDarleneFeral" extends="zombieDarlene">
 	<property name="Tags" value="entity,zombie,walker,feral"/>
-	<property name="ReplaceMaterial1" value="entities/zombies/materials/feral_eye"/>
+	<property name="Mesh" value="Zombies/zombieStandardDarleneHDFeralRagdoll"/>
 
 	<!-- Gameplay -->
 	<property name="DismemberMultiplierHead" value=".7"/><property name="DismemberMultiplierArms" value=".7"/><property name="DismemberMultiplierLegs" value=".7"/><!-- Feral -->
@@ -891,7 +915,7 @@
 <insertAfter xpath="/entity_classes/entity_class[@name='zombieDarleneFeral']" >
 <entity_class name="zombieDarleneRadiated" extends="zombieDarleneFeral">
 	<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
-	<property name="ReplaceMaterial0" value="entities/zombies/materials/darlene_radiated"/>
+	<property name="Mesh" value="Zombies/zombieStandardDarleneHDRadiatedRagdoll"/>
 	<!--<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>-->
 	<!-- Gameplay -->
 	<property name="DismemberMultiplierHead" value=".4"/><property name="DismemberMultiplierArms" value=".4"/><property name="DismemberMultiplierLegs" value=".4"/><!-- Radiated -->
@@ -911,7 +935,7 @@
 <insertAfter xpath="/entity_classes/entity_class[@name='zombieDarleneRadiated']" >
 <entity_class name="zombieMarlene" extends="zombieTemplateMale">
 	<property name="Tags" value="entity,zombie,walker"/>
-	<property name="Mesh" value="Zombies/zombieStandardMarleneRagdoll"/>
+	<property name="Mesh" value="Zombies/zombieStandardMarleneHDRagdoll"/>
 	<property name="SoundRandom" value="Enemies/Base_Zombie_Female2/zombiefemale2roam"/>
 	<property name="SoundAlert" value="Enemies/Base_Zombie_Female2/zombiefemale2alert"/>
 	<property name="SoundAttack" value="Enemies/Base_Zombie_Female2/zombiefemale2attack"/>
@@ -937,7 +961,7 @@
 <insertAfter xpath="/entity_classes/entity_class[@name='zombieMarlene']" >
 <entity_class name="zombieMarleneFeral" extends="zombieMarlene">
 	<property name="Tags" value="entity,zombie,walker,feral"/>
-	<property name="ReplaceMaterial1" value="entities/zombies/materials/feral_eye"/>
+	<property name="Mesh" value="Zombies/zombieStandardMarleneHDFeralRagdoll"/>
 
 	<!-- Gameplay -->
 	<property name="DismemberMultiplierHead" value=".7"/><property name="DismemberMultiplierArms" value=".7"/><property name="DismemberMultiplierLegs" value=".7"/><!-- Feral -->
@@ -959,7 +983,7 @@
 <insertAfter xpath="/entity_classes/entity_class[@name='zombieMarleneFeral']" >
 <entity_class name="zombieMarleneRadiated" extends="zombieMarlene">
 	<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
-	<property name="ReplaceMaterial0" value="entities/zombies/materials/marlene_radiated"/>
+	<property name="Mesh" value="Zombies/zombieStandardMarleneHDRadiatedRagdoll"/>
 	<!--<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>-->
 	<!-- Gameplay -->
 	<property name="DismemberMultiplierHead" value=".4"/><property name="DismemberMultiplierArms" value=".4"/><property name="DismemberMultiplierLegs" value=".4"/><!-- Radiated -->
@@ -979,7 +1003,7 @@
 <insertAfter xpath="/entity_classes/entity_class[@name='zombieMarleneRadiated']" >
 <entity_class name="zombieYo" extends="zombieTemplateMale">
 	<property name="Tags" value="entity,zombie,walker"/>
-	<property name="Mesh" value="Zombies/zombieStandardYoRagdoll"/>
+	<property name="Mesh" value="Zombies/zombieStandardYoHDRagdoll"/>
 	<property name="AvatarController" value="AvatarZombie01Controller"/>
 	<property name="ModelType" value="Standard"/>
 	<property name="WalkType" value="5"/>
@@ -998,7 +1022,7 @@
 <insertAfter xpath="/entity_classes/entity_class[@name='zombieYo']" >
 <entity_class name="zombieYoFeral" extends="zombieYo">
 	<property name="Tags" value="entity,zombie,walker,feral"/>
-	<property name="ReplaceMaterial1" value="entities/zombies/materials/feral_eye"/>
+	<property name="Mesh" value="Zombies/zombieStandardYoHDFeralRagdoll"/>
 
 	<!-- Gameplay -->
 	<property name="DismemberMultiplierHead" value=".7"/><property name="DismemberMultiplierArms" value=".7"/><property name="DismemberMultiplierLegs" value=".7"/><!-- Feral -->
@@ -1020,7 +1044,7 @@
 <insertAfter xpath="/entity_classes/entity_class[@name='zombieYoFeral']" >
 <entity_class name="zombieYoRadiated" extends="zombieYoFeral">
 	<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
-	<property name="ReplaceMaterial0" value="entities/zombies/materials/yo_radiated"/>
+	<property name="Mesh" value="Zombies/zombieStandardYoHDRadiatedRagdoll"/>
 	<!--<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>-->
 	<!-- Gameplay -->
 	<property name="DismemberMultiplierHead" value=".4"/><property name="DismemberMultiplierArms" value=".4"/><property name="DismemberMultiplierLegs" value=".4"/><!-- Radiated -->
@@ -1041,7 +1065,7 @@
 <insertAfter xpath="/entity_classes/entity_class[@name='zombieYoRadiated']" >
 <entity_class name="zombieSteve" extends="zombieTemplateMale">
 	<property name="Tags" value="entity,zombie,walker"/>
-	<property name="Mesh" value="Zombies/zombieStandardSteveRagdoll"/>
+	<property name="Mesh" value="Zombies/zombieStandardSteveHDRagdoll"/>
 	<property name="AvatarController" value="AvatarZombie01Controller"/>
 	<property name="ModelType" value="Standard"/>
 	<property name="WalkType" value="6"/>
@@ -1060,7 +1084,7 @@
 <insertAfter xpath="/entity_classes/entity_class[@name='zombieSteve']" >
 <entity_class name="zombieSteveFeral" extends="zombieSteve">
 	<property name="Tags" value="entity,zombie,walker,feral"/>
-	<property name="ReplaceMaterial1" value="entities/zombies/materials/feral_eye"/>
+	<property name="Mesh" value="Zombies/zombieStandardSteveHDFeralRagdoll"/>
 
 	<!-- Gameplay -->
 	<property name="DismemberMultiplierHead" value=".7"/><property name="DismemberMultiplierArms" value=".7"/><property name="DismemberMultiplierLegs" value=".7"/><!-- Feral -->
@@ -1083,7 +1107,7 @@
 <insertAfter xpath="/entity_classes/entity_class[@name='zombieSteveFeral']" >
 <entity_class name="zombieSteveRadiated" extends="zombieSteveFeral">
 	<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
-	<property name="ReplaceMaterial0" value="entities/zombies/materials/steve_radiated"/>
+	<property name="Mesh" value="Zombies/zombieStandardSteveHDRadiatedRagdoll"/>
 	<!--<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>-->
 	<!-- Gameplay -->
 	<property name="DismemberMultiplierHead" value=".4"/><property name="DismemberMultiplierArms" value=".4"/><property name="DismemberMultiplierLegs" value=".4"/><!-- Radiated -->
@@ -1105,10 +1129,10 @@
 <insertAfter xpath="/entity_classes/entity_class[@name='zombieSteveRadiated']" >
 <entity_class name="zombieSteveCrawler" extends="zombieTemplateMale">
 	<property name="Tags" value="entity,zombie"/>
-	<property name="Mesh" value="Zombies/zombieStandardSteveRagdoll"/>
+	<property name="Mesh" value="Zombies/zombieStandardCrawlerHDRagdoll"/>
 	<property name="AvatarController" value="AvatarZombie01Controller"/>
 	<property name="Mass" value="140"/>
-	<property name="Class" value="EntityZombieCrawl"/>
+	<property name="Class" value="EntityZombie"/>
 	<property name="WalkType" value="4"/>
 	<property name="RotateToGround" value="true"/>
 	<property name="RootMotion" value="true"/>
@@ -1127,7 +1151,7 @@
 <insertAfter xpath="/entity_classes/entity_class[@name='zombieSteveCrawler']" >
 <entity_class name="zombieSteveCrawlerFeral" extends="zombieSteveCrawler">
 	<property name="Tags" value="entity,zombie"/>
-	<property name="ReplaceMaterial1" value="entities/zombies/materials/feral_eye"/>
+	<property name="Mesh" value="Zombies/zombieStandardCrawlerHDFeralRagdoll"/>
 
 	<!-- Gameplay -->
 	<property name="DismemberMultiplierHead" value=".7"/><property name="DismemberMultiplierArms" value=".7"/><property name="DismemberMultiplierLegs" value=".7"/><!-- Feral -->

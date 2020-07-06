@@ -1,5 +1,5 @@
 <stallionsden>
-<set xpath="/items/item[@name='foodCharredMeat']/effect_group/triggered_effect[@trigger='onSelfPrimaryActionEnd'][@cvar='.DiseaseRoll'][@operation='set']/@value">75</set>
+<!--<set xpath="/items/item[@name='foodCharredMeat']/effect_group/triggered_effect[@trigger='onSelfPrimaryActionEnd'][@cvar='.DiseaseRoll'][@operation='set']/@value">75</set>
 <set xpath="/items/item[@name='foodGrilledMeat']/effect_group/triggered_effect[@trigger='onSelfPrimaryActionEnd'][@cvar='.DiseaseRoll'][@operation='set']/@value">75</set>
 <set xpath="/items/item[@name='foodBoiledMeat']/effect_group/triggered_effect[@trigger='onSelfPrimaryActionEnd'][@cvar='.DiseaseRoll'][@operation='set']/@value">75</set>
 <set xpath="/items/item[@name='foodMeatStew']/effect_group/triggered_effect[@trigger='onSelfPrimaryActionEnd'][@cvar='.DiseaseRoll'][@operation='set']/@value">75</set>
@@ -12,7 +12,7 @@
 <set xpath="/items/item[@name='foodBlueberryPie']/effect_group/triggered_effect[@trigger='onSelfPrimaryActionEnd'][@cvar='.DiseaseRoll'][@operation='set']/@value">75</set>
 <set xpath="/items/item[@name='foodEggBoiled']/effect_group/triggered_effect[@trigger='onSelfPrimaryActionEnd'][@cvar='.DiseaseRoll'][@operation='set']/@value">75</set>
 <set xpath="/items/item[@name='foodBaconAndEggs']/effect_group/triggered_effect[@trigger='onSelfPrimaryActionEnd'][@cvar='.DiseaseRoll'][@operation='set']/@value">75</set>
-<set xpath="/items/item[@name='foodVegetableStew']/effect_group/triggered_effect[@trigger='onSelfPrimaryActionEnd'][@cvar='.DiseaseRoll'][@operation='set']/@value">75</set>
+<set xpath="/items/item[@name='foodVegetableStew']/effect_group/triggered_effect[@trigger='onSelfPrimaryActionEnd'][@cvar='.DiseaseRoll'][@operation='set']/@value">75</set>-->
 
 <append xpath="/items">
 <!-- Possible Non Poisoning Food -->

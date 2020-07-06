@@ -24,7 +24,7 @@
        <Stallionsbackpack_item_stack name="0"/>
 	</append>
 	<remove xpath="/windows/window[@name='windowFuel']" />
-	<remove xpath="/windows/window[@name='windowInput']" />
+	
 	<remove xpath="/windows/window[@name='windowCraftingQueue']" />
 	 <remove xpath="/windows/window[@name='windowToolsForge']"/>
 <remove xpath="/windows/window[@name='windowForgeInput']"/>

@@ -68,7 +68,7 @@
 								@name='bodyBagBlackFliesFull' or 
 								@name='bodyBagYellowFliesFull']">
 			<property name="Class" value="Loot"/>
-			<property name="LootList" value="233"/>
+			<property name="LootList" value="231"/>
 	</append>
 	<!-- picnic table -->
 	<append xpath="/blocks/block[@name='decoPicnicTableEmpty']">
@@ -150,7 +150,7 @@
 	<append xpath="/blocks/block[@name='goreBlockHumanCorpseFull' or
 								@name='goreBlockHumanBonesFull']">
 			<property name="Class" value="Loot"/>
-			<property name="LootList" value="234"/>
+			<property name="LootList" value="232"/>
 	</append>
 	<append xpath="/blocks/block[@name='schoolDeskFull']">
 			<property name="Class" value="Loot"/>

@@ -1,2 +1,2 @@
-Key,UsedInMainMenu,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish
+Key,Source,Context,Changes,English
 TheWeber9000,blocks,Container,KgNone,The Weber 9000

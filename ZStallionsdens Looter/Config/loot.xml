@@ -1,0 +1,6 @@
+<stallionsden>
+
+	<set xpath="/lootcontainers/lootcontainer/@size">11,17</set>
+	<set xpath="/lootcontainers/lootcontainer[@id='2']/@size">35,12</set>
+
+</stallionsden>

@@ -65,8 +65,18 @@
 	<ingredient name="resourceForgedSteel" count="1"/>
 </recipe>
 
-<recipe name="ammoBundleJunkTurret" count="1" craft_area="workbench">
-	<ingredient name="ammoJunkTurret" count="100"/>
+<recipe name="ammoBundleJunkTurretRegular" count="1" craft_area="workbench">
+	<ingredient name="ammoJunkTurretRegular" count="100"/>
+	<ingredient name="resourceForgedSteel" count="1"/>
+</recipe>
+
+<recipe name="ammoBundleJunkTurretShell" count="1" craft_area="workbench">
+	<ingredient name="ammoJunkTurretShell" count="100"/>
+	<ingredient name="resourceForgedSteel" count="1"/>
+</recipe>
+
+<recipe name="ammoBundleJunkTurretAP" count="1" craft_area="workbench">
+	<ingredient name="ammoJunkTurretAP" count="100"/>
 	<ingredient name="resourceForgedSteel" count="1"/>
 </recipe>
 

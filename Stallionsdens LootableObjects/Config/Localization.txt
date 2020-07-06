@@ -1,4 +1,4 @@
-Key,UsedInMainMenu,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish
+Key,Source,Context,Changes,English
 bodyBagBlackFull,blocks,Container,KgNone,body Bag Black
 bodyBagYellowFull,blocks,Container,KgNone,body Bag Yellow
 bodyBagPileFull,blocks,Container,KgNone,body Bag Pile

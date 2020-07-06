@@ -1,15 +1,18 @@
 <stallionsden>
-<set xpath="/items/item[@name='gunPistol']/effect_group/passive_effect[@name='MagazineSize' and @operation='base_set']/@value">50</set>
-<set xpath="/items/item[@name='gun44Magnum']/effect_group/passive_effect[@name='MagazineSize' and @operation='base_set']/@value">15</set>
-<set xpath="/items/item[@name='gunSMG5']/effect_group/passive_effect[@name='MagazineSize' and @operation='base_set']/@value">500</set>
-<set xpath="/items/item[@name='gunPumpShotgun']/effect_group/passive_effect[@name='MagazineSize' and @operation='base_set']/@value">15</set>
-<set xpath="/items/item[@name='gunMR10']/effect_group/passive_effect[@name='MagazineSize' and @operation='base_set']/@value">128</set>
-<set xpath="/items/item[@name='gunHuntingRifle']/effect_group/passive_effect[@name='MagazineSize' and @operation='base_set']/@value">10</set>
-<set xpath="/items/item[@name='gunAK47']/effect_group/passive_effect[@name='MagazineSize' and @operation='base_set']/@value">500</set>
-<set xpath="/items/item[@name='gunTacticalAR']/effect_group/passive_effect[@name='MagazineSize' and @operation='base_set']/@value">1000</set>
-<set xpath="/items/item[@name='gunM60']/effect_group/passive_effect[@name='MagazineSize' and @operation='base_set']/@value">2000</set>
-<set xpath="/items/item[@name='gunToolNailgun']/effect_group/passive_effect[@name='MagazineSize' and @operation='base_set']/@value">5000</set>
-<append xpath="/items/item[@name='gunHuntingRifle']/property[@name='Tags']/@value">,magazine</append>
+<set xpath="/items/item[@name='gunHandgunT1Pistol']/effect_group/passive_effect[@name='MagazineSize' and @operation='base_set']/@value">50</set>
+<set xpath="/items/item[@name='gunHandgunT2Magnum44']/effect_group/passive_effect[@name='MagazineSize' and @operation='base_set']/@value">15</set>
+<set xpath="/items/item[@name='gunHandgunT3SMG5']/effect_group/passive_effect[@name='MagazineSize' and @operation='base_set']/@value">500</set>
+<set xpath="/items/item[@name='gunHandgunT3DesertVulture']/effect_group/passive_effect[@name='MagazineSize' and @operation='base_set']/@value">15</set>
+<set xpath="/items/item[@name='gunShotgunT2PumpShotgun']/effect_group/passive_effect[@name='MagazineSize' and @operation='base_set']/@value">15</set>
+<set xpath="/items/item[@name='gunShotgunT3AutoShotgun']/effect_group/passive_effect[@name='MagazineSize' and @operation='base_set']/@value">15</set>
+<set xpath="/items/item[@name='gunRifleT2MarksmanRifle']/effect_group/passive_effect[@name='MagazineSize' and @operation='base_set']/@value">128</set>
+<set xpath="/items/item[@name='gunRifleT3SniperRifle']/effect_group/passive_effect[@name='MagazineSize' and @operation='base_set']/@value">128</set>
+<set xpath="/items/item[@name='gunRifleT1HuntingRifle']/effect_group/passive_effect[@name='MagazineSize' and @operation='base_set']/@value">10</set>
+<set xpath="/items/item[@name='gunMGT1AK47']/effect_group/passive_effect[@name='MagazineSize' and @operation='base_set']/@value">500</set>
+<set xpath="/items/item[@name='gunMGT2TacticalAR']/effect_group/passive_effect[@name='MagazineSize' and @operation='base_set']/@value">1000</set>
+<set xpath="/items/item[@name='gunMGT3M60']/effect_group/passive_effect[@name='MagazineSize' and @operation='base_set']/@value">2000</set>
+<set xpath="/items/item[@name='meleeToolRepairT3Nailgun']/effect_group/passive_effect[@name='MagazineSize' and @operation='base_set']/@value">5000</set>
+<append xpath="/items/item[@name='gunRifleT1HuntingRifle']/property[@name='Tags']/@value">,magazine</append>
 <!-- <append xpath="/items/item[@name='unlockBookMaster']">
 		<property name="Stacknumber" value="30000"/>
 	</append> -->

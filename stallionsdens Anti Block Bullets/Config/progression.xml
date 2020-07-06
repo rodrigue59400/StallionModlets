@@ -11,4 +11,6 @@
 <append xpath="/progression/perks/perk[@name='perkRangersFlamingArrows']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='1']/@tags">,ArrowFlaming,CrossbowBoltFlaming</append>
 <append xpath="/progression/perks/perk[@name='perkRangersAPAmmo']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='1']/@tags">,ArrowSteelAP,CrossbowBoltSteelAP</append>
 <append xpath="/progression/perks/perk[@name='perkDemolitionsExpert']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='1,5']/@tags">,PipeBomb,GrenadeContact,Grenade,TimedCharge,Dynamite</append>
+<append xpath="/progression/perks/perk[@name='perkTechJunkie4Shells']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='1']/@tags">,JunkTurretShellammo</append>
+<append xpath="/progression/perks/perk[@name='perkTechJunkie3APAmmo']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='1']/@tags">,JunkTurretAPammo</append>
 </Stallionsden>

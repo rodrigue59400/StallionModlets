@@ -274,7 +274,7 @@
 <insertAfter xpath="/items/item[@name='BlunderbussBalls']">
 <!-- JUNK TURRET AMMO -->
 <item name="JunkTurretAmmo">
-	<property name="CustomIcon" value="ammoJunkTurret"/>
+	<property name="CustomIcon" value="ammoJunkTurretRegular"/>
 	<property name="CustomIconTint" value="b0ffb0"/>
 	<property name="Tags" value="ammo"/>
 	<property name="DisplayType" value="ammoBulletFake"/>
@@ -288,6 +288,68 @@
 	<effect_group name="JunkTurret" tiered="false">
 		<display_value name="dEntityDamage" value="11.8"/>
 </effect_group>
+</item>
+<item name="JunkTurretShellammo">
+	<property name="UnlockedBy" value="perkTechJunkie4Shells"/>
+	<property name="DisplayType" value="ammoShotgun"/>
+	<property name="Tags" value="ammo"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Stacknumber" value="1000"/>
+	<property name="EconomicValue" value="9"/>
+	<property name="Group" value="Ammo/Weapons"/>
+	<effect_group name="ammoJunkTurretShell" tiered="false">
+		<passive_effect name="MaxRange" operation="base_set" value="10" tags="perkTurrets"/>
+		<passive_effect name="DamageFalloffRange" operation="base_set" value="6" tags="perkTurrets"/>
+		<passive_effect name="BlockRange" operation="base_set" value="3" tags="perkTurrets"/>
+
+		<passive_effect name="EntityDamage" operation="base_set" value="2.33" tags="perkTurrets"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="0" tags="perkTurrets"/>
+		<passive_effect name="RoundRayCount" operation="base_set" value="8" tags="perkTurrets"/>
+		<passive_effect name="RoundsPerMinute" operation="base_set" value="75" tags="turretRanged"/>
+		<passive_effect name="DismemberChance" operation="perc_add" value="-.875" tags="perkTurrets"/>
+
+		<passive_effect name="TargetArmor" operation="perc_add" value=".4" tags="perkTurrets"/><display_value name="dTargetArmor" value=".4"/>
+		<passive_effect name="EntityPenetrationCount" operation="base_set" value="1" tags="perkTurrets"/>
+		<passive_effect name="BlockPenetrationFactor" operation="base_set" value="1" tags="perkTurrets"/>
+
+		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="7" tags="perkTurrets"/>
+		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="7" tags="perkTurrets"/>
+	</effect_group>
+</item>
+
+<item name="JunkTurretAPammo">
+	<property name="UnlockedBy" value="perkTechJunkie3APAmmo"/>
+	<property name="DescriptionKey" value="ammoAPGroupDesc"/>
+	<property name="DisplayType" value="ammoJunkTurretAP"/>
+	<property name="Tags" value="ammo"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Stacknumber" value="1000"/>
+	<property name="EconomicValue" value="9"/>
+	<property name="Group" value="Ammo/Weapons"/>
+	<effect_group name="ammoJunkTurretAP" tiered="false">
+		<passive_effect name="MaxRange" operation="base_set" value="17" tags="perkTurrets"/>
+		<passive_effect name="DamageFalloffRange" operation="base_set" value="11" tags="perkTurrets"/>
+		<passive_effect name="BlockRange" operation="base_set" value="3" tags="perkTurrets"/>
+
+		<passive_effect name="EntityDamage" operation="base_set" value="11.8" tags="perkTurrets"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="0" tags="perkTurrets"/>
+		<passive_effect name="RoundsPerMinute" operation="base_set" value="105.6" tags="turretRanged"/>
+
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.2" tags="perkTurrets"/><display_value name="dTargetArmor" value="-.2"/>
+		<passive_effect name="EntityPenetrationCount" operation="base_set" value="1" tags="perkTurrets"/><display_value name="dTargetPenetration" value="1"/>
+		<passive_effect name="BlockPenetrationFactor" operation="base_set" value="1" tags="perkTurrets"/>
+
+		<passive_effect name="DegradationPerUse" operation="perc_add" value=".3" tags="perkTurrets"/><display_value name="dDegradationPerUse" value=".3"/>
+
+		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="4" tags="perkTurrets"/>
+		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="4" tags="perkTurrets"/>
+	</effect_group>
 </item>
 <!-- JUNK TURRET AMMO -->
 </insertAfter>
@@ -306,7 +368,7 @@
 	<property name="Stacknumber" value="20"/>
 	<property name="EconomicValue" value="250"/>
 	<property name="Group" value="Ammo/Weapons"/>
-	<property name="UnlockedBy" value="gunRocketLauncherSchematic"/>
+	<property name="UnlockedBy" value="gunExplosivesT3RocketLauncherSchematic"/>
 	<property class="Action1">
 		<property name="Class" value="Projectile"/>
 		<property name="Explosion.ParticleIndex" value="4"/> <!-- which Prefab/particle is used -->
@@ -326,10 +388,10 @@
 </insertAfter>
 <insertAfter xpath="/items/item[@name='RocketHE']">
 <item name="RocketFrag">
-	<property name="CustomIcon" value="ammoRocketFrag"/>
+	<property name="CustomIcon" value="ammoRocketHE"/>
 	<property name="CustomIconTint" value="b0ffb0"/>
 	<property name="Extends" value="RocketHE"/>
-	<property name="UnlockedBy" value="gunRocketLauncherSchematic"/>
+	<property name="UnlockedBy" value="gunExplosivesT3RocketLauncherSchematic"/>
 	<property class="Action1">
 		<property name="Explosion.RadiusEntities" value="6"/> <!-- damage radius for entities -->
 		</property>
@@ -1215,24 +1277,27 @@
 <append xpath="/items/item[@name='ammoBundleCrossbowBoltExploding']/property[@class='Action0']/property[@name='Create_item']/@value">,CrossbowBoltExploding</append>
 <!-- CROSSBOW AMMO -->
 
-<append xpath="/items/item[@name='gunPistol']/property[@class='Action0']/property[@name='Magazine_items']/@value">,9mmBulletBall,9mmBulletHP,9mmBulletAP</append>
-<append xpath="/items/item[@name='gun44Magnum']/property[@class='Action0']/property[@name='Magazine_items']/@value">,44MagnumBulletBall,44MagnumBulletHP,44MagnumBulletAP</append>
-<append xpath="/items/item[@name='gunSMG5']/property[@class='Action0']/property[@name='Magazine_items']/@value">,9mmBulletBall,9mmBulletHP,9mmBulletAP</append>
-<append xpath="/items/item[@name='gunBlunderbuss']/property[@class='Action0']/property[@name='Magazine_items']/@value">,BlunderbussBalls</append>
-<append xpath="/items/item[@name='gunDoubleBarrelShotgun']/property[@class='Action0']/property[@name='Magazine_items']/@value">,ShotgunShell,ShotgunSlug,ShotgunBreachingSlug</append>
-<append xpath="/items/item[@name='gunPumpShotgun']/property[@class='Action0']/property[@name='Magazine_items']/@value">,ShotgunShell,ShotgunSlug,ShotgunBreachingSlug</append>
-<append xpath="/items/item[@name='gunHuntingRifle']/property[@class='Action0']/property[@name='Magazine_items']/@value">,762mmBulletBall,762mmBulletHP,762mmBulletAP</append>
-<append xpath="/items/item[@name='gunMR10']/property[@class='Action0']/property[@name='Magazine_items']/@value">,762mmBulletBall,762mmBulletHP,762mmBulletAP</append>
-<append xpath="/items/item[@name='gunAK47']/property[@class='Action0']/property[@name='Magazine_items']/@value">,762mmBulletBall,762mmBulletHP,762mmBulletAP</append>
-<append xpath="/items/item[@name='gunTacticalAR']/property[@class='Action0']/property[@name='Magazine_items']/@value">,762mmBulletBall,762mmBulletHP,762mmBulletAP</append>
-<append xpath="/items/item[@name='gunM60']/property[@class='Action0']/property[@name='Magazine_items']/@value">,762mmBulletBall,762mmBulletHP,762mmBulletAP</append>
-<append xpath="/items/item[@name='gunRocketLauncher']/property[@class='Action0']/property[@name='Magazine_items']/@value">,RocketHE,RocketFrag</append>
-<append xpath="/items/item[@name='gunBowPrimitive']/property[@class='Action0']/property[@name='Magazine_items']/@value">,ArrowStone,ArrowIron,ArrowSteelAP,ArrowFlaming,ArrowExploding</append>
-<append xpath="/items/item[@name='gunBowWooden']/property[@class='Action0']/property[@name='Magazine_items']/@value">,ArrowStone,ArrowIron,ArrowSteelAP,ArrowFlaming,ArrowExploding</append>
-<append xpath="/items/item[@name='gunBowCompound']/property[@class='Action0']/property[@name='Magazine_items']/@value">,ArrowStone,ArrowIron,ArrowSteelAP,ArrowFlaming,ArrowExploding</append>
-<append xpath="/items/item[@name='gunCrossbowIron']/property[@class='Action0']/property[@name='Magazine_items']/@value">,CrossbowBoltStone,CrossbowBoltIron,CrossbowBoltSteelAP,CrossbowBoltFlaming,CrossbowBoltExploding</append>
-<append xpath="/items/item[@name='gunCrossbowCompound']/property[@class='Action0']/property[@name='Magazine_items']/@value">,CrossbowBoltStone,CrossbowBoltIron,CrossbowBoltSteelAP,CrossbowBoltFlaming,CrossbowBoltExploding</append>
-<append xpath="/items/item[@name='gunJunkTurret']/property[@class='Action0']/property[@name='Magazine_items']/@value">,JunkTurretAmmo</append>
+<append xpath="/items/item[@name='gunHandgunT1Pistol']/property[@class='Action0']/property[@name='Magazine_items']/@value">,9mmBulletBall,9mmBulletHP,9mmBulletAP</append>
+<append xpath="/items/item[@name='gunHandgunT3SMG5']/property[@class='Action0']/property[@name='Magazine_items']/@value">,9mmBulletBall,9mmBulletHP,9mmBulletAP</append>
+<append xpath="/items/item[@name='gunHandgunT2Magnum44']/property[@class='Action0']/property[@name='Magazine_items']/@value">,44MagnumBulletBall,44MagnumBulletHP,44MagnumBulletAP</append>
+<append xpath="/items/item[@name='gunHandgunT3DesertVulture']/property[@class='Action0']/property[@name='Magazine_items']/@value">,9mmBulletBall,9mmBulletHP,9mmBulletAP</append>
+<append xpath="/items/item[@name='gunShotgunT0Blunderbuss']/property[@class='Action0']/property[@name='Magazine_items']/@value">,BlunderbussBalls</append>
+<append xpath="/items/item[@name='gunShotgunT1DoubleBarrel']/property[@class='Action0']/property[@name='Magazine_items']/@value">,ShotgunShell,ShotgunSlug,ShotgunBreachingSlug</append>
+<append xpath="/items/item[@name='gunShotgunT2PumpShotgun']/property[@class='Action0']/property[@name='Magazine_items']/@value">,ShotgunShell,ShotgunSlug,ShotgunBreachingSlug</append>
+<append xpath="/items/item[@name='gunShotgunT3AutoShotgun']/property[@class='Action0']/property[@name='Magazine_items']/@value">,ShotgunShell,ShotgunSlug,ShotgunBreachingSlug</append>
+<append xpath="/items/item[@name='gunRifleT1HuntingRifle']/property[@class='Action0']/property[@name='Magazine_items']/@value">,762mmBulletBall,762mmBulletHP,762mmBulletAP</append>
+<append xpath="/items/item[@name='gunRifleT2MarksmanRifle']/property[@class='Action0']/property[@name='Magazine_items']/@value">,762mmBulletBall,762mmBulletHP,762mmBulletAP</append>
+<append xpath="/items/item[@name='gunRifleT3SniperRifle']/property[@class='Action0']/property[@name='Magazine_items']/@value">,762mmBulletBall,762mmBulletHP,762mmBulletAP</append>
+<append xpath="/items/item[@name='gunMGT1AK47']/property[@class='Action0']/property[@name='Magazine_items']/@value">,762mmBulletBall,762mmBulletHP,762mmBulletAP</append>
+<append xpath="/items/item[@name='gunMGT2TacticalAR']/property[@class='Action0']/property[@name='Magazine_items']/@value">,762mmBulletBall,762mmBulletHP,762mmBulletAP</append>
+<append xpath="/items/item[@name='gunMGT3M60']/property[@class='Action0']/property[@name='Magazine_items']/@value">,762mmBulletBall,762mmBulletHP,762mmBulletAP</append>
+<append xpath="/items/item[@name='gunExplosivesT3RocketLauncher']/property[@class='Action0']/property[@name='Magazine_items']/@value">,RocketHE,RocketFrag</append>
+<append xpath="/items/item[@name='gunBowT0PrimitiveBow']/property[@class='Action0']/property[@name='Magazine_items']/@value">,ArrowStone,ArrowIron,ArrowSteelAP,ArrowFlaming,ArrowExploding</append>
+<append xpath="/items/item[@name='gunBowT1WoodenBow']/property[@class='Action0']/property[@name='Magazine_items']/@value">,ArrowStone,ArrowIron,ArrowSteelAP,ArrowFlaming,ArrowExploding</append>
+<append xpath="/items/item[@name='gunBowT3CompoundBow']/property[@class='Action0']/property[@name='Magazine_items']/@value">,ArrowStone,ArrowIron,ArrowSteelAP,ArrowFlaming,ArrowExploding</append>
+<append xpath="/items/item[@name='gunBowT1IronCrossbow']/property[@class='Action0']/property[@name='Magazine_items']/@value">,CrossbowBoltStone,CrossbowBoltIron,CrossbowBoltSteelAP,CrossbowBoltFlaming,CrossbowBoltExploding</append>
+<append xpath="/items/item[@name='gunBowT3CompoundCrossbow']/property[@class='Action0']/property[@name='Magazine_items']/@value">,CrossbowBoltStone,CrossbowBoltIron,CrossbowBoltSteelAP,CrossbowBoltFlaming,CrossbowBoltExploding</append>
+<append xpath="/items/item[@name='gunBotT2JunkTurret']/property[@class='Action0']/property[@name='Magazine_items']/@value">,JunkTurretAmmo,JunkTurretShellammo,JunkTurretAPammo</append>
 <!-- *************************************************************************************************************************************************************************************************** -->
 <!-- PERK ADDITIONS -->
 <append xpath="/items/item[@name='bookPistolPeteHPAmmo']/property[@name='Unlocks']/@value">,9mmBulletHP</append>
@@ -1243,7 +1308,7 @@
 <append xpath="/items/item[@name='bookSniperAPAmmo']/property[@name='Unlocks']/@value">,762mmBulletAP</append>
 <append xpath="/items/item[@name='bookShotgunMessiahSlugs']/property[@name='Unlocks']/@value">,ShotgunSlug</append>
 <append xpath="/items/item[@name='bookShotgunMessiahBreachingSlugs']/property[@name='Unlocks']/@value">,ShotgunBreachingSlug</append>
-<append xpath="/items/item[@name='gunRocketLauncherSchematic']/property[@name='Unlocks']/@value">,RocketHE,RocketFrag</append>
+<append xpath="/items/item[@name='gunExplosivesT3RocketLauncherSchematic']/property[@name='Unlocks']/@value">,RocketHE,RocketFrag</append>
 <append xpath="/items/item[@name='bookRangersExplodingBolts']/property[@name='Unlocks']/@value">,ArrowExploding,CrossbowBoltExploding</append>
 <append xpath="/items/item[@name='bookRangersFlamingArrows']/property[@name='Unlocks']/@value">,ArrowFlaming,CrossbowBoltFlaming</append>
 <append xpath="/items/item[@name='bookRangersAPAmmo']/property[@name='Unlocks']/@value">,ArrowSteelAP,CrossbowBoltSteelAP</append>

@@ -12,7 +12,6 @@
 <item name="ammoBundleRocketFrag">
 	<property name="Extends" value="ammoBundle9mmBulletBall"/>
 	<property name="CustomIcon" value="ammoRocketHE"/>
-	<property name="CustomIconTint" value="167,62,62"/>
 	<property name="EconomicValue" value="1140"/>
 	<property class="Action0">
 		<property name="Create_item" value="ammoRocketFrag"/>
@@ -25,15 +24,6 @@
 	<property name="EconomicValue" value="4400"/>
 	<property class="Action0">
 		<property name="Create_item" value="ammoRocketHE"/>
-		<property name="Create_item_count" value="100"/>
-	</property>
-</item>
-<item name="ammoBundleJunkTurret">
-	<property name="Extends" value="ammoBundle9mmBulletBall"/>
-	<property name="CustomIcon" value="ammoJunkTurret"/>
-	<property name="EconomicValue" value="4400"/>
-	<property class="Action0">
-		<property name="Create_item" value="ammoJunkTurret"/>
 		<property name="Create_item_count" value="100"/>
 	</property>
 </item>

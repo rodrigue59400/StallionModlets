@@ -1,0 +1,11 @@
+<stallionsden>
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='ammo']" >
+		<item name="Generic Ammo Supply" count="2,6"/>
+		<item name="Ammo Supply 9mm" count="1,2" />
+		<item name="Ammo Supply 44Mag" count="1,2" />
+		<item name="Ammo Supply 762mm" count="1,2" />
+		<item name="Ammo Supply Shotgun" count="1,2" />
+		<item name="Ammo Supply ShotgunSlug" count="1,2" />
+		<item name="Explosives Supply Ammo" count="1,2" />
+	</append>	
+</stallionsden>

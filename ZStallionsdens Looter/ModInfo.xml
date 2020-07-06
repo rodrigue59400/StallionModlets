@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xml>
+	<ModInfo>
+		<Name value="ZStallionsdens Looter" />
+		<Description value="increases the size of lootcontainers" />
+		<Author value="Stallionsden" />
+		<Version value="A17B208" />
+		<Website value=""/>
+	</ModInfo>
+</xml>

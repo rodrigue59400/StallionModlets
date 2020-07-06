@@ -11,15 +11,16 @@
 		<block name="wineBarrelPlainFull"><property name="Extends" value="wineBarrelPlainEmpty"/></block>
 </append>
 
+	<append xpath="/blocks/block[@name='wineBarrelSet']">
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="MultiBlockDim" value="2,2,1"/>
+	</append>
+
 <append xpath="/blocks/block[@name='wineBarrelFull']">
 			<property name="Class" value="Loot"/>
 			<property name="LootList" value="218"/>
 	</append>
 
-<append xpath="/blocks/block[@name='wineBarrelSetEmpty']">
-			<property name="DisplayType" value="blockMulti"/>
-			<property name="MultiBlockDim" value="1,1,2"/>
-	</append>	
 <append xpath="/blocks/block[@name='wineBarrelSetFull']">
 			<property name="Class" value="Loot"/>
 			<property name="LootList" value="219"/>
@@ -29,6 +30,7 @@
 			<property name="Class" value="Loot"/>
 			<property name="LootList" value="220"/>
 	</append>
+
 <!-- WINE BARREL -->
 
 </stallionsden>

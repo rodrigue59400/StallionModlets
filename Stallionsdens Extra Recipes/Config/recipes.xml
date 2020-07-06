@@ -34,7 +34,7 @@
 
 <recipe name="decoPoolTable" count="1" craft_time="25" craft_area="workbench" >
 	<ingredient name="resourceWood" count="60"/>
-	<ingredient name="gunBowWoodenParts" count="5"/>
+	<ingredient name="gunBowT1WoodenBowParts" count="5"/>
 	<ingredient name="resourceDuctTape" count="10"/>
 	<ingredient name="resourceLeather" count="15"/>
 	<ingredient name="resourceMechanicalParts" count="4"/>
@@ -698,79 +698,79 @@
 <recipe name="metalRivetSheet" count="1" craft_time="0.5" craft_area="workbench" >
 	<ingredient name="resourceForgedIron" count="8"/>
 	<ingredient name="resourceNail" count="8"/>
-	<ingredient name="meleeToolClawHammer" count="1"/>
+	<ingredient name="meleeToolRepairT1ClawHammer" count="1"/>
 	</recipe>
 	
 <recipe name="corrugatedMetalSheet" count="1" craft_time="0.5" craft_area="workbench" >
 	<ingredient name="unit_iron" count="5"/>
 	<ingredient name="resourceNail" count="4"/>
-	<ingredient name="meleeToolClawHammer" count="1"/>
+	<ingredient name="meleeToolRepairT1ClawHammer" count="1"/>
 	</recipe>
 	
 <recipe name="corrugatedMetalSheetBent1" count="1" craft_time="0.5" craft_area="workbench" >
 	<ingredient name="unit_iron" count="6"/>
 	<ingredient name="resourceNail" count="6"/>
-	<ingredient name="meleeToolClawHammer" count="1"/>
+	<ingredient name="meleeToolRepairT1ClawHammer" count="1"/>
 	</recipe>
 	
 <recipe name="corrugatedMetalSheetBent2" count="1" craft_time="0.5" craft_area="workbench" >
 	<ingredient name="unit_iron" count="5"/>
 	<ingredient name="resourceNail" count="4"/>
-	<ingredient name="meleeToolClawHammer" count="1"/>
+	<ingredient name="meleeToolRepairT1ClawHammer" count="1"/>
 	</recipe>
 	
 <recipe name="corrugatedMetalSheetBent3" count="1" craft_time="0.5" craft_area="workbench" >
 	<ingredient name="unit_iron" count="4"/>
 	<ingredient name="resourceNail" count="3"/>
-	<ingredient name="meleeToolClawHammer" count="1"/>
+	<ingredient name="meleeToolRepairT1ClawHammer" count="1"/>
 	</recipe>
 	
 <recipe name="corrugatedMetalSheetBent4" count="1" craft_time="0.5" craft_area="workbench" >
 	<ingredient name="unit_iron" count="3"/>
 	<ingredient name="resourceNail" count="2"/>
-	<ingredient name="meleeToolClawHammer" count="1"/>
+	<ingredient name="meleeToolRepairT1ClawHammer" count="1"/>
 	</recipe>
 	
 <recipe name="corrugatedMetalRampSheet" count="1" craft_time="0.5" craft_area="workbench" >
 	<ingredient name="unit_iron" count="2"/>
 	<ingredient name="resourceNail" count="2"/>
 	<ingredient name="resourceScrapIron" count="1"/>
-	<ingredient name="meleeToolClawHammer" count="1"/>
+	<ingredient name="meleeToolRepairT1ClawHammer" count="1"/>
 	</recipe>
 	
 <recipe name="rWoodSheet" count="1" craft_time="0.5" craft_area="workbench" >
 	<ingredient name="resourceWood" count="10"/>
 	<ingredient name="resourceNail" count="6"/>
 	<ingredient name="resourceScrapIron" count="8"/>
-	<ingredient name="meleeToolClawHammer" count="1"/>
+	<ingredient name="meleeToolRepairT1ClawHammer" count="1"/>
 	</recipe>
 	
 <recipe name="woodFenceSheetBent1" count="1" craft_time="0.5" craft_area="workbench" >
 	<ingredient name="resourceWood" count="8"/>
 	<ingredient name="resourceNail" count="4"/>
 	<ingredient name="resourceScrapIron" count="8"/>
-	<ingredient name="meleeToolClawHammer" count="1"/>
+	<ingredient name="meleeToolRepairT1ClawHammer" count="1"/>
 	</recipe>
 	
 <recipe name="woodFenceSheetBent2" count="1" craft_time="0.5" craft_area="workbench" >
 	<ingredient name="resourceWood" count="6"/>
 	<ingredient name="resourceNail" count="4"/>
 	<ingredient name="resourceScrapIron" count="8"/>
-	<ingredient name="meleeToolClawHammer" count="1"/>
+	<ingredient name="meleeToolRepairT1ClawHammer" count="1"/>
 	</recipe>
 	
 <recipe name="woodFenceSheetBent3" count="1" craft_time="0.5" craft_area="workbench" >
 	<ingredient name="resourceWood" count="8"/>
 	<ingredient name="resourceNail" count="4"/>
 	<ingredient name="resourceScrapIron" count="6"/>
-	<ingredient name="meleeToolClawHammer" count="1"/>
+	<ingredient name="meleeToolRepairT1ClawHammer" count="1"/>
 	</recipe>
 	
 <recipe name="woodFenceSheetBent4" count="1" craft_time="0.5" craft_area="workbench" >
 	<ingredient name="resourceWood" count="6"/>
 	<ingredient name="resourceNail" count="4"/>
 	<ingredient name="resourceScrapIron" count="4"/>
-	<ingredient name="meleeToolClawHammer" count="1"/>
+	<ingredient name="meleeToolRepairT1ClawHammer" count="1"/>
 	</recipe>
 	
 <recipe name="ductSoft" count="1" craft_time="0.5" craft_area="workbench" >

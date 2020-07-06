@@ -99,7 +99,7 @@
 	<item name="ammoShotgunSlug" count="6,25" prob="0.05"/>				
 	<item name="ammoShotgunBreachingSlug" count="4,19" prob="0.05"/>				
 	<item name="ammoBlunderbuss" count="4,16" prob="0.05"/>					
-	<item name="ammoJunkTurret" count="4,16" prob="0.05"/>			
+	<item name="ammoJunkTurretRegular" count="4,16" prob="0.05"/>			
 	<item name="ammoRocketHE" count="5,20" prob="0.05"/>		
 	<item name="ammoRocketFrag" count="3,8" prob="0.05"/>					
 	<item name="ammoGasCan" count="3,8" prob="0.05"/>			
@@ -153,150 +153,166 @@
 	</lootgroup>
 	
 	<lootgroup name="PalletParts" count="1,3">
-	<item name="gunAk47Parts"  count="1" prob="0.05" />
-	<item name="gunPistolParts"  count="1" prob="0.05" />
-	<item name="gunHuntingRifleParts"  count="1" prob="0.05" />
-	<item name="gunDoubleBarrelShotgunParts"  count="1" prob="0.05" />
-	<item name="gunBowWoodenParts"  count="1" prob="0.05" />
-	<item name="gunRocketLauncherParts"  count="1" prob="0.05" />
-	<item name="gunJunkTurretParts"  count="1" prob="0.05" />
-	<item name="meleeStunBatonParts"  count="1" prob="0.05" />
-	<item name="meleeKnucklesSteelParts"  count="1" prob="0.05" />
-	<item name="meleeToolKnifeMacheteParts"  count="1" prob="0.05" />
-	<item name="meleeThrownSpearSteelParts"  count="1" prob="0.05" />
-	<item name="meleeClubBaseballBatParts"  count="1" prob="0.05" />
-	<item name="meleeToolSledgehammerSteelParts"  count="1" prob="0.05" />
+	<item name="gunMGT1AK47Parts"  count="1" prob="0.05" />
+	<item name="gunHandgunT1PistolParts"  count="1" prob="0.05" />
+	<item name="gunRifleT1HuntingRifleParts"  count="1" prob="0.05" />
+	<item name="gunShotgunT1DoubleBarrelParts"  count="1" prob="0.05" />
+	<item name="gunBowT1WoodenBowParts"  count="1" prob="0.05" />
+	<item name="gunExplosivesT3RocketLauncherParts"  count="1" prob="0.05" />
+	<item name="gunBotRoboticsParts"  count="1" prob="0.05" />	
+	<item name="meleeWpnBatonT2StunBatonParts"  count="1" prob="0.05" />
+	<item name="meleeWpnKnucklesT3SteelKnucklesParts"  count="1" prob="0.05" />
+	<item name="meleeWpnBladeT3MacheteParts"  count="1" prob="0.05" />
+	<item name="meleeWpnSpearT3SteelSpearParts"  count="1" prob="0.05" />
+	<item name="meleeWpnClubT3SteelClubParts"  count="1" prob="0.05" />
+	<item name="meleeWpnSledgeT3SteelSledgehammerParts"  count="1" prob="0.05" />
+	<item name="meleeToolSalvageParts"  count="1" prob="0.05" />
 	<item name="meleeToolAllSteelParts"  count="1" prob="0.05" />
 	<item name="armorMilitarySetParts"  count="1" prob="0.05" />
 	<item name="armorSteelSetParts"  count="1" prob="0.05" />
-	<item name="meleeToolChainsawParts"  count="1" prob="0.05" />
+	<item name="meleeToolAxeT3ChainsawParts"  count="1" prob="0.05" />
 	</lootgroup>
 	
 	<lootgroup name="PalletWeapons" count="1,3">
-	<item name="gunPistol"  count="1" prob="0.05" />
-	<item name="gun44Magnum"  count="1" prob="0.05" />
-	<item name="gunSMG5"  count="1" prob="0.05" />
-	<item name="gunBlunderbuss"  count="1" prob="0.05" />
-	<item name="gunDoubleBarrelShotgun"  count="1" prob="0.05" />
-	<item name="gunPumpShotgun"  count="1" prob="0.05" />
-	<item name="gunHuntingRifle"  count="1" prob="0.05" />
-	<item name="gunMR10"  count="1" prob="0.05" />
-	<item name="gunAK47"  count="1" prob="0.05" />
-	<item name="gunTacticalAR"  count="1" prob="0.05" />
-	<item name="gunM60"  count="1" prob="0.05" />
-	<item name="gunRocketLauncher"  count="1" prob="0.05" />
-	<item name="gunBowPrimitive"  count="1" prob="0.05" />
-	<item name="gunBowWooden"  count="1" prob="0.05" />
-	<item name="gunBowCompound"  count="1" prob="0.05" />
-	<item name="gunCrossbowIron"  count="1" prob="0.05" />
-	<item name="gunCrossbowCompound"  count="1" prob="0.05" />
-	<item name="gunJunkTurret"  count="1" prob="0.05" />
+	<item name="gunHandgunT1Pistol"  count="1" prob="0.05" />
+	<item name="gunHandgunT3SMG5"  count="1" prob="0.05" />	
+	<item name="gunHandgunT2Magnum44"  count="1" prob="0.05" />
+	<item name="gunHandgunT3DesertVulture"  count="1" prob="0.05" />
+	<item name="gunShotgunT0Blunderbuss"  count="1" prob="0.05" />
+	<item name="gunShotgunT1DoubleBarrel"  count="1" prob="0.05" />
+	<item name="gunShotgunT2PumpShotgun"  count="1" prob="0.05" />
+	<item name="gunShotgunT3AutoShotgun"  count="1" prob="0.05" />
+	<item name="gunRifleT1HuntingRifle"  count="1" prob="0.05" />
+	<item name="gunRifleT2MarksmanRifle"  count="1" prob="0.05" />
+	<item name="gunRifleT3SniperRifle"  count="1" prob="0.05" />
+	<item name="gunMGT1AK47"  count="1" prob="0.05" />
+	<item name="gunMGT2TacticalAR"  count="1" prob="0.05" />
+	<item name="gunMGT3M60"  count="1" prob="0.05" />
+	<item name="gunExplosivesT3RocketLauncher"  count="1" prob="0.05" />
+	<item name="gunBowT0PrimitiveBow"  count="1" prob="0.05" />
+	<item name="gunBowT1WoodenBow"  count="1" prob="0.05" />
+	<item name="gunBowT3CompoundBow"  count="1" prob="0.05" />
+	<item name="gunBowT1IronCrossbow"  count="1" prob="0.05" />
+	<item name="gunBotT1JunkSledge"  count="1" prob="0.05" />
+	<item name="gunBotT2JunkTurret"  count="1" prob="0.05" />
+	<item name="gunBotT3JunkDrone"  count="1" prob="0.05" />
 	</lootgroup>
 	
 	<lootgroup name="PalletMelee" count="1,3">
-	<item name="meleeStunBaton"  count="1" prob="0.05" />
-	<item name="meleeToolKnifeBone"  count="1" prob="0.05" />
-	<item name="meleeToolKnifeIron"  count="1" prob="0.05" />
-	<item name="meleeToolKnifeMachete"  count="1" prob="0.05" />
-	<item name="meleeKnucklesLeather"  count="1" prob="0.05" />
-	<item name="meleeKnucklesIron"  count="1" prob="0.05" />
-	<item name="meleeKnucklesSteel"  count="1" prob="0.05" />
-	<item name="meleeToolSledgehammerStone"  count="1" prob="0.05" />
-	<item name="meleeToolSledgehammerIron"  count="1" prob="0.05" />
-	<item name="meleeToolSledgehammerSteel"  count="1" prob="0.05" />
-	<item name="meleeClubWood"  count="1" prob="0.05" />
-	<item name="meleeClubIron"  count="1" prob="0.05" />
-	<item name="meleeClubBaseballBat"  count="1" prob="0.05" />
-	<item name="meleeThrownSpearStone"  count="1" prob="0.05" />
-	<item name="meleeThrownSpearIron"  count="1" prob="0.05" />
-	<item name="meleeThrownSpearSteel"  count="1" prob="0.05" />
+	<item name="meleeWpnBatonT1JunkBaton"  count="1" prob="0.05" />
+	<item name="meleeWpnBatonT2StunBaton"  count="1" prob="0.05" />
+	<item name="meleeWpnBatonT3PlasmaBaton"  count="1" prob="0.05" />
+	<item name="meleeWpnBladeT0BoneKnife"  count="1" prob="0.05" />
+	<item name="meleeWpnBladeT1HuntingKnife"  count="1" prob="0.05" />
+	<item name="meleeWpnBladeT3Machete"  count="1" prob="0.05" />
+	<item name="meleeWpnKnucklesT0LeatherKnuckles"  count="1" prob="0.05" />
+	<item name="meleeWpnKnucklesT1IronKnuckles"  count="1" prob="0.05" />
+	<item name="meleeWpnKnucklesT3SteelKnuckles"  count="1" prob="0.05" />
+	<item name="meleeWpnClubT0WoodenClub"  count="1" prob="0.05" />
+	<item name="meleeWpnClubT1BaseballBat"  count="1" prob="0.05" />
+	<item name="meleeWpnClubT3SteelClub"  count="1" prob="0.05" />
+	<item name="meleeWpnSpearT0StoneSpear"  count="1" prob="0.05" />
+	<item name="meleeWpnSpearT1IronSpear"  count="1" prob="0.05" />
+	<item name="meleeWpnSpearT3SteelSpear"  count="1" prob="0.05" />
 	</lootgroup>
 	
 	<lootgroup name="PalletTools" count="1,3">
-	<item name="meleeToolStoneAxe"  count="1" prob="0.05" />
-	<item name="meleeToolStoneAxeTazas"  count="1" prob="0.05" />
-	<item name="meleeToolClawHammer"  count="1" prob="0.05" />
-	<item name="gunToolNailgun"  count="1" prob="0.05" />
-	<item name="meleeToolFireaxeIron"  count="1" prob="0.05" />
-	<item name="meleeToolFireaxeSteel"  count="1" prob="0.05" />
-	<item name="meleeToolPickaxeIron"  count="1" prob="0.05" />
-	<item name="meleeToolPickaxeSteel"  count="1" prob="0.05" />
-	<item name="meleeToolShovelStone"  count="1" prob="0.05" />
-	<item name="meleeToolShovelIron"  count="1" prob="0.05" />
-	<item name="meleeToolShovelSteel"  count="1" prob="0.05" />
-	<item name="meleeToolChainsaw"  count="1" prob="0.05" />
-	<item name="meleeToolAuger"  count="1" prob="0.05" />
-	<item name="meleeToolWrench"  count="1" prob="0.05" />
-	<item name="meleeToolHoeIron"  count="1" prob="0.05" />
+	<item name="meleeToolRepairT0TazasStoneAxe"  count="1" prob="0.05" />
+	<item name="meleeToolRepairT1ClawHammer"  count="1" prob="0.05" />
+	<item name="meleeToolRepairT3Nailgun"  count="1" prob="0.05" />
+	<item name="meleeToolAxeT1IronFireaxe"  count="1" prob="0.05" />
+	<item name="meleeToolAxeT2SteelAxe"  count="1" prob="0.05" />
+	<item name="meleeToolPickT1IronPickaxe"  count="1" prob="0.05" />
+	<item name="meleeToolPickT2SteelPickaxe"  count="1" prob="0.05" />
+	<item name="meleeToolShovelT1IronShovel"  count="1" prob="0.05" />
+	<item name="meleeToolShovelT2SteelShovel"  count="1" prob="0.05" />
+	<item name="meleeToolAxeT3Chainsaw"  count="1" prob="0.05" />
+	<item name="meleeToolPickT3Auger"  count="1" prob="0.05" />
+	<item name="meleeToolSalvageT1Wrench"  count="1" prob="0.05" />
+	<item name="meleeToolSalvageT2Ratchet"  count="1" prob="0.05" />
+	<item name="meleeToolSalvageT3ImpactDriver"  count="1" prob="0.05" />
+	<item name="meleeToolPickT2SteelPickaxe"  count="1" prob="0.05" />
+	<item name="meleeToolShovelT1IronShovel"  count="1" prob="0.05" />
+	<item name="meleeToolShovelT2SteelShovel"  count="1" prob="0.05" />
+	<item name="meleeToolAxeT3Chainsaw"  count="1" prob="0.05" />
+	<item name="meleeToolPickT3Auger"  count="1" prob="0.05" />
+	<item name="meleeToolFarmT1IronHoe"  count="1" prob="0.05" />
+	<item name="meleeWpnSledgeT0StoneSledgehammer"  count="1" prob="0.05" />
+	<item name="meleeWpnSledgeT1IronSledgehammer"  count="1" prob="0.05" />
+	<item name="meleeWpnSledgeT3SteelSledgehammer"  count="1" prob="0.05" />
 	<item name="meleeToolFlashlight02"  count="1" prob="0.05" />
 	<item name="meleeToolTorch"  count="1" prob="0.05" />
 	<item name="meleeToolWireTool"  count="1" prob="0.05" />
 	<item name="meleeToolPaintTool"  count="1" prob="0.05" />
-	<item name="meleeToolBlockReplaceTool"  count="1" prob="0.05" />
 	</lootgroup>
 	
 	<lootgroup name="PalletWeaponMods" count="1,3">
-	<item name="modMeleeGraveDigger" count="1" prob="0.05" />
+	<item name="modGunTriggerGroupSemi" count="1" prob="0.05" />
+	<item name="modGunTriggerGroupBurst3" count="1" prob="0.05" />
+	<item name="modGunTriggerGroupAutomatic" count="1" prob="0.05" />
+	<item name="modGunBipod" count="1" prob="0.05" />
+	<item name="modGunForegrip" count="1" prob="0.05" />
+	<item name="modGunRetractingStock" count="1" prob="0.05" />
+	<item name="modShotgunSawedOffBarrel" count="1" prob="0.05" />
+	<item name="modGunDuckbill" count="1" prob="0.05" />
+	<item name="modGunChoke" count="1" prob="0.05" />
+	<item name="modGunMagazineExtender" count="1" prob="0.05" />
+	<item name="modGunDrumMagazineExtender" count="1" prob="0.05" />
+	<item name="modGunShotgunTubeExtenderMagazine" count="1" prob="0.05" />
+	<item name="modGunCrippleEm" count="1" prob="0.05" />
+	<item name="modGunBowPolymerString" count="1" prob="0.05" />
+	<item name="modGunBowArrowRest" count="1" prob="0.05" />
+	<item name="modGunMeleeTheHunter" count="1" prob="0.05" />
+	<item name="modGunMeleeRadRemover" count="1" prob="0.05" />
+	<item name="modGunMeleeBlessedMetal" count="1" prob="0.05" />
+	<item name="modGunMeleeNiCdBattery" count="1" prob="0.05" />
+	<item name="modGunMeleeFlammableOil" count="1" prob="0.05" />
+	<item name="modGunMeleeLiquidNitrogen" count="1" prob="0.05" />
+	<item name="modMeleeTemperedBlade" count="1" prob="0.05" />
 	<item name="modMeleeSerratedBlade" count="1" prob="0.05" />
-	<item name="modMeleeStructuralBrace" count="1" prob="0.05" />
 	<item name="modMeleeWeightedHead" count="1" prob="0.05" />
-	<item name="modMeleeWoodSplitter" count="1" prob="0.05" />
-	<item name="modFuelTankSmall" count="1" prob="0.05" />
-	<item name="modMeleeClubBurningShaft" count="1" prob="0.05" />
-	<item name="modMeleeClubBarbedWire" count="1" prob="0.05" />
+	<item name="modMeleeStructuralBrace" count="1" prob="0.05" />
+	<item name="modMeleeErgonomicGrip" count="1" prob="0.05" />
 	<item name="modMeleeFortifyingGrip" count="1" prob="0.05" />
-	<item name="modMeleeBunkerBuster" count="1" prob="0.05" />
-	<item name="modFuelTankLarge" count="1" prob="0.05" />
+	<item name="modMeleeClubBarbedWire" count="1" prob="0.05" />
 	<item name="modMeleeClubMetalSpikes" count="1" prob="0.05" />
 	<item name="modMeleeClubMetalChain" count="1" prob="0.05" />
-	<item name="modMeleeErgonomicGrip" count="1" prob="0.05" />
-	<item name="modMeleeTemperedBlade" count="1" prob="0.05" />
+	<item name="modMeleeClubBurningShaft" count="1" prob="0.05" />
+	<item name="modMeleeFiremansAxeMod" count="1" prob="0.05" />
+	<item name="modMeleeGraveDigger" count="1" prob="0.05" />
+	<item name="modMeleeBunkerBuster" count="1" prob="0.05" />
 	<item name="modMeleeIronBreaker" count="1" prob="0.05" />
-	<item name="modArmorSkullCap" count="1" prob="0.05" />
-	<item name="modArmorPressboyCap" count="1" prob="0.05" />
-	<item name="modArmorBallCap" count="1" prob="0.05" />
-	<item name="modGunBipod" count="1" prob="0.05" />
-	<item name="modGunChoke" count="1" prob="0.05" />
-	<item name="modGunDuckbill" count="1" prob="0.05" />
-	<item name="modGunFlashlight" count="1" prob="0.05" />
-	<item name="modGunForegrip" count="1" prob="0.05" />
-	<item name="modGunMagazineExtender" count="1" prob="0.05" />
-	<item name="modGunMeleeTheHunter" count="1" prob="0.05" />
-	<item name="modGunMuzzleBrake" count="1" prob="0.05" />
-	<item name="modGunScopeSmall" count="1" prob="0.05" />
-	<item name="modGunTriggerGroupSemi" count="1" prob="0.05" />
-	<item name="modShotgunSawedOffBarrel" count="1" prob="0.05" />
-	<item name="modGunBarrelExtender" count="1" prob="0.05" />
-	<item name="modGunCrippleEm" count="1" prob="0.05" />
-	<item name="modGunBowArrowRest" count="1" prob="0.05" />
-	<item name="modGunLaserSight" count="1" prob="0.05" />
-	<item name="modGunReflexSight" count="1" prob="0.05" />
-	<item name="modGunRetractingStock" count="1" prob="0.05" />
-	<item name="modGunScopeMedium" count="1" prob="0.05" />
-	<item name="modGunSoundSuppressorSilencer" count="1" prob="0.05" />
-	<item name="modGunTriggerGroupBurst3" count="1" prob="0.05" />
-	<item name="modGunShotgunTubeExtenderMagazine" count="1" prob="0.05" />
-	<item name="modGunBowPolymerString" count="1" prob="0.05" />
-	<item name="modGunRodAndSpring" count="1" prob="0.05" />
-	<item name="modGunScopeLarge" count="1" prob="0.05" />
-	<item name="modGunTriggerGroupAutomatic" count="1" prob="0.05" />
-	<item name="modGunDrumMagazineExtender" count="1" prob="0.05" />
-	<item name="modArmorHelmetLight" count="1" prob="0.05" />
+	<item name="modMeleeWoodSplitter" count="1" prob="0.05" />
+	<item name="modMeleeDiamondTip" count="1" prob="0.05" />
+	<item name="modMeleeStunBatonRepulsor" count="1" prob="0.05" />
+	<item name="modFuelTankSmall" count="1" prob="0.05" />
+	<item name="modFuelTankLarge" count="1" prob="0.05" />
+	<item name="modArmorBandolier" count="1" prob="0.05" />
+	<item name="modRadiationReady" count="1" prob="0.05" />
 	<item name="modArmorInsulatedLiner" count="1" prob="0.05" />
 	<item name="modArmorCoolingMesh" count="1" prob="0.05" />
-	<item name="modArmorPlatingBasic" count="1" prob="0.05" />
-	<item name="modArmorStoragePocket" count="1" prob="0.05" />
 	<item name="modArmorImprovedFittings" count="1" prob="0.05" />
-	<item group="modArmorCosmetics" count="1" prob="0.05" />
-	<item name="modArmorWaterPurifier" count="1" prob="0.05" />
-	<item name="modArmorImpactBracing" count="1" prob="0.05" />
-	<item name="modArmorPlatingReinforced" count="1" prob="0.05" />
-	<item name="modArmorMuffledConnectors" count="1" prob="0.05" />
-	<item name="modArmorDoubleStoragePocket" count="1" prob="0.05" />
 	<item name="modArmorCustomizedFittings" count="1" prob="0.05" />
-	<item name="modArmorBandolier" count="1" prob="0.05" />
+	<item name="modArmorPlatingBasic" count="1" prob="0.05" />
+	<item name="modArmorPlatingReinforced" count="1" prob="0.05" />
+	<item name="modArmorStoragePocket" count="1" prob="0.05" />
+	<item name="modArmorDoubleStoragePocket" count="1" prob="0.05" />
 	<item name="modArmorTripleStoragePocket" count="1" prob="0.05" />
+	<item name="modArmorMuffledConnectors" count="1" prob="0.05" />
 	<item name="modArmorAdvancedMuffledConnectors" count="1" prob="0.05" />
+	<item name="modArmorImpactBracing" count="1" prob="0.05" />
+	<item name="modArmorWaterPurifier" count="1" prob="0.05" />
+	<item name="modArmorHelmetLight" count="1" prob="0.05" />
+	<item name="modClothingStoragePocket" count="1" prob="0.05" />
+	<item name="modClothingCargoStoragePocket" count="1" prob="0.05" />
+	<item name="modVehicleMega" count="1" prob="0.05" />
+	<item name="modVehicleFuelSaver" count="1" prob="0.05" />
+	<item name="modVehicleHeadlights" count="1" prob="0.05" />	
+	<item name="modVehicleSpeed" count="1" prob="0.05" />
+	<item name="modArmorCowboyHat" count="1" prob="0.05" />
+	<item name="modArmorSkullCap" count="1" prob="0.05" />
+	<item name="modArmorPressboyCap" count="1" prob="0.05" />	
+	<item name="modArmorBallCap" count="1" prob="0.05" />
 	</lootgroup>
 	
 	<lootgroup name="PalletBooks" count="1,3">
@@ -328,7 +344,6 @@
 	<item name="bookBatterUpKnockdown" count="1" prob="0.05" />
 	<item name="bookBatterUpSlowPitch" count="1" prob="0.05" />
 	<item name="bookBatterUpMaintenance" count="1" prob="0.05" />
-	<item name="bookBatterUpConditioning" count="1" prob="0.05" />
 	<item name="bookEnforcerAPAmmo" count="1" prob="0.05" />
 	<item name="bookEnforcerApparel" count="1" prob="0.05" />
 	<item name="bookEnforcerCriminalPursuit" count="1" prob="0.05" />
@@ -400,10 +415,8 @@
 	<item name="bookSniperCripplingShot" count="1" prob="0.05" />
 	<item name="bookSniperDamage" count="1" prob="0.05" />
 	<item name="bookSniperHeadShot" count="1" prob="0.05" />
-	<item name="bookSniperGhost" count="1" prob="0.05" />
 	<item name="bookSniperHPAmmo" count="1" prob="0.05" />
 	<item name="bookUrbanCombatAdrenalineRush" count="1" prob="0.05" />
-	<item name="bookUrbanCombatControlledBreathing" count="1" prob="0.05" />
 	<item name="bookUrbanCombatRoomClearing" count="1" prob="0.05" />
 	<item name="bookUrbanCombatJumping" count="1" prob="0.05" />
 	<item name="bookUrbanCombatLandMines" count="1" prob="0.05" />
@@ -419,22 +432,98 @@
 	</lootgroup>
 	
 	<lootgroup name="PalletSchematics" count="1,3">
-	<item name="modArmorHelmetLightSchematic" count="1" prob="0.05" />
-	<item name="modArmorBandolierSchematic" count="1" prob="0.05" />
-	<item name="modArmorInsulatedLinerSchematic" count="1" prob="0.05" />
-	<item name="modArmorCoolingMeshSchematic" count="1" prob="0.05" />
-	<item name="modArmorPlatingBasicSchematic" count="1" prob="0.05" />
-	<item name="modArmorImprovedFittingsSchematic" count="1" prob="0.05" />
-	<item name="modArmorStoragePocketSchematic" count="1" prob="0.05" />
-	<item name="modArmorDoubleStoragePocketSchematic" count="1" prob="0.05" />
-	<item name="modArmorMuffledConnectorsSchematic" count="1" prob="0.05" />
+	<item name="meleeWpnClubT1BaseballBatSchematic" count="1" prob="0.05" />
+	<item name="meleeWpnSledgeT1IronSledgehammerSchematic" count="1" prob="0.05" />
+	<item name="meleeWpnSledgeT3SteelSledgehammerSchematic" count="1" prob="0.05" />
+	<item name="meleeWpnBladeT1HuntingKnifeSchematic" count="1" prob="0.05" />
+	<item name="meleeWpnBladeT3MacheteSchematic" count="1" prob="0.05" />
+	<item name="meleeWpnBatonT2StunBatonSchematic" count="1" prob="0.05" />
+	<item name="meleeToolIronSetSchematic" count="1" prob="0.05" />
+	<item name="meleeToolSteelSetSchematic" count="1" prob="0.05" />
+	<item name="meleeToolSalvageT1WrenchSchematic" count="1" prob="0.05" />
+	<item name="meleeToolFarmT1IronHoeSchematic" count="1" prob="0.05" />
+	<item name="meleeToolPickT3AugerSchematic" count="1" prob="0.05" />
+	<item name="meleeToolAxeT3ChainsawSchematic" count="1" prob="0.05" />
+	<item name="meleeWpnSpearT1IronSpearSchematic" count="1" prob="0.05" />
+	<item name="meleeWpnKnucklesT1IronKnucklesSchematic" count="1" prob="0.05" />
+	<item name="meleeWpnKnucklesT3SteelKnucklesSchematic" count="1" prob="0.05" />
+	<item name="gunBowT1WoodenBowSchematic" count="1" prob="0.05" />
+	<item name="gunBowT3CompoundBowSchematic" count="1" prob="0.05" />
+	<item name="gunBowT1IronCrossbowSchematic" count="1" prob="0.05" />
+	<item name="gunBowT3CompoundCrossbowSchematic" count="1" prob="0.05" />
+	<item name="gunHandgunT1PistolSchematic" count="1" prob="0.05" />
+	<item name="gunHandgunT2Magnum44Schematic" count="1" prob="0.05" />
+	<item name="gunHandgunT3DesertVultureSchematic" count="1" prob="0.05" />
+	<item name="gunShotgunT1DoubleBarrelSchematic" count="1" prob="0.05" />
+	<item name="gunShotgunT2PumpShotgunSchematic" count="1" prob="0.05" />
+	<item name="gunShotgunT3AutoShotgunSchematic" count="1" prob="0.05" />
+	<item name="gunHandgunT3SMG5Schematic" count="1" prob="0.05" />
+	<item name="gunMGT1AK47Schematic" count="1" prob="0.05" />
+	<item name="gunMGT2TacticalARSchematic" count="1" prob="0.05" />
+	<item name="gunRifleT1HuntingRifleSchematic" count="1" prob="0.05" />
+	<item name="gunRifleT2MarksmanRifleSchematic" count="1" prob="0.05" />
+	<item name="gunRifleT3SniperRifleSchematic" count="1" prob="0.05" />
+	<item name="gunExplosivesT3RocketLauncherSchematic" count="1" prob="0.05" />
+	<item name="gunBotT1JunkSledgeSchematic" count="1" prob="0.05" />
+	<item name="gunBotT2JunkTurretSchematic" count="1" prob="0.05" />
+	<!--<item name="gunBotT3JunkDroneSchematic" count="1" prob="0.05" />-->
+	<item name="armorLeatherSetSchematic" count="1" prob="0.05" />
+	<item name="armorMilitarySetSchematic" count="1" prob="0.05" />
+	<item name="resourceMilitaryFiberSchematic" count="1" prob="0.05" />
+	<item name="armorIronSetSchematic" count="1" prob="0.05" />
+	<item name="armorSteelSetSchematic" count="1" prob="0.05" />
+	<item name="thrownAmmoPipeBombSchematic" count="1" prob="0.05" />
+	<item name="thrownGrenadeContactSchematic" count="1" prob="0.05" />
+	<item name="thrownGrenadeSchematic" count="1" prob="0.05" />
+	<item name="thrownDynamiteSchematic" count="1" prob="0.05" />
+	<item name="meleeToolRepairT3NailgunSchematic" count="1" prob="0.05" />
+	<item name="medicalFirstAidBandageSchematic" count="1" prob="0.05" />
+	<item name="medicalFirstAidKitSchematic" count="1" prob="0.05" />
+	<item name="medicalPlasterCastSchematic" count="1" prob="0.05" />
+	<item name="toolBellowsSchematic" count="1" prob="0.05" />
+	<item name="toolForgeCrucibleSchematic" count="1" prob="0.05" />
+	<item name="toolAnvilSchematic" count="1" prob="0.05" />
+	<item name="cementMixerSchematic" count="1" prob="0.05" />
+	<item name="workbenchSchematic" count="1" prob="0.05" />
+	<item name="forgeSchematic" count="1" prob="0.05" />
+	<item name="chemistryStationSchematic" count="1" prob="0.05" />
+	<item name="vehicleAnySchematic" count="1" prob="0.05" />
+	<item name="vehicleBicycleChassisSchematic" count="1" prob="0.05" />
+	<item name="vehicleBicycleHandlebarsSchematic" count="1" prob="0.05" />
+	<item name="vehicleMinibikeChassisSchematic" count="1" prob="0.05" />
+	<item name="vehicleMinibikeHandlebarsSchematic" count="1" prob="0.05" />
+	<item name="vehicleMotorcycleChassisSchematic" count="1" prob="0.05" />
+	<item name="vehicleMotorcycleHandlebarsSchematic" count="1" prob="0.05" />
+	<item name="vehicle4x4TruckChassisSchematic" count="1" prob="0.05" />
+	<item name="vehicle4x4TruckAccessoriesSchematic" count="1" prob="0.05" />
+	<item name="vehicleGyroCopterChassisSchematic" count="1" prob="0.05" />
+	<item name="vehicleGyroCopterAccessoriesSchematic" count="1" prob="0.05" />
+	<item name="generatorbankSchematic" count="1" prob="0.05" />
+	<item name="pressureplateSchematic" count="1" prob="0.05" />
+	<item name="poweredDoorsSchematic" count="1" prob="0.05" />
+	<item name="bladeTrapSchematic" count="1" prob="0.05" />
+	<item name="dartTrapSchematic" count="1" prob="0.05" />
+	<item name="shotgunTurretSchematic" count="1" prob="0.05" />
+	<item name="autoTurretSchematic" count="1" prob="0.05" />
+	<item name="electricfencepostSchematic" count="1" prob="0.05" />
+	<item name="motionsensorSchematic" count="1" prob="0.05" />
+	<item name="speakerSchematic" count="1" prob="0.05" />
+	<item name="spotlightPlayerSchematic" count="1" prob="0.05" />
+	<item name="switchSchematic" count="1" prob="0.05" />
+	<item name="batterybankSchematic" count="1" prob="0.05" />
+	<item name="electrictimerrelaySchematic" count="1" prob="0.05" />
 	<item name="modGunBarrelExtenderSchematic" count="1" prob="0.05" />
 	<item name="modGunMuzzleBrakeSchematic" count="1" prob="0.05" />
+	<item name="modGunSoundSuppressorSilencerSchematic" count="1" prob="0.05" />
+	<item name="modGunLaserSightSchematic" count="1" prob="0.05" />
 	<item name="modGunFlashlightSchematic" count="1" prob="0.05" />
 	<item name="modGunScopeSmallSchematic" count="1" prob="0.05" />
 	<item name="modGunScopeMediumSchematic" count="1" prob="0.05" />
+	<item name="modGunScopeLargeSchematic" count="1" prob="0.05" />
 	<item name="modGunReflexSightSchematic" count="1" prob="0.05" />
 	<item name="modGunTriggerGroupSemiSchematic" count="1" prob="0.05" />
+	<item name="modGunTriggerGroupBurst3Schematic" count="1" prob="0.05" />
+	<item name="modGunTriggerGroupAutomaticSchematic" count="1" prob="0.05" />
 	<item name="modGunBipodSchematic" count="1" prob="0.05" />
 	<item name="modGunForegripSchematic" count="1" prob="0.05" />
 	<item name="modGunRetractingStockSchematic" count="1" prob="0.05" />
@@ -443,8 +532,11 @@
 	<item name="modGunMagazineExtenderSchematic" count="1" prob="0.05" />
 	<item name="modShotgunSawedOffBarrelSchematic" count="1" prob="0.05" />
 	<item name="modGunCrippleEmSchematic" count="1" prob="0.05" />
-	<item name="modGunBowArrowRestSchematic" count="1" prob="0.05" />
 	<item name="modGunBowPolymerStringSchematic" count="1" prob="0.05" />
+	<item name="modGunBowArrowRestSchematic" count="1" prob="0.05" />
+	<item name="modGunMeleeTheHunterSchematic" count="1" prob="0.05" />
+	<item name="modGunMeleeRadRemoverSchematic" count="1" prob="0.05" />
+	<item name="modGunMeleeBlessedMetalSchematic" count="1" prob="0.05" />
 	<item name="modMeleeTemperedBladeSchematic" count="1" prob="0.05" />
 	<item name="modMeleeSerratedBladeSchematic" count="1" prob="0.05" />
 	<item name="modMeleeWeightedHeadSchematic" count="1" prob="0.05" />
@@ -453,82 +545,75 @@
 	<item name="modMeleeFortifyingGripSchematic" count="1" prob="0.05" />
 	<item name="modMeleeClubBarbedWireSchematic" count="1" prob="0.05" />
 	<item name="modMeleeClubMetalSpikesSchematic" count="1" prob="0.05" />
-	<item name="modMeleeClubBurningShaftSchematic" count="1" prob="0.05" />
 	<item name="modMeleeGraveDiggerSchematic" count="1" prob="0.05" />
-	<item name="modMeleeWoodSplitterSchematic" count="1" prob="0.05" />
-	<item name="modFuelTankSmallSchematic" count="1" prob="0.05" />
-	<item name="modFuelTankLargeSchematic" count="1" prob="0.05" />
-	<item name="medicalFirstAidBandageSchematic" count="1" prob="0.05" />
-	<item name="resourceMilitaryFiberSchematic" count="1" prob="0.05" />
-	<item name="modGunMeleeTheHunterSchematic" count="1" prob="0.05" />
-	<item name="modGunRodAndSpringSchematic" count="1" prob="0.05" />
-	<item name="modGunScopeLargeSchematic" count="1" prob="0.05" />
-	<item name="modGunLaserSightSchematic" count="1" prob="0.05" />
-	<item name="modGunTriggerGroupBurst3Schematic" count="1" prob="0.05" />
-	<item name="modGunSoundSuppressorSilencerSchematic" count="1" prob="0.05" />
-	<item name="modGunTriggerGroupAutomaticSchematic" count="1" prob="0.05" />
-	<item name="modGunMeleeRadRemoverSchematic" count="1" prob="0.05" />
-	<item name="modArmorPlatingReinforcedSchematic" count="1" prob="0.05" />
-	<item name="modArmorTripleStoragePocketSchematic" count="1" prob="0.05" />
-	<item name="modArmorAdvancedMuffledConnectorsSchematic" count="1" prob="0.05" />
-	<item name="modArmorWaterPurifierSchematic" count="1" prob="0.05" />
-	<item name="modArmorCustomizedFittingsSchematic" count="1" prob="0.05" />
 	<item name="modMeleeBunkerBusterSchematic" count="1" prob="0.05" />
 	<item name="modMeleeIronBreakerSchematic" count="1" prob="0.05" />
+	<item name="modMeleeWoodSplitterSchematic" count="1" prob="0.05" />
+	<item name="modMeleeClubBurningShaftSchematic" count="1" prob="0.05" />
+	<item name="modArmorInsulatedLinerSchematic" count="1" prob="0.05" />
+	<item name="modArmorCoolingMeshSchematic" count="1" prob="0.05" />
+	<item name="modArmorImprovedFittingsSchematic" count="1" prob="0.05" />
+	<item name="modArmorCustomizedFittingsSchematic" count="1" prob="0.05" />
+	<item name="modArmorPlatingBasicSchematic" count="1" prob="0.05" />
+	<item name="modArmorPlatingReinforcedSchematic" count="1" prob="0.05" />
+	<item name="modArmorStoragePocketSchematic" count="1" prob="0.05" />
+	<item name="modArmorDoubleStoragePocketSchematic" count="1" prob="0.05" />
+	<item name="modArmorTripleStoragePocketSchematic" count="1" prob="0.05" />
+	<item name="modArmorMuffledConnectorsSchematic" count="1" prob="0.05" />
+	<item name="modArmorAdvancedMuffledConnectorsSchematic" count="1" prob="0.05" />
 	<item name="modArmorImpactBracingSchematic" count="1" prob="0.05" />
-	<item name="medicalFirstAidKitSchematic" count="1" prob="0.05" />
-	<item name="medicalPlasterCastSchematic" count="1" prob="0.05" />
-	<item name="drugAntibioticsSchematic" count="1" prob="0.05" />
-	<item name="forgeSchematic" count="1" prob="0.05" />
-	<item name="meleeToolIronSetSchematic" count="1" prob="0.05" />
-	<item name="meleeToolWrenchSchematic" count="1" prob="0.05" />
-	<item name="meleeToolKnifeIronSchematic" count="1" prob="0.05" />
-	<item name="meleeToolSledgehammerIronSchematic" count="1" prob="0.05" />
+	<item name="modArmorBandolierSchematic" count="1" prob="0.05" />
+	<item name="modArmorWaterPurifierSchematic" count="1" prob="0.05" />
+	<item name="modArmorHelmetLightSchematic" count="1" prob="0.05" />
+	<item name="modFuelTankSmallSchematic" count="1" prob="0.05" />
+	<item name="modFuelTankLargeSchematic" count="1" prob="0.05" />
 	<item name="ammoGasCanSchematic" count="1" prob="0.05" />
 	<item name="resourceOilSchematic" count="1" prob="0.05" />
-	<item name="gunToolNailgunSchematic" count="1" prob="0.05" />
-	<item name="meleeToolSteelSetSchematic" count="1" prob="0.05" />
-	<item name="meleeToolSledgehammerSteelSchematic" count="1" prob="0.05" />
-	<item name="meleeToolAugerSchematic" count="1" prob="0.05" />
-	<item name="meleeToolChainsawSchematic" count="1" prob="0.05" />
-	<item name="toolBellowsSchematic" count="1" prob="0.05" />
-	<item name="toolForgeCrucibleSchematic" count="1" prob="0.05" />
-	<item name="toolAnvilSchematic" count="1" prob="0.05" />
-	<item name="tableSawSchematic" count="1" prob="0.05" />
-	<item name="cementMixerSchematic" count="1" prob="0.05" />
-	<item name="workbenchSchematic" count="1" prob="0.05" />
-	<item name="chemistryStationSchematic" count="1" prob="0.05" />
-	<item name="gunPistolSchematic" count="1" prob="0.05" />
-	<item name="gunDoubleBarrelShotgunSchematic" count="1" prob="0.05" />
-	<item name="gunHuntingRifleSchematic" count="1" prob="0.05" />
-	<item name="gunAK47Schematic" count="1" prob="0.05" />
-	<item name="gunBowWoodenSchematic" count="1" prob="0.05" />
-	<item name="gunCrossbowIronSchematic" count="1" prob="0.05" />
-	<item name="gunJunkTurretSchematic" count="1" prob="0.05" />
-	<item name="thrownAmmoPipeBombSchematic" count="1" prob="0.05" />
-	<item name="thrownGrenadeSchematic" count="1" prob="0.05" />
-	<item name="meleeToolKnifeIronSchematic" count="1" prob="0.05" />
-	<item name="meleeClubIronSchematic" count="1" prob="0.05" />
-	<item name="meleeStunBatonSchematic" count="1" prob="0.05" />
-	<item name="meleeThrownSpearIronSchematic" count="1" prob="0.05" />
-	<item name="meleeKnucklesIronSchematic" count="1" prob="0.05" />
-	<item name="gunBowCompoundSchematic" count="1" prob="0.05" />
-	<item name="gunCrossbowCompoundSchematic" count="1" prob="0.05" />
-	<item name="gun44MagnumSchematic" count="1" prob="0.05" />
-	<item name="gunPumpShotgunSchematic" count="1" prob="0.05" />
-	<item name="gunSMG5Schematic" count="1" prob="0.05" />
-	<item name="gunMR10Schematic" count="1" prob="0.05" />
-	<item name="gunRocketLauncherSchematic" count="1" prob="0.05" />
-	<item name="thrownDynamiteSchematic" count="1" prob="0.05" />
-	<item name="thrownGrenadeContactSchematic" count="1" prob="0.05" />
-	<item name="meleeKnucklesSteelSchematic" count="1" prob="0.05" />
-	<item name="thrownGrenadeContactSchematic" count="1" prob="0.05" />
-	<item name="thrownGrenadeSchematic" count="1" prob="0.05" />
-	<item name="thrownDynamiteSchematic" count="1" prob="0.05" />
-	<item name="meleeToolKnifeMacheteSchematic" count="1" prob="0.05" />
-	<item name="meleeThrownSpearSteelSchematic" count="1" prob="0.05" />
-	<item name="armorLeatherSetSchematic" count="1" prob="0.05" />
-	<item name="armorIronSetSchematic" count="1" prob="0.05" />
+	<item name="drugAntibioticsSchematic" count="1" prob="0.05" />
+	<item name="drugHerbalAntibioticsSchematic" count="1" prob="0.05" />
+	<item name="foodCanShamSchematic" count="1" prob="0.05" />
+	<item name="drinkJarBeerSchematic" count="1" prob="0.05" />
+	<item name="drinkJarCoffeeSchematic" count="1" prob="0.05" />
+	<item name="drinkJarGoldenRodTeaSchematic" count="1" prob="0.05" />
+	<item name="drinkJarGrandpasAwesomeSauceSchematic" count="1" prob="0.05" />
+	<item name="drinkJarGrandpasLearningElixirSchematic" count="1" prob="0.05" />
+	<item name="drinkJarGrandpasMoonshineSchematic" count="1" prob="0.05" />
+	<item name="drinkJarRedTeaSchematic" count="1" prob="0.05" />
+	<item name="drinkYuccaJuiceSmoothieSchematic" count="1" prob="0.05" />
+	<item name="foodBaconAndEggsSchematic" count="1" prob="0.05" />
+	<item name="foodBakedPotatoSchematic" count="1" prob="0.05" />
+	<item name="foodBlueberryPieSchematic" count="1" prob="0.05" />
+	<item name="foodPumpkinPieSchematic" count="1" prob="0.05" />
+	<item name="foodPumpkinCheesecakeSchematic" count="1" prob="0.05" />
+	<item name="foodPumpkinBreadSchematic" count="1" prob="0.05" />
+	<item name="foodGumboStewSchematic" count="1" prob="0.05" />
+	<item name="foodShepardsPieSchematic" count="1" prob="0.05" />
+	<item name="foodSpaghettiSchematic" count="1" prob="0.05" />
+	<item name="foodTunaFishGravyToastSchematic" count="1" prob="0.05" />
+	<item name="foodBoiledMeatSchematic" count="1" prob="0.05" />
+	<item name="foodChiliDogSchematic" count="1" prob="0.05" />
+	<item name="foodCornBreadSchematic" count="1" prob="0.05" />
+	<item name="foodCornOnTheCobSchematic" count="1" prob="0.05" />
+	<item name="foodFishTacosSchematic" count="1" prob="0.05" />
+	<item name="foodGrilledMeatSchematic" count="1" prob="0.05" />
+	<item name="foodHoboStewSchematic" count="1" prob="0.05" />
+	<item name="foodMeatStewSchematic" count="1" prob="0.05" />
+	<item name="foodShamChowderSchematic" count="1" prob="0.05" />
+	<item name="foodSteakAndPotatoSchematic" count="1" prob="0.05" />
+	<item name="foodVegetableStewSchematic" count="1" prob="0.05" />
+	<item name="plantedAloe1Schematic" count="1" prob="0.05" />
+	<item name="plantedBlueberry1Schematic" count="1" prob="0.05" />
+	<item name="plantedChrysanthemum1Schematic" count="1" prob="0.05" />
+	<item name="plantedCoffee1Schematic" count="1" prob="0.05" />
+	<item name="plantedCorn1Schematic" count="1" prob="0.05" />
+	<item name="plantedCotton1Schematic" count="1" prob="0.05" />
+	<item name="plantedGoldenrod1Schematic" count="1" prob="0.05" />
+	<item name="plantedGraceCorn1Schematic" count="1" prob="0.05" />
+	<item name="plantedHop1Schematic" count="1" prob="0.05" />
+	<item name="plantedMushroom1Schematic" count="1" prob="0.05" />
+	<item name="plantedPotato1Schematic" count="1" prob="0.05" />
+	<item name="plantedYucca1Schematic" count="1" prob="0.05" />
+	<item name="plantedPumpkin1Schematic" count="1" prob="0.05" />
 	</lootgroup>
 	
 	<lootgroup name="PalletSchematics1" count="1,3">
@@ -669,6 +754,17 @@
 	<item name="foodCharredMeat" count="1,5" prob="0.05" />
 	<item name="foodShamSandwich" count="1,5" prob="0.05" />
 	<item name="foodMoldyBread" count="1,5" prob="0.05" />
+	<item name="drugAtomJunkies" count="1,5" prob="0.05"/>
+	<item name="drugCovertCats" count="1,5" prob="0.05"/>
+	<item name="drugEyeKandy" count="1,5" prob="0.05"/>
+	<item name="drugHackers" count="1,5" prob="0.05"/>
+	<item name="drugHealthBar" count="1,5" prob="0.05"/>
+	<item name="drugJailBreakers" count="1,5" prob="0.05"/>
+	<item name="drugNerdTats" count="1,5" prob="0.05"/>
+	<item name="drugOhShitzDrops" count="1,5" prob="0.05"/>
+	<item name="drugRockBusters" count="1,5" prob="0.05"/>
+	<item name="drugSkullCrushers" count="1,5" prob="0.05"/>
+	<item name="drugSugarButts" count="1,5" prob="0.05"/>
 	</lootgroup>
 	
 	<lootgroup name="PalletDrinks" count="1,3">
@@ -840,10 +936,9 @@
 	<item name="drinkJarGrainAlcohol" count="1,15" prob="0.05" />
 	<item name="medicalSplint" count="1,15" prob="0.05" />
 	<item name="drugHerbalAntibiotics" count="1,15" prob="0.05" />
-	<item name="drugBluePill" count="1,15" prob="0.05" />
-	<item name="drugRedPill" count="1,15" prob="0.05" />
+	<item name="drugBluePillAdmin" count="1,15" prob="0.05" />
+	<item name="drugRedPillAdmin" count="1,15" prob="0.05" />
 	<item name="sunblocker" count="1,15" prob="0.05" />
-	<item name="medicalBloodDrawKit" count="1,15" prob="0.05" />
 	<item name="drinkJarGrainAlcohol" count="1,15" prob="0.05" />
 	<item name="medicalAloeCream" count="1,15" prob="0.05" />
 	</lootgroup>
@@ -853,7 +948,7 @@
 	<item name="curtain_bottom1Sheet3"  count="1,15" prob="0.05" />
 	<item name="miniblindTopSheet"  count="1,15" prob="0.05" />
 	<item name="miniblindBottomSheet"  count="1,15" prob="0.05" />
-	<item name="woodFurnitureBlockVariantHelper"  count="1,15" prob="0.05" />
+	<item name="cntWoodFurnitureBlockVariantHelper"  count="1,15" prob="0.05" />
 	<item name="cntCabinetOldSink"  count="1,15" prob="0.05" />
 	<item name="cntCashRegister"  count="1,15" prob="0.05" />
 	<item name="cntCoolerClosed"  count="1,15" prob="0.05" />
@@ -1068,7 +1163,6 @@
 	<item name="cntStorageGeneric"  count="1,15" prob="0.05" />
 	<item name="cntStorageGenericInsecure"  count="1,15" prob="0.05" />
 	<item name="cntStorageGenericPOI"  count="1,15" prob="0.05" />
-	<item name="treasureChest" count="1,15" prob="0.05" />
 	<item name="cntMountainManStorageChest" count="1,15" prob="0.05" />
 	<item name="cntApacheArtifactChest" count="1,15" prob="0.05" />
 	<item name="cntCabinetBottomFiller" count="1,15" prob="0.05" />
@@ -1347,7 +1441,7 @@
 	<item name="cntLuggagePileAClosed" count="1,15" prob="0.05" />
 	<item name="cntLuggagePileBOpen" count="1,15" prob="0.05" />
 	<item name="cntLuggagePileBClosed" count="1,15" prob="0.05" />
-	<item name="cntBackpackDropped" count="1,15" prob="0.05" />
+	<item name="backpackMedium" count="1,15" prob="0.05" />
 	<item name="treePlant02" count="1,15" prob="0.05" />
 	<item name="birdBathPlanter" count="1,15" prob="0.05" />
 	<item name="cntBirdnest" count="1,15" prob="0.05" />
@@ -1443,7 +1537,6 @@
 	<item name="cntLootCrateWorkingStiffs" count="1,15" prob="0.05" />
 	<item name="cntLootChestHero" count="1,15" prob="0.05" />
 	<item name="cntLootChestHeroInsecure" count="1,15" prob="0.05" />
-	<item name="cntBuriedStashChest" count="1,15" prob="0.05" />
 	<item name="cntBuriedWeaponChest" count="1,15" prob="0.05" />
 	<item name="porchLight01" count="1,15" prob="0.05" />
 	<item name="porchLight04" count="1,15" prob="0.05" />
@@ -1752,7 +1845,6 @@
 	<item name="metalTrussingIBeamBlockVariantHelper" count="1,15" prob="0.05" />
 	<item name="woodSignBlockVariantHelper" count="1,15" prob="0.05" />
 	<item name="metalSignLetterNumberBlockVariantHelper" count="1,15" prob="0.05" />
-	<item name="toiletBlockVariantHelper" count="1,15" prob="0.05" />
 	<item name="cntLootWeapons" count="1,15" prob="0.05" />
 	<item name="cntLootWeaponsInsecure" count="1,15" prob="0.05" />
 	<item name="cntLootTools" count="1,15" prob="0.05" />
@@ -1771,6 +1863,429 @@
 	<item name="cube3x3x1Test" count="1,15" prob="0.05" />
 	<item name="arch_3m_full_TEST" count="1,15" prob="0.05" />
 	</lootgroup>
+	
+		<lootgroup name="PalletDeco9" count="1,3">
+	<item name="cntCabinetGraniteSinkHoleRound" count="1,15" prob="0.05" />
+	<item name="woodPlateCounterSink" count="1,15" prob="0.05" />
+	<item name="woodPlateCounterSinkHole" count="1,15" prob="0.05" />
+	<item name="counterMountedSinkCommercial" count="1,15" prob="0.05" />
+	<item name="counterSinkCommercialTile" count="1,15" prob="0.05" />
+	<item name="wallMountSinkCommercial" count="1,15" prob="0.05" />
+	<item name="pedestalSink" count="1,15" prob="0.05" />
+	<item name="utilitySink" count="1,15" prob="0.05" />
+	<item name="cntFreezerBeveragesStandaloneFullClosedBroken" count="1,15" prob="0.05" />
+	<item name="cntFreezerBeveragesStandaloneFullClosed" count="1,15" prob="0.05" />
+	<item name="cntFreezerBeveragesStandaloneEmptyClosedBroken" count="1,15" prob="0.05" />
+	<item name="cntFreezerBeveragesStandaloneEmptyClosed" count="1,15" prob="0.05" />
+	<item name="cntFreezerBeveragesRightEmptyClosedBroken" count="1,15" prob="0.05" />
+	<item name="cntFreezerBeveragesRightEmptyClosed" count="1,15" prob="0.05" />
+	<item name="cntFreezerBeveragesLeftEmptyClosedBroken" count="1,15" prob="0.05" />
+	<item name="cntFreezerBeveragesLeftEmptyClosed" count="1,15" prob="0.05" />
+	<item name="cntFreezerBeveragesMiddleEmptyOpenBroken" count="1,15" prob="0.05" />
+	<item name="cntFreezerBeveragesMiddleEmptyOpen" count="1,15" prob="0.05" />
+	<item name="cntFreezerBeveragesMiddleFullClosedBroken" count="1,15" prob="0.05" />
+	<item name="cntFreezerBeveragesMiddleFullClosed" count="1,15" prob="0.05" />
+	<item name="cntFreezerBeveragesMiddleEmptyClosedBroken" count="1,15" prob="0.05" />
+	<item name="cntFreezerBeveragesMiddleEmptyClosed" count="1,15" prob="0.05" />
+	<item name="cntFreezerGroceriesRightEmptyClosedBroken" count="1,15" prob="0.05" />
+	<item name="cntFreezerGroceriesRightEmptyClosed" count="1,15" prob="0.05" />
+	<item name="cntFreezerGroceriesLeftEmptyClosedBroken" count="1,15" prob="0.05" />
+	<item name="cntFreezerGroceriesLeftEmptyClosed" count="1,15" prob="0.05" />
+	<item name="cntFreezerGroceriesMiddleFullClosedBroken2" count="1,15" prob="0.05" />
+	<item name="cntFreezerGroceriesMiddleFullClosed2" count="1,15" prob="0.05" />
+	<item name="cntFreezerGroceriesMiddleFullClosedBroken" count="1,15" prob="0.05" />
+	<item name="cntFreezerGroceriesMiddleFullClosed" count="1,15" prob="0.05" />
+	<item name="cntFreezerGroceriesMiddleEmptyOpenBroken" count="1,15" prob="0.05" />
+	<item name="cntFreezerGroceriesMiddleEmptyOpen" count="1,15" prob="0.05" />
+	<item name="cntFreezerGroceriesMiddleEmptyClosedBroken" count="1,15" prob="0.05" />
+	<item name="cntFreezerGroceriesMiddleEmptyClosed" count="1,15" prob="0.05" />
+	<item name="cntCoolerClosed" count="1,15" prob="0.05" />
+	<item name="cntFridgeStainlessSteel" count="1,15" prob="0.05" />
+	<item name="cntRetroFridgeVer1Closed" count="1,15" prob="0.05" />
+	<item name="cntSodaFountain" count="1,15" prob="0.05" />
+	<item name="cntCoffeeMaker" count="1,15" prob="0.05" />
+	<item name="cntToaster" count="1,15" prob="0.05" />
+	<item name="cntMicrowaveOvenVer1Closed" count="1,15" prob="0.05" />
+	<item name="cntWoodBurningStove" count="1,15" prob="0.05" />
+	<item name="cntCharcoalGrillClosed" count="1,15" prob="0.05" />
+	<item name="cntGasGrillClosed" count="1,15" prob="0.05" />
+	<item name="cntCupboardCabinetFullOldTopClosed" count="1,15" prob="0.05" />
+	<item name="cntCupboardCornerCNROld" count="1,15" prob="0.05" />
+	<item name="cntCupboardCabinetOldTopClosed" count="1,15" prob="0.05" />
+	<item name="cntCabinetOldSink" count="1,15" prob="0.05" />
+	<item name="cntCabinetOldCNRRoundFiller" count="1,15" prob="0.05" />
+	<item name="cntCabinetOldBottom" count="1,15" prob="0.05" />
+	<item name="cntCabinetBottomBrokenDoor" count="1,15" prob="0.05" />
+	<item name="cntCupboardCabinetFullRedTopClosed" count="1,15" prob="0.05" />
+	<item name="cntCupboardCornerCNRRed" count="1,15" prob="0.05" />
+	<item name="cntCupboardCabinetRedTopClosed" count="1,15" prob="0.05" />
+	<item name="cntCupboardCabinetRedTopOpen" count="1,15" prob="0.05" />
+	<item name="cntGraniteSink" count="1,15" prob="0.05" />
+	<item name="cntWallOven" count="1,15" prob="0.05" />
+	<item name="cntCabinetBottomOpen" count="1,15" prob="0.05" />
+	<item name="cntCabinetBottom" count="1,15" prob="0.05" />
+	<item name="cntCabinetBottomFiller" count="1,15" prob="0.05" />
+	<item name="cntStorageGenericPOI" count="1,15" prob="0.05" />
+	<item name="cntStorageGenericInsecure" count="1,15" prob="0.05" />
+	<item name="cntStorageGeneric" count="1,15" prob="0.05" />
+	<item name="cntSecureStorageChest" count="1,15" prob="0.05" />
+	<item name="cntStorageChest" count="1,15" prob="0.05" />
+	<item name="cntChest02" count="1,15" prob="0.05" />
+	<item name="cntChest01" count="1,15" prob="0.05" />
+	<item name="playerSignWood2x5" count="1,15" prob="0.05" />
+	<item name="playerSignWood1x3" count="1,15" prob="0.05" />
+	<item name="playerSignWood1x1" count="1,15" prob="0.05" />
+	<item name="metalSignLetter_cross" count="1,15" prob="0.05" />
+	<item name="signBathroomSignMenCeilingMount" count="1,15" prob="0.05" />
+	<item name="signBathroomSignMenWallMount" count="1,15" prob="0.05" />
+	<item name="signBathroomSignWomenCeilingMount" count="1,15" prob="0.05" />
+	<item name="signBathroomSignWomenWallMount" count="1,15" prob="0.05" />
+	<item name="signBathroomSignUnisexCeilingMount" count="1,15" prob="0.05" />
+	<item name="signBathroomSignUnisexWallMount" count="1,15" prob="0.05" />
+	<item name="signPosterMovieTheaterSexualTension" count="1,15" prob="0.05" />
+	<item name="signPosterMovieTheaterMammasJustice" count="1,15" prob="0.05" />
+	<item name="signPosterMovieTheaterLoneWolf" count="1,15" prob="0.05" />
+	<item name="signPosterMovieTheater2159" count="1,15" prob="0.05" />
+	<item name="signPosterMovieSexualTension" count="1,15" prob="0.05" />
+	<item name="signPosterMovieMammasJustice" count="1,15" prob="0.05" />
+	<item name="signPosterMovieLoneWolf" count="1,15" prob="0.05" />
+	<item name="signPosterMovie2159" count="1,15" prob="0.05" />
+	<item name="signShamwaySale" count="1,15" prob="0.05" />
+	<item name="signSale02" count="1,15" prob="0.05" />
+	<item name="signSale01" count="1,15" prob="0.05" />
+	<item name="signSafetyWorkProtection" count="1,15" prob="0.05" />
+	<item name="signNotice04" count="1,15" prob="0.05" />
+	<item name="signNotice03" count="1,15" prob="0.05" />
+	<item name="signNotice02" count="1,15" prob="0.05" />
+	<item name="signNotice01" count="1,15" prob="0.05" />
+	<item name="signMegaCrushAd" count="1,15" prob="0.05" />
+	<item name="signLaborDaySaleAd" count="1,15" prob="0.05" />
+	<item name="signDinersMenu" count="1,15" prob="0.05" />
+	<item name="signCigaretteAd" count="1,15" prob="0.05" />
+	<item name="signBread02" count="1,15" prob="0.05" />
+	<item name="signBread01" count="1,15" prob="0.05" />
+	<item name="signBookSaleAd" count="1,15" prob="0.05" />
+	<item name="signBulletinBoard02" count="1,15" prob="0.05" />
+	</lootgroup>
+	<lootgroup name="PalletDeco10" count="1,3">
+	<item name="signBulletinBoard01" count="1,15" prob="0.05" />
+	<item name="signPosterWantedMissing03" count="1,15" prob="0.05" />
+	<item name="signPosterWantedMissing02" count="1,15" prob="0.05" />
+	<item name="signPosterWantedMissing01" count="1,15" prob="0.05" />
+	<item name="signShopMoPowerElectronicsLargeWallLit" count="1,15" prob="0.05" />
+	<item name="signShopMoPowerElectronicsLargeWall" count="1,15" prob="0.05" />
+	<item name="signShopMoPowerElectronicsLargeLit" count="1,15" prob="0.05" />
+	<item name="signShopMoPowerElectronicsLarge" count="1,15" prob="0.05" />
+	<item name="signShopMoPowerElectronicsWallLit" count="1,15" prob="0.05" />
+	<item name="signShopMoPowerElectronicsWall" count="1,15" prob="0.05" />
+	<item name="signShopMoPowerElectronicsLit" count="1,15" prob="0.05" />
+	<item name="signShopMoPowerElectronics" count="1,15" prob="0.05" />
+	<item name="signShopSavageCountryLargeWallLit" count="1,15" prob="0.05" />
+	<item name="signShopSavageCountryLargeWall" count="1,15" prob="0.05" />
+	<item name="signShopSavageCountryLargeLit" count="1,15" prob="0.05" />
+	<item name="signShopSavageCountryLarge" count="1,15" prob="0.05" />
+	<item name="signShopSavageCountryWallLit" count="1,15" prob="0.05" />
+	<item name="signShopSavageCountryWall" count="1,15" prob="0.05" />
+	<item name="signShopSavageCountryLit" count="1,15" prob="0.05" />
+	<item name="signShopSavageCountry" count="1,15" prob="0.05" />
+	<item name="signShopGroceryLargeWallLit" count="1,15" prob="0.05" />
+	<item name="signShopGroceryLargeWall" count="1,15" prob="0.05" />
+	<item name="signShopGroceryLargeLit" count="1,15" prob="0.05" />
+	<item name="signShopGroceryLarge" count="1,15" prob="0.05" />
+	<item name="signShopGroceryWallLit" count="1,15" prob="0.05" />
+	<item name="signShopGroceryWall" count="1,15" prob="0.05" />
+	<item name="signShopGroceryLit" count="1,15" prob="0.05" />
+	<item name="signShopGrocery" count="1,15" prob="0.05" />
+	<item name="signShopToolStoreLargeWallLit" count="1,15" prob="0.05" />
+	<item name="signShopToolStoreLargeWall" count="1,15" prob="0.05" />
+	<item name="signShopToolStoreLargeLit" count="1,15" prob="0.05" />
+	<item name="signShopToolStoreLarge" count="1,15" prob="0.05" />
+	<item name="signShopToolStoreWallLit" count="1,15" prob="0.05" />
+	<item name="signShopToolStoreWall" count="1,15" prob="0.05" />
+	<item name="signShopToolStoreLit" count="1,15" prob="0.05" />
+	<item name="signShopToolStore" count="1,15" prob="0.05" />
+	<item name="signShopPharmacyLargeWallLit" count="1,15" prob="0.05" />
+	<item name="signShopPharmacyLargeWall" count="1,15" prob="0.05" />
+	<item name="signShopPharmacyLargeLit" count="1,15" prob="0.05" />
+	<item name="signShopPharmacyLarge" count="1,15" prob="0.05" />
+	<item name="signShopPharmacyWallLit" count="1,15" prob="0.05" />
+	<item name="signShopPharmacyWall" count="1,15" prob="0.05" />
+	<item name="signShopPharmacyLit" count="1,15" prob="0.05" />
+	<item name="signShopPharmacy" count="1,15" prob="0.05" />
+	<item name="signShopBookStoreLargeWallLit" count="1,15" prob="0.05" />
+	<item name="signShopBookStoreLargeWall" count="1,15" prob="0.05" />
+	<item name="signShopBookStoreLargeLit" count="1,15" prob="0.05" />
+	<item name="signShopBookStoreLarge" count="1,15" prob="0.05" />
+	<item name="signShopBookStoreWallLit" count="1,15" prob="0.05" />
+	<item name="signShopBookStoreWall" count="1,15" prob="0.05" />
+	<item name="signShopBookStoreLit" count="1,15" prob="0.05" />
+	<item name="signShopBookStore" count="1,15" prob="0.05" />
+	<item name="signShopGunStoreLargeWallLit" count="1,15" prob="0.05" />
+	<item name="signShopGunStoreLargeWall" count="1,15" prob="0.05" />
+	<item name="signShopGunStoreLargeLit" count="1,15" prob="0.05" />
+	<item name="signShopGunStoreLarge" count="1,15" prob="0.05" />
+	<item name="signShopGunStoreWallLit" count="1,15" prob="0.05" />
+	<item name="signShopGunStoreWall" count="1,15" prob="0.05" />
+	<item name="signShopGunStoreLit" count="1,15" prob="0.05" />
+	<item name="signShopGunStore" count="1,15" prob="0.05" />
+	<item name="signShopGasLargeWallLit" count="1,15" prob="0.05" />
+	<item name="signShopGasLargeWall" count="1,15" prob="0.05" />
+	<item name="signShopGasLargeLit" count="1,15" prob="0.05" />
+	<item name="signShopGasLarge" count="1,15" prob="0.05" />
+	<item name="signShopGasWallLit" count="1,15" prob="0.05" />
+	<item name="signShopGasWall" count="1,15" prob="0.05" />
+	<item name="signShopGasLit" count="1,15" prob="0.05" />
+	<item name="signShopGas" count="1,15" prob="0.05" />
+	<item name="signShopTraderJoel1x3Wall" count="1,15" prob="0.05" />
+	<item name="signShopTraderJoel2x5Wall" count="1,15" prob="0.05" />
+	<item name="signShopColdBeer" count="1,15" prob="0.05" />
+	<item name="signYardSign01" count="1,15" prob="0.05" />
+	<item name="signRoadPrivate" count="1,15" prob="0.05" />
+	<item name="signRoadStop4way" count="1,15" prob="0.05" />
+	<item name="signRoadStop" count="1,15" prob="0.05" />
+	<item name="signRoadSpeed65" count="1,15" prob="0.05" />
+	<item name="signRoadSpeed55" count="1,15" prob="0.05" />
+	<item name="signRoadSpeed45" count="1,15" prob="0.05" />
+	<item name="signRoadSpeed35" count="1,15" prob="0.05" />
+	<item name="signRoadSpeed25noTrucks" count="1,15" prob="0.05" />
+	<item name="signRoadSpeed25" count="1,15" prob="0.05" />
+	<item name="signRoadSlow" count="1,15" prob="0.05" />
+	<item name="signSchoolZone" count="1,15" prob="0.05" />
+	<item name="signRoadRoughSurface" count="1,15" prob="0.05" />
+	<item name="signRoadWork" count="1,15" prob="0.05" />
+	<item name="signNoHazardousWaste" count="1,15" prob="0.05" />
+	<item name="signInfoCenter" count="1,15" prob="0.05" />
+	<item name="signCampFish" count="1,15" prob="0.05" />
+	<item name="signNationalPark" count="1,15" prob="0.05" />
+	<item name="signAnselAdamsRiver" count="1,15" prob="0.05" />
+	<item name="signSpillwayLake" count="1,15" prob="0.05" />
+	<item name="signCamping" count="1,15" prob="0.05" />
+	<item name="signRoadDestinationsWest" count="1,15" prob="0.05" />
+	<item name="signRoadDestinationsEast" count="1,15" prob="0.05" />
+	<item name="signRoadMaple" count="1,15" prob="0.05" />
+	<item name="signRoadTran" count="1,15" prob="0.05" />
+	<item name="signRoadLangTran" count="1,15" prob="0.05" />
+	<item name="signRoadEssig" count="1,15" prob="0.05" />
+	<item name="signRoadDavis" count="1,15" prob="0.05" />
+	<item name="signRoadCourtlandTran" count="1,15" prob="0.05" />
+	<item name="signRoadCourtlandMaple" count="1,15" prob="0.05" />
+	</lootgroup>
+	<lootgroup name="PalletDeco11" count="1,3">
+	<item name="signRoadCourtlandHuenink" count="1,15" prob="0.05" />
+	<item name="signRoadCourtlandBell" count="1,15" prob="0.05" />
+	<item name="signRoadCourtlandAZ260Right" count="1,15" prob="0.05" />
+	<item name="signRoadCourtlandAZ260Left" count="1,15" prob="0.05" />
+	<item name="signRoadCourtlandApache" count="1,15" prob="0.05" />
+	<item name="signRoadCoronadoCourtland" count="1,15" prob="0.05" />
+	<item name="signRoadCoronado" count="1,15" prob="0.05" />
+	<item name="signRoadBellLake" count="1,15" prob="0.05" />
+	<item name="signRoadApacheAZ260" count="1,15" prob="0.05" />
+	<item name="signRoadAZ73southSpeed65" count="1,15" prob="0.05" />
+	<item name="signRoadAZ73south" count="1,15" prob="0.05" />
+	<item name="signRoadAZ73northSpeed65" count="1,15" prob="0.05" />
+	<item name="signRoadAZ73north" count="1,15" prob="0.05" />
+	<item name="signRoadAZ260westSpeed65" count="1,15" prob="0.05" />
+	<item name="signRoadAZ260west" count="1,15" prob="0.05" />
+	<item name="signRoadAZ260eastSpeed65" count="1,15" prob="0.05" />
+	<item name="signRoadArrowheadApache" count="1,15" prob="0.05" />
+	<item name="electricalBox01" count="1,15" prob="0.05" />
+	<item name="fusebox" count="1,15" prob="0.05" />
+	<item name="conveyorBeltRamp" count="1,15" prob="0.05" />
+	<item name="conveyorBeltCorner" count="1,15" prob="0.05" />
+	<item name="conveyorBeltCap" count="1,15" prob="0.05" />
+	<item name="conveyorBeltBridge" count="1,15" prob="0.05" />
+	<item name="conveyorBelt" count="1,15" prob="0.05" />
+	<item name="corrugatedMetalAirDuctHalfBroken" count="1,15" prob="0.05" />
+	<item name="corrugatedMetalAirDuctHalfRampEnd" count="1,15" prob="0.05" />
+	<item name="corrugatedMetalAirDuctHalfRampCap" count="1,15" prob="0.05" />
+	<item name="corrugatedMetalAirDuctHalfRampFiller" count="1,15" prob="0.05" />
+	<item name="corrugatedMetalAirDuctHalfRamp" count="1,15" prob="0.05" />
+	<item name="corrugatedMetalAirDuctHalf" count="1,15" prob="0.05" />
+	<item name="corrugatedMetalAirDuctBroken" count="1,15" prob="0.05" />
+	<item name="corrugatedMetalAirDuctRampEnd" count="1,15" prob="0.05" />
+	<item name="corrugatedMetalAirDuctRampCap" count="1,15" prob="0.05" />
+	<item name="corrugatedMetalAirDuctRampFiller" count="1,15" prob="0.05" />
+	<item name="corrugatedMetalAirDuctRampTop" count="1,15" prob="0.05" />
+	<item name="corrugatedMetalAirDuctRamp" count="1,15" prob="0.05" />
+	<item name="corrugatedMetalAirDuct4Sides" count="1,15" prob="0.05" />
+	<item name="heatVentIndustrial" count="1,15" prob="0.05" />
+	<item name="heatVent" count="1,15" prob="0.05" />
+	<item name="ductSoftCorner2" count="1,15" prob="0.05" />
+	<item name="ductControlPanelCorner" count="1,15" prob="0.05" />
+	<item name="ductControlPanel" count="1,15" prob="0.05" />
+	<item name="ductSoftCorner" count="1,15" prob="0.05" />
+	<item name="ductSoft" count="1,15" prob="0.05" />
+	<item name="farmPlotBlockPlayer" count="1,15" prob="0.05" />
+	<item name="farmPlotBlock" count="1,15" prob="0.05" />
+	<item name="decoPumpkinJackOLantern" count="1,15" prob="0.05" />
+	<item name="woodTrellisDiamond" count="1,15" prob="0.05" />
+	<item name="signShopBookStoreWallLit" count="1,15" prob="0.05" />
+	<item name="signShopBookStoreWall" count="1,15" prob="0.05" />
+	<item name="signShopBookStoreLit" count="1,15" prob="0.05" />
+	<item name="signShopBookStore" count="1,15" prob="0.05" />
+	<item name="signShopGunStoreLargeWallLit" count="1,15" prob="0.05" />
+	<item name="signShopGunStoreLargeWall" count="1,15" prob="0.05" />
+	<item name="signShopGunStoreLargeLit" count="1,15" prob="0.05" />
+	<item name="signShopGunStoreLarge" count="1,15" prob="0.05" />
+	<item name="signShopGunStoreWallLit" count="1,15" prob="0.05" />
+	<item name="signShopGunStoreWall" count="1,15" prob="0.05" />
+	<item name="cntStoreShelfSingleTopEmpty" count="1,15" prob="0.05" />
+	<item name="cntStoreShelfDoubleBottomEmpty" count="1,15" prob="0.05" />
+	<item name="cntStoreShelfDoubleTopEmpty" count="1,15" prob="0.05" />
+	<item name="cntStoreShelfSingleBottomFood01" count="1,15" prob="0.05" />
+	<item name="cntStoreShelfSingleBottomFood02" count="1,15" prob="0.05" />
+	<item name="cntStoreShelfSingleTopFood01" count="1,15" prob="0.05" />
+	<item name="cntStoreShelfDoubleBottomFood01" count="1,15" prob="0.05" />
+	<item name="cntStoreShelfDoubleBottomFood02" count="1,15" prob="0.05" />
+	<item name="cntStoreShelfDoubleTopFood01" count="1,15" prob="0.05" />
+	<item name="cntStoreShelfSingleBottomHardware01" count="1,15" prob="0.05" />
+	<item name="cntStoreShelfSingleBottomHardware02" count="1,15" prob="0.05" />
+	<item name="cntStoreShelfSingleTopHardware01" count="1,15" prob="0.05" />
+	<item name="cntStoreShelfSingleTopHardware02" count="1,15" prob="0.05" />
+	<item name="cntStoreShelfDoubleBottomHardware01" count="1,15" prob="0.05" />
+	<item name="cntStoreShelfDoubleBottomHardware02" count="1,15" prob="0.05" />
+	<item name="cntStoreShelfDoubleBottomHardware03Rags" count="1,15" prob="0.05" />
+	<item name="cntStoreShelfDoubleTopHardware01" count="1,15" prob="0.05" />
+	<item name="cntStoreShelfDoubleTopHardware02Rags" count="1,15" prob="0.05" />
+	<item name="cntStoreShelfSingleBottomPharmaEmpty" count="1,15" prob="0.05" />
+	<item name="cntStoreShelfSingleBottomPharmaGoods01" count="1,15" prob="0.05" />
+	<item name="cntStoreShelfSingleBottomPharmaGoods02" count="1,15" prob="0.05" />
+	<item name="cntStoreShelfDoubleBottomPharmaEmpty" count="1,15" prob="0.05" />
+	<item name="cntStoreShelfDoubleBottomPharmaGoods01" count="1,15" prob="0.05" />
+	<item name="cntStoreShelfDoubleBottomPharmaGoods02" count="1,15" prob="0.05" />
+	<item name="cntStoreShelfSingleBottomTrash01" count="1,15" prob="0.05" />
+	<item name="cntStoreShelfSingleBottomTrash02" count="1,15" prob="0.05" />
+	<item name="cntStoreShelfSingleTopTrash01" count="1,15" prob="0.05" />
+	<item name="cntStoreShelfSingleTopTrash02" count="1,15" prob="0.05" />
+	<item name="cntStoreShelfDoubleBottomTrash01" count="1,15" prob="0.05" />
+	<item name="cntStoreShelfDoubleBottomTrash02" count="1,15" prob="0.05" />
+	<item name="cntStoreShelfDoubleTopTrash01" count="1,15" prob="0.05" />
+	<item name="cntStoreProduceBasketCornerEmpty1" count="1,15" prob="0.05" />
+	<item name="cntStoreProduceBasketCornerEmpty2" count="1,15" prob="0.05" />
+	</lootgroup>
+	<lootgroup name="PalletDeco12" count="1,3">
+	<item name="cntStoreProduceBasketEmpty1" count="1,15" prob="0.05" />
+	<item name="cntStoreProduceBasketEmpty2" count="1,15" prob="0.05" />
+	<item name="cntStoreProduceBasketApples1" count="1,15" prob="0.05" />
+	<item name="cntStoreProduceBasketApples2" count="1,15" prob="0.05" />
+	<item name="cntStoreProduceBasketGourds1" count="1,15" prob="0.05" />
+	<item name="cntStoreProduceBasketGourds2" count="1,15" prob="0.05" />
+	<item name="cntStoreProduceBasketlettuce1" count="1,15" prob="0.05" />
+	<item name="cntStoreProduceBasketLettuce2" count="1,15" prob="0.05" />
+	<item name="cntStoreProduceBasketMelons1" count="1,15" prob="0.05" />
+	<item name="cntStoreProduceBasketMelons2" count="1,15" prob="0.05" />
+	<item name="cntDisplayCaseEmptyLeft" count="1,15" prob="0.05" />
+	<item name="cntDisplayCaseEmptyLeftBroken" count="1,15" prob="0.05" />
+	<item name="cntDisplayCaseEmptyMiddle" count="1,15" prob="0.05" />
+	<item name="cntDisplayCaseEmptyMiddleBroken" count="1,15" prob="0.05" />
+	<item name="cntDisplayCaseEmptyRight" count="1,15" prob="0.05" />
+	<item name="cntDisplayCaseEmptyRightBroken" count="1,15" prob="0.05" />
+	<item name="cntDisplayCaseAmmoLeftBroken" count="1,15" prob="0.05" />
+	<item name="cntDisplayCaseAmmoMiddleBroken01" count="1,15" prob="0.05" />
+	<item name="cntDisplayCaseAmmoMiddleBroken02" count="1,15" prob="0.05" />
+	<item name="cntDisplayCaseAmmoRightBroken" count="1,15" prob="0.05" />
+	<item name="cntGunRackSmallEmpty01" count="1,15" prob="0.05" />
+	<item name="cntGunRackSmallEmpty02" count="1,15" prob="0.05" />
+	<item name="cntGunRackSmallEmpty03" count="1,15" prob="0.05" />
+	<item name="cntGunRackSmallMagazines" count="1,15" prob="0.05" />
+	<item name="cntGunRackSmallArmor" count="1,15" prob="0.05" />
+	<item name="cntGunRackLargeGuns01" count="1,15" prob="0.05" />
+	<item name="cntGunRackLargeGuns02" count="1,15" prob="0.05" />
+	<item name="shootingRangeTarget" count="1,15" prob="0.05" />
+	<item name="cntStoreShelfElectronicsSingleBottomEmpty" count="1,15" prob="0.05" />
+	<item name="cntStoreShelfElectronicsSingleBottomPC" count="1,15" prob="0.05" />
+	<item name="cntStoreShelfElectronicsSingleBottomElectronicsMonitor" count="1,15" prob="0.05" />
+	<item name="cntStoreShelfElectronicsSingleBottomGoodsMisc" count="1,15" prob="0.05" />
+	<item name="cntStoreShelfElectronicsSingleBottomHeadphones" count="1,15" prob="0.05" />
+	<item name="cntStoreShelfElectronicsSingleBottomKeyboard" count="1,15" prob="0.05" />
+	<item name="cntStoreShelfElectronicsSingleBottomLaptopClosed" count="1,15" prob="0.05" />
+	<item name="cntStoreShelfElectronicsSingleBottomLaptopOpen" count="1,15" prob="0.05" />
+	<item name="cntStoreShelfElectronicsSingleBottomSpeaker" count="1,15" prob="0.05" />
+	<item name="cntStoreShelfElectronicsDoubleBottomEmpty" count="1,15" prob="0.05" />
+	<item name="cntStoreShelfElectronicsDoubleBottomGoods01" count="1,15" prob="0.05" />
+	<item name="cntStoreShelfElectronicsDoubleBottomGoods02" count="1,15" prob="0.05" />
+	<item name="cntStoreShelfElectronicsDoubleBottomGoods03" count="1,15" prob="0.05" />
+	<item name="cntStoreShelfElectronicsDoubleBottomGoods04" count="1,15" prob="0.05" />
+	<item name="cntStoreShelfElectronicsSingleTopEmpty" count="1,15" prob="0.05" />
+	<item name="cntStoreShelfElectronicsDoubleTopEmpty" count="1,15" prob="0.05" />
+	<item name="cntStoreElectronicsBookShelfSpeaker" count="1,15" prob="0.05" />
+	<item name="cntStoreElectronicsPalletTvFallen" count="1,15" prob="0.05" />
+	<item name="cntStoreElectronicsPalletTvStanding" count="1,15" prob="0.05" />
+	<item name="cntClothesRackRoundEmpty" count="1,15" prob="0.05" />
+	<item name="cntClothesRackRoundPants" count="1,15" prob="0.05" />
+	<item name="cntClothesRackRoundShirts" count="1,15" prob="0.05" />
+	<item name="cntClothesRackRectangleEmpty" count="1,15" prob="0.05" />
+	<item name="cntClothesRackRectanglePants" count="1,15" prob="0.05" />
+	<item name="cntClothesRackRectangleShirts" count="1,15" prob="0.05" />
+	<item name="cntClothesRackRectangleEmpty2" count="1,15" prob="0.05" />
+	<item name="cntClothesRackRoundEmpty2" count="1,15" prob="0.05" />
+	<item name="cntClothesRackWallFlat" count="1,15" prob="0.05" />
+	<item name="cntClothesRackWallEmptyHanger" count="1,15" prob="0.05" />
+	<item name="cntClothesRackWallPants" count="1,15" prob="0.05" />
+	<item name="cntClothesRackWallLongSleeve" count="1,15" prob="0.05" />
+	<item name="cntClothesRackWallSweater" count="1,15" prob="0.05" />
+	<item name="cntClothesRackWallTShirts" count="1,15" prob="0.05" />
+	<item name="cntClothesShelfHalfEmpty" count="1,15" prob="0.05" />
+	<item name="cntClothesShelfHalfJeans01" count="1,15" prob="0.05" />
+	<item name="cntClothesShelfHalfJeans02" count="1,15" prob="0.05" />
+	<item name="cntClothesShelfHalfShirts01" count="1,15" prob="0.05" />
+	<item name="cntClothesShelfHalfShirts02" count="1,15" prob="0.05" />
+	<item name="cntClothesShelfHalfSweaters01" count="1,15" prob="0.05" />
+	<item name="cntClothesShelfStackEmpty" count="1,15" prob="0.05" />
+	<item name="cntClothesShelfStackJeans01" count="1,15" prob="0.05" />
+	<item name="cntClothesShelfStackJeans02" count="1,15" prob="0.05" />
+	<item name="cntClothesShelfStackShirts01" count="1,15" prob="0.05" />
+	<item name="cntClothesShelfStackShirts02" count="1,15" prob="0.05" />
+	<item name="decoMannequinMale" count="1,15" prob="0.05" />
+	<item name="decoMannequinMaleBroken" count="1,15" prob="0.05" />
+	<item name="decoMannequinFemale" count="1,15" prob="0.05" />
+	<item name="decoMannequinFemaleBroken" count="1,15" prob="0.05" />
+	<item name="cntStoreShelfDoubleBottomShoesEmpty" count="1,15" prob="0.05" />
+	<item name="cntStoreShelfDoubleBottomShoesFull" count="1,15" prob="0.05" />
+	<item name="cntStoreShelfDoubleTopShoesEmpty" count="1,15" prob="0.05" />
+	<item name="cntStoreShelfDoubleTopShoesFull" count="1,15" prob="0.05" />
+	<item name="cntStoreShelfSingleBottomShoesEmpty" count="1,15" prob="0.05" />
+	<item name="cntStoreShelfSingleBottomShoesFull" count="1,15" prob="0.05" />
+	<item name="cntStoreShelfSingleTopShoesEmpty" count="1,15" prob="0.05" />
+	<item name="cntStoreShelfSingleTopShoesFull" count="1,15" prob="0.05" />
+	<item name="cntBookcaseEmpty" count="1,15" prob="0.05" />
+	<item name="cntBookcaseFull" count="1,15" prob="0.05" />
+	<item name="cntBookShelfSingleBottomEmpty" count="1,15" prob="0.05" />
+	<item name="cntBookShelfSingleBottomFull01" count="1,15" prob="0.05" />
+	<item name="cntBookShelfSingleBottomFull02" count="1,15" prob="0.05" />
+	</lootgroup>
+	
+	<lootgroup name="PalletDeco13" count="1,3">
+	<item name="cntBookShelfSingleTopEmpty" count="1,15" prob="0.05" />
+	<item name="cntBookShelfSingleTopFull01" count="1,15" prob="0.05" />
+	<item name="cntBookShelfSingleTopFull02" count="1,15" prob="0.05" />
+	<item name="cntBookShelfDoubleBottomEmpty" count="1,15" prob="0.05" />
+	<item name="cntBookShelfDoubleBottomFull01" count="1,15" prob="0.05" />
+	<item name="cntBookShelfDoubleBottomFull02" count="1,15" prob="0.05" />
+	<item name="cntBookShelfDoubleTopEmpty" count="1,15" prob="0.05" />
+	<item name="cntBookShelfDoubleTopFull01" count="1,15" prob="0.05" />
+	<item name="cntBookShelfDoubleTopFull02" count="1,15" prob="0.05" />
+	<item name="cntBookShelfSingleCapBottomEmpty" count="1,15" prob="0.05" />
+	<item name="cntBookShelfSingleCapBottomFull01" count="1,15" prob="0.05" />
+	<item name="cntBookShelfSingleCapBottomFull02" count="1,15" prob="0.05" />
+	<item name="cntBookShelfSingleCapTopEmpty" count="1,15" prob="0.05" />
+	<item name="cntBookShelfSingleCapTopFull01" count="1,15" prob="0.05" />
+	<item name="cntBookShelfSingleCapTopFull02" count="1,15" prob="0.05" />
+	<item name="modularFireWoodStackC" count="1,15" prob="0.05" />	
+	<item name="airConditioner" count="1,15" prob="0.05" />
+	<item name="airConditionVentFan" count="1,15" prob="0.05" />
+	<item name="airConditionVentFanDouble" count="1,15" prob="0.05" />
+	<item name="satelliteDish" count="1,15" prob="0.05" />
+	<item name="satelliteDishSmall" count="1,15" prob="0.05" />
+	<item name="cntMunitionsBox" count="1,15" prob="0.05" />
+	<item name="decoHoistChain" count="1,15" prob="0.05" />
+	<item name="decoHoistSpreader" count="1,15" prob="0.05" />
+	<item name="decoHoistHook" count="1,15" prob="0.05" />
+	<item name="decoHoistMagnet" count="1,15" prob="0.05" />
+	<item name="decoHoistTopMount" count="1,15" prob="0.05" />
+	<item name="decoHandTruck" count="1,15" prob="0.05" />
+	</lootgroup>
+	
 	
 	<lootgroup name="PalletBlockCrops" count="1,3">
 	<item name="mushroom01" count="1,15" prob="0.05" /> 
@@ -3052,6 +3567,11 @@
 			<item group="PalletDeco6" count="1" prob="0.05" />
 			<item group="PalletDeco7" count="1" prob="0.05" />
 			<item group="PalletDeco8" count="1" prob="0.05" />
+			<item group="PalletDeco9" count="1" prob="0.05" />
+			<item group="PalletDeco10" count="1" prob="0.05" />
+			<item group="PalletDeco11" count="1" prob="0.05" />
+			<item group="PalletDeco12" count="1" prob="0.05" />
+			<item group="PalletDeco13" count="1" prob="0.05" />
 			</lootgroup>
 	
 	<lootcontainer id="208" count="0,1" size="8,9" sound_open="UseActions/open_fridge" sound_close="UseActions/close_fridge" loot_quality_template="qualPlus1Template">

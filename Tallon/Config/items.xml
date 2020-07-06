@@ -1,0 +1,91 @@
+<stallionsden>
+	<append xpath="/items">
+		<item name="Generic Ammo Supply">
+	<property name="CustomIcon" value="genericAmmoBox" />
+	<property name="DescriptionKey" value="genericAmmoBoxDesc"/>
+	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+	<property name="Material" value="Morganic"/>
+	<property name="EconomicValue" value="180"/>
+	<property name="HoldType" value="3"/>
+	<property name="Stacknumber" value="30000"/>
+	<property class="Preview">
+		<property name="Zoom" value="28"/>
+		<property name="Pos" value="0,-0.05"/>
+		<property name="Rot" value="90,45,0"/>
+	</property>
+	<property name="Group" value="Resources"/>
+		</item>
+	</append>
+
+	<append xpath="/items">
+		<item name="Ammo Supply 9mm">
+	<property name="Extends" value="Generic Ammo Supply"/>
+	<property name="CustomIcon" value="ammoSupply9mm"/>
+	<property name="DescriptionKey" value="ammoSupplyDesc"/>
+		</item>
+	</append>
+
+	<append xpath="/items">
+		<item name="Ammo Supply 44Mag">
+	<property name="Extends" value="Generic Ammo Supply"/>
+	<property name="CustomIcon" value="ammoSupply44Mag"/>
+	<property name="DescriptionKey" value="ammoSupplyDesc"/>
+	</item>
+	</append>
+
+	<append xpath="/items">
+		<item name="Ammo Supply 762mm">
+	<property name="Extends" value="Generic Ammo Supply"/>
+	<property name="CustomIcon" value="ammoSupply762mm"/>
+	<property name="DescriptionKey" value="ammoSupplyDesc"/>
+	</item>
+	</append>
+	
+	<append xpath="/items">
+		<item name="Ammo Supply Shotgun">
+	<property name="Extends" value="Generic Ammo Supply"/>
+	<property name="CustomIcon" value="ammoSupplyShotgun"/>
+	<property name="DescriptionKey" value="ammoSupplyDesc"/>
+	</item>
+	</append>
+
+	<append xpath="/items">
+		<item name="Ammo Supply ShotgunSlug">
+	<property name="Extends" value="Generic Ammo Supply"/>
+	<property name="CustomIcon" value="ammoSupplyShotgunSlug"/>
+	<property name="DescriptionKey" value="ammoSupplyDesc"/>
+		</item>
+	</append>
+	
+	<append xpath="/items">
+		<item name="Explosives Supply Ammo">
+	<property name="Extends" value="Generic Ammo Supply"/>
+	<property name="CustomIcon" value="ammoSupply32mm" />
+	<property name="Meshfile" value="Items/Weapons/Ranged/Magnums/44_roundPrefab"/>
+	<property name="Material" value="Mbrass"/>
+	<property name="HoldType" value="21"/>
+	<property name="Stacknumber" value="30000"/>
+	<property name="Group" value="Ammo/Weapons"/>
+	<property name="CraftingSkillGroup" value="ammoCrafting"/>
+	<property class="Attributes">
+		<property name="GetQualityFromWeapon" value="true" />
+		<property name="EntityDamage" value="53.10,156" />
+		<property name="BlockDamage" value="2,4" />
+	</property>
+	<property name="Group" value="Ammo/Weapons" />
+	<property name="CraftingSkillGroup" value="ammoCrafting"/>
+		</item>
+	</append>
+	
+	<append xpath="/items/item[@name='gunHandgunT1Pistol']/property[@class='Action0']/property[@name='Magazine_items']/@value">,ammo9mmBulletJHP</append>
+	<append xpath="/items/item[@name='gunHandgunT2Magnum44']/property[@class='Action0']/property[@name='Magazine_items']/@value">,ammo44MagnumBulletAP</append>
+	<append xpath="/items/item[@name='gunHandgunT3SMG5']/property[@class='Action0']/property[@name='Magazine_items']/@value">,ammo9mmBulletJHP</append>
+	<append xpath="/items/item[@name='gunHandgunT3DesertVulture']/property[@class='Action0']/property[@name='Magazine_items']/@value">,ammo9mmBulletJHP</append>
+	<append xpath="/items/item[@name='gunRifleT1HuntingRifle']/property[@class='Action0']/property[@name='Magazine_items']/@value">,ammo762mmBulletAP</append>
+	<append xpath="/items/item[@name='gunRifleT2MarksmanRifle']/property[@class='Action0']/property[@name='Magazine_items']/@value">,ammo762mmBulletAP</append>
+	<append xpath="/items/item[@name='gunRifleT3SniperRifle']/property[@class='Action0']/property[@name='Magazine_items']/@value">,ammo762mmBulletAP</append>
+	<append xpath="/items/item[@name='gunMGT1AK47']/property[@class='Action0']/property[@name='Magazine_items']/@value">,ammo762mmBulletAP</append>
+	<append xpath="/items/item[@name='gunMGT2TacticalAR']/property[@class='Action0']/property[@name='Magazine_items']/@value">,ammo762mmBulletAP</append>
+	<append xpath="/items/item[@name='gunMGT3M60']/property[@class='Action0']/property[@name='Magazine_items']/@value">,ammo762mmBulletAP</append>
+</stallionsden>

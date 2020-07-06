@@ -29,90 +29,58 @@
 <!-- for parts  you have to change the partsmaster & gunAK47Parts and add a whole new line to the rest -->
 <set xpath="/items/item[@name='partsMaster']/property[@name='Stacknumber']/@value">150</set> <!-- partsMaster -->
 
-<set xpath="/items/item[@name='gunAk47Parts']/property[@name='Stacknumber']/@value">150</set> <!-- gunAk47Parts -->
+<set xpath="/items/item[@name='gunMGT1AK47Parts']/property[@name='Stacknumber']/@value">150</set> <!-- gunAk47Parts -->
 
 <!-- the rest --><!-- this is to add a line to an existing code -->
-<append xpath="/items/item[@name='gunTacticalARParts']">
+<append xpath="/items/item[@name='gunHandgunT1PistolParts']">
 <property name="Stacknumber" value="150"/>
 </append>
 
-<append xpath="/items/item[@name='gunM60Parts']">
+<append xpath="/items/item[@name='gunRifleT1HuntingRifleParts']">
 <property name="Stacknumber" value="150"/>
 </append>
 
-<append xpath="/items/item[@name='gunPistolParts']">
+<append xpath="/items/item[@name='gunShotgunT1DoubleBarrelParts']">
 <property name="Stacknumber" value="150"/>
 </append>
 
-<append xpath="/items/item[@name='gun44MagnumParts']">
+<append xpath="/items/item[@name='gunBowT1WoodenBowParts']">
 <property name="Stacknumber" value="150"/>
 </append>
 
-<append xpath="/items/item[@name='gunSMG5Parts']">
+<append xpath="/items/item[@name='gunExplosivesT3RocketLauncherParts']">
 <property name="Stacknumber" value="150"/>
 </append>
 
-<append xpath="/items/item[@name='gunHuntingRifleParts']">
+<append xpath="/items/item[@name='gunBotRoboticsParts']">
 <property name="Stacknumber" value="150"/>
 </append>
 
-<append xpath="/items/item[@name='gunMR10Parts']">
+<append xpath="/items/item[@name='meleeWpnBatonT2StunBatonParts']">
 <property name="Stacknumber" value="150"/>
 </append>
 
-<append xpath="/items/item[@name='gunDoubleBarrelShotgunParts']">
+<append xpath="/items/item[@name='meleeWpnKnucklesT3SteelKnucklesParts']">
 <property name="Stacknumber" value="150"/>
 </append>
 
-<append xpath="/items/item[@name='gunPumpShotgunParts']">
+<append xpath="/items/item[@name='meleeWpnBladeT3MacheteParts']">
 <property name="Stacknumber" value="150"/>
 </append>
 
-<append xpath="/items/item[@name='gunBowWoodenParts']">
+<append xpath="/items/item[@name='meleeWpnSpearT3SteelSpearParts']">
 <property name="Stacknumber" value="150"/>
 </append>
 
-<append xpath="/items/item[@name='gunBowCompoundParts']">
+<append xpath="/items/item[@name='meleeWpnClubT3SteelClubParts']">
 <property name="Stacknumber" value="150"/>
 </append>
 
-<append xpath="/items/item[@name='gunCrossbowIronParts']">
+<append xpath="/items/item[@name='meleeWpnSledgeT3SteelSledgehammerParts']">
 <property name="Stacknumber" value="150"/>
 </append>
 
-<append xpath="/items/item[@name='gunCrossbowCompoundParts']">
-<property name="Stacknumber" value="150"/>
-</append>
-
-<append xpath="/items/item[@name='gunRocketLauncherParts']">
-<property name="Stacknumber" value="150"/>
-</append>
-
-<append xpath="/items/item[@name='gunJunkTurretParts']">
-<property name="Stacknumber" value="150"/>
-</append>
-
-<append xpath="/items/item[@name='meleeStunBatonParts']">
-<property name="Stacknumber" value="150"/>
-</append>
-
-<append xpath="/items/item[@name='meleeKnucklesSteelParts']">
-<property name="Stacknumber" value="150"/>
-</append>
-
-<append xpath="/items/item[@name='meleeToolKnifeMacheteParts']">
-<property name="Stacknumber" value="150"/>
-</append>
-
-<append xpath="/items/item[@name='meleeThrownSpearSteelParts']">
-<property name="Stacknumber" value="150"/>
-</append>
-
-<append xpath="/items/item[@name='meleeClubBaseballBatParts']">
-<property name="Stacknumber" value="150"/>
-</append>
-
-<append xpath="/items/item[@name='meleeToolSledgehammerSteelParts']">
+<append xpath="/items/item[@name='meleeToolSalvageParts']">
 <property name="Stacknumber" value="150"/>
 </append>
 
@@ -128,14 +96,9 @@
 <property name="Stacknumber" value="150"/>
 </append>
 
-<append xpath="/items/item[@name='meleeToolChainsawParts']">
+<append xpath="/items/item[@name='meleeToolAxeT3ChainsawParts']">
 <property name="Stacknumber" value="150"/>
 </append>
-
-<append xpath="/items/item[@name='meleeToolAugerParts']">
-<property name="Stacknumber" value="150"/>
-</append>
-
 <!-- End of Parts -->
 
 

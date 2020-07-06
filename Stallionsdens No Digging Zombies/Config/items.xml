@@ -27,7 +27,6 @@
 <remove xpath="/items/item[@name='meleeHandZombieFootballPlayerFeral']"/>
 <remove xpath="/items/item[@name='meleeHandZombieStripper']"/>
 <remove xpath="/items/item[@name='meleeHandZombieStripperFeral']"/>
-<remove xpath="/items/item[@name='meleeHandZombieBehemoth']"/>
 <remove xpath="/items/item[@name='meleeHandAnimalCoyote']"/>
 <remove xpath="/items/item[@name='meleeHandAnimalZombieVulture']"/>
 <remove xpath="/items/item[@name='ammoProjectileVultureVomit']"/>
@@ -36,7 +35,7 @@
 <remove xpath="/items/item[@name='meleeHandAnimalDireWolf']"/>
 <remove xpath="/items/item[@name='meleeHandBossGrace']"/>
 
-<insertAfter xpath="/items/item[@name='handPlayer']" >
+<insertAfter xpath="/items/item[@name='meleeHandPlayer']" >
 <item name="meleeHandZombie01">
 	<property name="Extends" value="meleeHandMaster"/>
 	<property name="CreativeMode" value="None"/>
@@ -68,31 +67,40 @@
 </item>
 </insertAfter>
 <insertAfter xpath="/items/item[@name='meleeHandZombie01']" >
-<item name="meleeHandZombieFeral">
+<item name="meleeHandZombieBalancingDummy">
 	<property name="Extends" value="meleeHandZombie01"/>
 	<property name="CreativeMode" value="None"/>
-	<property class="Action0">
-		<property name="DamageEntity" value="20"/>
-		<property name="DamageBlock" value="24"/>
-	</property>
-	<effect_group name="meleeHandZombieFeral" tiered="false">
-		<passive_effect name="ModSlots" operation="base_set" value="0"/>
-		<passive_effect name="DamageModifier" operation="perc_set" value="0" tags="earth"/>
-		<passive_effect name="DamageModifier" operation="perc_set" value="0" tags="stone"/>
-		<passive_effect name="DamageModifier" operation="perc_add" value="0" tags="metal"/>
-		<passive_effect name="DamageModifier" operation="perc_set" value="0" tags="fterrain"/>
-		<passive_effect name="DamageModifier" operation="perc_set" value="0" tags="terrGravel"/>
-		<passive_effect name="DamageModifier" operation="perc_add" value="0" tags="ore"/>	
-		<passive_effect name="DamageModifier" operation="perc_set" value="0" tags="dirt"/>
-		<passive_effect name="DamageModifier" operation="perc_set" value="0" tags="terrSnow"/>
-		<passive_effect name="BuffProcChance" operation="base_set" value=".30" tags="buffInjuryBleedingZombie"/>
-		<passive_effect name="BuffProcChance" operation="base_set" value=".20" tags="buffInfectionCatch"/>
-		<passive_effect name="BuffProcChance" operation="base_set" value=".25" tags="buffInjuryStunned01"/>
-		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="45"/><!--InfectionFeral-->
+	<effect_group name="meleeHandZombieBalancingDummy" tiered="false">
+
+		<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" fireOneBuff="true"
+			buff="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffAbrasionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo"
+			weights=".11,.07,.07,.05,.29,.36,.11"/>
+
+		<!-- If the  buffInfectionCatch  buff makes it past buff resistance, this value is added to the  infectionCounter,  increasing infection level -->
+		<!-- Buckets are: -->
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="infectionCounter" operation="add" value="10"><!--InfectionRegular-->
+			<requirement name="CVarCompare" target="other" cvar="infectionCounter" operation="GT" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="abrasionZombieHit" operation="set" value="1800"/><!--AbrasionRegular-->
+
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="infectionCounter" operation="add" value="15"><!--InfectionFeral-->
+			<requirement name="CVarCompare" target="other" cvar="infectionCounter" operation="GT" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="abrasionZombieHit" operation="set" value="2400"/><!--AbrasionFeral-->
+
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="infectionCounter" operation="add" value="20"><!--InfectionRadiated-->
+			<requirement name="CVarCompare" target="other" cvar="infectionCounter" operation="GT" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="abrasionZombieHit" operation="set" value="3200"/><!--AbrasionRadiated-->
+
+
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="infectionCounter" operation="add" value="100"><!--InfectionSpecialHazmatReg-->
+			<requirement name="CVarCompare" target="other" cvar="infectionCounter" operation="GT" value="0"/></triggered_effect>
+		<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="infectionCounter" operation="add" value="150"><!--InfectionSpecialHazmatFeral-->
+			<requirement name="CVarCompare" target="other" cvar="infectionCounter" operation="GT" value="0"/></triggered_effect>
+
+			<!-- 1 point of abrasion HP reduction = 120 seconds or points -->
 	</effect_group>
 </item>
 </insertAfter>
-<insertAfter xpath="/items/item[@name='meleeHandZombieFeral']" >
+<insertAfter xpath="/items/item[@name='meleeHandZombie01']" >
 <item name="meleeHandZombie02"> <!-- crawler. This hand item is automatically used (hardcoded) if a zombie turns into a crawler. Can be overridden in entityclasses. See zombieBurnt. -->
 	<property name="Extends" value="meleeHandMaster"/>
 	<property name="CreativeMode" value="None"/>
@@ -121,6 +129,31 @@
 </item>
 </insertAfter>
 <insertAfter xpath="/items/item[@name='meleeHandZombie02']" >
+<item name="meleeHandZombieFeral">
+	<property name="Extends" value="meleeHandZombie01"/>
+	<property name="CreativeMode" value="None"/>
+	<property class="Action0">
+		<property name="DamageEntity" value="20"/>
+		<property name="DamageBlock" value="24"/>
+	</property>
+	<effect_group name="meleeHandZombieFeral" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<passive_effect name="DamageModifier" operation="perc_set" value="0" tags="earth"/>
+		<passive_effect name="DamageModifier" operation="perc_set" value="0" tags="stone"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="0" tags="metal"/>
+		<passive_effect name="DamageModifier" operation="perc_set" value="0" tags="fterrain"/>
+		<passive_effect name="DamageModifier" operation="perc_set" value="0" tags="terrGravel"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="0" tags="ore"/>	
+		<passive_effect name="DamageModifier" operation="perc_set" value="0" tags="dirt"/>
+		<passive_effect name="DamageModifier" operation="perc_set" value="0" tags="terrSnow"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".30" tags="buffInjuryBleedingZombie"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".20" tags="buffInfectionCatch"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".25" tags="buffInjuryStunned01"/>
+		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="45"/><!--InfectionFeral-->
+	</effect_group>
+</item>
+</insertAfter>
+<insertAfter xpath="/items/item[@name='meleeHandZombieFeral']" >
 <item name="meleeHandZombie02Feral">
 	<property name="Extends" value="meleeHandZombie02"/>
 	<property name="CreativeMode" value="None"/>
@@ -827,34 +860,6 @@
 </item>
 </insertAfter>
 <insertAfter xpath="/items/item[@name='meleeHandZombieStripperFeral']" >
-<item name="meleeHandZombieBehemoth">
-	<property name="Extends" value="meleeHandZombieStripper"/>
-	<property name="CreativeMode" value="None"/>
-	<property class="Action0">
-		<property name="DamageEntity" value="500"/>
-		<property name="DamageBlock" value="2000"/>
-		<property name="Range" value="4"/>
-		<property name="Sphere" value="2"/>
-		<property name="Block_range" value="5"/>
-	</property>
-	<effect_group name="meleeHandZombieBehemoth" tiered="false">
-		<passive_effect name="ModSlots" operation="base_set" value="0"/>
-		<passive_effect name="DamageModifier" operation="perc_set" value="0" tags="earth"/>
-		<passive_effect name="DamageModifier" operation="perc_set" value="0" tags="stone"/>
-		<passive_effect name="DamageModifier" operation="perc_add" value="0" tags="metal"/>
-		<passive_effect name="DamageModifier" operation="perc_set" value="0" tags="fterrain"/>
-		<passive_effect name="DamageModifier" operation="perc_set" value="0" tags="terrGravel"/>
-		<passive_effect name="DamageModifier" operation="perc_add" value="0" tags="ore"/>
-		<passive_effect name="DamageModifier" operation="perc_set" value="0" tags="dirt"/>
-		<passive_effect name="DamageModifier" operation="perc_set" value="0" tags="terrSnow"/>
-		<passive_effect name="BuffProcChance" operation="base_set" value=".50" tags="buffInjuryBleedingZombie"/>
-		<passive_effect name="BuffProcChance" operation="base_set" value=".40" tags="buffInfectionCatch"/>
-		<passive_effect name="BuffProcChance" operation="base_set" value=".50" tags="buffInjuryStunned01"/>
-		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="150"/><!--InfectionSpecial-->
-	</effect_group>
-</item>
-</insertAfter>
-<insertAfter xpath="/items/item[@name='meleeHandZombieBehemoth']" >
 <item name="meleeHandAnimalCoyote">
 	<property name="Extends" value="meleeHandMaster"/>
 	<property name="CreativeMode" value="None"/>

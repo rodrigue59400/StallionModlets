@@ -1,4 +1,4 @@
-Key,UsedInMainMenu,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish
+Key,Source,Context,Changes,English
 palletWhiteBagsBaseFull,blocks,Container,KgNone,pallet White Bags Base
 palletWhiteBagsTileFull,blocks,Container,KgNone,pallet White Bags Tile
 palletWhiteBagsTopFull,blocks,Container,KgNone,pallet White Bags Top

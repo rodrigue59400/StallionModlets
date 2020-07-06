@@ -1,0 +1,30 @@
+<stallionsden>
+	<append xpath="/blockplaceholders">
+	<placeholder name="cntStoreShelfSingleBottomTrashRandomLootHelper">
+		<block name="cntStoreShelfSingleBottomTrash01Empty1" prob=".30"/>
+		<block name="cntStoreShelfSingleBottomTrash02Empty2" prob=".30"/>
+		<block name="cntStoreShelfSingleBottomTrash01" prob=".20"/>
+		<block name="cntStoreShelfSingleBottomTrash02" prob=".20"/>
+	</placeholder>
+	<placeholder name="cntStoreShelfSingleTopTrashRandomLootHelper">
+		<block name="cntStoreShelfSingleTopTrash01Empty" prob=".30"/>
+		<block name="cntStoreShelfSingleTopTrash02Empty" prob=".30"/>
+		<block name="cntStoreShelfSingleTopTrash01" prob=".20"/>
+		<block name="cntStoreShelfSingleTopTrash02" prob=".20"/>
+	</placeholder>
+	<placeholder name="cntStoreShelfDoubleBottomTrashRandomLootHelper">
+		<block name="cntStoreShelfDoubleBottomTrash01Empty" prob=".30"/>
+		<block name="cntStoreShelfDoubleBottomTrash02Empty" prob=".30"/>
+		<block name="cntStoreShelfDoubleBottomTrash01" prob=".20"/>
+		<block name="cntStoreShelfDoubleBottomTrash02" prob=".20"/>
+	</placeholder>
+	<placeholder name="cntStoreShelfDoubleTopTrashRandomLootHelper">
+		<block name="cntStoreShelfDoubleTopTrash01Empty" prob=".66"/>
+		<block name="cntStoreShelfDoubleBottomTrash01" prob=".34"/>
+	</placeholder>
+	<!--<placeholder name="cntArmyTruckRandomLootHelper">
+		<block name="cntArmyTruckOpen" prob=".66"/>
+		<block name="cntArmyTruckClosed" prob=".34"/>
+	</placeholder>-->
+</append>
+</stallionsden>

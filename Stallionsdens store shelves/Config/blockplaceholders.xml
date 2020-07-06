@@ -3,25 +3,73 @@
 	<append xpath="/blockplaceholders">
 		<placeholder name="storeShelving01">
 			<block name="storeShelving01Empty" prob=".66"/>
-			<block name="storeShelving01Full" prob=".33"/>
-		</placeholder>
+			<block name="storeShelving01Full" prob=".33"/>			
+			<block name="cntStoreShelfSingleBottomEmpty" prob=".33"/>
+			<block name="cntStoreShelfSingleBottomFood01" prob=".33"/>
+			<block name="cntStoreShelfSingleBottomFood02" prob=".33"/>
+			<block name="cntStoreShelfSingleBottomHardware01" prob=".33"/>
+			<block name="cntStoreShelfSingleBottomHardware02" prob=".33"/>
+			<block name="cntStoreShelfSingleBottomPharmaEmpty" prob=".33"/>
+			<block name="cntStoreShelfSingleBottomPharmaGoods01" prob=".33"/>
+			<block name="cntStoreShelfSingleBottomPharmaGoods02" prob=".33"/>
+			<block name="cntStoreShelfSingleBottomTrash01" prob=".33"/>
+			<block name="cntStoreShelfSingleBottomTrash02" prob=".33"/>
+			<block name="cntStoreShelfElectronicsSingleBottomEmpty" prob=".33"/>
+			<block name="cntStoreShelfElectronicsSingleBottomPC" prob=".33"/>
+			<block name="cntStoreShelfElectronicsSingleBottomElectronicsMonitor" prob=".33"/>
+			<block name="cntStoreShelfElectronicsSingleBottomGoodsMisc" prob=".33"/>
+			<block name="cntStoreShelfElectronicsSingleBottomHeadphones" prob=".33"/>
+			<block name="cntStoreShelfElectronicsSingleBottomKeyboard" prob=".33"/>
+			<block name="cntStoreShelfElectronicsSingleBottomLaptopClosed" prob=".33"/>
+			<block name="cntStoreShelfElectronicsSingleBottomLaptopOpen" prob=".33"/>
+			<block name="cntStoreShelfElectronicsSingleBottomSpeaker" prob=".33"/>
+			</placeholder>
 	</append>
 	<append xpath="/blockplaceholders">
 		<placeholder name="storeShelving01Double">
 			<block name="storeShelving01DoubleEmpty" prob=".66"/>
-			<block name="storeShelving01DoubleFull" prob=".33"/>
-		</placeholder>
+			<block name="storeShelving01DoubleFull" prob=".33"/>			
+			<block name="cntStoreShelfDoubleBottomEmpty" prob=".33"/>
+			<block name="cntStoreShelfDoubleBottomFood01" prob=".33"/>
+			<block name="cntStoreShelfDoubleBottomFood02" prob=".33"/>
+			<block name="cntStoreShelfDoubleBottomHardware01" prob=".33"/>
+			<block name="cntStoreShelfDoubleBottomHardware02" prob=".33"/>
+			<block name="cntStoreShelfDoubleBottomHardware03Rags" prob=".33"/>
+			<block name="cntStoreShelfDoubleBottomPharmaEmpty" prob=".33"/>
+			<block name="cntStoreShelfDoubleBottomPharmaGoods01" prob=".33"/>
+			<block name="cntStoreShelfDoubleBottomPharmaGoods02" prob=".33"/>
+			<block name="cntStoreShelfDoubleBottomTrash01" prob=".33"/>
+			<block name="cntStoreShelfDoubleBottomTrash02" prob=".33"/>			
+			<block name="cntStoreShelfElectronicsDoubleBottomEmpty" prob=".33"/>
+			<block name="cntStoreShelfElectronicsDoubleBottomGoods01" prob=".33"/>
+			<block name="cntStoreShelfElectronicsDoubleBottomGoods02" prob=".33"/>
+			<block name="cntStoreShelfElectronicsDoubleBottomGoods03" prob=".33"/>
+			<block name="cntStoreShelfElectronicsDoubleBottomGoods04" prob=".33"/>
+			</placeholder>
 	</append>
 	<append xpath="/blockplaceholders">
 		<placeholder name="storeShelving01Top">
 			<block name="storeShelving01TopEmpty" prob=".66"/>
-			<block name="storeShelving01TopFull" prob=".33"/>
-		</placeholder>
+			<block name="storeShelving01TopFull" prob=".33"/>			
+			<block name="cntStoreShelfSingleTopEmpty" prob=".33"/>
+			<block name="cntStoreShelfSingleTopFood01" prob=".33"/>
+			<block name="cntStoreShelfSingleTopHardware01" prob=".33"/>
+			<block name="cntStoreShelfSingleTopHardware02" prob=".33"/>
+			<block name="cntStoreShelfSingleTopTrash02" prob=".33"/>			
+			<block name="cntStoreShelfElectronicsSingleTopEmpty" prob=".33"/>
+			<block name="cntStoreElectronicsBookShelfSpeaker" prob=".33"/>
+			</placeholder>
 	</append>
 	<append xpath="/blockplaceholders">
 		<placeholder name="storeShelving01TopDouble">
 			<block name="storeShelving01TopDoubleEmpty" prob=".66"/>
-			<block name="storeShelving01TopDoubleFull" prob=".33"/>
+			<block name="storeShelving01TopDoubleFull" prob=".33"/>			
+			<block name="cntStoreShelfDoubleTopEmpty" prob=".33"/>
+			<block name="cntStoreShelfDoubleTopFood01" prob=".33"/>
+			<block name="cntStoreShelfDoubleTopHardware01" prob=".33"/>
+			<block name="cntStoreShelfDoubleTopHardware02Rags" prob=".33"/>
+			<block name="cntStoreShelfDoubleTopTrash01" prob=".33"/>
+			<block name="cntStoreShelfElectronicsDoubleTopEmpty" prob=".33"/>
 		</placeholder>
 	</append>
 

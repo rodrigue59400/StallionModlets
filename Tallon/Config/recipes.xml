@@ -1,0 +1,159 @@
+<stallionsden>
+    <append xpath="/recipes">
+      	<recipe name="ammo9mmBulletBall" count="50">
+			<ingredient name="Ammo Supply 9mm" count="1"/>
+		</recipe>
+	
+		<recipe name="ammo9mmBulletHP" count="50">
+			<ingredient name="Ammo Supply 9mm" count="1"/>
+		</recipe>
+		
+		<recipe name="ammo9mmBulletAP" count="25">
+			<ingredient name="Ammo Supply 9mm" count="1"/>
+		</recipe>
+	
+		<recipe name="ammo44MagnumBulletBall" count="25">
+			<ingredient name="Ammo Supply 44Mag" count="1"/>
+		</recipe>
+	
+		<recipe name="ammo44MagnumBulletHP" count="25">
+			<ingredient name="Ammo Supply 44Mag" count="1"/>
+		</recipe>
+		
+		<recipe name="ammo44MagnumBulletAP" count="50">
+			<ingredient name="Ammo Supply 44Mag" count="1"/>
+		</recipe>
+	
+		<recipe name="ammo762mmBulletBall" count="20">
+			<ingredient name="Ammo Supply 762mm" count="1"/>
+		</recipe>
+	
+		<recipe name="ammo762mmBulletHP" count="20">
+			<ingredient name="Ammo Supply 762mm" count="1"/>
+		</recipe>
+		
+		<recipe name="ammo762mmBulletAP" count="50">
+			<ingredient name="Ammo Supply 762mm" count="1"/>
+		</recipe>
+		
+		<recipe name="ammoShotgunShell" count="25">
+			<ingredient name="Ammo Supply Shotgun" count="1"/>
+		</recipe>
+
+		<recipe name="ammoShotgunSlug" count="25">
+			<ingredient name="Ammo Supply ShotgunSlug" count="1"/>
+		</recipe>
+		
+		<recipe name="ammoShotgunBreachingSlug" count="25">
+			<ingredient name="Ammo Supply ShotgunSlug" count="1"/>
+		</recipe>
+		
+		<recipe name="ammoBlunderbuss" count="25">
+			<ingredient name="Generic Ammo Supply" count="1"/>
+		</recipe>
+	
+		<recipe name="ammoArrowStone" count="20">
+			<ingredient name="Generic Ammo Supply" count="1"/>
+		</recipe>
+		
+		<recipe name="ammoArrowIron" count="25">
+			<ingredient name="Generic Ammo Supply" count="1"/>
+		</recipe>
+		
+		<recipe name="ammoArrowSteelAP" count="25">
+			<ingredient name="Generic Ammo Supply" count="1"/>
+		</recipe>
+	
+		<recipe name="ammoArrowFlaming" count="20">
+			<ingredient name="Explosives Supply Ammo" count="1"/>
+		</recipe>		
+
+		<recipe name="ammoArrowExploding" count="25">
+			<ingredient name="Generic Ammo Supply" count="1"/>
+		</recipe>		
+		
+		<recipe name="ammoCrossbowBoltStone" count="25">
+			<ingredient name="Generic Ammo Supply" count="1"/>
+		</recipe>
+	
+		<recipe name="ammoCrossbowBoltIron" count="20">
+			<ingredient name="Generic Ammo Supply" count="1"/>
+		</recipe>
+		
+		<recipe name="ammoCrossbowBoltSteelAP" count="25">
+			<ingredient name="Generic Ammo Supply" count="1"/>
+		</recipe>
+		
+		<recipe name="ammoCrossbowBoltFlaming" count="25">
+			<ingredient name="Generic Ammo Supply" count="1"/>
+		</recipe>		
+	
+		<recipe name="ammoCrossbowBoltExploding" count="20">
+			<ingredient name="Explosives Supply Ammo" count="1"/>
+		</recipe>
+
+		<recipe name="ammoJunkTurretRegular" count="25">
+			<ingredient name="Generic Ammo Supply" count="1"/>
+		</recipe>
+
+		<recipe name="ammoJunkTurretShell" count="25">
+			<ingredient name="Generic Ammo Supply" count="1"/>
+		</recipe>
+		
+		<recipe name="ammoJunkTurretAP" count="25">
+			<ingredient name="Generic Ammo Supply" count="1"/>
+		</recipe>
+
+		<recipe name="thrownAmmoPipeBomb" count="25">
+			<ingredient name="Explosives Supply Ammo" count="1"/>
+		</recipe>	
+		
+		<recipe name="thrownGrenadeContact" count="25">
+			<ingredient name="Explosives Supply Ammo" count="1"/>
+		</recipe>
+		
+		<recipe name="thrownGrenade" count="25">
+			<ingredient name="Explosives Supply Ammo" count="1"/>
+		</recipe>
+		
+		<recipe name="thrownTimedCharge" count="25">
+			<ingredient name="Explosives Supply Ammo" count="1"/>
+		</recipe>
+				
+		<recipe name="thrownDynamite" count="25">
+			<ingredient name="Explosives Supply Ammo" count="1"/>
+		</recipe>
+		
+		<recipe name="mineHubcap" count="25">
+			<ingredient name="Explosives Supply Ammo" count="1"/>
+		</recipe>
+		
+		<recipe name="mineCandyTin" count="25">
+			<ingredient name="Explosives Supply Ammo" count="1"/>
+		</recipe>
+
+		<recipe name="mineAirFilter" count="25">
+			<ingredient name="Explosives Supply Ammo" count="1"/>
+		</recipe>	
+			
+		<recipe name="mineCookingPot" count="25">
+			<ingredient name="Explosives Supply Ammo" count="1"/>
+		</recipe>
+	
+		<recipe name="thrownAmmoMolotovCocktail" count="20">
+			<ingredient name="Explosives Supply Ammo" count="1"/>
+		</recipe>
+	
+		<recipe name="rScrapIronPlateMine" count="20">
+			<ingredient name="Explosives Supply Ammo" count="1"/>
+		</recipe>
+		
+		<recipe name="ammoRocketHE" count="25">
+			<ingredient name="Explosives Supply Ammo" count="1"/>
+		</recipe>
+	
+		<recipe name="ammoRocketFrag" count="25">
+			<ingredient name="Explosives Supply Ammo" count="1"/>
+		</recipe>		
+   </append>
+    </stallionsden>
