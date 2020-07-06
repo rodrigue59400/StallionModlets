@@ -20,7 +20,7 @@
 	<item name="resourceCloth" count="1,3"/>
 	<item name="resourceGlue"/>
 	<item name="resourceBulletCasing"/>
-	<item group="workingStiffs"/>
+	<item group="workingStiffsBox"/>
 </lootcontainer>
 
 <!-- storeShelving01Double -->

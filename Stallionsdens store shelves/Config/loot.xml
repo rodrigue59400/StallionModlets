@@ -40,6 +40,7 @@
 	<item group="cupboard"/>
 	<item group="beverages"/>
 	<item group="cannedfood"/>
+	<item group="foodCandy"/>
 	<item group="brewerySafe"/>
 	<item name="drinkJarBoiledWater" count="1,2" prob="0.15"/>
 	<item name="toolCookingPot" count="1"/>
