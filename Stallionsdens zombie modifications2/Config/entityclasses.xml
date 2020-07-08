@@ -102,17 +102,18 @@
 <entity_class name="zombieTemplateMale">
 	<property name="EntityType" value="Zombie"/> <!-- This one decides for scoring -->
 	<property name="Tags" value="entity,zombie,walker"/>  <!-- this property DOES NOT inherit on extends and target_tags cannot be AND connected -->
+	<property name="HideInSpawnMenu" value="true"/>
 	<!-- Mesh and class properties -->
 	<property name="Mesh" value="Zombies/zombieStandardBoeRagdoll"/>
 	<property name="AvatarController" value="AvatarZombie01Controller"/>
 	<property name="ModelType" value="Standard"/>
-	<property name="HasRagdoll" value="false"/>
+	<property name="HasRagdoll" value="true"/>
 	<property name="Prefab" value="NPC"/>
 	<property name="Class" value="EntityZombie"/>
 	<property name="Parent" value="Enemies"/>
-	<property name="Mass" value="170"/>
-	<property name="Weight" value="70"/>
 	<property name="PhysicsBody" value="zombieStandard"/>
+	<property name="Mass" value="170"/>
+	<property name="Weight" value="70"/>	
 	<property name="Faction" value="undead"/>
 	<property name="Tags" value="entity,zombie"/>
 	<property name="IsEnemyEntity" value="true"/>
@@ -121,6 +122,7 @@
 	<property name="CompassUpIcon" value="ui_game_symbol_enemy_dot_up" />
 	<property name="CompassDownIcon" value="ui_game_symbol_enemy_dot_down" />
 	<property name="TrackerIcon" value="ui_game_symbol_run"/>
+	
 	<property name="AINoiseSeekDist" value="8"/>
 	<property name="AIPathCostScale" value=".15, .4"/>
 	<property name="AITask-1" value="Territorial"/>
@@ -340,7 +342,7 @@
 	<property name="SoundHurt" value="Enemies/Base_Zombie_Male2/zombiemale2pain"/>
 	<property name="SoundDeath" value="Enemies/Base_Zombie_Male2/zombiemale2death"/>
 	<property name="SoundSense" value="Enemies/Base_Zombie_Male2/zombiemale2sense"/>
-	<property name="Mesh" value="Zombies/zombieStandardBoeRagdoll"/>
+	<property name="Mesh" value="Zombies/zombieStandardBoeHDRagdoll"/>
 	<property name="AvatarController" value="AvatarZombie01Controller"/>
 	<property name="ModelType" value="Standard"/>
 	<property name="WalkType" value="2"/>
@@ -352,6 +354,8 @@
 	<property name="MoveSpeed" value="0.06"/>
 	<property name="MoveSpeedAggro" value="0.2, 1.1"/>
 	<property name="JumpMaxDistance" value="0"/>
+	<property name="LootDropProb" value="0.02"/> 
+	<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
 
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="150"/>
