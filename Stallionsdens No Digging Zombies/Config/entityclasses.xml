@@ -327,7 +327,7 @@
 	<property name="SoundHurt" value="Enemies/Base_Zombie_Male2/zombiemale2pain"/>
 	<property name="SoundDeath" value="Enemies/Base_Zombie_Male2/zombiemale2death"/>
 	<property name="SoundSense" value="Enemies/Base_Zombie_Male2/zombiemale2sense"/>
-	<property name="Mesh" value="Zombies/zombieStandardBoeRagdoll"/>
+	<property name="Mesh" value="Zombies/zombieStandardBoeHDRagdoll"/>
 	<property name="AvatarController" value="AvatarZombie01Controller"/>
 	<property name="ModelType" value="Standard"/>
 	<property name="WalkType" value="2"/>

@@ -1,6 +1,7 @@
 <stallionsden>
 <remove xpath="/items/item[@name='meleeHandZombie01']"/>
 <remove xpath="/items/item[@name='meleeHandZombieFeral']"/>
+<remove xpath="/items/item[@name='meleeHandZombieBalancingDummy']"/>
 <remove xpath="/items/item[@name='meleeHandZombie02']"/>
 <remove xpath="/items/item[@name='meleeHandZombie02Feral']"/>
 <remove xpath="/items/item[@name='meleeHandZombieBurning']"/>
