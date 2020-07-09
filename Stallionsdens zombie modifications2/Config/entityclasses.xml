@@ -2856,7 +2856,8 @@
 <insertAfter xpath="/entity_classes/entity_class[@name='animalCoyote']" >
 <entity_class name="animalDireWolf" extends="animalWolf">
 	<property name="Mass" value="180"/>
-	<property name="Prefab" value="/Entities/Animals/Wolf/animalStandardDireWolfRagdoll"/>
+	<property name="Prefab" value="/Entities/Animals/Wolf/animalStandardWolfRagdoll"/>
+	<property name="SizeScale" value="1.4"/>
 	<property name="ReplaceMaterial1" value="entities/animals/wolf/materials/wolfEyeFeral"/>
 
 	<property name="AITask-1" value="Territorial"/>

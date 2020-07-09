@@ -2410,6 +2410,7 @@
 <entity_class name="animalTemplateTimid">
 	<property name="Tags" value="entity,animal"/>
 	<property name="Mesh" value="Animals/Stag/STAG"/>
+	<property name="HideInSpawnMenu" value="true"/>
 	<property name="ModelType" value="Standard"/>
 	<property name="Prefab" value="NPC"/>
 	<property name="Class" value="EntityAnimalStag"/>
@@ -2631,6 +2632,7 @@
 <entity_class name="animalTemplateHostile">
 	<property name="Tags" value="entity,animal,hostile"/>
 	<property name="Mesh" value="Zombies/zombieDogPrefab"/>
+	<property name="HideInSpawnMenu" value="true"/>
 	<property name="ModelType" value="Standard"/>
 	<property name="Prefab" value="NPC"/>
 	<property name="Class" value="EntityEnemyAnimal"/>
@@ -2917,7 +2919,8 @@
 <insertAfter xpath="/entity_classes/entity_class[@name='animalCoyote']" >
 <entity_class name="animalDireWolf" extends="animalWolf">
 	<property name="Mass" value="180"/>
-	<property name="Prefab" value="/Entities/Animals/Wolf/animalStandardDireWolfRagdoll"/>
+	<property name="Prefab" value="/Entities/Animals/Wolf/animalStandardWolfRagdoll"/>
+	<property name="SizeScale" value="1.4"/>
 	<property name="ReplaceMaterial1" value="entities/animals/wolf/materials/wolfEyeFeral"/>
 
 	<property name="AITask-1" value="Territorial"/>
