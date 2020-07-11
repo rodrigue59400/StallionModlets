@@ -1,0 +1,13 @@
+Key,Source,Context,Changes,English
+Survivor's Pack1 (Locked),blocks,Block,KgNone,(Locked) Survivor's Pack 1
+Survivor's Pack1 (Locked)Desc,,blocks,Block,This locked bag contains weapons,ammo,tools,resources and clothing you been amassing for the end of the world.,,,,,
+Survivor's Pack1,blocks,Block,KgNone,Survivor's Pack 1 
+Survivor's Pack1Desc,,blocks,Block,This bag contains weapons,ammo,tools,resources and clothing you been amassing for the end of the world.,,,,,
+Survivor's Pack2 (Locked),blocks,Block,KgNone,(Locked) Survivor's Pack 2
+Survivor's Pack2 (Locked)Desc,,blocks,Block,This locked bag contains weapon mod parts you been amassing for the end of the world.,,,,,
+Survivor's Pack2,blocks,Block,KgNone,Survivor's Pack 2 
+Survivor's Pack2Desc,,blocks,Block,This bag contains weapon mod parts you been amassing for the end of the world.,,,,,
+Survivor's Pack3 (Locked),blocks,Block,KgNone,(Locked) Survivor's Pack 3 
+Survivor's Pack3 (Locked)Desc,,blocks,Block,This locked bag contains rations you been amassing for the end of the world.,,,,,
+Survivor's Pack3,blocks,Block,KgNone,Survivor's Pack 3
+Survivor's Pack3Desc,,blocks,Block,This bag contains rations you been amassing for the end of the world.,,,,,

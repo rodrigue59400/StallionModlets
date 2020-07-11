@@ -3,6 +3,7 @@
 <!-- Survival Backpacks Start -->
 <block name="Survivor's Pack1 (Locked)">
     <property name="CustomIcon" value="cntDuffle01" />
+	<property name="DescriptionKey" value="Survivor's Pack1 (Locked)Desc"/>
    <property name="Material" value="Mcloth"/>
 	<property name="LightOpacity" value="0"/>
 	<property name="StabilitySupport" value="false"/> <!-- build restriction -->
@@ -18,6 +19,7 @@
  
 <block name="Survivor's Pack1">
     <property name="Extends" value="Survivor's Pack1 (Locked)" param1="DowngradeBlock" />
+	<property name="DescriptionKey" value="Survivor's Pack1Desc"/>
     <property name="Class" value="Loot" />
     <property name="LootList" value="221" />
     <drop event="Destroy" count="0" />
@@ -25,6 +27,7 @@
  
  <block name="Survivor's Pack2 (Locked)">
     <property name="CustomIcon" value="cntDuffle01" />
+	<property name="DescriptionKey" value="Survivor's Pack2 (Locked)Desc"/>
     <property name="Material" value="Mcloth"/>
 	<property name="LightOpacity" value="0"/>
 	<property name="StabilitySupport" value="false"/> <!-- build restriction -->
@@ -40,6 +43,7 @@
  
 <block name="Survivor's Pack2">
     <property name="Extends" value="Survivor's Pack2 (Locked)" param1="DowngradeBlock" />
+	<property name="DescriptionKey" value="Survivor's Pack2Desc"/>
     <property name="Class" value="Loot" />
     <property name="LootList" value="222" />
     <drop event="Destroy" count="0" />
@@ -47,6 +51,7 @@
  
  <block name="Survivor's Pack3 (Locked)">
     <property name="CustomIcon" value="cntDuffle01" />
+	<property name="DescriptionKey" value="Survivor's Pack3 (Locked)Desc"/>
     <property name="Material" value="Mcloth"/>
 	<property name="LightOpacity" value="0"/>
 	<property name="StabilitySupport" value="false"/> <!-- build restriction -->
@@ -62,6 +67,7 @@
  
 <block name="Survivor's Pack3">
     <property name="Extends" value="Survivor's Pack3 (Locked)" param1="DowngradeBlock" />
+	<property name="DescriptionKey" value="Survivor's Pack3Desc"/>
     <property name="Class" value="Loot" />
     <property name="LootList" value="223" />
     <drop event="Destroy" count="0" />
