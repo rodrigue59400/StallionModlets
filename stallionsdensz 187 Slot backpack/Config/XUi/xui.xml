@@ -2,4 +2,39 @@
 	<!-- Main scale of UI -->
 	<set xpath="/xui/ruleset[@name='default']/@scale">1.05</set>
 	<set xpath="/xui/ruleset[@name='default']/@stackpanel_scale">0.66</set>
+	
+	<remove xpath="/xui/ruleset/window_group[@name='workstation_forge']"></remove>
+	<remove xpath="/xui/ruleset/window_group[@name='workstation_cementMixer']"></remove>
+	<remove xpath="/xui/ruleset/window_group[@name='workstation_workbench']"></remove>
+	<insertAfter xpath="/xui/ruleset/window_group[@name='workstation_campfire']" >
+	<window_group name="workstation_forge" controller="XUiC_WorkstationWindowGroup">
+			<window name="windowCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<window name="windowCraftingQueue"/>
+			<window name="windowToolsForge" />
+			<window name="windowFuel" />
+			<window name="windowForgeInput" />
+			<window name="stallionsdensForgeOutput" />
+			<window name="windowNonPagingHeader" />
+		</window_group>		
+	</insertAfter>
+	<insertAfter xpath="/xui/ruleset/window_group[@name='workstation_forge']" >
+	<window_group name="workstation_cementMixer" controller="XUiC_WorkstationWindowGroup">
+			<window name="windowCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<window name="windowCraftingQueue"/>
+			<window name="stallionsdensCementMixerOutput" />
+			<window name="windowNonPagingHeader" />
+		</window_group>		
+	</insertAfter>
+	<insertAfter xpath="/xui/ruleset/window_group[@name='workstation_cementMixer']" >
+	<window_group name="workstation_workbench" controller="XUiC_WorkstationWindowGroup">
+			<window name="windowCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<window name="windowCraftingQueue"/>
+			<window name="stallionsdensWorkBenchOutput" />
+			<window name="windowNonPagingHeader" />
+			<!-- <window name="windowCombine" /> -->
+		</window_group>	
+	</insertAfter>	
 	</stallionsden>

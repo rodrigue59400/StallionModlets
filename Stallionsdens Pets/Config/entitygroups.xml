@@ -48,29 +48,11 @@
 <append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsBurntForest']" ><entity name="beakyBuzzard" prob="0.05" /></append> 
 <append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsBurntForest']" ><entity name="yogiBear" prob="0.05" /></append> 
 <append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsBurntForest']" ><entity name="Baloo" prob="0.05" />	</append>
-
-<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsBurntForest']" ><entity name="bugsBunny" prob="0.05" /></append> 
-<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsBurntForest']" ><entity name="porkyPig" prob="0.05" /></append> 
-<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsBurntForest']" ><entity name="missPiggy" prob="0.05" /></append> 
-<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsBurntForest']" ><entity name="Buck" prob="0.05" /></append> 
-<append xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsBurntForest']" ><entity name="Bambi" prob="0.05" /></append>
- 
-<append xpath="/entitygroups/entitygroup[@name='AnimalsAll']" ><entity name="bugsBunny" prob="0.05" /></append> 
-<append xpath="/entitygroups/entitygroup[@name='AnimalsAll']" ><entity name="porkyPig" prob="0.05" /></append> 
-<append xpath="/entitygroups/entitygroup[@name='AnimalsAll']" ><entity name="missPiggy" prob="0.05" /></append> 
-<append xpath="/entitygroups/entitygroup[@name='AnimalsAll']" ><entity name="Buck" prob="0.05" /></append> 
-<append xpath="/entitygroups/entitygroup[@name='AnimalsAll']" ><entity name="Bambi" prob="0.05" /></append> 
-<append xpath="/entitygroups/entitygroup[@name='AnimalsAll']" ><entity name="foghornLeghorn" prob="0.05" /></append> 
-<append xpath="/entitygroups/entitygroup[@name='AnimalsAll']" ><entity name="bigBadWolf" prob="0.05" /></append> 
-<append xpath="/entitygroups/entitygroup[@name='AnimalsAll']" ><entity name="wileyCoyote" prob="0.05" /></append> 
-<append xpath="/entitygroups/entitygroup[@name='AnimalsAll']" ><entity name="yogiBear" prob="0.05" /></append> 
-<append xpath="/entitygroups/entitygroup[@name='AnimalsAll']" ><entity name="Baloo" prob="0.05" />	</append> 
-<append xpath="/entitygroups/entitygroup[@name='AnimalsAll']" ><entity name="sirHiss" prob="0.05" /></append> 
-<append xpath="/entitygroups/entitygroup[@name='AnimalsAll']" ><entity name="Tweety" prob="0.05" /></append> 
-<append xpath="/entitygroups/entitygroup[@name='AnimalsAll']" ><entity name="beakyBuzzard" prob="0.05" /></append> 
-<append xpath="/entitygroups/entitygroup[@name='AnimalsAll']" ><entity name="Scooby" prob="0.05" /></append>
-<append xpath="/entitygroups/entitygroup[@name='AnimalsAll']" ><entity name="MrFox" prob="0.05" /></append> 
-<append xpath="/entitygroups/entitygroup[@name='AnimalsAll']" ><entity name="Luca" prob="0.05" />	</append> 
+<append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsBurntForest']" ><entity name="bugsBunny" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsBurntForest']" ><entity name="porkyPig" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsBurntForest']" ><entity name="missPiggy" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsBurntForest']" ><entity name="Buck" prob="0.05" /></append> 
+<append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsBurntForest']" ><entity name="Bambi" prob="0.05" /></append>
  
 <append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsWasteland']" ><entity name="sirHiss" prob="0.05" /></append> 
 <append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsWasteland']" ><entity name="Tweety" prob="0.05" /></append> 
@@ -80,5 +62,7 @@
 <append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsWasteland']" ><entity name="Baloo" prob="0.05" />	</append> 
 <append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsWasteland']" ><entity name="MrFox" prob="0.05" /></append> 
 <append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsWasteland']" ><entity name="Luca" prob="0.05" />	</append> 
+
+
 
 </stallionsden>

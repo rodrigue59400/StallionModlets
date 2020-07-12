@@ -4,7 +4,7 @@
 		<item name="nuclearBatterySchematic" count="1" prob="0.01" />
 		<item name="nuclearSolarSchematic" count="1" prob="0.01" />
 </append>
-<append xpath="/lootcontainers/lootgroup[@name='rareBooks']">	
+<append xpath="/lootcontainers/lootgroup[@name='booksRareOnlyScaled']">	
 		<item name="nuclearGeneratorSchematic" count="1" prob="0.01" />
 		<item name="nuclearBatterySchematic" count="1" prob="0.01" />
 		<item name="nuclearSolarSchematic" count="1" prob="0.01" />
@@ -14,7 +14,7 @@
 		<item name="nuclearBatterySchematic" count="1" prob="0.01" />
 		<item name="nuclearSolarSchematic" count="1" prob="0.01" />
 </append>
-<append xpath="/lootcontainers/lootgroup[@name='schematicsModsRare']">	
+<append xpath="/lootcontainers/lootgroup[@name='schematicsModsAndGeneralRare']">	
 		<item name="nuclearGeneratorSchematic" count="1" prob="0.01" />
 		<item name="nuclearBatterySchematic" count="1" prob="0.01" />
 		<item name="nuclearSolarSchematic" count="1" prob="0.01" />

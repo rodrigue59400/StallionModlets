@@ -570,7 +570,7 @@
 		<item name="ammoGasCan" count="150,500" prob="0.05"/>
         </lootgroup>
 	</insertAfter>	
-	<insertAfter xpath="/lootcontainers/lootcontainer[@id='124']" >	
+	<append xpath="/lootcontainers" >	
 	<lootcontainer id="216" count="11" size="10,9" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualBaseTemplate">
        <item group="SupplyResources"/>
         <item group="SupplyDesigns"/>
@@ -586,14 +586,15 @@
 		<item group="groupWeaponsMeleeScaled"  count="1,2" prob="0.1" />
 		<item group="groupWeaponsRangedScaled"  count="1,2" prob="0.1" />
 		<item group="trophyGroup" count="1,2" prob="0.1" />
-		<item group="books" count="1,2" prob="0.1" />
+		<item group="booksAllScaled" count="1,2" prob="0.1" />
+		<item group="booksRareOnlyScaled" count="1,2" prob="0.1" />
 		<item group="warmClothes" count="1,2" prob="0.1" />
 		<item group="groupArmorScaledTPlus" count="1,2" prob="0.1" />
-		<item group="groupArmor_LightTPlus" count="1,2"  prob="0.1" />
+		<item group="groupModAllScaled" count="1,2"  prob="0.1" />
 		<item group="groupAllArmor/Cloth"  count="1,2" prob="0.1" />		
 		<item group="sportingGoods" count="1,2" prob="0.1" />
 		<item group="junk" count="1,2" prob="0.1" />
 		<item group="cupboard" count="1,2" prob="0.1" />
     </lootcontainer>			
-</insertAfter> 
+</append> 
 </stallionsden>
