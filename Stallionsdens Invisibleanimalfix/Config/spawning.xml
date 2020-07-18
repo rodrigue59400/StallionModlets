@@ -1,17 +1,30 @@
 <stallionsden>
-<remove xpath="/spawning/biome[@name='pine_forest']/spawn[@entitygroup='FriendlyAnimalsForest']"></remove>
-<remove xpath="/spawning/biome[@name='desert']/spawn[@entitygroup='FriendlyAnimalsDesert']"></remove>
+<remove xpath="/spawning/biome[@name='pine_forest']/spawn[@entitygroup='WildGameForest']"></remove>
+<remove xpath="/spawning/biome[@name='burnt_forest']/spawn[@entitygroup='WildGameForest']"></remove>
+<remove xpath="/spawning/biome[@name='desert']/spawn[@entitygroup='WildGameForest']"></remove>
+<remove xpath="/spawning/biome[@name='snow']/spawn[@entitygroup='WildGameForest']"></remove>
+
+<!--<remove xpath="/spawning/biome[@name='desert']/spawn[@entitygroup='FriendlyAnimalsDesert']"></remove>
 <remove xpath="/spawning/biome[@name='wasteland']/spawn[@entitygroup='EnemyAnimalsWasteland']"></remove>
-<remove xpath="/spawning/biome[@name='burnt_forest']/spawn[@entitygroup='FriendlyAnimalsForest']"></remove>
-<remove xpath="/spawning/biome[@name='snow']/spawn[@entitygroup='FriendlyAnimalsSnow']"></remove>
+<remove xpath="/spawning/biome[@name='burnt_forest']/spawn[@entitygroup='WildGameForest']"></remove>
+<remove xpath="/spawning/biome[@name='snow']/spawn[@entitygroup='FriendlyAnimalsSnow']"></remove>-->
 
 <!--<set xpath="/spawning/biome[@name='wasteland']/spawn[@entitygroup='EnemyAnimalsWasteland']/@respawndelay">7</set>-->
 
 <insertAfter xpath="/spawning/biome[@name='pine_forest']/spawn[@entitygroup='ZombiesAll']">
-		<spawn maxcount="4" respawndelay="1" time="Any" entitygroup="FriendlyAnimalsForest" spawnDeadChance="0"/>
+		<spawn maxcount="2" respawndelay="1" time="Any" entitygroup="WildGameForest" spawnDeadChance="0"/>
 		</insertAfter>
+<insertAfter xpath="/spawning/biome[@name='burnt_forest']/spawn[@entitygroup='ZombiesNight']">
+		<spawn maxcount="2" respawndelay="1" time="Any" entitygroup="WildGameForest" spawnDeadChance="0"/>
+		</insertAfter>		
+<insertAfter xpath="/spawning/biome[@name='desert']/spawn[@entitygroup='ZombiesAll']">
+		<spawn maxcount="2" respawndelay="1" time="Any" entitygroup="WildGameForest" spawnDeadChance="0"/>
+		</insertAfter>		
+<insertAfter xpath="/spawning/biome[@name='snow']/spawn[@entitygroup='ZombiesNight']">
+		<spawn maxcount="2" respawndelay="1" time="Any" entitygroup="WildGameForest" spawnDeadChance="0"/>
+		</insertAfter>		
 
-	<insertAfter xpath="/spawning/biome[@name='desert']/spawn[@entitygroup='ZombiesAll']">
+<!--<insertAfter xpath="/spawning/biome[@name='desert']/spawn[@entitygroup='ZombiesAll']">
 		<spawn maxcount="4" respawndelay="1" time="Any" entitygroup="FriendlyAnimalsDesert" spawnDeadChance="0"/>
 		</insertAfter>
 		
@@ -20,7 +33,7 @@
 		</insertAfter>
 
 	<insertAfter xpath="/spawning/biome[@name='burnt_forest']/spawn[@entitygroup='ZombiesBurntForest']">
-		<spawn maxcount="4" respawndelay="7" time="Any" entitygroup="FriendlyAnimalsBurntForest" spawnDeadChance="0"/>
+		<spawn maxcount="4" respawndelay="4" time="Any" entitygroup="FriendlyAnimalsBurntForest" spawnDeadChance="0"/>
 		</insertAfter>
 
 	<insertAfter xpath="/spawning/biome[@name='snow']/spawn[@entitygroup='SnowZombies']">
@@ -28,42 +41,6 @@
 		</insertAfter>
 	
 		<insertAfter xpath="/spawning/biome[@name='wasteland']/spawn[@entitygroup='ZombiesWastelandNight']">
-		<spawn maxcount="4" respawndelay="1" time="Any" entitygroup="AnimalsWastelandAll" spawnDeadChance="0"/>
-		</insertAfter>
+		<spawn maxcount="4" respawndelay="4" time="Any" entitygroup="AnimalsWastelandAll" spawnDeadChance="0"/>
+		</insertAfter>-->
 </stallionsden>
-
-<!-- ****INSTRUCTIONS - SIMPLY MOVE THE LINE/S YOU WANT TO EDIT FROM BELOW TO UNDERNEATH THE REMOVE LINES AND EDIT THE VALUES AT THE END TO THE APPROPRIATE VALUES YOU WISH IS APPROPRIATE. 
-RESPAWN DELAY IS HOW MANY IN GAME DAYS THE ANIMAL WILL RESPAWN IN THAT AREA AFTER YOU HAVE KILLED THE SPAWNED ANIMALS PRIOR. MAX COUNTS IS HOW MAY ANIMALS ALIVE AT ONE TIME ****** -->
-
-<!-- SET THE RESPAWN DELAY TO HOW EVER MANY INGAME DAYS YOU FEEL IS APPROPRIATE -->
-
-<!-- ENEMY ANIMALS ALL BIOMES RESPAWN DELAYS -->
-<!-- <set xpath="/spawning/biome[@name='pine_forest']/spawn[@entitygroup='EnemyAnimalsForest']/@respawndelay">7</set>
-<set xpath="/spawning/biome[@name='desert']/spawn[@entitygroup='EnemyAnimalsDesert']/@respawndelay">7</set>
-<set xpath="/spawning/biome[@name='burnt_forest']/spawn[@entitygroup='EnemyAnimalsBurntForest']/@respawndelay">7</set>
-<set xpath="/spawning/biome[@name='snow']/spawn[@entitygroup='EnemyAnimalsSnow']/@respawndelay">7</set> -->
-
-<!-- FRIENDLY ANIMALS ALL BIOMES RESPAWN DAYS -->
-<!-- <set xpath="/spawning/biome[@name='pine_forest']/spawn[@entitygroup='FriendlyAnimalsAll']/@respawndelay">1</set>
-<set xpath="/spawning/biome[@name='desert']/spawn[@entitygroup='FriendlyAnimalsAll']/@respawndelay">1</set>
-<set xpath="/spawning/biome[@name='burnt_forest']/spawn[@entitygroup='FriendlyAnimalsAll']/@respawndelay">1</set>
-<set xpath="/spawning/biome[@name='wasteland']/spawn[@entitygroup='FriendlyAnimalsAll']/@respawndelay">1</set>
-<set xpath="/spawning/biome[@name='snow']/spawn[@entitygroup='FriendlyAnimalsAll']/@respawndelay">1</set> -->
-
-<!-- SET THE MAX SPAWNS TO HOW EVER MANY ALIVE ANIMALS YOU FEEL IS APPROPRIATE -->
-
-<!-- ENEMY ANIMALS ALL BIOMES MAX SPAWNS-->
-<!-- <set xpath="/spawning/biome[@name='pine_forest']/spawn[@entitygroup='EnemyAnimalsForest']/@maxcount">1</set>
-<set xpath="/spawning/biome[@name='desert']/spawn[@entitygroup='EnemyAnimalsDesert']/@maxcount">1</set>
-<set xpath="/spawning/biome[@name='burnt_forest']/spawn[@entitygroup='EnemyAnimalsBurntForest']/@maxcount">1</set>
-<set xpath="/spawning/biome[@name='snow']/spawn[@entitygroup='EnemyAnimalsSnow']/@maxcount">1</set>
-<set xpath="/spawning/biome[@name='wasteland']/spawn[@entitygroup='EnemyAnimalsWasteland']/@maxcount">1</set> -->
-
-<!-- FRIENDLY ANIMALS ALL BIOMES MAX SPAWNS -->
-<!-- <set xpath="/spawning/biome[@name='pine_forest']/spawn[@entitygroup='FriendlyAnimalsAll']/@maxcount">4</set>
-<set xpath="/spawning/biome[@name='desert']/spawn[@entitygroup='FriendlyAnimalsAll']/@maxcount">4</set>
-<set xpath="/spawning/biome[@name='burnt_forest']/spawn[@entitygroup='FriendlyAnimalsAll']/@maxcount">4</set>
-<set xpath="/spawning/biome[@name='wasteland']/spawn[@entitygroup='FriendlyAnimalsAll']/@maxcount">4</set>
-<set xpath="/spawning/biome[@name='snow']/spawn[@entitygroup='FriendlyAnimalsAll']/@maxcount">4</set> -->
-
-
