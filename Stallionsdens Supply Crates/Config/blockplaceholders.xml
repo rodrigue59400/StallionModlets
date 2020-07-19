@@ -1,6 +1,6 @@
 <stallionsden>
 <append xpath="/blockplaceholders/placeholder[@name='carsRandomHelper']">
-<block name="SupplyContainer(Locked)" prob="0.00033"/>
+<block name="SupplyContainer(Locked)" prob="0.000003"/>
 </append>
 
 <append xpath="/blockplaceholders/placeholder[@name='carWrecksRandomHelper']">

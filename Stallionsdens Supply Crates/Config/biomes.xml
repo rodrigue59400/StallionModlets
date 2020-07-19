@@ -23,10 +23,10 @@
 		
 	
 	 <append xpath="/worldgeneration/pois/poi[@name='City Asphalt']">
-	<blockontop blockname="SupplyContainer(Locked)" prob="0.00033" />
+	<blockontop blockname="SupplyContainer(Locked)" prob="0.000003" />
 	</append>	
 	<append xpath="/worldgeneration/pois/poi[@name='Country Road Asphalt']">
-	<blockontop blockname="SupplyContainer(Locked)" prob="0.00033" />
+	<blockontop blockname="SupplyContainer(Locked)" prob="0.000003" />
 	</append>
 	<append xpath="/worldgeneration/pois/poi[@name='Road Gravel']">
 	<blockontop blockname="SupplyContainer(Locked)" prob="0.00033" />
