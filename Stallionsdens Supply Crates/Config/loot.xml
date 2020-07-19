@@ -572,19 +572,19 @@
 	</insertAfter>	
 	<append xpath="/lootcontainers" >	
 	<lootcontainer id="216" count="11" size="10,9" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualBaseTemplate">
-       <item group="SupplyResources"/>
-        <item group="SupplyDesigns"/>
-        <item group="SupplyBooks"/>
-        <item group="SupplyMeals"/>
-		<item group="SupplyTech"/>
-		<item group="SupplyGuns"/>
-		<item group="SupplyFirstAid"/>
-        <item group="SupplyAmmunition"/>
-        <item group="SupplyAmmunitionBundles"/>
-		<item group="SupplyWorkGear"/>
-        <item group="SupplyMechanical"/>
-		<item group="groupWeaponsMeleeScaled"  count="1,2" prob="0.1" />
-		<item group="groupWeaponsRangedScaled"  count="1,2" prob="0.1" />
+       <item group="SupplyResources" count="1,9" prob="0.01"/>
+        <item group="SupplyDesigns" count="1,3" prob="0.1"/>
+        <item group="SupplyBooks" count="1,3" prob="0.01"/>
+        <item group="SupplyMeals" count="1,4" prob="0.1"/>
+		<item group="SupplyTech" count="1,3" prob="0.01"/>
+		<item group="SupplyGuns" count="1,2" prob="0.01"/>
+		<item group="SupplyFirstAid" count="1,6" prob="0.01"/>
+        <item group="SupplyAmmunition" count="1,4" prob="0.01"/>
+        <item group="SupplyAmmunitionBundles" count="1,2" prob="0.001"/>
+		<item group="SupplyWorkGear" count="1,2" prob="0.01"/>
+        <item group="SupplyMechanical" count="1,3" prob="0.01"/>
+		<item group="groupWeaponsMeleeScaled" count="1,2" prob="0.01" />
+		<item group="groupWeaponsRangedScaled" count="1,2" prob="0.01" />
 		<item group="trophyGroup" count="1,2" prob="0.1" />
 		<item group="booksAllScaled" count="1,2" prob="0.1" />
 		<item group="booksRareOnlyScaled" count="1,2" prob="0.1" />
