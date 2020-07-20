@@ -103,8 +103,8 @@
 <remove xpath="/blocks/block[@name='cntArmyTruckOpen']"></remove>
 <remove xpath="/blocks/block[@name='cntArmyTruckClosed']"></remove>
 <remove xpath="/blocks/block[@name='cntDisplayCaseAmmoLeftBroken']"></remove>
-<remove xpath="/blocks/block[@name='cntDisplayCaseAmmoMiddleBroken02']"></remove>
-<remove xpath="/blocks/block[@name='cntDisplayCaseAmmoRightBroken']"></remove>	
+<remove xpath="/blocks/block[@name='cntDisplayCaseAmmoRightBroken']"></remove>
+<remove xpath="/blocks/block[@name='cntDisplayCaseAmmoMiddleBroken02']"></remove>	
 <!-- REMOVES -->
 <!-- FIXED CONTAINERS -->
 <insertAfter xpath="/blocks/block[@name='cntCabinetBottomOpen']">
@@ -12293,7 +12293,7 @@
 <!-- DISPLAY CASE AMMO LEFT -->
 <!-- DISPLAY CASE AMMO MIDDLE -->
 <insertAfter xpath="/blocks/block[@name='cntDisplayCaseEmptyLeftBroken']">
-<block name="cntDisplayCaseEmptyMiddle">
+<block name="cntDisplayCaseMiddleEmpty">
 	<property name="Extends" value="cntDisplayCaseEmptyLeft"/>
 	<property name="DescriptionKey" value="cntDisplayCaseEmptyMiddleDesc"/>
 	<property name="CustomIcon" value="cntDisplayCaseEmptyMiddle"/> <property name="CustomIconTint" value="ff8080"/>
@@ -12303,19 +12303,19 @@
 	<property name="UpgradeRated.Rate" value="63"/>
 </block>
 </insertAfter>
-<insertAfter xpath="/blocks/block[@name='cntDisplayCaseEmptyMiddle']">
-<block name="cntDisplayCaseEmptyMiddle1">
-	<property name="Extends" value="cntDisplayCaseEmptyMiddle"/>
+<insertAfter xpath="/blocks/block[@name='cntDisplayCaseMiddleEmpty']">
+<block name="cntDisplayCaseMiddleEmpty1">
+	<property name="Extends" value="cntDisplayCaseMiddleEmpty"/>
 	<property name="CustomIcon" value="cntDisplayCaseEmptyMiddle"/> <property name="CustomIconTint" value="ff8080"/>
 	<property name="Model" value="Entities/Commercial/displayCaseMiddlePrefab"/>
 	<property name="Class" value="UpgradeRated"/>
-	<property name="UpgradeRated.ToBlock" value="cntDisplayCaseEmptyMiddle2"/>
+	<property name="UpgradeRated.ToBlock" value="cntDisplayCaseMiddleEmpty2"/>
 	<property name="UpgradeRated.Rate" value="63"/>
 </block>
 </insertAfter>
-<insertAfter xpath="/blocks/block[@name='cntDisplayCaseEmptyMiddle1']">
-<block name="cntDisplayCaseEmptyMiddle2">
-	<property name="Extends" value="cntDisplayCaseEmptyMiddle"/>
+<insertAfter xpath="/blocks/block[@name='cntDisplayCaseMiddleEmpty1']">
+<block name="cntDisplayCaseMiddleEmpty2">
+	<property name="Extends" value="cntDisplayCaseMiddleEmpty"/>
 	<property name="CustomIcon" value="cntDisplayCaseEmptyMiddle"/> <property name="CustomIconTint" value="ff8080"/>
 	<property name="Model" value="Entities/Commercial/displayCaseMiddlePrefab"/>
 	<property name="Class" value="UpgradeRated"/>
@@ -12323,39 +12323,39 @@
 	<property name="UpgradeRated.Rate" value="63"/>
 </block>
 </insertAfter>
-<insertAfter xpath="/blocks/block[@name='cntDisplayCaseEmptyMiddle2']">
-<block name="cntDisplayCaseEmptyMiddle3">
-	<property name="Extends" value="cntDisplayCaseEmptyMiddle"/>
+<insertAfter xpath="/blocks/block[@name='cntDisplayCaseMiddleEmpty2']">
+<block name="cntDisplayCaseMiddleEmpty3">
+	<property name="Extends" value="cntDisplayCaseMiddleEmpty"/>
 	<property name="CustomIcon" value="cntDisplayCaseEmptyMiddle"/> <property name="CustomIconTint" value="ff8080"/>
 	<property name="Model" value="Entities/Commercial/displayCaseMiddlePrefab"/>
 	<property name="Class" value="UpgradeRated"/>
-	<property name="UpgradeRated.ToBlock" value="cntDisplayCaseEmptyMiddle4"/>
+	<property name="UpgradeRated.ToBlock" value="cntDisplayCaseMiddleEmpty4"/>
 	<property name="UpgradeRated.Rate" value="63"/>
 </block>
 </insertAfter>
-<insertAfter xpath="/blocks/block[@name='cntDisplayCaseEmptyMiddle3']">
-<block name="cntDisplayCaseEmptyMiddle4">
-	<property name="Extends" value="cntDisplayCaseEmptyMiddle"/>
+<insertAfter xpath="/blocks/block[@name='cntDisplayCaseMiddleEmpty3']">
+<block name="cntDisplayCaseMiddleEmpty4">
+	<property name="Extends" value="cntDisplayCaseMiddleEmpty"/>
 	<property name="CustomIcon" value="cntDisplayCaseEmptyMiddle"/> <property name="CustomIconTint" value="ff8080"/>
 	<property name="Model" value="Entities/Commercial/displayCaseMiddlePrefab"/>
 	<property name="Class" value="UpgradeRated"/>
-	<property name="UpgradeRated.ToBlock" value="cntDisplayCaseEmptyMiddle5"/>
+	<property name="UpgradeRated.ToBlock" value="cntDisplayCaseMiddleEmpty5"/>
 	<property name="UpgradeRated.Rate" value="63"/>
 </block>
 </insertAfter>
-<insertAfter xpath="/blocks/block[@name='cntDisplayCaseEmptyMiddle4']">
-<block name="cntDisplayCaseEmptyMiddle5">
-	<property name="Extends" value="cntDisplayCaseEmptyMiddle"/>
+<insertAfter xpath="/blocks/block[@name='cntDisplayCaseMiddleEmpty4']">
+<block name="cntDisplayCaseMiddleEmpty5">
+	<property name="Extends" value="cntDisplayCaseMiddleEmpty"/>
 	<property name="CustomIcon" value="cntDisplayCaseEmptyMiddle"/> <property name="CustomIconTint" value="ff8080"/>
 	<property name="Model" value="Entities/Commercial/displayCaseMiddlePrefab"/>
 	<property name="Class" value="UpgradeRated"/>
-	<property name="UpgradeRated.ToBlock" value="cntDisplayCaseEmptyMiddle6"/>
+	<property name="UpgradeRated.ToBlock" value="cntDisplayCaseMiddleEmpty6"/>
 	<property name="UpgradeRated.Rate" value="63"/>
 </block>
 </insertAfter>
-<insertAfter xpath="/blocks/block[@name='cntDisplayCaseEmptyMiddle5']">
-<block name="cntDisplayCaseEmptyMiddle6">
-	<property name="Extends" value="cntDisplayCaseEmptyMiddle"/>
+<insertAfter xpath="/blocks/block[@name='cntDisplayCaseMiddleEmpty5']">
+<block name="cntDisplayCaseMiddleEmpty6">
+	<property name="Extends" value="cntDisplayCaseMiddleEmpty"/>
 	<property name="CustomIcon" value="cntDisplayCaseEmptyMiddle"/> <property name="CustomIconTint" value="ff8080"/>
 	<property name="Model" value="Entities/Commercial/displayCaseMiddlePrefab"/>
 	<property name="Class" value="UpgradeRated"/>
@@ -12363,9 +12363,9 @@
 	<property name="UpgradeRated.Rate" value="63"/>
 </block>
 </insertAfter>
-<insertAfter xpath="/blocks/block[@name='cntDisplayCaseEmptyMiddle6']">
+<insertAfter xpath="/blocks/block[@name='cntDisplayCaseMiddleEmpty6']">
 	<block name="cntDisplayCaseAmmoMiddleBroken02">
-	<property name="Extends" value="cntDisplayCaseEmptyMiddle"/>
+	<property name="Extends" value="cntDisplayCaseMiddleEmpty"/>
 	<property name="Model" value="Entities/Commercial/ammoDisplayDPrefab"/>
 	<property name="DescriptionKey" value="cntDisplayCaseAmmoMiddleBroken02Desc"/>
 	<property name="DowngradeBlock" value="cntDisplayCaseEmptyMiddle" />
@@ -12376,68 +12376,68 @@
 <!-- DISPLAY CASE AMMO MIDDLE -->
 <!-- DISPLAY CASE AMMO RIGHT -->
 <insertAfter xpath="/blocks/block[@name='cntDisplayCaseEmptyMiddleBroken']">
-	<block name="cntDisplayCaseEmptyRight">
+	<block name="cntDisplayCaseRightEmpty">
 	<property name="Extends" value="cntDisplayCaseEmptyLeft"/>
 	<property name="Model" value="Entities/Commercial/displayCaseCap02Prefab"/>
 	<property name="DescriptionKey" value="cntDisplayCaseEmptyMiddleDesc"/>
 	<property name="Class" value="UpgradeRated"/>
-	<property name="UpgradeRated.ToBlock" value="cntDisplayCaseEmptyRight1"/>
+	<property name="UpgradeRated.ToBlock" value="cntDisplayCaseRightEmpty1"/>
 	<property name="UpgradeRated.Rate" value="63"/>	
 </block>
 </insertAfter>
-<insertAfter xpath="/blocks/block[@name='cntDisplayCaseEmptyRight']">
-	<block name="cntDisplayCaseEmptyRight1">
-	<property name="Extends" value="cntDisplayCaseEmptyRight"/>
+<insertAfter xpath="/blocks/block[@name='cntDisplayCaseRightEmpty']">
+	<block name="cntDisplayCaseRightEmpty1">
+	<property name="Extends" value="cntDisplayCaseRightEmpty"/>
 	<property name="Model" value="Entities/Commercial/displayCaseCap02Prefab"/>
 	<property name="CustomIcon" value="cntDisplayCaseEmptyRight"/> <property name="CustomIconTint" value="ff8080"/>
 	<property name="Class" value="UpgradeRated"/>
-	<property name="UpgradeRated.ToBlock" value="cntDisplayCaseEmptyRight2"/>
+	<property name="UpgradeRated.ToBlock" value="cntDisplayCaseRightEmpty2"/>
 	<property name="UpgradeRated.Rate" value="63"/>	
 </block>
 </insertAfter>
-<insertAfter xpath="/blocks/block[@name='cntDisplayCaseEmptyRight1']">
-	<block name="cntDisplayCaseEmptyRight2">
-	<property name="Extends" value="cntDisplayCaseEmptyRight"/>
+<insertAfter xpath="/blocks/block[@name='cntDisplayCaseRightEmpty1']">
+	<block name="cntDisplayCaseRightEmpty2">
+	<property name="Extends" value="cntDisplayCaseRightEmpty"/>
 	<property name="Model" value="Entities/Commercial/displayCaseCap02Prefab"/>
 	<property name="CustomIcon" value="cntDisplayCaseEmptyRight"/> <property name="CustomIconTint" value="ff8080"/>
 	<property name="Class" value="UpgradeRated"/>
-	<property name="UpgradeRated.ToBlock" value="cntDisplayCaseEmptyRight3"/>
+	<property name="UpgradeRated.ToBlock" value="cntDisplayCaseRightEmpty3"/>
 	<property name="UpgradeRated.Rate" value="63"/>	
 </block>
 </insertAfter>
-<insertAfter xpath="/blocks/block[@name='cntDisplayCaseEmptyRight2']">
-	<block name="cntDisplayCaseEmptyRight3">
-	<property name="Extends" value="cntDisplayCaseEmptyRight"/>
+<insertAfter xpath="/blocks/block[@name='cntDisplayCaseRightEmpty2']">
+	<block name="cntDisplayCaseRightEmpty3">
+	<property name="Extends" value="cntDisplayCaseRightEmpty"/>
 	<property name="Model" value="Entities/Commercial/displayCaseCap02Prefab"/>
 	<property name="CustomIcon" value="cntDisplayCaseEmptyRight"/> <property name="CustomIconTint" value="ff8080"/>
 	<property name="Class" value="UpgradeRated"/>
-	<property name="UpgradeRated.ToBlock" value="cntDisplayCaseEmptyRight4"/>
+	<property name="UpgradeRated.ToBlock" value="cntDisplayCaseRightEmpty4"/>
 	<property name="UpgradeRated.Rate" value="63"/>	
 </block>
 </insertAfter>
-<insertAfter xpath="/blocks/block[@name='cntDisplayCaseEmptyRight3']">
-	<block name="cntDisplayCaseEmptyRight4">
-	<property name="Extends" value="cntDisplayCaseEmptyRight"/>
+<insertAfter xpath="/blocks/block[@name='cntDisplayCaseRightEmpty3']">
+	<block name="cntDisplayCaseRightEmpty4">
+	<property name="Extends" value="cntDisplayCaseRightEmpty"/>
 	<property name="Model" value="Entities/Commercial/displayCaseCap02Prefab"/>
 	<property name="CustomIcon" value="cntDisplayCaseEmptyRight"/> <property name="CustomIconTint" value="ff8080"/>
 	<property name="Class" value="UpgradeRated"/>
-	<property name="UpgradeRated.ToBlock" value="cntDisplayCaseEmptyRight5"/>
+	<property name="UpgradeRated.ToBlock" value="cntDisplayCaseRightEmpty5"/>
 	<property name="UpgradeRated.Rate" value="63"/>	
 </block>
 </insertAfter>
-<insertAfter xpath="/blocks/block[@name='cntDisplayCaseEmptyRight4']">
-	<block name="cntDisplayCaseEmptyRight5">
-	<property name="Extends" value="cntDisplayCaseEmptyRight"/>
+<insertAfter xpath="/blocks/block[@name='cntDisplayCaseRightEmpty4']">
+	<block name="cntDisplayCaseRightEmpty5">
+	<property name="Extends" value="cntDisplayCaseRightEmpty"/>
 	<property name="Model" value="Entities/Commercial/displayCaseCap02Prefab"/>
 	<property name="CustomIcon" value="cntDisplayCaseEmptyRight"/> <property name="CustomIconTint" value="ff8080"/>
 	<property name="Class" value="UpgradeRated"/>
-	<property name="UpgradeRated.ToBlock" value="cntDisplayCaseEmptyRight6"/>
+	<property name="UpgradeRated.ToBlock" value="cntDisplayCaseRightEmpty6"/>
 	<property name="UpgradeRated.Rate" value="63"/>	
 </block>
 </insertAfter>
-<insertAfter xpath="/blocks/block[@name='cntDisplayCaseEmptyRight5']">
-	<block name="cntDisplayCaseEmptyRight6">
-	<property name="Extends" value="cntDisplayCaseEmptyRight"/>
+<insertAfter xpath="/blocks/block[@name='cntDisplayCaseRightEmpty5']">
+	<block name="cntDisplayCaseRightEmpty6">
+	<property name="Extends" value="cntDisplayCaseRightEmpty"/>
 	<property name="Model" value="Entities/Commercial/displayCaseCap02Prefab"/>
 	<property name="CustomIcon" value="cntDisplayCaseEmptyRight"/> <property name="CustomIconTint" value="ff8080"/>
 	<property name="Class" value="UpgradeRated"/>
@@ -12445,9 +12445,9 @@
 	<property name="UpgradeRated.Rate" value="63"/>	
 </block>
 </insertAfter>
-<insertAfter xpath="/blocks/block[@name='cntDisplayCaseEmptyRight6']">
+<insertAfter xpath="/blocks/block[@name='cntDisplayCaseRightEmpty6']">
 	<block name="cntDisplayCaseAmmoRightBroken">
-	<property name="Extends" value="cntDisplayCaseEmptyRight"/>
+	<property name="Extends" value="cntDisplayCaseRightEmpty"/>
 	<property name="Model" value="Entities/Commercial/ammoDisplayBPrefab"/>
 	<property name="DescriptionKey" value="cntDisplayCaseAmmoRightBrokenDesc"/>
 	<property name="DowngradeBlock" value="cntDisplayCaseEmptyRight" />

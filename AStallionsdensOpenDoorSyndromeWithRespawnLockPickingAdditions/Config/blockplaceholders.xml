@@ -56,6 +56,9 @@
 <remove xpath="/blockplaceholders/placeholder[@name='cntPillCaseRandomLootHelper']"></remove>
 <remove xpath="/blockplaceholders/placeholder[@name='cntWoodDesk01RandomLootHelper']"></remove>
 <remove xpath="/blockplaceholders/placeholder[@name='cntMetalDesk02RandomLootHelper']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntDisplayCaseAmmoLeftRandomLootHelper']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntDisplayCaseAmmoMiddleRandomLootHelper']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntDisplayCaseAmmoRightRandomLootHelper']"></remove>
 <!-- REMOVES -->
 	
 	<set xpath="/blockplaceholders/placeholder[@name='cntMicrowaveOvenRandomLootHelper']/block[@name='cntMicrowaveOvenVer1Open']/@prob">.66</set>
@@ -559,5 +562,28 @@
 		<block name="bunkBedMattress" prob="1"/>
 		<block name="bunkBedFrame" prob="1"/>
 	</placeholder>
+	
+	<placeholder name="cntDisplayCaseAmmoLeftRandomLootHelper">
+		<block name="cntDisplayCaseLeftEmpty" prob=".65"/>
+		<block name="cntDisplayCaseAmmoLeftBroken" prob=".15"/>
+		<block name="cntDisplayCaseEmptyLeft" prob=".15"/>		
+		<block name="cntDisplayCaseEmptyLeftBroken" prob=".05"/>
+	</placeholder>
+
+	<placeholder name="cntDisplayCaseAmmoMiddleRandomLootHelper">
+		<block name="cntDisplayCaseMiddleEmpty" prob=".50"/>
+		<block name="cntDisplayCaseAmmoMiddleBroken01" prob=".15"/>
+		<block name="cntDisplayCaseAmmoMiddleBroken02" prob=".15"/>
+		<block name="cntDisplayCaseEmptyMiddle" prob=".10"/>
+		<block name="cntDisplayCaseEmptyMiddleBroken" prob=".10"/>
+	</placeholder>
+
+	<placeholder name="cntDisplayCaseAmmoRightRandomLootHelper">
+		<block name="cntDisplayCaseRightEmpty" prob=".60"/>
+		<block name="cntDisplayCaseAmmoRightBroken" prob=".15"/>
+		<block name="cntDisplayCaseEmptyRight" prob=".15"/>
+		<block name="cntDisplayCaseEmptyRightBroken" prob=".10"/>
+	</placeholder>
+	
 	</append>
 </stallionsden>
