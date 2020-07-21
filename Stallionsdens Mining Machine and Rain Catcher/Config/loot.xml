@@ -23,12 +23,29 @@
 		<item name="resourceSilverNugget" count="1,6" prob="0.007"/>
 		<item name="resourceGoldNugget" count="1,6" prob="0.005"/>
 		<item name="resourceRawDiamond" count="1,6" prob="0.007"/>
+		<item name="resourceScrapIron" count="8,12" prob="0.007"/>
 		<item name="resourceIronFragment" count="2,10" prob="0.007"/>
-		<item name="terrOreOilDeposit" count="3,8" prob="0.007"/>
-		<item name="terrOreSilver" count="1,3" prob="0.003"/>
-		<item name="terrOreGold" count="1,3" prob="0.009"/>
-		<item name="terrOreDiamond" count="1,3" prob="0.005"/>
-	</lootcontainer>
+		<item name="resourceBrokenGlass" count="2,10" prob="0.007"/>
+		<item name="resourceCrushedSand" count="8,12" prob="0.007"/>
+		<item name="resourceWood" count="3,12" prob="0.005"/>
+		<item name="resourceRockSmall" count="3,12" prob="0.001"/>
+		<item name="resourceForgedIron" count="3,12" prob="0.005"/>
+		<item name="resourceMetalPipe" count="8,12" prob="0.05"/>
+		<item name="resourceForgedSteel" count="8,12"  prob="0.05"/>
+		<item name="resourceScrapPolymers" count="1,6" prob="0.007"/>
+		<item name="resourceOilShale" count="1,6" prob="0.005"/>
+		<item name="resourceScrapBrass" count="1,6" prob="0.007"/>
+		<item name="resourceScrapLead" count="8,12" prob="0.007"/>
+		<item name="resourceClayLump" count="2,10" prob="0.007"/>
+		<item name="resourceCobblestones" count="2,10" prob="0.007"/>
+		<item name="resourceCement" count="8,12" prob="0.007"/>
+		<item name="resourceConcreteMix" count="3,12" prob="0.005"/>
+		<item name="resourceFertilizer" count="3,12" prob="0.001"/>
+		<item name="resourceCoal" count="3,12" prob="0.005"/>
+		<item name="resourcePotassiumNitratePowder" count="8,12" prob="0.05"/>
+		<item name="resourceGunPowder" count="8,12"  prob="0.05"/>
+		<item name="resourceOil" count="1,6" prob="0.007"/>
+		</lootcontainer>
 </insertAfter>
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='217']" >		
 		<!-- Condenser -->
@@ -36,7 +53,6 @@
 		<item name="drinkJarRiverWater" count="1,10" prob="0.01"/>  
 		<item name="bucketRiverWater" count="1,8" prob="0.1"/>  
 		<item name="drinkJarBoiledWater" count="1,4" prob="0.01"/>  
-		<item name="drinkJarGoldenRodTea" count="1,2" prob="0.005"/>  
 		</lootcontainer>
 </insertAfter>
 </stallionsden>
