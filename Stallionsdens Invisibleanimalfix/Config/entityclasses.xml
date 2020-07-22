@@ -43,7 +43,7 @@
 	<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
 	<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
 	<effect_group name="Base Effects">
-		<passive_effect name="HealthMax" operation="base_set" value="150"/>
+		<passive_effect name="HealthMax" operation="base_set" value="775"/>
 		<passive_effect name="HealthMax" operation="perc_add" value="0"/> <!-- Animal HP scale -->
 	</effect_group>
 	<property name="NavObject" value="animaltracking_stag" />
@@ -68,7 +68,7 @@
 	<property name="NavObject" value="animaltracking_doe" />
 	
 	<effect_group name="Base Effects">
-		<passive_effect name="HealthMax" operation="base_set" value="75"/>
+		<passive_effect name="HealthMax" operation="base_set" value="175"/>
 		<passive_effect name="HealthMax" operation="perc_add" value="0"/> <!-- Animal HP scale -->
 	</effect_group>
 </entity_class>
@@ -113,7 +113,7 @@
 	<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
 
 	<effect_group name="Base Effects">
-		<passive_effect name="HealthMax" operation="base_set" value="10"/>
+		<passive_effect name="HealthMax" operation="base_set" value="120"/>
 		<passive_effect name="HealthMax" operation="perc_add" value="0"/> <!-- Animal HP scale -->
 	</effect_group>
 	<property name="NavObject" value="animaltracking_rabbit" />
@@ -152,7 +152,7 @@
 	<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
 	<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
 	<effect_group name="Base Effects">
-		<passive_effect name="HealthMax" operation="base_set" value="10"/>
+		<passive_effect name="HealthMax" operation="base_set" value="100"/>
 		<passive_effect name="HealthMax" operation="perc_add" value="0"/> <!-- Animal HP scale -->
 	</effect_group>
 	<property name="NavObject" value="animaltracking_chicken" />
@@ -211,7 +211,7 @@
 	<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
 
 	<effect_group name="Base Effects">
-		<passive_effect name="HealthMax" operation="base_set" value="10"/>
+		<passive_effect name="HealthMax" operation="base_set" value="335"/>
 		<passive_effect name="HealthMax" operation="perc_add" value="0"/> <!-- Animal HP scale -->
 	</effect_group>
 	<property name="NavObject" value="animaltracking_snake,clear_sleeper" />
@@ -261,7 +261,7 @@
 	<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
 
 	<effect_group name="Base Effects">
-		<passive_effect name="HealthMax" operation="base_set" value="150"/>
+		<passive_effect name="HealthMax" operation="base_set" value="300"/>
 		<passive_effect name="HealthMax" operation="perc_add" value="0"/> <!-- Animal HP scale -->
 	</effect_group>
 	<property name="NavObject" value="animaltracking_boar,clear_sleeper" />
