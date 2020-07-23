@@ -7,36 +7,36 @@
 		 <item name="resourceWood" count="250,500" />
 		 <item name="resourceYuccaFibers" count="250,500" />	 
         <item name="drugAntibiotics" count="250,500" />
-		 <item name="meleeToolSalvageT3ImpactDriver" count="1" loot_prob_template="GradeALoot" />
-		 <item name="meleeToolSalvageT2Ratchet" count="1" loot_prob_template="GradeALoot" />
-        <item name="meleeWpnBatonT2StunBaton" count="1" loot_prob_template="GradeALoot" />
-		 <item name="meleeWpnSpearT1IronSpear" count="1" loot_prob_template="GradeALoot" />
+		 <item name="meleeToolSalvageT3ImpactDriver" count="1"  />
+		 <item name="meleeToolSalvageT2Ratchet" count="1"  />
+        <item name="meleeWpnBatonT2StunBaton" count="1"  />
+		 <item name="meleeWpnSpearT1IronSpear" count="1"  />
         <item name="bedroll" count="1" />
-		<item name="armorMilitaryBoots" count="1" loot_prob_template="GradeALoot" />
-		<item name="armorMilitaryLegs" count="1" loot_prob_template="GradeALoot" />
-		<item name="armorMilitaryGloves" count="1" loot_prob_template="GradeALoot" />
-		<item name="armorMilitaryHelmet" count="1" loot_prob_template="GradeALoot" />
-		<item name="armorMilitaryVest" count="1" loot_prob_template="GradeALoot" />
-		<item name="armorMiningHelmet" count="1" loot_prob_template="GradeALoot" />
-		<item name="apparelNightvisionGoggles" count="1" loot_prob_template="GradeALoot" />			
-		<item name="gunBowT3CompoundBow" count="1" loot_prob_template="GradeALoot" />	
+		<item name="armorMilitaryBoots" count="1"  />
+		<item name="armorMilitaryLegs" count="1"  />
+		<item name="armorMilitaryGloves" count="1"  />
+		<item name="armorMilitaryHelmet" count="1"  />
+		<item name="armorMilitaryVest" count="1"  />
+		<item name="armorMiningHelmet" count="1"  />
+		<item name="apparelNightvisionGoggles" count="1"  />			
+		<item name="gunBowT3CompoundBow" count="1"  />	
 		<item name="ammoArrowIron" count="1000,1500"/>
-		<item name="gunBotT3JunkDrone" count="1" loot_prob_template="GradeALoot" />
-		<item name="gunMGT3M60" count="1" loot_prob_template="GradeALoot" />
+		<item name="gunBotT3JunkDrone" count="1"  />
+		<item name="gunMGT3M60" count="1"  />
 		<item name="ammo762mmBulletHP" count="2500,5000"/>
-		<item name="gunHandgunT3DesertVulture" count="1" loot_prob_template="GradeALoot" />		
+		<item name="gunHandgunT3DesertVulture" count="1"  />		
         <item name="ammo44MagnumBulletBall" count="250,500" />		
-		<item name="gunShotgunT3AutoShotgun" count="1" loot_prob_template="GradeALoot" />		
+		<item name="gunShotgunT3AutoShotgun" count="1"  />		
         <item name="ammoShotgunShell" count="250,500" />		
-		<item name="gunRifleT3SniperRifle" count="1" loot_prob_template="GradeALoot" />		
-		<item name="gunMGT2TacticalAR" count="1" loot_prob_template="GradeALoot" />
-		<item name="meleeToolPaintToolAdmin" count="1" loot_prob_template="GradeALoot" />	
+		<item name="gunRifleT3SniperRifle" count="1"  />		
+		<item name="gunMGT2TacticalAR" count="1"  />
+		<item name="meleeToolPaintToolAdmin" count="1"  />	
 		<item name="resourceRepairKit" count="250,500" />   		
 		<item name="casinoCoin" count="250,500"/>		
 		<item name="resourcePaint" count="250,500"/>
 		<item name="medicalFirstAidKit" count="250,500"/>
 		<item name="medicalFirstAidBandage" count="250,500"/>		
-		<item name="vehicleMotorcyclePlaceable" count="1" loot_prob_template="GradeALoot" />
+		<item name="vehicleMotorcyclePlaceable" count="1"  />
 		<item name="ammoGasCan" count="250,500" /> 
 		</lootgroup>  
 		
@@ -111,15 +111,15 @@
 	
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='124']" >
 <!-- Survival Backpacks Start -->
-<lootcontainer id="221" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" loot_quality_template="qualPlus1Template" >
+<lootcontainer id="221" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" loot_quality_template="questT3QualTemplate" >
     <item group="SpecialForceCase1" />
 </lootcontainer>
 
-<lootcontainer id="222" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" loot_quality_template="qualPlus1Template" >
+<lootcontainer id="222" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" loot_quality_template="questT3QualTemplate" >
     <item group="SpecialForceCase2" />
 </lootcontainer>
 
-<lootcontainer id="223" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" loot_quality_template="qualPlus1Template" >
+<lootcontainer id="223" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" loot_quality_template="questT3QualTemplate" >
     <item group="SpecialForceCase3" />
 	</lootcontainer>
 </insertAfter>
