@@ -72,34 +72,37 @@
 </item>	
 
 <item name="nuclearGeneratorSchematic">
-	<property name="Extends" value="schematicNoQualityMaster"/>
+	<property name="Extends" value="schematicMaster"/>
 	<property name="CustomIcon" value="nuclearGeneratorSchematic"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="Unlocks" value="nuclearGeneratorBank"/>
+	<property name="Unlocks" value="nuclearGeneratorBank,nuclearPoweredEngine"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="nuclearGeneratorBank" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="nuclearPoweredEngine" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
 	</effect_group>
 </item>
 
 <item name="nuclearBatterySchematic">
-	<property name="Extends" value="schematicNoQualityMaster"/>
+	<property name="Extends" value="schematicMaster"/>
 	<property name="CustomIcon" value="nuclearBatterySchematic"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="Unlocks" value="nuclearBatteryBank"/>
+	<property name="Unlocks" value="nuclearBatteryBank,nuclearPoweredBattery"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="nuclearBatteryBank" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="nuclearPoweredBattery" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
 	</effect_group>
 </item>
 
 <item name="nuclearSolarSchematic">
-	<property name="Extends" value="schematicNoQualityMaster"/>
+	<property name="Extends" value="schematicMaster"/>
 	<property name="CustomIcon" value="nuclearSolarSchematic"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="Unlocks" value="nuclearSolarBank"/>
+	<property name="Unlocks" value="nuclearSolarBank,nuclearSolarCell"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="nuclearSolarBank" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="nuclearSolarCell" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
 	</effect_group>
 </item>	
