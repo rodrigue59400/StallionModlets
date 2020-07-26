@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <ModInfo>
+        <Name value="Resource Increaser" />
+        <Description value="Changes all Resource Stackables to 30,000." />
+        <Author value="Stallionsden" />
+		<Version value="A19" />
+        <Version value="1.0.0" />
+    </ModInfo>
+</xml>
