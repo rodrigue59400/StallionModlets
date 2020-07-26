@@ -36,6 +36,7 @@
 	<remove xpath="/lootcontainers/lootcontainer[@id='136']"></remove>
 	<remove xpath="/lootcontainers/lootcontainer[@id='137']"></remove>
 	<remove xpath="/lootcontainers/lootcontainer[@id='138']"></remove>
+	<remove xpath="/lootcontainers/lootcontainer[@id='140']"></remove>
 	<remove xpath="/lootcontainers/lootcontainer[@id='141']"></remove>
 	<remove xpath="/lootcontainers/lootcontainer[@id='142']"></remove>
 	
@@ -399,6 +400,15 @@
 <!-- cntGunRackWallGuns01 -->
 <lootcontainer id="138" count="1,2" size="6,2" destroy_on_close="true" sound_open="UseActions/open_garbage" sound_close="silencefiller" loot_quality_template="qualBaseTemplate">
 	<item group="groupWeaponsAllScaled"/>
+</lootcontainer>
+</insertAfter>
+<insertAfter xpath="/lootcontainers/lootcontainer[@id='139']" >
+<!-- cntStoreShelfElectronicsSingle etc. -->
+<lootcontainer id="140" count="1,2" size="6,2" destroy_on_close="true" sound_open="UseActions/open_garbage" sound_close="silencefiller" loot_quality_template="qualBaseTemplate">
+	<item group="electricalDevices" prob="10"/>
+	<item group="schematicsElectrical" prob="10"/>
+	<item name="meleeToolWireTool" prob="1"/>
+	<item name="resourceElectricParts" count="2,5" prob="50"/>
 </lootcontainer>
 </insertAfter>
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='140']" >

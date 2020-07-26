@@ -59,6 +59,8 @@
 <remove xpath="/blockplaceholders/placeholder[@name='cntDisplayCaseAmmoLeftRandomLootHelper']"></remove>
 <remove xpath="/blockplaceholders/placeholder[@name='cntDisplayCaseAmmoMiddleRandomLootHelper']"></remove>
 <remove xpath="/blockplaceholders/placeholder[@name='cntDisplayCaseAmmoRightRandomLootHelper']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntStoreShelfElectronicsSingleTallRandomLootHelper']"></remove>
+<remove xpath="/blockplaceholders/placeholder[@name='cntStoreShelfElectronicsDoubleTallRandomLootHelper']"></remove>
 <!-- REMOVES -->
 	
 	<set xpath="/blockplaceholders/placeholder[@name='cntMicrowaveOvenRandomLootHelper']/block[@name='cntMicrowaveOvenVer1Open']/@prob">.66</set>
@@ -583,6 +585,38 @@
 		<block name="cntDisplayCaseAmmoRightBroken" prob=".15"/>
 		<block name="cntDisplayCaseEmptyRight" prob=".15"/>
 		<block name="cntDisplayCaseEmptyRightBroken" prob=".10"/>
+	</placeholder>
+	
+	<placeholder name="cntStoreShelfElectronicsSingleTallRandomLootHelper">
+		<block name="cntStoreShelfElectronicsSingleBottomPCEmpty" prob=".66"/>
+		<block name="cntStoreShelfElectronicsSingleBottomPC" prob=".0425"/>
+		<block name="cntStoreShelfElectronicsSingleBottomElectronicsMonitorEmpty" prob=".66"/>
+		<block name="cntStoreShelfElectronicsSingleBottomElectronicsMonitor" prob=".0425"/>
+		<block name="cntStoreShelfElectronicsSingleBottomGoodsMiscEmpty" prob=".66"/>
+		<block name="cntStoreShelfElectronicsSingleBottomGoodsMisc" prob=".0425"/>
+		<block name="cntStoreShelfElectronicsSingleBottomHeadphonesEmpty" prob=".66"/>
+		<block name="cntStoreShelfElectronicsSingleBottomHeadphones" prob=".0425"/>
+		<block name="cntStoreShelfElectronicsSingleBottomKeyboardEmpty" prob=".66"/>
+		<block name="cntStoreShelfElectronicsSingleBottomKeyboard" prob=".0425"/>
+		<block name="cntStoreShelfElectronicsSingleBottomLaptopClosedEmpty" prob=".66"/>
+		<block name="cntStoreShelfElectronicsSingleBottomLaptopClosed" prob=".0425"/>
+		<block name="cntStoreShelfElectronicsSingleBottomLaptopOpenEmpty" prob=".66"/>
+		<block name="cntStoreShelfElectronicsSingleBottomLaptopOpen" prob=".0425"/>
+		<block name="cntStoreShelfElectronicsSingleBottomSpeakerEmpty" prob=".66"/>
+		<block name="cntStoreShelfElectronicsSingleBottomSpeaker" prob=".0425"/>
+		</placeholder>
+
+	<placeholder name="cntStoreShelfElectronicsDoubleTallRandomLootHelper">
+		<block name="cntStoreShelfElectronicsDoubleBottomGoods01Empty" prob=".66"/>
+		<block name="cntStoreShelfElectronicsDoubleBottomGoods01" prob=".085"/>
+		<block name="cntStoreShelfElectronicsDoubleBottomGoods02Empty" prob=".66"/>
+		<block name="cntStoreShelfElectronicsDoubleBottomGoods02" prob=".085"/>
+		<block name="cntStoreShelfElectronicsDoubleBottomGoods03Empty" prob=".66"/>
+		<block name="cntStoreShelfElectronicsDoubleBottomGoods03" prob=".085"/>
+		<block name="cntStoreShelfElectronicsDoubleBottomGoods04Empty" prob=".66"/>
+		<block name="cntStoreShelfElectronicsDoubleBottomGoods04" prob=".085"/>		
+		<block name="cntStoreElectronicsBookShelfSpeakerEmpty" prob=".66"/>
+		<block name="cntStoreElectronicsBookShelfSpeaker" prob=".085"/>		
 	</placeholder>
 	
 	</append>

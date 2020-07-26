@@ -200,7 +200,72 @@
 			<property name="Extends" value="cntClothesRackRoundEmpty" />
 			</block>
 		</insertAfter>
-		<insertAfter xpath="/blocks/block[@name='cntClothesRackRoundEmpty_PB']" >
+		<insertAfter xpath="/blocks/block[@name='cntClothesRackRoundEmpty_PB']">
+		<block name="cntStoreShelfElectronicsSingleBottomPCEmpty_PB">
+			<property name="Extends" value="cntStoreShelfElectronicsSingleBottomEmpty" />
+			</block>
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomPCEmpty_PB']" >
+		<block name="cntStoreShelfElectronicsSingleBottomElectronicsMonitorEmpty_PB">
+			<property name="Extends" value="cntStoreShelfElectronicsSingleBottomEmpty" />
+			</block>
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomElectronicsMonitorEmpty_PB']" >
+		<block name="cntStoreShelfElectronicsSingleBottomGoodsMiscEmpty_PB">
+			<property name="Extends" value="cntStoreShelfElectronicsSingleBottomEmpty" />
+			</block>
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomGoodsMiscEmpty_PB']" >
+		<block name="cntStoreShelfElectronicsSingleBottomHeadphonesEmpty_PB">
+			<property name="Extends" value="cntStoreShelfElectronicsSingleBottomEmpty" />
+			</block>
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomHeadphonesEmpty_PB']" >
+		<block name="cntStoreShelfElectronicsSingleBottomKeyboardEmpty_PB">
+			<property name="Extends" value="cntStoreShelfElectronicsSingleBottomEmpty" />
+			</block>
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomKeyboardEmpty_PB']" >
+		<block name="cntStoreShelfElectronicsSingleBottomLaptopClosedEmpty_PB">
+			<property name="Extends" value="cntStoreShelfElectronicsSingleBottomEmpty" />
+			</block>
+		</insertAfter>		
+		<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomLaptopClosedEmpty_PB']" >
+		<block name="cntStoreShelfElectronicsSingleBottomLaptopOpenEmpty_PB">
+			<property name="Extends" value="cntStoreShelfElectronicsSingleBottomEmpty" />
+			</block>
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomLaptopOpenEmpty_PB']" >
+		<block name="cntStoreShelfElectronicsSingleBottomSpeakerEmpty_PB">
+			<property name="Extends" value="cntStoreShelfElectronicsSingleBottomEmpty" />
+			</block>
+		</insertAfter>		
+		<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomSpeakerEmpty_PB']" >
+		<block name="cntStoreShelfElectronicsDoubleBottomGoods01Empty_PB">
+			<property name="Extends" value="cntStoreShelfElectronicsDoubleBottomEmpty" />
+			</block>
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsDoubleBottomGoods01Empty_PB']" >
+		<block name="cntStoreShelfElectronicsDoubleBottomGoods02Empty_PB">
+			<property name="Extends" value="cntStoreShelfElectronicsDoubleBottomEmpty" />
+			</block>
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsDoubleBottomGoods02Empty_PB']" >
+		<block name="cntStoreShelfElectronicsDoubleBottomGoods03Empty_PB">
+			<property name="Extends" value="cntStoreShelfElectronicsDoubleBottomEmpty" />
+			</block>
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsDoubleBottomGoods03Empty_PB']" >
+		<block name="cntStoreShelfElectronicsDoubleBottomGoods04Empty_PB">
+			<property name="Extends" value="cntStoreShelfElectronicsDoubleBottomEmpty" />
+			</block>
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsDoubleBottomGoods04Empty_PB']" >
+		<block name="cntStoreElectronicsBookShelfSpeakerEmpty_PB">
+			<property name="Extends" value="cntStoreShelfElectronicsDoubleBottomEmpty" />
+			</block>
+		</insertAfter>		
+		<insertAfter xpath="/blocks/block[@name='cntStoreElectronicsBookShelfSpeakerEmpty_PB']" >
 		<block name="cntClothesRackRoundShirtsEmpty_PB">
 			<property name="Extends" value="cntClothesRackRoundEmpty" />
 			</block>
@@ -234,8 +299,7 @@
 		<block name="cntClothesRackWallTShirtsEmptyHanger_PB">
 			<property name="Extends" value="cntClothesRackWallEmptyHanger" />
 			</block>
-		</insertAfter>
-		
+		</insertAfter>		
 		<insertAfter xpath="/blocks/block[@name='cntClothesRackWallTShirtsEmptyHanger_PB']" >
 		<block name="cntClothesShelfHalfJeans01Empty_PB">
 			<property name="Extends" value="cntClothesShelfHalfEmpty" />
@@ -281,8 +345,7 @@
 		<block name="cntClothesShelfStackShirts02Empty_PB">
 			<property name="Extends" value="cntClothesShelfStackEmpty" />
 			</block>
-		</insertAfter>
-		
+		</insertAfter>		
 		<insertAfter xpath="/blocks/block[@name='cntClothesShelfStackShirts02Empty_PB']" >
 		<block name="cntStoreShelfDoubleBottomShoesOpen_PB">
 			<property name="Extends" value="cntStoreShelfDoubleBottomShoesEmpty" />
@@ -641,6 +704,71 @@
 		<drop event="Destroy" count="0" />	
 		<property name="DowngradeBlock" value="cntGunRackSmall03Empty_PB" />
 			</append>
+			
+		<append xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomPC']">
+		<drop event="Destroy" count="0" />	
+		<property name="DowngradeBlock" value="cntStoreShelfElectronicsSingleBottomPCEmpty_PB" />
+			</append>
+
+		<append xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomElectronicsMonitor']">
+		<drop event="Destroy" count="0" />	
+		<property name="DowngradeBlock" value="cntStoreShelfElectronicsSingleBottomElectronicsMonitorEmpty_PB" />
+		</append>
+		
+		<append xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomGoodsMisc']">
+		<drop event="Destroy" count="0" />	
+		<property name="DowngradeBlock" value="cntStoreShelfElectronicsSingleBottomGoodsMiscEmpty_PB" />
+			</append>
+
+		<append xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomHeadphones']">
+		<drop event="Destroy" count="0" />	
+		<property name="DowngradeBlock" value="cntStoreShelfElectronicsSingleBottomHeadphonesEmpty_PB" />
+			</append>
+			
+		<append xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomKeyboard']">
+		<drop event="Destroy" count="0" />	
+		<property name="DowngradeBlock" value="cntStoreShelfElectronicsSingleBottomKeyboardEmpty_PB" />
+			</append>
+
+		<append xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomLaptopClosed']">
+		<drop event="Destroy" count="0" />	
+		<property name="DowngradeBlock" value="cntStoreShelfElectronicsSingleBottomLaptopClosedEmpty_PB" />
+			</append>
+
+		<append xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomLaptopOpen']">
+		<drop event="Destroy" count="0" />	
+		<property name="DowngradeBlock" value="cntStoreShelfElectronicsSingleBottomLaptopOpenEmpty_PB" />
+		</append>
+
+		<append xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomSpeaker']">
+		<drop event="Destroy" count="0" />	
+		<property name="DowngradeBlock" value="cntStoreShelfElectronicsSingleBottomSpeakerEmpty_PB" />
+			</append>
+			
+		<append xpath="/blocks/block[@name='cntStoreShelfElectronicsDoubleBottomGoods01']">
+		<drop event="Destroy" count="0" />	
+		<property name="DowngradeBlock" value="cntStoreShelfElectronicsDoubleBottomGoods01Empty_PB" />
+			</append>
+
+		<append xpath="/blocks/block[@name='cntStoreShelfElectronicsDoubleBottomGoods02']">
+		<drop event="Destroy" count="0" />	
+		<property name="DowngradeBlock" value="cntStoreShelfElectronicsDoubleBottomGoods02Empty_PB" />
+		</append>
+
+		<append xpath="/blocks/block[@name='cntStoreShelfElectronicsDoubleBottomGoods03']">
+		<drop event="Destroy" count="0" />	
+		<property name="DowngradeBlock" value="cntStoreShelfElectronicsDoubleBottomGoods03Empty_PB" />
+			</append>
+
+		<append xpath="/blocks/block[@name='cntStoreShelfElectronicsDoubleBottomGoods04']">
+		<drop event="Destroy" count="0" />	
+		<property name="DowngradeBlock" value="cntStoreShelfElectronicsDoubleBottomGoods04Empty_PB" />
+			</append>
+	
+		<append xpath="/blocks/block[@name='cntStoreElectronicsBookShelfSpeaker']">
+		<drop event="Destroy" count="0" />	
+		<property name="DowngradeBlock"	value="cntStoreElectronicsBookShelfSpeakerEmpty_PB" />
+			</append>		
 		
 		<append xpath="/blocks/block[@name='cntClothesRackRoundPants']">
 		<drop event="Destroy" count="0" />	

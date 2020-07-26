@@ -57,6 +57,21 @@
 <remove xpath="/blocks/block[@name='cntGunRackSmallArmor']"></remove>
 <remove xpath="/blocks/block[@name='cntGunRackLargeGuns01']"></remove>
 <remove xpath="/blocks/block[@name='cntGunRackLargeGuns02']"></remove>
+<remove xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomPC']"></remove>
+<remove xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomElectronicsMonitor']"></remove>
+<remove xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomGoodsMisc']"></remove>
+<remove xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomHeadphones']"></remove>
+<remove xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomKeyboard']"></remove>
+<remove xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomLaptopClosed']"></remove>
+<remove xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomLaptopOpen']"></remove>
+<remove xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomSpeaker']"></remove>
+<remove xpath="/blocks/block[@name='cntStoreShelfElectronicsDoubleBottomGoods01']"></remove>
+<remove xpath="/blocks/block[@name='cntStoreShelfElectronicsDoubleBottomGoods02']"></remove>
+<remove xpath="/blocks/block[@name='cntStoreShelfElectronicsDoubleBottomGoods03']"></remove>
+<remove xpath="/blocks/block[@name='cntStoreShelfElectronicsDoubleBottomGoods04']"></remove>
+<remove xpath="/blocks/block[@name='cntStoreElectronicsBookShelfSpeaker']"></remove>
+<remove xpath="/blocks/block[@name='cntStoreElectronicsPalletTvFallen']"></remove>
+<remove xpath="/blocks/block[@name='cntStoreElectronicsPalletTvStanding']"></remove>
 <remove xpath="/blocks/block[@name='cntClothesRackRoundPants']"></remove>
 <remove xpath="/blocks/block[@name='cntClothesRackRoundShirts']"></remove>
 <remove xpath="/blocks/block[@name='cntClothesRackRectanglePants']"></remove>
@@ -8437,6 +8452,1361 @@
 </block>
 </insertAfter>
 <!-- GUN RACK LARGE GUNS 02 -->
+<!-- ****************************************************************************************************************************************** -->
+<!-- ****************************************************************************************************************************************** -->
+<!-- ****************************************************************************************************************************************** -->
+<!-- STORE ELECTRONICS SHELVING -->
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomEmpty']">
+<block name="cntStoreShelfElectronicsSingleBottomPCEmpty">
+	<property name="Material" value="Mmetal"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfEmptyPrefab"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="Texture" value="282"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="DescriptionKey" value="creativeMenuBlockGroupDesc"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsSingleBottomPCEmpty1"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+	<property name="Group" value="Decor/Miscellaneous"/>
+	<property name="FilterTags" value="floot,ffurniture"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomPCEmpty']">
+<block name="cntStoreShelfElectronicsSingleBottomPCEmpty1">
+	<property name="Extends" value="cntStoreShelfElectronicsSingleBottomPCEmpty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfEmptyPrefab"/><property name="Place" value="TowardsPlacerInverted"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsSingleBottomPCEmpty2"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomPCEmpty1']">
+<block name="cntStoreShelfElectronicsSingleBottomPCEmpty2">
+	<property name="Extends" value="cntStoreShelfElectronicsSingleBottomPCEmpty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfEmptyPrefab"/><property name="Place" value="TowardsPlacerInverted"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsSingleBottomPCEmpty3"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomPCEmpty2']">
+<block name="cntStoreShelfElectronicsSingleBottomPCEmpty3">
+	<property name="Extends" value="cntStoreShelfElectronicsSingleBottomPCEmpty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfEmptyPrefab"/><property name="Place" value="TowardsPlacerInverted"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsSingleBottomPCEmpty4"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomPCEmpty3']">
+<block name="cntStoreShelfElectronicsSingleBottomPCEmpty4">
+	<property name="Extends" value="cntStoreShelfElectronicsSingleBottomPCEmpty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfEmptyPrefab"/><property name="Place" value="TowardsPlacerInverted"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsSingleBottomPCEmpty5"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomPCEmpty4']">
+<block name="cntStoreShelfElectronicsSingleBottomPCEmpty5">
+	<property name="Extends" value="cntStoreShelfElectronicsSingleBottomPCEmpty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfEmptyPrefab"/><property name="Place" value="TowardsPlacerInverted"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsSingleBottomPCEmpty6"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomPCEmpty5']">
+<block name="cntStoreShelfElectronicsSingleBottomPCEmpty6">
+	<property name="Extends" value="cntStoreShelfElectronicsSingleBottomPCEmpty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfEmptyPrefab"/><property name="Place" value="TowardsPlacerInverted"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsSingleBottomPC"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomPCEmpty6']">
+<block name="cntStoreShelfElectronicsSingleBottomPC">
+	<property name="Extends" value="cntStoreShelfElectronicsSingleBottomPCEmpty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfPCPrefab"/>
+	<property name="DowngradeBlock" value="cntStoreShelfElectronicsSingleBottomPCEmpty"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="140"/>
+</block>
+</insertAfter>
+<!-- ******************************************************************************************* -->
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomPC']">
+<block name="cntStoreShelfElectronicsSingleBottomElectronicsMonitorEmpty">
+	<property name="Material" value="Mmetal"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfEmptyPrefab"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="Texture" value="282"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="DescriptionKey" value="creativeMenuBlockGroupDesc"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsSingleBottomElectronicsMonitorEmpty"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+	<property name="Group" value="Decor/Miscellaneous"/>
+	<property name="FilterTags" value="floot,ffurniture"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomElectronicsMonitorEmpty']">
+<block name="cntStoreShelfElectronicsSingleBottomElectronicsMonitorEmpty1">
+	<property name="Extends" value="cntStoreShelfElectronicsSingleBottomElectronicsMonitorEmpty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfEmptyPrefab"/><property name="Place" value="TowardsPlacerInverted"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsSingleBottomElectronicsMonitorEmpty2"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomElectronicsMonitorEmpty1']">
+<block name="cntStoreShelfElectronicsSingleBottomElectronicsMonitorEmpty2">
+	<property name="Extends" value="cntStoreShelfElectronicsSingleBottomElectronicsMonitorEmpty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfEmptyPrefab"/><property name="Place" value="TowardsPlacerInverted"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsSingleBottomElectronicsMonitorEmpty3"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomElectronicsMonitorEmpty2']">
+<block name="cntStoreShelfElectronicsSingleBottomElectronicsMonitorEmpty3">
+	<property name="Extends" value="cntStoreShelfElectronicsSingleBottomElectronicsMonitorEmpty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfEmptyPrefab"/><property name="Place" value="TowardsPlacerInverted"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsSingleBottomElectronicsMonitorEmpty4"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomElectronicsMonitorEmpty3']">
+<block name="cntStoreShelfElectronicsSingleBottomElectronicsMonitorEmpty4">
+	<property name="Extends" value="cntStoreShelfElectronicsSingleBottomElectronicsMonitorEmpty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfEmptyPrefab"/><property name="Place" value="TowardsPlacerInverted"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsSingleBottomElectronicsMonitorEmpty5"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomElectronicsMonitorEmpty4']">
+<block name="cntStoreShelfElectronicsSingleBottomElectronicsMonitorEmpty5">
+	<property name="Extends" value="cntStoreShelfElectronicsSingleBottomElectronicsMonitorEmpty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfEmptyPrefab"/><property name="Place" value="TowardsPlacerInverted"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsSingleBottomPCEmpty6"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomElectronicsMonitorEmpty5']">
+<block name="cntStoreShelfElectronicsSingleBottomElectronicsMonitorEmpty6">
+	<property name="Extends" value="cntStoreShelfElectronicsSingleBottomElectronicsMonitorEmpty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfEmptyPrefab"/><property name="Place" value="TowardsPlacerInverted"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsSingleBottomElectronicsMonitor"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomElectronicsMonitorEmpty6']">
+<block name="cntStoreShelfElectronicsSingleBottomElectronicsMonitor">
+	<property name="Extends" value="cntStoreShelfElectronicsSingleBottomElectronicsMonitorEmpty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfMonitorPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/><property name="DisplayType" value="blockMulti"/>
+	<property name="DowngradeBlock" value="cntStoreShelfElectronicsSingleBottomElectronicsMonitorEmpty"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="140"/>
+</block>
+</insertAfter>
+<!-- ******************************************************************************************* -->
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomElectronicsMonitor']">
+<block name="cntStoreShelfElectronicsSingleBottomGoodsMiscEmpty">
+	<property name="Material" value="Mmetal"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfEmptyPrefab"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="Texture" value="282"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="DescriptionKey" value="creativeMenuBlockGroupDesc"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsSingleBottomGoodsMiscEmpty1"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+	<property name="Group" value="Decor/Miscellaneous"/>
+	<property name="FilterTags" value="floot,ffurniture"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomGoodsMiscEmpty']">
+<block name="cntStoreShelfElectronicsSingleBottomGoodsMiscEmpty1">
+	<property name="Extends" value="cntStoreShelfElectronicsSingleBottomGoodsMiscEmpty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfEmptyPrefab"/><property name="Place" value="TowardsPlacerInverted"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsSingleBottomGoodsMiscEmpty2"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomGoodsMiscEmpty1']">
+<block name="cntStoreShelfElectronicsSingleBottomGoodsMiscEmpty2">
+	<property name="Extends" value="cntStoreShelfElectronicsSingleBottomGoodsMiscEmpty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfEmptyPrefab"/><property name="Place" value="TowardsPlacerInverted"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsSingleBottomGoodsMiscEmpty3"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomGoodsMiscEmpty2']">
+<block name="cntStoreShelfElectronicsSingleBottomGoodsMiscEmpty3">
+	<property name="Extends" value="cntStoreShelfElectronicsSingleBottomGoodsMiscEmpty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfEmptyPrefab"/><property name="Place" value="TowardsPlacerInverted"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsSingleBottomGoodsMiscEmpty4"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomGoodsMiscEmpty3']">
+<block name="cntStoreShelfElectronicsSingleBottomGoodsMiscEmpty4">
+	<property name="Extends" value="cntStoreShelfElectronicsSingleBottomGoodsMiscEmpty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfEmptyPrefab"/><property name="Place" value="TowardsPlacerInverted"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsSingleBottomGoodsMiscEmpty5"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomGoodsMiscEmpty4']">
+<block name="cntStoreShelfElectronicsSingleBottomGoodsMiscEmpty5">
+	<property name="Extends" value="cntStoreShelfElectronicsSingleBottomGoodsMiscEmpty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfEmptyPrefab"/><property name="Place" value="TowardsPlacerInverted"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsSingleBottomGoodsMiscEmpty6"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomGoodsMiscEmpty5']">
+<block name="cntStoreShelfElectronicsSingleBottomGoodsMiscEmpty6">
+	<property name="Extends" value="cntStoreShelfElectronicsSingleBottomGoodsMiscEmpty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfEmptyPrefab"/><property name="Place" value="TowardsPlacerInverted"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsSingleBottomGoodsMisc"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomGoodsMiscEmpty6']">
+<block name="cntStoreShelfElectronicsSingleBottomGoodsMisc">
+	<property name="Extends" value="cntStoreShelfElectronicsSingleBottomGoodsMiscEmpty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfGoodsMiscPrefab"/>
+	<property name="DowngradeBlock" value="cntStoreShelfElectronicsSingleBottomGoodsMiscEmpty"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="140"/>
+</block>
+</insertAfter>
+<!-- ******************************************************************************************* -->
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomGoodsMisc']">
+<block name="cntStoreShelfElectronicsSingleBottomHeadphonesEmpty">
+	<property name="Material" value="Mmetal"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfEmptyPrefab"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="Texture" value="282"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="DescriptionKey" value="creativeMenuBlockGroupDesc"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsSingleBottomHeadphonesEmpty1"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+	<property name="Group" value="Decor/Miscellaneous"/>
+	<property name="FilterTags" value="floot,ffurniture"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomHeadphonesEmpty']">
+<block name="cntStoreShelfElectronicsSingleBottomHeadphonesEmpty1">
+	<property name="Extends" value="cntStoreShelfElectronicsSingleBottomHeadphonesEmpty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfEmptyPrefab"/><property name="Place" value="TowardsPlacerInverted"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsSingleBottomHeadphonesEmpty2"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomHeadphonesEmpty1']">
+<block name="cntStoreShelfElectronicsSingleBottomHeadphonesEmpty2">
+	<property name="Extends" value="cntStoreShelfElectronicsSingleBottomHeadphonesEmpty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfEmptyPrefab"/><property name="Place" value="TowardsPlacerInverted"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsSingleBottomHeadphonesEmpty3"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomHeadphonesEmpty2']">
+<block name="cntStoreShelfElectronicsSingleBottomHeadphonesEmpty3">
+	<property name="Extends" value="cntStoreShelfElectronicsSingleBottomHeadphonesEmpty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfEmptyPrefab"/><property name="Place" value="TowardsPlacerInverted"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsSingleBottomHeadphonesEmpty4"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomHeadphonesEmpty3']">
+<block name="cntStoreShelfElectronicsSingleBottomHeadphonesEmpty4">
+	<property name="Extends" value="cntStoreShelfElectronicsSingleBottomHeadphonesEmpty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfEmptyPrefab"/><property name="Place" value="TowardsPlacerInverted"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsSingleBottomHeadphonesEmpty5"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomHeadphonesEmpty4']">
+<block name="cntStoreShelfElectronicsSingleBottomHeadphonesEmpty5">
+	<property name="Extends" value="cntStoreShelfElectronicsSingleBottomHeadphonesEmpty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfEmptyPrefab"/><property name="Place" value="TowardsPlacerInverted"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsSingleBottomHeadphonesEmpty6"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomHeadphonesEmpty5']">
+<block name="cntStoreShelfElectronicsSingleBottomHeadphonesEmpty6">
+	<property name="Extends" value="cntStoreShelfElectronicsSingleBottomHeadphonesEmpty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfEmptyPrefab"/><property name="Place" value="TowardsPlacerInverted"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsSingleBottomHeadphones"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomHeadphonesEmpty6']">
+<block name="cntStoreShelfElectronicsSingleBottomHeadphones">
+	<property name="Extends" value="cntStoreShelfElectronicsSingleBottomHeadphonesEmpty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfHeadphonesPrefab"/>
+	<property name="DowngradeBlock" value="cntStoreShelfElectronicsSingleBottomHeadphonesEmpty"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="140"/>
+</block>
+</insertAfter>
+<!-- ******************************************************************************************* -->
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomHeadphones']">
+<block name="cntStoreShelfElectronicsSingleBottomKeyboardEmpty">
+	<property name="Material" value="Mmetal"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfEmptyPrefab"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="Texture" value="282"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="DescriptionKey" value="creativeMenuBlockGroupDesc"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsSingleBottomKeyboardEmpty1"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+	<property name="Group" value="Decor/Miscellaneous"/>
+	<property name="FilterTags" value="floot,ffurniture"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomKeyboardEmpty']">
+<block name="cntStoreShelfElectronicsSingleBottomKeyboardEmpty1">
+	<property name="Extends" value="cntStoreShelfElectronicsSingleBottomKeyboardEmpty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfEmptyPrefab"/><property name="Place" value="TowardsPlacerInverted"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsSingleBottomKeyboardEmpty2"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomKeyboardEmpty1']">
+<block name="cntStoreShelfElectronicsSingleBottomKeyboardEmpty2">
+	<property name="Extends" value="cntStoreShelfElectronicsSingleBottomKeyboardEmpty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfEmptyPrefab"/><property name="Place" value="TowardsPlacerInverted"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsSingleBottomKeyboardEmpty3"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomKeyboardEmpty2']">
+<block name="cntStoreShelfElectronicsSingleBottomKeyboardEmpty3">
+	<property name="Extends" value="cntStoreShelfElectronicsSingleBottomKeyboardEmpty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfEmptyPrefab"/><property name="Place" value="TowardsPlacerInverted"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsSingleBottomKeyboardEmpty4"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomKeyboardEmpty3']">
+<block name="cntStoreShelfElectronicsSingleBottomKeyboardEmpty4">
+	<property name="Extends" value="cntStoreShelfElectronicsSingleBottomKeyboardEmpty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfEmptyPrefab"/><property name="Place" value="TowardsPlacerInverted"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsSingleBottomKeyboardEmpty5"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomKeyboardEmpty4']">
+<block name="cntStoreShelfElectronicsSingleBottomKeyboardEmpty5">
+	<property name="Extends" value="cntStoreShelfElectronicsSingleBottomKeyboardEmpty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfEmptyPrefab"/><property name="Place" value="TowardsPlacerInverted"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsSingleBottomKeyboardEmpty6"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomKeyboardEmpty5']">
+<block name="cntStoreShelfElectronicsSingleBottomKeyboardEmpty6">
+	<property name="Extends" value="cntStoreShelfElectronicsSingleBottomKeyboardEmpty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfEmptyPrefab"/><property name="Place" value="TowardsPlacerInverted"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsSingleBottomKeyboard"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomKeyboardEmpty6']">
+<block name="cntStoreShelfElectronicsSingleBottomKeyboard">
+	<property name="Extends" value="cntStoreShelfElectronicsSingleBottomKeyboardEmpty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfKeyboardPrefab"/>
+	<property name="DowngradeBlock" value="cntStoreShelfElectronicsSingleBottomKeyboardEmpty"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="140"/>
+</block>
+</insertAfter>
+<!-- ******************************************************************************************* -->
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomKeyboard']">
+<block name="cntStoreShelfElectronicsSingleBottomLaptopClosedEmpty">
+	<property name="Material" value="Mmetal"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfEmptyPrefab"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="Texture" value="282"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="DescriptionKey" value="creativeMenuBlockGroupDesc"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsSingleBottomLaptopClosedEmpty1"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+	<property name="Group" value="Decor/Miscellaneous"/>
+	<property name="FilterTags" value="floot,ffurniture"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomLaptopClosedEmpty']">
+<block name="cntStoreShelfElectronicsSingleBottomLaptopClosedEmpty1">
+	<property name="Extends" value="cntStoreShelfElectronicsSingleBottomLaptopClosedEmpty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfEmptyPrefab"/><property name="Place" value="TowardsPlacerInverted"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsSingleBottomLaptopClosedEmpty2"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomLaptopClosedEmpty1']">
+<block name="cntStoreShelfElectronicsSingleBottomLaptopClosedEmpty2">
+	<property name="Extends" value="cntStoreShelfElectronicsSingleBottomLaptopClosedEmpty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfEmptyPrefab"/><property name="Place" value="TowardsPlacerInverted"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsSingleBottomLaptopClosedEmpty3"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomLaptopClosedEmpty2']">
+<block name="cntStoreShelfElectronicsSingleBottomLaptopClosedEmpty3">
+	<property name="Extends" value="cntStoreShelfElectronicsSingleBottomLaptopClosedEmpty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfEmptyPrefab"/><property name="Place" value="TowardsPlacerInverted"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsSingleBottomLaptopClosedEmpty4"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomLaptopClosedEmpty3']">
+<block name="cntStoreShelfElectronicsSingleBottomLaptopClosedEmpty4">
+	<property name="Extends" value="cntStoreShelfElectronicsSingleBottomLaptopClosedEmpty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfEmptyPrefab"/><property name="Place" value="TowardsPlacerInverted"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsSingleBottomLaptopClosedEmpty5"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomLaptopClosedEmpty4']">
+<block name="cntStoreShelfElectronicsSingleBottomLaptopClosedEmpty5">
+	<property name="Extends" value="cntStoreShelfElectronicsSingleBottomLaptopClosedEmpty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfEmptyPrefab"/><property name="Place" value="TowardsPlacerInverted"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsSingleBottomLaptopClosedEmpty6"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomLaptopClosedEmpty5']">
+<block name="cntStoreShelfElectronicsSingleBottomLaptopClosedEmpty6">
+	<property name="Extends" value="cntStoreShelfElectronicsSingleBottomLaptopClosedEmpty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfEmptyPrefab"/><property name="Place" value="TowardsPlacerInverted"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsSingleBottomLaptopClosed"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomLaptopClosedEmpty6']">
+<block name="cntStoreShelfElectronicsSingleBottomLaptopClosed">
+	<property name="Extends" value="cntStoreShelfElectronicsSingleBottomLaptopClosedEmpty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfLaptopClosedPrefab"/>
+	<property name="DowngradeBlock" value="cntStoreShelfElectronicsSingleBottomLaptopClosedEmpty"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="140"/>
+</block>
+</insertAfter>
+<!-- ******************************************************************************************* -->
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomLaptopClosed']">
+<block name="cntStoreShelfElectronicsSingleBottomLaptopOpenEmpty">
+	<property name="Material" value="Mmetal"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfEmptyPrefab"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="Texture" value="282"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="DescriptionKey" value="creativeMenuBlockGroupDesc"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsSingleBottomLaptopOpenEmpty1"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+	<property name="Group" value="Decor/Miscellaneous"/>
+	<property name="FilterTags" value="floot,ffurniture"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomLaptopOpenEmpty']">
+<block name="cntStoreShelfElectronicsSingleBottomLaptopOpenEmpty1">
+	<property name="Extends" value="cntStoreShelfElectronicsSingleBottomLaptopOpenEmpty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfEmptyPrefab"/><property name="Place" value="TowardsPlacerInverted"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsSingleBottomLaptopOpenEmpty2"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomLaptopOpenEmpty1']">
+<block name="cntStoreShelfElectronicsSingleBottomLaptopOpenEmpty2">
+	<property name="Extends" value="cntStoreShelfElectronicsSingleBottomLaptopOpenEmpty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfEmptyPrefab"/><property name="Place" value="TowardsPlacerInverted"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsSingleBottomLaptopOpenEmpty3"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomLaptopOpenEmpty2']">
+<block name="cntStoreShelfElectronicsSingleBottomLaptopOpenEmpty3">
+	<property name="Extends" value="cntStoreShelfElectronicsSingleBottomLaptopOpenEmpty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfEmptyPrefab"/><property name="Place" value="TowardsPlacerInverted"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsSingleBottomLaptopOpenEmpty4"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomLaptopOpenEmpty3']">
+<block name="cntStoreShelfElectronicsSingleBottomLaptopOpenEmpty4">
+	<property name="Extends" value="cntStoreShelfElectronicsSingleBottomLaptopOpenEmpty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfEmptyPrefab"/><property name="Place" value="TowardsPlacerInverted"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsSingleBottomLaptopOpenEmpty5"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomLaptopOpenEmpty4']">
+<block name="cntStoreShelfElectronicsSingleBottomLaptopOpenEmpty5">
+	<property name="Extends" value="cntStoreShelfElectronicsSingleBottomLaptopOpenEmpty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfEmptyPrefab"/><property name="Place" value="TowardsPlacerInverted"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsSingleBottomLaptopOpenEmpty6"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomLaptopOpenEmpty5']">
+<block name="cntStoreShelfElectronicsSingleBottomLaptopOpenEmpty6">
+	<property name="Extends" value="cntStoreShelfElectronicsSingleBottomLaptopOpenEmpty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfEmptyPrefab"/><property name="Place" value="TowardsPlacerInverted"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsSingleBottomLaptopOpen"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomLaptopOpenEmpty6']">
+<block name="cntStoreShelfElectronicsSingleBottomLaptopOpen">
+	<property name="Extends" value="cntStoreShelfElectronicsSingleBottomElectronicsMonitor"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfLaptopOpenPrefab"/>
+	<property name="DowngradeBlock" value="cntStoreShelfElectronicsSingleBottomLaptopOpenEmpty"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="140"/>
+</block>
+</insertAfter>
+<!-- ******************************************************************************************* -->
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomLaptopOpen']">
+<block name="cntStoreShelfElectronicsSingleBottomSpeakerEmpty">
+	<property name="Material" value="Mmetal"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfEmptyPrefab"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="Texture" value="282"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="DescriptionKey" value="creativeMenuBlockGroupDesc"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsSingleBottomSpeakerEmpty1"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+	<property name="Group" value="Decor/Miscellaneous"/>
+	<property name="FilterTags" value="floot,ffurniture"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomSpeakerEmpty']">
+<block name="cntStoreShelfElectronicsSingleBottomSpeakerEmpty1">
+	<property name="Extends" value="cntStoreShelfElectronicsSingleBottomSpeakerEmpty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfEmptyPrefab"/><property name="Place" value="TowardsPlacerInverted"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsSingleBottomSpeakerEmpty2"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomSpeakerEmpty1']">
+<block name="cntStoreShelfElectronicsSingleBottomSpeakerEmpty2">
+	<property name="Extends" value="cntStoreShelfElectronicsSingleBottomSpeakerEmpty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfEmptyPrefab"/><property name="Place" value="TowardsPlacerInverted"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsSingleBottomSpeakerEmpty3"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomSpeakerEmpty2']">
+<block name="cntStoreShelfElectronicsSingleBottomSpeakerEmpty3">
+	<property name="Extends" value="cntStoreShelfElectronicsSingleBottomSpeakerEmpty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfEmptyPrefab"/><property name="Place" value="TowardsPlacerInverted"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsSingleBottomSpeakerEmpty4"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomSpeakerEmpty3']">
+<block name="cntStoreShelfElectronicsSingleBottomSpeakerEmpty4">
+	<property name="Extends" value="cntStoreShelfElectronicsSingleBottomSpeakerEmpty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfEmptyPrefab"/><property name="Place" value="TowardsPlacerInverted"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsSingleBottomSpeakerEmpty5"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomSpeakerEmpty4']">
+<block name="cntStoreShelfElectronicsSingleBottomSpeakerEmpty5">
+	<property name="Extends" value="cntStoreShelfElectronicsSingleBottomSpeakerEmpty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfEmptyPrefab"/><property name="Place" value="TowardsPlacerInverted"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsSingleBottomSpeakerEmpty6"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomSpeakerEmpty5']">
+<block name="cntStoreShelfElectronicsSingleBottomSpeakerEmpty6">
+	<property name="Extends" value="cntStoreShelfElectronicsSingleBottomSpeakerEmpty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfEmptyPrefab"/><property name="Place" value="TowardsPlacerInverted"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsSingleBottomSpeaker"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomSpeakerEmpty6']">
+<block name="cntStoreShelfElectronicsSingleBottomSpeaker">
+	<property name="Extends" value="cntStoreShelfElectronicsSingleBottomSpeakerEmpty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfSpeakerPrefab"/>
+	<property name="DowngradeBlock" value="cntStoreShelfElectronicsSingleBottomSpeakerEmpty"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="140"/>
+</block>
+</insertAfter>
+<!-- ******************************************************************************************* -->
+<!-- ******************************************************************************************* -->
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsSingleBottomSpeaker']">
+<block name="cntStoreShelfElectronicsDoubleBottomGoods01Empty">
+	<property name="Material" value="Mmetal"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfDoubleEmptyPrefab"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="Texture" value="282"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="DescriptionKey" value="creativeMenuBlockGroupDesc"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsDoubleBottomGoods01Empty1"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+	<property name="Group" value="Decor/Miscellaneous"/>
+	<property name="FilterTags" value="floot,ffurniture"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsDoubleBottomGoods01Empty']">
+<block name="cntStoreShelfElectronicsDoubleBottomGoods01Empty1">
+	<property name="Extends" value="cntStoreShelfElectronicsDoubleBottomGoods01Empty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfDoubleEmptyPrefab"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsDoubleBottomGoods01Empty2"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+	</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsDoubleBottomGoods01Empty1']">
+<block name="cntStoreShelfElectronicsDoubleBottomGoods01Empty2">
+	<property name="Extends" value="cntStoreShelfElectronicsDoubleBottomGoods01Empty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfDoubleEmptyPrefab"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsDoubleBottomGoods01Empty3"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+	</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsDoubleBottomGoods01Empty2']">
+<block name="cntStoreShelfElectronicsDoubleBottomGoods01Empty3">
+	<property name="Extends" value="cntStoreShelfElectronicsDoubleBottomGoods01Empty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfDoubleEmptyPrefab"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsDoubleBottomGoods01Empty4"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+	</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsDoubleBottomGoods01Empty3']">
+<block name="cntStoreShelfElectronicsDoubleBottomGoods01Empty4">
+	<property name="Extends" value="cntStoreShelfElectronicsDoubleBottomGoods01Empty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfDoubleEmptyPrefab"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsDoubleBottomGoods01Empty5"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+	</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsDoubleBottomGoods01Empty4']">
+<block name="cntStoreShelfElectronicsDoubleBottomGoods01Empty5">
+	<property name="Extends" value="cntStoreShelfElectronicsDoubleBottomGoods01Empty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfDoubleEmptyPrefab"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsDoubleBottomGoods01Empty6"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+	</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsDoubleBottomGoods01Empty5']">
+<block name="cntStoreShelfElectronicsDoubleBottomGoods01Empty6">
+	<property name="Extends" value="cntStoreShelfElectronicsDoubleBottomGoods01Empty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfDoubleEmptyPrefab"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsDoubleBottomGoods01"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+	</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsDoubleBottomGoods01Empty6']">
+<block name="cntStoreShelfElectronicsDoubleBottomGoods01">
+	<property name="Extends" value="cntStoreShelfElectronicsDoubleBottomGoods01Empty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfDoubleGoods01Prefab"/>
+	<property name="DowngradeBlock" value="cntStoreShelfElectronicsSingleBottomSpeakerEmpty"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="140"/>
+</block>
+</insertAfter>
+<!-- ******************************************************************************************* -->
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsDoubleBottomGoods01']">
+<block name="cntStoreShelfElectronicsDoubleBottomGoods02Empty">
+	<property name="Material" value="Mmetal"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfDoubleEmptyPrefab"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="Texture" value="282"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="DescriptionKey" value="creativeMenuBlockGroupDesc"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsDoubleBottomGoods02Empty1"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+	<property name="Group" value="Decor/Miscellaneous"/>
+	<property name="FilterTags" value="floot,ffurniture"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsDoubleBottomGoods02Empty']">
+<block name="cntStoreShelfElectronicsDoubleBottomGoods02Empty1">
+	<property name="Extends" value="cntStoreShelfElectronicsDoubleBottomGoods02Empty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfDoubleEmptyPrefab"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsDoubleBottomGoods02Empty2"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+	</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsDoubleBottomGoods02Empty1']">
+<block name="cntStoreShelfElectronicsDoubleBottomGoods02Empty2">
+	<property name="Extends" value="cntStoreShelfElectronicsDoubleBottomGoods02Empty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfDoubleEmptyPrefab"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsDoubleBottomGoods02Empty3"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+	</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsDoubleBottomGoods02Empty2']">
+<block name="cntStoreShelfElectronicsDoubleBottomGoods02Empty3">
+	<property name="Extends" value="cntStoreShelfElectronicsDoubleBottomGoods02Empty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfDoubleEmptyPrefab"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsDoubleBottomGoods02Empty4"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+	</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsDoubleBottomGoods02Empty3']">
+<block name="cntStoreShelfElectronicsDoubleBottomGoods02Empty4">
+	<property name="Extends" value="cntStoreShelfElectronicsDoubleBottomGoods02Empty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfDoubleEmptyPrefab"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsDoubleBottomGoods02Empty5"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+	</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsDoubleBottomGoods02Empty4']">
+<block name="cntStoreShelfElectronicsDoubleBottomGoods02Empty5">
+	<property name="Extends" value="cntStoreShelfElectronicsDoubleBottomGoods02Empty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfDoubleEmptyPrefab"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsDoubleBottomGoods02Empty6"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+	</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsDoubleBottomGoods02Empty5']">
+<block name="cntStoreShelfElectronicsDoubleBottomGoods02Empty6">
+	<property name="Extends" value="cntStoreShelfElectronicsDoubleBottomGoods02Empty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfDoubleEmptyPrefab"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsDoubleBottomGoods02"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+	</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsDoubleBottomGoods02Empty6']">
+<block name="cntStoreShelfElectronicsDoubleBottomGoods02">
+	<property name="Extends" value="cntStoreShelfElectronicsDoubleBottomGoods02Empty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfDoubleGoods02Prefab"/>
+	<property name="DowngradeBlock" value="cntStoreShelfElectronicsDoubleBottomGoods02Empty"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="140"/>
+</block>
+</insertAfter>
+<!-- ******************************************************************************************* -->
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsDoubleBottomGoods02']">
+<block name="cntStoreShelfElectronicsDoubleBottomGoods03Empty">
+	<property name="Material" value="Mmetal"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfDoubleEmptyPrefab"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="Texture" value="282"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="DescriptionKey" value="creativeMenuBlockGroupDesc"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsDoubleBottomGoods03Empty1"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+	<property name="Group" value="Decor/Miscellaneous"/>
+	<property name="FilterTags" value="floot,ffurniture"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsDoubleBottomGoods03Empty']">
+<block name="cntStoreShelfElectronicsDoubleBottomGoods03Empty1">
+	<property name="Extends" value="cntStoreShelfElectronicsDoubleBottomGoods03Empty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfDoubleEmptyPrefab"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsDoubleBottomGoods03Empty2"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+	</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsDoubleBottomGoods03Empty1']">
+<block name="cntStoreShelfElectronicsDoubleBottomGoods03Empty2">
+	<property name="Extends" value="cntStoreShelfElectronicsDoubleBottomGoods03Empty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfDoubleEmptyPrefab"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsDoubleBottomGoods03Empty3"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+	</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsDoubleBottomGoods03Empty2']">
+<block name="cntStoreShelfElectronicsDoubleBottomGoods03Empty3">
+	<property name="Extends" value="cntStoreShelfElectronicsDoubleBottomGoods03Empty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfDoubleEmptyPrefab"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsDoubleBottomGoods03Empty4"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+	</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsDoubleBottomGoods03Empty3']">
+<block name="cntStoreShelfElectronicsDoubleBottomGoods03Empty4">
+	<property name="Extends" value="cntStoreShelfElectronicsDoubleBottomGoods03Empty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfDoubleEmptyPrefab"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsDoubleBottomGoods03Empty5"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+	</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsDoubleBottomGoods03Empty4']">
+<block name="cntStoreShelfElectronicsDoubleBottomGoods03Empty5">
+	<property name="Extends" value="cntStoreShelfElectronicsDoubleBottomGoods03Empty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfDoubleEmptyPrefab"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsDoubleBottomGoods03Empty6"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+	</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsDoubleBottomGoods03Empty5']">
+<block name="cntStoreShelfElectronicsDoubleBottomGoods03Empty6">
+	<property name="Extends" value="cntStoreShelfElectronicsDoubleBottomGoods03Empty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfDoubleEmptyPrefab"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsDoubleBottomGoods03"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+	</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsDoubleBottomGoods03Empty6']">
+<block name="cntStoreShelfElectronicsDoubleBottomGoods03">
+	<property name="Extends" value="cntStoreShelfElectronicsDoubleBottomGoods03Empty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfDoubleGoods03Prefab"/>
+	<property name="DowngradeBlock" value="cntStoreShelfElectronicsDoubleBottomGoods03Empty"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="140"/>
+</block>
+</insertAfter>
+<!-- ******************************************************************************************* -->
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsDoubleBottomGoods03']">
+<block name="cntStoreShelfElectronicsDoubleBottomGoods04Empty">
+	<property name="Material" value="Mmetal"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfDoubleEmptyPrefab"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="Texture" value="282"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="DescriptionKey" value="creativeMenuBlockGroupDesc"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsDoubleBottomGoods04Empty1"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+	<property name="Group" value="Decor/Miscellaneous"/>
+	<property name="FilterTags" value="floot,ffurniture"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsDoubleBottomGoods04Empty']">
+<block name="cntStoreShelfElectronicsDoubleBottomGoods04Empty1">
+	<property name="Extends" value="cntStoreShelfElectronicsDoubleBottomGoods04Empty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfDoubleEmptyPrefab"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsDoubleBottomGoods04Empty2"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+	</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsDoubleBottomGoods04Empty1']">
+<block name="cntStoreShelfElectronicsDoubleBottomGoods04Empty2">
+	<property name="Extends" value="cntStoreShelfElectronicsDoubleBottomGoods04Empty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfDoubleEmptyPrefab"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsDoubleBottomGoods04Empty3"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+	</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsDoubleBottomGoods04Empty2']">
+<block name="cntStoreShelfElectronicsDoubleBottomGoods04Empty3">
+	<property name="Extends" value="cntStoreShelfElectronicsDoubleBottomGoods04Empty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfDoubleEmptyPrefab"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsDoubleBottomGoods04Empty4"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+	</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsDoubleBottomGoods04Empty3']">
+<block name="cntStoreShelfElectronicsDoubleBottomGoods04Empty4">
+	<property name="Extends" value="cntStoreShelfElectronicsDoubleBottomGoods04Empty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfDoubleEmptyPrefab"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsDoubleBottomGoods04Empty5"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+	</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsDoubleBottomGoods04Empty4']">
+<block name="cntStoreShelfElectronicsDoubleBottomGoods04Empty5">
+	<property name="Extends" value="cntStoreShelfElectronicsDoubleBottomGoods04Empty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfDoubleEmptyPrefab"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsDoubleBottomGoods04Empty6"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+	</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsDoubleBottomGoods04Empty5']">
+<block name="cntStoreShelfElectronicsDoubleBottomGoods04Empty6">
+	<property name="Extends" value="cntStoreShelfElectronicsDoubleBottomGoods04Empty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfDoubleEmptyPrefab"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreShelfElectronicsDoubleBottomGoods04"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+	</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsDoubleBottomGoods04Empty6']">
+<block name="cntStoreShelfElectronicsDoubleBottomGoods04">
+	<property name="Extends" value="cntStoreShelfElectronicsDoubleBottomGoods04Empty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfDoubleGoods04Prefab"/>
+	<property name="DowngradeBlock" value="cntStoreShelfElectronicsDoubleBottomGoods04Empty"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="140"/>
+</block>
+</insertAfter>
+<!-- ******************************************************************************************* -->
+<!-- ******************************************************************************************* -->
+<insertAfter xpath="/blocks/block[@name='cntStoreShelfElectronicsDoubleBottomGoods04']">
+<block name="cntStoreElectronicsBookShelfSpeakerEmpty">
+	<property name="Material" value="Mmetal"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfDoubleEmptyPrefab"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="Texture" value="282"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="DescriptionKey" value="creativeMenuBlockGroupDesc"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreElectronicsBookShelfSpeakerEmpty1"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+	<property name="Group" value="Decor/Miscellaneous"/>
+	<property name="FilterTags" value="floot,ffurniture"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreElectronicsBookShelfSpeakerEmpty']">
+<block name="cntStoreElectronicsBookShelfSpeakerEmpty1">
+	<property name="Extends" value="cntStoreElectronicsBookShelfSpeakerEmpty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfDoubleEmptyPrefab"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreElectronicsBookShelfSpeakerEmpty2"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+	</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreElectronicsBookShelfSpeakerEmpty1']">
+<block name="cntStoreElectronicsBookShelfSpeakerEmpty2">
+	<property name="Extends" value="cntStoreElectronicsBookShelfSpeakerEmpty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfDoubleEmptyPrefab"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreElectronicsBookShelfSpeakerEmpty3"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+	</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreElectronicsBookShelfSpeakerEmpty2']">
+<block name="cntStoreElectronicsBookShelfSpeakerEmpty3">
+	<property name="Extends" value="cntStoreElectronicsBookShelfSpeakerEmpty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfDoubleEmptyPrefab"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreElectronicsBookShelfSpeakerEmpty4"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+	</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreElectronicsBookShelfSpeakerEmpty3']">
+<block name="cntStoreElectronicsBookShelfSpeakerEmpty4">
+	<property name="Extends" value="cntStoreElectronicsBookShelfSpeakerEmpty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfDoubleEmptyPrefab"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreElectronicsBookShelfSpeakerEmpty5"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+	</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreElectronicsBookShelfSpeakerEmpty4']">
+<block name="cntStoreElectronicsBookShelfSpeakerEmpty5">
+	<property name="Extends" value="cntStoreElectronicsBookShelfSpeakerEmpty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfDoubleEmptyPrefab"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreElectronicsBookShelfSpeakerEmpty6"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+	</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreElectronicsBookShelfSpeakerEmpty5']">
+<block name="cntStoreElectronicsBookShelfSpeakerEmpty6">
+	<property name="Extends" value="cntStoreElectronicsBookShelfSpeakerEmpty"/>
+	<property name="Model" value="Entities/Commercial/electronicsShelfDoubleEmptyPrefab"/>
+	<property name="CustomIcon" value="cntStoreShelfElectronicsSingleBottomEmpty"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreElectronicsBookShelfSpeaker"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+	</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreElectronicsBookShelfSpeakerEmpty6']">
+<block name="cntStoreElectronicsBookShelfSpeaker">
+	<property name="Extends" value="cntStoreElectronicsBookShelfSpeakerEmpty"/>
+	<property name="Model" value="Entities/Commercial/bookShelfSpeakerPrefab"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+	<drop event="Harvest" name="resourceElectricParts" count="1,5" tag="salvageHarvest"/>
+	<drop event="Destroy" name="resourceScrapPolymers" count="2,3"/>
+	<property name="DowngradeBlock" value="cntStoreElectronicsBookShelfSpeakerEmpty"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="140"/>
+</block>
+</insertAfter>
+<!-- ******************************************************************************************* -->
+<insertAfter xpath="/blocks/block[@name='cntStoreElectronicsBookShelfSpeaker']">
+<block name="cntStoreElectronicsPalletTvFallenEmpty">
+	<property name="Group" value="Building,advBuilding"/>
+	<property name="Tags" value="wood"/>
+	<property name="DescriptionKey" value="woodFrameGroupDesc"/>
+	<property name="Material" value="Mwood_weak"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="Entities/Industrial/palletPrefab"/>
+	<property name="Texture" value="241"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="FuelValue" value="100"/>
+	<property class="RepairItems"> <property name="resourceWood" value="3"/> </property>
+	<property name="CustomUpgradeSound" value="place_block_wood"/>
+	<drop event="Destroy" name="resourceWood" count="1,2"/>
+	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.3" stick_chance="1"/>
+	<property name="FilterTags" value="fdecor,fother"/>
+	<property name="SortOrder1" value="4030"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreElectronicsPalletTvFallenEmpty1"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreElectronicsPalletTvFallenEmpty']">
+<block name="cntStoreElectronicsPalletTvFallenEmpty1">
+	<property name="Extends" value="cntStoreElectronicsPalletTvFallenEmpty"/>
+	<property name="DescriptionKey" value="woodFrameGroupDesc"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="Entities/Industrial/palletPrefab"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreElectronicsPalletTvFallenEmpty2"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreElectronicsPalletTvFallenEmpty1']">
+<block name="cntStoreElectronicsPalletTvFallenEmpty2">
+	<property name="Extends" value="cntStoreElectronicsPalletTvFallenEmpty"/>
+	<property name="DescriptionKey" value="woodFrameGroupDesc"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="Entities/Industrial/palletPrefab"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreElectronicsPalletTvFallenEmpty3"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreElectronicsPalletTvFallenEmpty2']">
+<block name="cntStoreElectronicsPalletTvFallenEmpty3">
+	<property name="Extends" value="cntStoreElectronicsPalletTvFallenEmpty"/>
+	<property name="DescriptionKey" value="woodFrameGroupDesc"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="Entities/Industrial/palletPrefab"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreElectronicsPalletTvFallenEmpty4"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreElectronicsPalletTvFallenEmpty3']">
+<block name="cntStoreElectronicsPalletTvFallenEmpty4">
+	<property name="Extends" value="cntStoreElectronicsPalletTvFallenEmpty"/>
+	<property name="DescriptionKey" value="woodFrameGroupDesc"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="Entities/Industrial/palletPrefab"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreElectronicsPalletTvFallenEmpty5"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreElectronicsPalletTvFallenEmpty4']">
+<block name="cntStoreElectronicsPalletTvFallenEmpty5">
+	<property name="Extends" value="cntStoreElectronicsPalletTvFallenEmpty"/>
+	<property name="DescriptionKey" value="woodFrameGroupDesc"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="Entities/Industrial/palletPrefab"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreElectronicsPalletTvFallenEmpty6"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreElectronicsPalletTvFallenEmpty5']">
+<block name="cntStoreElectronicsPalletTvFallenEmpty6">
+	<property name="Extends" value="cntStoreElectronicsPalletTvFallenEmpty"/>
+	<property name="DescriptionKey" value="woodFrameGroupDesc"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="Entities/Industrial/palletPrefab"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreElectronicsPalletTvFallen"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreElectronicsPalletTvFallenEmpty6']">
+<block name="cntStoreElectronicsPalletTvFallen">
+	<property name="Extends" value="cntStoreElectronicsPalletTvFallenEmpty"/>
+	<property name="Material" value="MCardboardLoot"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="Entities/Commercial/electronicsPalletTvFallenPrefab"/>
+	<property name="StabilitySupport" value="false"/>
+	<property name="ImposterExchange" value="imposterHalf" param1="81"/>
+	<property name="Collide" value="melee,bullet,arrow,rocket"/>
+	<property name="Path" value="solid"/>
+	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+	<drop event="Harvest" name="resourcePaper" count="3,12" tag="allHarvest"/>
+	<drop event="Harvest" name="resourceScrapPolymers" count="2,3" tag="allHarvest"/>
+	<drop event="Harvest" name="resourceElectricParts" count="3,5" tag="salvageHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+	<property name="DescriptionKey" value="creativeMenuBlockGroupDesc"/>
+	<property name="FilterTags" value="floot,ffurniture,fdesign"/>
+	<property name="DowngradeBlock" value="cntStoreElectronicsPalletTvFallenEmpty"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="140"/>
+</block>
+</insertAfter>
+<!-- ******************************************************************************************* -->
+<insertAfter xpath="/blocks/block[@name='cntStoreElectronicsPalletTvFallen']">
+<block name="cntStoreElectronicsPalletTvStandingEmpty">
+	<property name="Group" value="Building,advBuilding"/>
+	<property name="Tags" value="wood"/>
+	<property name="DescriptionKey" value="woodFrameGroupDesc"/>
+	<property name="Material" value="Mwood_weak"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="Entities/Industrial/palletPrefab"/>
+	<property name="Texture" value="241"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="FuelValue" value="100"/>
+	<property class="RepairItems"> <property name="resourceWood" value="3"/> </property>
+	<property name="CustomUpgradeSound" value="place_block_wood"/>
+	<drop event="Destroy" name="resourceWood" count="1,2"/>
+	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.3" stick_chance="1"/>
+	<property name="FilterTags" value="fdecor,fother"/>
+	<property name="SortOrder1" value="4030"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreElectronicsPalletTvStandingEmpty1"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreElectronicsPalletTvStandingEmpty']">
+<block name="cntStoreElectronicsPalletTvStandingEmpty1">
+	<property name="Extends" value="cntStoreElectronicsPalletTvStandingEmpty"/>
+	<property name="Model" value="Entities/Industrial/palletPrefab"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreElectronicsPalletTvStandingEmpty2"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreElectronicsPalletTvStandingEmpty1']">
+<block name="cntStoreElectronicsPalletTvStandingEmpty2">
+	<property name="Extends" value="cntStoreElectronicsPalletTvStandingEmpty"/>
+	<property name="Model" value="Entities/Industrial/palletPrefab"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreElectronicsPalletTvStandingEmpty3"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreElectronicsPalletTvStandingEmpty2']">
+<block name="cntStoreElectronicsPalletTvStandingEmpty3">
+	<property name="Extends" value="cntStoreElectronicsPalletTvStandingEmpty"/>
+	<property name="Model" value="Entities/Industrial/palletPrefab"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreElectronicsPalletTvStandingEmpty4"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreElectronicsPalletTvStandingEmpty3']">
+<block name="cntStoreElectronicsPalletTvStandingEmpty4">
+	<property name="Extends" value="cntStoreElectronicsPalletTvStandingEmpty"/>
+	<property name="Model" value="Entities/Industrial/palletPrefab"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreElectronicsPalletTvStandingEmpty5"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreElectronicsPalletTvStandingEmpty4']">
+<block name="cntStoreElectronicsPalletTvStandingEmpty5">
+	<property name="Extends" value="cntStoreElectronicsPalletTvStandingEmpty"/>
+	<property name="Model" value="Entities/Industrial/palletPrefab"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreElectronicsPalletTvStandingEmpty6"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreElectronicsPalletTvStandingEmpty5']">
+<block name="cntStoreElectronicsPalletTvStandingEmpty6">
+	<property name="Extends" value="cntStoreElectronicsPalletTvStandingEmpty"/>
+	<property name="Model" value="Entities/Industrial/palletPrefab"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="cntStoreElectronicsPalletTvStanding"/>
+	<property name="UpgradeRated.Rate" value="63"/>
+</block>
+</insertAfter>
+<insertAfter xpath="/blocks/block[@name='cntStoreElectronicsPalletTvStandingEmpty6']">
+<block name="cntStoreElectronicsPalletTvStanding">
+	<property name="Extends" value="cntStoreElectronicsPalletTvStandingEmpty"/>
+	<property name="Model" value="Entities/Commercial/electronicsPalletTvStandingPrefab"/>
+	<property name="DowngradeBlock" value="cntStoreElectronicsPalletTvStandingEmpty"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="140"/>
+</block>
+</insertAfter>
+<!-- STORE ELECTRONICS SHELVING -->
 <!-- ****************************************************************************************************************************************** -->
 <!-- ****************************************************************************************************************************************** -->
 <!-- ****************************************************************************************************************************************** -->
