@@ -2,10 +2,10 @@
 <!-- removing the uncomment tags here will allow all items to be 30k
 	<set xpath="/items/item/property[@name='Stacknumber' and not(@value='1')]/@value">30000</set>
 	-->
-	
+	<set xpath="/items/item[starts-with(@name, 'ammoBundle')]/property[@name='Stacknumber']/@value">30000</set>
 	<set xpath="/items/item[starts-with(@name, 'resource')]/property[@name='Stacknumber']/@value">30000</set>
-	
-	<!--<set xpath="/items/item[@name='resourceRockSmall']/property[@name='Stacknumber']/@value">30000</set>
+		
+	<set xpath="/items/item[@name='resourceRockSmall']/property[@name='Stacknumber']/@value">30000</set>
 	<set xpath="/items/item[@name='resourceSnowBall']/property[@name='Stacknumber']/@value">30000</set>
 	<set xpath="/items/item[@name='resourceAcid']/property[@name='Stacknumber']/@value">30000</set>
 	<set xpath="/items/item[@name='resourceYuccaFibers']/property[@name='Stacknumber']/@value">30000</set>
@@ -28,8 +28,7 @@
 	<set xpath="/items/item[@name='resourceCropChrysanthemumPlant']/property[@name='Stacknumber']/@value">30000</set>
 	<set xpath="/items/item[@name='resourceCropCottonPlant']/property[@name='Stacknumber']/@value">30000</set>
 	<set xpath="/items/item[@name='resourceCropGoldenrodPlant']/property[@name='Stacknumber']/@value">30000</set>
-	<set xpath="/items/item[@name='resourceCropCoffeeBeans']/property[@name='Stacknumber']/@value">30000</set>
-	<set xpath="/items/item[@name='resourceCropSnowberryPlant']/property[@name='Stacknumber']/@value">30000</set>
+	<set xpath="/items/item[@name='resourceCropCoffeeBeans']/property[@name='Stacknumber']/@value">30000</set>	
 	<set xpath="/items/item[@name='resourceScrapBrass']/property[@name='Stacknumber']/@value">30000</set>
 	<set xpath="/items/item[@name='resourceScrapLead']/property[@name='Stacknumber']/@value">30000</set>
 	<set xpath="/items/item[@name='resourceClayLump']/property[@name='Stacknumber']/@value">30000</set>
@@ -38,12 +37,10 @@
 	<set xpath="/items/item[@name='resourceConcreteMix']/property[@name='Stacknumber']/@value">30000</set>	
 	<set xpath="/items/item[@name='resourceCloth']/property[@name='Stacknumber']/@value">30000</set>
 	<set xpath="/items/item[@name='resourcePaper']/property[@name='Stacknumber']/@value">30000</set>
-	<set xpath="/items/item[@name='resourceFertilizer']/property[@name='Stacknumber']/@value">30000</set>
 	<set xpath="/items/item[@name='resourceMilitaryFiber']/property[@name='Stacknumber']/@value">30000</set>
 	<set xpath="/items/item[@name='resourceElectricParts']/property[@name='Stacknumber']/@value">30000</set>
 	<set xpath="/items/item[@name='resourceElectronicParts']/property[@name='Stacknumber']/@value">30000</set>
 	<set xpath="/items/item[@name='resourceMechanicalParts']/property[@name='Stacknumber']/@value">30000</set>
-	<set xpath="/items/item[@name='resourceInsulator']/property[@name='Stacknumber']/@value">30000</set>
 	<set xpath="/items/item[@name='resourceFeather']/property[@name='Stacknumber']/@value">30000</set>
 	<set xpath="/items/item[@name='resourceArrowHeadIron']/property[@name='Stacknumber']/@value">30000</set>
 	<set xpath="/items/item[@name='resourceArrowHeadSteelAP']/property[@name='Stacknumber']/@value">30000</set>
@@ -68,8 +65,20 @@
 	<set xpath="/items/item[@name='resourceFishingWeight']/property[@name='Stacknumber']/@value">30000</set>
 	<set xpath="/items/item[@name='resourceTrophy1']/property[@name='Stacknumber']/@value">30000</set>
 	<set xpath="/items/item[@name='resourceTrophy2']/property[@name='Stacknumber']/@value">30000</set>
-	<set xpath="/items/item[@name='resourceTrophy3']/property[@name='Stacknumber']/@value">30000</set>
 	<set xpath="/items/item[@name='resourceSilverNugget']/property[@name='Stacknumber']/@value">30000</set>
-	<set xpath="/items/item[@name='resourceGoldNugget']/property[@name='Stacknumber']/@value">30000</set>
-	<set xpath="/items/item[@name='resourceRawDiamond']/property[@name='Stacknumber']/@value">30000</set>	-->
+	
+	
+	<append xpath="/items/item[@name='resourceCropSnowberryPlant']">
+	<property name="Stacknumber" value="30000"/>
+	</append>
+	<append xpath="/items/item[@name='resourceInsulator']">
+	<property name="Stacknumber" value="30000"/>
+	</append>
+	<append xpath="/items/item[@name='resourceGoldNugget']">
+	<property name="Stacknumber" value="30000"/>
+	</append>
+	<append xpath="/items/item[@name='resourceRawDiamond']">
+	<property name="Stacknumber" value="30000"/>
+	</append>
+
 </stallionsden>
