@@ -158,7 +158,28 @@
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUrbanCombatLandMines" level="-1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUrbanCombatAdrenalineRush" level="-1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUrbanCombatRoomClearing" level="-1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUrbanCombatComplete" level="-1"/>	
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="perkUrbanCombatComplete" level="-1"/>			
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="bookBarBrawling1BasicMoves" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="bookBarBrawling2DropABomb" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="bookBarBrawling3KillerInstinct" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="bookBarBrawling4FinishingMoves" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="bookBarBrawling5AdrenalineHealing" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="bookBarBrawling6RageMode" level="-1"/>
+	    <triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="bookBarBrawling7BoozedUp" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="bookSpearHunter1Damage" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="bookSpearHunter2Maintenance" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="bookSpearHunter3SteelSpears" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="bookSpearHunter4StrongArm" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="bookSpearHunter5RapidStrike" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="bookSpearHunter6PuncturedLung" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="bookSpearHunter7QuickStrike" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="bookTechJunkie1Damage" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="bookTechJunkie2Maintenance" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="bookTechJunkie3APAmmo" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="bookTechJunkie4Shells" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="bookTechJunkie5Repulsor" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="bookTechJunkie6BatonCharge" level="-1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="SetProgressionLevel" progression_name="bookTechJunkie7Hydraulics" level="-1"/>	
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
 		</effect_group>
 </item>
