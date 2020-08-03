@@ -39,5 +39,13 @@
 			<ingredient name="resourceInsulator" count="1"/>
 			<ingredient name="resourceNail" count="10"/>
 		</recipe>
+		
+		<recipe name="resourceInsulator" count="1" craft_area="workbench" >
+			<ingredient name="resourceForgedIron" count="5"/>
+			<ingredient name="resourceScrapIron" count="2"/>
+			<ingredient name="resourceScrapLead" count="2"/>
+			<ingredient name="resourceScrapBrass" count="1"/>
+			<ingredient name="resourceNail" count="3"/>
+		</recipe>
 	</append>
 </stallionsden>

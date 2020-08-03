@@ -4,8 +4,11 @@
     <property name="Class" value="UpgradeRated" />
 	<property name="Material" value="Mmetal"/>
 	<property name="Texture" value="346,345,341,345,262,345" />
+	<property name="DescriptionKey" value="ExcavatorDesc"/>
     <property name="Weight" value="216" />
     <property name="Collide" value="movement,rockets,sight,melee" />
+	<property name = "TakeDelay" value = "12" />
+	<property name = "CanPickup" value = "true" /> 
     <property name="UpgradeRated.ToBlock" value="MiningTruck" />
     <property name="UpgradeRated.Rate" value="3" />		<!-- 15 is max for the Rate -->
     <!-- 1=slow, 1000=fast -->
@@ -22,6 +25,7 @@
 	<property name="Mesh" value="models"/>
 	<property name="Path" value="solid"/>
 	<property name="Model" value="Industrial/gas_pump" param1="main_mesh"/>
+	<property name="DescriptionKey" value="MiningTruckDesc"/>
 	<property name="DisplayType" value="blockMulti" />
 	<property name="MultiBlockDim" value="1,2,1"/>
 	<property name="ImposterExchange" value="imposterDontBlockCTRPlate" param1="90"/> 
@@ -43,6 +47,8 @@
 	<property name="Texture" value="293"/>
 	<property name="Mesh" value="models"/>
 	<property name="Path" value="solid"/>
+	<property name = "TakeDelay" value = "12" />
+	<property name = "CanPickup" value = "true" /> 
 	<property name="Model" value="OutdoorDecor/bird_bath_planter" param1="main_mesh"/>
 	<property name="ImposterExchange" value="imposterDontBlockCTRQuarter" param1="170"/>
 	<property name="Collide" value="movement,rockets,sight,melee" />
@@ -51,7 +57,7 @@
     <!-- 1=slow, 1000=fast -->
 	 <property name="Weight" value="216" />
 	<property name="FilterTags" value="fdecor,fother,ffurniture"/>
-	<property name="DescriptionKey" value="decorationBlockGroupDesc"/>
+	<property name="DescriptionKey" value="RainBarrelDesc"/>
 </block>
 </insertAfter>
 <insertAfter xpath="/blocks/block[@name='RainBarrel']" >
@@ -60,6 +66,7 @@
     <property name="Class" value="Loot" />
 	<property name="Material" value="Mmetal"/>
 	<property name="Shape" value="New"/>
+	<property name="DescriptionKey" value="AutoWaterCollectorDesc"/>
 	<property name="Path" value="solid"/>
 	<property name="Weight" value="216" />
 	<property name="Model" value="counter_sink"/>
@@ -67,19 +74,10 @@
 	<property name="Collide" value="movement,rockets,sight,melee" />
 	<property name="LootList" value="224"/>
 	<property name="ImposterExchange" value="imposterBlock" param1="116"/>
-	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	<property name="FilterTags" value="floot,ffurniture"/>
 	<drop event="Destroy" count="0"/>
 	<drop event="Harvest" count="0"/>
 	<property name="DowngradeBlock" value="RainBarrel"/>  
 	</block>	
   </insertAfter>
-  </stallionsden>
-  
-  
-  
-  
-  
-  
-  
-  
+  </stallionsden>  

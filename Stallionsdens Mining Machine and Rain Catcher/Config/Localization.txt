@@ -1,0 +1,9 @@
+Key,Source,Context,Changes,English
+Excavator,blocks,Container,KgNone,Excavator
+ExcavatorDesc,blocks,Block,,,Excavator digs for resources over time.,,
+MiningTruck,blocks,Container,KgNone,Mining Truck
+MiningTruckDesc,blocks,Block,,,Mining Truck holds the resources found by the Excavator.,,
+RainBarrel,blocks,Container,KgNone,Rain Barrel 
+RainBarrelDesc,blocks,Block,,,Captures Water and Drinkable substances.,,
+AutoWaterCollector,blocks,Container,KgNone,Auto Water Collector
+AutoWaterCollectorDesc,blocks,Block,,,Holds the drinkable substances ready for Collection.,,
