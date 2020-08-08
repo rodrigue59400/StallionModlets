@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xml>
+	<ModInfo>
+		<Name value="StallionsdensOpenDoorSyndrome" />
+		<Description value="Leaves containers open after looting them" />
+		<Author value="Stallionsden" />
+		<Version value="A18B143Exp" />
+		</ModInfo>
+</xml>

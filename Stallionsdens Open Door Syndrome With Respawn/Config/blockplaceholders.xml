@@ -1,0 +1,137 @@
+<stallionsden>
+<remove xpath="/blockplaceholders/placeholder[@name='cntCashRegisterRandomLootHelper']/block[@name='air']"></remove>
+
+	
+	<set xpath="/blockplaceholders/placeholder[@name='cntMicrowaveOvenRandomLootHelper']/block[@name='cntMicrowaveOvenVer1Open']/@prob">.66</set>
+	<set xpath="/blockplaceholders/placeholder[@name='cntMicrowaveOvenRandomLootHelper']/block[@name='cntMicrowaveOvenVer1Closed']/@prob">.33</set>
+	
+	<set xpath="/blockplaceholders/placeholder[@name='cntMedicineCabinetClosedRandomLootHelper']/block[@name='cntMedicineCabinetOpen']/@prob">.66</set>
+	<set xpath="/blockplaceholders/placeholder[@name='cntMedicineCabinetClosedRandomLootHelper']/block[@name='cntMedicineCabinetClosed']/@prob">.33</set>
+	
+	<set xpath="/blockplaceholders/placeholder[@name='cntCabinetBottomRandomLootHelper']/block[@name='cntCabinetBottomOpen']/@prob">.66</set>
+	<set xpath="/blockplaceholders/placeholder[@name='cntCabinetBottomRandomLootHelper']/block[@name='cntCabinetBottom']/@prob">.33</set>
+	
+	<set xpath="/blockplaceholders/placeholder[@name='cntCupboardCabinetRedTopLootHelper']/block[@name='cntCupboardCabinetRedTopOpen']/@prob">.66</set>
+	<set xpath="/blockplaceholders/placeholder[@name='cntCupboardCabinetRedTopLootHelper']/block[@name='cntCupboardCabinetRedTopClosed']/@prob">.33</set>
+	
+	<set xpath="/blockplaceholders/placeholder[@name='cntCabinetOldBottomLootHelper']/block[@name='cntCabinetOldBottomOpen']/@prob">.66</set>
+	<set xpath="/blockplaceholders/placeholder[@name='cntCabinetOldBottomLootHelper']/block[@name='cntCabinetOldBottom']/@prob">.33</set>
+	
+	<set xpath="/blockplaceholders/placeholder[@name='cntCupboardCabinetOldTopLootHelper']/block[@name='cntCupboardCabinetOldTopOpen']/@prob">.66</set>
+	<set xpath="/blockplaceholders/placeholder[@name='cntCupboardCabinetOldTopLootHelper']/block[@name='cntCupboardCabinetOldTopClosed']/@prob">.33</set>
+	
+	<set xpath="/blockplaceholders/placeholder[@name='cntStoveOldRandomLootHelper']/block[@name='cntStoveOldVer2Open']/@prob">.66</set>
+	<set xpath="/blockplaceholders/placeholder[@name='cntStoveOldRandomLootHelper']/block[@name='cntStoveOldVer1Closed']/@prob">.33</set>
+	
+	<set xpath="/blockplaceholders/placeholder[@name='cntRetroFridgeRandomLootHelper']/block[@name='cntRetroFridgeVer2Open']/@prob">.66</set>
+	<set xpath="/blockplaceholders/placeholder[@name='cntRetroFridgeRandomLootHelper']/block[@name='cntRetroFridgeVer1Closed']/@prob">.33</set>
+	
+	<set xpath="/blockplaceholders/placeholder[@name='cntFridgeStainlessSteelRandomLootHelper']/block[@name='cntFridgeStainlessSteelVer2Open']/@prob">.66</set>
+	<set xpath="/blockplaceholders/placeholder[@name='cntFridgeStainlessSteelRandomLootHelper']/block[@name='cntFridgeStainlessSteel']/@prob">.33</set>
+	
+	<set xpath="/blockplaceholders/placeholder[@name='cntNightstandRandomLootHelper']/block[@name='cntNightstandOpen']/@prob">.66</set>
+	<set xpath="/blockplaceholders/placeholder[@name='cntNightstandRandomLootHelper']/block[@name='cntNightstandClosed']/@prob">.33</set>
+	
+	<set xpath="/blockplaceholders/placeholder[@name='cntMedicineCabinetFaucetRandomLootHelper']/block[@name='cntMedicineCabinetFaucetOpen']/@prob">.66</set>
+	<set xpath="/blockplaceholders/placeholder[@name='cntMedicineCabinetFaucetRandomLootHelper']/block[@name='cntMedicineCabinetFaucetClosed']/@prob">.33</set>
+	
+	<set xpath="/blockplaceholders/placeholder[@name='cntWoodDesk01RandomLootHelper']/block[@name='cntWoodDesk01Open']/@prob">.66</set>
+	<set xpath="/blockplaceholders/placeholder[@name='cntWoodDesk01RandomLootHelper']/block[@name='cntWoodDesk01Closed']/@prob">.33</set>
+	
+	<set xpath="/blockplaceholders/placeholder[@name='cntMetalDesk02RandomLootHelper']/block[@name='cntMetalDesk02Open']/@prob">.66</set>
+	<set xpath="/blockplaceholders/placeholder[@name='cntMetalDesk02RandomLootHelper']/block[@name='cntMetalDesk02Closed']/@prob">.33</set>
+	
+	<set xpath="/blockplaceholders/placeholder[@name='cntFileCabinetShortRandomLootHelper']/block[@name='cntFileCabinetShortOpen']/@prob">.66</set>
+	<set xpath="/blockplaceholders/placeholder[@name='cntFileCabinetShortRandomLootHelper']/block[@name='cntFileCabinetShortClosed']/@prob">.33</set>
+	
+	<set xpath="/blockplaceholders/placeholder[@name='cntFileCabinetTallRandomLootHelper']/block[@name='cntFileCabinetTallOpen']/@prob">.66</set>
+	<set xpath="/blockplaceholders/placeholder[@name='cntFileCabinetTallRandomLootHelper']/block[@name='cntFileCabinetTallClosed']/@prob">.33</set>
+	
+	<set xpath="/blockplaceholders/placeholder[@name='cntCoolerRandomLootHelper']/block[@name='cntCoolerOpen']/@prob">.66</set>
+	<set xpath="/blockplaceholders/placeholder[@name='cntCoolerRandomLootHelper']/block[@name='cntCoolerClosed']/@prob">.33</set>
+	
+	<set xpath="/blockplaceholders/placeholder[@name='cntLockersShortRandomLootHelper']/block[@name='cntLockersShortOpen']/@prob">.66</set>
+	<set xpath="/blockplaceholders/placeholder[@name='cntLockersShortRandomLootHelper']/block[@name='cntLockersShortClosed']/@prob">.33</set>
+	
+	<set xpath="/blockplaceholders/placeholder[@name='cntLockersTallRandomLootHelper']/block[@name='cntLockersTallOpen']/@prob">.66</set>
+	<set xpath="/blockplaceholders/placeholder[@name='cntLockersTallRandomLootHelper']/block[@name='cntLockersTallClosed']/@prob">.33</set>
+	
+	<set xpath="/blockplaceholders/placeholder[@name='cntLockersTallDoubleRandomLootHelper']/block[@name='cntLockersTallDoubleOpen']/@prob">.66</set>
+	<set xpath="/blockplaceholders/placeholder[@name='cntLockersTallDoubleRandomLootHelper']/block[@name='cntLockersTallDoubleClosed']/@prob">.33</set>
+	
+	<set xpath="/blockplaceholders/placeholder[@name='cntLockersTallMixRandomLootHelper']/block[@name='cntLockersTallMixOpen']/@prob">.66</set>
+	<set xpath="/blockplaceholders/placeholder[@name='cntLockersTallMixRandomLootHelper']/block[@name='cntLockersTallMixClosed']/@prob">.33</set>
+	
+	<set xpath="/blockplaceholders/placeholder[@name='cntLockersTallMixLinkRandomLootHelper']/block[@name='cntLockersTallMixLinkOpen']/@prob">.66</set>
+	<set xpath="/blockplaceholders/placeholder[@name='cntLockersTallMixLinkRandomLootHelper']/block[@name='cntLockersTallMixLinkClosed']/@prob">.33</set>
+	
+	<set xpath="/blockplaceholders/placeholder[@name='cntBathTubsRandomLootHelper']/block[@name='cntBathTubEmpty']/@prob">.66</set>
+	<set xpath="/blockplaceholders/placeholder[@name='cntBathTubsRandomLootHelper']/block[@name='cntBathTubGore']/@prob">.33</set>
+	
+	<set xpath="/blockplaceholders/placeholder[@name='cntLaundryBasketRandomLootHelper']/block[@name='cntLaundryBasketVer1Empty']/@prob">.66</set>
+	<set xpath="/blockplaceholders/placeholder[@name='cntLaundryBasketRandomLootHelper']/block[@name='cntLaundryBasketVer2Full']/@prob">.33</set>
+	
+	<set xpath="/blockplaceholders/placeholder[@name='cntBookcaseGoodRandomLootHelper']/block[@name='cntBookcaseEmpty']/@prob">.66</set>
+	<set xpath="/blockplaceholders/placeholder[@name='cntBookcaseGoodRandomLootHelper']/block[@name='cntBookcaseFull']/@prob">.33</set>
+	
+	<set xpath="/blockplaceholders/placeholder[@name='cntBookcasePoorRandomLootHelper']/block[@name='cntBookcaseEmpty']/@prob">.66</set>
+	<set xpath="/blockplaceholders/placeholder[@name='cntBookcasePoorRandomLootHelper']/block[@name='cntBookcaseFull']/@prob">.33</set>
+	
+	<set xpath="/blockplaceholders/placeholder[@name='cntCashRegisterRandomLootHelper']/block[@name='cntCashRegisterEmpty']/@prob">.66</set>
+	<set xpath="/blockplaceholders/placeholder[@name='cntCashRegisterRandomLootHelper']/block[@name='cntCashRegister']/@prob">.33</set>
+	
+	<set xpath="/blockplaceholders/placeholder[@name='cntShoppingCartRandomLootHelper']/block[@name='cntShoppingCartEmpty']/@prob">.66</set>
+	<set xpath="/blockplaceholders/placeholder[@name='cntShoppingCartRandomLootHelper']/block[@name='cntShoppingCart']/@prob">.33</set>
+	
+	<set xpath="/blockplaceholders/placeholder[@name='cntGasGrillRandomLootHelper']/block[@name='cntGasGrillOpen']/@prob">.66</set>
+	<set xpath="/blockplaceholders/placeholder[@name='cntGasGrillRandomLootHelper']/block[@name='cntGasGrillClosed']/@prob">.33</set>
+	
+	<set xpath="/blockplaceholders/placeholder[@name='cntCharcoalGrillRandomLootHelper']/block[@name='cntCharcoalGrillOpen']/@prob">.66</set>
+	<set xpath="/blockplaceholders/placeholder[@name='cntCharcoalGrillRandomLootHelper']/block[@name='cntCharcoalGrillClosed']/@prob">.33</set>
+	
+	<set xpath="/blockplaceholders/placeholder[@name='cntLuggageMediumRandomLootHelper']/block[@name='cntLuggageMediumOpen']/@prob">.66</set>
+	<set xpath="/blockplaceholders/placeholder[@name='cntLuggageMediumRandomLootHelper']/block[@name='cntLuggageMediumClosed']/@prob">.33</set>	
+		
+	<set xpath="/blockplaceholders/placeholder[@name='cntLuggageBigRandomLootHelper']/block[@name='cntLuggageBigOpen']/@prob">.66</set>
+	<set xpath="/blockplaceholders/placeholder[@name='cntLuggageBigRandomLootHelper']/block[@name='cntLuggageBigClosed']/@prob">.33</set>	
+		
+	<set xpath="/blockplaceholders/placeholder[@name='cntPillCaseRandomLootHelper']/block[@name='cntPillCaseEmpty']/@prob">.66</set>
+	<set xpath="/blockplaceholders/placeholder[@name='cntPillCaseRandomLootHelper']/block[@name='cntPillCaseClosed']/@prob">.33</set>	
+	
+	<set xpath="/blockplaceholders/placeholder[@name='cntWasherRandomLootHelper']/block[@name='cntWasherOpen']/@prob">.66</set>
+<set xpath="/blockplaceholders/placeholder[@name='cntWasherRandomLootHelper']/block[@name='cntWasherClosed']/@prob">.33</set>
+	
+<set xpath="/blockplaceholders/placeholder[@name='cntDryerRandomLootHelper']/block[@name='cntDryerOpen']/@prob">.66</set>
+<set xpath="/blockplaceholders/placeholder[@name='cntDryerRandomLootHelper']/block[@name='cntDryerClosed']/@prob">.33</set>
+
+<set xpath="/blockplaceholders/placeholder[@name='cntUtilityCartRandomLootHelper']/block[@name='cntUtilityCartEmpty']/@prob">.66</set>
+<set xpath="/blockplaceholders/placeholder[@name='cntUtilityCartRandomLootHelper']/block[@name='cntUtilityCartFull']/@prob">.33</set>
+	
+	<set xpath="/blockplaceholders/placeholder[@name='cntTiltTruckRandomLootHelper']/block[@name='cntTiltTruckEmpty']/@prob">.66</set>
+	<set xpath="/blockplaceholders/placeholder[@name='cntTiltTruckRandomLootHelper']/block[@name='cntTiltTruckFull']/@prob">.33</set>
+	
+	<set xpath="/blockplaceholders/placeholder[@name='cntLuggagePileARandomLootHelper']/block[@name='cntLuggagePileAOpen']/@prob">.66</set>
+	<set xpath="/blockplaceholders/placeholder[@name='cntLuggagePileARandomLootHelper']/block[@name='cntLuggagePileAClosed']/@prob">.33</set>
+	
+	<set xpath="/blockplaceholders/placeholder[@name='cntLuggagePileBRandomLootHelper']/block[@name='cntLuggagePileBOpen']/@prob">.66</set>
+	<set xpath="/blockplaceholders/placeholder[@name='cntLuggagePileBRandomLootHelper']/block[@name='cntLuggagePileBClosed']/@prob">.33</set>
+	
+	<set xpath="/blockplaceholders/placeholder[@name='cntToolBoxRandomLootHelper']/block[@name='cntToolBoxOpen']/@prob">.66</set>
+	<set xpath="/blockplaceholders/placeholder[@name='cntToolBoxRandomLootHelper']/block[@name='cntToolBoxClosed']/@prob">.33</set>
+	
+	<set xpath="/blockplaceholders/placeholder[@name='cntRollingToolBoxRandomLootHelper']/block[@name='cntRollingToolBoxOpen']/@prob">.66</set>
+	<set xpath="/blockplaceholders/placeholder[@name='cntRollingToolBoxRandomLootHelper']/block[@name='cntRollingToolBoxClosed']/@prob">.33</set>
+	
+	
+	
+	<append xpath="/blockplaceholders">
+	<placeholder name="shoppingBasketRandomLootHelper">		
+		<block name="shoppingBasketEmpty" prob=".66"/>
+		<block name="cntShoppingBasket" prob=".33"/>
+	</placeholder>
+	<placeholder name="cntTiltTruckFullFliesRandomLootHelper">		
+		<block name="cntTiltTruckFullFliesEmpty" prob=".66"/>
+		<block name="cntTiltTruckFullFlies" prob=".33"/>
+	</placeholder>	
+	</append>	
+</stallionsden>

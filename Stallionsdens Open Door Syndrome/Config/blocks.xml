@@ -1,0 +1,718 @@
+<stallionsden>
+	
+	<remove xpath="/blocks/block[@name='cntMicrowaveOvenVer1Closed']"></remove>
+	<remove xpath="/blocks/block[@name='cntMedicineCabinetClosed']"></remove>
+	<remove xpath="/blocks/block[@name='cntCupboardCornerCNRRed']"></remove>
+	<remove xpath="/blocks/block[@name='cntCupboardCabinetFullRedTopClosed']"></remove>
+	<remove xpath="/blocks/block[@name='cntCabinetBottomBrokenDoor']"></remove>
+	<remove xpath="/blocks/block[@name='cntCupboardCornerCNROld']"></remove>
+	<remove xpath="/blocks/block[@name='cntCupboardCabinetFullOldTopClosed']"></remove>
+	
+	<insertAfter xpath="/blocks/block[@name='cntMicrowaveOvenVer1Open']">
+	<block name="cntMicrowaveOvenVer1Closed">
+	<property name="Extends" value="cntMicrowaveOvenVer1Open"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="Appliances/microwave_oven_ver1" param1="main_mesh"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="21"/>
+	<property name="FilterTags" value="floot,ffurniture"/>
+	<drop event="Destroy" count="0" />	
+		<property name="DowngradeBlock" value="cntMicrowaveOvenVer1Open_PB" />
+	</block>		
+	</insertAfter>
+	<insertAfter xpath="/blocks/block[@name='cntMicrowaveOvenVer1Closed']" >
+		<block name="cntMicrowaveOvenVer1Open_PB">
+			<property name="Extends" value="cntMicrowaveOvenVer1Open"  />
+			</block>
+	</insertAfter>	
+	
+		<insertAfter xpath="/blocks/block[@name='cntMedicineCabinetOpen']">
+		<block name="cntMedicineCabinetClosed">
+	<property name="Extends" value="cntMedicineCabinetOpen"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="7"/>
+	<property name="Model" value="#Entities/LootContainers?medicine_cabinet_closedPrefab.prefab"/>
+	<drop event="Destroy" count="0" />	
+	<property name="DowngradeBlock" value="cntMedicineCabinetOpen_PB" />
+</block>
+			</insertAfter>
+			
+	<insertAfter xpath="/blocks/block[@name='cntMedicineCabinetClosed']" >
+		<block name="cntMedicineCabinetOpen_PB">
+			<property name="Extends" value="cntMedicineCabinetOpen"  />
+			</block>
+	</insertAfter>
+
+<!-- New Blocks -->
+	<insertAfter xpath="/blocks/block[@name='adobeWhiteWindowArch3MTip']" >
+		<block name="cntCabinetBottomOpen_PB">
+			<property name="Extends" value="cntCabinetBottomOpen"  />
+			</block>
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='cntCabinetBottomOpen_PB']" >
+		<block name="cntCupboardCabinetRedTopOpen_PB">
+			<property name="Extends" value="cntCupboardCabinetRedTopOpen"  />
+			</block>
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='cntCupboardCabinetRedTopOpen_PB']" >
+		<block name="cntCabinetOldBottomOpen_PB">
+			<property name="Extends" value="cntCabinetOldBottomOpen"  />
+			</block>
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='cntCabinetOldBottomOpen_PB']" >
+		<block name="cntCupboardCabinetOldTopOpen_PB">
+			<property name="Extends" value="cntCupboardCabinetOldTopOpen"  />
+			</block>
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='cntCupboardCabinetOldTopOpen_PB']" >
+		<block name="cntStoveOldVer2Open_PB">
+			<property name="Extends" value="cntStoveOldVer2Open"  />
+			</block>
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='cntStoveOldVer2Open_PB']" >
+		<block name="cntRetroFridgeVer2Open_PB">
+			<property name="Extends" value="cntRetroFridgeVer2Open"  />
+			</block>
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='cntRetroFridgeVer2Open_PB']" >
+		<block name="cntFridgeStainlessSteelVer2Open_PB">
+			<property name="Extends" value="cntFridgeStainlessSteelVer2Open"  />
+			</block>
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='cntFridgeStainlessSteelVer2Open_PB']" >
+		<block name="cntNightstandOpen_PB">
+			<property name="Extends" value="cntNightstandOpen"  />
+			</block>
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='cntNightstandOpen_PB']" >
+		<block name="cntMedicineCabinetFaucetOpen_PB">
+			<property name="Extends" value="cntMedicineCabinetFaucetOpen"  />
+			</block>
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='cntMedicineCabinetFaucetOpen_PB']" >
+		<block name="cntWoodDesk01Open_PB">
+			<property name="Extends" value="cntWoodDesk01Open"  />
+			</block>
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='cntWoodDesk01Open_PB']" >
+		<block name="cntMetalDesk02Open_PB">
+			<property name="Extends" value="cntMetalDesk02Open"  />
+			</block>
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='cntMetalDesk02Open_PB']" >
+		<block name="cntFileCabinetShortOpen_PB">
+			<property name="Extends" value="cntFileCabinetShortOpen"  />
+			</block>
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='cntFileCabinetShortOpen_PB']" >
+		<block name="cntFileCabinetTallOpen_PB">
+			<property name="Extends" value="cntFileCabinetTallOpen"  />
+			</block>
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='cntFileCabinetTallOpen_PB']" >
+		<block name="cntCoolerOpen_PB">
+			<property name="Extends" value="cntCoolerOpen"  />
+			</block>
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='cntCoolerOpen_PB']" >
+		<block name="cntLockersShortOpen_PB">
+			<property name="Extends" value="cntLockersShortOpen"  />
+			</block>
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='cntLockersShortOpen_PB']" >
+		<block name="cntLockersTallOpen_PB">
+			<property name="Extends" value="cntLockersTallOpen"  />
+			</block>
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='cntLockersTallOpen_PB']" >
+		<block name="cntLockersTallDoubleOpen_PB">
+			<property name="Extends" value="cntLockersTallDoubleOpen"  />
+			</block>
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='cntLockersTallDoubleOpen_PB']" >
+		<block name="cntLockersTallMixOpen_PB">
+			<property name="Extends" value="cntLockersTallMixOpen"  />
+			</block>
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='cntLockersTallMixOpen_PB']" >
+		<block name="cntLockersTallMixLinkOpen_PB">
+			<property name="Extends" value="cntLockersTallMixLinkOpen"  />
+		</block>
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='cntLockersTallMixLinkOpen_PB']" >
+		<block name="cntBathTubEmpty_PB">
+			<property name="Extends" value="cntBathTubEmpty"  />
+			</block>
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='cntBathTubEmpty_PB']" >
+		<block name="cntLaundryBasketVer1Empty_PB">
+			<property name="Extends" value="cntLaundryBasketVer1Empty"  />
+			</block>
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='cntLaundryBasketVer1Empty_PB']" >
+		<block name="cntBookcaseEmpty_PB">
+			<property name="Extends" value="cntBookcaseEmpty"  />
+			</block>
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='cntBookcaseEmpty_PB']" >
+		<block name="cntCashRegisterEmpty_PB">
+			<property name="Extends" value="cntCashRegisterEmpty"  />
+			</block>
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='cntCashRegisterEmpty_PB']" >
+		<block name="shoppingCartEmpty_PB">
+			<property name="Extends" value="cntShoppingCartEmpty"  />
+			</block>
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='shoppingCartEmpty_PB']" >
+		<block name="cntGasGrillOpen_PB">
+			<property name="Extends" value="cntGasGrillOpen"  />
+			</block>
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='cntGasGrillOpen_PB']" >
+		<block name="cntCharcoalGrillOpen_PB">
+			<property name="Extends" value="cntCharcoalGrillOpen"  />
+		</block>
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='cntCharcoalGrillOpen_PB']" >
+		<block name="cntLuggageMediumOpen_PB">
+			<property name="Extends" value="cntLuggageMediumOpen"  />
+			</block>
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='cntLuggageMediumOpen_PB']" >
+		<block name="cntLuggageBigOpen_PB">
+			<property name="Extends" value="cntLuggageBigOpen"  />
+			</block>
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='cntLuggageBigOpen_PB']" >
+		<block name="shoppingBasketEmpty_PB">
+			<property name="Extends" value="cntShoppingBasketEmpty"  />
+			</block>
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='shoppingBasketEmpty_PB']" >
+		<block name="cntPillCaseEmpty_PB">
+			<property name="Extends" value="cntPillCaseEmpty"  />
+			</block>
+		</insertAfter>
+		<insertAfter xpath="/blocks/block[@name='cntPillCaseEmpty_PB']" >
+		<block name="cntWasherOpen_PB">
+			<property name="Extends" value="cntWasherOpen"  />
+			</block>
+		</insertAfter>	
+		<insertAfter xpath="/blocks/block[@name='cntWasherOpen_PB']" >
+		<block name="cntDryerOpen_PB">
+			<property name="Extends" value="cntDryerOpen"  />
+			</block>
+	</insertAfter>
+	<insertBefore xpath="/blocks/block[@name='cntLuggagePileAClosed']" >
+		<block name="cntLuggagePileAOpen_PB">
+			<property name="Extends" value="cntLuggagePileAOpen"  />
+			</block>
+		</insertBefore>
+		<insertBefore xpath="/blocks/block[@name='cntLuggagePileBClosed']" >
+		<block name="cntLuggagePileBOpen_PB">
+			<property name="Extends" value="cntLuggagePileBOpen"  />
+			</block>
+		</insertBefore>
+		<insertBefore xpath="/blocks/block[@name='cntToolBoxClosed']" >
+		<block name="cntToolBoxOpen_PB">
+			<property name="Extends" value="cntToolBoxOpen"  />
+			</block>
+		</insertBefore>
+		<insertBefore xpath="/blocks/block[@name='cntRollingToolBoxClosed']" >
+		<block name="cntRollingToolBoxOpen_PB">
+			<property name="Extends" value="cntRollingToolBoxOpen"  />
+			</block>
+		</insertBefore>
+		<insertBefore xpath="/blocks/block[@name='cntUtilityCartFull']" >
+		<block name="cntUtilityCartEmpty_PB">
+			<property name="Extends" value="cntUtilityCartEmpty"  />
+			</block>
+		</insertBefore>
+		<insertBefore xpath="/blocks/block[@name='cntTiltTruckFull']" >
+		<block name="cntTiltTruckEmpty_PB">
+			<property name="Extends" value="cntTiltTruckEmpty" />
+			</block>
+		</insertBefore>
+		
+		<!-- **************************************************************************** -->
+
+	
+<!-- Downgrades to Open Blocks -->
+	<append xpath="/blocks/block[@name='cntCabinetBottom']">
+		<drop event="Destroy" count="0" />	
+		<property name="DowngradeBlock" value="cntCabinetBottomOpen_PB" />
+			</append>
+
+	<append xpath="/blocks/block[@name='cntCupboardCabinetRedTopClosed']">
+		<drop event="Destroy" count="0" />	
+		<property name="DowngradeBlock" value="cntCupboardCabinetRedTopOpen_PB" />
+			</append>
+
+	<append xpath="/blocks/block[@name='cntCabinetOldBottomOpen']">
+		<drop event="Destroy" count="0" />	
+		<property name="DowngradeBlock" value="cntCabinetOldBottomOpen_PB" />
+			</append>
+			
+	<append xpath="/blocks/block[@name='cntCupboardCabinetOldTopClosed']">
+		<drop event="Destroy" count="0" />	
+		<property name="DowngradeBlock" value="cntCupboardCabinetOldTopOpen_PB" />
+			</append>
+
+	<append xpath="/blocks/block[@name='cntStoveOldVer1Closed']">
+		<drop event="Destroy" count="0" />	
+		<property name="DowngradeBlock" value="cntStoveOldVer2Open_PB" />
+			</append>
+
+	<append xpath="/blocks/block[@name='cntRetroFridgeVer1Closed']">
+		<drop event="Destroy" count="0" />	
+		<property name="DowngradeBlock" value="cntRetroFridgeVer2Open_PB" />
+			</append>
+
+	<append xpath="/blocks/block[@name='cntFridgeStainlessSteel']">
+		<drop event="Destroy" count="0" />	
+		<property name="DowngradeBlock" value="cntFridgeStainlessSteelVer2Open_PB" />
+			</append>
+
+	<append xpath="/blocks/block[@name='cntNightstandClosed']">
+		<drop event="Destroy" count="0" />	
+		<property name="DowngradeBlock" value="cntNightstandOpen_PB" />
+			</append>
+
+	<append xpath="/blocks/block[@name='cntMedicineCabinetFaucetClosed']">
+		<drop event="Destroy" count="0" />	
+		<property name="DowngradeBlock" value="cntMedicineCabinetFaucetOpen_PB" />
+			</append>
+
+	<append xpath="/blocks/block[@name='cntWoodDesk01Closed']">
+		<drop event="Destroy" count="0" />	
+		<property name="DowngradeBlock" value="cntWoodDesk01Open_PB" />
+		</append>
+
+	<append xpath="/blocks/block[@name='cntMetalDesk02Closed']">
+		<drop event="Destroy" count="0" />	
+		<property name="DowngradeBlock" value="cntMetalDesk02Open_PB" />
+			</append>
+
+	<append xpath="/blocks/block[@name='cntFileCabinetShortClosed']">
+		<drop event="Destroy" count="0" />	
+		<property name="DowngradeBlock" value="cntFileCabinetShortOpen_PB" />
+			</append>
+	
+	<append xpath="/blocks/block[@name='cntFileCabinetTallClosed']">
+		<drop event="Destroy" count="0" />	
+		<property name="DowngradeBlock" value="cntFileCabinetTallOpen_PB" />
+			</append>
+
+	<append xpath="/blocks/block[@name='cntCoolerClosed']">
+		<drop event="Destroy" count="0" />	
+		<property name="DowngradeBlock" value="cntCoolerOpen_PB" />
+			</append>
+
+	<append xpath="/blocks/block[@name='cntLockersShortClosed']">
+		<drop event="Destroy" count="0" />	
+		<property name="DowngradeBlock" value="cntLockersShortOpen_PB" />
+		</append>
+
+	<append xpath="/blocks/block[@name='cntLockersTallClosed']">
+		<drop event="Destroy" count="0" />	
+		<property name="DowngradeBlock" value="cntLockersTallOpen_PB" />
+			</append>
+
+	<append xpath="/blocks/block[@name='cntLockersTallDoubleClosed']">
+		<drop event="Destroy" count="0" />	
+		<property name="DowngradeBlock" value="cntLockersTallDoubleOpen_PB" />
+			</append>
+
+	<append xpath="/blocks/block[@name='cntLockersTallMixClosed']">
+		<drop event="Destroy" count="0" />	
+		<property name="DowngradeBlock" value="cntLockersTallMixOpen_PB" />
+		</append>
+
+	<append xpath="/blocks/block[@name='cntLockersTallMixLinkClosed']">
+		<drop event="Destroy" count="0" />	
+		<property name="DowngradeBlock" value="cntLockersTallMixLinkOpen_PB" />
+			</append>
+
+	<append xpath="/blocks/block[@name='cntBathTubGore']">
+		<drop event="Destroy" count="0" />	
+		<property name="DowngradeBlock" value="cntBathTubEmpty_PB" />
+			</append>
+	
+	<append xpath="/blocks/block[@name='cntLaundryBasketVer2Full']">
+		<drop event="Destroy" count="0" />	
+		<property name="DowngradeBlock"	value="cntLaundryBasketVer1Empty_PB" />
+			</append>
+			
+		<append xpath="/blocks/block[@name='cntBookcaseFull']">
+		<drop event="Destroy" count="0" />	
+		<property name="DowngradeBlock" value="cntBookcaseEmpty_PB" />
+			</append>
+	
+		<append xpath="/blocks/block[@name='cntCashRegister']">
+		<drop event="Destroy" count="0" />	
+		<property name="DowngradeBlock"	value="cntCashRegisterEmpty_PB" />
+		</append>
+			
+		<append xpath="/blocks/block[@name='cntShoppingCart']">
+		<drop event="Destroy" count="0" />	
+		<property name="DowngradeBlock"	value="shoppingCartEmpty_PB" />
+		</append>
+		
+		<append xpath="/blocks/block[@name='cntGasGrillClosed']">
+		<drop event="Destroy" count="0" />	
+		<property name="DowngradeBlock"	value="cntGasGrillOpen_PB" />
+		</append>	
+		
+		<append xpath="/blocks/block[@name='cntCharcoalGrillClosed']">
+		<drop event="Destroy" count="0" />	
+		<property name="DowngradeBlock" value="cntCharcoalGrillOpen_PB" />
+		</append>
+		
+			<append xpath="/blocks/block[@name='cntLuggageMediumClosed']">
+		<drop event="Destroy" count="0" />	
+		<property name="DowngradeBlock" value="cntLuggageMediumOpen_PB" />
+			</append>
+	
+	<append xpath="/blocks/block[@name='cntLuggageBigClosed']">
+		<drop event="Destroy" count="0" />	
+		<property name="DowngradeBlock"	value="cntLuggageBigOpen_PB" />
+			</append>
+		
+			<append xpath="/blocks/block[@name='cntShoppingBasket']">
+		<drop event="Destroy" count="0" />	
+		<property name="DowngradeBlock"	value="shoppingBasketEmpty_PB" />
+			</append>
+		
+			<append xpath="/blocks/block[@name='cntPillCaseClosed']">
+		<drop event="Destroy" count="0" />	
+		<property name="DowngradeBlock"	value="cntPillCaseEmpty_PB" />
+			</append>
+			
+		<append xpath="/blocks/block[@name='cntWasherClosed']">
+		<drop event="Destroy" count="0" />	
+		<property name="DowngradeBlock" value="cntWasherOpen_PB" />
+			</append>
+			
+			<append xpath="/blocks/block[@name='cntDryerClosed']">
+		<drop event="Destroy" count="0" />	
+		<property name="DowngradeBlock" value="cntDryerOpen_PB" />
+			</append>
+		
+		<append xpath="/blocks/block[@name='cntLuggagePileAClosed']">
+		<drop event="Destroy" count="0" />	
+		<property name="DowngradeBlock" value="cntLuggagePileAOpen_PB" />
+			</append>
+
+	<append xpath="/blocks/block[@name='cntLuggagePileBClosed']">
+		<drop event="Destroy" count="0" />	
+		<property name="DowngradeBlock" value="cntLuggagePileBOpen_PB" />
+			</append>
+
+	<append xpath="/blocks/block[@name='cntToolBoxClosed']">
+		<drop event="Destroy" count="0" />	
+		<property name="DowngradeBlock" value="cntToolBoxOpen_PB" />
+			</append>
+			
+	<append xpath="/blocks/block[@name='cntRollingToolBoxClosed']">
+		<drop event="Destroy" count="0" />	
+		<property name="DowngradeBlock" value="cntRollingToolBoxOpen_PB" />
+			</append>
+
+	<append xpath="/blocks/block[@name='cntUtilityCartFull']">
+		<drop event="Destroy" count="0" />	
+		<property name="DowngradeBlock" value="cntUtilityCartEmpty_PB" />
+			</append>
+
+	<append xpath="/blocks/block[@name='cntTiltTruckFull']">
+		<drop event="Destroy" count="0" />	
+		<property name="DowngradeBlock" value="cntTiltTruckEmpty_PB" />
+			</append>
+			
+			
+		<set xpath="/blocks/block[@name='cntWallOven']/property[@name='LootList']/@value">23</set>
+	<!-- **************************************************************************** -->	
+<!-- New Blocks -->
+	<append xpath="/blocks" >
+<block name="CabinetBottom">
+	<property name="Extends" value="cntCabinetBottomRandomLootHelper" param1="CustomIconTint"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="239"/>
+	<property name="CustomIcon" value="cntCabinetBottomFiller"/>
+	<property name="DescriptionKey" value="furnitureGroupDesc"/>
+	<property name="FilterTags" value="floot,ffurniture"/>
+</block>
+
+<block name="CupboardCabinetRedTopClosed">
+	<property name="Extends" value="cntCupboardCabinetRedTopLootHelper" param1="CustomIconTint"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="239"/>
+	<property name="CustomIcon" value="cntCupboardCabinetRedTopLootHelper"/>
+	<property name="DescriptionKey" value="furnitureGroupDesc"/>
+	<property name="FilterTags" value="floot,ffurniture"/>
+</block>
+
+<block name="cntCupboardCornerCNRRed">
+	<property name="Extends" value="CupboardCabinetRedTopClosed" param1="CustomIcon,Place"/>
+	<property name="Path" value="solid"/>
+	<property name="Model" value="cupboard_corner"/>
+</block>
+<block name="cntCupboardCabinetFullRedTopClosed">
+	<property name="Extends" value="CupboardCabinetRedTopClosed" param1="CustomIcon"/>
+	<property name="Model" value="cube"/>
+</block>
+<block name="cntCabinetBottomBrokenDoor">
+	<property name="Extends" value="CupboardCabinetRedTopClosed" param1="DescriptionKey"/>
+	<property name="FilterTags" value="fdesign"/>
+	<property name="Model" value="cabinet_broken_door"/> <property name="Place" value="TowardsPlacerInverted"/>
+	<property name="Texture" value="79"/>
+</block>
+
+<block name="CabinetOldBottom">
+	<property name="Extends" value="cntCabinetOldBottomLootHelper" param1="CustomIconTint"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="239"/>
+	<property name="CustomIcon" value="cntCabinetOldBottomLootHelper"/>
+	<property name="DescriptionKey" value="furnitureGroupDesc"/>
+	<property name="FilterTags" value="floot,ffurniture"/>
+</block>
+
+<block name="MicrowaveOvenClosed">
+	<property name="Extends" value="cntMicrowaveOvenVer1Open"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="Appliances/microwave_oven_ver1" param1="main_mesh"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="240"/>
+	<property name="FilterTags" value="floot,ffurniture"/>
+</block>	
+
+    <block name="MedicineCabinetClosed">
+	<property name="Extends" value="cntMedicineCabinetOpen"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="237"/>
+	<property name="Model" value="#Entities/LootContainers?medicine_cabinet_closedPrefab.prefab"/>
+</block>
+
+<block name="CupboardCabinetOldTopClosed">
+	<property name="Extends" value="cntCupboardCabinetOldTopLootHelper" param1="CustomIconTint"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="239"/>
+	<property name="CustomIcon" value="cntCupboardCabinetOldTopLootHelper"/>
+	<property name="DescriptionKey" value="furnitureGroupDesc"/>
+	<property name="FilterTags" value="floot,ffurniture"/>
+</block>
+
+<block name="cntCupboardCornerCNROld">
+	<property name="Extends" value="CupboardCabinetOldTopClosed" param1="CustomIcon,Place"/>
+	<property name="Path" value="solid"/>
+	<property name="Model" value="cupboard_corner"/>
+</block>
+<block name="cntCupboardCabinetFullOldTopClosed">
+	<property name="Extends" value="CupboardCabinetOldTopClosed" param1="CustomIcon"/>
+	<property name="Model" value="cube"/>
+</block>
+
+<block name="StoveOldClosed">
+	<property name="CreativeMode" value="Player"/>
+	<property name="Class" value="Loot"/>
+	<property name="Material" value="Mmetal_weak"/>
+	<property name="Shape" value="Ext3dModel"/> <property name="Texture" value="293"/>
+	<property name="Mesh" value="models"/>
+	<property name="Path" value="solid"/>
+	<property name="Model" value="Appliances/stove_old" param1="main_mesh"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="LootList" value="235"/>
+	<property class="RepairItems">
+		<property name="resourceForgedIron" value="4"/>
+		<property name="resourceElectricParts" value="4"/>
+	</property>
+	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+	<drop event="Harvest" name="resourceElectricParts" count="1,4" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceScrapIron" count="5,15" tag="salvageHarvest"/>
+	<drop event="Destroy" name="resourceScrapIron" count="5" prob="1"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="EconomicValue" value="156"/>
+	<property name="FilterTags" value="floot,ffurniture"/>
+</block>
+
+	<block name="RetroFridgeClosed">
+	<property name="CreativeMode" value="Player"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="247"/>
+	<property name="Shape" value="Ext3dModel"/> <property name="Texture" value="293"/>
+	<property name="Mesh" value="models"/>
+	<property name="Path" value="solid"/>
+	<property name="Model" value="Appliances/retro_fridge_ver1" param1="main_mesh"/> <property name="Place" value="TowardsPlacerInverted"/>
+	<property name="Collide" value="melee,bullet,arrow,rocket,movement"/>
+	<property name="DisplayType" value="blockMulti" />
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="ImposterExchange" value="imposterBlock" param1="27"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="DescriptionKey" value="refrigeratorGroupDesc"/>
+	<property class="RepairItems">
+		<property name="resourceForgedIron" value="10"/>
+		<property name="resourceMetalPipe" value="2"/>
+		<property name="resourceElectricParts" value="8"/>
+		<property name="resourceElectricParts" value="2"/>
+	</property>
+	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+	<drop event="Harvest" name="resourceMechanicalParts" count="1,2" prob="0.4" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceElectricParts" count="1,6" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceElectricParts" count="0,2" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceMetalPipe" count="1" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceScrapIron" count="20,50" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceScrapPolymers" count="0,3" prob="0.2" tag="salvageHarvest"/>
+	<drop event="Destroy" name="resourceScrapIron" count="5,15" prob="1"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="EconomicValue" value="192"/>
+	<property name="FilterTags" value="floot,ffurniture"/>
+</block>
+
+<block name="FridgeStainlessSteel">
+	<property name="Extends" value="RetroFridgeClosed"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="247"/>
+	<property name="Model" value="Appliances/stainless_steel_fridge" param1="main_mesh"/>
+	<property name="CreativeMode" value="Player"/>
+</block>
+
+	<block name="NightstandClosed">
+	<property name="Extends" value="cntNightstandOpen"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="#Entities/LootContainers?nightStand_closedPrefab.prefab"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="236"/>
+</block>
+
+<block name="MedicineCabinetFaucetClosed">
+	<property name="Extends" value="cntMedicineCabinetFaucetOpen"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="237"/>
+	<property name="Model" value="#Entities/LootContainers?medicine_cabinet_closed_faucetPrefab.prefab"/>
+</block>
+
+<block name="WoodDesk01Closed">
+	<property name="Extends" value="cntWoodDesk01Open"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="Furniture/desk01" param1="main_mesh"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="236"/>
+</block>
+
+<block name="MetalDeskClosed">
+	<property name="Extends" value="cntMetalDesk02RandomLootHelper" param1="CustomIconTint,DisplayInfo"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="241"/>
+	<property name="CustomIcon" value="cntMetalDesk02RandomLootHelper"/>
+	<property name="DisplayType" value="blockMulti" />
+	<property name="MultiBlockDim" value="2,1,1"/>
+	<property name="DescriptionKey" value="furnitureGroupDesc"/>
+	<property name="FilterTags" value="floot,ffurniture"/>
+</block>
+
+<block name="FileCabinetShortClosed">
+	<property name="Extends" value="cntFileCabinetShortOpen" param1="ModelOffset"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="#Entities/LootContainers?filecabinet_short_closedPrefab.prefab"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="245"/>
+</block>
+
+<block name="FileCabinetTallClosed">
+	<property name="Extends" value="FileCabinetShortClosed"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="#Entities/LootContainers?filecabinet_tall_closedPrefab.prefab"/>
+	<property name="DisplayType" value="blockMulti" />
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="ModelOffset" value="0,0,0"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="245"/>
+</block>
+
+<block name="CoolerClosed">
+	<property name="Extends" value="cntCoolerOpen"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="#Entities/LootContainers?coolerPrefab.prefab"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="246"/>
+</block>
+
+<block name="LockersShortClosed">
+	<property name="Extends" value="cntLockersShortOpen"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="#Entities/LootContainers?locker_ver3_lootPrefab.prefab"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="244"/>
+	<property name="OnlySimpleRotations" value="true"/>
+</block>
+
+<block name="LockersTallClosed">
+	<property name="Extends" value="cntLockersTallOpen"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="#Entities/LootContainers?locker_ver1_lootPrefab.prefab"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="244"/>
+	<property name="DisplayType" value="blockMulti" />
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="OnlySimpleRotations" value="true"/>
+</block>
+
+<block name="LockersTallDoubleClosed">
+	<property name="Extends" value="LockersTallClosed"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="244"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="#Entities/LootContainers?locker_ver2_lootPrefab.prefab"/>
+	<property name="DisplayType" value="blockMulti" />
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="OnlySimpleRotations" value="true"/>
+</block>
+
+<block name="LockersTallMixClosed">
+	<property name="Extends" value="LockersTallClosed"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="244"/>
+	<property name="Model" value="#Entities/LootContainers?locker_ver4_lootPrefab.prefab"/>
+	<property name="DisplayType" value="blockMulti" />
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="OnlySimpleRotations" value="true"/>
+</block>
+
+<block name="LockersTallMixLinkClosed">
+	<property name="Extends" value="LockersTallClosed"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="244"/>
+	<property name="Model" value="#Entities/LootContainers?locker_ver5_lootPrefab.prefab"/>
+	<property name="DisplayType" value="blockMulti" />
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="OnlySimpleRotations" value="true"/>
+</block>
+		
+<block name="BookcaseFull">
+	<property name="CreativeMode" value="Player"/>
+	<property name="Material" value="Mwood_weak"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="bookcase_full"/> <property name="Place" value="TowardsPlacer90"/>
+	<property name="Texture" value="67,269,269,269,269,269"/>
+	<property name="UseGlobalUV" value="Local"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="248"/>
+	<drop event="Destroy" name="resourceWood" count="1,3"/>
+	<property name="FilterTags" value="floot,ffurniture"/>
+	<property name="SortOrder2" value="0060"/> <!-- SortShape -->
+	<property name="DescriptionKey" value="furnitureGroupDesc"/>
+</block>
+	</append>
+	
+	</stallionsden>
